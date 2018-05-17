@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "https://rarlab.com/rar/winrar-x64-550cz.exe#/cosi.7z",
-            "hash": "57a0a3b594d7831f4e8adfda09ea8440b53edcb8ca62af7ebf0c0ca6934ec0b9"
+            "hash": "0d0699bff075c1c5ddcf3c0bf7c6456c15e03b4c07ff5d3cdb99bfd0c58de42f"
         },
         "32bit": {
             "url": "https://rarlab.com/rar/wrar550cz.exe#/cosi.7z",
-            "hash": "abf64ee190ce1fa2498c291482a68eb37bbc34b9431f6a8fc6b424c71fee5070"
+            "hash": "e669218d9485d836c4e5ca9ce40b15d6b7b04f0112ff766ad10122283ac5e5ff"
         }
     },
     "bin": "WinRAR.exe",
