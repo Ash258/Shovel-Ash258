@@ -1,0 +1,22 @@
+{
+    "version": "5.50",
+    "description": "Powerful archive manager.",
+    "homepage": "https://rarlab.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://rarlab.com/rar/winrar-x64-550cz.exe#/cosi.7z",
+            "hash": "57a0a3b594d7831f4e8adfda09ea8440b53edcb8ca62af7ebf0c0ca6934ec0b9"
+        },
+        "32bit": {
+            "url": "https://rarlab.com/rar/wrar550cz.exe#/cosi.7z",
+            "hash": "abf64ee190ce1fa2498c291482a68eb37bbc34b9431f6a8fc6b424c71fee5070"
+        }
+    },
+    "bin": "WinRAR.exe",
+    "shortcuts": [
+        [
+            "WinRAR.exe",
+            "WinRAR"
+        ]
+    ]
+}
