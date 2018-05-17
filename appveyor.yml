@@ -8,15 +8,19 @@ branches:
   except:
     - gh-pages
 
+skip_commits:
+  files:
+    - '**/*.md'
+
 init:
-  - ps: (get-psprovider 'FileSystem').Home = 'c:\projects\'
-  - ps: iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+  - ps: (Get-PsProvider 'FileSystem').Home = 'c:\projects\'
+  - ps: iex (New-Object Net.Webclient).DownloadString('https://get.scoop.sh')
   - ps: Install-Module -Name Pester -Repository PSGallery -Force
 
 build: off
 
 test_script:
-  - ps: $result = invoke-pester -outputfile TestResults.xml -outputformat NUnitXML -passthru; $env:failedcount = $result.failedcount
-  - ps: (new-object net.webclient).uploadfile("https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)", (resolve-path ./TestResults.xml))
+  - ps: $result = Invoke-Pester -OutputFile TestResults.xml -OutputFormat NUnitXML -PassThru; $env:failedcount = $result.failedcount
+  - ps: (New-Object Net.Webclient).UploadFile("https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)", (Resolve-Path ./TestResults.xml))
   - ps: if($env:failedcount -gt 0) { exit $env:failedcount }
 
