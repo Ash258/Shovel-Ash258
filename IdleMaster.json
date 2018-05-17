@@ -1,0 +1,23 @@
+{
+    "version": "1.1",
+    "description": "Get your Steam Trading Cards the Fast Way (Fast Mode Extension) ",
+    "homepage": "http://www.steamidlemaster.com/",
+    "notes": "Using forked repo until original version will be used.",
+    "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v1.1/idle_master_extended_v1.1.zip",
+    "hash": "5704ea60065efc571fb28588de711569e4e56670a4fc90e21d8a7eb573fe6f47",
+    "extract_dir": "idle_master_extended_v1.1",
+    "bin": "IdleMaster.exe",
+    "persist": "IdleMaster.exe.config",
+    "shortcuts": [
+        [
+            "IdleMaster.exe",
+            "Idle Master"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/JonasNilson/idle_master_extended"
+    },
+    "autoupdate": {
+        "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v$version/idle_master_extended_v$version.zip"
+    }
+}
