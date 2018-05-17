@@ -18,6 +18,7 @@
         "github": "https://github.com/JonasNilson/idle_master_extended"
     },
     "autoupdate": {
-        "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v$version/idle_master_extended_v$version.zip"
+        "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v$version/idle_master_extended_v$version.zip",
+        "extract_dir": "idle_master_extended_v$version"
     }
 }
