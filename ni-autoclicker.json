@@ -20,5 +20,15 @@
     ],
     "checkver": {
         "github": "https://github.com/Shadowspaz/NIAutoclicker"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Shadowspaz/NIAutoclicker/releases/download/$version/NIAutoclicker.x64.exe#/NIAutoclicker.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/Shadowspaz/NIAutoclicker/releases/download/$version/NIAutoclicker.x32.exe#/NIAutoclicker.exe"
+            }
+        }
     }
 }
