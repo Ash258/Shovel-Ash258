@@ -2,6 +2,7 @@
     "version": "5.50",
     "description": "Powerful archive manager.",
     "homepage": "https://rarlab.com/",
+    "notes": "Set up context menu within settings window.",
     "architecture": {
         "64bit": {
             "url": "https://rarlab.com/rar/winrar-x64-550.exe#/cosi.7z",
