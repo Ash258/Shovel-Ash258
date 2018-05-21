@@ -14,6 +14,10 @@
         }
     },
     "bin": "WinRAR.exe",
+    "env_add_path": [
+        "Rar.exe",
+        "UnRAR.exe"
+    ],
     "shortcuts": [
         [
             "WinRAR.exe",
