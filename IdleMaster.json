@@ -2,6 +2,7 @@
     "version": "1.1.1",
     "description": "Get your Steam Trading Cards the Fast Way (Fast Mode Extension) ",
     "homepage": "http://www.steamidlemaster.com/",
+    "license": "GPL-2.0",
     "notes": "Using forked repo until original version will be used.",
     "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v1.1.1/idle_master_extended_v1.1.1.zip",
     "hash": "f7e7c59f85753bda4fe9f0e05550b58369bbedb094798f6bb66374d3e89e233b",
