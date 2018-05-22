@@ -2,21 +2,38 @@
     "version": "5.50",
     "description": "Powerful archive manager.",
     "homepage": "https://rarlab.com/",
+    "notes": "Set up context menu within settings window.",
     "architecture": {
         "64bit": {
             "url": "https://rarlab.com/rar/winrar-x64-550cz.exe#/cosi.7z",
-            "hash": "0d0699bff075c1c5ddcf3c0bf7c6456c15e03b4c07ff5d3cdb99bfd0c58de42f"
+            "hash": "367d47ad48822caeedf73ce9f26a3a92db6f9f2eb18ee6d650806959b6d7d0a2"
         },
         "32bit": {
             "url": "https://rarlab.com/rar/wrar550cz.exe#/cosi.7z",
-            "hash": "e669218d9485d836c4e5ca9ce40b15d6b7b04f0112ff766ad10122283ac5e5ff"
+            "hash": "48f67be806b4e823280f03ee5512ffd58deb6f37ecc80842265d4e8d2ca30055"
         }
     },
     "bin": "WinRAR.exe",
+    "persist": "rarreg.key",
+    "env_add_path": ".",
     "shortcuts": [
         [
             "WinRAR.exe",
             "WinRAR"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "http://www.rarlab.com/download.htm",
+        "re": "<b>WinRAR\\s+x86\\s+\\(32\\s+bit\\)\\s+([\\d.]+)<\/b>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersion.exe#/cosi.7z"
+            },
+            "32bit": {
+                "url": "https://www.rarlab.com/rar/wrar$cleanVersion.exe#/cosi.7z"
+            }
+        }
+    }
 }

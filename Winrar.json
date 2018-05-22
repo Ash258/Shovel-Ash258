@@ -15,14 +15,25 @@
     },
     "bin": "WinRAR.exe",
     "persist": "rarreg.key",
-    "env_add_path": [
-        "Rar.exe",
-        "UnRAR.exe"
-    ],
+    "env_add_path": ".",
     "shortcuts": [
         [
             "WinRAR.exe",
             "WinRAR"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "http://www.rarlab.com/download.htm",
+        "re": "<b>WinRAR\\s+x86\\s+\\(32\\s+bit\\)\\s+([\\d.]+)<\/b>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersion.exe#/cosi.7z"
+            },
+            "32bit": {
+                "url": "https://www.rarlab.com/rar/wrar$cleanVersion.exe#/cosi.7z"
+            }
+        }
+    }
 }
