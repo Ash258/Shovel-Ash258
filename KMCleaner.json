@@ -10,5 +10,8 @@
             "Keyboard and Mouse Cleaner.exe",
             "Keyboard and Mouse Cleaner"
         ]
-    ]
+    ],
+    "checkver": {
+        "re": "<td>((\\d(\\.)?){2})</td>"
+    }
 }
