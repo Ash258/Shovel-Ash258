@@ -14,6 +14,6 @@
     },
     "checkver": {
         "url": "https://daumpotplayer.com/download/",
-        "re": "<strong>Daum PotPlayer.*(\\d\\.\\d\\.\\d{5}).*for 32-bit Windows</strong>"
+        "re": "<strong>Daum PotPlayer.*((\\d\\.){2}\\d{5}).*for 32-bit Windows</strong>"
     }
 }

@@ -12,7 +12,7 @@
         ]
     ],
     "checkver": {
-        "re": "<li>Ver:V(\\d\\.\\d\\.\\d\\.\\d)</li>"
+        "re": "<li>Ver:V((\\d\\.){3}\\d)</li>"
     },
     "autoupdate": {
         "url": "http://www.pcfreetime.com/public/FFSetup$version.exe#cosi.7z"
