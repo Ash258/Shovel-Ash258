@@ -6,22 +6,36 @@
         "64bit": {
             "url": "https://daumpotplayer.com/wp-content/uploads/2018/04/PotPlayerSetup64.exe#/cosi.7z",
             "hash": "4947cdf98fa2cf81df87515ca289c20154366ea8440d36c539f3830e535e9264",
-            "bin": "PotPlayer64.exe",
+            "bin": [
+                "PotPlayer64.exe",
+                "PotPlayerMini64.exe"
+            ],
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
                     "PotPlayer"
+                ],
+                [
+                    "PotPlayerMini64.exe",
+                    "PotPlayer Mini"
                 ]
             ]
         },
         "32bit": {
             "url": "https://daumpotplayer.com/wp-content/uploads/2018/04/PotPlayerSetup.exe#/cosi.7z",
             "hash": "bf434eac5ff0be04e8ddf8927cfca4efb45bebc8dd61eea1be4ee4cd79d0abbb",
-            "bin": "PotPlayer.exe",
+            "bin": [
+                "PotPlayer.exe",
+                "PotPlayerMini.exe"
+            ],
             "shortcuts": [
                 [
                     "PotPlayer.exe",
                     "PotPlayer"
+                ],
+                [
+                    "PotPlayerMini.exe",
+                    "PotPlayer Mini"
                 ]
             ]
         }
