@@ -1,0 +1,19 @@
+{
+    "version": "1.7.10667",
+    "description": "A multimedia software player developed for the Microsoft Windows operating system.",
+    "homepage": "https://daumpotplayer.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://daumpotplayer.com/wp-content/uploads/2018/04/PotPlayerSetup64.exe",
+            "hash": "4947cdf98fa2cf81df87515ca289c20154366ea8440d36c539f3830e535e9264"
+        },
+        "32bit": {
+            "url": "https://daumpotplayer.com/wp-content/uploads/2018/04/PotPlayerSetup.exe",
+            "hash": "bf434eac5ff0be04e8ddf8927cfca4efb45bebc8dd61eea1be4ee4cd79d0abbb"
+        }
+    },
+    "checkver": {
+        "url": "https://daumpotplayer.com/download/",
+        "re": "Daum PotPlayer (\\d.)+ for \\d{2}-bit Windows"
+    }
+}
