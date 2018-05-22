@@ -1,0 +1,11 @@
+{
+    "json.schemas": [
+        {
+            "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+            "fileMatch": [
+                "*Scoop*/*.json",
+                "!*.vscode*/*.json"
+            ],
+        }
+    ],
+}

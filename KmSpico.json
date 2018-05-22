@@ -1,0 +1,33 @@
+{
+    "version": "10.2.0",
+    "description": "The most successful, frequently updated and 100% clean tool to permanently activate any version of Windows or Microsoft office within matter of seconds.",
+    "homepage": "https://forums.mydigitallife.net/threads/kmspico-official-thread.65739/",
+    "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/99dca92c64daf71689ea24e8210981061f649894/kmi.exe",
+    "hash": "64c731adbe1b96cb5765203b1e215093dcf268d020b299445884a4ae62ed2d3a",
+    "depends": "sudo",
+    "installer": {
+        "file": "kmi.exe",
+        "args": [
+            "/s",
+            "/D=$dir"
+        ]
+    },
+    "post_install": [
+        "sudo Add-MpPreference -ExclusionPath \"$dir\"",
+        "sudo Add-MpPreference -ExclusionPath \"$dir\\Service_KMS.exe\"",
+        "sudo Add-MpPreference -ExclusionPath \"$dir\\Autopico.exe\"",
+        "sudo Add-MpPreference -ExclusionPath \"$dir\\KMSELDI.exe\"",
+        "sudo Add-MpPreference -ExclusionPath \"$env:windir\\SECOH-QAD.exe\"",
+        "sudo Add-MpPreference -ExclusionPath \"$env:windir\\SECOH-QAD.dll\""
+    ],
+    "uninstaller": {
+        "file": "UnInstall_Service.cmd"
+    },
+    "bin": "KMSELDI.exe",
+    "shortcuts": [
+        [
+            "KMSELDI.exe",
+            "KMS"
+        ]
+    ]
+}
