@@ -13,5 +13,8 @@
     ],
     "checkver": {
         "re": "<td>((\\d(\\.)?){2})</td>"
+    },
+    "autoupdate": {
+        "url": "http://lon-01.lo4d.com/files/keyboard-and-mouse-cleaner/keyboard-and-mouse-cleaner.zip"
     }
 }
