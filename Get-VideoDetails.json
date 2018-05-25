@@ -1,0 +1,14 @@
+{
+    "version": "1.1",
+    "description": "Custom Edna Helper.",
+    "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
+    "hash": "4e01cccd115d21ed8bf427d94d2ffb04c942c76f7754a7cce2e3550bee48a18c",
+    "bin": "Get-VideoDetails.ps1",
+    "checkver": {
+        "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
+        "re": "<#\\n\\.VERSION\\s((\\d+\\.?)+)"
+    },
+    "autoupdate": {
+        "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1"
+    }
+}
