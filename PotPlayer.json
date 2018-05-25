@@ -1,11 +1,11 @@
 {
-    "version": "1.7.10667",
+    "version": "1.7.12248",
     "description": "A multimedia software player developed for the Microsoft Windows operating system.",
     "homepage": "https://daumpotplayer.com/",
     "architecture": {
         "64bit": {
-            "url": "https://daumpotplayer.com/wp-content/uploads/2018/04/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "4947cdf98fa2cf81df87515ca289c20154366ea8440d36c539f3830e535e9264",
+            "url": "http://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
+            "hash": "1bb520e28904f00a0e656516fd70ec617a5cf65e0db3f2a7effcb66beaad6a7a",
             "bin": [
                 "PotPlayer64.exe",
                 "PotPlayerMini64.exe"
@@ -22,8 +22,8 @@
             ]
         },
         "32bit": {
-            "url": "https://daumpotplayer.com/wp-content/uploads/2018/04/PotPlayerSetup.exe#/cosi.7z",
-            "hash": "bf434eac5ff0be04e8ddf8927cfca4efb45bebc8dd61eea1be4ee4cd79d0abbb",
+            "url": "http://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z",
+            "hash": "fc22031d4dec7e901215fbf72e6b3e5b2c0d4e4d04983f354a401f5f14e9241a",
             "bin": [
                 "PotPlayer.exe",
                 "PotPlayerMini.exe"
@@ -43,5 +43,15 @@
     "checkver": {
         "url": "https://daumpotplayer.com/download/",
         "re": "<strong>Daum PotPlayer.*((\\d\\.){2}\\d{5}).*for 32-bit Windows</strong>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe#/cosi.7z"
+            },
+            "32bit": {
+                "url": "http://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z"
+            }
+        }
     }
 }
