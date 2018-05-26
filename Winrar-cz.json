@@ -13,6 +13,9 @@
             "hash": "48f67be806b4e823280f03ee5512ffd58deb6f37ecc80842265d4e8d2ca30055"
         }
     },
+    "pre_install": [
+        "if(!(Test-Path \"$dir\\rarreg.key\")) { Add-Content \"$dir\\rarreg.key\" $null }"
+    ],
     "bin": "WinRAR.exe",
     "persist": "rarreg.key",
     "env_add_path": ".",
