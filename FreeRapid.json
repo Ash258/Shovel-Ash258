@@ -13,7 +13,9 @@
     "shortcuts": [
         [
             "frd.bat",
-            "Freerapid Downloader"
+            "Freerapid Downloader",
+            "",
+            "frd.ico"
         ]
     ]
 }
