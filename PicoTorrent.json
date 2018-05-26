@@ -14,17 +14,15 @@
         }
     },
     "bin": "PicoTorrent.exe",
+    "persist": [
+        "Torrents",
+        "PicoTorrent.json",
+        "Session.dat"
+    ],
     "shortcuts": [
         [
             "PicoTorrent.exe",
             "PicoTorrent"
-        ]
-    ],
-    "persist": [
-        [
-            "Torrents",
-            "PicoTorrent.json",
-            "Session.dat"
         ]
     ],
     "checkver": {
