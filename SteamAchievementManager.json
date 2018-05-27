@@ -1,9 +1,9 @@
 {
-    "version": "7.0.14",
+    "version": "7.0.16",
     "description": "A manager for game achievements in Steam.",
     "license": "Zlib",
-    "url": "https://github.com/gibbed/SteamAchievementManager/releases/download/7.0.14/SteamAchievementManager-7.0.14.zip",
-    "hash": "aeb200dc88b041b64fe315b6100750a80107df5f0ae1c1d71467b38335e276d7",
+    "url": "https://github.com/gibbed/SteamAchievementManager/releases/download/7.0.16/SteamAchievementManager-7.0.16.zip",
+    "hash": "5a5a2a2489e23457bab85b7ec1c2a1d3071e4c3c8b1909d4150b35b24c879976",
     "bin": "SAM.Picker.exe",
     "post_install": [
         "Remove-Item -Path $dir\\LICENSE.txt, $dir\\git-log.txt"
