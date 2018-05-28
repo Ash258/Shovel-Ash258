@@ -5,12 +5,10 @@
     "homepage": "https://code.visualstudio.com/",
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider",
-            "hash": "d80e5ef86b9287be6af419bda1f7f49a1724a291cb66581ef3042ef6cc46d5a9"
+            "url": "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider"
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/latest/win32-archive/insider",
-            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "url": "https://vscode-update.azurewebsites.net/latest/win32-archive/insider"
         }
     },
     "bin": [
