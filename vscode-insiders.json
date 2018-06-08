@@ -1,14 +1,14 @@
 {
-    "version": "1.24.0-insider",
+    "version": "1.25.0-insider",
     "license": "https://code.visualstudio.com/License",
     "description": "New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/",
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider"
+            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-x64-archive/insider#/cosi.7z"
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/latest/win32-archive/insider"
+            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-archive/insider#/cosi.7z"
         }
     },
     "bin": [
@@ -28,18 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
-                }
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider#/cosi.7z"
             },
             "32bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
-                }
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider#/cosi.7z"
             }
         }
     }
