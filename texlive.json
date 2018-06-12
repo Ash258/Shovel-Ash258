@@ -6,13 +6,12 @@
     "hash": "5e6fae9a69374be6735cd7c70b9a8f73a4e09422f0a4b8c27e96a3daba6f6f6e",
     "extract_dir": "install-tl-20180611",
     "pre_install": [
-        "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
         "Move-Item $dir\\* $dir\\cosi -Force",
         "$newDir = $($dir.Path.Replace('\\','/'))",
-        "Write-Output \"TEXDIR $newDir\" | Out-File $dir\\texlive.profile -Append",
-        "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $dir\\texlive.profile -Append",
-        "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $dir\\texlive.profile -Append",
-        "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $dir\\texlive.profile -Append"
+        "Write-Output \"TEXDIR $newDir\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
+        "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
+        "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
+        "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $dir\\texlive.profile -Append -Encoding ascii"
     ],
     "installer": {
         "file": "cosi\\install-tl-advanced.bat",
