@@ -6,7 +6,7 @@
     "hash": "5e6fae9a69374be6735cd7c70b9a8f73a4e09422f0a4b8c27e96a3daba6f6f6e",
     "extract_dir": "install-tl-20180611",
     "pre_install": [
-        "Copy-Item $dir\\* $dir\\cosi -Force -Recurse",
+        "Move-Item $dir\\* $dir\\cosi -Force -Recurse",
         "Write-Output TEXDIR $dir | Out-File texlive.profile -Append",
         "Write-Output TEXMFLOCAL $dir\\texmf-local | Out-File texlive.profile -Append",
         "Write-Output TEXMFSYSCONFIG $dir\\texmf-config | Out-File texlive.profile -Append",
