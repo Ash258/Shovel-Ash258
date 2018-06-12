@@ -6,6 +6,7 @@
     "hash": "5e6fae9a69374be6735cd7c70b9a8f73a4e09422f0a4b8c27e96a3daba6f6f6e",
     "extract_dir": "install-tl-20180611",
     "pre_install": [
+        "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
         "Move-Item $dir\\* $dir\\cosi -Force",
         "$newDir = $($dir.Path.Replace('\\','/'))",
         "Write-Output \"TEXDIR $newDir\" | Out-File $dir\\texlive.profile -Append",
