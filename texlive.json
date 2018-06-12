@@ -13,7 +13,7 @@
         "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $dir\\texlive.profile -Append"
     ],
     "installer": {
-        "file": "$dir\\cosi\\install-tl-advanced.bat",
+        "file": "cosi\\install-tl-advanced.bat",
         "args": [
             "-portable",
             "-no-gui",
