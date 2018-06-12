@@ -1,0 +1,42 @@
+{
+    "version": "2018-06-11",
+    "description": "Easy way to get up and running with the TeX document production system.",
+    "homepage": "https://www.tug.org/texlive/",
+    "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
+    "hash": "5e6fae9a69374be6735cd7c70b9a8f73a4e09422f0a4b8c27e96a3daba6f6f6e",
+    "extract_dir": "install-tl-20180611",
+    "pre_install": [
+        "Copy-Item $dir\\* $dir\\cosi -Force -Recurse",
+        "Write-Output TEXDIR $dir | Out-File texlive.profile -Append",
+        "Write-Output TEXMFLOCAL $dir\\texmf-local | Out-File texlive.profile -Append",
+        "Write-Output TEXMFSYSCONFIG $dir\\texmf-config | Out-File texlive.profile -Append",
+        "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File texlive.profile -Append"
+    ],
+    "installer": {
+        "file": "$dir\\cosi\\install-tl-advanced.bat",
+        "args": [
+            "-portable",
+            "-no-gui",
+            "-profile $dir\\texlive.profile"
+        ]
+    },
+    "persist": [
+        "TEXDIR",
+        "texmf-local",
+        "texmf-config"
+    ],
+    "post_install": "Remove-Item $dir\\cosi -Force -Recurse",
+    "env_add_path": "$dir\\bin\\win32",
+    "checkver": {
+        "url": "http://mirrors.nic.cz/tex-archive/systems/texlive/tlnet",
+        "re": "install-tl\\.zip</a></td>.*((\\d{4})-(\\d+)-(\\d+))"
+    },
+    "autoupdate": {
+        "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
+        "hash": {
+            "url": "$url.sha256",
+            "find": "([A-Fa-f\\d]{64}).*"
+        },
+        "extract_dir": "install-tl-$cleanversion"
+    }
+}
