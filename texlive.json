@@ -23,6 +23,7 @@
     },
     "persist": [
         "texmf-local",
+        "texmf-dist",
         "texmf-config"
     ],
     "post_install": "Remove-Item $dir\\cosi -Force -Recurse",
