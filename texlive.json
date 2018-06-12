@@ -21,7 +21,6 @@
         ]
     },
     "persist": [
-        "TEXDIR",
         "texmf-local",
         "texmf-config"
     ],
