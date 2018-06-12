@@ -7,9 +7,9 @@
     "extract_dir": "install-tl-20180611",
     "pre_install": [
         "Move-Item $dir\\* $dir\\cosi -Force",
-        "Write-Output TEXDIR $dir.Path -no-new-line | Out-File $dir\\texlive.profile -Append",
-        "Write-Output TEXMFLOCAL $dir\\texmf-local | Out-File $dir\\texlive.profile -Append",
-        "Write-Output TEXMFSYSCONFIG $dir\\texmf-config | Out-File $dir\\texlive.profile -Append",
+        "Write-Output \"TEXDIR $dir\" | Out-File $dir\\texlive.profile -Append",
+        "Write-Output \"TEXMFLOCAL $dir\\texmf-local\" | Out-File $dir\\texlive.profile -Append",
+        "Write-Output \"TEXMFSYSCONFIG $dir\\texmf-config\" | Out-File $dir\\texlive.profile -Append",
         "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $dir\\texlive.profile -Append"
     ],
     "installer": {
