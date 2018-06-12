@@ -7,7 +7,7 @@
     "extract_dir": "install-tl-20180611",
     "pre_install": [
         "Move-Item $dir\\* $dir\\cosi -Force",
-        "$newDir = $($dir.Replace('\\','/'))",
+        "$newDir = $($dir.Path.Replace('\\','/'))",
         "Write-Output \"TEXDIR $newDir\" | Out-File $dir\\texlive.profile -Append",
         "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $dir\\texlive.profile -Append",
         "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $dir\\texlive.profile -Append",
