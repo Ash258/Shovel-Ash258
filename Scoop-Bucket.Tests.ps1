@@ -11,8 +11,7 @@ $project_file_exclusions = @(
     $([regex]::Escape($repo_dir) + '(\\|/).git(\\|/).*$'),
     '.sublime-workspace$',
     '.DS_Store$',
-    'supporting(\\|/)validator(\\|/)packages(\\|/)*',
-    'files\/*'
+    'supporting(\\|/)validator(\\|/)packages(\\|/)*'
 )
 
 describe 'Style constraints for non-binary project files' {

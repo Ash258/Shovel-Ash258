@@ -14,7 +14,7 @@
         }
     },
     "pre_install": [
-        "if(!(Test-Path \"$dir\\PicoTorrent.json\")) { Add-Content \"$dir\\PicoTorrent.json\" $null }",
+        "if(!(Test-Path \"$dir\\PicoTorrent.json\")) { Add-Content \"$dir\\PicoTorrent.json\" \"{}\" }",
         "if(!(Test-Path \"$dir\\Session.dat\")) { Add-Content \"$dir\\Session.dat\" $null }"
     ],
     "bin": "PicoTorrent.exe",
