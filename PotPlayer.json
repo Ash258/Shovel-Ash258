@@ -5,7 +5,6 @@
     "architecture": {
         "64bit": {
             "url": "http://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "3a05ff63b4828353103669815d76899fa96076b433f7ad0b4884c96367317aa1",
             "bin": [
                 "PotPlayer64.exe",
                 "PotPlayerMini64.exe"
