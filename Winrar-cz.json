@@ -14,11 +14,11 @@
         }
     },
     "pre_install": [
-        "if(!(Test-Path \"$dir\\rarreg.key\")) { Add-Content \"$dir\\rarreg.key\" $null }"
+        "if(!(Test-Path $dir\\rarreg.key)) { Add-Content $dir\\rarreg.key $null }"
     ],
     "bin": "WinRAR.exe",
     "persist": "rarreg.key",
-    "env_add_path": ".",
+    "env_add_path": "$dir",
     "shortcuts": [
         [
             "WinRAR.exe",

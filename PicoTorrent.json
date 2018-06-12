@@ -13,7 +13,7 @@
             "hash": "017ed15d1eee122cdfc756ece983a702ec2c1ec89849ee40f49c67f081464be3"
         }
     },
-    "pre_install": [
+    "post_install": [
         "if(!(Test-Path \"$dir\\PicoTorrent.json\")) { Add-Content \"$dir\\PicoTorrent.json\" \"{}\" }",
         "if(!(Test-Path \"$dir\\Session.dat\")) { Add-Content \"$dir\\Session.dat\" $null }"
     ],

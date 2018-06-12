@@ -27,11 +27,11 @@
         }
     },
     "pre_install": [
-        "extract_7zip \"$dir\\INSTALL.CAB\" \"$dir\\cosi\"",
+        "extract_7zip $dir\\INSTALL.CAB $dir\\cosi",
         "Get-ChildItem -Path $dir -Exclude cosi | Remove-Item",
-        "Move-Item -Path \"$dir\\cosi\\*\" -Destination $dir",
-        "Remove-Item -Path \"$dir\\cosi\" -Force -Recurse",
-        "if(!(Test-Path \"$dir\\wincmd.key\")) { Add-Content \"$dir\\wincmd.key\" $null }"
+        "Move-Item -Path $dir\\cosi\\* -Destination $dir",
+        "Remove-Item -Path $dir\\cosi -Force -Recurse",
+        "if(!(Test-Path $dir\\wincmd.key)) { Add-Content $dir\\wincmd.key $null }"
     ],
     "persist": "wincmd.key",
     "checkver": {
