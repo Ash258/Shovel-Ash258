@@ -12,7 +12,6 @@
         "sudo Add-MpPreference -ExclusionPath $env:windir\\SECOH-QAD.exe",
         "sudo Add-MpPreference -ExclusionPath $env:windir\\SECOH-QAD.dll"
     ],
-    "bin": "KMSELDI.exe",
     "shortcuts": [
         [
             "KMSELDI.exe",

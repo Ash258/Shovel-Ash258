@@ -7,7 +7,6 @@
     "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v1.1.1/idle_master_extended_v1.1.1.zip",
     "hash": "f7e7c59f85753bda4fe9f0e05550b58369bbedb094798f6bb66374d3e89e233b",
     "extract_dir": "idle_master_extended_v1.1.1",
-    "bin": "IdleMaster.exe",
     "persist": "IdleMaster.exe.config",
     "shortcuts": [
         [

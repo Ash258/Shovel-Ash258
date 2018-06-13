@@ -6,7 +6,6 @@
         "64bit": {
             "url": "http://totalcommander.ch/win/tcmd912x64.exe#/cosi.7z",
             "hash": "1a278550651ce2d95d6cae547d0ee33205cc9130fffb7461935ac5973657060b",
-            "bin": "TOTALCMD64.EXE",
             "shortcuts": [
                 [
                     "TOTALCMD64.EXE",
@@ -17,7 +16,6 @@
         "32bit": {
             "url": "http://totalcommander.ch/win/tcmd912x32.exe#/cosi.7z",
             "hash": "b2e4d6a35188d1a82a94ef5e39bab5dad177873b707f430ceb0b0f991eb9ea50",
-            "bin": "TOTALCMD.EXE",
             "shortcuts": [
                 [
                     "TOTALCMD.EXE",

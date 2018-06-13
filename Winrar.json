@@ -16,7 +16,6 @@
     "pre_install": [
         "if(!(Test-Path $dir\\rarreg.key)) { Add-Content $dir\\rarreg.key $null }"
     ],
-    "bin": "WinRAR.exe",
     "persist": "rarreg.key",
     "env_add_path": "$dir",
     "shortcuts": [

@@ -17,7 +17,6 @@
         "if(!(Test-Path \"$dir\\PicoTorrent.json\")) { Add-Content \"$dir\\PicoTorrent.json\" \"{}\" }",
         "if(!(Test-Path \"$dir\\Session.dat\")) { Add-Content \"$dir\\Session.dat\" $null }"
     ],
-    "bin": "PicoTorrent.exe",
     "persist": [
         "Torrents",
         "PicoTorrent.json",
