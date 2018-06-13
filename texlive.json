@@ -11,6 +11,7 @@
         "Write-Output \"TEXDIR $newDir\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
         "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
         "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
+        "Write-Output \"TEXMFSYSVAR $newDir/texmf-var\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
         "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $dir\\texlive.profile -Append -Encoding ascii"
     ],
     "installer": {
@@ -23,6 +24,7 @@
     },
     "persist": [
         "texmf-local",
+        "texmf-var",
         "texmf-dist",
         "texmf-config"
     ],
