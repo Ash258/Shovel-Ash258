@@ -1,0 +1,32 @@
+{
+    "version": "2.1.1",
+    "description": "Able to create macOS virtual machines.",
+    "homepage": "https://github.com/DrDonk/unlocker",
+    "license": "MIT",
+    "depends": "Ash258/vmware",
+    "architecture": {
+        "64bit": {
+            "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PatchTools.zip",
+            "hash": "dfefcaae05156ae4e111f0d6ef8921217fbebea8c9178515823c45332521fa77"
+        }
+    },
+    "extract_dir": "Patch Tools",
+    "installer": {
+        "file": "win-install.cmd"
+    },
+    "uninstaller": {
+        "file": "win-uninstall.cmd"
+    },
+    "checkver": {
+        "url": "https://github.com/DrDonk/unlocker",
+        "re": "\\d+/\\d+/\\d+\\s((\\d+)\\.(\\d+).(\\d+))\\s-\\s\\w+",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PatchTools.zip"
+            }
+        }
+    }
+}
