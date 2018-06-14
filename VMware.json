@@ -5,40 +5,38 @@
     "architecture": {
         "64bit": {
             "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-14.1.2-8497320.exe",
-            "hash": "33caa5ddac80f75dfd17215eeafab46856dfa7f45219260f7663f4a583cfd0c0"
+            "hash": "33caa5ddac80f75dfd17215eeafab46856dfa7f45219260f7663f4a583cfd0c0",
+            "installer": {
+                "args": [
+                    "/a",
+                    "/s",
+                    "/v/qn DATACOLLECTION=0 DESKTOP_SHORTCUT=0 EULAS_AGREED=1 INSTALLDIR=\"$dir\" STARTMENU_SHORTCUT=0"
+                ],
+                "keep": true
+            },
+            "uninstaller": {
+                "file": "VMWare-workstation-full-$version.exe",
+                "args": [
+                    "/s",
+                    "/v\"/qn REMOVE=ALL\""
+                ]
+            },
+            "shortcuts": [
+                [
+                    "vmware.exe",
+                    "VMware Workstation Pro"
+                ],
+                [
+                    "vmnetcfg.exe",
+                    "Virtual Network Editor"
+                ],
+                [
+                    "vmplayer.exe",
+                    "VMware Workstation 14 Player"
+                ]
+            ]
         }
     },
-    "installer": {
-        "args": [
-            "/a",
-            "/s",
-            "/v/qn DATACOLLECTION=0 DESKTOP_SHORTCUT=0 EULAS_AGREED=1 INSTALLDIR=\"$dir\" STARTMENU_SHORTCUT=0"
-        ]
-    },
-    "post_install": [
-        "Copy-Item $env:SCOOP\\cache\\vmware#$version*.exe $dir\\uninstall.exe"
-    ],
-    "uninstaller": {
-        "file": "uninstall.exe",
-        "args": [
-            "/s",
-            "/v\"/qn REMOVE=ALL\""
-        ]
-    },
-    "shortcuts": [
-        [
-            "vmware.exe",
-            "VMware Workstation Pro"
-        ],
-        [
-            "vmnetcfg.exe",
-            "Virtual Network Editor"
-        ],
-        [
-            "vmplayer.exe",
-            "VMware Workstation 14 Player"
-        ]
-    ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/VMware_Workstation",
         "re": "<div.*>((\\d+)\\.(\\d+)\\.(\\d+) Build (\\d+))<sup",
