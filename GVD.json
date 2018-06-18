@@ -3,9 +3,13 @@
     "description": "Custom Edna Helper.",
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
     "hash": "b1fcb14f1da93c25328af824a7a7c79bd34b1cdd415666f1ff289ffcc5f8971e",
-    "psmodule": {
-        "name": "Get-VideoDetails.ps1"
-    },
+    "bin": [
+        "Get-VideoDetails.ps1",
+        [
+            "Get-VideoDetails.ps1",
+            "GVD"
+        ]
+    ],
     "checkver": {
         "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
         "re": "<#\\n\\.VERSION\\s((\\d+\\.?)+)"
