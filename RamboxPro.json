@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "description": "Free, Open Source and Cross Platform messaging and emailing app that combines common web applications into one.",
     "homepage": "https://rambox.pro/100/",
-    "url": "https://github.com/ramboxapp/download/releases/download/v1.0.0/RamboxPro-1.0.0-win.exe",
+    "url": "https://github.com/ramboxapp/download/releases/download/v1.0.0/RamboxPro-1.0.0-win.exe#/cosi.7z",
     "hash": "95b7c4ce0c7de18973291bd11f80249dde1b5c0b73bf1cf9628542973cbbe760",
     "extract_dir": "\\$PLUGINSDIR",
     "pre_install": "Get-ChildItem $dir -Exclude 'app-64.7z', 'app-32.7z' | Remove-Item -Force -Recurse",
@@ -29,6 +29,6 @@
         "github": "https://github.com/ramboxapp/download"
     },
     "autoupdate": {
-        "url": "https://github.com/ramboxapp/download/releases/download/v$version/RamboxPro-$version-win.exe"
+        "url": "https://github.com/ramboxapp/download/releases/download/v$version/RamboxPro-$version-win.exe#/cosi.7z"
     }
 }
