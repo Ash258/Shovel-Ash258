@@ -26,7 +26,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/ramboxapp/download"
+        "github": "https://github.com/ramboxapp/download/"
     },
     "autoupdate": {
         "url": "https://github.com/ramboxapp/download/releases/download/v$version/RamboxPro-$version-win.exe#/cosi.7z"
