@@ -11,8 +11,8 @@
             "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-archive/insider#/cosi.7z"
         }
     },
+    "extract_to": "Code",
     "post_install": [
-        "Move-Item $dir\\* $dir\\Code -Force",
         "New-Item code-insiders-portable-data -Type Directory",
         "New-Item code-insiders-portable-data\\tmp -Type Directory"
     ],
