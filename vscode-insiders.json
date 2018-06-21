@@ -13,8 +13,7 @@
     },
     "extract_to": "Code",
     "post_install": [
-        "New-Item $dir\\code-insiders-portable-data -Type Directory | Out-Null",
-        "New-Item $dir\\code-insiders-portable-data\\tmp -Type Directory | Out-Null"
+        "if(!(Test-Pat $dir\\code-insiders-data)) { New-Item $dir\\code-insiders-portable-data\\tmp -Type Directory | Out-Null }"
     ],
     "persist": [
         "code-insiders-portable-data"
