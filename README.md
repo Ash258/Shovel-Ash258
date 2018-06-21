@@ -17,7 +17,7 @@
 | [PotPlayer](./PotPlayer.json)             | ✔      | ✔        | ✔          |
 | [RamboxPro](./RamboxPro.json)             | ✔      | ✔        | ✔          |
 | [SAM](./SAM.json)                         | ✔      | ✔        | ✔          |
-| [texlive](./texlive.json)                 | ✔      | ✔        | ✔ NT*      |
+| [Texlive](./Texlive.json)                 | ✔      | ✔        | ✔ NT*      |
 | [TotalCommander](./TotalCommander.json)   | ✔      | ✔        | ✔ NT*      |
 | [VMware-unlocker](./VMware-unlocker.json) | ❌      | ✔ NT*    | ✔ NT*      |
 | [VMware](./VMware.json)                   | ❌      | ✔ NT*    | ✔ NT*      |
