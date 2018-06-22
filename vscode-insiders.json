@@ -14,7 +14,7 @@
     "extract_to": "Code",
     "post_install": [
         "if(!(Test-Path $dir\\code-insiders-portable-data)) { ",
-        "    New-Item $dir\\code-insiders-portable-data -Type Directory | Out-Null }",
+        "    New-Item $dir\\code-insiders-portable-data -Type Directory | Out-Null",
         "    New-Item $dir\\code-insiders-portable-data\\tmp -Type Directory | Out-Null",
         "    if(!(Test-Path $dir\\code-insiders-portable-data\\user-data)) { New-Item $dir\\code-insiders-portable-data\\user-data -Type Directory | Out-Null }",
         "    if(!(Test-Path $dir\\code-insiders-portable-data\\extensions)) { New-Item $dir\\code-insiders-portable-data\\extensions -Type Directory | Out-Null }",
