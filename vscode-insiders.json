@@ -5,10 +5,10 @@
     "homepage": "https://code.visualstudio.com/",
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-x64-archive/insider"
+            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-x64-archive/insider#/cosi.zip"
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-archive/insider"
+            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-archive/insider#/cosi.zip"
         }
     },
     "extract_to": "Code",
@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider"
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider#/cosi.zip"
             },
             "32bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider"
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider#/cosi.zip"
             }
         }
     }
