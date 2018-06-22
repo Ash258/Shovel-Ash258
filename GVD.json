@@ -1,6 +1,7 @@
 {
     "version": "1.7",
     "description": "Custom Edna Helper.",
+    "license": "MIT",
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
     "hash": "f8d15b2e048886ef8b85f31997c393b0e8b4fe5e88825434ca30c6753aaa21d4",
     "bin": [
