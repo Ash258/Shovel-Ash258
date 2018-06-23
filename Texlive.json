@@ -1,10 +1,10 @@
 {
-    "version": "2018-06-20",
+    "version": "2018.06.23",
     "description": "Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
-    "hash": "bce8621acaeb5c23302377c17669a72b3e46d13173ab5d5823fb19eacfa3f0b6",
-    "extract_dir": "install-tl-20180620",
+    "hash": "94632b720b0b8b264dadb004e97ea0607c0e21f81f931d770314050a8a50df7f",
+    "extract_dir": "install-tl-20180623",
     "pre_install": [
         "Move-Item $dir\\* $dir\\cosi -Force",
         "$newDir = $($dir.Path.Replace('\\','/'))",
@@ -32,7 +32,8 @@
     "env_add_path": "$dir\\bin\\win32",
     "checkver": {
         "url": "http://mirrors.nic.cz/tex-archive/systems/texlive/tlnet",
-        "re": "install-tl\\.zip</a></td>.*((\\d{4})-(\\d+)-(\\d+))"
+        "re": "install-tl\\.zip</a></td>.*((\\d{4})-(\\d+)-(\\d+))",
+        "replace": "$2.$3.$4"
     },
     "autoupdate": {
         "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
