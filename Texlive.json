@@ -1,10 +1,10 @@
 {
-    "version": "2018.06.26",
+    "version": "2018.06.28",
     "description": "Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
-    "hash": "fd7211a7c08e8faf00b48689e0a77ce54fb69a543d632876d7b6626203b49a27",
-    "extract_dir": "install-tl-20180626",
+    "hash": "ff7fa2fc4c874e2769df2252436d19332af87a85a913dc05bd6958cf6bc97b2f",
+    "extract_dir": "install-tl-20180628",
     "pre_install": [
         "Move-Item $dir\\* $dir\\cosi -Force",
         "$newDir = $($dir.Path.Replace('\\','/'))",
