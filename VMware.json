@@ -4,18 +4,19 @@
     "homepage": "https://www.vmware.com/products/workstation-pro.html",
     "architecture": {
         "64bit": {
-            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-14.1.2-8497320.exe",
+            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-14.1.2-8497320.exe#/cosi.exe",
             "hash": "33caa5ddac80f75dfd17215eeafab46856dfa7f45219260f7663f4a583cfd0c0",
             "installer": {
                 "args": [
                     "/a",
                     "/s",
-                    "/v/qn DATACOLLECTION=0 DESKTOP_SHORTCUT=0 EULAS_AGREED=1 INSTALLDIR=\"$dir\" STARTMENU_SHORTCUT=0"
+                    "/I \"$dir\\log.txt\"",
+                    "/v/qn INSTALLDIR=\\\"$dir\\\" DATACOLLECTION=0 DESKTOP_SHORTCUT=0 EULAS_AGREED=1 STARTMENU_SHORTCUT=0"
                 ],
                 "keep": true
             },
             "uninstaller": {
-                "file": "VMWare-workstation-full-$version.exe",
+                "file": "cosi.exe",
                 "args": [
                     "/s",
                     "/v\"/qn REMOVE=ALL\""
