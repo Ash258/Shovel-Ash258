@@ -11,9 +11,8 @@
             "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-archive/insider#/cosi.zip"
         }
     },
-    "extract_to": "Code",
     "post_install": [
-        "$port = \"$dir\\code-insiders-portable-data\"",
+        "$port = \"$dir\\data\"",
         "if(!(Test-Path $port)) { ",
         "    New-Item $port -Type Directory | Out-Null",
         "    New-Item $port\\tmp -Type Directory | Out-Null",
@@ -22,15 +21,15 @@
         "}"
     ],
     "persist": [
-        "code-insiders-portable-data"
+        "data"
     ],
     "bin": [
-        "Code\\bin\\code-insiders.cmd",
-        "Code\\Code - Insiders.exe"
+        "bin\\code-insiders.cmd",
+        "Code - Insiders.exe"
     ],
     "shortcuts": [
         [
-            "Code\\Code - Insiders.exe",
+            "Code - Insiders.exe",
             "Visual Studio Code Insiders"
         ]
     ],
