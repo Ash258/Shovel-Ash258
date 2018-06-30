@@ -2,6 +2,10 @@
     "version": "2013.11.7",
     "description": "",
     "homepage": "https://www.deviantart.com/exsess/art/Metro-X3-Cursors-Update-Two-411020859",
+    "notes": [
+        "User logout is required for cursor change take effect.",
+        "Now you can run \"scoop uninstall X3\" and delete it's installation files."
+    ],
     "url": "https://orig00.deviantart.net/0070/f/2013/311/6/2/metro_x3_cursors__update_two__by_exsess-d6splq3.zip",
     "hash": "1ad1572235c8c3aff5607d5cf26e1d96d2c76b033fc8796d79cb4af5d9ed89b9",
     "extract_dir": "Metro X3 by exsess\\Bold\\Red",
