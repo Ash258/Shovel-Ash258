@@ -1,6 +1,7 @@
 {
     "version": "1.8",
     "description": "Custom Edna Helper.",
+    "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
     "license": "MIT",
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
     "hash": "bbeb113f6294465cc91d2fe0b7790e49dacfb100a2a9ab7e18580eec8a7b2e9c",
@@ -11,10 +12,7 @@
             "GVD"
         ]
     ],
-    "checkver": {
-        "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
-        "re": "<#\\n\\.VERSION\\s((\\d+\\.?)+)"
-    },
+    "checkver": "<#\\n\\.VERSION\\s((\\d+\\.?)+)",
     "autoupdate": {
         "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1"
     }

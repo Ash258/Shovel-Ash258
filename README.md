@@ -29,5 +29,6 @@
 | [vscode-insiders](./vscode-insiders.json) | ✔      | ✔        | ✔          |
 | [Winrar-cz](./Winrar-cz.json)             | ✔      | ✔        | ✔          |
 | [Winrar](./Winrar.json)                   | ✔      | ✔        | ✔          |
+| [X3 Bold Red Cursor](./X3.json)           | ✔      | ❌        | ❌          |
 
 🔸 Additional testing is needed
