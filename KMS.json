@@ -2,15 +2,25 @@
     "version": "10.2.0",
     "description": "The most successful, frequently updated and 100% clean tool to permanently activate any version of Windows or Microsoft office within matter of seconds.",
     "homepage": "https://forums.mydigitallife.net/threads/kmspico-official-thread.65739/",
-    "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/07d21a361d98662741cbe68fa1ca7bf83dbf6109/kmi.zip",
-    "depends": "sudo",
+    "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/kmi.exe",
+    "pre_install": "Add-MpPreference -ExclusionPath $dir",
+    "installer": {
+        "args": [
+            "/SILENT",
+            "/NOICONS",
+            "/LOG=\"$dir\\log.txt\"",
+            "/DIR=\"$dir\""
+        ]
+    },
+    "uninstaller": {
+        "file": "unins000.exe"
+    },
     "post_install": [
-        "sudo Add-MpPreference -ExclusionPath $dir",
-        "sudo Add-MpPreference -ExclusionPath $dir\\Service_KMS.exe",
-        "sudo Add-MpPreference -ExclusionPath $dir\\Autopico.exe",
-        "sudo Add-MpPreference -ExclusionPath $dir\\KMSELDI.exe",
-        "sudo Add-MpPreference -ExclusionPath $env:windir\\SECOH-QAD.exe",
-        "sudo Add-MpPreference -ExclusionPath $env:windir\\SECOH-QAD.dll"
+        "Add-MpPreference -ExclusionProcess $dir\\Service_KMS.exe",
+        "Add-MpPreference -ExclusionProcess $dir\\Autopico.exe",
+        "Add-MpPreference -ExclusionProcess $dir\\KMSELDI.exe",
+        "Add-MpPreference -ExclusionProcess $env:windir\\SECOH-QAD.exe",
+        "Add-MpPreference -ExclusionPath $env:windir\\SECOH-QAD.dll"
     ],
     "shortcuts": [
         [

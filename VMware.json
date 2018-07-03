@@ -10,7 +10,6 @@
                 "args": [
                     "/a",
                     "/s",
-                    "/I $dir\\log.txt",
                     "/v\"/qn INSTALLDIR=$dir DATACOLLECTION=0 DESKTOP_SHORTCUT=0 EULAS_AGREED=1 STARTMENU_SHORTCUT=0 AUTOSOFTWAREUPDATE=0\""
                 ],
                 "keep": true
