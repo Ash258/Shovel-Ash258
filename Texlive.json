@@ -1,18 +1,19 @@
 {
-    "version": "2018.06.28",
+    "version": "2018.07.03",
     "description": "Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
-    "hash": "ff7fa2fc4c874e2769df2252436d19332af87a85a913dc05bd6958cf6bc97b2f",
-    "extract_dir": "install-tl-20180628",
+    "hash": "62f257233820a13d3cfafc7a8a78f3b05271ab47b1420287ff957d55d13b67fa",
+    "extract_dir": "install-tl-20180703",
+    "extract_to": "cosi",
     "pre_install": [
-        "Move-Item $dir\\* $dir\\cosi -Force",
         "$newDir = $($dir.Path.Replace('\\','/'))",
-        "Write-Output \"TEXDIR $newDir\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
-        "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
-        "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
-        "Write-Output \"TEXMFSYSVAR $newDir/texmf-var\" | Out-File $dir\\texlive.profile -Append -Encoding ascii",
-        "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $dir\\texlive.profile -Append -Encoding ascii"
+        "$outFile = $dir\\texlive.profile",
+        "Write-Output \"TEXDIR $newDir\" | Out-File $outFile -Append -Encoding ascii",
+        "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $outFile -Append -Encoding ascii",
+        "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $outFile -Append -Encoding ascii",
+        "Write-Output \"TEXMFSYSVAR $newDir/texmf-var\" | Out-File $outFile -Append -Encoding ascii",
+        "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $outFile -Append -Encoding ascii"
     ],
     "installer": {
         "file": "cosi\\install-tl-advanced.bat",
