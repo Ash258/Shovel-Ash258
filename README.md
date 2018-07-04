@@ -17,6 +17,7 @@
 | [KMCleaner](./KMCleaner.json)             | ✔      | ✔        | ✔          |
 | [KMS](./KMS.json)                         | ❌      | ❌        | ❌          |
 | [NIClicker](./NIClicker.json)             | ✔      | ✔        | ✔          |
+| [NVidiaInspector](./NVidiaInspector.json) | ✔      | ✔        | ✔          |
 | [PicoTorrent](./PicoTorrent.json)         | ✔      | ✔        | ✔          |
 | [PotPlayer](./PotPlayer.json)             | ✔      | ✔        | ✔          |
 | [RamboxPro](./RamboxPro.json)             | ✔      | ✔        | ✔          |
