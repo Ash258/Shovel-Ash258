@@ -9,7 +9,7 @@
     "pre_install": [
         "if(Test-Path $persist_dir) { gci $persist_dir | Write-Host -f Yellow }",
         "$newDir = $($dir.Path.Replace('\\','/'))",
-        "$outFile = $dir\\texlive.profile",
+        "$outFile = \"$dir\\texlive.profile\"",
         "Write-Output \"TEXDIR $newDir\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $outFile -Append -Encoding ascii",
