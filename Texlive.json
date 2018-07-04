@@ -7,7 +7,6 @@
     "extract_dir": "install-tl-20180704",
     "extract_to": "cosi",
     "pre_install": [
-        "if(Test-Path $persist_dir) { Move-Item $persist_dir\\* $dir -Force }",
         "$newDir = $($dir.Path.Replace('\\','/'))",
         "$outFile = \"$dir\\texlive.profile\"",
         "Write-Output \"TEXDIR $newDir\" | Out-File $outFile -Append -Encoding ascii",
