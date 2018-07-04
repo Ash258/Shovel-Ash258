@@ -1,12 +1,13 @@
 {
-    "version": "2018.07.03",
+    "version": "2018.07.04",
     "description": "Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
-    "hash": "62f257233820a13d3cfafc7a8a78f3b05271ab47b1420287ff957d55d13b67fa",
-    "extract_dir": "install-tl-20180703",
+    "hash": "d55ef0b0c2e75dfa57d3b3bc5b1ceb22e39bb478b547ec1b2168eca6e683baaf",
+    "extract_dir": "install-tl-20180704",
     "extract_to": "cosi",
     "pre_install": [
+        "if(Test-Path $persist_dir) { gci $persist_dir | Write-Host -f Yellow }",
         "$newDir = $($dir.Path.Replace('\\','/'))",
         "$outFile = $dir\\texlive.profile",
         "Write-Output \"TEXDIR $newDir\" | Out-File $outFile -Append -Encoding ascii",
