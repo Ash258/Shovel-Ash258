@@ -14,8 +14,8 @@
         }
     },
     "post_install": [
-        "if(!(Test-Path \"$dir\\PicoTorrent.json\")) { Add-Content \"$dir\\PicoTorrent.json\" \"{}\" }",
-        "if(!(Test-Path \"$dir\\Session.dat\")) { Add-Content \"$dir\\Session.dat\" $null }"
+        "if(!(Test-Path \"$persist_dir\\PicoTorrent.json\")) { Write-Host 'Settings file does not exist.' -f Yellow; Add-Content \"$dir\\PicoTorrent.json\" \"{}\" }",
+        "if(!(Test-Path \"$persist_dir\\Session.dat\")) { Write-Host 'Session file does not exist.' -f Yellow; Add-Content \"$dir\\Session.dat\" $null }"
     ],
     "persist": [
         "Torrents",
