@@ -1,12 +1,12 @@
 {
-    "version": "9.12",
+    "version": "9.20",
     "description": "Shareware file manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10, and Windows® 3.1.",
     "homepage": "https://www.ghisler.com/",
     "notes": "e143436e2f9183a650424d635b535e51",
     "architecture": {
         "64bit": {
-            "url": "http://totalcommander.ch/win/tcmd912x64.exe#/cosi.7z",
-            "hash": "1a278550651ce2d95d6cae547d0ee33205cc9130fffb7461935ac5973657060b",
+            "url": "http://totalcommander.ch/win/tcmd920x64.exe#/cosi.7z",
+            "hash": "1887c4cb3498572965ad813c6b8c7888514f515b9acba14a6618111db1a43260",
             "shortcuts": [
                 [
                     "TOTALCMD64.EXE",
@@ -15,8 +15,8 @@
             ]
         },
         "32bit": {
-            "url": "http://totalcommander.ch/win/tcmd912x32.exe#/cosi.7z",
-            "hash": "b2e4d6a35188d1a82a94ef5e39bab5dad177873b707f430ceb0b0f991eb9ea50",
+            "url": "http://totalcommander.ch/win/tcmd920x32.exe#/cosi.7z",
+            "hash": "90b7f759df3a7e35c0511b1402508d265704b120622dcd4effb6aa74c238f2c6",
             "shortcuts": [
                 [
                     "TOTALCMD.EXE",
@@ -30,7 +30,7 @@
         "Get-ChildItem -Path $dir -Exclude cosi | Remove-Item",
         "Move-Item -Path $dir\\cosi\\* -Destination $dir",
         "Remove-Item -Path $dir\\cosi -Force -Recurse",
-        "if(!(Test-Path $dir\\wincmd.key)) { Add-Content $dir\\wincmd.key $null }"
+        "if(!(Test-Path $persist_dir\\wincmd.key)) { Add-Content $dir\\wincmd.key $null }"
     ],
     "persist": "wincmd.key",
     "checkver": {
@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://totalcommander.ch/win/tcmd$cleanversionx64.exe#/cosi.7z"
+                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx64.exe#/cosi.7z"
             },
             "32bit": {
-                "url": "http://totalcommander.ch/win/tcmd$cleanversionx32.exe#/cosi.7z"
+                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx32.exe#/cosi.7z"
             }
         }
     }
