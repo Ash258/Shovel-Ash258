@@ -9,7 +9,7 @@
         "if(!(Test-Path $persist_dir\\steamapps)) { Write-Host 'No steamapps folder' -f Yellow; New-Item $dir\\steamapps -Type Directory }"
     ],
     "post_install": [
-        "Remove-Item \"`$PLUGINSDIR\" -Force -Recurse"
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
     ],
     "uninstaller": {
         "file": "uninstall.exe",
