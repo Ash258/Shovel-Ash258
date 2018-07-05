@@ -3,7 +3,7 @@
     "description": "Uses some known methods that attempt to disable tracking in Windows 10.",
     "license": "LGPL-3.0",
     "notes": [
-        "Run As Administrator",
+        "Run As Administrator or run \"dwt -silent\" for automatic setup.",
         "Uninstall after usage."
     ],
     "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/v3.2.1/dwt-3.2.1-cp27-win_x86.zip",
