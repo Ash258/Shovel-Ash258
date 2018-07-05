@@ -4,7 +4,7 @@
 
 | App                                                | Tested | Checkver | Autoupdate |
 | -------------------------------------------------- | :----: | :------: | :--------: |
-| [Air Steam Sking](./AirForSteam.json)              | 💯     | 💯       | 💯         |
+| [Air Steam Skin](./AirForSteam.json)               | 💯     | 💯       | 💯         |
 | [AutoClicker](./AutoClicker.json)                  | ✔      | ✔        | ✔          |
 | [AutoClickers](./AutoClickers.json)                | ✔      | ✔        | ✔          |
 | [Chrome](./Chrome.json)                            | ❌      | ❌        | ❌          |
@@ -16,7 +16,7 @@
 | [iCue](./iCue.json)                                | ❌      | ❌        | ❌          |
 | [Idle Master](./IdleMaster.json)                   | ✔      | ✔        | ✔          |
 | [Keyboard and Mouse Cleaner](./KMCleaner.json)     | ✔      | ✔        | ✔          |
-| [KMSpico](./KMS.json)                              | 💯     | ❌        | ❌          |
+| [KMSpico](./KMS.json)                              | 💯     | ❌        | ✔          |
 | [In Window Clicker](./NIClicker.json)              | ✔      | ✔        | ✔          |
 | [NVidia Profile Inspector](./NVidiaInspector.json) | ✔      | ✔        | ✔          |
 | [PicoTorrent](./PicoTorrent.json)                  | ✔      | ✔        | ✔          |

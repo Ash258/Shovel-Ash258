@@ -31,5 +31,8 @@
             "KMSELDI.exe",
             "KMS"
         ]
-    ]
+    ],
+    "autoupdate": {
+        "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/kmi.exe"
+    }
 }
