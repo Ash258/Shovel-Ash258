@@ -1,0 +1,32 @@
+{
+    "version": "3.4.95",
+    "description": "Connects all your compatible products together in a single interface, giving you complete control of everything from RGB lighting and effects to fan speeds and temperature monitoring.",
+    "homepage": "https://www.corsair.com/us/en/icue",
+    "url": "http://softwaredownloads.corsair.com/Files/CUE/iCUESetup_3.4.95_release.msi#/cosi.msi",
+    "hash": "00d400a5948809d2dd34c5276e2a7da45ebde6e4c3a10b536de3a9a475508638",
+    "installer": {
+        "args": [
+            ""
+        ],
+        "keep": true
+    },
+    "uninstaller": {
+        "file": "cosi.msi",
+        "args": [
+            ""
+        ]
+    },
+    "shortcuts": [
+        [
+            "iCue.exe",
+            "iCUE"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.corsair.com/eu/en/downloads/",
+        "re": "CORSAIR iCUE v((\\d+).(\\d+).(\\d+))"
+    },
+    "autoupdate": {
+        "url": "http://softwaredownloads.corsair.com/Files/CUE/iCUESetup_$version_release.msi#/cosi.msi"
+    }
+}

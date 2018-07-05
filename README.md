@@ -20,6 +20,7 @@
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                    | ✔      | ✔        | ✔          |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json) | ✔      | ✔        | ✔          |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                      | ✔      | ✔        | ✔          |
+| [Post windows installer **(PostInstall)**](./PostInstall.json)           | 💯     | 💯       | 💯         |
 | [PotPlayer **(PotPlayer)**](./PotPlayer.json)                            | 💯     | 💯       | 💯         |
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                           | ❌      | ❌        | ❌          |
 | [Steam **(Steam)**](./Steam.json)                                        | 💯     | ⭕        | ⭕          |

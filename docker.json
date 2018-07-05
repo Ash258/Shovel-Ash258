@@ -1,0 +1,50 @@
+{
+    "version": "18.03.1-ce",
+    "description": "Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
+    "homepage": "https://www.docker.com/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
+            "hash": "87a5f9dcf593b55b22719e82931e85f41173504341ce98a06c8624e078977db5",
+            "pre_install": [
+                "if((Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online).State -eq \"Disabled\") {",
+                "    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All ",
+                "}"
+            ],
+            "installer": {
+                "args": [
+                    ""
+                ],
+                "keep": true
+            },
+            "uninstaller": {
+                "file": "Docker for Windows Installer.exe",
+                "args": [
+                    ""
+                ]
+            }
+        }
+    },
+    "bin": [
+        "Docker for Windows.exe",
+        "DockerCli.exe"
+    ],
+    "shortcuts": [
+        [
+            "Docker for Windows.exe",
+            "Docker for Windows"
+        ]
+    ],
+    "checkver": {
+        "url": "https://docs.docker.com/release-notes/docker-ce/",
+        "re": "<h2.*>((\\d+)\\.(\\d+)\\.(\\d+)-ce) \\(\\d{4}-\\d{2}-\\d{2}\\)</h2>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe"
+            }
+        }
+    }
+}
