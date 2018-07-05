@@ -3,6 +3,7 @@
     "description": "The most successful, frequently updated and 100% clean tool to permanently activate any version of Windows or Microsoft office within matter of seconds.",
     "homepage": "https://forums.mydigitallife.net/threads/kmspico-official-thread.65739/",
     "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/kmi.exe",
+    "hash": "64c731adbe1b96cb5765203b1e215093dcf268d020b299445884a4ae62ed2d3a",
     "pre_install": "Add-MpPreference -ExclusionPath $dir",
     "installer": {
         "args": [
@@ -13,7 +14,10 @@
         ]
     },
     "uninstaller": {
-        "file": "unins000.exe"
+        "file": "unins000.exe",
+        "args": [
+            "/VERYSILENT"
+        ]
     },
     "post_install": [
         "Add-MpPreference -ExclusionProcess $dir\\Service_KMS.exe",
