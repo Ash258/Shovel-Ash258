@@ -1,11 +1,11 @@
 {
-    "version": "1.7.12844",
+    "version": "1.7.12845",
     "description": "A multimedia software player developed for the Microsoft Windows operating system.",
     "homepage": "https://potplayer.daum.net/",
     "architecture": {
         "64bit": {
             "url": "http://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "da446c87434da20db5911654cfae14f9bdc463800014fb90c63662f56d613237",
+            "hash": "b03ffa62a96f878412912be6770cc065d24c4617b3e6b8b11fcf08b10bbd4f9b",
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
@@ -19,7 +19,7 @@
         },
         "32bit": {
             "url": "http://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z",
-            "hash": "d8ae075cfd7a7b5ea9ecd47a20e8ced4edc9117bdf368965956af4b62ba0c2e1",
+            "hash": "70aa8c4b255ccbb8362ecae805b708c34b0ce68ea068a88ccad74ba018a7b647",
             "shortcuts": [
                 [
                     "PotPlayer.exe",
@@ -32,9 +32,15 @@
             ]
         }
     },
+    "post_install": [
+        "Remove-Item -LiteralPath \"$dir\\`$0\", \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    ],
+    "persist": [
+        "Playlist"
+    ],
     "checkver": {
-        "url": "https://daumpotplayer.com/download/",
-        "re": "<strong>Daum PotPlayer.*((\\d\\.){2}\\d{5}).*for 32-bit Windows</strong>"
+        "url": "http://potplayer.daum.net/update.html?lang=en&bit",
+        "re": "\\[((\\d\\.){2}\\d{5})\\]"
     },
     "autoupdate": {
         "architecture": {
