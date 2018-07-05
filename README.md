@@ -24,6 +24,7 @@
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                           | ❌      | ❌        | ❌          |
 | [Steam **(Steam)**](./Steam.json)                                        | 💯     | ⭕        | ⭕          |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                        | ✔      | ✔        | ✔          |
+| [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                     | ✔      | ❌        | ❌          |
 | [TeamViewer **(TeamViewer)**](./TeamViewer.json)                         | ❌      | ❌        | ❌          |
 | [Texlive **(Texlive)**](./Texlive.json)                                  | ✔      | ✔        | ✔          |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)            | ✔      | ✔        | ✔ 🔸       |
