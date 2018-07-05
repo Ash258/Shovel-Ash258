@@ -16,7 +16,7 @@
     "uninstaller": {
         "file": "uninstall.exe",
         "args": [
-            ""
+            "/S"
         ]
     },
     "persist": [
