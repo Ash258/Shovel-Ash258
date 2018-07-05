@@ -3,7 +3,7 @@
     "description": "Custom post windows 10 post installer.",
     "homepage": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
     "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
-    "hash": "251e15477a537f9be491996414b9416a40e50a95a27f7eabe662296f08e63d41",
+    "hash": "2df3e3651359ca131d9060dc173000cf4dba069da4bea0366d4cb49e514224c7",
     "bin": [
         "PostInstall.ps1",
         [
