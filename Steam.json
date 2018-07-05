@@ -1,16 +1,18 @@
 {
-    "_comment": "Installer with /S /D=$dir is working aswell.",
     "version": "latest",
     "description": "The ultimate entertainment platform.",
     "homepage": "https://store.steampowered.com/",
-    "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe#/cosi.7z",
+    "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe",
     "pre_install": [
         "if(!(Test-Path $persist_dir\\skins)) { Write-Host 'No skins folder' -f Yellow; New-Item $dir\\skins -Type Directory }",
         "if(!(Test-Path $persist_dir\\steamapps)) { Write-Host 'No steamapps folder' -f Yellow; New-Item $dir\\steamapps -Type Directory }"
     ],
-    "post_install": [
-        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
-    ],
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
     "uninstaller": {
         "file": "uninstall.exe",
         "args": [

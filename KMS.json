@@ -6,7 +6,7 @@
     "pre_install": "Add-MpPreference -ExclusionPath $dir",
     "installer": {
         "args": [
-            "/SILENT",
+            "/VERYSILENT",
             "/NOICONS",
             "/LOG=\"$dir\\log.txt\"",
             "/DIR=\"$dir\""
