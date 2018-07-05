@@ -6,5 +6,8 @@
     "hash": "1a6b87c6444e7cb00355f796645514733fae86cf51d979a7d318fc7e81f2c778",
     "psmodule": {
         "name": "SwitchUACLevel"
-    }
+    },
+    "post_install": [
+        "Import-Module $dir\\SwitchUACLevel.psm1"
+    ]
 }
