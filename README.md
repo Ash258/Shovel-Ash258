@@ -20,7 +20,7 @@
 | [In Window Clicker](./NIClicker.json)              | ✔      | ✔        | ✔          |
 | [NVidia Profile Inspector](./NVidiaInspector.json) | ✔      | ✔        | ✔          |
 | [PicoTorrent](./PicoTorrent.json)                  | ✔      | ✔        | ✔          |
-| [PotPlayer](./PotPlayer.json)                      | ✔      | ✔        | ✔          |
+| [PotPlayer](./PotPlayer.json)                      | 💯     | 💯       | 💯         |
 | [RamboxPro](./RamboxPro.json)                      | ✔      | ✔        | ✔          |
 | [Steam Achievement Manager](./SAM.json)            | ✔      | ✔        | ✔          |
 | [TeamViewer](./TeamViewer.json)                    | ❌      | ❌        | ❌          |
