@@ -4,9 +4,10 @@
 
 ## TODO
 
-- Wait for <https://github.com/lukesampson/scoop/pull/2351/> merge
+- Wait for <https://github.com/lukesampson/scoop/pull/2351/> merge (Licence, script array)
     - Edit all script into array
     - Check comment, notes are arrays already
+    - Edit licences
 
 | App name (Scoop name)                                                    | Tested | Checkver | Autoupdate |
 | ------------------------------------------------------------------------ | :----: | :------: | :--------: |
