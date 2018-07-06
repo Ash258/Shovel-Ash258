@@ -40,7 +40,7 @@
     ],
     "checkver": {
         "url": "http://potplayer.daum.net/update.html?lang=en&bit",
-        "re": "\\[((\\d\\.){2}\\d{5})\\]"
+        "re": "\\[((\\d+\\.?){3})\\]"
     },
     "autoupdate": {
         "architecture": {

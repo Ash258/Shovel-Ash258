@@ -1,6 +1,6 @@
 {
     "version": "bd953248ad6a8e2f8896bfb78b3ae40e0fd47426",
-    "license": "https://code.visualstudio.com/License",
+    "license": "MIT",
     "description": "New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/",
     "architecture": {

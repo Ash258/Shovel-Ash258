@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://www.corsair.com/eu/en/downloads/",
-        "re": "CORSAIR iCUE v((\\d+).(\\d+).(\\d+))"
+        "re": "CORSAIR iCUE v((\\d+\\.?){3})"
     },
     "autoupdate": {
         "url": "http://softwaredownloads.corsair.com/Files/CUE/iCUESetup_$version_release.msi#/cosi.msi"
