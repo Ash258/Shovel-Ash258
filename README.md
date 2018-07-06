@@ -2,6 +2,12 @@
 
 `scoop bucket add Ash258 git@github.com:Ash258/scoop-Ash258.git`
 
+## TODO
+
+- Wait for <https://github.com/lukesampson/scoop/pull/2351/> merge
+    - Edit all script into array
+    - Check comment, notes are arrays already
+
 | App name (Scoop name)                                                    | Tested | Checkver | Autoupdate |
 | ------------------------------------------------------------------------ | :----: | :------: | :--------: |
 | [Air Steam Skin **(AirForSteam)**](./AirForSteam.json)                   | 💯     | 💯       | 💯         |
