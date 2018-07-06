@@ -22,7 +22,7 @@
 | [iCue **(iCue)**](./iCue.json)                                           | ❌      | ❌        | ❌          |
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                    | ✔      | ✔        | ✔          |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./KMCleaner.json)           | ✔      | ✔        | ✔          |
-| [KMSpico **(KMS)**](./KMS.json)                                          | 💯     | ❌        | ✔          |
+| [KMSpico **(KMS)**](./KMS.json)                                          | 💯     | ✔❓       | ✔          |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json) | ✔      | ✔        | ✔          |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                      | 💯     | 💯       | 💯         |
 | [Post windows installer **(PostInstall)**](./PostInstall.json)           | 💯     | 💯       | 💯         |
