@@ -1,14 +1,14 @@
 {
-    "version": "1.25.0-insider",
+    "version": "1.26.0-insider",
     "license": "https://code.visualstudio.com/License",
     "description": "New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/",
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-x64-archive/insider#/cosi.zip"
+            "url": "https://vscode-update.azurewebsites.net/1.26.0-insider/win32-x64-archive/insider#/cosi.zip"
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.25.0-insider/win32-archive/insider#/cosi.zip"
+            "url": "https://vscode-update.azurewebsites.net/1.26.0-insider/win32-archive/insider#/cosi.zip"
         }
     },
     "post_install": [
