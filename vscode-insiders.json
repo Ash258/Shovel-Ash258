@@ -1,21 +1,22 @@
 {
-    "version": "1.26.0-insider",
+    "version": "bd953248ad6a8e2f8896bfb78b3ae40e0fd47426",
     "license": "https://code.visualstudio.com/License",
     "description": "New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/",
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.26.0-insider/win32-x64-archive/insider#/cosi.zip"
+            "url": "https://az764295.vo.msecnd.net/insider/bd953248ad6a8e2f8896bfb78b3ae40e0fd47426/VSCode-win32-x64-1.26.0-insider.zip",
+            "hash": "6a68aac5c1a93dc1f9a44691ee9faa30f02b838686488888d3159c5f77e83668"
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.26.0-insider/win32-archive/insider#/cosi.zip"
+            "url": "https://az764295.vo.msecnd.net/insider/bd953248ad6a8e2f8896bfb78b3ae40e0fd47426/VSCode-win32-ia32-1.26.0-insider.zip",
+            "hash": "e729bbae167b9088e90781edbaf53fd50be7869c4f96bd892836a278f2e7843a"
         }
     },
     "post_install": [
         "$port = \"$dir\\data\"",
         "if(!(Test-Path $port)) { ",
-        "    New-Item $port -Type Directory | Out-Null",
-        "    New-Item $port\\tmp -Type Directory | Out-Null",
+        "    New-Item $port\\tmp -Type Directory -Force | Out-Null",
         "    if(!(Test-Path $port\\user-data)) { New-Item $port\\user-data -Type Directory | Out-Null }",
         "    if(!(Test-Path $port\\extensions)) { New-Item $port\\extensions -Type Directory | Out-Null }",
         "}"
@@ -35,15 +36,23 @@
     ],
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
-        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
+        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider#/cosi.zip"
+                "url": "https://az764295.vo.msecnd.net/insider/$version/VSCode-win32-x64-1.26.0-insider.zip",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=insider",
+                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
+                }
             },
             "32bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider#/cosi.zip"
+                "url": "https://az764295.vo.msecnd.net/insider/$version/VSCode-win32-ia32-1.26.0-insider.zip",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=insider",
+                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
+                }
             }
         }
     }
