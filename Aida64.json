@@ -5,7 +5,12 @@
     "url": "http://download.aida64.com/aida64extreme597.zip",
     "hash": "71643adc71ce072af29c3986166a5519cbc438472414a2b268fc2280c3aa1fb6",
     "post_install": [
-        "(New-Object System.Net.WebClient).DownloadFile('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aidex', \"$dir\\pkey.txt\")"
+        "if(!(Test-Path $persist_dir\\pkey.txt){",
+        "    (New-Object System.Net.WebClient).DownloadFile('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aidex', \"$dir\\pkey.txt\")",
+        "}"
+    ],
+    "persist": [
+        "pkey.txt"
     ],
     "shortcuts": [
         [
