@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-d856dc89a899cc81f49fc98ea456bc5086b819b1/rpcs3-v0.0.5-7069-d856dc89_win64.7z",
-            "hash": "21fb0f0bb20894cfc2cc12088f393dbf16a6739ef16129b51e448e13fe79adc4"
+            "hash": "21FB0F0BB20894CFC2CC12088F393DBF16A6739EF16129B51E448E13FE79ADC4"
         }
     },
     "depends": "vcredist2015",
@@ -24,7 +24,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$match1/rpcs3-v$version-$match2_win64.7z"
+                "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$match1/rpcs3-v$version-$match2_win64.7z",
+                "hash": {
+                    "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
+                    "find": "<p>([A-f\\d]{64});.*</p>"
+                }
             }
         }
     }
