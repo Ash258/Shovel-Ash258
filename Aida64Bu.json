@@ -5,7 +5,7 @@
     "url": "http://download.aida64.com/aida64business597.zip",
     "hash": "58d2c253547d24e2a333fcec15682907db2b08eeb2f6d96e553fae3d9cba6124",
     "post_install": [
-        "if(!(Test-Path $persist_dir\\pkey.txt){",
+        "if(!(Test-Path \"$persist_dir\\pkey.txt\")) {",
         "    (New-Object System.Net.WebClient).DownloadFile('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aid', \"$dir\\pkey.txt\")",
         "}"
     ],
