@@ -1,0 +1,20 @@
+{
+    "version": "5.97.4600",
+    "description": "industry-leading system information tool, loved by PC enthusiasts around the world, which provides extremely detailed information about hardware and offers benchmarks to measure the performance of the computer.",
+    "homepage": "https://www.aida64.com/",
+    "url": "http://download.aida64.com/aida64extreme597.zip",
+    "hash": "71643adc71ce072af29c3986166a5519cbc438472414a2b268fc2280c3aa1fb6",
+    "shortcuts": [
+        [
+            "aida64.exe",
+            "Aida64 Extreme"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.aida64.com/downloads/OGZlM2YxNTk=",
+        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(.*\\)"
+    },
+    "autoupdate": {
+        "url": "http://download.aida64.com/aida64extreme$match2$match3.zip"
+    }
+}
