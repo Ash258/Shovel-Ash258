@@ -29,6 +29,7 @@
 | [Post windows installer **(PostInstall)**](./PostInstall.json)           | 💯     | 💯       | 💯         |
 | [PotPlayer **(PotPlayer)**](./PotPlayer.json)                            | 💯     | 💯       | 💯         |
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                           | ❌      | ❌        | ❌          |
+| [RPCS3 **(RPCS3)**](./RPCS3.json)                                        | ❌      | ✔        | ✔          |
 | [Steam **(Steam)**](./Steam.json)                                        | 💯     | ⭕        | ⭕          |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                        | 💯     | 💯       | 💯         |
 | [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                  | ✔      | ✔        | ✔          |

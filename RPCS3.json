@@ -18,6 +18,14 @@
     ],
     "checkver": {
         "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
-        "re": "((\\d+\\.?){3}-(\\d{4}))"
+        "re": "<a href=\".*/build-((\\w{8})\\w{32})/rpcs3-v(((\\d+\\.?){3}-(\\d{4}))-.*)_.*\">",
+        "replace": "$4"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$match1/rpcs3-v$version-$match2_win64.7z"
+            }
+        }
     }
 }
