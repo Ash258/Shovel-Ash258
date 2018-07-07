@@ -7,11 +7,11 @@
         "Install firmware via 'File -> Install firmware'.",
         "Latest firmware file is located inside app directory ('PS3UPDAT.PUP').",
         "HOW TO INSTALL GAME:",
-        "   Games could be downloaded from 'http://psndl.net/packages'",
-        "   Download both files ('Rap', 'Package)'",
-        "   Install via 'File -> Install .pkg'",
-        "   Copy RAP file and paste it into 'App dir\\dev_hdd0\\home\\00000001\\exdata'",
-        "   Enjoy the game <3"
+        "1.   Download game from 'http://psndl.net/packages'",
+        "2.         Both files are needed('Rap', 'Package)'",
+        "3.   Install via 'File -> Install .pkg'",
+        "4.   Copy RAP file and paste it into 'App dir\\dev_hdd0\\home\\00000001\\exdata'",
+        "5.   Enjoy the game <3"
     ],
     "depends": "vcredist2015",
     "architecture": {

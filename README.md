@@ -50,6 +50,6 @@
 | [Winrar **(Winrar)**](./Winrar.json)                                     | 💯     | 💯       | 💯 (❌)            |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                 | 💯     | ⭕        | ⭕ (⭕)             |
 
-- 💯 Properly tested
+- 💯 Tested over limit
 - 🔸 Additional testing is needed
 - ⭕ Not needed
