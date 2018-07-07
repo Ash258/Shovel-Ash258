@@ -5,7 +5,7 @@
     "license": "GPL-2.0+",
     "url": "http://wordrider.net/download/FreeRapid-1.0beta.zip",
     "hash": "c493b4fb4223c7a75fa748b309dc9342ca8bd68d4415b686d28d68c6a8b7b520",
-    "depends": "java/oraclejre",
+    "depends": "oraclejre",
     "extract_dir": "FreeRapid-1.0beta",
     "shortcuts": [
         [

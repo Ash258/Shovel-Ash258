@@ -16,7 +16,7 @@
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                   | ✔      | ✔        | ✔          |
 | [Chrome **(Chrome)**](./Chrome.json)                                     | ❌      | ❌        | ❌          |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                             | ✔      | ✔        | ✔          |
-| [docker **(docker)**](./docker.json)                                     | ❌      | ✔        | ❌          |
+| [docker **(docker)**](./docker.json)                                     | ❌      | 💯       | ❌          |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)               | ✔      | ✔        | ✔          |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                             | ✔      | ❌        | ❌          |
 | [Get Video Details **(GVD)**](./GVD.json)                                | ✔      | ✔        | ✔          |
