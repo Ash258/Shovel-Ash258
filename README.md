@@ -6,7 +6,8 @@
 
 - Wait for <https://github.com/lukesampson/scoop/pull/2351/> merge (Licence, script array)
     - Edit all script into array
-    - Check comment, notes are arrays already
+    - Check all comments, notes
+        - Make them array
     - Edit licences
 - RPCS3
     - Download Firmware?

@@ -18,7 +18,7 @@
         "Remove-Item -LiteralPath $filesArray -Force -Recurse",
         "       #Replacing Default Theme",
         "$find = 'include \"resource/colors/sky.styles\"'",
-        "$replace =\"//$find\"",
+        "$replace = \"//$find\"",
         "$file = \"$dir\\config.ini\"",
         "(Get-Content $file).Replace($find, $replace) | Set-Content $file",
         "       #Enabling Pixedark Theme",
