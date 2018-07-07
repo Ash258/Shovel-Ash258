@@ -3,7 +3,7 @@
     "description": "Able to create macOS virtual machines.",
     "homepage": "https://github.com/DrDonk/unlocker",
     "license": "MIT",
-    "depends": "Ash258/vmware",
+    "depends": "VMware",
     "architecture": {
         "64bit": {
             "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PatchTools.zip",

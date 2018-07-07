@@ -3,13 +3,34 @@
     "description": "PS3 emulator/debugger",
     "homepage": "https://rpcs3.net/",
     "license": "GPL-2.0",
+    "notes": [
+        "Install firmware via 'File -> Install firmware'.",
+        "Latest firmware file is located inside app directory ('PS3UPDAT.PUP').",
+        "HOW TO INSTALL GAME:",
+        "   Games could be downloaded from 'http://psndl.net/packages'",
+        "   Download both files ('Rap', 'Package)'",
+        "   Install via 'File -> Install .pkg'",
+        "   Copy RAP file and paste it into 'App dir\\dev_hdd0\\home\\00000001\\exdata'",
+        "   Enjoy the game <3"
+    ],
+    "depends": "vcredist2015",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-d856dc89a899cc81f49fc98ea456bc5086b819b1/rpcs3-v0.0.5-7069-d856dc89_win64.7z",
-            "hash": "21FB0F0BB20894CFC2CC12088F393DBF16A6739EF16129B51E448E13FE79ADC4"
+            "url": [
+                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-d856dc89a899cc81f49fc98ea456bc5086b819b1/rpcs3-v0.0.5-7069-d856dc89_win64.7z",
+                "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2017_1113_152d950c365ede4130c53ceb18dcd43b/PS3UPDAT.PUP"
+            ],
+            "hash": [
+                "21FB0F0BB20894CFC2CC12088F393DBF16A6739EF16129B51E448E13FE79ADC4",
+                "a70669bc35a5d688c94f5db8e1eb4110295b1b076ccc3c8e4a7e9ee397a6ca41"
+            ]
         }
     },
-    "depends": "vcredist2015",
+    "persist": [
+        "dev_hdd0",
+        "GuiConfigs",
+        "PS3UPDAT.PUP"
+    ],
     "shortcuts": [
         [
             "rpcs3.exe",
