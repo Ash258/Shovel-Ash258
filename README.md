@@ -9,8 +9,6 @@
     - Check all comments, notes
         - Make them array
     - Edit licences
-- RPCS3
-    - Download Firmware?
 
 | App name (Scoop name)                                                    | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------ | :----: | :------: | :---------------: |
