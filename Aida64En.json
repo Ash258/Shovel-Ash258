@@ -1,0 +1,23 @@
+{
+    "version": "5.97.4600",
+    "description": "industry-leading system information tool, loved by PC enthusiasts around the world, which provides extremely detailed information about hardware and offers benchmarks to measure the performance of the computer.",
+    "homepage": "https://www.aida64.com/",
+    "url": "http://download.aida64.com/aida64engineer597.zip",
+    "hash": "3da27dd323e2b28e054b04a0539172b998910f767163aeec8a28fdf217302f35",
+    "post_install": [
+        "(New-Object System.Net.WebClient).DownloadFile('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aiden', \"$dir\\pkey.txt\")"
+    ],
+    "shortcuts": [
+        [
+            "aida64.exe",
+            "Aida64 Engineer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.aida64.com/downloads/ZjAyYjhmNmQ=",
+        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(.*\\)"
+    },
+    "autoupdate": {
+        "url": "http://download.aida64.com/aida64engineer$match2$match3.zip"
+    }
+}

@@ -11,7 +11,9 @@
 
 | App name (Scoop name)                                                    | Tested | Checkver | Autoupdate |
 | ------------------------------------------------------------------------ | :----: | :------: | :--------: |
-| [Aida64 Extreme **(Aida64)**](./Aida64.json)                             | ❌      | ✔        | ✔          |
+| [Aida64 Extreme **(Aida64)**](./Aida64.json)                             | 💯     | 💯       | 💯         |
+| [Aida64 Business **(Aida64Bu)**](./Aida64Bu.json)                        | 💯     | 💯       | 💯         |
+| [Aida64 Engineer **(Aida64En)**](./Aida64En.json)                        | 💯     | 💯       | 💯         |
 | [Air Steam Skin **(AirForSteam)**](./AirForSteam.json)                   | 💯     | 💯       | 💯         |
 | [AutoClicker **(AutoClicker)**](./AutoClicker.json)                      | ✔      | ✔        | ✔          |
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                   | ✔      | ✔        | ✔          |
