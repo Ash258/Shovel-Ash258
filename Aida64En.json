@@ -1,13 +1,14 @@
 {
     "version": "5.97.4600",
-    "description": "industry-leading system information tool, loved by PC enthusiasts around the world, which provides extremely detailed information about hardware and offers benchmarks to measure the performance of the computer.",
+    "description": "Industry-leading system information tool, loved by PC enthusiasts around the world, which provides extremely detailed information about hardware and offers benchmarks to measure the performance of the computer.",
     "homepage": "https://www.aida64.com/",
-    "url": "http://download.aida64.com/aida64engineer597.zip",
-    "hash": "3da27dd323e2b28e054b04a0539172b998910f767163aeec8a28fdf217302f35",
-    "post_install": [
-        "if(!(Test-Path \"$persist_dir\\pkey.txt\")) {",
-        "    (New-Object System.Net.WebClient).DownloadFile('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aiden', \"$dir\\pkey.txt\")",
-        "}"
+    "url": [
+        "http://download.aida64.com/aida64engineer597.zip",
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aiden#/pkey.txt"
+    ],
+    "hash": [
+        "3da27dd323e2b28e054b04a0539172b998910f767163aeec8a28fdf217302f35",
+        "540a8973b4f9d1f8006be4cebab36ae8f48915b76e4dbaf861cbd9c3fae8a303"
     ],
     "persist": [
         "pkey.txt"

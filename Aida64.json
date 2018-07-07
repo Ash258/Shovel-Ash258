@@ -2,12 +2,13 @@
     "version": "5.97.4600",
     "description": "industry-leading system information tool, loved by PC enthusiasts around the world, which provides extremely detailed information about hardware and offers benchmarks to measure the performance of the computer.",
     "homepage": "https://www.aida64.com/",
-    "url": "http://download.aida64.com/aida64extreme597.zip",
-    "hash": "71643adc71ce072af29c3986166a5519cbc438472414a2b268fc2280c3aa1fb6",
-    "post_install": [
-        "if(!(Test-Path \"$persist_dir\\pkey.txt\")) {",
-        "    (New-Object System.Net.WebClient).DownloadFile('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aidex', \"$dir\\pkey.txt\")",
-        "}"
+    "url": [
+        "http://download.aida64.com/aida64extreme597.zip",
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aidex#/pkey.txt"
+    ],
+    "hash": [
+        "71643adc71ce072af29c3986166a5519cbc438472414a2b268fc2280c3aa1fb6",
+        "fd91ae6f6d0cfd19bb66e58d7b87ae3ed4870e9e85c4fc43bc21c6760ba714bc"
     ],
     "persist": [
         "pkey.txt"
