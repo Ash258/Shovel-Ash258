@@ -27,6 +27,8 @@
             "-profile $dir\\texlive.profile"
         ]
     },
+    "post_install": "Remove-Item $dir\\cosi -Force -Recurse",
+    "env_add_path": "$dir\\bin\\win32",
     "persist": [
         "bin",
         "texmf-config",
@@ -34,8 +36,6 @@
         "texmf-local",
         "texmf-var"
     ],
-    "post_install": "Remove-Item $dir\\cosi -Force -Recurse",
-    "env_add_path": "$dir\\bin\\win32",
     "checkver": {
         "url": "http://mirrors.nic.cz/tex-archive/systems/texlive/tlnet",
         "re": "install-tl\\.zip</a></td>.*((\\d{4})-(\\d+)-(\\d+))",
