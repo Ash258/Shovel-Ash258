@@ -40,6 +40,12 @@
 
 | App name (Scoop name)                                                      | Tested | Checkver | Autoupdate (Hash) |
 | -------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [TeamSpeak3 **(TS3)**](./TODO/TS3.json)                                    | ❌      | 💯       | ✔ (💯)            |
+| [Spybot Search & Destroy **(Spybot)**](./TODO/Spybot.json)                 | ❌      | ✔        | ✔ (💯)            |
+| [FastStone Image Viewer **(FastStoneImage)**](./TODO/FastStoneImage.json)  | ❌      | ✔        | ✔ (❌)             |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                | ❌      | ❌        | ✔ (❌)             |
+| [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)               | ❌      | ❌        | ✔ (❌)             |
+| ---                                                                        | ---    | ---      | ---               |
 | [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)       | ❌      | ✔        | ✔ (❌)             |
 | [Corsair's iCue **(iCue)**](./TODO/iCue.json)                              | ❌      | ❌        | ❌ (❌)             |
 | [Docker **(docker)**](./TODO/docker.json)                                  | ❌      | ❌        | ❌ (❌)             |
@@ -47,17 +53,18 @@
 | [VMware **(VMware)**](./TODO/VMware.json)                                  | ❌      | ✔ 🔸     | ✔ (💯)            |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json) | ❌      | ✔ 🔸     | ✔ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                      | ❌      | ❌        | ❌ (❌)             |
-| [Spybot Search & Destroy **(Spybot)**](./TODO/Spybot.json)                 | ❌      | ✔        | ✔ (✔)             |
-| [TeamSpeak **(TeamSpeak)**](./TODO/TeamSpeak.json)                         | ❌      | ❌        | ❌ (❌)             |
+| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                    | ❌      | ❌        | ❌ (❌)             |
 
 - Wait for <https://github.com/lukesampson/scoop/pull/2364/> merge (Licence)
     - [x] Edit all script into array
     - [x] Check all comments, notes
         - [x] Make them array
     - [x] Edit licences
+- [ ] Add app name to start of description.
 - Rambox Pro
     - [ ] Wait for official release
     - [ ] Verify autoupdate
+- [ ] TeamSpeak 5
 - VM Testing
     - VMWare
         - INSTALLDIR is fucking with me
@@ -74,9 +81,9 @@
             - Auto login
             - Auto setup for unattended remote access
             - Some persist❓❓
-        - Spybot search & destroy
+        - Spybot Search & Destroy
         - Geforce Experience
-        - Teamspeak
+        - Faststone image viewer
 - CCleaner Professional❓❓
 - TuneUp❓❓
 - Uplay
@@ -88,9 +95,7 @@
     - Nod32
 - DirectX
 - IObit stuff
-- Faststone image viewer
 - Nox app player
-- Classic shell
 - .NET framework
 
 - 💯 Tested over limit

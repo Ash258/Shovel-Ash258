@@ -1,0 +1,21 @@
+{
+    "version": "",
+    "description": "Google Chrome. ",
+    "homepage": "",
+    "license": "",
+    "notes": "",
+    "depends": "",
+    "url": "",
+    "hash": "",
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": "",
+    "autoupdate": {
+        "url": ""
+    }
+}

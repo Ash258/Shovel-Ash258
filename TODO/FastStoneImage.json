@@ -1,0 +1,25 @@
+{
+    "version": "6.5",
+    "description": "FastStone Image Viewer. An image browser, converter and editor that supports",
+    "homepage": "http://www.faststone.org/index.htm",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "http://www.faststonesoft.net/DN/FSViewer65.zip",
+    "hash": "e97b694cf43b849bc4c00c48d3f1097c2d062383887573b7f2a0e0730e723e84",
+    "extract_dir": "FSViewer65",
+    "shortcuts": [
+        [
+            "FSViewer.exe",
+            "FastStone Image Viewer"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.faststone.org/FSViewerDownload.htm",
+        "re": "FastStone Image Viewer ((\\d+\\.?){2})"
+    },
+    "autoupdate": {
+        "url": "http://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
+        "extract_dir": "FSViewer$cleanVersion"
+    }
+}
