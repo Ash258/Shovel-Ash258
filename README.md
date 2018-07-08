@@ -2,7 +2,7 @@
 
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
-[Recommended manifest format](./.vscode/Template.json)
+[Recommended manifest format](./.vscode/Template.jsonc)
 
 | App name (Scoop name)                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
