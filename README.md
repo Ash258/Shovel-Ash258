@@ -43,15 +43,17 @@
 | [TeamSpeak3 **(TS3)**](./TODO/TS3.json)                                    | ❌      | 💯       | ✔ (💯)            |
 | [Spybot Search & Destroy **(Spybot)**](./TODO/Spybot.json)                 | ❌      | ✔        | ✔ (💯)            |
 | [FastStone Image Viewer **(FastStoneImage)**](./TODO/FastStoneImage.json)  | ❌      | ✔        | ✔ (❌)             |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                | ❌      | ❌        | ✔ (❌)             |
-| [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)               | ❌      | ❌        | ✔ (❌)             |
-| ---                                                                        | ---    | ---      | ---               |
-| [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)       | ❌      | ✔        | ✔ (❌)             |
-| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                              | ❌      | ❌        | ❌ (❌)             |
-| [Docker **(docker)**](./TODO/docker.json)                                  | ❌      | ❌        | ❌ (❌)             |
-| [Google Chrome **(Chrome)**](./TODO/Chrome.json)                           | ❌      | ❌        | ❌ (❌)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                  | ❌      | ✔ 🔸     | ✔ (💯)            |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json) | ❌      | ✔ 🔸     | ✔ (❌)             |
+| [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)               | ❌      | ❌        | ✔ (❌)             |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                | ❌      | ❌        | ✔ (❌)             |
+| ---                                                                        | ---    | ---      | ---               |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                              | ❌      | ❌        | ❌ (❌)             |
+| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                        | ❌      | ❌        | ❌ (❌)             |
+| [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)       | ❌      | ✔        | ✔ (❌)             |
+| [Docker **(docker)**](./TODO/docker.json)                                  | ❌      | ❌        | ❌ (❌)             |
+| [CCleaner Professional **(CCleanerPro)**](./TODO/CCleanerPro.json)         | ❌      | ❌        | ❌ (❌)             |
+| [Google Chrome **(Chrome)**](./TODO/Chrome.json)                           | ❌      | ❌        | ❌ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                      | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                    | ❌      | ❌        | ❌ (❌)             |
 
@@ -93,8 +95,9 @@
 - AVG
 - Eset
     - Nod32
+    - Internet Security
+    - Smart Security
 - DirectX
-- IObit stuff
 - Nox app player
 - .NET framework
 

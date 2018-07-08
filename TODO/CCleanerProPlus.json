@@ -1,0 +1,24 @@
+{
+    "version": "5.44.6577",
+    "description": "",
+    "homepage": "",
+    "license": "",
+    "notes": "",
+    "depends": "",
+    "url": "https://download.ccleaner.com/ccsetup544pro.exe",
+    "hash": "",
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.ccleaner.com/",
+        "re": "((\\d+\\.?){3})"
+    },
+    "autoupdate": {
+        "url": "https://download.ccleaner.com/ccsetup$majorVersion$minorVersionpro.exe"
+    }
+}
