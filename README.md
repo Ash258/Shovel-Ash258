@@ -9,6 +9,14 @@
     - Check all comments, notes
         - Make them array
     - Edit licences
+- VM Testing
+    - iCue
+        - Need to investigate arguments
+    - VMWare
+        - INSTALLDIR is fucking with me
+    - Texlive
+        - Updating with packages withing persist dir
+            - `if(!(test-path $persist_dir)) { } `
 
 | App name (Scoop name)                                                    | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------ | :----: | :------: | :---------------: |
