@@ -2,7 +2,10 @@
     "version": "2.1.1",
     "description": "Able to create macOS virtual machines.",
     "homepage": "https://github.com/DrDonk/unlocker",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/DrDonk/unlocker/blob/master/license.txt"
+    },
     "depends": "VMware",
     "architecture": {
         "64bit": {

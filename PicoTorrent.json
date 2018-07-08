@@ -2,7 +2,10 @@
     "version": "0.15.0",
     "description": "A tiny, hackable BitTorrent client",
     "homepage": "https://picotorrent.org/",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/picotorrent/picotorrent/blob/master/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/picotorrent/picotorrent/releases/download/v0.15.0/PicoTorrent-0.15.0-x64.zip",

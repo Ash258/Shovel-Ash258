@@ -2,7 +2,10 @@
     "version": "18.03.1-ce",
     "description": "Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
     "homepage": "https://www.docker.com/",
-    "license": "Apache-2.0",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/moby/moby/blob/master/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",

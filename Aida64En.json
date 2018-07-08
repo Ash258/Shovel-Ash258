@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://www.aida64.com/downloads/ZjAyYjhmNmQ=",
-        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(.*\\)"
+        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(\\w{3}.*\\)"
     },
     "autoupdate": {
         "url": "http://download.aida64.com/aida64engineer$match2$match3.zip"

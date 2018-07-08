@@ -2,7 +2,10 @@
     "version": "2018-0406",
     "description": "An elegant and customizable skin for Steam.",
     "homepage": "http://airforsteam.com/",
-    "license": " CC-BY-NC-4.0",
+    "license": {
+        "identifier": "CC-BY-NC-4.0",
+        "url": "https://github.com/Outsetini/Air-for-Steam/blob/master/LICENSE.txt"
+    },
     "notes": [
         "Now you can just copy eveything into Steam\\skins folder.",
         "After copying you can uninstall with scoop uninstall AirForSteam"

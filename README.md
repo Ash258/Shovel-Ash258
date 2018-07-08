@@ -4,7 +4,7 @@
 
 ## TODO
 
-- Wait for <https://github.com/lukesampson/scoop/pull/2351/> merge (Licence, script array)
+- Wait for <https://github.com/lukesampson/scoop/pull/2364/> merge (Licence)
     - Edit all script into array
     - Check all comments, notes
         - Make them array

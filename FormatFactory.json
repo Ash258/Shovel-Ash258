@@ -2,10 +2,13 @@
     "version": "4.3.0.0",
     "description": "Free and multifunctional, multimedia file conversion tool.",
     "homepage": "http://www.pcfreetime.com/formatfactory/index.php?language=en",
+    "license": {
+        "identifier": "Freeware"
+    },
     "url": "http://www.pcfreetime.com/public/FFSetup4.3.0.0.exe#cosi.7z",
     "hash": "96722c0990b20f37752655d94cfc7c9ca4303eb9a13f9c582c6b9ca9176067a2",
     "post_install": [
-        "Remove-Item -LiteralPath \"`$PLUGINSDIR\" -Force"
+        "Remove-Item -LiteralPath \"`$PLUGINSDIR\" -Force -Recurse"
     ],
     "shortcuts": [
         [
