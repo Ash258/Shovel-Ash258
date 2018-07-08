@@ -17,6 +17,7 @@
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                 | ✔      | ✔        | ✔ (❌)             |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./KMCleaner.json)                        | ✔      | ✔        | ✔ (❌)             |
 | [KMSpico **(KMS)**](./KMS.json)                                                       | 💯     | ✔❓       | ✔ (❌)             |
+| [Microsoft Visual Studio Code Insiders **(vscode-insiders)**](./vscode-insiders.json) | 💯     | 💯       | 💯 (💯)           |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json)              | ✔      | ✔        | ✔ (❌)             |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                   | 💯     | 💯       | 💯 (❌)            |
 | [Post Windows Installer **(PostInstall)**](./PostInstall.json)                        | 💯     | 💯       | 💯 (❌)            |
@@ -30,9 +31,8 @@
 | [TeamViewer **(TeamViewer)**](./TeamViewer.json)                                      | ❌      | ❌        | ❌ (❌)             |
 | [Texlive **(Texlive)**](./Texlive.json)                                               | ✔      | 💯       | ✔ (💯)            |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                         | 💯     | 💯       | 💯 (❌)            |
-| [Microsoft Visual Studio Code Insiders **(vscode-insiders)**](./vscode-insiders.json) | 💯     | 💯       | 💯 (💯)           |
-| [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                         | 💯     | 💯       | 💯 (❌)            |
 | [Winrar **(Winrar)**](./Winrar.json)                                                  | 💯     | 💯       | 💯 (❌)            |
+| [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                         | 💯     | 💯       | 💯 (❌)            |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                              | 💯     | ⭕        | ⭕ (⭕)             |
 
 # TODO
