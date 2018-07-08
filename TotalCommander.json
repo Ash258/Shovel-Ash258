@@ -35,7 +35,7 @@
     "persist": "wincmd.key",
     "checkver": {
         "url": "https://www.ghisler.com/download.htm",
-        "re": "Download version (\\d+\\.\\d+) of Total Commander"
+        "re": "Download version ((\\d+\\.?){2}) of Total Commander"
     },
     "autoupdate": {
         "architecture": {
