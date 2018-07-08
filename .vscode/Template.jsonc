@@ -1,0 +1,70 @@
+{
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": {
+        "identifier": "",
+        "url": ""
+    },
+    "notes": [
+        ""
+    ],
+    "depends": [
+        ""
+    ],
+    "suggest": {
+        "": [
+            ""
+        ]
+    },
+    "architecture": { // Or platform specific below
+        "64bit": {
+            "url": "",
+            "hash": "",
+            "extract_dir": "",
+            "extract_to": ""
+        },
+        "32bit": {
+            "url": "",
+            "hash": "",
+            "extract_dir": ""
+        }
+    },
+    "pre_install": [
+        ""
+    ],
+    "installer": {
+        "file": "",
+        "args": [
+            ""
+        ]
+    },
+    "post_install": [
+        ""
+    ],
+    "uninstaller": {
+        "file": "",
+        "args": [
+            ""
+        ]
+    },
+    "persist": [
+        ""
+    ],
+    "bin": [
+        ""
+    ],
+    "env_add_path": [
+        ""
+    ],
+    "shortcuts": [
+        [
+            "",
+            ""
+        ]
+    ],
+    "checkver": "",
+    "autoupdate": {
+        "url": ""
+    }
+}

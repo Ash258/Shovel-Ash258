@@ -2,6 +2,8 @@
 
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
+[Recommended manifest format](./.vscode/Template.json)
+
 | App name (Scoop name)                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [Aida64 Extreme **(Aida64)**](./Aida64.json)                                          | 💯     | 💯       | 💯 (❌)            |
@@ -45,19 +47,22 @@
 | [Google Chrome **(Chrome)**](./TODO/Chrome.json)                           | ❌      | ❌        | ❌ (❌)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                  | ❌      | ✔ 🔸     | ✔ (💯)            |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json) | ❌      | ✔ 🔸     | ✔ (❌)             |
-| [**()**](./TODO/.json)                                                     | ❌      | ❌        | ❌ (❌)             |
+| [TeamSpeak **(TeamSpeak)**](./TODO/TeamSpeak.json)                         | ❌      | ❌        | ❌ (❌)             |
 
 - Wait for <https://github.com/lukesampson/scoop/pull/2364/> merge (Licence)
-    - Edit all script into array
-    - Check all comments, notes
-        - Make them array
-    - Edit licences
+    - [ ] Edit all script into array
+    - [ ] Check all comments, notes
+        - [ ] Make them array
+    - [x] Edit licences
+- Rambox Pro
+    - [ ] Wait for official release
+    - [ ] Verify autoupdate
 - VM Testing
     - VMWare
         - INSTALLDIR is fucking with me
         - Verify `VMWare unlocker`
     - Texlive
-        - Updating with packages withing persist dir
+        - Installing with persist dir
             - `if((test-path $persist_dir)) { >> $persist_dir } else { >> $dir }`
     - Need to investigate installer arguments / parameters
         - iCue
@@ -69,6 +74,7 @@
             - Auto setup for unattended remote access
             - Some persist❓❓
         - Geforce Experience
+        - Teamspeak
 - CCleaner Professional❓❓
 - TuneUp❓❓
 - Uplay
@@ -79,7 +85,6 @@
 - Eset
     - Nod32
 - DirectX
-- Teamspeak
 - Spybot search & destroy
 - IObit stuff
 - Faststone image viewer

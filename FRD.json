@@ -16,5 +16,13 @@
             "",
             "frd.ico"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "http://wordrider.net/freerapid/download.htm",
+        "re": "Current version is FreeRapid Downloader ((\\d+)\\.(\\d+\\w+))<em>"
+    },
+    "autoupdate": {
+        "url": "https://www.wordrider.net/download/FreeRapid-$version.zip",
+        "extract_dir": "FreeRapid-$version"
+    }
 }
