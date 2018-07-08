@@ -14,9 +14,15 @@
         - Need to investigate arguments
     - VMWare
         - INSTALLDIR is fucking with me
+        - Test `VMWare unlocker`
     - Texlive
         - Updating with packages withing persist dir
-            - `if(!(test-path $persist_dir)) { } `
+            - `if(!(test-path $persist_dir)) { >> $persist_dir } else { >> $dir } `
+    - TeamViewer
+        - Arguments
+        - Auto login
+    - Docker
+        - Parameters
 
 | App name (Scoop name)                                                    | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------ | :----: | :------: | :---------------: |
