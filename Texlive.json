@@ -7,13 +7,17 @@
     "extract_dir": "install-tl-20180706",
     "extract_to": "cosi",
     "pre_install": [
-        "$newDir = $($dir.Path.Replace('\\','/'))",
+        "$newDir = $dir.Path.Replace('\\','/')",
         "$outFile = \"$dir\\texlive.profile\"",
+        "if (Test-Path $persist_dir) { ",
+        "    Write-Host 'Using Persisted files into config' -f Yellow",
+        "    $newDir = $persist_dir.Path.Replace('\\', '/')",
+        "}",
         "Write-Output \"TEXDIR $newDir\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFSYSVAR $newDir/texmf-var\" | Out-File $outFile -Append -Encoding ascii",
-        "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $outFile -Append -Encoding ascii"
+        "Write-Output (New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $outFile -Append -Encoding ascii"
     ],
     "installer": {
         "file": "cosi\\install-tl-advanced.bat",
@@ -24,6 +28,7 @@
         ]
     },
     "persist": [
+        "bin",
         "texmf-config",
         "texmf-dist",
         "texmf-local",
