@@ -50,9 +50,9 @@
 | [TeamSpeak **(TeamSpeak)**](./TODO/TeamSpeak.json)                         | ❌      | ❌        | ❌ (❌)             |
 
 - Wait for <https://github.com/lukesampson/scoop/pull/2364/> merge (Licence)
-    - [ ] Edit all script into array
-    - [ ] Check all comments, notes
-        - [ ] Make them array
+    - [x] Edit all script into array
+    - [x] Check all comments, notes
+        - [x] Make them array
     - [x] Edit licences
 - Rambox Pro
     - [ ] Wait for official release
