@@ -62,8 +62,7 @@
     - [x] Check all comments, notes
         - [x] Make them array
     - [x] Edit licences
-- [ ] Add app name to start of description.
-- [ ] Add `-Dir` parameter into Bins
+- [ ] Add app name to start of each app description
 - [ ] Merge <https://github.com/Ash258/scoop-Ash258/pull/1>
 - [ ] Test X3 install
 
