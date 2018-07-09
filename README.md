@@ -57,7 +57,7 @@
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                      | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                    | ❌      | ❌        | ❌ (❌)             |
 
-- Wait for <https://github.com/lukesampson/scoop/pull/2364/> merge (Licence)
+- Wait for <https://github.com/lukesampson/scoop/pull/2377/> merge (Licence)
     - [x] Edit all script into array
     - [x] Check all comments, notes
         - [x] Make them array

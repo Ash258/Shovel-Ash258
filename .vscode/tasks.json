@@ -19,7 +19,7 @@
             "type": "shell",
             "command": ".\\bin\\checkver.ps1",
             "problemMatcher": {
-                "owner": "powershell",
+                "owner": "pwsh",
                 "fileLocation": [
                     "relative",
                     "${workspaceFolder}"
