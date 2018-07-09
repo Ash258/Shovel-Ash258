@@ -63,6 +63,9 @@
         - [x] Make them array
     - [x] Edit licences
 - [ ] Add app name to start of description.
+- [ ] Merge <https://www.github.com/Ash258/scoop-Ash258/tree/licences/> into master
+- [ ] Test X3 install
+
 - Rambox Pro
     - [ ] Wait for official release
     - [ ] Verify autoupdate
