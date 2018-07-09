@@ -64,7 +64,7 @@
     - [x] Edit licences
 - [ ] Add app name to start of description.
 - [ ] Add `-Dir` parameter into Bins
-- [ ] Merge <https://www.github.com/Ash258/scoop-Ash258/tree/licences/> into master
+- [ ] Merge <https://github.com/Ash258/scoop-Ash258/pull/1>
 - [ ] Test X3 install
 
 - Rambox Pro
