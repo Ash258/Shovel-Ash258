@@ -71,31 +71,33 @@
         - Installing with persist dir
             - `if((test-path $persist_dir)) { >> $persist_dir } else { >> $dir }`
     - [ ] Need to investigate installer arguments / parameters
-        - iCue
+        - [ ] iCue
             - vcredist 2015❓❓
-        - Docker
-        - Google Chrome
-        - TeamViewer
+        - [ ] Docker
+        - [ ] Google Chrome
+        - [ ] TeamViewer
             - Auto login
             - Auto setup for unattended remote access
             - Some persist❓❓
-        - Spybot Search & Destroy
-        - Geforce Experience
-        - Faststone image viewer
-- CCleaner Professional❓❓
-- TuneUp❓❓
-- Uplay
-- Origin
-- Battle.net
-- Acrobat Reader DC❓❓
-- AVG
-- Eset
-    - Nod32
-    - Internet Security
-    - Smart Security
-- DirectX
-- Nox app player
-- .NET framework
+        - [ ] Spybot Search & Destroy
+        - [ ] Geforce Experience
+        - [ ] Faststone image viewer
+        - [ ] CCleaner
+            - [ ] Pro
+            - [ ] ProPlus
+        - [ ] TuneUp
+        - [ ] Uplay
+        - [ ] Origin
+        - [ ] Battle.net
+        - [ ] Acrobat Reader DC
+        - [ ] AVG
+        - [ ] Eset
+            - [ ] Nod32
+            - [ ] Internet Security
+            - [ ] Smart Security
+        - [ ] Nox app player
+        - [ ] DirectX
+        - [ ] .NET framework
 
 - 💯 Tested over limit
 - 🔸 Additional testing is needed
