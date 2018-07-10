@@ -47,6 +47,7 @@
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json) | ❌      | ✔ 🔸     | ✔ (❌)             |
 | [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)               | ❌      | ❌        | ✔ (❌)             |
 | [Nox App Player **(Nox)**](./TODO/Nox.json)                                | ❌      | ❌        | ✔ (❌)             |
+| [WinAIO Maker Professional **(WinAIO)**](./TODO/WinAIO.json)               | ❌      | ❌        | ❌ (❌)             |
 | ---                                                                        | ---    | ---      | ---               |
 | [Corsair's iCue **(iCue)**](./TODO/iCue.json)                              | ❌      | ❌        | ❌ (❌)             |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                        | ❌      | ❌        | ❌ (❌)             |
@@ -71,9 +72,9 @@
         - Installing with persist dir
             - `if((test-path $persist_dir)) { >> $persist_dir } else { >> $dir }`
 - [ ] Need to investigate installer arguments / parameters
+    - [ ] Docker
     - [ ] iCue
         - vcredist 2015❓❓
-    - [ ] Docker
     - [ ] Google Chrome
     - [ ] TeamViewer
         - Auto login
