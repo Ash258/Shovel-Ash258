@@ -57,27 +57,20 @@
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                      | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                    | ❌      | ❌        | ❌ (❌)             |
 
-- Wait for <https://github.com/lukesampson/scoop/pull/2377/> merge (Licence)
-    - [x] Edit all script into array
-    - [x] Check all comments, notes
-        - [x] Make them array
-    - [x] Edit licences
-- [ ] Add app name to start of each app description
-- [ ] Merge <https://github.com/Ash258/scoop-Ash258/pull/1>
 - [ ] Test X3 install
 
-- Rambox Pro
+- [ ] Rambox Pro
     - [ ] Wait for official release
     - [ ] Verify autoupdate
 - [ ] TeamSpeak 5
 - VM Testing
-    - VMWare
+    - [ ] VMWare
         - INSTALLDIR is fucking with me
         - Verify `VMWare unlocker`
-    - Texlive
+    - [ ] Texlive
         - Installing with persist dir
             - `if((test-path $persist_dir)) { >> $persist_dir } else { >> $dir }`
-    - Need to investigate installer arguments / parameters
+    - [ ] Need to investigate installer arguments / parameters
         - iCue
             - vcredist 2015❓❓
         - Docker
