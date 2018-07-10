@@ -1,0 +1,22 @@
+{
+    "version": "1.3",
+    "description": "",
+    "homepage": "https://download.cnet.com/WinAIO-Maker-Professional/3000-2094_4-75605123.html",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "notes": "",
+    "depends": "",
+    "url": "",
+    "hash": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": "<td>Version</td>\\s*<td>1.3</td>",
+    "autoupdate": {
+        "url": ""
+    }
+}
