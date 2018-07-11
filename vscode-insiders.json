@@ -1,16 +1,16 @@
 {
-    "version": "adfa9ce9778a6e79197477fcc60cb5420a31979a",
+    "version": "5a4eab812bd485942061f71af39f3eabc52a1035",
     "license": "MIT",
     "description": "New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/",
     "architecture": {
         "64bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/adfa9ce9778a6e79197477fcc60cb5420a31979a/VSCode-win32-x64-1.26.0-insider.zip",
-            "hash": "bdb85499d2c63c2720f08d71ff9903a5d31c9ab9fcba78063b083d0365660785"
+            "url": "https://az764295.vo.msecnd.net/insider/5a4eab812bd485942061f71af39f3eabc52a1035/VSCode-win32-x64-1.26.0-insider.zip",
+            "hash": "ad958a58ad68aedc7de59cf2be0cf8f8ec16c1bf97da16d0e32a604e0907669c"
         },
         "32bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/adfa9ce9778a6e79197477fcc60cb5420a31979a/VSCode-win32-ia32-1.26.0-insider.zip",
-            "hash": "c56a40c3278717cb5fcacba1c6d308b48135104c53c79c4b902fb9195bd5e191"
+            "url": "https://az764295.vo.msecnd.net/insider/5a4eab812bd485942061f71af39f3eabc52a1035/VSCode-win32-ia32-1.26.0-insider.zip",
+            "hash": "f3d9bcc54ead7f3c3820f609b8140b75ba84300dfb365d1fd9b9b9aa9e598e66"
         }
     },
     "post_install": [
