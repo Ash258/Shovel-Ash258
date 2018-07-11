@@ -29,7 +29,7 @@
 | [Steam **(Steam)**](./Steam.json)                                                       | 💯     | ⭕        | ⭕ (❌)             |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | 💯     | 💯       | 💯 (❌)            |
 | [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | 💯     | 💯       | 💯 (💯)           |
-| [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | 💯     | ❌        | ❌ (❌)             |
+| [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | 💯     | ✔        | ❌ (❌)             |
 | [Texlive **(Texlive)**](./Texlive.json)                                                 | ✔      | 💯       | ✔ (💯)            |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                           | 💯     | 💯       | 💯 (❌)            |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | 💯     | 💯       | 💯 (❌)            |
@@ -59,6 +59,8 @@
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                    | ❌      | ❌        | ❌ (❌)             |
 
 - [ ] Test X3 install
+- [ ] Steam
+    - [ ] Check if uninstaller /S remove steamapps folder
 
 - [ ] Rambox Pro
     - [ ] Wait for official release

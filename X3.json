@@ -1,7 +1,10 @@
 {
     "version": "2013.11.7",
-    "description": "",
+    "description": "Metro X3 Cursor. ",
     "homepage": "https://www.deviantart.com/exsess/art/Metro-X3-Cursors-Update-Two-411020859",
+    "license": {
+        "identifier": "CC-BY-SA-3.0"
+    },
     "notes": [
         "User logout is required for cursor change take effect.",
         "Now you can run \"scoop uninstall X3\" and delete it's installation files."

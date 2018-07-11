@@ -2,6 +2,10 @@
     "version": "2018.07.06",
     "description": "Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
+    "license": {
+        "identifier": "Free",
+        "url": "https://www.tug.org/texlive/LICENSE.TL"
+    },
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
     "hash": "sha512:db7a8f820eda693135d72459d019b8ad2091b11ee7c5ecba10467f478c85996e3699c44ace59a4e85f52cc653d62b0f255f6fd5a4ab89ffb6b92f7393fe1b8a4",
     "extract_dir": "install-tl-20180706",

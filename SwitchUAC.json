@@ -1,5 +1,5 @@
 {
-    "version": "2017.02.16",
+    "version": "2017.2.16",
     "description": "Easily set User Account Control level via powershell",
     "homepage": "https://gallery.technet.microsoft.com/scriptcenter/How-to-switch-UAC-level-0ac3ea11",
     "url": "https://gallery.technet.microsoft.com/scriptcenter/How-to-switch-UAC-level-0ac3ea11/file/158449/1/SwitchUACLevel.zip",
@@ -9,5 +9,9 @@
     },
     "post_install": [
         "Import-Module $dir\\SwitchUACLevel.psm1"
-    ]
+    ],
+    "checkver": {
+        "re": "<span id=\"LastUpdated\">\\s+((\\d+)/(\\d+)/(\\d{4}))</span>",
+        "replace": "$4.$2.$3"
+    }
 }
