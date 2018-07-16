@@ -10,9 +10,7 @@
         "3da27dd323e2b28e054b04a0539172b998910f767163aeec8a28fdf217302f35",
         "61f8bb66520310acc677963b01f5699773dd7be9d6685c9570d064d24960ad8a"
     ],
-    "persist": [
-        "pkey.txt"
-    ],
+    "persist": "pkey.txt",
     "shortcuts": [
         [
             "aida64.exe",
