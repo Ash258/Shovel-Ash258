@@ -1,6 +1,6 @@
 {
     "version": "latest",
-    "description": "The ultimate entertainment platform.",
+    "description": "Steam. The ultimate entertainment platform.",
     "homepage": "https://store.steampowered.com/",
     "suggest": {
         "Skin": [

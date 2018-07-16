@@ -1,6 +1,6 @@
 {
     "version": "7.0.16",
-    "description": "A manager for game achievements in Steam.",
+    "description": "Steam Achievement Mangager. A manager for game achievements in Steam.",
     "homepage": "https://github.com/gibbed/SteamAchievementManager",
     "license": {
         "identifier": "Zlib",

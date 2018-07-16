@@ -1,6 +1,6 @@
 {
     "version": "0.15.0",
-    "description": "A tiny, hackable BitTorrent client",
+    "description": "PicoTorrent. A tiny, hackable BitTorrent client.",
     "homepage": "https://picotorrent.org/",
     "license": {
         "identifier": "MIT",

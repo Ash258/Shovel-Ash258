@@ -1,6 +1,6 @@
 {
     "version": "1.9",
-    "description": "Custom Edna Helper.",
+    "description": "Get Video Details. Custom Edna Helper.",
     "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
     "license": {
         "identifier": "MIT"

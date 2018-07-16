@@ -1,6 +1,6 @@
 {
     "version": "0.0.5-7104",
-    "description": "PS3 emulator/debugger",
+    "description": "RPCS3. PS3 emulator/debugger",
     "homepage": "https://rpcs3.net/",
     "license": {
         "identifier": "GPL-2.0",

@@ -1,6 +1,6 @@
 {
     "version": "2018.07.06",
-    "description": "Easy way to get up and running with the TeX document production system.",
+    "description": "Tex Live. Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
     "license": {
         "identifier": "Freeware",

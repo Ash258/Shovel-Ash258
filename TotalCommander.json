@@ -36,7 +36,9 @@
         "Remove-Item -Path $dir\\cosi -Force -Recurse",
         "if(!(Test-Path $persist_dir\\wincmd.key)) { Write-Host 'Key does not exist' -f Yellow; Add-Content $dir\\wincmd.key $null }"
     ],
-    "persist": "wincmd.key",
+    "persist": [
+        "wincmd.key"
+    ],
     "checkver": {
         "url": "https://www.ghisler.com/download.htm",
         "re": "Download version ((\\d+\\.?){2}) of Total Commander"
