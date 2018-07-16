@@ -5,6 +5,10 @@
     "license": {
         "identifier": "MIT"
     },
+    "notes": [
+        "Could be run via \"PostInstall\".",
+        "Also \"-SkipActivation\" parameter is available for skipping KMSpico activation."
+    ],
     "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
     "hash": "645b8b958bef35458cd4510373bbaa1a79eb52478ded76941a57be3ec747c4ab",
     "bin": [
