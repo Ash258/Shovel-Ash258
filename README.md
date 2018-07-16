@@ -61,6 +61,7 @@
 - [ ] Test X3 install
 - [ ] Steam
     - [ ] Check if uninstaller /S remove steamapps folder
+- [ ] VScode
 
 - [ ] Rambox Pro
     - [ ] Wait for official release

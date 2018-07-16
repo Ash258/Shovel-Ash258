@@ -3,7 +3,7 @@
     "description": "Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
     "license": {
-        "identifier": "Free",
+        "identifier": "Freeware",
         "url": "https://www.tug.org/texlive/LICENSE.TL"
     },
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
