@@ -1,35 +1,40 @@
 {
     "version": "2018-0406",
-    "description": "An elegant and customizable skin for Steam.",
+    "description": "Air For Steam. An elegant and customizable skin for Steam.",
     "homepage": "http://airforsteam.com/",
-    "license": " CC-BY-NC-4.0",
+    "license": {
+        "identifier": "CC-BY-NC-4.0",
+        "url": "https://github.com/Outsetini/Air-for-Steam/blob/master/LICENSE.txt"
+    },
     "notes": [
         "Now you can just copy eveything into Steam\\skins folder.",
-        "After copying you can uninstall with scoop uninstall AirForSteam"
+        "After copying you can uninstall with 'scoop uninstall AirForSteam'."
     ],
     "url": "https://github.com/Outsetini/Air-for-Steam/archive/2018-0406.zip",
     "hash": "00cd2c1b867306812c50d980ef8ce0fe44991f51121a064ac3a5738ed40c7a2b",
     "extract_dir": "Air-for-Steam-2018-0406",
-    "post_install": [
-        "$extras = \"$dir\\+Extras\"",
-        "$filesArray = @(\"$dir\\Support Air on Patreon.url\", \"$dir\\README.md\", \"$dir\\LICENSE.txt\", \"$dir\\FAQ.url\", ",
-        "\"$dir\\Contributors.url\", \"$dir\\Changelog.url\", \"$dir\\.gitattributes\", \"$extras\\Fonts\", \"$extras\\Square Avatars\")",
-        "Copy-Item \"$extras\\Themes\\Dark\\*\" \"$dir\" -Force -Recurse",
-        "Remove-Item -LiteralPath $filesArray -Force -Recurse",
-        "       #Replacing Default Theme",
-        "$find = 'include \"resource/colors/sky.styles\"'",
-        "$replace = \"//$find\"",
-        "$file = \"$dir\\config.ini\"",
-        "(Get-Content $file).Replace($find, $replace) | Set-Content $file",
-        "       #Enabling Pixedark Theme",
-        "$find = '//include \"resource/colors/user/pixeldark.styles\"'",
-        "$replace = 'include \"resource/colors/user/pixeldark.styles\"'",
-        "(Get-Content $file).Replace($find, $replace) | Set-Content $file",
-        "       #Enabling Friends shortcut",
-        "$file = \"$dir\\Resource\\layout\\steamrootdialog.layout\"",
-        "(Get-Content $file) -replace \"(\\sheight)=0`$\", '$1=30' | Set-Content $file",
-        "Remove-Item -LiteralPath $extras -Force -Recurse"
-    ],
+    "installer": {
+        "script": [
+            "$extras = \"$dir\\+Extras\"",
+            "$filesArray = @(\"$dir\\Support Air on Patreon.url\", \"$dir\\README.md\", \"$dir\\LICENSE.txt\", \"$dir\\FAQ.url\", ",
+            "\"$dir\\Contributors.url\", \"$dir\\Changelog.url\", \"$dir\\.gitattributes\", \"$extras\\Fonts\", \"$extras\\Square Avatars\")",
+            "Copy-Item \"$extras\\Themes\\Dark\\*\" \"$dir\" -Force -Recurse",
+            "Remove-Item -LiteralPath $filesArray -Force -Recurse",
+            "       #Replacing Default Theme",
+            "$find = 'include \"resource/colors/sky.styles\"'",
+            "$replace = \"//$find\"",
+            "$file = \"$dir\\config.ini\"",
+            "(Get-Content $file).Replace($find, $replace) | Set-Content $file",
+            "       #Enabling Pixedark Theme",
+            "$find = '//include \"resource/colors/user/pixeldark.styles\"'",
+            "$replace = 'include \"resource/colors/user/pixeldark.styles\"'",
+            "(Get-Content $file).Replace($find, $replace) | Set-Content $file",
+            "       #Enabling Friends shortcut",
+            "$file = \"$dir\\Resource\\layout\\steamrootdialog.layout\"",
+            "(Get-Content $file) -replace \"(\\sheight)=0`$\", '$1=30' | Set-Content $file",
+            "Remove-Item -LiteralPath $extras -Force -Recurse"
+        ]
+    },
     "checkver": {
         "url": "https://github.com/Outsetini/Air-for-Steam/releases",
         "re": "<span class=\"css-truncate-target\">((\\d{4})-(\\d{2})(\\d{2}))</span>"

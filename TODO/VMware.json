@@ -1,6 +1,6 @@
 {
     "version": "14.1.2-8497320",
-    "description": "Industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC.",
+    "description": "VMWare. Industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC.",
     "homepage": "https://www.vmware.com/products/workstation-pro.html",
     "architecture": {
         "64bit": {

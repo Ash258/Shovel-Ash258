@@ -1,8 +1,11 @@
 {
-    "version": "0.0.5-7077",
-    "description": "PS3 emulator/debugger",
+    "version": "0.0.5-7104",
+    "description": "RPCS3. PS3 emulator/debugger",
     "homepage": "https://rpcs3.net/",
-    "license": "GPL-2.0",
+    "license": {
+        "identifier": "GPL-2.0",
+        "url": "https://github.com/RPCS3/rpcs3/blob/master/LICENSE"
+    },
     "notes": [
         "Install firmware via 'File -> Install firmware'.",
         "Latest firmware file is located inside app directory ('PS3UPDAT.PUP').",
@@ -17,15 +20,19 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-f0a9799b4becb3156db78657c72b08022fddc3f8/rpcs3-v0.0.5-7077-f0a9799b_win64.7z",
+                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-a19113025c53b6bd86f74489f4d3048204505004/rpcs3-v0.0.5-7104-a1911302_win64.7z",
                 "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2017_1113_152d950c365ede4130c53ceb18dcd43b/PS3UPDAT.PUP"
             ],
             "hash": [
-                "3D048FDB2D3F088C6FDC42541E6CF6FE38E0C4E3612381081801917A0CE11502",
+                "E890877BAE5D05FF7C9BEDC3F8A1407DF143EC5A9985A85BF4ECE5CA9B57C95A",
                 "a70669bc35a5d688c94f5db8e1eb4110295b1b076ccc3c8e4a7e9ee397a6ca41"
             ]
         }
     },
+    "post_install": [
+        "$outFile = \"$dir\\GuiConfigs\\CurrentSettings.ini\"",
+        "Write-Output \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" | Out-File $outFile -Encoding ascii"
+    ],
     "persist": [
         "dev_hdd0",
         "GuiConfigs",

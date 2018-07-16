@@ -1,15 +1,23 @@
 {
     "version": "10.2.0",
-    "description": "The most successful, frequently updated and 100% clean tool to permanently activate any version of Windows or Microsoft office within matter of seconds.",
+    "description": "KMSpico. The most successful, frequently updated and 100% clean tool to permanently activate any version of Windows or Microsoft office within matter of seconds.",
     "homepage": "https://forums.mydigitallife.net/threads/kmspico-official-thread.65739/",
-    "notes": "Automatic activation could be run via \"AutoPico.exe /silent\"",
+    "notes": [
+        "All needed Windows Defender exclusions were set.",
+        "Automatic activation could be run via \"AutoPico /silent\"",
+        "If you plan to use some different antivirus. Make sure to exclude all these:",
+        "\t..\\scoop\\apps\\KMS",
+        "\tC:\\Windows\\SECOH-QAD.dll)",
+        "\tC:\\Windows\\SECOH-QAD.exe)",
+        "🎉🎉You are all clear and ready to go 😍🎉🎉"
+    ],
     "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/kmi.exe",
     "hash": "64c731adbe1b96cb5765203b1e215093dcf268d020b299445884a4ae62ed2d3a",
     "pre_install": [
         "Add-MpPreference -ExclusionPath $dir",
+        "Write-Host 'Disabling Realtime Defender Protection' -f Yellow",
         "Set-MpPreference -DisableRealtimeMonitoring $true"
     ],
-    "bin": "AutoPico.exe",
     "installer": {
         "args": [
             "/VERYSILENT",
@@ -24,7 +32,8 @@
         "Add-MpPreference -ExclusionProcess $dir\\KMSELDI.exe",
         "Add-MpPreference -ExclusionProcess $env:windir\\SECOH-QAD.exe",
         "Add-MpPreference -ExclusionPath $env:windir\\SECOH-QAD.dll",
-        "Set-MpPreference -DisableRealtimeMonitoring $false"
+        "Set-MpPreference -DisableRealtimeMonitoring $false",
+        "Write-Host 'Realtime Defender Protection Enabled' -f Yellow"
     ],
     "uninstaller": {
         "file": "unins000.exe",
@@ -32,10 +41,14 @@
             "/VERYSILENT"
         ]
     },
+    "persist": [
+        "TokensBackup"
+    ],
+    "bin": "AutoPico.exe",
     "shortcuts": [
         [
             "KMSELDI.exe",
-            "KMS"
+            "KMSpico"
         ]
     ],
     "checkver": {

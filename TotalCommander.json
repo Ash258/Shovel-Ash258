@@ -1,7 +1,11 @@
 {
     "version": "9.20",
-    "description": "Shareware file manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10, and Windows® 3.1.",
+    "description": "Total Commander. File manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10, and Windows® 3.1.",
     "homepage": "https://www.ghisler.com/",
+    "license": {
+        "identifier": "ShareWare",
+        "url": "https://www.ghisler.com/privacypolicy.htm"
+    },
     "notes": "e143436e2f9183a650424d635b535e51",
     "architecture": {
         "64bit": {
@@ -30,9 +34,11 @@
         "Get-ChildItem -Path $dir -Exclude cosi | Remove-Item",
         "Move-Item -Path $dir\\cosi\\* -Destination $dir",
         "Remove-Item -Path $dir\\cosi -Force -Recurse",
-        "if(!(Test-Path $persist_dir\\wincmd.key)) { Write-Host 'Key does not exist' -f Yellow; Add-Content $dir\\wincmd.key $null }"
+        "#if(!(Test-Path $persist_dir\\wincmd.key)) { Write-Host 'Key does not exist' -f Yellow; Add-Content $dir\\wincmd.key $null }"
     ],
-    "persist": "wincmd.key",
+    "persist": [
+        "wincmd.key"
+    ],
     "checkver": {
         "url": "https://www.ghisler.com/download.htm",
         "re": "Download version ((\\d+\\.?){2}) of Total Commander"

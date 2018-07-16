@@ -1,19 +1,29 @@
 {
     "version": "2018.07.06",
-    "description": "Easy way to get up and running with the TeX document production system.",
+    "description": "Tex Live. Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.tug.org/texlive/LICENSE.TL"
+    },
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
     "hash": "sha512:db7a8f820eda693135d72459d019b8ad2091b11ee7c5ecba10467f478c85996e3699c44ace59a4e85f52cc653d62b0f255f6fd5a4ab89ffb6b92f7393fe1b8a4",
     "extract_dir": "install-tl-20180706",
     "extract_to": "cosi",
     "pre_install": [
-        "$newDir = $($dir.Path.Replace('\\','/'))",
+        "$newDir = $dir.Path.Replace('\\','/')",
         "$outFile = \"$dir\\texlive.profile\"",
+        "if (Test-Path $persist_dir) { ",
+        "    Write-Host 'Previous version was found.' -f Yellow",
+        "    $newDir = $persist_dir.Path.Replace('\\', '/')",
+        "} else {",
+        "    Write-Host 'No previous version found.' -f Yellow",
+        "}",
         "Write-Output \"TEXDIR $newDir\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFSYSVAR $newDir/texmf-var\" | Out-File $outFile -Append -Encoding ascii",
-        "Write-Output (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $outFile -Append -Encoding ascii"
+        "Write-Output (New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') | Out-File $outFile -Append -Encoding ascii"
     ],
     "installer": {
         "file": "cosi\\install-tl-advanced.bat",
@@ -23,13 +33,14 @@
             "-profile $dir\\texlive.profile"
         ]
     },
+    "post_install": "Remove-Item $dir\\cosi -Force -Recurse",
     "persist": [
+        "bin",
         "texmf-config",
         "texmf-dist",
         "texmf-local",
         "texmf-var"
     ],
-    "post_install": "Remove-Item $dir\\cosi -Force -Recurse",
     "env_add_path": "$dir\\bin\\win32",
     "checkver": {
         "url": "http://mirrors.nic.cz/tex-archive/systems/texlive/tlnet",

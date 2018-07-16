@@ -1,0 +1,17 @@
+{
+    "version": "3.14.0.139",
+    "description": "Nvidia GeForce Experience. Perfect companion to your GeForce® GTX graphics card.",
+    "homepage": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
+    "url": "https://us.download.nvidia.com/GFE/GFEClient/3.14.0.139/GeForce_Experience_v3.14.0.139.exe",
+    "hash": "bc1cf1c63d2f95b277d590f58982726591c5fe970af308d6989e6e01cb27a491",
+    "shortcuts": [
+        [
+            "NVIDIA GeForce Experience.exe",
+            "GeForce Experience"
+        ]
+    ],
+    "checkver": "GFE/GFEClient/.*/GeForce_Experience_v((\\d+\\.?){4})\\.exe",
+    "autoupdate": {
+        "url": "https://us.download.nvidia.com/GFE/GFEClient/$version/GeForce_Experience_v$version.exe"
+    }
+}

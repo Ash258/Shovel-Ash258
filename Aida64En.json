@@ -1,6 +1,6 @@
 {
     "version": "5.97.4600",
-    "description": "Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers.",
+    "description": "Aida. Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers.",
     "homepage": "https://www.aida64.com/products/aida64-engineer",
     "url": [
         "http://download.aida64.com/aida64engineer597.zip",
@@ -10,9 +10,7 @@
         "3da27dd323e2b28e054b04a0539172b998910f767163aeec8a28fdf217302f35",
         "61f8bb66520310acc677963b01f5699773dd7be9d6685c9570d064d24960ad8a"
     ],
-    "persist": [
-        "pkey.txt"
-    ],
+    "persist": "pkey.txt",
     "shortcuts": [
         [
             "aida64.exe",
@@ -21,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://www.aida64.com/downloads/ZjAyYjhmNmQ=",
-        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(.*\\)"
+        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(\\w{3}.*\\)"
     },
     "autoupdate": {
         "url": "http://download.aida64.com/aida64engineer$match2$match3.zip"

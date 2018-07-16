@@ -1,6 +1,6 @@
 {
     "version": "1.7.12845",
-    "description": "A multimedia software player developed for the Microsoft Windows operating system.",
+    "description": "PotPlayer. A multimedia software player developed for the Microsoft Windows operating system.",
     "homepage": "https://potplayer.daum.net/",
     "architecture": {
         "64bit": {

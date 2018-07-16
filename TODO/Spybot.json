@@ -1,0 +1,30 @@
+{
+    "version": "2.7.64.0",
+    "description": "Spybot Seach & Destroy. Free internet security program for removal of malware, spyware, and adware to ensure that the files and data of our users is kept secure and private.",
+    "homepage": "https://www.safer-networking.org/",
+    "url": "https://updates2.safer-networking.org/spybot1/spybotsd-2.7.64.0.exe",
+    "hash": "md5:5424F682BAD5ADF3F7897E2CDA3DBE46",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.softpedia.com/progChangelog/SpyBotSearch-Destroy-Changelog-1865.html",
+        "re": "What's new in SpyBot - Search & Destroy ((\\d+\\.?){5})"
+    },
+    "autoupdate": {
+        "url": "https://updates2.safer-networking.org/spybot1/spybotsd-$version.exe",
+        "hash": {
+            "url": "https://www.safer-networking.org/dl/",
+            "find": "\\(MD5 sum: ([A-f\\d]{32})\\)"
+        }
+    }
+}

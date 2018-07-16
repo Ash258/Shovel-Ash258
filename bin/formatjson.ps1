@@ -1,4 +1,4 @@
-if(!$env:SCOOP_HOME) { $env:SCOOP_HOME = resolve-path (scoop prefix scoop) }
-$formatjson = "$env:SCOOP_HOME/bin/formatjson.ps1"
-$path = "$psscriptroot/.." # checks the parent dir
-iex -command "$formatjson -path $path $($args |% { "$_ " })"
+if(!$env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+$formatjson = "$env:SCOOP_HOME\bin\formatjson.ps1"
+$dir = "$PSScriptRoot\.."
+iex -command "$formatjson -path $dir $($args |% { "$_ " })"

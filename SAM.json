@@ -1,7 +1,11 @@
 {
     "version": "7.0.16",
-    "description": "A manager for game achievements in Steam.",
-    "license": "Zlib",
+    "description": "Steam Achievement Mangager. A manager for game achievements in Steam.",
+    "homepage": "https://github.com/gibbed/SteamAchievementManager",
+    "license": {
+        "identifier": "Zlib",
+        "url": "https://github.com/gibbed/SteamAchievementManager/blob/master/LICENSE.txt"
+    },
     "url": "https://github.com/gibbed/SteamAchievementManager/releases/download/7.0.16/SteamAchievementManager-7.0.16.zip",
     "hash": "5a5a2a2489e23457bab85b7ec1c2a1d3071e4c3c8b1909d4150b35b24c879976",
     "post_install": [
