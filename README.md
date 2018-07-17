@@ -28,7 +28,7 @@
 | [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ❌      | 💯       | 💯 (💯)           |
 | [Steam **(Steam)**](./Steam.json)                                                       | 💯     | ⭕        | ⭕ (❌)             |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | 💯     | 💯       | 💯 (❌)            |
-| [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | 💯     | 💯       | 💯 (💯)           |
+| [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | 💯     | 💯       | 💯 (❌)            |
 | [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | 💯     | ✔        | ❌ (❌)             |
 | [Texlive **(Texlive)**](./Texlive.json)                                                 | ✔      | 💯       | ✔ (💯)            |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                           | 💯     | 💯       | 💯 (❌)            |
