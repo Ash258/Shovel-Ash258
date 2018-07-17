@@ -36,6 +36,7 @@
         "Remove-Item -Path \"$dir\\cosi\" -Force -Recurse",
         "Remove-Item -Path \"$dir\\e\" -Force -Recurse",
         "Remove-Item -Path \"$dir\\d\" -Force -Recurse",
+        "    #Creating default settings",
         "if(!(Test-Path \"$persist_dir\\wincmd.key\")) { Write-Host 'Key does not exist' -f Yellow; Add-Content \"$dir\\wincmd.key\" $null }"
     ],
     "persist": [
