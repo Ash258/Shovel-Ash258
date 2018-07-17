@@ -38,7 +38,7 @@
 
 # TODO
 
-| App name (Scoop name)                                                      | Tested | Checkver | Autoupdate (Hash) |
+| App name **(Scoop name)**                                                  | Tested | Checkver | Autoupdate (Hash) |
 | -------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [TeamSpeak3 **(TS3)**](./TODO/TS3.json)                                    | ❌      | 💯       | ✔ (💯)            |
 | [Spybot Search & Destroy **(Spybot)**](./TODO/Spybot.json)                 | ❌      | ✔        | ✔ (💯)            |
@@ -61,12 +61,10 @@
 - [ ] Test X3 install
 - [ ] Steam
     - [ ] Check if uninstaller /S remove steamapps folder
-- [ ] VScode
 
-- [ ] Rambox Pro
-    - [ ] Wait for official release
-    - [ ] Verify autoupdate
-- [ ] TeamSpeak 5
+- [ ] Wait for official release
+    - [ ] Rambox Pro
+    - [ ] TeamSpeak 5
 - VM Testing
     - [ ] VMWare
         - INSTALLDIR is fucking with me
