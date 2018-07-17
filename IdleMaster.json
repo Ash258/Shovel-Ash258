@@ -1,5 +1,5 @@
 {
-    "version": "1.1.1",
+    "version": "1.2",
     "description": "Idle Master. Get your Steam Trading Cards the Fast Way (Fast Mode Extension).",
     "homepage": "http://www.steamidlemaster.com/",
     "license": {
@@ -7,9 +7,9 @@
         "url": "https://github.com/JonasNilson/idle_master_extended/blob/master/LICENSE"
     },
     "notes": "Using forked repo until original version will be used.",
-    "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v1.1.1/idle_master_extended_v1.1.1.zip",
+    "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v1.2/idle_master_extended_v1.2.zip",
     "hash": "md5:9898EA4E0ECB226580B99F528FAD0481",
-    "extract_dir": "idle_master_extended_v1.1.1",
+    "extract_dir": "idle_master_extended_v1.2",
     "pre_install": [
         "if(!(Test-Path \"$persist_dir\\IdleMaster.exe.config\")) { Write-Host 'Config file does not exist.' -f Yellow; Add-Content \"$dir\\IdleMaster.exe.config\" $null }"
     ],
