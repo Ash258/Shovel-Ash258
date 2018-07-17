@@ -33,7 +33,7 @@
             "-profile $dir\\texlive.profile"
         ]
     },
-    "post_install": "Remove-Item $dir\\cosi -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\cosi\" -Force -Recurse",
     "persist": [
         "bin",
         "texmf-config",

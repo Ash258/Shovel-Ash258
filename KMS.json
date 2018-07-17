@@ -14,7 +14,7 @@
     "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/kmi.exe",
     "hash": "64c731adbe1b96cb5765203b1e215093dcf268d020b299445884a4ae62ed2d3a",
     "pre_install": [
-        "Add-MpPreference -ExclusionPath $dir",
+        "Add-MpPreference -ExclusionPath \"$dir\"",
         "Write-Host 'Disabling Realtime Defender Protection' -f Yellow",
         "Set-MpPreference -DisableRealtimeMonitoring $true"
     ],
@@ -27,11 +27,11 @@
         ]
     },
     "post_install": [
-        "Add-MpPreference -ExclusionProcess $dir\\Service_KMS.exe",
-        "Add-MpPreference -ExclusionProcess $dir\\Autopico.exe",
-        "Add-MpPreference -ExclusionProcess $dir\\KMSELDI.exe",
-        "Add-MpPreference -ExclusionProcess $env:windir\\SECOH-QAD.exe",
-        "Add-MpPreference -ExclusionPath $env:windir\\SECOH-QAD.dll",
+        "Add-MpPreference -ExclusionProcess \"$dir\\Service_KMS.exe\"",
+        "Add-MpPreference -ExclusionProcess \"$dir\\Autopico.exe\"",
+        "Add-MpPreference -ExclusionProcess \"$dir\\KMSELDI.exe\"",
+        "Add-MpPreference -ExclusionProcess \"$env:windir\\SECOH-QAD.exe\"",
+        "Add-MpPreference -ExclusionPath \"$env:windir\\SECOH-QAD.dll\"",
         "Set-MpPreference -DisableRealtimeMonitoring $false",
         "Write-Host 'Realtime Defender Protection Enabled' -f Yellow"
     ],

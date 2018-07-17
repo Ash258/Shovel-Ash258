@@ -20,7 +20,7 @@
         }
     },
     "pre_install": [
-        "if(!(Test-Path $persist_dir\\rarreg.key)) { Write-Host 'Key does not exist' -f Yellow; Add-Content $dir\\rarreg.key $null }"
+        "if(!(Test-Path \"$persist_dir\\rarreg.key\")) { Write-Host 'Key does not exist' -f Yellow; Add-Content \"$dir\\rarreg.key\" $null }"
     ],
     "persist": "rarreg.key",
     "env_add_path": "$dir",

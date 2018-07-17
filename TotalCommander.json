@@ -30,13 +30,13 @@
         }
     },
     "pre_install": [
-        "extract_7zip $dir\\INSTALL.CAB $dir\\cosi",
-        "Get-ChildItem -Path $dir -Exclude cosi | Remove-Item",
-        "Move-Item -Path $dir\\cosi\\* -Destination $dir",
-        "Remove-Item -Path $dir\\cosi -Force -Recurse",
-        "Remove-Item -Path $dir\\e -Force -Recurse",
-        "Remove-Item -Path $dir\\d -Force -Recurse",
-        "if(!(Test-Path $persist_dir\\wincmd.key)) { Write-Host 'Key does not exist' -f Yellow; Add-Content $dir\\wincmd.key $null }"
+        "extract_7zip \"$dir\\INSTALL.CAB\" \"$dir\\cosi\"",
+        "Get-ChildItem -Path \"$dir\" -Exclude cosi | Remove-Item",
+        "Move-Item -Path \"$dir\\cosi\\*\" -Destination \"$dir\"",
+        "Remove-Item -Path \"$dir\\cosi\" -Force -Recurse",
+        "Remove-Item -Path \"$dir\\e\" -Force -Recurse",
+        "Remove-Item -Path \"$dir\\d\" -Force -Recurse",
+        "if(!(Test-Path \"$persist_dir\\wincmd.key\")) { Write-Host 'Key does not exist' -f Yellow; Add-Content \"$dir\\wincmd.key\" $null }"
     ],
     "persist": [
         "wincmd.key"
