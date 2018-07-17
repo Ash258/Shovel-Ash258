@@ -1,0 +1,89 @@
+{
+    "New app String": {
+        "prefix": "app",
+        "scope": "json,jsonc",
+        "body": [
+            "{",
+            "\t\"version\": \"$1\",",
+            "\t\"description\": \"$2\",",
+            "\t\"homepage\": \"$3\",",
+            "\t\"license\": \"$4\",",
+            "\t\"notes\": \"$5\",",
+            "\t\"depends\": \"$6\",",
+            "\t\"url\": \"$7\",",
+            "\t\"hash\": \"$8\",",
+            "\t\"bin\": \"$9\",",
+            "\t\"shortcuts\": [",
+            "\t\t[",
+            "\t\t\t\"$10.exe\",",
+            "\t\t\t\"$11\"",
+            "\t\t]",
+            "\t],",
+            "\t\"checkver\":\"$12\",",
+            "\t\"autoupdate\": {",
+            "\t\t\"url\": \"$3\"",
+            "\t}",
+            "}\n"
+        ]
+    },
+    "New app Arch": {
+        "prefix": "appA",
+        "scope": "json,jsonc",
+        "body": [
+            "{",
+            "\t\"version\": \"$1\",",
+            "\t\"description\": \"$2\",",
+            "\t\"homepage\": \"$3\",",
+            "\t\"architecture\": {",
+            "\t\t\"64bit\": {",
+            "\t\t\t\"url\": \"$4\",",
+            "\t\t\t\"hash\": \"$5\"",
+            "\t\t},",
+            "\t\t\"32bit\": {",
+            "\t\t\t\"url\": \"$6\",",
+            "\t\t\t\"hash\": \"$7\"",
+            "\t\t}",
+            "\t},",
+            "\t\"bin\": \"$8\",",
+            "\t\"shortcuts\": [",
+            "\t\t[",
+            "\t\t\t\"$9.exe\",",
+            "\t\t\t\"$10\"",
+            "\t\t]",
+            "\t]",
+            "}\n"
+        ]
+    },
+    "New Architecture": {
+        "prefix": "arch",
+        "scope": "json,jsonc",
+        "body": [
+            "\"architecture\": {",
+            "\t\"64bit\": {",
+            "\t\t\"url\": \"$1\",",
+            "\t\t\"hash\": \"$2\"",
+            "\t},",
+            "\t\"32bit\": {",
+            "\t\t\"url\": \"$3\",",
+            "\t\t\"hash\": \"$4\"",
+            "\t}",
+            "},"
+        ]
+    },
+    "New Autoupdate with Arch": {
+        "prefix": "upar",
+        "scope": "json,jsonc",
+        "body": [
+            "\"autoupdate\": {",
+            "\t\"architecture\": {",
+            "\t\t\"64bit\": {",
+            "\t\t\t\"url\": \"$1\"",
+            "\t\t},",
+            "\t\t\"32bit\": {",
+            "\t\t\t\"url\": \"$2\"",
+            "\t\t}",
+            "\t}",
+            "}"
+        ]
+    }
+}

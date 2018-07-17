@@ -4,7 +4,7 @@
     "homepage": "",
     "license": {
         "identifier": "",
-        "url": ""
+        "url": "" // Whener it\s possile attach program specific URL otherwise dont use
     },
     "notes": [
         ""
@@ -17,12 +17,11 @@
             ""
         ]
     },
-    "architecture": { // Or platform specific below
+    "architecture": { // Or platform specific below (URL, Hash, extract)
         "64bit": {
             "url": "",
             "hash": "",
-            "extract_dir": "",
-            "extract_to": ""
+            "extract_dir": ""
         },
         "32bit": {
             "url": "",
@@ -30,11 +29,12 @@
             "extract_dir": ""
         }
     },
+    "extract_to": "",
     "pre_install": [
         ""
     ],
     "installer": {
-        "file": "",
+        "file": "", // Not needed to be specified
         "args": [
             ""
         ]
@@ -65,6 +65,9 @@
     ],
     "checkver": "",
     "autoupdate": {
-        "url": ""
+        "url": "",
+        "hash": { // Some vendors doesnt ship hashes
+            "url": ""
+        }
     }
 }
