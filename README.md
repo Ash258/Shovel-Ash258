@@ -37,7 +37,7 @@
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | 💯     | ✔        | ❌ (❌)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | 💯     | 💯       | 💯 (⛔)            |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | 💯     | 💯       | 💯 (⛔)            |
-| [X3 Bold Red Cursor **(X3)**](./X3.json)                                                | 💯     | ⭕        | ⭕ (⭕)             |
+| [X3 Bold Red Cursor **(X3)**](./X3.json)                                                | ❌      | ⭕        | ⭕ (⭕)             |
 
 # TODO
 
