@@ -1,5 +1,5 @@
 param(
-    [String] $manifest = "",
+    [String] $manifest = "*",
     [String] $dir = "$PSScriptRoot\..",
     [Parameter(ValueFromRemainingArguments = $True)]
     [String] $rest = ""
