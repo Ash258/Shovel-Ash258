@@ -1,0 +1,29 @@
+{
+    "version": "4.1.21.2018",
+    "description": "BlueStacks App Player. Easy way to run mobile apps fast and fullscreen on Windows and Mac.",
+    "homepage": "https://www.bluestacks.com/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://cdn3.bluestacks.com/downloads/4.1.21.2018/BlueStacks-Installer_BS3_native.exe",
+    "hash": "2fda7a459869942d274598ec0ee21c0dec2a4306b9132ea2bf5595a048aadd85",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": {
+        "url": "https://en.wikipedia.org/wiki/BlueStacks",
+        "re": "Stable release</a></th><td>\\s*<div.*>((\\d+\\.?){4})"
+    },
+    "autoupdate": {
+        "url": "https://cdn3.bluestacks.com/downloads/$version/BlueStacks-Installer_BS3_native.exe"
+    }
+}

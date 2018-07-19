@@ -1,0 +1,33 @@
+{
+    "version": "1.0.77.338",
+    "description": "Spotify. Music streaming service.",
+    "homepage": "https://www.spotify.com/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "notes": [
+        "Spotify uses custom installdir which cannot be changed.",
+        "Install files could be removed with \"scoop uninstall Spotify\"."
+    ],
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "hash": "f907b9b1783327858914db34bd11b8fc74815580d87f643654d714cfa24a0b78",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Spotify.exe",
+            "Spotify"
+        ]
+    ],
+    "checkver": {
+        "url": "https://en.wikipedia.org/wiki/Spotify#Platforms",
+        "re": "Windows</th><td>\\s*((\\d+\\.?){4}) / \\d+"
+    },
+    "autoupdate": {
+        "url": "http://download.spotify.com/SpotifyFullSetup.exe"
+    }
+}

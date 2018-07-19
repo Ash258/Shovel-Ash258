@@ -1,20 +1,22 @@
 {
     "version": "",
     "description": "Team Speak.",
-    "homepage": "",
-    "license": "",
-    "notes": "",
-    "depends": "",
+    "homepage": "https://www.teamspeak.com/en/",
+    "license": {
+        "identifier": "Freeware"
+    },
     "url": "",
     "hash": "",
-    "bin": "",
     "shortcuts": [
         [
             ".exe",
             ""
         ]
     ],
-    "checkver": "",
+    "checkver": {
+        "url": "",
+        "re": ""
+    },
     "autoupdate": {
         "url": ""
     }
