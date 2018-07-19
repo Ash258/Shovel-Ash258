@@ -24,7 +24,10 @@
             ]
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    ],
+    "persist": "config",
     "checkver": {
         "url": "https://www.teamspeak.com/en/downloads",
         "re": "<h3>\\s+Client 64-bit\\s+<span.*>\\s+((\\d+\\.?){3})\\s+</span>"
