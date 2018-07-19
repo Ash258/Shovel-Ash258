@@ -14,6 +14,7 @@
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | 💯     | 💯       | 💯 (⛔)            |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | 💯     | 💯       | 💯 (⛔)            |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
+| [FastStone Image Viewer **(FastStoneImage)**](./FastStoneImage.json)                    | ✔      | ✔        | ✔ (❌)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | 💯     | ❌        | ❌ (❌)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | 💯     | ✔        | ✔ (⛔)             |
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                   | ✔      | ✔        | ✔ (⛔)             |
@@ -30,8 +31,10 @@
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | 💯     | 💯       | 💯 (⛔)            |
 | [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | 💯     | 💯       | 💯 (⛔)            |
 | [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | 💯     | ✔        | ❌ (⛔              |
+| [TeamSpeak3 **(TS3)**](./TS3.json)                                                      | 💯     | 💯       | 💯 (💯)           |
 | [Texlive **(Texlive)**](./Texlive.json)                                                 | ✔      | 💯       | ✔ (💯)            |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                           | 💯     | 💯       | 💯 (⛔)            |
+| [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | 💯     | ✔        | ❌ (❌)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | 💯     | 💯       | 💯 (⛔)            |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | 💯     | 💯       | 💯 (⛔)            |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                | 💯     | ⭕        | ⭕ (⭕)             |
@@ -40,14 +43,11 @@
 
 | App name **(Scoop name)**                                                  | Tested | Checkver | Autoupdate (Hash) |
 | -------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [TeamSpeak3 **(TS3)**](./TODO/TS3.json)                                    | ❌      | 💯       | ✔ (💯)            |
 | [Spybot Search & Destroy **(Spybot)**](./TODO/Spybot.json)                 | ❌      | ✔        | ✔ (💯)            |
-| [FastStone Image Viewer **(FastStoneImage)**](./TODO/FastStoneImage.json)  | ❌      | ✔        | ✔ (❌)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                  | ❌      | ✔ 🔸     | ✔ (💯)            |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json) | ❌      | ✔ 🔸     | ✔ (❌)             |
 | [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)               | ❌      | ❌        | ✔ (❌)             |
 | [Nox App Player **(Nox)**](./TODO/Nox.json)                                | ❌      | ❌        | ✔ (❌)             |
-| [WinAIO Maker Professional **(WinAIO)**](./TODO/WinAIO.json)               | ❌      | ❌        | ❌ (❌)             |
 | ---                                                                        | ---    | ---      | ---               |
 | [Corsair's iCue **(iCue)**](./TODO/iCue.json)                              | ❌      | ❌        | ❌ (❌)             |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                        | ❌      | ❌        | ❌ (❌)             |
