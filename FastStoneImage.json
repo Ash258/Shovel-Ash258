@@ -1,7 +1,7 @@
 {
     "version": "6.5",
-    "description": "FastStone Image Viewer. An image browser, converter and editor that supports",
-    "homepage": "http://www.faststone.org/index.htm",
+    "description": "FastStone Image Viewer. An image browser, converter and editor that supports all major graphic formats.",
+    "homepage": "http://www.faststone.org/",
     "license": {
         "identifier": "Freeware"
     },
