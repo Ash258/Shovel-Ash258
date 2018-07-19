@@ -1,0 +1,18 @@
+{
+    "version": "1.3",
+    "description": "WinAIO Maker Professional. Professional tool to manage, configure, edit and delete Images into WIMs, being possible, make a Bootable.",
+    "homepage": "https://download.cnet.com/WinAIO-Maker-Professional/3000-2094_4-75605123.html",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://files.downloadnow.com/s/software/12/28/56/18/WinAIO%20Maker%20Professional.7z?token=1532014364_2276f7d93faf04ca0c3d09f575eda1aa&fileName=WinAIO%20Maker%20Professional.7z",
+    "hash": "81ce6d8acd3b163958f29684f6b4975c89a439622aedad12cad613c1b8ab1c72",
+    "extract_dir": "WinAIO Maker Professional",
+    "shortcuts": [
+        [
+            "WinAIO Maker Professional v1.3.exe",
+            "WinAIO Maker Professional"
+        ]
+    ],
+    "checkver": "<td>Version</td>\\s*<td>((\\d+\\.?){2})</td>"
+}
