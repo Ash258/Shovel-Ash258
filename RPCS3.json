@@ -46,13 +46,13 @@
     ],
     "checkver": {
         "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
-        "re": "<a href=\".*/build-((\\w{8})\\w{32})/rpcs3-v(((\\d+\\.?){3}-(\\d{4}))-.*)_.*\">",
-        "replace": "$4"
+        "re": "<a href=\".*/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v((?<mainVersion>(\\d+\\.?){3}-(\\d{4}))-.*)_.*\">",
+        "replace": "${mainVersion}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$match1/rpcs3-v$version-$match2_win64.7z",
+                "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$matchCommit/rpcs3-v$version-$matchCosi_win64.7z",
                 "hash": {
                     "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
                     "find": "<p>([A-f\\d]{64});.*</p>"
