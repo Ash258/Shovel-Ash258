@@ -1,5 +1,5 @@
 {
-    "version": "afc3d77e7cfc6534ba05c52f5e1289cbecd58b3d",
+    "version": "26e5a55cd8452477bfb7a472ea9475761600adf0",
     "description": "Microsoft Visual Studio Code Insiders. New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/insiders",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/afc3d77e7cfc6534ba05c52f5e1289cbecd58b3d/VSCode-win32-x64-1.26.0-insider.zip",
-            "hash": "ca6878ea68c3bb30b8baf97df3e1f8e8bfcfc1b57b74d9f36230555a02e6afbf"
+            "url": "https://az764295.vo.msecnd.net/insider/26e5a55cd8452477bfb7a472ea9475761600adf0/VSCode-win32-x64-1.26.0-insider.zip",
+            "hash": "993d8cc52d5c5e218bf874682a5d4c7c3c0984ef30683a4d4a69f9dc398f7f98"
         },
         "32bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/afc3d77e7cfc6534ba05c52f5e1289cbecd58b3d/VSCode-win32-ia32-1.26.0-insider.zip",
-            "hash": "38f47d30c7a0906acdb3ba01b49cfd56643a48428eb7238999dc767cabdd77fa"
+            "url": "https://az764295.vo.msecnd.net/insider/26e5a55cd8452477bfb7a472ea9475761600adf0/VSCode-win32-ia32-1.26.0-insider.zip",
+            "hash": "1989fef11e17b5daaff33a3ffe41472cfa0cb072ca5af380f485b4cf6a7ebce7"
         }
     },
     "post_install": [
