@@ -33,13 +33,23 @@
         "extract_7zip \"$dir\\INSTALL.CAB\" \"$dir\\cosi\"",
         "Get-ChildItem -Path \"$dir\" -Exclude cosi | Remove-Item",
         "Move-Item -Path \"$dir\\cosi\\*\" -Destination \"$dir\"",
-        "Remove-Item -Path \"$dir\\cosi\" -Force -Recurse",
-        "Remove-Item -Path \"$dir\\e\" -Force -Recurse",
-        "Remove-Item -Path \"$dir\\d\" -Force -Recurse",
+        "Remove-Item -Path \"$dir\\cosi\", \"$dir\\e\", \"$dir\\d\" -Force -Recurse",
         "    #Creating default settings",
-        "if(!(Test-Path \"$persist_dir\\wincmd.key\")) { Write-Host 'Key does not exist' -f Yellow; Add-Content \"$dir\\wincmd.key\" $null }"
+        "function CreateFile([String] $file, [String] $content = $null) {",
+        "    $file = \"$persist_dir\\$file\"",
+        "    if(!(Test-Path $file)) { Write-Host \"No $(Split-Path $file -Leaf) exists. Creating.\" -f Yellow;Add-Content $file $content -Encoding ascii}",
+        "}",
+        "CreateFile 'DEFAULT.BAR'",
+        "CreateFile 'default.br2'",
+        "CreateFile 'wcx_ftp.ini'",
+        "CreateFile 'wincmd.ini' \"[Configuration]`r`nUseIniInProgramDir=7\"",
+        "CreateFile 'wincmd.key'"
     ],
     "persist": [
+        "DEFAULT.BAR",
+        "default.br2",
+        "wcx_ftp.ini",
+        "wincmd.ini",
         "wincmd.key"
     ],
     "checkver": {
