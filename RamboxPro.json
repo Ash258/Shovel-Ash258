@@ -21,7 +21,7 @@
     "post_install": "Remove-Item \"$dir\\app-64.7z\", \"$dir\\app-32.7z\"",
     "shortcuts": [
         [
-            "Rambox Pro.exe",
+            "RamboxPro.exe",
             "Rambox Pro"
         ]
     ],
