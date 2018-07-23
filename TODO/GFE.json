@@ -4,6 +4,18 @@
     "homepage": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
     "url": "https://us.download.nvidia.com/GFE/GFEClient/3.14.1.48/GeForce_Experience_v3.14.1.48.exe",
     "hash": "d983d5e6b4cf6d42f50b08debd1ecbf6fe3760c73c30aa3477a209bdeda496f9",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "",
+        "args": [
+            ""
+        ]
+    },
     "shortcuts": [
         [
             "NVIDIA GeForce Experience.exe",

@@ -11,7 +11,7 @@
         "Import-Module \"$dir\\SwitchUACLevel.psm1\""
     ],
     "checkver": {
-        "re": "<span id=\"LastUpdated\">\\s+((\\d+)/(\\d+)/(\\d{4}))</span>",
-        "replace": "$4.$2.$3"
+        "re": "<span id=\"LastUpdated\">\\s+((?<m>\\d+)/(?<d>\\d+)/(?<y>\\d{4}))</span>",
+        "replace": "${y}.${m}.${d}"
     }
 }

@@ -15,8 +15,8 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/orphamielautoclicker/files/?source=navbar",
-        "re": "AutoClicker\\.exe.*\\s+<td.*><abbr title=\"((\\d{4})-(\\d{2})-(\\d{2})).*UTC\">.*</abbr>",
-        "replace": "$2.$3.$4"
+        "re": "AutoClicker\\.exe.*\\s+<td.*><abbr title=\"((?<y>\\d{4})-(?<m>\\d{2})-(?<d>\\d{2})).*UTC\">.*</abbr>",
+        "replace": "${y}.${m}.${d}"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClicker.exe"

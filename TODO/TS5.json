@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://www.teamspeak.com/en/downloads#ts5",
-        "re": "Expected(.*)"
+        "re": "Expected:\\s*(.*)</"
     },
     "autoupdate": {
         "url": "#/cosi.7z"

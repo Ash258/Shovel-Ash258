@@ -7,7 +7,11 @@
     },
     "url": "https://www.fosshub.com/Classic-Shell.html/ClassicShellSetup_4_3_1.exe",
     "hash": "8bbd850fd8a2b41d090fbf8e005f9a5a76c774aca643318a8a34254f99f79ed8",
-    "bin": "",
+    "installer": {
+        "script": [
+            ""
+        ]
+    },
     "shortcuts": [
         [
             ".exe",

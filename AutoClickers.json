@@ -15,8 +15,8 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/orphamielautoclicker/files/?source=navbar",
-        "re": "AutoClickers\\.exe.*\\s+<td.*><abbr.*>((\\d+)-(\\d+)-(\\d+))</abbr>",
-        "replace": "$2.$3.$4"
+        "re": "AutoClickers\\.exe.*\\s+<td.*><abbr.*>((?<y>\\d+)-(?<m>\\d+)-(?<d>\\d+))</abbr>",
+        "replace": "${y}.${m}.${d}"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClickers.exe"
