@@ -17,7 +17,7 @@
 - License
     - **ALWAYS** use identifier property.
 - StringOrArrayOfStrings
-    - **ALWAYS** convert array with 1 string into normal string
+    - **ALWAYS** convert array with only 1 string into normal string.
 
 | App name (**Scoop name**)                                                               | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
@@ -77,5 +77,5 @@
 - 🔸 Additional testing is needed
 - ⭕ Not needed
 - ⛔ Not possible (need download)
-- VScode-insiders was changed to nightly in 172ee891b68597f6e940a9e3fd5fc1f3825f9e8a
+- VScode-insiders was changed to nightly in <https://github.com/Ash258/scoop-Ash258/commit/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a>
     - No need for checkver an autoupdate
