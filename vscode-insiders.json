@@ -1,5 +1,5 @@
 {
-    "version": "90fc7e66e2e10f643871b42f9c0f1f989d0ed221",
+    "version": "nightly",
     "description": "Microsoft Visual Studio Code Insiders. New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/insiders",
     "license": {
@@ -8,25 +8,48 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/90fc7e66e2e10f643871b42f9c0f1f989d0ed221/VSCode-win32-x64-1.26.0-insider.zip",
-            "hash": "3670d0b7ba5a8f6790b6ae99d53ec1a534dede8d382bc8ac170978c8631bcd4d"
+            "url": [
+                "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider#/cosi.zip",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            ]
         },
         "32bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/90fc7e66e2e10f643871b42f9c0f1f989d0ed221/VSCode-win32-ia32-1.26.0-insider.zip",
-            "hash": "26f648fe99397172b80200011a27b2a0bae21a010e505a01fc96415d3074e5f5"
+            "url": [
+                "https://vscode-update.azurewebsites.net/latest/win32-archive/insider#/cosi.zip",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            ]
         }
     },
     "post_install": [
         "$port = \"$dir\\data\"",
-        "if(!(Test-Path $port)) { ",
+        "$perst = \"$persist_dir\\data\"",
+        "    # Create data folder",
+        "if(!(Test-Path $perst)) { ",
         "    New-Item \"$port\\tmp\" -Type Directory -Force | Out-Null",
-        "    if(!(Test-Path \"$port\\user-data\")) { New-Item \"$port\\user-data\" -Type Directory | Out-Null }",
-        "    if(!(Test-Path \"$port\\extensions\")) { New-Item \"$port\\extensions\" -Type Directory | Out-Null }",
-        "}"
+        "    if(!(Test-Path \"$perst\\user-data\")) { New-Item \"$port\\user-data\" -Type Directory | Out-Null }",
+        "    if(!(Test-Path \"$perst\\extensions\")) { New-Item \"$port\\extensions\" -Type Directory | Out-Null }",
+        "}",
+        "    # Install Context file",
+        "$codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
+        "$content = Get-Content \"$dir\\vscode-install-context.reg\"",
+        "$content = $content.Replace('$code', $codepath)",
+        "$content = $content.Replace('&Code', 'Code &Insiders')",
+        "$content | Set-Content -Path \"$dir\\vscode-install-context.reg\"",
+        "    # Uninstall context file",
+        "$content = Get-Content \"$dir\\vscode-uninstall-context.reg\"",
+        "$content = $content.Replace('&Code', 'Code &Insiders')",
+        "$content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
+        "    # Apply context",
+        "regedit /s \"$dir\\vscode-install-context.reg\""
     ],
-    "persist": [
-        "data"
-    ],
+    "uninstaller": {
+        "script": [
+            "regedit /s \"$dir\\vscode-uninstall-context.reg\""
+        ]
+    },
+    "persist": "data",
     "bin": [
         "bin\\code-insiders.cmd",
         "Code - Insiders.exe"
@@ -36,27 +59,5 @@
             "Code - Insiders.exe",
             "Visual Studio Code Insiders"
         ]
-    ],
-    "checkver": {
-        "url": "https://code.visualstudio.com/sha?build=insider",
-        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].version"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://az764295.vo.msecnd.net/insider/$version/VSCode-win32-x64-1.26.0-insider.zip",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
-                }
-            },
-            "32bit": {
-                "url": "https://az764295.vo.msecnd.net/insider/$version/VSCode-win32-ia32-1.26.0-insider.zip",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
-                }
-            }
-        }
-    }
+    ]
 }
