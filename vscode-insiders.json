@@ -27,6 +27,7 @@
         "$port = \"$dir\\data\"",
         "    # Create data folder",
         "if(!(Test-Path \"$persist_dir\\data\")) { ",
+        "    Write-Host 'No user data folder exists' -f Yellow",
         "    New-Item \"$port\\tmp\", \"$port\\user-data\", \"$port\\extensions\" -Force -Type Directory | Out-Null",
         "}",
         "    # Create install context file",
