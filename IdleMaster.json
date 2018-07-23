@@ -6,12 +6,14 @@
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/JonasNilson/idle_master_extended/blob/master/LICENSE"
     },
-    "notes": "Using forked repo until original version will be used.",
+    "notes": "Using forked repo since original repo was discontinued.",
     "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v1.2/idle_master_extended_v1.2.zip",
     "hash": "2779aff96f82a11f42107962e30aca53677eb0e0399fab4d2e3bab75f5961e29",
     "extract_dir": "idle_master_extended_v1.2",
     "pre_install": [
-        "if(!(Test-Path \"$persist_dir\\IdleMaster.exe.config\")) { Write-Host 'Config file does not exist.' -f Yellow; Add-Content \"$dir\\IdleMaster.exe.config\" $null }"
+        "if(!(Test-Path \"$persist_dir\\IdleMaster.exe.config\")) {",
+        "    Write-Host 'Config file does not exist.' -f Yellow; Add-Content \"$dir\\IdleMaster.exe.config\" $null",
+        "}"
     ],
     "persist": "IdleMaster.exe.config",
     "shortcuts": [
