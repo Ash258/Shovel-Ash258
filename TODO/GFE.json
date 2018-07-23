@@ -12,6 +12,9 @@
     ],
     "checkver": "GFE/GFEClient/.*/GeForce_Experience_v((\\d+\\.?){4})\\.exe",
     "autoupdate": {
-        "url": "https://us.download.nvidia.com/GFE/GFEClient/$version/GeForce_Experience_v$version.exe"
+        "url": "https://us.download.nvidia.com/GFE/GFEClient/$version/GeForce_Experience_v$version.exe",
+        "hash": {
+            "url": "https://us.download.nvidia.com/GFE/GFEClient/$version/GeForce_Experience_v$version.exe.sha256"
+        }
     }
 }
