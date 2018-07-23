@@ -1,6 +1,6 @@
 {
     "version": "0.0.5-7123",
-    "description": "RPCS3. PS3 emulator/debugger",
+    "description": "RPCS3. PS3 emulator/debugger.",
     "homepage": "https://rpcs3.net/",
     "license": {
         "identifier": "GPL-2.0",
@@ -10,11 +10,11 @@
         "Install firmware via 'File -> Install firmware'.",
         "Latest firmware file is located inside app directory ('PS3UPDAT.PUP').",
         "HOW TO INSTALL GAME:",
-        "1.   Download game from 'http://psndl.net/packages'",
-        "2.         Both files are needed('Rap', 'Package)'",
-        "3.   Install via 'File -> Install .pkg'",
-        "4.   Copy RAP file and paste it into 'App dir\\dev_hdd0\\home\\00000001\\exdata'",
-        "5.   Enjoy the game <3"
+        "1.   Download games from 'http://psndl.net/packages'",
+        "1.1.         Both files ('Rap', 'Package') are needed",
+        "2.   Install via 'File -> Install .pkg'",
+        "3.   Copy RAP file and paste it into '$dir\\dev_hdd0\\home\\00000001\\exdata'",
+        "4.   Enjoy the game <3"
     ],
     "depends": "vcredist2015",
     "architecture": {

@@ -1,0 +1,51 @@
+{
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": {
+        "identifier": ""
+    },
+    "notes": "",
+    "depends": "",
+    "url": "",
+    "hash": "",
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            "Microsoft Office\\Word 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\Excel 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\PowerPoint 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\Access 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\ 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\ 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\ 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\ 2016"
+        ],
+        [
+            ".exe",
+            "Microsoft Office\\ 2016"
+        ]
+    ]
+}

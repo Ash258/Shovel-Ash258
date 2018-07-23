@@ -19,6 +19,7 @@
         "} else {",
         "    Write-Host 'No previous version found.' -f Yellow",
         "}",
+        "    # Create default profile",
         "Write-Output \"TEXDIR $newDir\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFLOCAL $newDir/texmf-local\" | Out-File $outFile -Append -Encoding ascii",
         "Write-Output \"TEXMFSYSCONFIG $newDir/texmf-config\" | Out-File $outFile -Append -Encoding ascii",

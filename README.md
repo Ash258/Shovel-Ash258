@@ -2,7 +2,22 @@
 
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
-[Recommended manifest format](./.vscode/Template.jsonc)
+- [Recommended manifest format](./.vscode/Template.jsonc)
+- Observe blocks chaining
+- Script Blocks
+    - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
+    - Comments
+        - Indent with 4 spaces.
+        - Append space after `#`
+        - `"    # Cosi",`
+- Description
+    - **ALWAYS** include app name at start.
+    - **ALWAYS** end with dot.
+        - `"App name. Meaningful description."`
+- License
+    - **ALWAYS** use identifier property.
+- StringOrArrayOfStrings
+    - **ALWAYS** convert array with 1 string into normal string
 
 | App name (**Scoop name**)                                                               | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
@@ -20,7 +35,7 @@
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                   | ✔      | ✔        | ✔ (⛔)             |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./KMCleaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [KMSpico **(KMS)**](./KMS.json)                                                         | ✔      | ✔❓       | ✔ (⛔)             |
-| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ✔        | ✔ (✔)             |
+| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ⭕        | ⭕ (⭕)             |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json)                | ✔      | ✔        | ✔ (⛔)             |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [Post Windows Installer **(PostInstall)**](./PostInstall.json)                          | ✔      | ✔        | ✔ (⛔)             |
@@ -62,3 +77,5 @@
 - 🔸 Additional testing is needed
 - ⭕ Not needed
 - ⛔ Not possible (need download)
+- VScode-insiders was changed to nightly in 172ee891b68597f6e940a9e3fd5fc1f3825f9e8a
+    - No need for checkver an autoupdate

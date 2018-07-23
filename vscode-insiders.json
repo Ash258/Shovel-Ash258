@@ -6,6 +6,7 @@
         "identifier": "MIT",
         "url": "https://code.visualstudio.com/license/insiders"
     },
+    "notes": "When there is vscode update available run 'scoop update vscode-insiders -f'",
     "architecture": {
         "64bit": {
             "url": [
@@ -31,21 +32,22 @@
         "    if(!(Test-Path \"$perst\\user-data\")) { New-Item \"$port\\user-data\" -Type Directory | Out-Null }",
         "    if(!(Test-Path \"$perst\\extensions\")) { New-Item \"$port\\extensions\" -Type Directory | Out-Null }",
         "}",
-        "    # Install Context file",
+        "    # Create install context file",
         "$codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
         "$content = Get-Content \"$dir\\vscode-install-context.reg\"",
         "$content = $content.Replace('$code', $codepath)",
         "$content = $content.Replace('&Code', 'Code &Insiders')",
         "$content | Set-Content -Path \"$dir\\vscode-install-context.reg\"",
-        "    # Uninstall context file",
+        "    # Create uninstall context file",
         "$content = Get-Content \"$dir\\vscode-uninstall-context.reg\"",
         "$content = $content.Replace('&Code', 'Code &Insiders')",
         "$content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
-        "    # Apply context",
+        "    # Apply context automatically",
         "regedit /s \"$dir\\vscode-install-context.reg\""
     ],
     "uninstaller": {
         "script": [
+            "    # Uninstall context menu",
             "regedit /s \"$dir\\vscode-uninstall-context.reg\""
         ]
     },

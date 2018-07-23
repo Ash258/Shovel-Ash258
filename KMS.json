@@ -41,9 +41,7 @@
             "/VERYSILENT"
         ]
     },
-    "persist": [
-        "TokensBackup"
-    ],
+    "persist": "TokensBackup",
     "bin": "AutoPico.exe",
     "shortcuts": [
         [

@@ -7,9 +7,7 @@
     "psmodule": {
         "name": "SwitchUACLevel"
     },
-    "post_install": [
-        "Import-Module \"$dir\\SwitchUACLevel.psm1\""
-    ],
+    "post_install": "Import-Module \"$dir\\SwitchUACLevel.psm1\"",
     "checkver": {
         "re": "<span id=\"LastUpdated\">\\s+((?<m>\\d+)/(?<d>\\d+)/(?<y>\\d{4}))</span>",
         "replace": "${y}.${m}.${d}"
