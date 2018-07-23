@@ -5,7 +5,7 @@
     "license": {
         "identifier": "Freeware"
     },
-    "url": "",
+    "url": "#/cosi.7z",
     "hash": "",
     "shortcuts": [
         [
@@ -14,10 +14,10 @@
         ]
     ],
     "checkver": {
-        "url": "",
-        "re": ""
+        "url": "https://www.teamspeak.com/en/downloads#ts5",
+        "re": "Expected(.*)"
     },
     "autoupdate": {
-        "url": ""
+        "url": "#/cosi.7z"
     }
 }
