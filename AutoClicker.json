@@ -5,8 +5,8 @@
     "license": {
         "identifier": "CC-BY-NC-2.0"
     },
-    "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClickers.exe",
-    "hash": "sha1:88036bf7a8956dd7f7e53ffabb6d29a7508060dc",
+    "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClicker.exe",
+    "hash": "sha1:a0afda31cf816d602db7b4100282f0834149ca8f",
     "shortcuts": [
         [
             "AutoClicker.exe",
@@ -19,6 +19,6 @@
         "replace": "$2.$3.$4"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClickers.exe"
+        "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClicker.exe"
     }
 }
