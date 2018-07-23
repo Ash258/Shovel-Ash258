@@ -3,7 +3,7 @@
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
 - [Recommended manifest format](./.vscode/Template.jsonc)
-- Observe blocks chaining
+- Observe blocks structure from Tamplate
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
     - Comments
