@@ -1,0 +1,24 @@
+{
+    "version": "nightly",
+    "description": "Firefox Developer Edition. Quantum firefox with latest features, fast performance, and the development tools you need to build for the open web.",
+    "homepage": "https://www.mozilla.org/en-US/firefox/developer/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=win64&lang=en-GB#/cosi.7z"
+        },
+        "32bit": {
+            "url": "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=win&lang=en-GB#/cosi.7z"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Developer Edition"
+        ]
+    ]
+}
