@@ -9,10 +9,10 @@
     "extract_dir": "update",
     "installer": {
         "script": [
-            "extract_7z \"$dir\\Update*.zip\" \"$dir\""
+            "extract_7z \"$dir\\OriginUpdate*.zip\" \"$dir\""
         ]
     },
-    "post_install": "Remove-Item \"$dir\\Update*.zip\" -Force",
+    "post_install": "Remove-Item \"$dir\\OriginUpdate*.zip\" -Force",
     "shortcuts": [
         [
             "Origin.exe",
