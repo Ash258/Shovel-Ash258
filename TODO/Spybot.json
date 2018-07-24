@@ -1,4 +1,5 @@
 {
+    "##": "App is started after installation. Need to be investigated.",
     "version": "2.7.64.0",
     "description": "Spybot Search & Destroy. Free internet security program for removal of malware, spyware, and adware to ensure that the files and data of users is kept secure and private.",
     "homepage": "https://www.safer-networking.org/",
@@ -15,13 +16,14 @@
     "uninstaller": {
         "file": "unins000.exe",
         "args": [
-            "/VERYSILENT"
+            "/VERYSILENT",
+            "/NORESTART"
         ]
     },
     "shortcuts": [
         [
-            ".exe",
-            ""
+            "SDWelcome.exe",
+            "Spybot Search & Destroy 2"
         ]
     ],
     "checkver": {
