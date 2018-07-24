@@ -9,7 +9,7 @@
     "extract_dir": "update",
     "installer": {
         "script": [
-            "extract_7z \"$dir\\OriginUpdate*.zip\" \"$dir\""
+            "extract_7zip \"$dir\\OriginUpdate*.zip\" \"$dir\""
         ]
     },
     "post_install": "Remove-Item \"$dir\\OriginUpdate*.zip\" -Force",
