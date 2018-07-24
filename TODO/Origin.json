@@ -5,10 +5,17 @@
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe#/cosi.7z",
+    "url": "https://download.dm.origin.com/origin/live/OriginSetup.exe#/cosi.7z",
+    "extract_dir": "update",
+    "installer": {
+        "script": [
+            "extract_7z \"$dir\\Update*.zip\" \"$dir\""
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\Update*.zip\" -Force",
     "shortcuts": [
         [
-            ".exe",
+            "Origin.exe",
             "Origin"
         ]
     ]
