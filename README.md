@@ -2,8 +2,8 @@
 
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
-- [Recommended manifest format](./.vscode/Template.jsonc)
-- Observe blocks structure from Tamplate
+- [Recommended manifest format](Template)
+- Observe blocks structure from [Template](Template)
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
     - Comments
@@ -59,22 +59,27 @@
 
 # TODO
 
-| App name **(Scoop name)**                                                  | Tested | Checkver | Autoupdate (Hash) |
-| -------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Spybot Search & Destroy **(Spybot)**](./TODO/Spybot.json)                 | ❌      | ✔        | ✔ (✔)             |
-| [VMware **(VMware)**](./TODO/VMware.json)                                  | ❌      | ✔ 🔸     | ✔ (✔)             |
-| [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json) | ❌      | ✔ 🔸     | ✔ (❌)             |
-| [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)               | ❌      | ❌        | ✔ (❌)             |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                | ❌      | ❌        | ✔ (❌)             |
-| ---                                                                        | ---    | ---      | ---               |
-| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                              | ❌      | ❌        | ❌ (❌)             |
-| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                        | ❌      | ❌        | ❌ (❌)             |
-| [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)       | ❌      | ✔        | ✔ (✔)             |
-| [Docker **(docker)**](./TODO/docker.json)                                  | ❌      | ❌        | ❌ (❌)             |
-| [CCleaner Professional **(CCleanerPro)**](./TODO/CCleanerPro.json)         | ❌      | ❌        | ❌ (❌)             |
-| [Google Chrome **(Chrome)**](./TODO/Chrome.json)                           | ❌      | ❌        | ❌ (❌)             |
-| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                      | ❌      | ❌        | ❌ (❌)             |
-| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                    | ❌      | ❌        | ❌ (❌)             |
+| App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
+| ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [Spybot Search & Destroy **(Spybot)**](./TODO/Spybot.json)                                | ❌      | ✔        | ✔ (✔)             |
+| [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔ 🔸     | ✔ (✔)             |
+| [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔ 🔸     | ✔ (❌)             |
+| [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)                              | ❌      | ❌        | ✔ (❌)             |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               | ❌      | ❌        | ✔ (❌)             |
+| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌      | ⭕        | ⭕ (⭕)             |
+| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) | ❌      | ⭕        | ⭕ (⭕)             |
+| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) | ❌      | ⭕        | ⭕ (⭕)             |
+| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌      | ⭕        | ⭕ (⭕)             |
+| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌      | ⭕        | ⭕ (⭕)             |
+| ---                                                                                       | ---    | ---      | ---               |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             | ❌      | ❌        | ❌ (❌)             |
+| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
+| [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)                      | ❌      | ✔        | ✔ (✔)             |
+| [Docker **(docker)**](./TODO/docker.json)                                                 | ❌      | ❌        | ❌ (❌)             |
+| [CCleaner Professional **(CCleanerPro)**](./TODO/CCleanerPro.json)                        | ❌      | ❌        | ❌ (❌)             |
+| [Google Chrome **(Chrome)**](./TODO/Chrome.json)                                          | ❌      | ❌        | ❌ (❌)             |
+| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
+| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌      | ❌        | ❌ (❌)             |
 
 - 💯 Tested over limit
 - 🔸 Additional testing is needed
@@ -83,3 +88,5 @@
 - ♻ Nightly
 - VScode-insiders was changed to nightly in [172ee89](https://github.com/Ash258/scoop-Ash258/commit/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a)
     - No need for checkver an autoupdate
+
+[Template]: ./.vscode/Template.jsonc
