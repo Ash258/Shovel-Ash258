@@ -2,8 +2,8 @@
 
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
-- [Recommended manifest format](Template)
-- Observe blocks structure from [Template](Template)
+- [Recommended manifest format][Template]
+- Observe blocks structure from [Template][Template]
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
     - Comments
