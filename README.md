@@ -30,12 +30,13 @@
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FastStone Image Viewer **(FastStoneImage)**](./FastStoneImage.json)                    | ✔      | ✔        | ✔ (❌)             |
+| [Firefox Developer Edition **(firefox-dev)**](./firefox-dev.json)                       | ✔      | ♻        | ♻ (♻)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (❌)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                   | ✔      | ✔        | ✔ (⛔)             |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./KMCleaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [KMSpico **(KMS)**](./KMS.json)                                                         | ✔      | ✔❓       | ✔ (⛔)             |
-| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ⭕        | ⭕ (⭕)             |
+| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ♻        | ♻ (♻)             |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json)                | ✔      | ✔        | ✔ (⛔)             |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [Post Windows Installer **(PostInstall)**](./PostInstall.json)                          | ✔      | ✔        | ✔ (⛔)             |
@@ -77,5 +78,6 @@
 - 🔸 Additional testing is needed
 - ⭕ Not needed
 - ⛔ Not possible (need download)
+- ♻ Nightly
 - VScode-insiders was changed to nightly in [172ee89](https://github.com/Ash258/scoop-Ash258/commit/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a)
     - No need for checkver an autoupdate
