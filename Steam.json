@@ -10,9 +10,9 @@
     },
     "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe",
     "pre_install": [
-        "if(!(Test-Path \"$persist_dir\\skins\")) { Write-Host 'No skins folder' -f Yellow; New-Item \"$dir\\skins\" -Type Directory }",
-        "if(!(Test-Path \"$persist_dir\\steamapps\")) { Write-Host 'No steamapps folder' -f Yellow; New-Item \"$dir\\steamapps\" -Type Directory }",
-        "if(!(Test-Path \"$persist_dir\\userdata\")) { Write-Host 'No userdata folder' -f Yellow; New-Item \"$dir\\userdata\" -Type Directory }"
+        "foreach ($fold in @(\"skins\", \"steamapps\", \"userdata\")) {",
+        "    if(!(Test-Path \"$persist_dir\\$fold\")) { Write-Host \"No $fold folder\" -f Yellow; New-Item \"$dir\\$fold\" -Type Directory | Out-Null }",
+        "}"
     ],
     "installer": {
         "args": [

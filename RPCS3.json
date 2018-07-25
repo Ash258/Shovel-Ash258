@@ -31,7 +31,7 @@
     },
     "post_install": [
         "$outFile = \"$dir\\GuiConfigs\\CurrentSettings.ini\"",
-        "Write-Output \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" | Out-File $outFile -Encoding ascii"
+        "Set-Content $outFile \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" -Encoding ascii"
     ],
     "persist": [
         "dev_hdd0",

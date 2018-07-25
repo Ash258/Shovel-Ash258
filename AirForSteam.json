@@ -20,7 +20,7 @@
             "    \"$dir\\Contributors.url\", \"$dir\\Changelog.url\", \"$dir\\.gitattributes\", \"$extras\\Fonts\", \"$extras\\Square Avatars\"",
             ")",
             "Copy-Item \"$extras\\Themes\\Dark\\*\" \"$dir\" -Force -Recurse",
-            "Remove-Item -LiteralPath $filesArray -Force -Recurse",
+            "Remove-Item $filesArray -Force -Recurse",
             "       # Replacing Default Theme",
             "$find = 'include \"resource/colors/sky.styles\"'",
             "$replace = \"//$find\"",
@@ -33,7 +33,7 @@
             "       # Enabling Friends shortcut",
             "$file = \"$dir\\Resource\\layout\\steamrootdialog.layout\"",
             "(Get-Content $file) -replace \"(\\sheight)=0`$\", '$1=30' | Set-Content $file",
-            "Remove-Item -LiteralPath $extras -Force -Recurse"
+            "Remove-Item $extras -Force -Recurse"
         ]
     },
     "checkver": {

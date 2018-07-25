@@ -13,7 +13,7 @@
     "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/v3.2.1/dwt-3.2.1-cp27-win_x86.zip",
     "hash": "d4c31d005c1a676e9867f4a2a553299e55aa0857626d25a1d7dd84b00e505757",
     "depends": "vcredist2015",
-    "post_install": "Remove-Item -LiteralPath \"$dir\\COPYING.LESSER\", \"$dir\\COPYING\"",
+    "post_install": "Remove-Item \"$dir\\COPYING.LESSER\", \"$dir\\COPYING\"",
     "bin": [
         [
             "DisableWinTracking.exe",
