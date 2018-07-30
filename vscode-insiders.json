@@ -1,6 +1,6 @@
 {
-    "version": "nightly",
-    "description": "Microsoft Visual Studio Code Insiders. New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
+    "version": "nightly-1.26.0-insider",
+    "description": "Microsoft Visual Studio Code - Insiders. New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/insiders",
     "license": {
         "identifier": "MIT",
@@ -13,6 +13,11 @@
                 "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider#/cosi.zip",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            ],
+            "hash": [
+                "dc2a228061ce356a4dcecce1f57adfbc07574f979a46979f789cca029f9102b8",
+                "c6c3d03e23e24a6ed4373eff4e876f33671bcb2ffc1a3a552f5df20671639bc6",
+                "3c4844429e002cfa7430aaea6db8bf761b2d2b466d62771df8d74ba962ee9d11"
             ]
         },
         "32bit": {
@@ -20,6 +25,11 @@
                 "https://vscode-update.azurewebsites.net/latest/win32-archive/insider#/cosi.zip",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            ],
+            "hash": [
+                "e9a147437543b9c21474df819be7fbced3773445313f59b635bdf1837b054b6f",
+                "c6c3d03e23e24a6ed4373eff4e876f33671bcb2ffc1a3a552f5df20671639bc6",
+                "3c4844429e002cfa7430aaea6db8bf761b2d2b466d62771df8d74ba962ee9d11"
             ]
         }
     },
@@ -59,5 +69,27 @@
             "Code - Insiders.exe",
             "Visual Studio Code - Insiders"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://code.visualstudio.com/sha?build=insider",
+        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider#cosi.zip",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=insider",
+                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
+                }
+            },
+            "32bit": {
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider#cosi.zip",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=insider",
+                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
+                }
+            }
+        }
+    }
 }
