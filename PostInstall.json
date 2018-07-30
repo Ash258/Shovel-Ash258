@@ -1,7 +1,7 @@
 {
-    "version": "2.2",
+    "version": "2.3",
     "description": "Post Install. Custom post windows 10 post installer.",
-    "homepage": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
+    "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
     "license": {
         "identifier": "MIT"
     },
@@ -9,17 +9,16 @@
         "Could be run via \"PostInstall\".",
         "Also \"-SkipActivation\" parameter is available for skipping KMSpico activation."
     ],
-    "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
-    "hash": "a9959efcc1847361b037e71ed822a0e2ec0642b6148b6b1b52280bd1caba7aa3",
+    "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
+    "hash": "8215a2f09e242fd59b1ff7c093970ea68dd48bc9f04bd09c57745106e019c1cd",
     "bin": [
-        "PostInstall.ps1",
         [
             "PostInstall.ps1",
             "PostInstall"
         ]
     ],
-    "checkver": "<#\\n\\.VERSION\\s((\\d+\\.?)+)",
+    "checkver": ".VERSION\\s((\\d+\\.?)+)",
     "autoupdate": {
-        "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1"
+        "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1"
     }
 }
