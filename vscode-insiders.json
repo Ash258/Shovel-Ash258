@@ -1,5 +1,5 @@
 {
-    "version": "nightly-1.26.0-insider",
+    "version": "nightly",
     "description": "Microsoft Visual Studio Code - Insiders. New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     "homepage": "https://code.visualstudio.com/insiders",
     "license": {
