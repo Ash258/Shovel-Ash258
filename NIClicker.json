@@ -24,9 +24,7 @@
             ]
         }
     },
-    "checkver": {
-        "github": "https://github.com/Shadowspaz/NIAutoclicker"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

@@ -14,9 +14,7 @@
             "NVidia Profile Inspector"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/Orbmu2k/nvidiaProfileInspector"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/$version/nvidiaProfileInspector.zip"
     }

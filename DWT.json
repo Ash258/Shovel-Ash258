@@ -26,9 +26,7 @@
             "Disable Win Tracking"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/10se1ucgo/DisableWinTracking"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/v$version/dwt-$version-cp27-win_x86.zip"
     }

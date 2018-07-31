@@ -15,9 +15,7 @@
             "Steam Achievement Manager"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/gibbed/SteamAchievementManager"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/gibbed/SteamAchievementManager/releases/download/$version/SteamAchievementManager-$version.zip"
     }
