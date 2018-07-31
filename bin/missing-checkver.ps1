@@ -6,4 +6,4 @@ param(
 
 if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 
-Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -dir ""$dir"" $rest" -join " "
+Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -dir ""$dir"" $rest"
