@@ -7,8 +7,7 @@
             "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
             "fileMatch": [
                 "TODO/*.json",
-                ".vscode/Template.jsonc",
-                "./.json"
+                ".vscode/Template.jsonc"
             ]
         }
     ]
