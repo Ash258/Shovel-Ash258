@@ -27,7 +27,7 @@
         ]
     },
     "New app Arch": {
-        "prefix": "appA",
+        "prefix": "appArch",
         "scope": "json,jsonc",
         "body": [
             "{",
@@ -35,21 +35,23 @@
             "\t\"description\": \"$2\",",
             "\t\"homepage\": \"$3\",",
             "\t\"license\": {\"identifier\": \"$4\"},",
+            "\t\"notes\": \"$5\",",
+            "\t\"depends\": \"$6\",",
             "\t\"architecture\": {",
             "\t\t\"64bit\": {",
-            "\t\t\t\"url\": \"$5\",",
-            "\t\t\t\"hash\": \"$6\"",
-            "\t\t},",
-            "\t\t\"32bit\": {",
             "\t\t\t\"url\": \"$7\",",
             "\t\t\t\"hash\": \"$8\"",
+            "\t\t},",
+            "\t\t\"32bit\": {",
+            "\t\t\t\"url\": \"$9\",",
+            "\t\t\t\"hash\": \"$10\"",
             "\t\t}",
             "\t},",
-            "\t\"bin\": \"$9\",",
+            "\t\"bin\": \"$11\",",
             "\t\"shortcuts\": [",
             "\t\t[",
-            "\t\t\t\"$10.exe\",",
-            "\t\t\t\"$11\"",
+            "\t\t\t\"$12.exe\",",
+            "\t\t\t\"$13\"",
             "\t\t]",
             "\t]",
             "}\n"
@@ -72,7 +74,7 @@
         ]
     },
     "New Autoupdate with Arch": {
-        "prefix": "upar",
+        "prefix": "upAr",
         "scope": "json,jsonc",
         "body": [
             "\"autoupdate\": {",
