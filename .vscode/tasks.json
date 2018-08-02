@@ -2,19 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Update vscode",
-            "type": "shell",
-            "command": ".\\bin\\checkver.ps1 vscode-insiders -u",
-            "problemMatcher": [],
-            "presentation": {
-                "echo": true,
-                "reveal": "silent",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false
-            },
-        },
-        {
             "label": "Check version",
             "type": "shell",
             "command": ".\\bin\\checkver.ps1",
@@ -26,7 +13,7 @@
                 ],
                 "pattern": [
                     {
-                        "regexp": "^(.*):\\s(\\d+.\\d+)\\s((\\(scoop version is (\\d+.\\d+)\\)).*)$",
+                        "regexp": "^(.*):\\s+.*((\\(scoop version is ((\\d+\\.)+)\\)).*)$",
                         "file": 1,
                         "code": 2,
                         "message": 3,
