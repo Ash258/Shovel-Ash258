@@ -16,20 +16,24 @@
     "installer": {
         "script": [
             "$extras = \"$dir\\+Extras\"",
-            "$filesArray = @(\"$dir\\Support Air on Patreon.url\", \"$dir\\README.md\", \"$dir\\LICENSE.txt\", \"$dir\\FAQ.url\", ",
+            "$toDelete = @(\"$dir\\Support Air on Patreon.url\", \"$dir\\README.md\", \"$dir\\LICENSE.txt\", \"$dir\\FAQ.url\", ",
             "    \"$dir\\Contributors.url\", \"$dir\\Changelog.url\", \"$dir\\.gitattributes\", \"$extras\\Fonts\", \"$extras\\Square Avatars\"",
             ")",
+            "Remove-Item $toDelete -Force -Recurse",
+            "    # Copy rather than moving (could be changed afterwards)",
             "Copy-Item \"$extras\\Themes\\Dark\\*\" \"$dir\" -Force -Recurse",
-            "Remove-Item $filesArray -Force -Recurse",
-            "       # Replacing Default Theme",
+            "$FILE = \"$dir\\config.ini\"",
+            "$content = Get-Content $FILE",
+            "    # Replacing Default Theme",
             "$find = 'include \"resource/colors/sky.styles\"'",
             "$replace = \"//$find\"",
-            "$file = \"$dir\\config.ini\"",
-            "(Get-Content $file).Replace($find, $replace) | Set-Content $file",
-            "       # Enabling Pixeldark Theme",
-            "$find = '//include \"resource/colors/user/pixeldark.styles\"'",
-            "$replace = 'include \"resource/colors/user/pixeldark.styles\"'",
-            "(Get-Content $file).Replace($find, $replace) | Set-Content $file"
+            "$content.Replace($find, $replace)",
+            "    # Enabling Pixeldark Theme",
+            "$find = '//(include \"resource/colors/user/pixeldark.styles\")'",
+            "$replace = '$1'",
+            "$content.Replace($find, $replace)",
+            "    # Final file overwrite",
+            "Set-Content $FILE $content"
         ]
     },
     "checkver": {
