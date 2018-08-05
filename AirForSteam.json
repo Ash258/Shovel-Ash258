@@ -29,7 +29,7 @@
             "$replace = \"//$find\"",
             "$content = $content.Replace($find, $replace)",
             "    # Enabling Pixeldark Theme",
-            "$find = '//(include \"resource/colors/user/pixeldark.styles\")'",
+            "$find = '//(include \"resource/colors/user/pixeldark.styles\".*$)'",
             "$replace = '$1'",
             "$content = $content.Replace($find, $replace)",
             "    # Final file overwrite",
