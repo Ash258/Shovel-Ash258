@@ -27,11 +27,11 @@
             "    # Replacing Default Theme",
             "$find = 'include \"resource/colors/sky.styles\"'",
             "$replace = \"//$find\"",
-            "$content.Replace($find, $replace)",
+            "$content = $content.Replace($find, $replace)",
             "    # Enabling Pixeldark Theme",
             "$find = '//(include \"resource/colors/user/pixeldark.styles\")'",
             "$replace = '$1'",
-            "$content.Replace($find, $replace)",
+            "$content = $content.Replace($find, $replace)",
             "    # Final file overwrite",
             "Set-Content $FILE $content"
         ]
