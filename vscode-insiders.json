@@ -33,26 +33,30 @@
             ]
         }
     },
-    "post_install": [
-        "$port = \"$dir\\data\"",
-        "    # Create data folder",
-        "if(!(Test-Path \"$persist_dir\\data\")) { ",
-        "    Write-Host 'No user data folder exists' -f Yellow",
-        "    New-Item \"$port\\tmp\", \"$port\\user-data\", \"$port\\extensions\" -Force -Type Directory | Out-Null",
-        "}",
-        "    # Create install context file",
-        "$codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
-        "$content = Get-Content \"$dir\\vscode-install-context.reg\"",
-        "$content = $content.Replace('$code', $codepath)",
-        "$content = $content.Replace('&Code', 'Code &Insiders')",
-        "Set-Content \"$dir\\vscode-install-context.reg\" $content",
-        "    # Create uninstall context file",
-        "$content = Get-Content \"$dir\\vscode-uninstall-context.reg\"",
-        "$content = $content.Replace('&Code', 'Code &Insiders')",
-        "Set-Content \"$dir\\vscode-uninstall-context.reg\" $content",
-        "    # Apply context automatically",
-        "regedit /s \"$dir\\vscode-install-context.reg\""
-    ],
+    "installer": {
+        "script": [
+            "$PORT = \"$dir\\data\"",
+            "$REG_INSTALL = \"$dir\\vscode-install-context.reg\"",
+            "$REG_UNINSTALL = \"$dir\\vscode-uninstall-context.reg\"",
+            "$CODEPATH = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
+            "    # Create data folder",
+            "if(!(Test-Path \"$persist_dir\\data\")) { ",
+            "    Write-Host 'No user data folder exists' -f Yellow",
+            "    New-Item \"$PORT\\tmp\", \"$PORT\\user-data\", \"$PORT\\extensions\" -Force -Type Directory | Out-Null",
+            "}",
+            "    # Create install context file",
+            "$content = Get-Content $REG_INSTALL",
+            "$content = $content.Replace('$code', $CODEPATH)",
+            "$content = $content.Replace('&Code', 'Code &Insiders')",
+            "Set-Content $REG_INSTALL $content",
+            "    # Create uninstall context file",
+            "$content = Get-Content $REG_UNINSTALL",
+            "$content = $content.Replace('&Code', 'Code &Insiders')",
+            "Set-Content $REG_UNINSTALL $content",
+            "    # Apply context automatically",
+            "regedit /s $REG_INSTALL"
+        ]
+    },
     "uninstaller": {
         "script": [
             "    # Uninstall context menu",
@@ -61,6 +65,10 @@
     },
     "persist": "data",
     "bin": [
+        [
+            "bin\\code-insiders.cmd",
+            "codei.cmd"
+        ],
         "bin\\code-insiders.cmd",
         "Code - Insiders.exe"
     ],
