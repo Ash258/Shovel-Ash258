@@ -67,7 +67,7 @@
     "bin": [
         [
             "bin\\code-insiders.cmd",
-            "codei.cmd"
+            "codei"
         ],
         "bin\\code-insiders.cmd",
         "Code - Insiders.exe"
