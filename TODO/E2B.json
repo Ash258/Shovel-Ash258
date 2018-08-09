@@ -1,0 +1,20 @@
+{
+    "version": "1.A0",
+    "description": "Easy2boot. USB multiboot solution (Legacy+UEFI).",
+    "homepage": "http://www.easy2boot.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "http://www.easy2boot.com/contact-us/licensing/"
+    },
+    "url": "http://files.easy2boot.com/200003284-5ae465bd40/Easy2Boot_v1.A0_DPMS.exe",
+    "hash": "",
+    "innosetup": true,
+    "persist": "_ISO",
+    "shortcuts": [
+        [
+            "Make_E2B.exe",
+            "Easy2Boot"
+        ]
+    ],
+    "checkver": "Latest released version is E2B v(.*)\\s+\\((\\d+\\-?)+\\)"
+}
