@@ -6,10 +6,24 @@
         "identifier": "Freeware",
         "url": "http://www.easy2boot.com/contact-us/licensing/"
     },
+    "depends": "MPI",
     "url": "http://files.easy2boot.com/200003284-5ae465bd40/Easy2Boot_v1.A0_DPMS.exe",
-    "hash": "",
+    "hash": "5c1e033717ee69b9e141999f60a5c968b02a43f88023055b55ca19dcc9a5e6dc",
     "innosetup": true,
-    "persist": "_ISO",
+    "post_install": [
+        "    # Download MPI",
+        "$MPI = \"$dir\\_MPI\"",
+        "Copy-Item \"$(Resolve-Path (scoop prefix MPI))\\*\" $MPI -Force -Recurse",
+        "scoop uninstall MPI",
+        "    # Run installer",
+        "& \"$MPI\\ImDisk\\imdiskinst.exe\"",
+        "    # Create shortcuts",
+        "& \"$MPI\\CreateDesktopShortcuts.cmd\""
+    ],
+    "persist": [
+        "_ISO",
+        "_MPI"
+    ],
     "shortcuts": [
         [
             "Make_E2B.exe",
