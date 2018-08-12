@@ -52,6 +52,7 @@
 | [Texlive **(Texlive)**](./Texlive.json)                                                 | ✔      | ✔        | ✔ (✔)             |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Uplay **(Uplay)**](./Uplay.json)                                                       | ✔      | ♻        | ♻ (♻)             |
+| [Wavebox **(Wavebox)**](./Wavebox.json)                                                 | ✔      | ✔        | ✔ (✔)             |
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
