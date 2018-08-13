@@ -10,7 +10,7 @@
         "Also \"-SkipActivation\" parameter is available for skipping KMSpico activation."
     ],
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
-    "hash": "52af789648e178ca356a410b91a62e1d967fc5cea69277f42e777e06a130b8f5",
+    "hash": "1590489b6076877ae95cb090d18cea52db36549cd030b3d69511e35ed49ae887",
     "bin": [
         [
             "PostInstall.ps1",
