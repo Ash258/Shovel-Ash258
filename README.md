@@ -29,7 +29,7 @@
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
-| [FastStone Image Viewer **(FastStoneImage)**](./FastStoneImage.json)                    | ✔      | ✔        | ✔ (⛔)             |
+| [FastStone Image Viewer **(FastStone)**](./FastStone.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                   | ✔      | ✔        | ✔ (⛔)             |
