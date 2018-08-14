@@ -14,7 +14,7 @@
             "GVD"
         ]
     ],
-    "checkver": "<#\\n\\.VERSION\\s((\\d+\\.?)+)",
+    "checkver": "<#\\n\\.VERSION\\s([\\d+\\.]+)",
     "autoupdate": {
         "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1"
     }

@@ -36,7 +36,7 @@
     "persist": "Playlist",
     "checkver": {
         "url": "http://potplayer.daum.net/update.html?lang=en&bit",
-        "re": "\\[((\\d+\\.?){3})\\]"
+        "re": "\\[([\\d+\\.]+)\\]"
     },
     "autoupdate": {
         "architecture": {

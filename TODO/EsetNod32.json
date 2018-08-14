@@ -29,7 +29,7 @@
     ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/ESET_NOD32",
-        "re": "Stable release</a></th><td>\\s+<div.*>((\\d+\\.?){4})\\s+/"
+        "re": "Stable release</a></th><td>\\s+<div.*>([\\d+\\.]+)\\s+/"
     },
     "autoupdate": {
         "architecture": {

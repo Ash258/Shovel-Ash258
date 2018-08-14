@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/BlueStacks",
-        "re": "Stable release</a></th><td>\\s*<div.*>((\\d+\\.?){4})"
+        "re": "Stable release</a></th><td>\\s*<div.*>([\\d+\\.]+)"
     },
     "autoupdate": {
         "url": "https://cdn3.bluestacks.com/downloads/$version/BlueStacks-Installer_BS3_native.exe"

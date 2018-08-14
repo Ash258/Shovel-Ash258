@@ -14,7 +14,7 @@
             "Format Factory"
         ]
     ],
-    "checkver": "<li>Ver:V((\\d\\.?){4})</li>",
+    "checkver": "<li>Ver:V([\\d+\\.]+)</li>",
     "autoupdate": {
         "url": "http://www.pcfreetime.com/public/FFSetup$version.exe#cosi.7z"
     }

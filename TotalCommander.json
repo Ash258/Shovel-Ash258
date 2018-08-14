@@ -56,7 +56,7 @@
     ],
     "checkver": {
         "url": "https://www.ghisler.com/download.htm",
-        "re": "Download version ((\\d+\\.?){2}) of Total Commander"
+        "re": "Download version ([\\d+\\.]+) of Total Commander"
     },
     "autoupdate": {
         "architecture": {

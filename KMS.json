@@ -51,7 +51,7 @@
     ],
     "checkver": {
         "url": "https://kmspico.co/download/",
-        "re": "<span class=\"italic_text\">Version: ((\\d+\\.?){3}), Date:"
+        "re": "<span class=\"italic_text\">Version: ([\\d+\\.]+), Date:"
     },
     "autoupdate": {
         "url": "https://gist.github.com/Ash258/e143436e2f9183a650424d635b535e51/raw/kmi.exe"

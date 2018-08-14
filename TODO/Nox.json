@@ -3,7 +3,7 @@
     "description": "Nox App Player. The perfect Android emulator to play mobile games on PC.",
     "homepage": "https://www.bignox.com/",
     "url": "https://www.bignox.com/en/download/fullPackage#/cosi.exe",
-    "hash": "b5df628bb964320172bf8c402b5bbbe7fc4495eae7fd15dd7e9ecd8182cce90a",
+    "hash": "4a08d493cccce5d04a6afb4b13d52d36b44771a24baac7f135f5e4d3c28c30c4",
     "installer": {
         "args": [
             "/S",
@@ -16,7 +16,7 @@
             "Nox App Player"
         ]
     ],
-    "checkver": "Version ((\\d+\\.?){4})",
+    "checkver": "Version ([\\d+\\.]+)",
     "autoupdate": {
         "url": "https://www.bignox.com/en/download/fullPackage#/cosi.exe"
     }

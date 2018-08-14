@@ -18,7 +18,7 @@
             ""
         ]
     ],
-    "checkver": "The latest stable version of Classic Shell is <a.*((\\d+\\.?){3})",
+    "checkver": "The latest stable version of Classic Shell is <a.*>([\\d+\\.]+)",
     "autoupdate": {
         "url": "https://www.fosshub.com/Classic-Shell.html/ClassicShellSetup_$underscoreVersion.exe",
         "hash": {

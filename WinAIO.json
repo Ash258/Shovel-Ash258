@@ -14,5 +14,5 @@
             "WinAIO Maker Professional"
         ]
     ],
-    "checkver": "<td>Version</td>\\s*<td>((\\d+\\.?){2})</td>"
+    "checkver": "<td>Version</td>\\s*<td>([\\d+\\.]+)</td>"
 }

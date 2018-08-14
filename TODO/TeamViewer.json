@@ -1,12 +1,12 @@
 {
-    "version": "13.1.3629",
+    "version": "13.2.5287",
     "description": "Team Viewer. Remote desktop access solutions. Connect to remote computers, provide remote support & collaborate online.",
     "homepage": "https://www.teamviewer.com/en/products/teamviewer/",
     "license": "",
     "notes": "",
     "depends": "",
     "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe",
-    "hash": "f60062cf21ed42ba0adf64a296f124074ef4ad92b6b58e2f488c4b028a286bf4",
+    "hash": "953d3988f067c8261d2b12040910dc62d91c77ff182d7a3a41296b2857118185",
     "shortcuts": [
         [
             ".exe",
@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/TeamViewer",
-        "re": "\\(desktop app\\)</th><td>\\s+((\\d+\\.?){3}) /"
+        "re": "\\(desktop app\\)</th><td>\\s+([\\d+\\.]+) /"
     },
     "autoupdate": {
         "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe"

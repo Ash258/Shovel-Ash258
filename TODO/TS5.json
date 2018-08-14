@@ -18,6 +18,10 @@
         "re": "Expected:\\s*(.*)</"
     },
     "autoupdate": {
-        "url": "#/cosi.7z"
+        "url": "https://cosi#/cosi.7z",
+        "hash": {
+            "url": "https://cosi.html",
+            "find": ""
+        }
     }
 }

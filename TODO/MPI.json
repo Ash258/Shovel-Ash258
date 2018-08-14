@@ -5,5 +5,5 @@
     "url": "http://files.easy2boot.com/200003289-1749a18440/MPI_Tool_Pack_Plus_CloverLite_084.zip",
     "hash": "b1378ea2a06631e482aca306cf2449e2bbd6c8d7505ca6f3199e97516acdf4e3",
     "extract_dir": "MPI_Tool_Pack_Plus_CloverLite_084",
-    "checkver": "MPI_Tool_Pack_Plus_CloverLite_((\\d+\\.?)+) \\((\\d+-?)+\\)"
+    "checkver": "MPI_Tool_Pack_Plus_CloverLite_([\\d+\\.]+) \\((\\d+-?)+\\)"
 }

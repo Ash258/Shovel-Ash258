@@ -1,4 +1,8 @@
 {
+    "_comment": [
+        "Use runas, because spotify could not be installed from elevated prompt: ",
+        "https://community.spotify.com/t5/Accounts/quot-Please-install-Spotify-using-a-normal-account-instead-of-an/td-p/61901"
+    ],
     "version": "1.0.77.338",
     "description": "Spotify. Music streaming service.",
     "homepage": "https://www.spotify.com/",
@@ -12,10 +16,7 @@
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "hash": "f907b9b1783327858914db34bd11b8fc74815580d87f643654d714cfa24a0b78",
     "installer": {
-        "args": [
-            "/S",
-            "/D=$dir"
-        ]
+        "script": "runas /trustlevel:0x20000 \"powershell.exe -command '& $fname'\""
     },
     "shortcuts": [
         [
@@ -25,7 +26,7 @@
     ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/Spotify#Platforms",
-        "re": "Windows</th><td>\\s*((\\d+\\.?){4}) / \\d+"
+        "re": "Windows</th><td>\\s*([\\d+\\.]+) / \\d+"
     },
     "autoupdate": {
         "url": "http://download.spotify.com/SpotifyFullSetup.exe"

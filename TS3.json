@@ -1,11 +1,11 @@
 {
-    "version": "3.1.10",
+    "version": "3.2.0",
     "description": "TeamSpeak. Supplies mission-critical voice communication solutions to some of the world’s finest.",
     "homepage": "https://www.teamspeak.com/en/",
     "architecture": {
         "64bit": {
-            "url": "http://dl.4players.de/ts/releases/3.1.10/TeamSpeak3-Client-win64-3.1.10.exe#/cosi.7z",
-            "hash": "9c3996023b658914e28e4f991a803c5f267c8694f5fe2321dc4bb2a029d092a8",
+            "url": "http://dl.4players.de/ts/releases/3.2.0/TeamSpeak3-Client-win64-3.2.0.exe#/cosi.7z",
+            "hash": "8612c298d8907894319ddfe5414fd5241bc3f01a52b7f2d39b93dd6a459a5e8d",
             "shortcuts": [
                 [
                     "ts3client_win64.exe",
@@ -14,8 +14,8 @@
             ]
         },
         "32bit": {
-            "url": "http://dl.4players.de/ts/releases/3.1.10/TeamSpeak3-Client-win32-3.1.10.exe#/cosi.7z",
-            "hash": "10531712a6d664fe7d47308fc9db122442348a32df68e1e33db9abfff9b5a2eb",
+            "url": "http://dl.4players.de/ts/releases/3.2.0/TeamSpeak3-Client-win32-3.2.0.exe#/cosi.7z",
+            "hash": "a9ee1d2a96a1fe0698a5a5de69228eba23f4b6989721830ef32a40f4aa7d4be5",
             "shortcuts": [
                 [
                     "ts3client_win32.exe",
@@ -28,22 +28,22 @@
     "persist": "config",
     "checkver": {
         "url": "https://www.teamspeak.com/en/downloads",
-        "re": "<h3>\\s+Client 64-bit\\s+<span.*>\\s+((\\d+\\.?){3})\\s+</span>"
+        "re": "<h3>\\s+Client 64-bit\\s+<span.*>\\s+([\\d+\\.]+)\\s+</span>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "http://dl.4players.de/ts/releases/$version/TeamSpeak3-Client-win64-$version.exe#/cosi.7z",
                 "hash": {
-                    "url": "https://www.teamspeak.com/en/your-download",
-                    "find": "SHA256: ([A-f\\d]{64})</div>\\s+<div.*>\\s+<a class=\".*\" href=\"http://.*-win64-"
+                    "url": "https://www.teamspeak.com/en/downloads",
+                    "find": "SHA256: ([A-f\\d]{64})<p></div>\\s+<div.*>\\s+<a class=\".*\" href=\"http://.*Client-win64-"
                 }
             },
             "32bit": {
                 "url": "http://dl.4players.de/ts/releases/$version/TeamSpeak3-Client-win32-$version.exe#/cosi.7z",
                 "hash": {
-                    "url": "https://www.teamspeak.com/en/your-download",
-                    "find": "SHA256: ([A-f\\d]{64})</div>\\s+<div.*>\\s+<a class=\".*\" href=\"http://.*-win32-"
+                    "url": "https://www.teamspeak.com/en/downloads",
+                    "find": "SHA256: ([A-f\\d]{64})<p></div>\\s+<div.*>\\s+<a.*href=\"http://.*-Client-win32-"
                 }
             }
         }

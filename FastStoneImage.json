@@ -16,7 +16,7 @@
     ],
     "checkver": {
         "url": "http://www.faststone.org/FSViewerDownload.htm",
-        "re": "FastStone Image Viewer ((\\d+\\.?){2})"
+        "re": "FastStone Image Viewer ([\\d+\\.]+)"
     },
     "autoupdate": {
         "url": "http://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
