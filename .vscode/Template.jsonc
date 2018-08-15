@@ -1,11 +1,11 @@
 {
     "_comment": "", // Or ##
-    "version": "",
+    "version": "1.0",
     "description": "",
-    "homepage": "",
+    "homepage": "https://ash258.com",
     "license": {
         "identifier": "",
-        "url": "" // Whener it\s possile attach program specific URL otherwise dont use
+        "url": "https://ash258.com" // Whener it's possile attach program specific URL otherwise dont use
     },
     "notes": [
         ""
@@ -20,13 +20,13 @@
     },
     "architecture": { // Or platform specific below (URL, Hash, extract)
         "64bit": {
-            "url": "",
-            "hash": "",
+            "url": "https://ash258.com",
+            "hash": "899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7",
             "extract_dir": ""
         },
         "32bit": {
-            "url": "",
-            "hash": "",
+            "url": "https://ash258.com",
+            "hash": "899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7",
             "extract_dir": ""
         }
     },
@@ -66,9 +66,9 @@
     ],
     "checkver": "",
     "autoupdate": {
-        "url": "",
-        "hash": { // Some vendors doesnt ship hashes
-            "url": ""
+        "url": "https://ash258.com",
+        "hash": { // Some vendors does not ship hashes
+            "url": "https://ash258.com"
         }
     }
 }
