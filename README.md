@@ -24,7 +24,7 @@
 | [Aida64 Business **(Aida64Bu)**](./Aida64Bu.json)                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Aida64 Engineer **(Aida64En)**](./Aida64En.json)                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Aida64 Extreme **(Aida64)**](./Aida64.json)                                            | ✔      | ✔        | ✔ (⛔)             |
-| [Air Steam Skin **(AirForSteam)**](./AirForSteam.json)                                  | ✔      | ✔        | ✔ (⛔)             |
+| [Air Steam Skin **(AirSkin)**](./AirSkin.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [AutoClicker **(AutoClicker)**](./AutoClicker.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |

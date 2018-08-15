@@ -31,7 +31,8 @@
             "    # Enabling Pixeldark Theme",
             "$find = 'include \"resource/colors/user/pixeldark.styles\"'",
             "$replace = $find",
-            "$content = $content.Replace(\"//$find\", $replace)",
+            "$find = \"//$find\"",
+            "$content = $content.Replace($find, $replace)",
             "    # Final file overwrite",
             "Set-Content $FILE $content"
         ]
