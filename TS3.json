@@ -1,11 +1,11 @@
 {
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "TeamSpeak. Supplies mission-critical voice communication solutions to some of the world’s finest.",
     "homepage": "https://www.teamspeak.com/en/",
     "architecture": {
         "64bit": {
-            "url": "http://dl.4players.de/ts/releases/3.2.0/TeamSpeak3-Client-win64-3.2.0.exe#/cosi.7z",
-            "hash": "8612c298d8907894319ddfe5414fd5241bc3f01a52b7f2d39b93dd6a459a5e8d",
+            "url": "http://dl.4players.de/ts/releases/3.2.1/TeamSpeak3-Client-win64-3.2.1.exe#/cosi.7z",
+            "hash": "49d6ad4d488699f76d600be264d487135db22a8b320d01c24c76698ac0fa1f34",
             "shortcuts": [
                 [
                     "ts3client_win64.exe",
@@ -14,8 +14,8 @@
             ]
         },
         "32bit": {
-            "url": "http://dl.4players.de/ts/releases/3.2.0/TeamSpeak3-Client-win32-3.2.0.exe#/cosi.7z",
-            "hash": "a9ee1d2a96a1fe0698a5a5de69228eba23f4b6989721830ef32a40f4aa7d4be5",
+            "url": "http://dl.4players.de/ts/releases/3.2.1/TeamSpeak3-Client-win32-3.2.1.exe#/cosi.7z",
+            "hash": "47ff32e6aa0dbc01a05b3e06660c5905952ddc55395cd4ee44eccffcdebc408c",
             "shortcuts": [
                 [
                     "ts3client_win32.exe",
