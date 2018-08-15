@@ -1,15 +1,15 @@
 {
-    "version": "3.14.10",
+    "version": "3.14.14",
     "description": "Wavebox. Clever new home for cloud apps on macOS, Linux & Windows bringing Gmail, Inbox, Outlook, O365, Trello, Slack & more into a configurable client.",
     "homepage": "https://wavebox.io/",
     "architecture": {
         "64bit": {
-            "url": "https://wavebox.pro/dl/client/3_14_10/Wavebox_3_14_10_windows_x86_64/wavebox-3.14.10-full.nupkg#/cosi.7z",
-            "hash": "sha1:7505efe3543827f9ea5afb408eaab6e89fe76916"
+            "url": "https://wavebox.pro/dl/client/3_14_14/Wavebox_3_14_14_windows_x86_64/wavebox-3.14.14-full.nupkg#/cosi.7z",
+            "hash": "sha1:94cc68ca25f3ba87b9c37a4502b1cbc76c97d558"
         },
         "32bit": {
-            "url": "https://wavebox.pro/dl/client/3_14_10/Wavebox_3_14_10_windows_ia32/wavebox-3.14.10-full.nupkg#/cosi.7z",
-            "hash": "sha1:8874f4ba60dfd79b605219c843d1492409b7067e"
+            "url": "https://wavebox.pro/dl/client/3_14_14/Wavebox_3_14_14_windows_ia32/wavebox-3.14.14-full.nupkg#/cosi.7z",
+            "hash": "sha1:bbffc290eed87a778b80378aac63e613f8d325ca"
         }
     },
     "extract_dir": "lib\\net45",
