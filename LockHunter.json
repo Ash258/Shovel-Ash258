@@ -7,12 +7,11 @@
     },
     "url": "http://lockhunter.com/exe/lockhuntersetup_3-2-3.exe",
     "hash": "59e7051cb079be49ac2bb4dd44cbdb6d4e11b6466d779465c7d1a3ca59272663",
-    "bin": "LockHunter.exe",
     "installer": {
         "args": [
             "/VERYSILENT",
             "/NOICONS",
-            "/LOG=\"$dir\\log.txt\"",
+            "/LOG=\"$dir\\ScoopInstall.log\"",
             "/DIR=\"$dir\""
         ]
     },
@@ -22,6 +21,7 @@
             "/VERYSILENT"
         ]
     },
+    "bin": "LockHunter.exe",
     "shortcuts": [
         [
             "LockHunter.exe",
