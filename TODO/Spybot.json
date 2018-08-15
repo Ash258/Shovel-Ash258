@@ -9,7 +9,7 @@
         "args": [
             "/VERYSILENT",
             "/NOICONS",
-            "/LOG=\"$dir\\log.txt\"",
+            "/LOG=\"$dir\\ScoopInstall.log\"",
             "/DIR=\"$dir\""
         ]
     },
