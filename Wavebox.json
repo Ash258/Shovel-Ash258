@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://github.com/wavebox/waveboxapp/releases",
-        "re": "<span class=\"css-truncate-target\">v([\\d+\\.]+)</span>"
+        "re": "<span class=\"css-truncate-target\".*>v([\\d+\\.]+)</span>"
     },
     "autoupdate": {
         "architecture": {
