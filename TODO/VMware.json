@@ -1,10 +1,10 @@
 {
-    "version": "14.1.2-8497320",
+    "version": "14.1.3-9474260",
     "description": "VMWare. Industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC.",
     "homepage": "https://www.vmware.com/products/workstation-pro.html",
     "architecture": {
         "64bit": {
-            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-14.1.2-8497320.exe#/cosi.exe",
+            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-14.1.3-9474260.exe#/cosi.exe",
             "hash": "33caa5ddac80f75dfd17215eeafab46856dfa7f45219260f7663f4a583cfd0c0",
             "installer": {
                 "args": [
