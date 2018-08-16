@@ -30,5 +30,5 @@
             "Easy2Boot"
         ]
     ],
-    "checkver": "Latest released version is E2B v(.*)\\s+\\((\\d+\\-?)+\\)"
+    "checkver": "Latest released version is E2B v(.*)\\s+\\(([\\d+\\-?]+)\\)"
 }

@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5-7189",
+    "version": "0.0.5-7195",
     "description": "RPCS3. PS3 emulator/debugger.",
     "homepage": "https://rpcs3.net/",
     "license": {
@@ -20,11 +20,11 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-6c62f42d8d74d245dcd4e468bc19ecc91ab6d654/rpcs3-v0.0.5-7189-6c62f42d_win64.7z",
+                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-23b52e1b1c0b74eb43faf0ff065ecfe44ee9131a/rpcs3-v0.0.5-7195-23b52e1b_win64.7z",
                 "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2017_1113_152d950c365ede4130c53ceb18dcd43b/PS3UPDAT.PUP"
             ],
             "hash": [
-                "2e4ccfc048979c728aefbb55c6276087dc63bacc916c9f81a32a36136f38ef0a",
+                "3fb26e02fe2a8910a9f2f45495208eb6049bcf961692f9a88d21f0858d3bcb93",
                 "a70669bc35a5d688c94f5db8e1eb4110295b1b076ccc3c8e4a7e9ee397a6ca41"
             ]
         }
@@ -46,7 +46,7 @@
     ],
     "checkver": {
         "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
-        "re": "<a href=\".*/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v((?<mainVersion>(\\d+\\.?){3}-(\\d{4}))-.*)_.*\">",
+        "re": "<a href=\".*/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v(?<mainVersion>[\\d+\\.]+-\\d{4})",
         "replace": "${mainVersion}"
     },
     "autoupdate": {
@@ -55,7 +55,7 @@
                 "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$matchCommit/rpcs3-v$version-$matchCosi_win64.7z",
                 "hash": {
                     "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
-                    "find": "<p>([A-f\\d]{64});.*</p>"
+                    "find": "<p>([A-f\\d]{64});"
                 }
             }
         }
