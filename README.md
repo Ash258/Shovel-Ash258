@@ -27,6 +27,7 @@
 | [Air Steam Skin **(AirSkin)**](./AirSkin.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [AutoClicker **(AutoClicker)**](./AutoClicker.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
+| [BleachBit **(BleachBit)**](./BleachBit.json)                                           | ✔      | ✔        | ✔ (✔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FastStone Image Viewer **(FastStone)**](./FastStone.json)                              | ✔      | ✔        | ✔ (⛔)             |
