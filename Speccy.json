@@ -1,0 +1,50 @@
+{
+    "homepage": "https://www.piriform.com/speccy",
+    "version": "1.32.740",
+    "url": "https://download.ccleaner.com/spsetup132.exe#/cosi.7z",
+    "hash": "64a5ba6d65e0b73ae6987c561c86b1e2338a1f337ab5bd5a87c9eeba4963cc3f",
+    "pre_install": [
+        "    # Create portable.dat",
+        "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding ascii",
+        "    # Create Speccy.ini",
+        "if(!(Test-Path \"$persist_dir\\Speccy.ini\")){",
+        "    Write-Host 'No Speccy.ini file' -f Yellow",
+        "    Set-Content \"$dir\\Speccy.ini\" '[Software\\Piriform\\Speccy]' -Encoding ascii",
+        "}",
+        "    # Remove irrelevant files",
+        "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\" | Remove-Item -Force -Recurse"
+    ],
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "Speccy64.exe",
+                    "Speccy"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Speccy64.exe",
+                    "Speccy"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "Speccy.exe",
+            "shortcuts": [
+                [
+                    "Speccy.exe",
+                    "Speccy"
+                ]
+            ]
+        }
+    },
+    "persist": "Speccy.ini",
+    "checkver": {
+        "url": "https://www.piriform.com/speccy/download",
+        "re": "Latest version: <b>([\\d+\\.]+)</b>"
+    },
+    "autoupdate": {
+        "url": "https://download.ccleaner.com/spsetup$majorVersion$minorVersion.exe#/cosi.7z"
+    }
+}
