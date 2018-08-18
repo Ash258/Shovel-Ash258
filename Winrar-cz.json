@@ -19,7 +19,7 @@
             "hash": "97eb29f358a24284aab7190668714ce71f0fa39228e0733e5fe5a46fbb1d25a8"
         }
     },
-    "pre_install": "if(!(Test-Path \"$persist_dir\\rarreg.key\")) { Write-Host 'Key does not exist' -f Yellow; Add-Content \"$dir\\rarreg.key\" $null }",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { Write-Host 'Key does not exist' -f Yellow; Add-Content \"$dir\\rarreg.key\" $null }",
     "persist": "rarreg.key",
     "env_add_path": ".",
     "shortcuts": [

@@ -7,7 +7,7 @@
         "url": "https://github.com/10se1ucgo/DisableWinTracking/blob/master/COPYING"
     },
     "notes": [
-        "Run As Administrator or run \"dwt -silent\" for automatic setup.",
+        "Run As Administrator from start menu or run \"dwt -silent\" for automatic setup.",
         "Uninstall after usage."
     ],
     "depends": "vcredist2015",

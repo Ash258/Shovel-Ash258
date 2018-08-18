@@ -32,7 +32,7 @@
             ]
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$0\", \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
     "persist": "Playlist",
     "checkver": {
         "url": "http://potplayer.daum.net/update.html?lang=en&bit",

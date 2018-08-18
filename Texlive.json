@@ -11,8 +11,9 @@
     "extract_dir": "install-tl-20180717",
     "extract_to": "cosi",
     "pre_install": [
-        "$newDir = $dir.Path.Replace('\\','/')",
+        "$newDir = $dir.Path.Replace('\\', '/')",
         "$outFile = \"$dir\\texlive.profile\"",
+        "$URL = \"https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile\"",
         "if (Test-Path $persist_dir) { ",
         "    Write-Host 'Previous version was found.' -f Yellow",
         "    $newDir = $persist_dir.Path.Replace('\\', '/')",
@@ -20,11 +21,9 @@
         "    Write-Host 'No previous version found.' -f Yellow",
         "}",
         "    # Create default profile",
-        "Add-Content $outFile \"TEXDIR $newDir\" -Encoding ascii",
-        "Add-Content $outFile \"TEXMFLOCAL $newDir/texmf-local\" -Encoding ascii",
-        "Add-Content $outFile \"TEXMFSYSCONFIG $newDir/texmf-config\" -Encoding ascii",
-        "Add-Content $outFile \"TEXMFSYSVAR $newDir/texmf-var\" -Encoding ascii",
-        "Add-Content $outFile (New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile') -Encoding ascii"
+        "$LINES = @(\"TEXDIR $newDir\", \"TEXMFLOCAL $newDir/texmf-local\", \"TEXMFSYSCONFIG $newDir/texmf-config\", \"TEXMFSYSVAR $newDir/texmf-var\")",
+        "foreach ($line in $LINES) { Add-Content $outFile $line -Encoding ascii }",
+        "Add-Content $outFile (New-Object System.Net.WebClient).DownloadString($URL) -Encoding ascii"
     ],
     "installer": {
         "file": "cosi\\install-tl-advanced.bat",
@@ -42,7 +41,7 @@
         "texmf-local",
         "texmf-var"
     ],
-    "env_add_path": "$dir\\bin\\win32",
+    "env_add_path": ".\\bin\\win32",
     "checkver": {
         "url": "http://mirrors.nic.cz/tex-archive/systems/texlive/tlnet",
         "re": "install-tl\\.zip</a></td>.*((?<y>\\d{4})-(?<m>\\d+)-(?<d>\\d+))",
