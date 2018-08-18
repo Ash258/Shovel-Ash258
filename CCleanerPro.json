@@ -21,7 +21,7 @@
         "    Set-Content \"$dir\\ccleaner.ini\" '[Options]' -Encoding ascii",
         "}",
         "    # Remove irrelevant files",
-        "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$Dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"
+        "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"
     ],
     "architecture": {
         "64bit": {
