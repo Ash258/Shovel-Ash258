@@ -1,0 +1,52 @@
+{
+    "version": "5.44.6575",
+    "description": "CCleaner Professional. The number-one tool for cleaning PC. Protects privacy and makes computer faster and more secure! ",
+    "homepage": "http://www.ccleaner.com/ccleaner",
+    "url": [
+        "https://download.ccleaner.com/ccsetup544pro.exe#/cosi.7z",
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dll#/branding.dll",
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dat#/CCleaner.dat"
+    ],
+    "hash": [
+        "bfbc3007747caf507636806b055a5db82b0d05e01a0a0d63da2a1439b02f1581",
+        "26d6cd545f57071e3a01e5e39e68fde63af8e086bd39eff2b746633006d71511",
+        "d5142f288ee9e334671c807931ace52c31eaa0fa254ffe31979fad0b6ba5c2cd"
+    ],
+    "pre_install": [
+        "    # Create portable.dat",
+        "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding ascii",
+        "    # Create ccleaner.ini",
+        "if (!(Test-Path \"$persist_dir\\ccleaner.ini\")) {",
+        "    Write-Host 'No ccleaner.ini file' -f Yellow",
+        "    Set-Content \"$dir\\ccleaner.ini\" '[Options]' -Encoding ascii",
+        "}",
+        "    # Remove irrelevant files",
+        "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$Dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"
+    ],
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "CCleaner64.exe",
+                    "CCleaner"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "CCleaner.exe",
+                    "CCleaner"
+                ]
+            ]
+        }
+    },
+    "persist": "ccleaner.ini",
+    "checkver": {
+        "url": "http://www.ccleaner.com/",
+        "re": "<a href=\"/news/release.*\">CCleaner v([\\d+\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.ccleaner.com/ccsetup$majorVersion$minorVersionpro.exe#/cosi.7z"
+    }
+}

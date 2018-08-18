@@ -7,7 +7,7 @@
         "    # Create portable.dat",
         "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding ascii",
         "    # Create Speccy.ini",
-        "if(!(Test-Path \"$persist_dir\\Speccy.ini\")){",
+        "if (!(Test-Path \"$persist_dir\\Speccy.ini\")) {",
         "    Write-Host 'No Speccy.ini file' -f Yellow",
         "    Set-Content \"$dir\\Speccy.ini\" '[Software\\Piriform\\Speccy]' -Encoding ascii",
         "}",
