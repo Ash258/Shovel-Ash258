@@ -16,14 +16,5 @@
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "installer": {
         "script": "runas /trustlevel:0x20000 \"powershell.exe -command '& $fname'\""
-    },
-    "uninstaller": {
-        "file": ""
-    },
-    "shortcuts": [
-        [
-            "Spotify.exe",
-            "Spotify"
-        ]
-    ]
+    }
 }

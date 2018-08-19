@@ -59,12 +59,12 @@
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
-| [X3 Bold Red Cursor **(X3)**](./X3.json)                                                | ❌      | ⭕        | ⭕ (⭕)             |
 
 # TODO
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔ 🔸     | ✔ (✔)             |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔ 🔸     | ✔ (❌)             |
@@ -80,7 +80,6 @@
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
 | [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)                      | ❌      | ✔        | ✔ (✔)             |
 | [Docker **(docker)**](./TODO/docker.json)                                                 | ❌      | ❌        | ❌ (❌)             |
-| [CCleaner Professional **(CCleanerPro)**](./TODO/CCleanerPro.json)                        | ❌      | ❌        | ❌ (❌)             |
 | [Google Chrome **(Chrome)**](./TODO/Chrome.json)                                          | ❌      | ❌        | ❌ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌      | ❌        | ❌ (❌)             |
