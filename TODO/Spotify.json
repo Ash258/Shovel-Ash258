@@ -17,6 +17,9 @@
     "installer": {
         "script": "runas /trustlevel:0x20000 \"powershell.exe -command '& $fname'\""
     },
+    "uninstaller": {
+        "file": ""
+    },
     "shortcuts": [
         [
             "Spotify.exe",
