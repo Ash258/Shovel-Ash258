@@ -1,11 +1,13 @@
 param(
-    [String[]] $manifest = "*",
+    [Parameter(ValueFromPipeline = $true)]
+    [String[]]
+    $manifest = "*",
     [String] $dir = "$PSScriptRoot\..",
     [Int] $timeout = 5
 )
 
-if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+begin { (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) } }
 
-foreach ($man in $manifest) {
-    Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkurls.ps1 -dir ""$dir"" -app ""$man"" -timeout $timeout"
+process {
+    Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkurls.ps1 -dir ""$dir"" -app ""$manifest"" -timeout $timeout"
 }

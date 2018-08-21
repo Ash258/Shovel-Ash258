@@ -1,6 +1,6 @@
 param(
     [String] $dir = "$PSScriptRoot\..",
-    [Parameter(ValueFromRemainingArguments = $True)]
+    [Parameter(ValueFromRemainingArguments = $true)]
     [String[]] $rest = ""
 )
 
