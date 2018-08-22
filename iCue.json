@@ -1,4 +1,8 @@
 {
+    "##": [
+        "Application is working correctly, but some services need to be initialized.",
+        "Explore if it's possible to do it after install."
+    ],
     "version": "3.6.109",
     "description": "Corsair's iCue. Connects all your compatible products together in a single interface, giving you complete control of everything from RGB lighting and effects to fan speeds and temperature monitoring.",
     "homepage": "https://www.corsair.com/us/en/icue",
