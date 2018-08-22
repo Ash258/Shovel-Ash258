@@ -32,6 +32,7 @@
         "Add-MpPreference -ExclusionProcess \"$dir\\KMSELDI.exe\"",
         "Add-MpPreference -ExclusionProcess \"$env:windir\\SECOH-QAD.exe\"",
         "Add-MpPreference -ExclusionPath \"$env:windir\\SECOH-QAD.dll\"",
+        "Add-MpPreference -ExclusionPath \"$env:windir\\SECOH-QAD.exe\"",
         "Set-MpPreference -DisableRealtimeMonitoring $false",
         "Write-Host 'Realtime Defender Protection Enabled' -f Yellow"
     ],
