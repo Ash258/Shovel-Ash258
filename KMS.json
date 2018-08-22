@@ -15,7 +15,7 @@
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/kmi.exe",
     "hash": "64c731adbe1b96cb5765203b1e215093dcf268d020b299445884a4ae62ed2d3a",
     "pre_install": [
-        "$isAdmin = [bool](([System.Security.Principal.WindowsIdentity]::GetCurrent()).groups -match \"S-1-5-32-544\")",
+        "$isAdmin = [bool](([System.Security.Principal.WindowsIdentity]::GetCurrent()).groups -match 'S-1-5-32-544')",
         "if ($isAdmin) {",
         "    Write-Host 'Elevated prompt is needed for correct installation.' -f Yellow",
         "    exit(1)",
