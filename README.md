@@ -78,17 +78,18 @@
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | ---                                                                                       | ---    | ---      | ---               |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
-| [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)                      | ❌      | ✔        | ✔ (✔)             |
+| [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)                      | 🎃     | ✔        | ✔ (✔)             |
 | [Docker **(docker)**](./TODO/docker.json)                                                 | ❌      | ❌        | ❌ (❌)             |
 | [Google Chrome **(Chrome)**](./TODO/Chrome.json)                                          | ❌      | ❌        | ❌ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌      | ❌        | ❌ (❌)             |
 
-- 💯 Tested over limit
 - 🔸 Additional testing is needed
 - ⭕ Not needed
 - ⛔ Not possible (need download)
 - ♻ Nightly
+- 🎃 Installers have their own mind
+    - Installing is needed in some cases and path cannot be changed.
 - VScode-insiders was changed to nightly in [172ee89](https://github.com/Ash258/scoop-Ash258/commit/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a)
     - No need for checkver an autoupdate
 
