@@ -10,16 +10,6 @@
                 "fileLocation": [
                     "relative",
                     "${workspaceFolder}"
-                ],
-                "pattern": [
-                    {
-                        "regexp": "^(.*):\\s+.*((\\(scoop version is ((\\d+\\.)+)\\)).*)$",
-                        "file": 1,
-                        "code": 2,
-                        "message": 3,
-                        "severity": 4,
-                        "loop": true
-                    }
                 ]
             },
             "presentation": {
