@@ -44,7 +44,7 @@
 }
 ```
 
-| App name (**Scoop name**)                                                               | Tested | Checkver | Autoupdate (Hash) |
+| App name **(Scoop name)**                                                               | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [Aida64 Business **(Aida64Bu)**](./Aida64Bu.json)                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Aida64 Engineer **(Aida64En)**](./Aida64En.json)                                       | ✔      | ✔        | ✔ (⛔)             |
@@ -103,7 +103,7 @@
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | ---                                                                                       | ---    | ---      | ---               |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
-| [NVidia GeForce Experience **(GeForceExp)**](./TODO/GeForceExp.json)                      | 🎃     | ✔        | ✔ (✔)             |
+| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃     | ✔        | ✔ (✔)             |
 | [Docker **(docker)**](./TODO/docker.json)                                                 | ❌      | ❌        | ❌ (❌)             |
 | [Google Chrome **(Chrome)**](./TODO/Chrome.json)                                          | ❌      | ❌        | ❌ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |

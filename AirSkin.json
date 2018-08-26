@@ -38,8 +38,8 @@
         ]
     },
     "checkver": {
-        "url": "https://github.com/Outsetini/Air-for-Steam/releases/latest/",
-        "re": "<span class=\"css-truncate-target\".*>((\\d{4})-(\\d{2})(\\d{2}))</span>"
+        "url": "https://api.github.com/repos/outsetini/air-for-steam/releases/latest",
+        "jp": "$.tag_name"
     },
     "autoupdate": {
         "url": "https://github.com/Outsetini/Air-for-Steam/archive/$version.zip",
