@@ -1,5 +1,5 @@
 param(
-    [Parameter(ValueFromPipeline = $true)]
+    [Parameter(ValueFromPipeline = $true, Position = 0)]
     [String[]]
     $manifest = "*",
     [String] $dir = "$PSScriptRoot\..",
@@ -13,5 +13,7 @@ begin {
 }
 
 process {
-    Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -dir ""$dir"" ""$manifest"" $rest"
+    foreach ($man in $manifest) {
+        Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -dir ""$dir"" ""$man"" $rest"
+    }
 }
