@@ -36,10 +36,10 @@
         "script": [
             "Remove-Item \"$dir\\`$*\" -Force -Recurse",
             "$setFiles = @('PotPlayerMini64.ini', 'PotPlayerMini.ini', 'PotPlayer64.ini', 'PotPlayer.ini')",
-            "$cont = \"[Settings]`r`nAutoDownloadFile=0`r`nAutoPlayOnStart=1`r`nAutoUpdateStart=0`r`nCheckAutoUpdate=0`r`n\"",
-            "$cont += \"RememberPosition=1`r`nRememberPositionAudio=1`r`nSkinPopupMenuStyle=2\"",
             "foreach ($f in $setFiles) {",
             "    if (!(Test-Path \"$persist_dir\\$f\")) {",
+            "        $cont = \"[Settings]`r`nAutoDownloadFile=0`r`nAutoPlayOnStart=1`r`nAutoUpdateStart=0`r`nCheckAutoUpdate=0`r`n\"",
+            "        $cont += \"RememberPosition=1`r`nRememberPositionAudio=1`r`nSkinPopupMenuStyle=0\"",
             "        Write-Host 'File' $f 'does not exists' -f Yellow",
             "        Set-Content \"$dir\\$f\" $cont -Encoding ascii",
             "    }",
