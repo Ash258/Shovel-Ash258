@@ -30,7 +30,8 @@
 
 ```json
 {
-    "script" : [
+    ...
+    "post_install || installer: { script" : [
         "    # Creating default settings",
         "function CreateFile([String] $file, [String] $content = $null) {",
         "    if (!(Test-Path \"$persist_dir\\$file\")) {",
