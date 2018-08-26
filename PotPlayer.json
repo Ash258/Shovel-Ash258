@@ -35,8 +35,8 @@
     "post_install": [
         "Remove-Item \"$dir\\`$*\" -Force -Recurse",
         "$setFiles = @('PotPlayerMini64.ini', 'PotPlayerMini.ini', 'PotPlayer64.ini', 'PotPlayer.ini')",
-        "$cont = '[Settings]`r`nAutoDownloadFile=0`r`nAutoPlayOnStart=1`r`nAutoUpdateStart=0`r`nCheckAutoUpdate=0'`r`nRememberPosition=1`r`n",
-        "$cont += RememberPositionAudio=1`r`nSkinPopupMenuStyle=2",
+        "$cont = \"[Settings]`r`nAutoDownloadFile=0`r`nAutoPlayOnStart=1`r`nAutoUpdateStart=0`r`nCheckAutoUpdate=0`r`nRememberPosition=1`r`n\"",
+        "$cont += \"RememberPositionAudio=1`r`nSkinPopupMenuStyle=2\"",
         "foreach ($f in $setFiles) {",
         "    if (!(Test-Path \"$persist_dir\\$f\")) {",
         "        Set-Content \"$dir\\$f\" $cont -Encoding ascii",
