@@ -6,6 +6,7 @@
 - Observe blocks structure from [Template][Template]
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
+    - Indent code as you would normally do.
     - Comments
         - Indent with 4 spaces.
         - Append space after `#`
@@ -38,7 +39,7 @@
         "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "        Set-Content \"$dir\\$file\" $content -Encoding ascii",
         "    }",
-        "}",
+        "}"
     ]
 }
 ```
