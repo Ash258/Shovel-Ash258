@@ -18,6 +18,27 @@
     - **ALWAYS** use identifier property.
 - StringOrArrayOfStrings
     - **ALWAYS** convert array with only 1 string into normal string.
+- Bins and Shortcuts
+    - Use Backslashes
+    - Do not include `$dir`.
+    - Do not create bin for GUI applications.
+        - Only use bin for CLIs.
+- - Persisting
+    - Do not include `$dir`.
+    - Persising file does not exists after unpacking / installing.
+        - Use this block in `pre_install` or `installer > script`:
+
+```json
+"script" : [
+    "    # Creating default settings",
+    "function CreateFile([String] $file, [String] $content = $null) {",
+    "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+    "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+    "        Set-Content \"$dir\\$file\" $content -Encoding ascii",
+    "    }",
+    "}",
+]
+```
 
 | App name (**Scoop name**)                                                               | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
