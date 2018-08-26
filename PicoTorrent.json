@@ -19,18 +19,17 @@
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\PicoTorrent.json\")) {",
         "    Write-Host 'Settings file does not exist.' -f Yellow;",
-        "    Set-Content \"$dir\\PicoTorrent.json\" \"{}\"",
-        "",
+        "    Set-Content \"$dir\\PicoTorrent.json\" '{}'",
         "}",
         "if (!(Test-Path \"$persist_dir\\Session.dat\")) {",
         "    Write-Host 'Session file does not exist.' -f Yellow",
-        "    Add-Content \"$dir\\Session.dat\" $null",
+        "    Set-Content \"$dir\\Session.dat\" $null",
         "}"
     ],
     "persist": [
         "Torrents",
-        "PicoTorrent.json",
-        "Session.dat"
+        "Session.dat",
+        "PicoTorrent.json"
     ],
     "shortcuts": [
         [
