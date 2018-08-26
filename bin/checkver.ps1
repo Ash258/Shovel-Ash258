@@ -1,5 +1,5 @@
 param(
-    [Parameter(ValueFromPipeline = $true, Position = 0)]
+    [Parameter(ValueFromPipeline = $true)]
     [String[]]
     $manifest = "*",
     [String] $dir = "$PSScriptRoot\..",
