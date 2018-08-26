@@ -49,10 +49,10 @@
     },
     "persist": [
         "Playlist",
-        "PotPlayerMini64.ini",
-        "PotPlayerMini.ini",
+        "PotPlayer.ini",
         "PotPlayer64.ini",
-        "PotPlayer.ini"
+        "PotPlayerMini.ini",
+        "PotPlayerMini64.ini"
     ],
     "checkver": {
         "url": "http://potplayer.daum.net/update.html?lang=en&bit",
