@@ -11,10 +11,6 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
-            },
-            "group": {
-                "kind": "test",
-                "isDefault": true
             }
         },
         {
@@ -29,7 +25,7 @@
                 "showReuseMessage": false
             },
             "group": {
-                "kind": "test",
+                "kind": "build",
                 "isDefault": true
             }
         },
@@ -43,10 +39,6 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
-            },
-            "group": {
-                "kind": "test",
-                "isDefault": true
             }
         },
         {

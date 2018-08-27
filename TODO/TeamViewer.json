@@ -3,21 +3,44 @@
     "description": "Team Viewer. Remote desktop access solutions. Connect to remote computers, provide remote support & collaborate online.",
     "homepage": "https://www.teamviewer.com/en/products/teamviewer/",
     "license": "",
-    "notes": "",
-    "depends": "",
-    "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe",
+    "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe#/cosi.7z",
     "hash": "ebdce38d4149f9a490d068a0d6f281f8a9fed398e3831186efc282785fac01e1",
+    "pre_install": [
+        "extract_7zip \"$dir\\`$_4_\\*.exe\" \"$dir\\cosi\"",
+        "Get-ChildItem \"$dir\" -Exclude 'cosi' | Remove-Item -Force -Recurse",
+        "Remove-Item \"$dir\\cosi\\`$PLUGINSDIR\" -Force -Recurse",
+        "extract_7zip \"$dir\\cosi\\tvfiles.7z\" \"$dir\""
+    ],
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "extract_7zip \"$dir\\cosi\\tvfilesx64.7z\" \"$dir\"",
+                    "extract_7zip \"$dir\\cosi\\tvfiles_printer_x64.7z\" \"$dir\""
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": [
+                    "extract_7zip \"$dir\\cosi\\tvfilesx86.7z\" \"$dir\"",
+                    "extract_7zip \"$dir\\cosi\\tvfiles_printer_x86.7z\" \"$dir\""
+                ]
+            }
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\cosi\" -Force -Recurse",
     "shortcuts": [
         [
-            ".exe",
-            ""
+            "TeamViewer.exe",
+            "TeamViewer"
         ]
     ],
     "checkver": {
-        "url": "https://en.wikipedia.org/wiki/TeamViewer",
-        "re": "\\(desktop app\\)</th><td>\\s+([\\d+\\.]+) /"
+        "url": "https://www.teamviewer.com/en/download/windows/?os=windows",
+        "re": "<p>v([\\d+\\.]+)</p>"
     },
     "autoupdate": {
-        "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe"
+        "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe#/cosi.7z"
     }
 }

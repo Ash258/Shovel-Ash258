@@ -22,7 +22,7 @@
     },
     "checkver": {
         "url": "https://github.com/DrDonk/unlocker",
-        "re": "\\d+/\\d+/\\d+\\s([\\d+\\.]+)\\s-\\s\\w+",
+        "re": "[\\d+/]+\\s([\\d+\\.]+)\\s-\\s\\w+",
         "reverse": true
     },
     "autoupdate": {
