@@ -6,7 +6,7 @@
     "hash": "b1378ea2a06631e482aca306cf2449e2bbd6c8d7505ca6f3199e97516acdf4e3",
     "extract_dir": "MPI_Tool_Pack_Plus_CloverLite_084",
     "checkver": {
-        "re": "a href=\".*easy2boot.com/(?<cosi>[\\d]+-[\\w]+)/.*>MPI_Tool_Pack_Plus_CloverLite_(?<ver>[\\d+\\.]+) \\([\\d+-]+\\)",
+        "re": "a href=\".*easy2boot.com/(?<cosi>\\d+-\\w+)/.*>MPI_Tool_Pack_Plus_CloverLite_(?<ver>[\\d+\\.]+) \\([\\d+-]+\\)",
         "replace": "${ver}"
     },
     "autoupdate": {
