@@ -16,7 +16,7 @@
             "hash": "06950460a9f6e3d10db9e8e84af17e22cb553f19459c663e37077603a42fde82"
         }
     },
-    "extract_dir": "Visual Paradigm 15.1",
+    "extract_dir": "Visual Paradigm CE 15.1",
     "shortcuts": [
         [
             "Visual Paradigm.exe",
@@ -24,7 +24,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.visual-paradigm.com/download/",
+        "url": "https://www.visual-paradigm.com/download/community.jsp",
         "re": "Version: (?<ver>[\\d+\\.]+).*Build number: (?<build>(\\d{8}))",
         "replace": "${ver}.${build}"
     },
@@ -41,6 +41,6 @@
             "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce$matchVer/$matchBuild/checksum.html",
             "find": "$basename\\s*</td>\\s*<td>\\s*sha256: ([A-f\\d]{64})"
         },
-        "extract_dir": "Visual Paradigm $matchVer"
+        "extract_dir": "Visual Paradigm CE $matchVer"
     }
 }
