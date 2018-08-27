@@ -18,6 +18,38 @@
             }
         },
         {
+            "label": "Check version and update (Actual)",
+            "type": "shell",
+            "command": ".\\bin\\checkver.ps1 ${fileBasenameNoExtension} ${fileDirname} -u",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Check version and force update (Actual)",
+            "type": "shell",
+            "command": ".\\bin\\checkver.ps1 ${fileBasenameNoExtension} ${fileDirname} -f",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
             "label": "Check version (Recursive)",
             "type": "shell",
             "command": ".\\bin\\checkver.ps1; .\\bin\\checkver.ps1 -dir TODO",
@@ -33,6 +65,18 @@
             "label": "Test",
             "type": "shell",
             "command": ".\\bin\\test.ps1",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            }
+        },
+        {
+            "label": "Missing Checkver",
+            "type": "shell",
+            "command": ".\\bin\\missing-checkver.ps1; .\\bin\\missing-checkver.ps1 -dir TODO",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
