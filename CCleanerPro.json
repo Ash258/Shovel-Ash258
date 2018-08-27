@@ -25,6 +25,7 @@
             "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"
         ]
     },
+    "persist": "ccleaner.ini",
     "architecture": {
         "64bit": {
             "shortcuts": [
@@ -43,7 +44,6 @@
             ]
         }
     },
-    "persist": "ccleaner.ini",
     "checkver": {
         "url": "http://www.ccleaner.com/",
         "re": "<a href=\"/news/release.*\">CCleaner v([\\d+\\.]+)"

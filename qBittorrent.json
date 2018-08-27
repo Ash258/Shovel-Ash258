@@ -1,0 +1,57 @@
+{
+    "version": "4.1.2",
+    "description": "qBittorrent. Free and reliable P2P Bittorent client.",
+    "homepage": "https://www.qbittorrent.org/",
+    "license": {
+        "identifier": "GPL-2.0-only",
+        "url": "https://raw.githubusercontent.com/qbittorrent/qBittorrent/master/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.1.2/qbittorrent_4.1.2_x64_setup.exe#/dl.7z",
+            "hash": "75984324e325590517fd22ea40758f4fdd719a8b06f3c4010cdc5d669f1ca9cb"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.1.2/qbittorrent_4.1.2_setup.exe#/dl.7z",
+            "hash": "53de5f9decfc23c3b273e21f97f78ced113262bedfa8e891fafffd7623652fe1"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "persist": "profile",
+    "bin": [
+        [
+            "qbittorrent.exe",
+            "qBittorrent",
+            "--portable"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "qbittorrent.exe",
+            "qBittorrent",
+            "--portable"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.qbittorrent.org/download.php",
+        "re": "Latest:\\s+v([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_x64_setup.exe#/dl.7z",
+                "hash": {
+                    "url": "https://www.qbittorrent.org/download.php",
+                    "find": "64-bit.*\\s+.*<code>([a-fA-F0-9]{40,128})</code>"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_setup.exe#/dl.7z",
+                "hash": {
+                    "url": "https://www.qbittorrent.org/download.php",
+                    "find": "32-bit.*\\s+.*<code>([A-f\\d]{40,128})</code>"
+                }
+            }
+        }
+    }
+}

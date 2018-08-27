@@ -1,0 +1,46 @@
+{
+    "version": "15.1.20180807",
+    "description": "Visual Paradigm Community Edition. UML CASE Tool supporting UML 2, SysML and Business Process Modeling Notation from the Object Management Group.",
+    "homepage": "https://www.visual-paradigm.com/",
+    "license": {
+        "identifier": "Trialware",
+        "url": "https://www.visual-paradigm.com/product/licenseagreement.jsp?product=vp&edition=ce"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce15.1/20180807/Visual_Paradigm_CE_15_1_20180807_Win64_InstallFree.zip",
+            "hash": "3f9b3349d89a07b33e58975f3e81dfadcb863084d67e361f2b9ab336dcf2e17c"
+        },
+        "32bit": {
+            "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce15.1/20180807/Visual_Paradigm_CE_15_1_20180807_Win32_InstallFree.zip",
+            "hash": "06950460a9f6e3d10db9e8e84af17e22cb553f19459c663e37077603a42fde82"
+        }
+    },
+    "extract_dir": "Visual Paradigm 15.1",
+    "shortcuts": [
+        [
+            "Visual Paradigm.exe",
+            "Visual Paradigm"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.visual-paradigm.com/download/",
+        "re": "Version: (?<ver>[\\d+\\.]+).*Build number: (?<build>(\\d{8}))",
+        "replace": "${ver}.${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce$matchVer/$matchBuild/Visual_Paradigm_CE_$underscoreVersion_Win64_InstallFree.zip"
+            },
+            "32bit": {
+                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce$matchVer/$matchBuild/Visual_Paradigm_CE_$underscoreVersion_Win32_InstallFree.zip"
+            }
+        },
+        "hash": {
+            "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce$matchVer/$matchBuild/checksum.html",
+            "find": "$basename\\s*</td>\\s*<td>\\s*sha256: ([A-f\\d]{64})"
+        },
+        "extract_dir": "Visual Paradigm $matchVer"
+    }
+}

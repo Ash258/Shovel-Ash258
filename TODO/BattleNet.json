@@ -1,0 +1,23 @@
+{
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": {
+        "identifier": ""
+    },
+    "notes": "",
+    "depends": "",
+    "url": "",
+    "hash": "",
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": "",
+    "autoupdate": {
+        "url": ""
+    }
+}
