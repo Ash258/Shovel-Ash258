@@ -10,7 +10,7 @@
     "url": "http://files.easy2boot.com/200003284-5ae465bd40/Easy2Boot_v1.A0_DPMS.exe",
     "hash": "5c1e033717ee69b9e141999f60a5c968b02a43f88023055b55ca19dcc9a5e6dc",
     "innosetup": true,
-    "post_install": [
+    "pre_install": [
         "    # Download MPI",
         "$MPI = \"$dir\\_MPI\"",
         "Copy-Item \"$(Resolve-Path (scoop prefix MPI))\\*\" $MPI -Force -Recurse",
@@ -30,5 +30,12 @@
             "Easy2Boot"
         ]
     ],
-    "checkver": "Latest released version is E2B v(.*)\\s+\\(([\\d+\\-?]+)\\)"
+    "checkver": {
+        "url": "http://www.easy2boot.com/download/",
+        "re": "href=\"http://files.easy2boot.com/(?<cosi>\\d+-\\w+)/Easy2Boot_v(?<ver>[\\w+\\.]+)_DPMS.exe\"",
+        "replace": "${ver}"
+    },
+    "autoupdate": {
+        "url": "http://files.easy2boot.com/$matchCosi/Easy2Boot_v$matchVer_DPMS.exe"
+    }
 }

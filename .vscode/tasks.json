@@ -11,7 +11,8 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Check version and update (Actual)",
@@ -24,6 +25,7 @@
                 "panel": "shared",
                 "showReuseMessage": false
             },
+            "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -39,7 +41,8 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Check version (Recursive)",
@@ -51,7 +54,8 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Test",
@@ -63,7 +67,8 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Missing Checkver",
@@ -75,7 +80,8 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
