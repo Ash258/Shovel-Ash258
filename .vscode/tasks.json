@@ -5,13 +5,6 @@
             "label": "Check version",
             "type": "shell",
             "command": ".\\bin\\checkver.ps1",
-            "problemMatcher": {
-                "owner": "pwsh",
-                "fileLocation": [
-                    "relative",
-                    "${workspaceFolder}"
-                ]
-            },
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
@@ -22,6 +15,30 @@
             "group": {
                 "kind": "test",
                 "isDefault": true
+            }
+        },
+        {
+            "label": "Check version (Recursive)",
+            "type": "shell",
+            "command": ".\\bin\\checkver.ps1; .\\bin\\checkver.ps1 -dir TODO",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            }
+        },
+        {
+            "label": "Test",
+            "type": "shell",
+            "command": ".\\bin\\test.ps1",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
             }
         }
     ]
