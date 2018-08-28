@@ -1,0 +1,36 @@
+{
+    "version": "5.1.37",
+    "description": "Free Download Manager. Powerful modern download accelerator and organizer for Windows and Mac.",
+    "homepage": "https://www.freedownloadmanager.org/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe",
+            "hash": "85fad02c6f97a5abd6c06c74c3e07341a76532c33f6c207f43ca3f7089a7252c"
+        },
+        "32bit": {
+            "url": "https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x86_setup.exe",
+            "hash": "25d06df3a070c56399af8b377c16e8783d73c489d40401636fd6825986628ee3"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "fdm.exe",
+            "Free Download Manager"
+        ]
+    ],
+    "checkver": "FDM ([\\d+\\.]+) for Windows 10/8.1/8/7",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dn3.freedownloadmanager.org/$majorVersion/$majorVersion.$minorVersion-latest/fdm$majorVersion_x64_setup.exe"
+            },
+            "32bit": {
+                "url": "https://dn3.freedownloadmanager.org/$majorVersion/$majorVersion.$minorVersion-latest/fdm$majorVersion_x86_setup.exe"
+            }
+        }
+    }
+}
