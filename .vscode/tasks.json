@@ -47,7 +47,8 @@
         {
             "label": "Check version (Recursive)",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1; .\\bin\\checkver.ps1 -dir TODO",
+            "dependsOn": "Check version",
+            "command": ".\\bin\\checkver.ps1 -dir TODO",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
