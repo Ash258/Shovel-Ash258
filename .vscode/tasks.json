@@ -17,7 +17,7 @@
         {
             "label": "Check version and update (Actual)",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1 ${fileBasenameNoExtension} ${fileDirname} -u",
+            "command": ".\\bin\\checkver.ps1 ${fileBasenameNoExtension} \"${fileDirname}\" -u",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
@@ -34,7 +34,7 @@
         {
             "label": "Check version and force update (Actual)",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1 ${fileBasenameNoExtension} ${fileDirname} -f",
+            "command": ".\\bin\\checkver.ps1 ${fileBasenameNoExtension} \"${fileDirname}\" -f",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",

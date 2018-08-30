@@ -5,7 +5,7 @@
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://www.heidoc.net/php/Windows%20ISO%20Downloader.exe#/WinISODl",
+    "url": "https://www.heidoc.net/php/Windows%20ISO%20Downloader.exe#/WinISODl.exe",
     "hash": "5171ffc0039601dc49cfac5a55794aae8a83ac22cab73b02d59efd0681c76c12",
     "shortcuts": [
         [
@@ -18,6 +18,6 @@
         "re": "<p>\\s+<strong>\\s*Version ([\\d+\\.]+) \\(\\d+ \\w+ \\d{4}\\):"
     },
     "autoupdate": {
-        "url": "https://www.heidoc.net/php/Windows%20ISO%20Downloader.exe#/WinISODl"
+        "url": "https://www.heidoc.net/php/Windows%20ISO%20Downloader.exe#/WinISODl.exe"
     }
 }
