@@ -53,6 +53,7 @@
 | [AutoClicker **(AutoClicker)**](./AutoClicker.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
 | [BleachBit **(BleachBit)**](./BleachBit.json)                                           | ✔      | ✔        | ✔ (✔)             |
+| [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Corsair's iCue **(iCue)**](./iCue.json)                                                | ❌      | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
@@ -79,6 +80,7 @@
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | ✔      | ✔        | ✔ (⛔)             |
 | [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | ✔      | ✔        | ❌ (⛔)             |
+| [System Ninja **(SystemNinja)**](./SystemNinja.json)                                    | ✔      | ✔        | ✔ (⛔)             |
 | [TeamSpeak3 **(TS3)**](./TS3.json)                                                      | ✔      | ✔        | ✔ (✔)             |
 | [Texlive **(Texlive)**](./Texlive.json)                                                 | ✔      | ✔        | ✔ (✔)             |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                           | ✔      | ✔        | ✔ (⛔)             |
