@@ -1,0 +1,40 @@
+{
+    "version": "3.2.3",
+    "description": "System Ninja. Fast, powerful and effective system optimization solution for Windows.",
+    "homepage": "https://singularlabs.com/software/system-ninja/",
+    "url": "https://singularlabs.com/download/10294/#/cosi.exe",
+    "hash": "fabf1c5648a91b56f7383f85a2e330d7d1a946bba11bd6ee2d5e95c851754a93",
+    "pre_install": [
+        "$FILE = 'config.ini'",
+        "$CONT = 'AutoUpdate:False'",
+        "if (!(Test-Path \"$persist_dir\\$FILE\")) {",
+        "    Set-Content \"$dir\\$FILE\" $CONT -Encoding ascii",
+        "}",
+        "    # Download plugins",
+        "function download([String] $remote, [String] $local) {",
+        "    (New-Object System.Net.WebClient).DownloadFile($remote, \"$dir\\plugins\\$local\")",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\plugins\")) {",
+        "    New-Item \"$dir\\plugins\" -Type Directory | Out-Null",
+        "    download 'https://singularlabs.com/download/11036/' 'Registry.zip'",
+        "    download 'https://singularlabs.com/download/10456/' 'ServiceRegistry.zip'",
+        "    extract_7zip \"$dir\\plugins\\*.zip\" \"$dir\\plugins\"",
+        "    Remove-Item \"$dir\\plugins\\*.zip\" -Force",
+        "}"
+    ],
+    "innosetup": true,
+    "persist": [
+        "plugins",
+        "config.ini"
+    ],
+    "shortcuts": [
+        [
+            "System Ninja.exe",
+            "System Ninja"
+        ]
+    ],
+    "checkver": "Version ([\\d+\\.]+) released \\d+",
+    "autoupdate": {
+        "url": "https://singularlabs.com/download/10294/#/cosi.exe"
+    }
+}

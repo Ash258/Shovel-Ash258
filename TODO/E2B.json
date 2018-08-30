@@ -9,7 +9,6 @@
     "depends": "MPI",
     "url": "http://files.easy2boot.com/200003284-5ae465bd40/Easy2Boot_v1.A0_DPMS.exe",
     "hash": "5c1e033717ee69b9e141999f60a5c968b02a43f88023055b55ca19dcc9a5e6dc",
-    "innosetup": true,
     "pre_install": [
         "    # Download MPI",
         "$MPI = \"$dir\\_MPI\"",
@@ -20,6 +19,7 @@
         "    # Create shortcuts",
         "& \"$MPI\\CreateDesktopShortcuts.cmd\""
     ],
+    "innosetup": true,
     "persist": [
         "_ISO",
         "_MPI"
