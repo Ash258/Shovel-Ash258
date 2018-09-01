@@ -88,6 +88,7 @@
 | [Visual Paradigm Community Edition **(VisualParadigmCE)**](./VisualParadigmCE.json)     | ✔      | ✔        | ✔ (✔)             |
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./VisualParadigmEE.json)    | ✔      | ✔        | ✔ (✔)             |
 | [Wavebox **(Wavebox)**](./Wavebox.json)                                                 | ✔      | ✔        | ✔ (✔)             |
+| [W10Privacy **(W10Privacy)**](./W10Privacy.json)                                        | ✔      | ✔        | ✔ (✔)             |
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
 | [Windows ISO Downlaoder **(WindowsISODownloader)**](./WindowsISODownloader.json)        | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |

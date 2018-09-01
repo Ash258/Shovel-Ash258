@@ -1,0 +1,37 @@
+{
+    "version": "3.1.0.3",
+    "description": "W10Privacy. .",
+    "homepage": "https://www.winprivacy.de/english-home/",
+    "license": {
+        "identifier": "CC-BY-NC-ND-4.0"
+    },
+    "url": "https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip",
+    "hash": "5b28c60783a1098d4548051629b7fde233da1e3c563d6dcc616a8fb05264bec7",
+    "pre_install": [
+        "$conf = 'W10Privacy.ini'",
+        "if (!(Test-Path \"$persist_dir\\$conf\")) {",
+        "    Write-Host 'No' $conf 'exists. Creating.'",
+        "    Set-Content \"$dir\\$conf\" $null",
+        "}"
+    ],
+    "persist": "W10Privacy.ini",
+    "bin": "W10Privacy.exe",
+    "shortcuts": [
+        [
+            "W10Privacy.exe",
+            "W10Privacy"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.winprivacy.de/deutsch-start/download/",
+        "re": "(?sm)current version: v\\.(?<ver>[\\d+\\.]+).*href=\"/app/download/(?<cosi>\\d+)/W10Privacy.zip",
+        "replace": "${ver}"
+    },
+    "autoupdate": {
+        "url": "https://www.winprivacy.de/app/download/$matchCosi/W10Privacy.zip",
+        "hash": {
+            "url": "https://www.winprivacy.de/deutsch-start/download/",
+            "find": "SHA256-Hash \\(of the file $basename\\): ([A-f\\d]{64})"
+        }
+    }
+}
