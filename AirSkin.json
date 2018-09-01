@@ -34,7 +34,11 @@
             "$find = \"//$find\"",
             "$content = $content.Replace($find, $replace)",
             "    # Final file overwrite",
-            "Set-Content $FILE $content"
+            "Set-Content $FILE $content",
+            "if ((Get-ChildItem \"$env:SCOOP\\apps\" -Filter 'Steam').Exists) {",
+            "    Write-Host 'Detected installed steam via SCOOP. Copying Files.' -f Yellow",
+            "    Copy-Item \"$dir\" \"$(Resolve-Path (scoop prefix Steam))\\skins\\\" -Force -Recurse",
+            "}"
         ]
     },
     "checkver": {
