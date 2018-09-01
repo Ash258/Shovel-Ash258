@@ -10,7 +10,7 @@
     "pre_install": [
         "$conf = 'W10Privacy.ini'",
         "if (!(Test-Path \"$persist_dir\\$conf\")) {",
-        "    Write-Host 'No' $conf 'exists. Creating.'",
+        "    Write-Host 'Folder' $conf 'does not exists. Creating.' -f Yellow",
         "    Set-Content \"$dir\\$conf\" $null",
         "}"
     ],
