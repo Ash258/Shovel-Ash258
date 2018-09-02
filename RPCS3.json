@@ -55,7 +55,7 @@
                 "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$matchCommit/rpcs3-v$version-$matchCosi_win64.7z",
                 "hash": {
                     "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
-                    "find": "<p>([A-f\\d]{64});"
+                    "find": "<p>([A-Fa-f\\d]{64});"
                 }
             }
         }

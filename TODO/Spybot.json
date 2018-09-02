@@ -34,7 +34,7 @@
         "url": "https://updates2.safer-networking.org/spybot1/spybotsd-$version.exe",
         "hash": {
             "url": "https://www.safer-networking.org/dl/",
-            "find": "\\(MD5 sum: ([A-f\\d]{32})\\)"
+            "find": "\\(MD5 sum: ([A-Fa-f\\d]{32})\\)"
         }
     }
 }

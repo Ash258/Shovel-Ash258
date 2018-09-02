@@ -36,14 +36,14 @@
                 "url": "http://dl.4players.de/ts/releases/$version/TeamSpeak3-Client-win64-$version.exe#/cosi.7z",
                 "hash": {
                     "url": "https://www.teamspeak.com/en/downloads",
-                    "find": "SHA256: ([A-f\\d]{64})<p></div>\\s+<div.*>\\s+<a class=\".*\" href=\"http://.*Client-win64-"
+                    "find": "SHA256: ([A-Fa-f\\d]{64})<p></div>\\s+<div.*>\\s+<a class=\".*\" href=\"http://.*Client-win64-"
                 }
             },
             "32bit": {
                 "url": "http://dl.4players.de/ts/releases/$version/TeamSpeak3-Client-win32-$version.exe#/cosi.7z",
                 "hash": {
                     "url": "https://www.teamspeak.com/en/downloads",
-                    "find": "SHA256: ([A-f\\d]{64})<p></div>\\s+<div.*>\\s+<a.*href=\"http://.*-Client-win32-"
+                    "find": "SHA256: ([A-Fa-f\\d]{64})<p></div>\\s+<div.*>\\s+<a.*href=\"http://.*-Client-win32-"
                 }
             }
         }

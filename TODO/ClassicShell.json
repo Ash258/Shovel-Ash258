@@ -23,7 +23,7 @@
         "url": "https://www.fosshub.com/Classic-Shell.html/ClassicShellSetup_$underscoreVersion.exe",
         "hash": {
             "url": "https://www.fosshub.com/Classic-Shell.html",
-            "find": "SHA256: ([A-f\\d]{64})"
+            "find": "SHA256: ([A-Fa-f\\d]{64})"
         }
     }
 }

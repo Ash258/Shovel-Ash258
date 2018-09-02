@@ -31,7 +31,7 @@
         "url": "https://www.winprivacy.de/app/download/$matchCosi/W10Privacy.zip",
         "hash": {
             "url": "https://www.winprivacy.de/deutsch-start/download/",
-            "find": "SHA256-Hash \\(of the file $basename\\): ([A-f\\d]{64})"
+            "find": "SHA256-Hash \\(of the file $basename\\): ([A-Fa-f\\d]{64})"
         }
     }
 }

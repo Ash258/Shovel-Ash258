@@ -48,7 +48,7 @@
                 "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-$version.exe#/cosi.exe",
                 "hash": {
                     "url": "https://my.vmware.com/web/vmware/details?downloadGroup=WKST-1412-WIN&productId=686&rPId=23138",
-                    "find": "SHA256SUM</span>: ([A-f\\d]{64})"
+                    "find": "SHA256SUM</span>: ([A-Fa-f\\d]{64})"
                 }
             }
         }
