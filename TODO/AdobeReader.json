@@ -1,0 +1,34 @@
+{
+    "version": "18.011.20058",
+    "description": "",
+    "homepage": "https://get.adobe.com/reader/",
+    "license": {
+        "identifier": ""
+    },
+    "notes": "",
+    "depends": "",
+    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1801120058/AcroRdrDC1801120058_en_US.exe",
+    "hash": "5323349a9793976c02c780e51a06d69038e005fd340c26302cde6fe00f059db1",
+    "installer": {
+        "args": [
+            "/sAll",
+            "/msi",
+            "INSTALLDIR=\"$dir\"",
+            "SUPPRESS_APP_LAUNCH=YES"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Acrobat.exe",
+            "Adobe Acrobat DC"
+        ],
+        [
+            "acrodist.exe",
+            "Adobe Acrobat Distiller DC"
+        ]
+    ],
+    "checkver": "Version \\d{2}((?<cosi>[\\d+\\.]+))",
+    "autoupdate": {
+        "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/$cleanVersion/AcroRdrDC$cleanVersion_en_US.exe"
+    }
+}
