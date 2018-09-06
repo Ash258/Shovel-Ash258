@@ -6,7 +6,7 @@
         "identifier": "MIT"
     },
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
-    "hash": "ad04ee4fa7e621bc1bff9e8814a82b509ccabb9c7652886fa9a8111cf8fc093a",
+    "hash": "54207ae637168de3f7716d228f5704e112476a01c2018ac0510ae326ce39f1d6",
     "bin": [
         "Get-VideoDetails.ps1",
         [
