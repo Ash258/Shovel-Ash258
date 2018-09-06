@@ -98,6 +98,7 @@
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [Easy2Boot **(E2B)**](./E2B.json)                                                         | ❌      | ✔        | ✔ (⛔)             |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔ 🔸     | ✔ (✔)             |
