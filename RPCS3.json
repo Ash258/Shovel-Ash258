@@ -30,8 +30,10 @@
         }
     },
     "post_install": [
-        "$outFile = \"$dir\\GuiConfigs\\CurrentSettings.ini\"",
-        "Set-Content $outFile \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" -Encoding ascii"
+        "$outFile = \"GuiConfigs\\CurrentSettings.ini\"",
+        "if (!(Test-Path \"$persist_dir\\$outFile\")) {",
+        "    Set-Content \"$dir\\$outFile\" \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" -Encoding ascii",
+        "}"
     ],
     "persist": [
         "dev_hdd0",
