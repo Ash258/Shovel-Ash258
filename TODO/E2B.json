@@ -9,19 +9,19 @@
     "depends": "MPI",
     "url": "http://files.easy2boot.com/200003295-0214b030ae/Easy2Boot_v1.A1_DPMS.exe",
     "hash": "87b7092c93428d46a9e3fee1d52978db1d84c8aa6dba88b24fa12a4dfb4819ae",
-    "pre_install": [
-        "    # Download MPI",
-        "$MPI = \"$dir\\_MPI\"",
-        "if (!(Test-Path \"$persist\\_MPI\")) {",
-        "    New-Item $MPI -Type Directory | Out-Null",
-        "}",
-        "Copy-Item \"$(Resolve-Path (scoop prefix MPI))\\*\" $MPI -Force -Recurse",
-        "scoop uninstall MPI",
-        "    # Run installer",
-        "#& \"$MPI\\ImDisk\\imdiskinst.exe\"",
-        "    # Create shortcuts",
-        "#& \"$MPI\\CreateDesktopShortcuts.cmd\""
-    ],
+    "installer": {
+        "script": [
+            "    # Download MPI",
+            "$MPI = \"$dir\\_MPI\"",
+            "if (!(Test-Path \"$persist\\_MPI\")) { New-Item $MPI -Type Directory | Out-Null }",
+            "Copy-Item \"$(Resolve-Path (scoop prefix MPI))\\*\" $MPI -Force -Recurse",
+            "scoop uninstall MPI",
+            "    # Run installer",
+            "#& \"$MPI\\ImDisk\\imdiskinst.exe\"",
+            "    # Create shortcuts",
+            "#& \"$MPI\\CreateDesktopShortcuts.cmd\""
+        ]
+    },
     "innosetup": true,
     "persist": [
         "_ISO",
