@@ -49,9 +49,9 @@
     },
     "autoupdate": {
         "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
-        "extract_dir": "install-tl-$cleanVersion",
         "hash": {
             "url": "http://mirrors.nic.cz/tex-archive/systems/texlive/tlnet/install-tl.zip.sha512"
-        }
+        },
+        "extract_dir": "install-tl-$cleanVersion"
     }
 }
