@@ -2,6 +2,10 @@
     "version": "4.0.0",
     "description": "Wavebox. Clever new home for cloud apps on macOS, Linux & Windows bringing all kind of web applications into a configurable client.",
     "homepage": "https://wavebox.io/",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://github.com/wavebox/waveboxapp/blob/master/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://wavebox.pro/dl/client/4_0_0/Wavebox_4_0_0_windows_x86_64/wavebox-4.0.0-full.nupkg#/cosi.7z",
