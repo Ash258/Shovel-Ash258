@@ -24,6 +24,7 @@
             "    Set-Content \"$dir\\ccleaner.ini\" $content -Encoding Ascii",
             "}",
             "    # Remove irrelevant files",
+            "    # gci because rm does not support placeholders as expected",
             "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"
         ]
     },
