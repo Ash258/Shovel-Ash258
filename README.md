@@ -73,6 +73,7 @@
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [Post Windows Installer **(PostInstall)**](./PostInstall.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [PotPlayer **(PotPlayer)**](./PotPlayer.json)                                           | ✔      | ✔        | ✔ (⛔)             |
+| [PowerShell Core **(pwsh)**](./pwsh.json) | ✔ | ✔ | ✔ (✔) |
 | [qBittorrent **(qBittorrent)**](./qBittorrent.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ❌      | ✔        | ✔ (✔)             |
