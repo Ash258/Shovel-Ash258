@@ -7,7 +7,8 @@
         "url": "https://github.com/Outsetini/Air-for-Steam/blob/master/LICENSE.txt"
     },
     "notes": [
-        "Now you can just copy eveything into Steam\\skins folder.",
+        "If you installed steam via scoop, skin was automatically copied.",
+        "Otherwise copy $dir folder into Steam\\skins folder.",
         "After copying you can uninstall with 'scoop uninstall AirForSteam'."
     ],
     "url": "https://github.com/Outsetini/Air-for-Steam/archive/2018-0805.zip",
