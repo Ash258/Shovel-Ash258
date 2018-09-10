@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5-7321",
+    "version": "0.0.5-7323",
     "description": "RPCS3. PS3 emulator/debugger.",
     "homepage": "https://rpcs3.net/",
     "license": {
@@ -20,23 +20,25 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-5237779136c2e7ee5ce0f94e2351d3b9ddc37c0e/rpcs3-v0.0.5-7321-52377791_win64.7z",
+                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-2226125728a49c51a9eea74fc84c284373bd33ed/rpcs3-v0.0.5-7323-22261257_win64.7z",
                 "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2017_1113_152d950c365ede4130c53ceb18dcd43b/PS3UPDAT.PUP"
             ],
             "hash": [
-                "7ddd016365494413601a3e41889a8fae8eba311babf8ed8272dc73c706b04d42",
+                "b154cdf414e14534c3ff8b99c7125a27a8573c30a5de67295638d04d3789c2ff",
                 "a70669bc35a5d688c94f5db8e1eb4110295b1b076ccc3c8e4a7e9ee397a6ca41"
             ]
         }
     },
-    "post_install": [
-        "$outFile = \"GuiConfigs\\CurrentSettings.ini\"",
-        "if (!(Test-Path \"$persist_dir\\$outFile\")) {",
-        "    $outfile = \"$dir\\$outFile\"",
-        "    New-Item $outFile -Type File -Force | Out-Null",
-        "    Set-Content $outFile \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" -Encoding Ascii",
-        "}"
-    ],
+    "installer": {
+        "script": [
+            "$outFile = \"GuiConfigs\\CurrentSettings.ini\"",
+            "if (!(Test-Path \"$persist_dir\\$outFile\")) {",
+            "    $outfile = \"$dir\\$outFile\"",
+            "    New-Item $outFile -Type File -Force | Out-Null",
+            "    Set-Content $outFile \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" -Encoding Ascii",
+            "}"
+        ]
+    },
     "persist": [
         "dev_hdd0",
         "GuiConfigs",
