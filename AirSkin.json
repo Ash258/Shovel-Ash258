@@ -9,7 +9,8 @@
     "notes": [
         "If you installed steam via scoop, skin was automatically copied.",
         "Otherwise copy '$dir' folder into '...\\Steam\\skins' folder.",
-        "After copying you can uninstall with 'scoop uninstall AirForSteam'."
+        "After copying you can uninstall with 'scoop uninstall AirForSteam'.",
+        "There are few themes, which could be set. (see: https://github.com/Outsetini/Air-for-Steam/wiki#colors)"
     ],
     "url": "https://github.com/Outsetini/Air-for-Steam/archive/2018-0805.zip",
     "hash": "7107b9c09d295a848a549d64e4d242eb90792787a594cb19e6ffb0e1ff884a4e",
