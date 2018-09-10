@@ -19,7 +19,9 @@
             "    # Create ccleaner.ini",
             "if (!(Test-Path \"$persist_dir\\ccleaner.ini\")) {",
             "    Write-Host 'No ccleaner.ini file' -f Yellow",
-            "    Set-Content \"$dir\\ccleaner.ini\" '[Options]' -Encoding Ascii",
+            "    $content = \"[Options]`r`nHelpImproveCCleaner=0`r`n\"",
+            "    $content += \"PrefsPrivacyShowOffers1stParty=0`r`nPrefsPrivacyShareData1stParty=0\"",
+            "    Set-Content \"$dir\\ccleaner.ini\" $content -Encoding Ascii",
             "}",
             "    # Remove irrelevant files",
             "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"
