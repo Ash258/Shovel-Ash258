@@ -19,7 +19,7 @@
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\PicoTorrent.json\")) {",
         "    Write-Host 'Settings file does not exist.' -f Yellow;",
-        "    Set-Content \"$dir\\PicoTorrent.json\" '{}'",
+        "    Set-Content \"$dir\\PicoTorrent.json\" '{}' -Encoding Ascii",
         "}",
         "if (!(Test-Path \"$persist_dir\\Session.dat\")) {",
         "    Write-Host 'Session file does not exist.' -f Yellow",

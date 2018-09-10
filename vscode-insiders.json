@@ -48,11 +48,11 @@
             "$content = Get-Content $REG_INSTALL",
             "$content = $content.Replace('$code', $CODEPATH)",
             "$content = $content.Replace('&Code', 'Code &Insiders')",
-            "Set-Content $REG_INSTALL $content",
+            "Set-Content $REG_INSTALL $content -Encoding Ascii",
             "    # Create uninstall context file",
             "$content = Get-Content $REG_UNINSTALL",
             "$content = $content.Replace('&Code', 'Code &Insiders')",
-            "Set-Content $REG_UNINSTALL $content",
+            "Set-Content $REG_UNINSTALL $content -Encoding Ascii",
             "    # Apply context automatically",
             "regedit /s $REG_INSTALL"
         ]
