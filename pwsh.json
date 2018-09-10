@@ -1,5 +1,6 @@
 {
     "version": "6.0.4",
+    "description": "PowerShell Core. Cross-Platform task automation and configuration management framework/tool.",
     "homepage": "https://github.com/PowerShell/PowerShell",
     "license": {
         "identifier": "MIT",
