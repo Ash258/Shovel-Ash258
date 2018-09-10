@@ -13,11 +13,11 @@
     ],
     "pre_install": [
         "    # Create portable.dat",
-        "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding ascii",
+        "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding Ascii",
         "    # Create Speccy.ini",
         "if (!(Test-Path \"$persist_dir\\Speccy.ini\")) {",
         "    Write-Host 'No Speccy.ini file' -f Yellow",
-        "    Set-Content \"$dir\\Speccy.ini\" '[Software\\Piriform\\Speccy]' -Encoding ascii",
+        "    Set-Content \"$dir\\Speccy.ini\" '[Software\\Piriform\\Speccy]' -Encoding Ascii",
         "}",
         "    # Remove irrelevant files",
         "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\" | Remove-Item -Force -Recurse"

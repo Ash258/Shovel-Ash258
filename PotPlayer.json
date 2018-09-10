@@ -42,7 +42,7 @@
             "        $cont += \"RememberPosition=1`r`nRememberPositionAudio=1`r`nSkinPopupMenuStyle=2`r`nScreenFitMode=2`r`n\"",
             "        $cont += \"MediaKeyGlobal=1`r`nFastAutoUpdate=0`r`nVideoRen2=15\"",
             "        Write-Host 'File' $f 'does not exists' -f Yellow",
-            "        Set-Content \"$dir\\$f\" $cont -Encoding ascii",
+            "        Set-Content \"$dir\\$f\" $cont -Encoding Ascii",
             "    }",
             "}"
         ]

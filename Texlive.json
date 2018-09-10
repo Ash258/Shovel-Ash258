@@ -22,8 +22,8 @@
         "}",
         "    # Create default profile",
         "$LINES = @(\"TEXDIR $newDir\", \"TEXMFLOCAL $newDir/texmf-local\", \"TEXMFSYSCONFIG $newDir/texmf-config\", \"TEXMFSYSVAR $newDir/texmf-var\")",
-        "foreach ($line in $LINES) { Add-Content $outFile $line -Encoding ascii }",
-        "Add-Content $outFile (New-Object System.Net.WebClient).DownloadString($URL) -Encoding ascii"
+        "foreach ($line in $LINES) { Add-Content $outFile $line -Encoding Ascii }",
+        "Add-Content $outFile (New-Object System.Net.WebClient).DownloadString($URL) -Encoding Ascii"
     ],
     "installer": {
         "file": "cosi\\install-tl-advanced.bat",

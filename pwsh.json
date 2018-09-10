@@ -39,7 +39,7 @@
             "$REG_FILE = \"$dir\\pwsh-context-ins.reg\"",
             "$content = Get-Content $REG_FILE",
             "$content = $content.Replace('%%dir%%', $PWSH_PATH)",
-            "Set-Content $REG_FILE $content -Encoding ascii",
+            "Set-Content $REG_FILE $content -Encoding Ascii",
             "    # Append registry",
             "regedit /s $REG_FILE"
         ]

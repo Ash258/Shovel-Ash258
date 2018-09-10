@@ -15,11 +15,11 @@
     "installer": {
         "script": [
             "    # Create portable.dat",
-            "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding ascii",
+            "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding Ascii",
             "    # Create ccleaner.ini",
             "if (!(Test-Path \"$persist_dir\\ccleaner.ini\")) {",
             "    Write-Host 'No ccleaner.ini file' -f Yellow",
-            "    Set-Content \"$dir\\ccleaner.ini\" '[Options]' -Encoding ascii",
+            "    Set-Content \"$dir\\ccleaner.ini\" '[Options]' -Encoding Ascii",
             "}",
             "    # Remove irrelevant files",
             "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"

@@ -8,7 +8,7 @@
         "$FILE = 'config.ini'",
         "$CONT = 'AutoUpdate:False'",
         "if (!(Test-Path \"$persist_dir\\$FILE\")) {",
-        "    Set-Content \"$dir\\$FILE\" $CONT -Encoding ascii",
+        "    Set-Content \"$dir\\$FILE\" $CONT -Encoding Ascii",
         "}",
         "    # Download plugins",
         "function download([String] $remote, [String] $local) {",
