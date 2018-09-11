@@ -34,7 +34,8 @@
     "shortcuts": [
         [
             "Steam.exe",
-            "Steam"
+            "Steam",
+            "-dev"
         ]
     ]
 }
