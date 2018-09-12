@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5-7331",
+    "version": "0.0.5-7332",
     "description": "RPCS3. PS3 emulator/debugger.",
     "homepage": "https://rpcs3.net/",
     "license": {
@@ -8,7 +8,7 @@
     },
     "notes": [
         "Install firmware via 'File -> Install firmware'.",
-        "    Latest firmware file is located inside app directory ('PS3UPDAT.PUP').",
+        "    Latest firmware file ('PS3UPDAT.PUP') is located inside app directory ('$dir').",
         "HOW TO INSTALL GAME:",
         "1.   Download games from 'http://psndl.net/packages'",
         "1.1.       Both files ('Rap', 'Package') are needed",
@@ -20,11 +20,11 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-efbd77deb4270a56543f4204d3fe22f4dd6d4539/rpcs3-v0.0.5-7331-efbd77de_win64.7z",
+                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-cd11ae5d8b621428f5c2ec8153dba37d096d5593/rpcs3-v0.0.5-7332-cd11ae5d_win64.7z",
                 "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2017_1113_152d950c365ede4130c53ceb18dcd43b/PS3UPDAT.PUP"
             ],
             "hash": [
-                "604b7f77605aaf97e72f11947e071232c52bcffad335830b546b7ceb7b2c4a86",
+                "e7e57499cae0bf5fb483c7da0c1749addb4dbed9e78ddeabe09fb191709f22d1",
                 "a70669bc35a5d688c94f5db8e1eb4110295b1b076ccc3c8e4a7e9ee397a6ca41"
             ]
         }
