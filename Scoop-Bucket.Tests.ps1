@@ -9,6 +9,7 @@ $repo_files = @(Get-ChildItem $repo_dir -file -recurse)
 
 $project_file_exclusions = @(
     $([regex]::Escape($repo_dir) + '(\\|/).git(\\|/).*$'),
+    $([regex]::Escape($repo_dir) + '(\\|/)bin(\\|/).*$'),
     '.sublime-workspace$',
     '.DS_Store$',
     'supporting(\\|/)validator(\\|/)packages(\\|/)*'
