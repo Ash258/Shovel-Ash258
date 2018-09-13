@@ -1,0 +1,30 @@
+{
+    "version": "4.0.5.0",
+    "description": "",
+    "homepage": "https://www.cheathappens.com/cosmos.asp",
+    "license": {
+        "identifier": ""
+    },
+    "depends": "innounp",
+    "url": "https://www.cheathappens.com/CoSMOS_Release_4050.zip",
+    "hash": "b70eec29c8aebfd9c798f2d8efec0c535dc376c9807c86400f407fe8b2941675",
+    "isntaller": {
+        "script": [
+            "Get-ChildItem \"$dir\" -Exclude 'CoSMOS.exe' | Remove-Item -Force -Recurse",
+            "unpack_inno \"$dir\\CoSMOS.exe\" $manifest \"$dir\""
+        ]
+    },
+    "persist": [
+        "Plugins"
+    ],
+    "shortcuts": [
+        [
+            "CoSMOS.exe",
+            "CoSMOS"
+        ]
+    ],
+    "checkver": "",
+    "autoupdate": {
+        "url": "https://www.cheathappens.com/CoSMOS_Release_$cleanVersion.zip"
+    }
+}

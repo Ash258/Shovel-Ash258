@@ -1,0 +1,45 @@
+{
+    "version": "1.0024",
+    "description": "Cheat Happens Trainer Manager. Managing, storing and autoupdating of cheat happens trainers.",
+    "homepage": "https://www.cheathappens.com/trainermanager.asp",
+    "license": {
+        "identifier": ""
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.cheathappens.com/TrainerManager64.zip",
+            "hash": "bf587e0fc94a9b78e4086770d4da6c6d1d9cddcb20160efc376fa45586c1a498",
+            "shortcuts": [
+                [
+                    "Trainer Manager 64.exe",
+                    "Trainer Manger"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.cheathappens.com/TrainerManager32.zip",
+            "hash": "64c6d052ce5fdac5362d6c2e6983e0eb1eac8bdb77a65bb127db19e20607a139",
+            "shortcuts": [
+                [
+                    "Trainer Manager 32.exe",
+                    "Trainer Manger"
+                ]
+            ]
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\tm_documentation.txt\" -Force",
+    "checkver": {
+        "url": "https://www.cheathappens.com/TM_changelog.txt",
+        "re": "CHANGELOG\\s+-+\\s+VERSION ([\\d+\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.cheathappens.com/TrainerManager64.zip"
+            },
+            "32bit": {
+                "url": "https://www.cheathappens.com/TrainerManager32.zip"
+            }
+        }
+    }
+}
