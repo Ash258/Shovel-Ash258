@@ -1,5 +1,5 @@
 {
-    "version": "6.0.4",
+    "version": "6.1.0",
     "description": "PowerShell Core. Cross-Platform task automation and configuration management framework/tool.",
     "homepage": "https://github.com/PowerShell/PowerShell",
     "license": {
@@ -9,24 +9,24 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.0.4/PowerShell-6.0.4-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/PowerShell-6.1.0-win-x64.zip",
                 "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/pwsh-context-ins.reg",
                 "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/pwsh-context-un.reg"
             ],
             "hash": [
-                "0b04b63d2b63d4631cf5bd6e531f26b60f3cc1b1db41c8b5360f14776e66f797",
+                "ca4ed36e663ab5f7fd32f636f9d274b1544173cea05b8a78481eb51c3f23163d",
                 "1191b2f357e15dabbec50e6f06b8280e794767e7f91dcd7b9986c915edf3adb6",
                 "3098a9b455faf501fc96d1c0863356e813b8089b0444ed4e981ea80be3bb1919"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.0.4/PowerShell-6.0.4-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/PowerShell-6.1.0-win-x86.zip",
                 "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/pwsh-context-ins.reg",
                 "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/pwsh-context-un.reg"
             ],
             "hash": [
-                "787fbecba57cd385428dbf4f4a0b7e16f92eecee3e6adae65d1ab04ca8cf41dd",
+                "b214dba4e4fb3afc8a4b946bcbef95e8fbec0e313214663938d57eccd8b068b9",
                 "1191b2f357e15dabbec50e6f06b8280e794767e7f91dcd7b9986c915edf3adb6",
                 "3098a9b455faf501fc96d1c0863356e813b8089b0444ed4e981ea80be3bb1919"
             ]
