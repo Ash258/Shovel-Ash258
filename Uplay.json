@@ -6,8 +6,19 @@
         "identifier": "Freeware"
     },
     "url": "https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe#/cosi.7z",
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-    "persist": "savegames",
+    "pre_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "$fold = \"cache\\installers\"",
+        "if (!(Test-Path \"$persist_dir\\$fold\")) {",
+        "    Write-Host 'No' $fold 'folder exists. Creating.' -f Yellow",
+        "    New-Item \"$dir\\$fold\" -Type Directory -Force | Out-Null",
+        "}"
+    ],
+    "persist": [
+        "games",
+        "savegames",
+        "cache/installers"
+    ],
     "shortcuts": [
         [
             "Uplay.exe",
