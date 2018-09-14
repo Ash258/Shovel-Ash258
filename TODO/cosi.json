@@ -3,12 +3,6 @@
     "description": "Free and Open Source messaging and emailing app that combines common web applications into one.",
     "homepage": "http://rambox.pro/",
     "license": "GPL-3.0-only",
-    "notes": [
-        "Rambox tweaks",
-        "- Bump",
-        "- Description",
-        "- Hash extraction possible after: lukesampson/scoop@04c9dde"
-    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/saenzramiro/rambox/releases/download/0.5.17/Rambox-0.5.17-x64-win.zip",
@@ -27,20 +21,19 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/saenzramiro/rambox"
+        "github": "https://github.com/ramboxapp/community-edition/releases/"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/saenzramiro/rambox/releases/download/$version/Rambox-$version-x64-win.zip"
+                "url": "https://github.com/ramboxapp/community-edition/releases/download/$version/Rambox-$version-x64-win.zip"
             },
             "32bit": {
-                "url": "https://github.com/saenzramiro/rambox/releases/download/$version/Rambox-$version-ia32-win.zip"
+                "url": "https://github.com/ramboxapp/community-edition/releases/download/$version/Rambox-$version-ia32-win.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/saenzramiro/rambox/releases/download/$version/latest-win.yml",
-            "find": "url: $basename\\s+sha512:\\s+(.*==)"
+            "url": "https://github.com/ramboxapp/community-edition/releases/download/$version/latest-win.yaml"
         }
     }
 }

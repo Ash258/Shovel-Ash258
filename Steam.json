@@ -22,9 +22,7 @@
     },
     "uninstaller": {
         "file": "uninstall.exe",
-        "args": [
-            "/S"
-        ]
+        "args": "/S"
     },
     "persist": [
         "skins",
