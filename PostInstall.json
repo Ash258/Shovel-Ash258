@@ -1,5 +1,5 @@
 {
-    "version": "2.6",
+    "version": "2.7",
     "description": "Post Install. Custom post windows 10 post installer.",
     "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
     "license": {
@@ -10,7 +10,7 @@
         "Also \"-SkipActivation\" parameter is available for skipping KMSpico activation."
     ],
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
-    "hash": "5045582ed381239c5173fb125c7bba8482144295b5f0b9f369357407153dd8a9",
+    "hash": "9ea48196d1e83302257a87d66d43a170303e53613dc61874301bf465ca1d0624",
     "bin": [
         [
             "PostInstall.ps1",
