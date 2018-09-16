@@ -1,5 +1,5 @@
 {
-    "version": "11.2.49.0",
+    "version": "11.2.63.0",
     "description": "Eset Nod32. Legendary antivirus for windows.",
     "homepage": "https://www.eset.com/int/home/antivirus/",
     "license": {
@@ -8,11 +8,11 @@
     "architecture": {
         "64bit": {
             "url": "https://download.eset.com/com/eset/apps/home/eav/windows/latest/eav_nt64.exe",
-            "hash": "f9be99d4039e98bb6276c9e171bea558ffa30ca3079c7292356f061ea4f4b6c5"
+            "hash": "bd4cfc1af7c7817445ef8a7185ef3b808e15e46400197b7e81c2b3ba018623f2"
         },
         "32bit": {
             "url": "https://download.eset.com/com/eset/apps/home/eav/windows/latest/eav_nt32.exe",
-            "hash": "a8d8783c36d2501ed44a317314ffe902ff654c8f443b02ebb84658111d0bdc3a"
+            "hash": "fb85431088ec450854a75168a4018f97253532fa31e752ec6d83317aaa60c550"
         }
     },
     "installer": {

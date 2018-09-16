@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/ramboxapp/community-edition/releases/"
+        "github": "https://github.com/ramboxapp/community-edition/"
     },
     "autoupdate": {
         "architecture": {
