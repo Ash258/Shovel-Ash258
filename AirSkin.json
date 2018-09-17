@@ -24,7 +24,7 @@
             "Remove-Item $toDelete -Force -Recurse",
             "    # Copy rather than moving (could be changed afterwards)",
             "Copy-Item \"$extras\\Themes\\Dark\\*\" \"$dir\" -Force -Recurse",
-            "    # REPLACING HELL",
+            "    # REPLACING HELL in config.ini",
             "$FILE = \"$dir\\config.ini\"",
             "$content = Get-Content $FILE",
             "    # Replacing Default Theme",
@@ -44,6 +44,7 @@
             "if ((Get-ChildItem \"$env:SCOOP\\apps\" -Filter 'Steam').Exists) {",
             "    Write-Host 'Detected installed steam via SCOOP. Copying Files.' -f Yellow",
             "    Copy-Item \"$dir\" \"$(Resolve-Path (scoop prefix Steam))\\skins\\\" -Force -Recurse",
+            "    Write-Host '✔ Copying DONE. Set skin in steam interface settings.' -f Green",
             "}"
         ]
     },
