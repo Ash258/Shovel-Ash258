@@ -10,5 +10,6 @@
                 ".vscode/Template.jsonc"
             ]
         }
-    ]
+    ],
+    "powershell.codeFormatting.preset": "OTBS"
 }

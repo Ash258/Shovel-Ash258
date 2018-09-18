@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "EditorConfig.EditorConfig",
-        "rebornix.project-snippets"
+        "rebornix.project-snippets",
+        "ms-vscode.PowerShell"
     ]
 }
