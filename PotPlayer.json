@@ -38,7 +38,7 @@
             "$setFiles = @('PotPlayerMini64.ini', 'PotPlayerMini.ini', 'PotPlayer64.ini', 'PotPlayer.ini')",
             "foreach ($f in $setFiles) {",
             "    if (!(Test-Path \"$persist_dir\\$f\")) {",
-            "        Write-Host 'File' $f 'does not exists. Creating -f Yellow",
+            "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
             "        $CONT = @(",
             "            '[Settings]', 'AutoDownloadFile=0', 'AutoPlayOnStart=1', 'AutoUpdateStart=0', 'CheckAutoUpdate=0',",
             "            'RememberPosition=1', 'RememberPositionAudio=1', 'SkinPopupMenuStyle=2', 'ScreenFitMode=2',",
