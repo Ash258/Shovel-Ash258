@@ -15,7 +15,7 @@
             "foreach ($fold in @(\"skins\", \"steamapps\", \"userdata\")) {",
             "    if (!(Test-Path \"$persist_dir\\$fold\")) {",
             "        Write-Host 'Folder' $fold 'does not exists. Creating.' -f Yellow",
-            "        New-Item \"$dir\\$fold\" -Type Directory | Out-Null",
+            "        New-Item \"$dir\\$fold\" -Type Directory -Force | Out-Null",
             "    }",
             "}"
         ]

@@ -17,12 +17,14 @@
         }
     },
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\PicoTorrent.json\")) {",
-        "    Write-Host 'Settings file does not exist.' -f Yellow;",
-        "    Set-Content \"$dir\\PicoTorrent.json\" '{}' -Encoding Ascii",
+        "$file = 'PicoTorrent.json'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "    Set-Content \"$dir\\$file\" '{}' -Encoding Ascii",
         "}",
-        "if (!(Test-Path \"$persist_dir\\Session.dat\")) {",
-        "    Write-Host 'Session file does not exist.' -f Yellow",
+        "$file = 'Session.dat'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "    Set-Content \"$dir\\Session.dat\" $null",
         "}"
     ],

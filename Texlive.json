@@ -14,7 +14,7 @@
         "$newDir = $dir.Path.Replace('\\', '/')",
         "$outFile = \"$dir\\texlive.profile\"",
         "$URL = \"https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/texlive.profile\"",
-        "if (Test-Path $persist_dir) { ",
+        "if (Test-Path \"$persist_dir\") { ",
         "    Write-Host 'Previous version was found.' -f Yellow",
         "    $newDir = $persist_dir.Path.Replace('\\', '/')",
         "} else {",
@@ -22,7 +22,7 @@
         "}",
         "    # Create default profile",
         "$LINES = @(\"TEXDIR $newDir\", \"TEXMFLOCAL $newDir/texmf-local\", \"TEXMFSYSCONFIG $newDir/texmf-config\", \"TEXMFSYSVAR $newDir/texmf-var\")",
-        "foreach ($line in $LINES) { Add-Content $outFile $line -Encoding Ascii }",
+        "Add-Content $outFile ($LINES -join \"`r`n\") -Encoding Ascii",
         "Add-Content $outFile (New-Object System.Net.WebClient).DownloadString($URL) -Encoding Ascii"
     ],
     "installer": {

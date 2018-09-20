@@ -31,11 +31,13 @@
     },
     "installer": {
         "script": [
-            "$outFile = \"GuiConfigs\\CurrentSettings.ini\"",
-            "if (!(Test-Path \"$persist_dir\\$outFile\")) {",
-            "    $outfile = \"$dir\\$outFile\"",
+            "$file = 'GuiConfigs\\CurrentSettings.ini'",
+            "if (!(Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $outfile = \"$dir\\$file\"",
             "    New-Item $outFile -Type File -Force | Out-Null",
-            "    Set-Content $outFile \"[Meta]`r`ncurrentStylesheet=Darker Style by TheMitoSan\" -Encoding Ascii",
+            "    $CONT = @('[Meta]', 'currentStylesheet=Darker Style by TheMitoSan')",
+            "    Set-Content $outFile ($CONT -join \"`r`n\") -Encoding Ascii",
             "}"
         ]
     },
