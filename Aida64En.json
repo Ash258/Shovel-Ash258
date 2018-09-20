@@ -10,7 +10,20 @@
         "64928d0db06145a1291ca237e96d72f732219292d0f49e4692fe3a0679996415",
         "61f8bb66520310acc677963b01f5699773dd7be9d6685c9570d064d24960ad8a"
     ],
-    "persist": "pkey.txt",
+    "installer": {
+        "script": [
+            "$CONF = 'aida64.ini'",
+            "if (!(Test-Path \"$persist_dir\\$CONF\")) {",
+            "    Write-Host 'No' $CONF 'exists. Creating.' -f Yellow",
+            "    $CONT = @(\"[Generic]`r`n\", 'NoRegistry=1', 'NetUpdateFreq=0')",
+            "    Set-Content \"$dir\\$CONF\" ($CONT -join \"`r`n\") -Encoding Ascii",
+            "}"
+        ]
+    },
+    "persist": [
+        "pkey.txt",
+        "aida64.ini"
+    ],
     "shortcuts": [
         [
             "aida64.exe",
