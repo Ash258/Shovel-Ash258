@@ -1,13 +1,13 @@
 {
-    "version": "5.97.4600",
+    "version": "5.98.4800",
     "description": "Aida. Industry-leading system information tool, loved by PC enthusiasts around the world, which provides extremely detailed information about hardware and offers benchmarks to measure the performance of the computer.",
     "homepage": "https://www.aida64.com/products/aida64-extreme",
     "url": [
-        "http://download.aida64.com/aida64extreme597.zip",
+        "http://download.aida64.com/aida64extreme598.zip",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aidex#/pkey.txt"
     ],
     "hash": [
-        "b6587c50bc995a8e1ef3cf5c7a49b5d65a5b796c05322b88da0d1a1ca7d8e5ad",
+        "2d276d8e9ad5499acf52c306b35b8796c6c154a44f8de8976cf774b798cfd703",
         "9ebc754e99e2a95cbada3190df35033a518a8fb1ea5f8a15388dd4afd205876e"
     ],
     "persist": "pkey.txt",
@@ -18,8 +18,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.aida64.com/downloads/OGZlM2YxNTk=",
-        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(\\w{3}.*\\)"
+        "url": "https://www.aida64.com/downloads",
+        "re": "<a href.*>AIDA64 Extreme\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">((\\d+)\\.(\\d+)\\.(\\d{4}))"
     },
     "autoupdate": {
         "url": "http://download.aida64.com/aida64extreme$match2$match3.zip"

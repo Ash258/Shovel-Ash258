@@ -1,13 +1,13 @@
 {
-    "version": "5.97.4600",
+    "version": "5.98.4800",
     "description": "Aida. Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers.",
     "homepage": "https://www.aida64.com/products/aida64-engineer",
     "url": [
-        "http://download.aida64.com/aida64engineer597.zip",
+        "http://download.aida64.com/aida64engineer598.zip",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aiden#/pkey.txt"
     ],
     "hash": [
-        "c239eb08c5a37bc906d5d08cb69e4a2ef2345ca5188db72e9ce524d257dc7d95",
+        "64928d0db06145a1291ca237e96d72f732219292d0f49e4692fe3a0679996415",
         "61f8bb66520310acc677963b01f5699773dd7be9d6685c9570d064d24960ad8a"
     ],
     "persist": "pkey.txt",
@@ -18,8 +18,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.aida64.com/downloads/ZjAyYjhmNmQ=",
-        "re": "Version: ((\\d+)\\.(\\d+)\\.\\d{4}).*\\(\\w{3}.*\\)"
+        "url": "https://www.aida64.com/downloads",
+        "re": "<a href.*>AIDA64 Extreme\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">((\\d+)\\.(\\d+)\\.(\\d{4}))"
     },
     "autoupdate": {
         "url": "http://download.aida64.com/aida64engineer$match2$match3.zip"

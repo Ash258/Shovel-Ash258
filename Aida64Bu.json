@@ -1,13 +1,13 @@
 {
-    "version": "5.97.4600",
+    "version": "5.98.4800",
     "description": "Aida. Essential IT asset management solution for small and medium enterprises.",
     "homepage": "https://www.aida64.com/products/aida64-business",
     "url": [
-        "http://download.aida64.com/aida64business597.zip",
+        "http://download.aida64.com/aida64business598.zip",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aid#/pkey.txt"
     ],
     "hash": [
-        "58d2c253547d24e2a333fcec15682907db2b08eeb2f6d96e553fae3d9cba6124",
+        "c8b027f13f5a8e9233d136667c7540c890bda58f207e722f4c3d1da397e45a70",
         "eb3cca82be1f3e581bee9377f183227ab0c2e0b723b85f6da7e38e9e986224e6"
     ],
     "persist": "pkey.txt",
