@@ -8,7 +8,7 @@
     "depends": "innounp",
     "url": "https://www.cheathappens.com/CoSMOS_Release_4050.zip",
     "hash": "b70eec29c8aebfd9c798f2d8efec0c535dc376c9807c86400f407fe8b2941675",
-    "isntaller": {
+    "installer": {
         "script": [
             "Get-ChildItem \"$dir\" -Exclude 'CoSMOS.exe' | Remove-Item -Force -Recurse",
             "unpack_inno \"$dir\\CoSMOS.exe\" $manifest \"$dir\""

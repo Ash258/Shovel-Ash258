@@ -1,0 +1,7 @@
+{
+    "New table line": {
+        "scope": "md, markdown",
+        "prefix": "tableLine",
+        "body": "| [$1 **($2)**](./$2.json) | ${3|✔,❌|} | ${4|✔,❌,♻|} | ${5|✔,❌,♻|} (${6|✔,⛔,♻|}) |"
+    }
+}
