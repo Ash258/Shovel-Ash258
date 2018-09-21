@@ -1,36 +1,43 @@
 {
-    "_comment": "", // Or ##
+    // region General Information
+    "_comment": "Cosi", // Or ##
     "version": "1.0",
-    "description": "",
+    "description": "Cosi",
     "homepage": "https://ash258.com",
     "license": {
-        "identifier": "",
+        "identifier": "MIT",
         "url": "https://ash258.com" // Whener it's possile attach program specific URL otherwise dont use
     },
     "notes": [
-        ""
+        "COSI"
     ],
+    // endregion General Information
+    // region Requirements
     "depends": [
-        ""
+        "COSI"
     ],
     "suggest": {
-        "": [
-            ""
+        "COSI": [
+            "COSI"
         ]
     },
+    // endregion Requirements
+    // region Downloding
     "architecture": { // Or platform specific below (URL, Hash, extract)
         "64bit": {
             "url": "https://ash258.com",
             "hash": "899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7",
-            "extract_dir": ""
+            "extract_dir": "COSI"
         },
         "32bit": {
             "url": "https://ash258.com",
             "hash": "899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7",
-            "extract_dir": ""
         }
     },
-    "extract_to": "",
+    // region Downloding
+    "extract_dir": "COSI",
+    "extract_to": "COSI",
+    // region Installing
     "pre_install": [
         ""
     ],
@@ -43,12 +50,16 @@
     "post_install": [
         ""
     ],
+    // region UnInstalling
     "uninstaller": {
         "file": "",
         "args": [
             ""
         ]
     },
+    // endregion UnInstalling
+    // endregion Installing
+    // region Links
     "persist": [
         ""
     ],
@@ -64,6 +75,8 @@
             ""
         ]
     ],
+    // endregion Links
+    // region Updating
     "checkver": "",
     "autoupdate": {
         "url": "https://ash258.com",
@@ -71,4 +84,5 @@
             "url": "https://ash258.com"
         }
     }
+    // endregion Updating
 }
