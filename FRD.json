@@ -17,6 +17,34 @@
             "frd.ico"
         ]
     ],
+    "post_install": [
+        "$delimeter = \"`r`n\"",
+        "$start = @('<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>',",
+        "    '<!DOCTYPE preferences SYSTEM \"http://java.sun.com/dtd/preferences.dtd\">', '<preferences EXTERNAL_XML_VERSION=\"1.0\">',",
+        "    '<preferences EXTERNAL_XML_VERSION=\"1.0\">', '    <root type=\"user\">', '        <map>'",
+        ")",
+        "$end =  @('        </map>', '    </root>', '</preferences>')",
+        "$ents = @()",
+        "$entryTemplate = \"            <entry key=\"\"%%key%%\"\" value=\"\"%%value%%\"\"/>\"",
+        "$entries = @{'enableDirectDownloads' = 'true'; 'zoomCaptchaImage' = 'true'; 'showPercentProgress' = 'true';",
+        "    'preCreateFile' = 'true'; 'enableNewLinkCheckDownloadHistory' = 'true'; 'skipDuplicateFiles' = 'true';",
+        "    'errorAttemptsCount' = '-1'; 'showInfoInFrameTitle' = 'true';",
+        "}",
+        "foreach ($entry in $entries.Keys) {",
+        "    $ent = ($entryTemplate -replace '%%key%%', $entry) -replace '%%value%%', $entries.Item($entry)",
+        "    $ents += $ent",
+        "}",
+        "    # Create file string",
+        "$finalFile  = $start -join $delimeter",
+        "$finalFile += $ents -join $delimeter",
+        "$finalFile += $end -join $delimeter",
+        "    # Set File",
+        "$FILE = \"$env:AppData\\VitySoft\\FRD\\frd.xml\"",
+        "Write-Host $finalFile -f Yellow",
+        "if (!(Test-Path $FILE)) {",
+        "#    Set-Content $FILE $finalFile -Encoding Ascii",
+        "}"
+    ],
     "checkver": {
         "url": "http://wordrider.net/freerapid/download.htm",
         "re": "Current version is\\s*<em>FreeRapid Downloader ([\\d+\\.]+\\w+)"
