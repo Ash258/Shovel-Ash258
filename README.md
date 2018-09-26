@@ -24,7 +24,7 @@
     - Do not include `$dir`.
     - Do not create bin for GUI applications.
         - Only use bin for CLIs.
-- - Persisting
+- Persisting
     - Do not include `$dir`.
     - Persising file does not exists after unpacking / installing.
         - Use this block in `pre_install` or `installer > script`:
