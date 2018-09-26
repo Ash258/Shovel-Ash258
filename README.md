@@ -28,6 +28,7 @@
     - Do not include `$dir`.
     - Persising file does not exists after unpacking / installing.
         - Use this block in `pre_install` or `installer > script`:
+            - Available via vscode snippet: `persistCheck`
 
 ```json
 {
@@ -58,6 +59,7 @@
 | [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔸    | ✔        | ✔ (⛔)             |
 | [Corsair's iCue **(iCue)**](./iCue.json)                                                | ❌      | ✔        | ✔ (⛔)             |
 | [CosMOS Advanced **(CosMOS)**](./CosMOS.json)                                           | ✔🔸    | ✔        | ✔ (⛔)             |
+| [CosMOS Beginner **(CosMOSBeginner)**](./CosMOSBeginner.json)                           | ✔🔸    | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
 | [Easy2Boot **(E2B)**](./E2B.json)                                                       | ❌      | ✔        | ✔ (⛔)             |
