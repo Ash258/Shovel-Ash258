@@ -57,8 +57,10 @@
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔸    | ✔        | ✔ (⛔)             |
 | [Corsair's iCue **(iCue)**](./iCue.json)                                                | ❌      | ✔        | ✔ (⛔)             |
+| [CosMOS Advanced **(CosMOS)**](./CosMOS.json)                                           | ✔🔸    | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
+| [Easy2Boot **(E2B)**](./E2B.json)                                                       | ❌      | ✔        | ✔ (⛔)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FastStone Image Viewer **(FastStone)**](./FastStone.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
@@ -101,11 +103,10 @@
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Easy2Boot **(E2B)**](./E2B.json)                                                         | ❌      | ✔        | ✔ (⛔)             |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
-| [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔ 🔸     | ✔ (✔)             |
-| [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔ 🔸     | ✔ (❌)             |
+| [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔🔸      | ✔ (✔)             |
+| [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔🔸      | ✔ (❌)             |
 | [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)                              | ❌      | ❌        | ✔ (❌)             |
 | [Nox App Player **(Nox)**](./TODO/Nox.json)                                               | ❌      | ❌        | ✔ (❌)             |
 | [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌      | ⭕        | ⭕ (⭕)             |

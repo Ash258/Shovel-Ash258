@@ -6,12 +6,19 @@
         "identifier": ""
     },
     "url": "https://www.cheathappens.com/CoSMOS_Beg_Release_5020.zip",
-    "hash": "",
+    "hash": "9408e51aa3988d4a92a4fd474b5a5f96a611271f7e3db90805dab879d4f3b72b",
     "bin": "",
     "shortcuts": [
         [
             ".exe",
             ""
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.cheathappens.com/cosmos_changelogbeg5.txt",
+        "re": "CoSMOS Beginner Changelog ([\\d+\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.cheathappens.com/CoSMOS_Beg_Release_$cleanVersion.zip"
+    }
 }

@@ -1,0 +1,60 @@
+{
+    "version": "5.0.3",
+    "description": "CosMOS Advanced. Brand new self-service gamehacking tool.",
+    "homepage": "https://www.cheathappens.com/cosmos.asp",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://www.cheathappens.com/CoSMOS_Adv_Beta_503.zip",
+    "hash": "b9c91e44aa457b549e886edcd046006f5382a19aedd397cce30c3826fdd6b55b",
+    "pre_install": [
+        "$file = 'Settings.xml'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "        # File Structure",
+        "    $delimeter = \"`r`n\"",
+        "    $start = @('<?xml version=\"1.0\" encoding=\"utf-8\"?>',",
+        "        '<Settings xmlns:xsd=\"http: //www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">', '  <Misc>'",
+        "    )",
+        "    $entryTemplate = '    <%%key%%>%%value%%</%%key%%>'",
+        "    $end = @('  </Misc>', '</Settings>')",
+        "    $ents = @()",
+        "    $entries = @{'ProjectsFolder' = \"$dir\\Projects\\\"; 'CheckForUpdates' = 'false'; 'Theme' = 'MetroDark'}",
+        "    foreach ($entry in $entries.Keys) {",
+        "        $ent = ($entryTemplate -replace '%%key%%', $entry) -replace '%%value%%', $entries.Item($entry)",
+        "        $ents += $ent",
+        "    }",
+        "        # Create file string",
+        "    $finalFile  = $start -join $delimeter",
+        "    $finalFile += $delimeter",
+        "    $finalFile += $ents -join $delimeter",
+        "    $finalFile += $delimeter",
+        "    $finalFile += $end -join $delimeter",
+        "        # Set File",
+        "    Set-Content \"$dir\\$file\" $finalFile -Encoding Ascii",
+        "}",
+        "$file = 'Layout.xml'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "    Set-Content \"$dir\\$file\" '' -Encoding Ascii",
+        "}"
+    ],
+    "persist": [
+        "Projects",
+        "Layout.xml",
+        "Settings.xml"
+    ],
+    "shortcuts": [
+        [
+            "CoSMOS.exe",
+            "CoSMOS"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.cheathappens.com/cosmos_changelog5.txt",
+        "re": "CoSMOS Advanced Changelog ([\\d+\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.cheathappens.com/CoSMOS_Adv_Beta_$cleanVersion.zip"
+    }
+}
