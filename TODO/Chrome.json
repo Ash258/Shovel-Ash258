@@ -1,12 +1,12 @@
 {
-    "version": "69.0.3497.92",
+    "version": "69.0.3497.100",
     "description": "Google Chrome. Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/",
     "license": {
         "identifier": "Freeware"
     },
     "url": "https://www.google.com/chrome/thank-you.html?standalone=1&system=true&statcb=0",
-    "hash": "0f9d1600fd53311833057a0af34f40642f974a7f0f8fa960af10c37f5f1a2f77",
+    "hash": "acdeea2aae5c45e348cb58ad1646183b99c74b45db6b4e028b25fb03fc1da057",
     "bin": "chrome.exe",
     "shortcuts": [
         [
