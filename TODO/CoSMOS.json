@@ -5,7 +5,6 @@
     "license": {
         "identifier": "Freeware"
     },
-    "depends": "innounp",
     "url": "https://www.cheathappens.com/CoSMOS_Release_4050.zip",
     "hash": "b70eec29c8aebfd9c798f2d8efec0c535dc376c9807c86400f407fe8b2941675",
     "installer": {

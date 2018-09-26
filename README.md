@@ -55,9 +55,10 @@
 | [BleachBit **(BleachBit)**](./BleachBit.json)                                           | ✔      | ✔        | ✔ (✔)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
+| [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔸    | ✔        | ✔ (⛔)             |
 | [Corsair's iCue **(iCue)**](./iCue.json)                                                | ❌      | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
-| [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔         | ✔ (✔) |
+| [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FastStone Image Viewer **(FastStone)**](./FastStone.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
@@ -73,7 +74,7 @@
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [Post Windows Installer **(PostInstall)**](./PostInstall.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [PotPlayer **(PotPlayer)**](./PotPlayer.json)                                           | ✔      | ✔        | ✔ (⛔)             |
-| [PowerShell Core **(pwsh)**](./pwsh.json) | ✔ | ✔ | ✔ (✔) |
+| [PowerShell Core **(pwsh)**](./pwsh.json)                                               | ✔      | ✔        | ✔ (✔)             |
 | [qBittorrent **(qBittorrent)**](./qBittorrent.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ❌      | ✔        | ✔ (✔)             |
