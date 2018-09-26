@@ -3,15 +3,15 @@
     "description": "Cheat Engine. Open source tool designed to help with modifying single player games running under window to make them harder or easier.",
     "homepage": "https://cheatengine.org/",
     "license": {
-        "identifier": ""
+        "identifier": "Freeware"
     },
     "url": "https://github.com/cheat-engine/cheat-engine/releases/download/v6.8.1/CheatEngine681.exe",
     "hash": "6f795f11fa3983b4779426dd6dce8346e279b099f62ad4bab5d246b932e09885",
     "innosetup": true,
     "shortcuts": [
         [
-            ".exe",
-            ""
+            "Cheat Engine.exe",
+            "Cheat Engine"
         ]
     ],
     "checkver": {
