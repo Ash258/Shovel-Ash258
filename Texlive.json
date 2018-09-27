@@ -1,5 +1,5 @@
 {
-    "version": "2018.09.01",
+    "version": "2018.09.27",
     "description": "Tex Live. Easy way to get up and running with the TeX document production system.",
     "homepage": "https://www.tug.org/texlive/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://www.tug.org/texlive/LICENSE.TL"
     },
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
-    "hash": "sha512:d993f5214e321402d8769e1ce09b5be48cb6ae3bb063d944ecb4e1312091eaca536c9101581ae1eacea0ef8b57f20dfb8a04772451ff10051b6a0cc8dd3899e1",
-    "extract_dir": "install-tl-20180901",
+    "hash": "sha512:2e067751e6c0a904d97e0bd4048f75f8beb410ac5d18503589db714190d0e3f38c3c7f37f89e0082641990a462f159cfb1b45c20f145b21ee02d156a7410840c",
+    "extract_dir": "install-tl-20180927",
     "extract_to": "cosi",
     "pre_install": [
         "$newDir = $dir.Path.Replace('\\', '/')",

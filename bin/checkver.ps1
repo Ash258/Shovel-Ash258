@@ -6,6 +6,7 @@
 	Few control parameters could be used.
 	-u - Update given manifests
 	-f - Force update given manifests
+	-s - Show only outdated manifests
 .EXAMPLE
 	PS: BUCKETROOT $ .\bin\checkver.ps1
 	Check all manifests in root.
