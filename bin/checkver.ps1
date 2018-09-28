@@ -44,9 +44,10 @@
 	Where to search for manifest.
 	Default to root of repository.
 .PARAMETER Rest
+	-s - Show only outdated manifests
 	-u - Update given manifests
 	-f - Force update given manifests
-		Usefull for hash updates.
+		Usefull for hash updates
 #>
 param(
 	[Parameter(ValueFromPipeline = $true)]
