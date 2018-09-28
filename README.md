@@ -142,6 +142,7 @@
         - No junk files creating
         - ...
     - Installing is needed in some cases and path cannot be changed.
+
 - VScode-insiders was changed to nightly in [172ee89](https://github.com/Ash258/scoop-Ash258/commit/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a)
     - No need for checkver an autoupdate
 
