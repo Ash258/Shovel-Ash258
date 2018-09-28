@@ -62,7 +62,6 @@
 | [CosMOS Beginner **(CosMOSBeginner)**](./CosMOSBeginner.json)                           | ✔🔸    | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
-| [Easy2Boot **(E2B)**](./E2B.json)                                                       | ❌      | ✔        | ✔ (⛔)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FastStone Image Viewer **(FastStone)**](./FastStone.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
@@ -75,6 +74,7 @@
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ♻        | ♻ (♻)             |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json)                | ✔      | ✔        | ✔ (⛔)             |
 | [Origin **(Origin)**](./Origin.json)                                                    | ✔      | ♻        | ♻ (♻)             |
+| [Path Of Building **(PathOfBuilding)**](./PathOfBuilding.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [Post Windows Installer **(PostInstall)**](./PostInstall.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [PotPlayer **(PotPlayer)**](./PotPlayer.json)                                           | ✔      | ✔        | ✔ (⛔)             |
@@ -107,11 +107,10 @@
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
+| [Easy2Boot **(E2B)**](./E2B.json)                                                         | ❌      | ✔        | ✔ (⛔)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔🔸      | ✔ (✔)             |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔🔸      | ✔ (❌)             |
-| [Classic Shell **(ClassicShell)**](./TODO/ClassicShell.json)                              | ❌      | ❌        | ✔ (❌)             |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               | ❌      | ❌        | ✔ (❌)             |
 | [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) | ❌      | ⭕        | ⭕ (⭕)             |
@@ -124,6 +123,14 @@
 | [Google Chrome **(Chrome)**](./TODO/Chrome.json)                                          | ❌      | ❌        | ❌ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌      | ❌        | ❌ (❌)             |
+| [Adobe Reader **(AdobeReader)**](./AdobeReader.json)                                      | ❌      | ❌        | ❌ (❌)             |
+| [Battle.Net **(BattleNet)**](./BattleNet.json)                                            | ❌      | ❌        | ❌ (❌)             |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               | ❌      | ❌        | ❌ (❌)             |
+| [Blue Stack Emulator **(BlueStacks)**](./BlueStacks.json)                                 | ❌      | ❌        | ❌ (❌)             |
+| [Google Chrome **(Chrome)**](./Chrome.json)                                               | ❌      | ❌        | ❌ (❌)             |
+| [Free Download Manager **(FDM)**](./FDM.json)                                             | ❌      | ❌        | ❌ (❌)             |
+| [Spotify **(Spotify)**](./Spotify.json)                                                   | 🎃     | ❌        | ❌ (❌)             |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./TrainerManager.json)                | ❌      | ❌        | ❌ (❌)             |
 
 - 🔸 Additional testing is needed
 - ⭕ Not needed
