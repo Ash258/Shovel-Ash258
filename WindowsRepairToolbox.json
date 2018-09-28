@@ -1,0 +1,35 @@
+{
+    "version": "3.0.1.0",
+    "description": "Windows Repair Toolbox. .",
+    "homepage": "https://windows-repair-toolbox.com/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://windows-repair-toolbox.com/files/Windows_Repair_Toolbox.zip",
+    "hash": "0058e948b7ce00b0f3795d12e8769b55018d227a334c80b3f85f6e9e71e70d69",
+    "persist": [
+        "Downloads",
+        "custom\\custom.xml",
+        "Windows_Repair_Toolbox.exe.config"
+    ],
+    "bin": [
+        [
+            "Windows_Repair_Toolbox (fast start, no monitors).bat",
+            "winrepair"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Windows_Repair_Toolbox.exe",
+            "Windows Repair Toolbox"
+        ]
+    ],
+    "checkver": "Program version:.{2,3}([\\d+\\.]+) \\(",
+    "autoupdate": {
+        "url": "https://windows-repair-toolbox.com/files/Windows_Repair_Toolbox.zip",
+        "hash": {
+            "url": "https://windows-repair-toolbox.com/",
+            "find": "SHA256\\s+\\(zip\\): ([A-Fa-f\\d]{64})"
+        }
+    }
+}

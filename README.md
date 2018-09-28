@@ -98,6 +98,7 @@
 | [W10Privacy **(W10Privacy)**](./W10Privacy.json)                                        | ✔      | ✔        | ✔ (✔)             |
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
 | [Windows ISO Downlaoder **(WindowsISODownloader)**](./WindowsISODownloader.json)        | ✔      | ✔        | ✔ (⛔)             |
+| [Windows Repair Toolbox **(WindowsRepairToolbox)**](./WindowsRepairToolbox.json)        | ✔      | ✔        | ✔ (✔)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 

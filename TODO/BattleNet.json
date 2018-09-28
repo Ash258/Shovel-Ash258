@@ -1,23 +1,15 @@
 {
-    "version": "",
-    "description": "",
-    "homepage": "",
+    "version": "nightly",
+    "description": "Battle.Net. Blizzard's games client.",
+    "homepage": "https://www.blizzard.com/en-us/apps/battle.net/desktop",
     "license": {
-        "identifier": ""
+        "identifier": "Freeware"
     },
-    "notes": "",
-    "depends": "",
-    "url": "",
-    "hash": "",
-    "bin": "",
+    "url": "https://eu.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe",
     "shortcuts": [
         [
             ".exe",
             ""
         ]
-    ],
-    "checkver": "",
-    "autoupdate": {
-        "url": ""
-    }
+    ]
 }

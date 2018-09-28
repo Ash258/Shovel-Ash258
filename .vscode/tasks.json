@@ -4,7 +4,7 @@
         {
             "label": "Check version",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1",
+            "command": ".\\bin\\checkver.ps1 -s",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
@@ -49,7 +49,7 @@
             "label": "Check version (Recursive)",
             "type": "shell",
             "dependsOn": "Check version",
-            "command": ".\\bin\\checkver.ps1 -dir \"TODO\"",
+            "command": ".\\bin\\checkver.ps1 -dir \"TODO\" -s",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
@@ -75,7 +75,7 @@
         {
             "label": "Missing Checkver",
             "type": "shell",
-            "command": ".\\bin\\missing-checkver.ps1; .\\bin\\missing-checkver.ps1 -dir TODO",
+            "command": ".\\bin\\missing-checkver.ps1; .\\bin\\missing-checkver.ps1 -dir \"TODO\"",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
