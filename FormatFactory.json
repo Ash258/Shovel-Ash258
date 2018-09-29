@@ -1,12 +1,12 @@
 {
-    "version": "4.3.0.0",
+    "version": "4.4.0.0",
     "description": "Format Factory. Free and multifunctional, multimedia file conversion tool.",
     "homepage": "http://www.pcfreetime.com/formatfactory/index.php?language=en",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "http://www.pcfreetime.com/public/FFSetup4.3.0.0.exe#cosi.7z",
-    "hash": "96722c0990b20f37752655d94cfc7c9ca4303eb9a13f9c582c6b9ca9176067a2",
+    "url": "http://www.pcfreetime.com/public/FFSetup4.4.0.0.exe#cosi.7z",
+    "hash": "a15ea86391f7e6ddd4b6ea11ab4506b2b60d9d3a2d8aa31c9b761051e0ea2f51",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "shortcuts": [
         [
