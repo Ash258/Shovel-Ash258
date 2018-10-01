@@ -66,6 +66,7 @@ exit $?`n
 | [AutoClicker **(AutoClicker)**](./AutoClicker.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
 | [BleachBit **(BleachBit)**](./BleachBit.json)                                           | ✔      | ✔        | ✔ (✔)             |
+| [Blisk **(blisk)**](./blisk.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔶    | ✔        | ✔ (⛔)             |
