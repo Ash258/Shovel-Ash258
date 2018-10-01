@@ -25,3 +25,6 @@ indent_style = tab
 
 [.git/hooks/*]
 end_of_line = lf
+
+[*.{yml, yaml}]
+indent_size = 2

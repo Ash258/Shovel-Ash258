@@ -1,5 +1,3 @@
-version: "{build}-{branch}"
-
 environment:
   scoop: C:\projects\scoop
   scoop_home: C:\projects\scoop\apps\scoop\current
@@ -14,14 +12,18 @@ skip_commits:
     - '.vscode/**/*'
 
 init:
-  - ps: (Get-PsProvider 'FileSystem').Home = 'c:\projects\'
-  - ps: iex (New-Object Net.Webclient).DownloadString('https://get.scoop.sh')
-  - ps: Install-Module -Name Pester -Repository PSGallery -Force
+  - ps: >-
+      (Get-PsProvider 'FileSystem').Home = 'c:\projects\'
+      iex (New-Object System.Net.Webclient).DownloadString('https://get.scoop.sh')
+      Install-Module -Name Pester -Repository PSGallery -Force
 
 build: off
 
 test_script:
-  - ps: $result = Invoke-Pester -OutputFile TestResults.xml -OutputFormat NUnitXML -PassThru; $env:failedcount = $result.failedcount
-  - ps: (New-Object Net.Webclient).UploadFile("https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)", (Resolve-Path ./TestResults.xml))
-  - ps: if($env:failedcount -gt 0) { exit $env:failedcount }
+  - ps: >-
+      $result = Invoke-Pester -OutputFile TestResults.xml -OutputFormat NUnitXML -PassThru
+      $where = "https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)"
+      $what = (Resolve-Path ./TestResults.xml)
+      (New-Object System.Net.Webclient).UploadFile($where, $what)
+      exit $result.failedcount
 
