@@ -1,5 +1,5 @@
 {
-    "_comment": [
+    "##": [
         "Use runas, because spotify could not be installed from elevated prompt:",
         "https://community.spotify.com/t5/Accounts/quot-Please-install-Spotify-using-a-normal-account-instead-of-an/td-p/61901"
     ],

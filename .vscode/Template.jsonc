@@ -1,6 +1,6 @@
 {
     // region General Information
-    "_comment": "Cosi", // Or ##
+    "##": "Cosi",
     "version": "1.0",
     "description": "Cosi",
     "homepage": "https://ash258.com",

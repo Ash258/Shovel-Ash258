@@ -4,7 +4,7 @@
         {
             "label": "Check version",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1 -s",
+            "command": ".\\bin\\checkver.ps1",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
@@ -49,7 +49,7 @@
             "label": "Check version (Recursive)",
             "type": "shell",
             "dependsOn": "Check version",
-            "command": ".\\bin\\checkver.ps1 -dir \"TODO\" -s",
+            "command": ".\\bin\\checkver.ps1 -dir \"TODO\"",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
