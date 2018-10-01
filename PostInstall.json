@@ -9,12 +9,19 @@
         "Could be run via \"PostInstall\".",
         "Also \"-SkipActivation\" parameter is available for skipping KMSpico activation."
     ],
-    "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
-    "hash": "a08119ccdd1eb4a1495a43de216e24573f9370256f01d2b3bcf2e3d1029c1582",
+    "url": [
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.User.ps1"
+    ],
+    "hash": [
+        "a08119ccdd1eb4a1495a43de216e24573f9370256f01d2b3bcf2e3d1029c1582",
+        "38eb436ef9006968960e2dd2d9c25190a9740c65fbb44f9fc5b6a81848ecb917"
+    ],
     "bin": [
+        "PostInstall.ps1",
         [
-            "PostInstall.ps1",
-            "PostInstall"
+            "PostInstall.User.ps1",
+            "PostInstall-User"
         ]
     ],
     "checkver": "<#\\s+\\.VERSION\\s+([\\d+\\.]+)",

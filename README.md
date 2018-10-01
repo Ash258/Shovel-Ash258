@@ -56,10 +56,10 @@
 | [BleachBit **(BleachBit)**](./BleachBit.json)                                           | ✔      | ✔        | ✔ (✔)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
-| [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔸    | ✔        | ✔ (⛔)             |
-| [Corsair's iCue **(iCue)**](./iCue.json)                                                | ❌      | ✔        | ✔ (⛔)             |
-| [CosMOS Advanced **(CosMOS)**](./CosMOS.json)                                           | ✔🔸    | ✔        | ✔ (⛔)             |
-| [CosMOS Beginner **(CosMOSBeginner)**](./CosMOSBeginner.json)                           | ✔🔸    | ✔        | ✔ (⛔)             |
+| [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔶    | ✔        | ✔ (⛔)             |
+| [Corsair's iCue **(iCue)**](./iCue.json)                                                | ✔🔶    | ✔        | ✔ (⛔)             |
+| [CosMOS Advanced **(CosMOS)**](./CosMOS.json)                                           | ✔🔶    | ✔        | ✔ (⛔)             |
+| [CosMOS Beginner **(CosMOSBeginner)**](./CosMOSBeginner.json)                           | ✔🔶    | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
@@ -81,7 +81,7 @@
 | [PowerShell Core **(pwsh)**](./pwsh.json)                                               | ✔      | ✔        | ✔ (✔)             |
 | [qBittorrent **(qBittorrent)**](./qBittorrent.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                                          | ✔      | ✔        | ✔ (⛔)             |
-| [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ❌      | ✔        | ✔ (✔)             |
+| [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ✔🔶    | ✔        | ✔ (✔)             |
 | [Speccy **(Speccy)**](./Speccy.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Steam **(Steam)**](./Steam.json)                                                       | ✔      | ♻        | ♻ (♻)             |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | ✔      | ✔        | ✔ (⛔)             |
@@ -109,8 +109,8 @@
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
 | [Easy2Boot **(E2B)**](./E2B.json)                                                         | ❌      | ✔        | ✔ (⛔)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
-| [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔🔸      | ✔ (✔)             |
-| [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔🔸      | ✔ (❌)             |
+| [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔🔶      | ✔ (✔)             |
+| [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔🔶      | ✔ (❌)             |
 | [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) | ❌      | ⭕        | ⭕ (⭕)             |
@@ -132,7 +132,7 @@
 | [Spotify **(Spotify)**](./Spotify.json)                                                   | 🎃     | ❌        | ❌ (❌)             |
 | [CheatHappens Trainer Manager **(TrainerManager)**](./TrainerManager.json)                | ❌      | ❌        | ❌ (❌)             |
 
-- 🔸 Additional testing is needed
+- 🔶 Additional testing is needed
 - ⭕ Not needed
 - ⛔ Not possible (need download)
 - ♻ Nightly
