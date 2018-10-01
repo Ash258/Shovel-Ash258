@@ -6,7 +6,7 @@
         "identifier": "MIT",
         "url": "https://code.visualstudio.com/license/insiders"
     },
-    "notes": "When there is vscode update available run 'scoop update vscode-insiders -f'",
+    "notes": "When there is vscode update available run 'scoop update vscode-insiders -kf'",
     "architecture": {
         "64bit": {
             "url": [
