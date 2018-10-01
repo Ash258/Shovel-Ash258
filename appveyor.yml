@@ -25,5 +25,5 @@ test_script:
       $where = "https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)"
       $what = (Resolve-Path ./TestResults.xml)
       (New-Object System.Net.Webclient).UploadFile($where, $what)
-      exit $result.failedcount
+      if ($result.failedCount -gt 0) { exit $result.failedcount }
 
