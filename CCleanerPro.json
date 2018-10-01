@@ -49,7 +49,7 @@
     },
     "checkver": {
         "url": "https://www.ccleaner.com/ccleaner/version-history",
-        "re": "v([\\d+\\.]+) \\(\\d+"
+        "regex": "v([\\d+\\.]+) \\(\\d+"
     },
     "autoupdate": {
         "url": "https://download.ccleaner.com/ccsetup$majorVersion$minorVersionpro.exe#/cosi.7z"

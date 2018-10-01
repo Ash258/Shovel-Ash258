@@ -39,7 +39,7 @@
     },
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/VMware_Workstation",
-        "re": "<div.*>((?<ver>(\\d+\\.?){3}) Build (?<build>\\d+))<sup",
+        "regex": "<div.*>((?<ver>(\\d+\\.?){3}) Build (?<build>\\d+))<sup",
         "replace": "${ver}-${build}"
     },
     "autoupdate": {

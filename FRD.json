@@ -54,7 +54,7 @@
     ],
     "checkver": {
         "url": "http://wordrider.net/freerapid/download.htm",
-        "re": "Current version is\\s*<em>FreeRapid Downloader ([\\d+\\.]+\\w+)"
+        "regex": "Current version is\\s*<em>FreeRapid Downloader ([\\d+\\.]+\\w+)"
     },
     "autoupdate": {
         "url": "https://www.wordrider.net/download/FreeRapid-$version.zip",

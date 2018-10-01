@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://www.cheathappens.com/cosmos_changelogbeg5.txt",
-        "re": "CoSMOS Beginner Changelog ([\\d+\\.]+)"
+        "regex": "CoSMOS Beginner Changelog ([\\d+\\.]+)"
     },
     "autoupdate": {
         "url": "https://www.cheathappens.com/CoSMOS_Beg_Release_$cleanVersion.zip"

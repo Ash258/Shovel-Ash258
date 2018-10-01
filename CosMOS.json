@@ -56,7 +56,7 @@
     ],
     "checkver": {
         "url": "https://www.cheathappens.com/cosmos_changelog5.txt",
-        "re": "CoSMOS Advanced Changelog ([\\d+\\.]+)"
+        "regex": "CoSMOS Advanced Changelog ([\\d+\\.]+)"
     },
     "autoupdate": {
         "url": "https://www.cheathappens.com/CoSMOS_Adv_Beta_$cleanVersion.zip"

@@ -32,7 +32,7 @@
     ],
     "checkver": {
         "url": "https://www.aida64.com/downloads",
-        "re": "<a href.*>AIDA64 Business\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">((\\d+)\\.(\\d+)\\.(\\d{4}))"
+        "regex": "<a href.*>AIDA64 Business\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">((\\d+)\\.(\\d+)\\.(\\d{4}))"
     },
     "autoupdate": {
         "url": "http://download.aida64.com/aida64business$match2$match3.zip"

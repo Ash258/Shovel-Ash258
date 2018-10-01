@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://www.bleachbit.org/news",
-        "re": "<h2>\\s+<a.*>BleachBit ([\\d+\\.]+)</a>\\s+</h2>"
+        "regex": "<h2>\\s+<a.*>BleachBit ([\\d+\\.]+)</a>\\s+</h2>"
     },
     "autoupdate": {
         "url": "https://download.bleachbit.org/BleachBit-$version-portable.zip",

@@ -35,7 +35,7 @@
     ],
     "checkver": {
         "url": "http://www.easy2boot.com/download/",
-        "re": "href=\"http://files.easy2boot.com/(?<cosi>\\d+-\\w+)/Easy2Boot_v(?<ver>[\\w+\\.]+)_DPMS.exe\"",
+        "regex": "href=\"http://files.easy2boot.com/(?<cosi>\\d+-\\w+)/Easy2Boot_v(?<ver>[\\w+\\.]+)_DPMS.exe\"",
         "replace": "${ver}"
     },
     "autoupdate": {

@@ -4,6 +4,7 @@
 
 - [Recommended manifest format][Template]
 - Observe blocks structure from [Template][Template]
+- Always use `regex` instead of `re`
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
     - Indent code as you would normally do.

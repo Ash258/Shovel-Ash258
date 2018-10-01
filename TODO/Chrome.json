@@ -16,7 +16,7 @@
     ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/Google_Chrome",
-        "re": "Windows, macOS, Linux</th><td>\\s+([\\d+\\.]+) /"
+        "regex": "Windows, macOS, Linux</th><td>\\s+([\\d+\\.]+) /"
     },
     "autoupdate": {
         "url": "https://www.google.com/chrome/thank-you.html?standalone=1&system=true&statcb=0"

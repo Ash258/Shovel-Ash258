@@ -22,3 +22,6 @@ end_of_line = crlf
 [[Mm]akefile{,.*}]
 # TAB-style indentation
 indent_style = tab
+
+[.git/hooks/*]
+end_of_line = lf

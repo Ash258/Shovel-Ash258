@@ -38,7 +38,7 @@
     ],
     "checkver": {
         "url": "https://www.teamviewer.com/en/download/windows/?os=windows",
-        "re": "<p>v([\\d+\\.]+)</p>"
+        "regex": "<p>v([\\d+\\.]+)</p>"
     },
     "autoupdate": {
         "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe#/cosi.7z"

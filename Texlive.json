@@ -44,7 +44,7 @@
     "env_add_path": ".\\bin\\win32",
     "checkver": {
         "url": "http://mirrors.nic.cz/tex-archive/systems/texlive/tlnet",
-        "re": "install-tl\\.zip</a></td>.*((?<y>\\d{4})-(?<m>\\d+)-(?<d>\\d+))",
+        "regex": "install-tl\\.zip</a></td>.*((?<y>\\d{4})-(?<m>\\d+)-(?<d>\\d+))",
         "replace": "${y}.${m}.${d}"
     },
     "autoupdate": {
