@@ -2,6 +2,16 @@
 
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
+❗❗❗❗❗❗ After cloning run command:
+
+```powershell
+Set-Content '.\.git\hooks\pre-commita' @"
+#!/bin/sh`n
+`n
+powershell.exe -ExecutionPolicy RemoteSigned -File '.\bin\test.ps1'`n
+"@ -Encoding Ascii
+```
+
 - [Recommended manifest format][Template]
 - Observe blocks structure from [Template][Template]
 - Always use `regex` instead of `re`
