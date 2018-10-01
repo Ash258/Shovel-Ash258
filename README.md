@@ -9,6 +9,7 @@ Set-Content '.\.git\hooks\pre-commit' @"
 #!/bin/sh`n
 `n
 powershell.exe -ExecutionPolicy RemoteSigned -File '.\bin\test.ps1'`n
+exit $?`n
 "@ -Encoding Ascii
 ```
 
