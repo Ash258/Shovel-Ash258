@@ -1,5 +1,5 @@
 {
-    "version": "4.2.1",
+    "version": "4.3.0",
     "description": "Wavebox. Clever new home for cloud apps on macOS, Linux & Windows bringing all kind of web applications into a configurable client.",
     "homepage": "https://wavebox.io/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://wavebox.pro/dl/client/4_2_1/Wavebox_4_2_1_windows_x86_64/wavebox-4.2.1-full.nupkg#/cosi.7z",
-            "hash": "sha1:ab54761c873f9aaf6d94c2170bb767c619597dba"
+            "url": "https://wavebox.pro/dl/client/4_3_0/Wavebox_4_3_0_windows_x86_64/wavebox-4.3.0-full.nupkg#/cosi.7z",
+            "hash": "sha1:20df957c79daf7b4fbdbcc6f89ddd6710a744f43"
         },
         "32bit": {
-            "url": "https://wavebox.pro/dl/client/4_2_1/Wavebox_4_2_1_windows_ia32/wavebox-4.2.1-full.nupkg#/cosi.7z",
-            "hash": "sha1:9a52002274bbf8797c917babae87f4ad0f255893"
+            "url": "https://wavebox.pro/dl/client/4_3_0/Wavebox_4_3_0_windows_ia32/wavebox-4.3.0-full.nupkg#/cosi.7z",
+            "hash": "sha1:0ce6b9f69a5d979397d76bb67f2c22f9cba44543"
         }
     },
     "extract_dir": "lib\\net45",
