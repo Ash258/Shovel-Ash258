@@ -24,5 +24,20 @@
             "handleContent $profile_old",
             "handleContent $profile_pwsh"
         ]
+    },
+    "uninstaller": {
+        "script": [
+            "$documents = \"$env:USERPROFILE\\Documents\"",
+            "$profile = \"Microsoft.PowerShell_profile.ps1\"",
+            "    # Specific files",
+            "$profile_old = \"$documents\\WindowsPowerShell\\$profile\"",
+            "$profile_pwsh = \"$documents\\PowerShell\\$profile\"",
+            "function handleReplace($which) {",
+            "    $cont = (Get-Content $which) -replace '^\\.\\s.*scoop-completion.ps1$'",
+            "    Set-Content $which $cont -Encoding Ascii",
+            "}",
+            "handleReplace $profile_old",
+            "handleReplace $profile_pwsh"
+        ]
     }
 }
