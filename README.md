@@ -5,12 +5,7 @@
 ❗❗❗❗❗❗ After cloning run command:
 
 ```powershell
-Set-Content '.\.git\hooks\pre-commit' @"
-#!/bin/sh`n
-`n
-powershell.exe -ExecutionPolicy RemoteSigned -File '.\bin\test.ps1'`n
-exit $?`n
-"@ -Encoding Ascii
+.\bin\createHook.ps1
 ```
 
 - [Recommended manifest format][Template]
