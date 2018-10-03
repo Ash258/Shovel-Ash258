@@ -18,7 +18,7 @@
             // Default (Whiile opened file, Press CTRL+F9 / CTRL+SHIFT+B)
             "label": "Check version and update (Actual)",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1 \"${fileBasenameNoExtension}\" \"${fileDirname}\" -u",
+            "command": ".\\bin\\checkVersionAndPush.ps1 -Manifest '${file}'",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
@@ -35,7 +35,7 @@
         {
             "label": "Check version and force update (Actual)",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1 \"${fileBasenameNoExtension}\" \"${fileDirname}\" -f",
+            "command": ".\\bin\\checkVersionAndPush.ps1 -Manifest '${file}' -Force",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
