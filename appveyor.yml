@@ -20,5 +20,5 @@ init:
 build: off
 
 test_script:
-  - ps: $result = Invoke-Pester -OutputFormat NUnitXML -PassThru -EnableExit
+  - ps: $result = Invoke-Pester -PassThru -EnableExit
 
