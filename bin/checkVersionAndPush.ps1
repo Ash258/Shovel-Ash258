@@ -23,6 +23,10 @@ $updated = (git status -s)
 $version = (Get-Content "$Manifest" | ConvertFrom-Json).version
 
 if ($updated -match "$noExt") {
+	Write-Host 'Commiting' -ForegroundColor Green
 	git commit -m "${noExt}: Bump to $version" -o $file
+	Write-Host 'Pushing' -ForegroundColor Green
 	git push
+} else {
+	Write-Host 'No Changes' -ForegroundColor Yellow
 }
