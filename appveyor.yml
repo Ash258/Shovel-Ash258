@@ -20,9 +20,8 @@ init:
 build: off
 
 artifacts:
-  - path: C:\TestResults.xml
+  - path: .\TestResults.xml
 
 test_script:
-  - ps: |
-      $result = Invoke-Pester -OutputFile 'C:\TestResults.xml' -OutputFormat NUnitXML -PassThru -EnableExit
+  - ps: $result = Invoke-Pester -OutputFile 'C:\TestResults.xml' -OutputFormat NUnitXML -PassThru -EnableExit
 
