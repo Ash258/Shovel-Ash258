@@ -33,8 +33,10 @@
             "$profile_old = \"$documents\\WindowsPowerShell\\$profile\"",
             "$profile_pwsh = \"$documents\\PowerShell\\$profile\"",
             "function handleReplace($which) {",
-            "    $cont = (Get-Content $which) -replace '^\\.\\s.*scoop-completion.ps1$'",
-            "    Set-Content $which $cont -Encoding Ascii",
+            "    if (Test-Path $which) {",
+            "        $cont = (Get-Content $which) -replace '^\\.\\s.*scoop-completion.ps1$'",
+            "        Set-Content $which $cont -Encoding Ascii",
+            "    }",
             "}",
             "handleReplace $profile_old",
             "handleReplace $profile_pwsh"
