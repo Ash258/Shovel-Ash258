@@ -1,0 +1,28 @@
+{
+    "version": "nightly",
+    "description": "Scoop Auto Completion. Allow tab compliton for scoop commands.",
+    "homepage": "https://github.com/liuzijing97/scoop-auto-completion",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://raw.githubusercontent.com/liuzijing97/scoop-auto-completion/master/scoop-completion.ps1",
+    "bin": "scoop-completion.ps1",
+    "installer": {
+        "script": [
+            "$script = (Split-Path \"$dir\" -Parent) + '\\current\\' + $fname",
+            "$documents = \"$env:USERPROFILE\\Documents\"",
+            "$profile = \"Microsoft.PowerShell_profile.ps1\"",
+            "    # Specific files",
+            "$profile_old = \"$documents\\WindowsPowerShell\\$profile\"",
+            "$profile_pwsh = \"$documents\\PowerShell\\$profile\"",
+            "function handleContent($which) {",
+            "    if (Test-Path $which) {",
+            "        $cond = ((Get-Content $which) -match \"$fname\")[0] -eq $false",
+            "        if ($cond) { Add-Content $which \". \"\"$script\"\"\" -Encoding Ascii }",
+            "    }",
+            "}",
+            "handleContent $profile_old",
+            "handleContent $profile_pwsh"
+        ]
+    }
+}
