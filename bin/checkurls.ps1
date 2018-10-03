@@ -3,21 +3,6 @@
 	Check if all urls inside manifest are valid.
 .DESCRIPTION
 	Check if all urls inside manifest are valid.
-.EXAMPLE
-	PS: BUCKETROOT $ .\bin\checkurls
-	Check urls for all manifests in root of bucket.
-
-	PS: BUCKETROOT $ .\bin\checkurls cosi
-	Check urls for cosi.json manifest in root of bucket.
-
-	PS: BUCKETROOT $ .\bin\checkurls cosi TODO
-	Check urls for cosi.json manifest in TODO directory.
-
-	PS: BUCKETROOT $ .\bin\checkurls cosi TODO 25
-	Check urls for cosi.json manifest in TODO directory with 25 timeout.
-
-	PS: BUCKETROOT $ .\bin\checkurls -dir TODO
-	Check urls for all manifests in TODO directory.
 .PARAMETER Manifest
 	Manifest to check.
 	Wildcard * is supported.
@@ -25,6 +10,21 @@
 	Location where to search manfiest.
 .PARAMETER Timeout
 	How many seconds to wait until mark URL as invalid.
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkurls
+	Check urls for all manifests in root of bucket.
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkurls cosi
+	Check urls for cosi.json manifest in root of bucket.
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkurls cosi TODO
+	Check urls for cosi.json manifest in TODO directory.
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkurls cosi TODO 25
+	Check urls for cosi.json manifest in TODO directory with 25 timeout.
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkurls -dir TODO
+	Check urls for all manifests in TODO directory.
 #>
 param(
 	[Parameter(ValueFromPipeline = $true)]

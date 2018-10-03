@@ -20,34 +20,34 @@
 	-f - Force update given manifests
 		Usefull for hash updates
 .EXAMPLE
-	PS: BUCKETROOT $ .\bin\checkver.ps1
+	PS BUCKETROOT > .\bin\checkver.ps1
 	Check all manifests in root.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 MANIFEST
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 MANIFEST
 	Check manifest with name MANIFEST.json in root.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 -manifest MANIFEST
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 -manifest MANIFEST
 	Check manifest with name MANIFEST.json in root.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 -dir TODO -manifest MANIFEST
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 -dir TODO -manifest MANIFEST
 	Check manifest with name MANIFEST.json in TODO directory.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 MANIFEST TODO
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 MANIFEST TODO
 	Check manifest with name MANIFEST.json in directory TODO.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 -dir TODO
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 -dir TODO
 	Check all manifests in directory TODO.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 MAN*
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 MAN*
 	Check all manifests starting with MAN in root.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 Manifest1, Manifest2, Manifest3
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 Manifest1, Manifest2, Manifest3
 	Check all manifests (Manifest 1 to 3) in root.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 MANIFEST -u
-	Check manifest with name MANIFEST.json in root and if there is new version update.
-
-	PS: BUCKETROOT $ .\bin\checkver.ps1 MANIFEST -f
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 MANIFEST -u
+	Check manifest with name MANIFEST.json in root and update if there is new version.
+.EXAMPLE
+	PS BUCKETROOT > .\bin\checkver.ps1 MANIFEST -f
 	Check manifest with name MANIFEST.json in root and update even when there is no new version.
 #>
 param(
