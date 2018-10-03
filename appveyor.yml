@@ -19,11 +19,10 @@ init:
 
 build: off
 
+artifacts:
+  - path: C:\TestResults.xml
+
 test_script:
   - ps: |
-      $result = Invoke-Pester -OutputFile TestResults.xml -OutputFormat NUnitXML -PassThru
-      $where = "https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)"
-      $what = (Resolve-Path ./TestResults.xml)
-      (New-Object System.Net.Webclient).UploadFile($where, $what)
-      if ($result.failedCount -gt 0) { exit $result.failedcount }
+      $result = Invoke-Pester -OutputFile 'C:\TestResults.xml' -OutputFormat NUnitXML -PassThru -EnableExit
 
