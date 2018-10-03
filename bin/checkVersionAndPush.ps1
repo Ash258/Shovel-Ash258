@@ -23,7 +23,6 @@ $updated = (git status -s)
 $version = (Get-Content "$Manifest" | ConvertFrom-Json).version
 
 if ($updated -match "$noExt") {
-	Write-Host 'ANo'
 	git commit -m "${noExt}: Bump to $version" -o $file
 	git push
 }
