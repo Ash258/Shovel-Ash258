@@ -29,7 +29,7 @@
             ]
         }
     },
-    "installe": {
+    "installer": {
         "script": [
             "$file = 'GuiConfigs\\CurrentSettings.ini'",
             "if (!(Test-Path \"$persist_dir\\$file\")) {",
