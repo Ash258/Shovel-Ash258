@@ -54,6 +54,7 @@ param(
 	[Parameter(ValueFromPipeline = $true)]
 	[String[]] $Manifest = '*',
 	[String] $Dir = "$PSScriptRoot\..",
+	[Alias('ns')]
 	[Switch] $NoSkip,
 	[Parameter(ValueFromRemainingArguments = $true)]
 	[System.Collections.ArrayList] $Rest = @('-s')
