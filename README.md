@@ -9,7 +9,7 @@
 ```
 
 - [Recommended manifest format][Template]
-- Observe blocks structure from [Template][Template]
+- Observe blocks sequence and structure from [Template][Template]
 - Always use `regex` instead of `re`
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
@@ -90,6 +90,7 @@
 | [qBittorrent **(qBittorrent)**](./qBittorrent.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ✔🔶    | ✔        | ✔ (✔)             |
+| [Scoop Auto Completion **(scoop-auto-completion)**](./scoop-auto-completion.json)       | ✔      | ♻        | ♻ (♻)             |
 | [Speccy **(Speccy)**](./Speccy.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Steam **(Steam)**](./Steam.json)                                                       | ✔      | ♻        | ♻ (♻)             |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | ✔      | ✔        | ✔ (⛔)             |
