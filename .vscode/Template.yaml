@@ -53,13 +53,16 @@ installer:
 post_install: |
   RemoveSomething $newFile
   Write-Host $DONE
+
 # region UnInstalling
 uninstaller:
   file: file.exe
   args:
     - COSI
 # endregion UnInstalling
+
 # endregion Installing
+
 # region Links
 persist: FOLDER
 # OR multiple strings
@@ -91,6 +94,7 @@ shortcuts:
     - ARGS
     - ICON
 # endregion Links
+
 # region Updating
 # checkver: STRING
 # or
