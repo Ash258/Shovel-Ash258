@@ -7,6 +7,9 @@
 	If present, -f will be used instead of -u.
 #>
 param(
+	[ValidateScript({
+		if ($_.EndsWith('.json')) { $true } $false
+	})]
 	[String] $Manifest,
 	[Switch] $Force
 )
