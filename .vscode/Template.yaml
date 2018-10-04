@@ -1,0 +1,105 @@
+# region General Information
+'##': Cosi
+version: 1.0
+description: Cosi
+homepage: https://ash258.com
+license:
+  identifier: MIT
+  url: https://ash258.com/license.md # Whener it's possile attach program specific URL otherwise dont use
+notes:
+  - COSI
+  - COSI 2
+# endregion General Information
+
+# region Requirements
+# depends: STRING
+# or Array of strings
+depends:
+  - COSI
+suggest:
+  COSI:
+    - COSI
+# endregion Requirements
+
+# region Downloding
+architecture: # Or platform specific below (URL Hash extract)
+  64bit:
+    url: https://ash258.com
+    hash: 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
+    extract_dir: COSI
+  32bit:
+    url: https://ash258.com
+    hash: 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
+# endregion Downloding
+
+# region Extracting
+extract_dir: COSI
+extract_to: COSI
+# endregion Extracting
+
+# region Installing
+pre_install: |
+  CreateSomeFile $newFile
+  Write-Host $DONE
+installer:
+  file: somefile.exe # No need to specify if it's downloaded file
+  args:
+    - COSI
+# installer with file above or using script
+# installer:
+#   script: |
+#     RemoveSomething $newFile
+#     Write-Host $DONE
+post_install: |
+  RemoveSomething $newFile
+  Write-Host $DONE
+# region UnInstalling
+uninstaller:
+  file: file.exe
+  args:
+    - COSI
+# endregion UnInstalling
+# endregion Installing
+# region Links
+persist: FOLDER
+# OR multiple strings
+# persist:
+#   - FOLDER
+#  - FILE.file
+
+# bin: SINGLE
+# or
+bin:
+  - SINGLE
+  - NEXT
+  - - FILE
+    - NAME
+    - ARGS
+    - ICON
+env_add_path: SINGLE
+# or
+# env_add_path:
+#   - MULTIPLE
+#   - MULTIPLE
+shortcuts:
+  - - FILE
+    - NAME
+    - ARGS
+    - ICON
+  - - FILE2
+    - NAME
+    - ARGS
+    - ICON
+# endregion Links
+# region Updating
+# checkver: STRING
+# or
+checkver:
+  url: URL
+  regex: someregex.* # Or JP
+autoupdate:
+  url: https://ash258.com
+  hash: # Some vendors does not ship hashes
+    url: https://ash258.com
+    find: 'regex' # or JP
+# endregion Updating

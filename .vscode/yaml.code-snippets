@@ -1,0 +1,92 @@
+{
+    "New app String": {
+        "prefix": "app",
+        "scope": "yml,yaml",
+        "body": [
+            "version: $1",
+            "description: $2",
+            "homepage: $3",
+            "license:",
+            "\tidentifier: $4",
+            "notes: $5",
+            "depends: $6",
+            "url: $7",
+            "hash: $8",
+            "bin: $9",
+            "shortcuts:",
+            "\t-",
+            "\t\t$10.exe",
+            "\t\t$10",
+            "checkver: $11",
+            "autoupdate:",
+            "\turl: $12",
+        ]
+    },
+    "New app Arch": {
+        "prefix": "appArch",
+        "scope": "yml,yaml",
+        "body": [
+            "version: $1",
+            "description: $2",
+            "homepage: $3",
+            "license:",
+            "\tidentifier: $4",
+            "notes: $5",
+            "depends: $6",
+            "architecture:",
+            "\t64bit:",
+            "\t\turl: $7",
+            "\t\thash: $8",
+            "\t32bit:",
+            "\t\turl: $9",
+            "\t\thash: $10",
+            "bin: $11",
+            "shortcuts:",
+            "\t-",
+            "\t\t$12.exe",
+            "\t\t$12",
+            "checkver: $13",
+            "autoupdate:",
+            "\turl: $14",
+        ]
+    },
+    "New Architecture": {
+        "prefix": "arch",
+        "scope": "yml,yaml",
+        "body": [
+            "architecture:",
+            "\t64bit:",
+            "\t\turl: $1",
+            "\t\thash: $2",
+            "\t32bit:",
+            "\t\turl: $3",
+            "\t\thash: $4"
+        ]
+    },
+    "New Autoupdate with Arch": {
+        "prefix": "upAr",
+        "scope": "yml,yaml",
+        "body": [
+            "autoupdate:",
+            "\tarchitecture:",
+            "\t\t64bit:",
+            "\t\t\turl: $1",
+            "\t\t\thash: $2",
+            "\t\t32bit:",
+            "\t\t\turl: $3",
+            "\t\t\thash: $4"
+        ]
+    },
+    "Check for existing persist file": {
+        "prefix": "persistCheck",
+        "scope": "yml,yaml",
+        "body": [
+            "\\$file = '$1'",
+            "if (!(Test-Path \"\\$persist_dir\\\\\\$file\")) {",
+            "    Write-Host 'File' \\$file 'does not exists. Creating.' -f Yellow",
+            "    \\$CONT = @('$2')",
+            "    Set-Content \"\\$dir\\\\\\$file\" (\\$CONT -join \"`r`n\") -Encoding Ascii",
+            "'}'"
+        ]
+    }
+}
