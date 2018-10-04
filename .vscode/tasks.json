@@ -5,6 +5,10 @@
             "label": "Check version",
             "type": "shell",
             "command": ".\\bin\\checkver.ps1",
+            "args": [
+                "-Dir",
+                "'${fileDirname}'"
+            ],
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
