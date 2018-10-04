@@ -81,3 +81,5 @@ begin {
 process {
 	foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -App ""$man"" -Dir ""$Dir"" $($Rest -join ' ')" }
 }
+
+end { Write-Host 'DONE' -ForegroundColor Yellow }
