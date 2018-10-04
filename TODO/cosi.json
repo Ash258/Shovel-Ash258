@@ -2,7 +2,10 @@
     "version": "0.6.1",
     "description": "Free and Open Source messaging and emailing app that combines common web applications into one.",
     "homepage": "http://rambox.pro/",
-    "license": "GPL-3.0-only",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/ramboxapp/community-edition/blob/master/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/ramboxapp/community-edition/releases/download/0.6.1/Rambox-0.6.1-win-x64.zip",
