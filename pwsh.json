@@ -40,11 +40,18 @@
             "regedit /s \"$dir\\pwsh-context-un.reg\""
         ]
     },
-    "bin": "pwsh.exe",
+    "bin": [
+        [
+            "pwsh.exe",
+            "pwsh",
+            "-NoLogo"
+        ]
+    ],
     "shortcuts": [
         [
             "pwsh.exe",
-            "PowerShell Core"
+            "PowerShell Core",
+            "-NoLogo"
         ]
     ],
     "checkver": "github",
