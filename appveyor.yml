@@ -11,14 +11,16 @@ skip_commits:
     - '**/*.md'
     - '.vscode/**/*'
 
+cache:
+  - C:\projects\scoop
+
 init:
   - ps: |
-      (Get-PsProvider 'FileSystem').Home = 'c:\projects\'
+      (Get-PsProvider 'FileSystem').Home = 'C:\projects\'
       iex (New-Object System.Net.Webclient).DownloadString('https://get.scoop.sh')
       Install-Module -Name Pester -Repository PSGallery -Force
 
 build: off
 
 test_script:
-  - ps: $result = Invoke-Pester -PassThru -EnableExit
-
+  - ps: Invoke-Pester -PassThru -EnableExit
