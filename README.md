@@ -5,7 +5,7 @@
 ❗❗❗❗❗❗ After cloning run command:
 
 ```powershell
-.\bin\createHook.ps1
+.\bin\createHooks.ps1
 ```
 
 - [Recommended manifest format][Template]
