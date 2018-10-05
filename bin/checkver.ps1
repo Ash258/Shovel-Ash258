@@ -63,7 +63,7 @@ param(
 begin {
 	$Dir = Resolve-Path $Dir
 	$Rest += '' # Have to be here for type convert when using single parameter
-	$Rest = $Rest | Select -Unique # Remove duplicated switches
+	$Rest = $Rest | Select-Object -Unique # Remove duplicated switches
 
 	if (-not $env:SCOOP_HOME) {
 		$env:SCOOP_HOME = Resolve-Path (scoop prefix scoop)
