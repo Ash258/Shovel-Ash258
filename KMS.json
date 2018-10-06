@@ -44,9 +44,7 @@
     ],
     "uninstaller": {
         "file": "unins000.exe",
-        "args": [
-            "/VERYSILENT"
-        ]
+        "args": "/VERYSILENT"
     },
     "persist": "TokensBackup",
     "bin": "AutoPico.exe",
