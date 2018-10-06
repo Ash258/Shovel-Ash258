@@ -23,7 +23,8 @@ if ($Force) { $arg = '-f' } else { $arg = '-u'}
 Invoke-Expression -Command "$PSScriptRoot\checkver.ps1 '$noExt' '$folder' $arg"
 
 $updated = (git status -s)
-$version = (Get-Content "$Manifest" | ConvertFrom-Json).version
+$json = (Get-Content "$Manifest" | ConvertFrom-Json)
+$version = $json.version
 
 if ($updated -match "$noExt") {
 	Write-Host 'Commiting' -ForegroundColor Green
