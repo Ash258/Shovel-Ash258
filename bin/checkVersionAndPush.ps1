@@ -31,6 +31,7 @@ if ($updated -match "$noExt") {
 	git commit -m "${noExt}: Bump to $version" -o $file
 	Write-Host 'Pushing' -ForegroundColor Green
 	git push
+	Write-Host 'DONE' -ForegroundColor Yellow
 } else {
 	Write-Host 'No Changes' -ForegroundColor Yellow
 }
