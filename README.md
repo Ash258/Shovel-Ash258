@@ -81,6 +81,7 @@
 | [Make Partition Image **(MPI)**](./MPI.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ♻        | ♻ (♻)             |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json)                | ✔      | ✔        | ✔ (⛔)             |
+| [Opera **(Opera)**](./Opera.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Origin **(Origin)**](./Origin.json)                                                    | ✔      | ♻        | ♻ (♻)             |
 | [Path Of Building **(PathOfBuilding)**](./PathOfBuilding.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                     | ✔      | ✔        | ✔ (⛔)             |
