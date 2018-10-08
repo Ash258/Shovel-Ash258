@@ -1,6 +1,6 @@
 {
     "version": "2.1.1",
-    "description": "In Window Clicker. Autoclicks in the background, giving you full control of your own mouse to do whatever else you want!",
+    "description": "In Window (Non Intrusive) Clicker. Autoclicks in the background, giving you full control of your own mouse to do whatever else you want!",
     "homepage": "https://github.com/Shadowspaz/NIAutoclicker",
     "architecture": {
         "64bit": {

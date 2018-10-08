@@ -29,15 +29,19 @@
 param(
 	[Parameter(ValueFromPipeline = $true)]
 	[String[]]
-	$manifest = "*",
-	[String] $dir = "$PSScriptRoot\..",
-	[Int] $timeout = 5
+	$Manifest = "*",
+	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
+	[String] $Dir = "$PSScriptRoot\..",
+	[Int] $Timeout = 5
 )
 
-begin { if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) } }
+begin {
+	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+	$Dir = Resolve-Path $Dir
+}
 
 process {
 	foreach ($man in $manifest) {
-		Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkurls.ps1 -dir ""$dir"" -app ""$man"" -timeout $timeout"
+		Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkurls.ps1 -App ""$man"" -Dir ""$Dir"" -Timeout $Timeout"
 	}
 }

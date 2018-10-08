@@ -18,11 +18,18 @@
 	Check all manifests inside TODO directory.
 #>
 param(
-	[String] $dir = "$PSScriptRoot\..",
+	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
+	[String] $Dir = "$PSScriptRoot\..",
 	[Parameter(ValueFromRemainingArguments = $true)]
-	[String[]] $rest = ""
+	[String[]] $Rest = ""
 )
 
-if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+begin {
+	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+	$Dir = Resolve-Path $Dir
+	$Rest = $Rest -join ' '
+}
 
-Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -dir ""$dir"" $rest"
+process { Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -Dir ""$Dir"" $Rest" }
+
+end { Write-Host 'DONE' -ForegroundColor Yellow }

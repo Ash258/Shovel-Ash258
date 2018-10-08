@@ -53,33 +53,30 @@
 param(
 	[Parameter(ValueFromPipeline = $true)]
 	[String[]] $Manifest = '*',
+	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..",
 	[Alias('ns')]
 	[Switch] $NoSkip,
 	[Parameter(ValueFromRemainingArguments = $true)]
-	[System.Collections.ArrayList] $Rest = @('-s')
+	[String[]] $Rest = @()
 )
 
 begin {
+	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 	$Dir = Resolve-Path $Dir
-	$Rest += '' # Have to be here for type convert when using single parameter
 	$Rest = $Rest | Select-Object -Unique # Remove duplicated switches
 
-	if (-not $env:SCOOP_HOME) {
-		$env:SCOOP_HOME = Resolve-Path (scoop prefix scoop)
-	}
 	# Handle default -s parameter
 	# Don't skip if NoSkip is present
-	if ($NoSkip) {
-		$Rest.Remove('-s')
-	} else {
+	if (!$NoSkip) {
 		# Append -s if there is none
 		if ($Rest -cnotcontains '-s') { $Rest += '-s' }
 	}
+	$Rest = $Rest -join ' '
 }
 
 process {
-	foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -App ""$man"" -Dir ""$Dir"" $($Rest -join ' ')" }
+	foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" }
 }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }
