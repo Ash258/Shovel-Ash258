@@ -1,3 +1,6 @@
+#Requires -Version 5.0
+#Requires -Modules @{ ModuleName = 'BuildHelpers'; ModuleVersion = '2.0.0' }
+
 . "$env:SCOOP_HOME\lib\core.ps1"
 . "$env:SCOOP_HOME\lib\manifest.ps1"
 . "$env:SCOOP_HOME\lib\unix.ps1"
