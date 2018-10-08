@@ -108,6 +108,7 @@
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
 | [Windows ISO Downlaoder **(WindowsISODownloader)**](./WindowsISODownloader.json)        | ✔      | ✔        | ✔ (⛔)             |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./WindowsRepairToolbox.json)        | ✔      | ✔        | ✔ (✔)             |
+| [Wise Disk Claner **(WiseDiskClaner)**](./WiseDiskClaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 
