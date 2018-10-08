@@ -1,6 +1,12 @@
 <#
 .SYNOPSIS
 	Update manifest, commit and push.
+.DESCRIPTION
+	Use as vscode task.
+
+		1. Open manifest in editor
+		1. Press CTRL+SHIFT+B or CTRL+F9 (IntelliJ)
+		1. Be surprised
 .PARAMETER Manifest
 	Full Path to manifest. (vscode ${file})
 .PARAMETER Force
@@ -21,12 +27,13 @@ if ($Force) { $arg = '-f' } else { $arg = '-u'}
 Invoke-Expression -Command "$PSScriptRoot\checkver.ps1 '$noExt' '$folder' $arg"
 
 $updated = (git status -s)
-$json = (Get-Content "$Manifest" | ConvertFrom-Json)
+$json = Get-Content "$Manifest" | ConvertFrom-Json
 $version = $json.version
+$message = "${noExt}: Bump to $version"
 
 if ($updated -match "$noExt") {
 	Write-Host 'Commiting' -ForegroundColor Green
-	git commit -m "${noExt}: Bump to $version" -o $file
+	git commit -m $message -o $file
 	Write-Host 'Pushing' -ForegroundColor Green
 	git push
 	Write-Host 'DONE' -ForegroundColor Yellow
