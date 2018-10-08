@@ -188,7 +188,7 @@ Describe 'Test installation of added manifests' {
 	if ($env:CI -eq $true) {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$commitMessage = "$env:APPVEYOR_REPO_COMMIT_MESSAGE $env:APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED".TrimEnd()
-		$changedFiles = Get-GitChangedFile -Include '*.json' -Commit $commit
+		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
 		$changedFiles | ForEach-Object {
 			It "Intall {$_}" {
 				scoop install "./$_"

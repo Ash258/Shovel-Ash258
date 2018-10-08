@@ -10,6 +10,7 @@ skip_commits:
   files:
     - '**/*.md'
     - '.vscode/**/*'
+    - 'TODO/**'
 
 init:
   - ps: |
