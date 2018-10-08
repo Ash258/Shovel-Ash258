@@ -1,10 +1,14 @@
 #Requires -Version 5.0
-#Requires -Modules @{ ModuleName = 'BuildHelpers'; ModuleVersion = '2.0.0' }
 
 . "$env:SCOOP_HOME\lib\core.ps1"
 . "$env:SCOOP_HOME\lib\manifest.ps1"
 . "$env:SCOOP_HOME\lib\unix.ps1"
 . "$env:SCOOP_HOME\test\Scoop-TestLib.ps1"
+
+if ($env:CI -eq $true) {
+	Install-Module -Repository PSGallery -Scope CurrentUser -Name PSScriptAnalyzer, BuildHelpers
+	Set-BuildEnvironment -Force
+}
 
 $repoDirectory = (Get-Item $MyInvocation.MyCommand.Path).Directory.FullName
 
