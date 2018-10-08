@@ -68,10 +68,7 @@ begin {
 
 	# Handle default -s parameter
 	# Don't skip if NoSkip is present
-	if (!$NoSkip) {
-		# Append -s if there is none
-		if ($Rest -cnotcontains '-s') { $Rest += '-s' }
-	}
+	if ((!$NoSkip) -and ($Rest -cnotcontains '-s')) { $Rest += '-s' }
 	$Rest = $Rest -join ' '
 }
 
