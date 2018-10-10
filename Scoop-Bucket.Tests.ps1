@@ -237,39 +237,41 @@ Describe 'Test installation of added manifests' {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
 
-		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
+		if ($changedFiles.Count -gt 0) {
+			scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
 
-		Context "Intall changed manfifests" {
-			$changedFiles | ForEach-Object {
-				$file = $_
-				$man = Split-Path $file -Leaf
-				$noExt = $man.Split('.')[0]
-				$toInstall = "./$man"
-				$64 = '64bit'
-				$32 = '32bit'
-				$URL = 'URL'
+			Context "Intall changed manfifests" {
+				$changedFiles | ForEach-Object {
+					$file = $_
+					$man = Split-Path $file -Leaf
+					$noExt = $man.Split('.')[0]
+					$toInstall = "./$man"
+					$64 = '64bit'
+					$32 = '32bit'
+					$URL = 'URL'
 
-				Context $man {
-					$json = parse_json $file
-					if ($json.architecture) {
-						if ($json.architecture.$64) {
-							It $64 {
-								install $toInstall $64
-								$LASTEXITCODE | Should Be 0
-								uninstall $noExt
+					Context $man {
+						$json = parse_json $file
+						if ($json.architecture) {
+							if ($json.architecture.$64) {
+								It $64 {
+									install $toInstall $64
+									$LASTEXITCODE | Should Be 0
+									uninstall $noExt
+								}
 							}
-						}
-						if ($json.architecture.$32) {
-							It $32 {
-								install $toInstall $32
-								$LASTEXITCODE | Should Be 0
-								uninstall $noExt
+							if ($json.architecture.$32) {
+								It $32 {
+									install $toInstall $32
+									$LASTEXITCODE | Should Be 0
+									uninstall $noExt
+								}
 							}
-						}
-					} else {
-						It 'URL' {
-							install $toInstall $URL
-							$LASTEXITCODE | Should Be 0
+						} else {
+							It 'URL' {
+								install $toInstall $URL
+								$LASTEXITCODE | Should Be 0
+							}
 						}
 					}
 				}
