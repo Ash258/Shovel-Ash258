@@ -196,29 +196,33 @@ Describe 'Test installation of added manifests' {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
 		$changedFiles | ForEach-Object {
-			$man = Split-Path $_ -Leaf
-			$noExt = "$man".Split('.')[0]
-			Context "Intall {$man}" {
-				$json = parse_json $man | ConvertFrom-Json
-				if ($json.architecture) {
-					if ($json.architecture.'64bit') {
-						It '64bit' {
-							scoop install $_ --no-cache --arch 64bit
-							$LASTEXITCODE | Should Be 0
-							scoop uninstall $noExt
+			$file = $_
+			$man = Split-Path $file -Leaf
+			$noExt = $man.Split('.')[0]
+
+			Context "Intall manfifests" {
+				It $man {
+					$json = parse_json $file.FullName | ConvertFrom-Json
+					if ($json.architecture) {
+						if ($json.architecture.'64bit') {
+							It '64bit' {
+								scoop install $file --no-cache --arch 64bit
+								$LASTEXITCODE | Should Be 0
+								scoop uninstall $noExt
+							}
 						}
-					}
-					if ($json.architecture.'32bit') {
-						It '32bit' {
-							scoop install $_ --no-cache --arch 32bit
-							$LASTEXITCODE | Should Be 0
-							scoop uninstall $noExt
+						if ($json.architecture.'32bit') {
+							It '32bit' {
+								scoop install $file --no-cache --arch 32bit
+								$LASTEXITCODE | Should Be 0
+								scoop uninstall $noExt
+							}
 						}
-					}
-				} else {
-					It 'URL' {
-						scoop install "$_" --no-cache
-						$LASTEXITCODE | Should Be 0
+					} else {
+						It 'URL' {
+							scoop install $file --no-cache
+							$LASTEXITCODE | Should Be 0
+						}
 					}
 				}
 			}
