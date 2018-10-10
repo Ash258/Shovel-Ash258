@@ -192,7 +192,8 @@ Describe 'Manifest-validation' {
 }
 
 
-function log($message){
+function log() {
+	param([String] $message = '============')
 	Add-Content "./INSTALL.log" $message -Encoding Ascii
 }
 
@@ -211,18 +212,23 @@ function install() {
 	$result = @(Invoke-Expression "$command 6>&1")
 	$exit = $LASTEXITCODE
 
-	log '======'
+	log
 	log "Manifest: $manifest"
 	log "Arch: $architecture"
 	log "$($result -join "`r`n")"
-	log '======'
+	log
 
 	return $exit
 }
 
 function uninstall($noExt){
 	scoop uninstall $noExt 6>$null
-	if ($LASTEXITCODE -eq 0) { Write-Host 'Uninstalling DONE' -ForegroundColor Green }
+
+	if ($LASTEXITCODE -eq 0) {
+		log
+		log "$noExt`: Uninstall DONE"
+		log
+	}
 }
 
 Describe 'Test installation of added manifests' {
