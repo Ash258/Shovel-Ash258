@@ -213,7 +213,7 @@ function install() {
 
 	log '======'
 	log "Arch: $architecture"
-	log ($result -join "`r`n")
+	log "$($result -join "`r`n")"
 	log '======'
 
 	return $exit
