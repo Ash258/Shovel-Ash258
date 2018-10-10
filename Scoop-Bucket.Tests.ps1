@@ -202,8 +202,7 @@ Describe 'Test installation of added manifests' {
 
 			Context "Intall manfifests" {
 				It $man {
-					$json = parse_json "$file"
-					Write-Host $json -f Magenta
+					$json = parse_json $file
 					if ($json.architecture) {
 						if ($json.architecture.'64bit') {
 							It '64bit' {
