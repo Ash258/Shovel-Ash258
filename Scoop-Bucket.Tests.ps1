@@ -191,36 +191,84 @@ Describe 'Manifest-validation' {
 	}
 }
 
+
+function log() {
+	param([String] $message = '============')
+	Add-Content "./INSTALL.log" $message -Encoding Ascii
+}
+
+function install() {
+	param(
+		[String] $manifest,
+		[ValidateSet('32bit', '64bit', 'URL')]
+		[String] $architecture
+	)
+
+	$command = "scoop install $manifest --no-cache --independent"
+	if (-not ($architecture -eq 'URL')) {
+		$command += " --arch $architecture"
+	}
+
+	$result = @(Invoke-Expression "$command 6>&1")
+	$exit = $LASTEXITCODE
+
+	log
+	log "Manifest: $manifest"
+	log "Arch: $architecture"
+	log "$($result -join "`r`n")"
+	log
+
+	return $exit
+}
+
+function uninstall($noExt){
+	scoop uninstall $noExt 6>$null
+
+	if ($LASTEXITCODE -eq 0) {
+		log
+		log "$noExt`: Uninstall DONE"
+		log
+	}
+}
+
 Describe 'Test installation of added manifests' {
 	if ($env:CI -eq $true) {
+		New-Item "INSTALL.log" -Type File
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
+
+		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
+
 		$changedFiles | ForEach-Object {
 			$file = $_
 			$man = Split-Path $file -Leaf
 			$noExt = $man.Split('.')[0]
+			$toInstall = "./$man"
+			$64 = '64bit'
+			$32 = '32bit'
+			$URL = 'URL'
 
 			Context "Intall manfifests" {
-				It $man {
-					$json = parse_json "$file" | ConvertFrom-Json
+				Context $man {
+					$json = parse_json $file
 					if ($json.architecture) {
-						if ($json.architecture.'64bit') {
-							It '64bit' {
-								scoop install $file --no-cache --arch 64bit
+						if ($json.architecture.$64) {
+							It $64 {
+								install $toInstall $64
 								$LASTEXITCODE | Should Be 0
-								scoop uninstall $noExt
+								uninstall $noExt
 							}
 						}
-						if ($json.architecture.'32bit') {
-							It '32bit' {
-								scoop install $file --no-cache --arch 32bit
+						if ($json.architecture.$32) {
+							It $32 {
+								install $toInstall $32
 								$LASTEXITCODE | Should Be 0
-								scoop uninstall $noExt
+								uninstall $noExt
 							}
 						}
 					} else {
 						It 'URL' {
-							scoop install $file --no-cache
+							install $toInstall $URL
 							$LASTEXITCODE | Should Be 0
 						}
 					}

@@ -1,6 +1,6 @@
 {
     "version": "1.0beta",
-    "description": "FreeRapid Downloader. Easy to use Java downloader that supports downloading from Youtube, Facebook, Picasa and other file-sharing services, include the new ones like mega.co.nz.",
+    "description": "FreeRapid Downloader. Easy to use downloader that supports downloading from Youtube, Facebook, Picasa and other file-sharing services, include the new ones like mega.co.nz.",
     "homepage": "http://wordrider.net/freerapid/",
     "license": {
         "identifier": "GPL-2.0+"
@@ -46,8 +46,8 @@
         "$finalFile += $end -join $delimeter",
         "    # Set File",
         "$FILE = \"$env:AppData\\VitySoft\\FRD\\frd.xml\"",
-        "Write-Host $finalFile -f Yellow",
         "if (!(Test-Path $FILE)) {",
+        "    Write-Host 'File' $FILE 'does not exists. Creating.' -f Yellow",
         "#    New-Item $FILE -Force -Type File ! Out-Null",
         "#    Set-Content $FILE $finalFile -Encoding Ascii",
         "}"
@@ -55,5 +55,9 @@
     "checkver": {
         "url": "http://wordrider.net/freerapid/download.htm",
         "regex": "Current version is\\s*<em>FreeRapid Downloader ([\\d+\\.]+\\w+)"
+    },
+    "autoupdate": {
+        "url": "https://www.wordrider.net/download/FreeRapid-$version.zip",
+        "extract_dir": "FreeRapid-$version"
     }
 }

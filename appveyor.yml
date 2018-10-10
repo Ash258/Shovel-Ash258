@@ -22,3 +22,6 @@ build: off
 
 test_script:
   - ps: Invoke-Pester -PassThru -EnableExit
+
+on_finish:
+  - ps: Push-AppveyorArtifact INSTALL.log
