@@ -201,7 +201,7 @@ Describe 'Test installation of added manifests' {
 			$noExt = $man.Split('.')[0]
 
 			Context "Intall manfifests" {
-				It $man {
+				Context $man {
 					$json = parse_json $file
 					if ($json.architecture) {
 						if ($json.architecture.'64bit') {
