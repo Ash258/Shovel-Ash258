@@ -224,7 +224,7 @@ Describe 'Test installation of added manifests' {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
 
-		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Set scoop is updated
+		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
 
 		$changedFiles | ForEach-Object {
 			$file = $_

@@ -1,6 +1,6 @@
 {
     "version": "1.0beta",
-    "description": "FreeRapid Downloader. Easy to use Java downloader that supports downloading from Youtube, Facebook, Picasa and other file-sharing services, include the new ones like mega.co.nz.",
+    "description": "FreeRapid Downloader. Easy to use downloader that supports downloading from Youtube, Facebook, Picasa and other file-sharing services, include the new ones like mega.co.nz.",
     "homepage": "http://wordrider.net/freerapid/",
     "license": {
         "identifier": "GPL-2.0+"
