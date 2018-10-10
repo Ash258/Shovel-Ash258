@@ -221,7 +221,7 @@ function install() {
 	return $exit
 }
 
-function uninstall($noExt){
+function uninstall($noExt) {
 	scoop uninstall $noExt 6>$null
 
 	if ($LASTEXITCODE -eq 0) {
@@ -239,16 +239,16 @@ Describe 'Test installation of added manifests' {
 
 		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
 
-		$changedFiles | ForEach-Object {
-			$file = $_
-			$man = Split-Path $file -Leaf
-			$noExt = $man.Split('.')[0]
-			$toInstall = "./$man"
-			$64 = '64bit'
-			$32 = '32bit'
-			$URL = 'URL'
+		Context "Intall changed manfifests" {
+			$changedFiles | ForEach-Object {
+				$file = $_
+				$man = Split-Path $file -Leaf
+				$noExt = $man.Split('.')[0]
+				$toInstall = "./$man"
+				$64 = '64bit'
+				$32 = '32bit'
+				$URL = 'URL'
 
-			Context "Intall manfifests" {
 				Context $man {
 					$json = parse_json $file
 					if ($json.architecture) {
