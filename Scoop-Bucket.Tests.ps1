@@ -205,13 +205,14 @@ function install() {
 
 	$command = "scoop install $manifest --no-cache --independent"
 	if (-not ($architecture -eq 'URL')) {
-		$command += "--arch $architecture"
+		$command += " --arch $architecture"
 	}
 
 	$result = @(Invoke-Expression "$command 6>&1")
 	$exit = $LASTEXITCODE
 
 	log '======'
+	log "Manifest: $manifest"
 	log "Arch: $architecture"
 	log "$($result -join "`r`n")"
 	log '======'
