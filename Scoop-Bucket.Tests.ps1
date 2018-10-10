@@ -195,10 +195,12 @@ Describe 'Test installation of added manifests' {
 	if ($env:CI -eq $true) {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
+		Write-Host $changedFiles -f Yellow
 		$changedFiles | ForEach-Object {
 			$file = $_
 			$man = Split-Path $file -Leaf
 			$noExt = $man.Split('.')[0]
+			$toInstall = "./$man"
 
 			Context "Intall manfifests" {
 				Context $man {
@@ -206,21 +208,21 @@ Describe 'Test installation of added manifests' {
 					if ($json.architecture) {
 						if ($json.architecture.'64bit') {
 							It '64bit' {
-								scoop install $file --no-cache --arch 64bit
+								scoop install $toInstall --no-cache --arch 64bit
 								$LASTEXITCODE | Should Be 0
 								scoop uninstall $noExt
 							}
 						}
 						if ($json.architecture.'32bit') {
 							It '32bit' {
-								scoop install $file --no-cache --arch 32bit
+								scoop install $toInstall --no-cache --arch 32bit
 								$LASTEXITCODE | Should Be 0
 								scoop uninstall $noExt
 							}
 						}
 					} else {
 						It 'URL' {
-							scoop install $file --no-cache
+							scoop install $toInstall --no-cache
 							$LASTEXITCODE | Should Be 0
 						}
 					}
