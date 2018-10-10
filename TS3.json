@@ -2,6 +2,9 @@
     "version": "3.2.2",
     "description": "TeamSpeak. Supplies mission-critical voice communication solutions to some of the world’s finest.",
     "homepage": "https://www.teamspeak.com/en/",
+    "license": {
+        "identifier": "Freeware"
+    },
     "architecture": {
         "64bit": {
             "url": "http://dl.4players.de/ts/releases/3.2.2/TeamSpeak3-Client-win64-3.2.2.exe#/cosi.7z",

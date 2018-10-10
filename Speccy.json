@@ -1,6 +1,10 @@
 {
-    "homepage": "https://www.piriform.com/speccy",
     "version": "1.32.740",
+    "description": "Speccy. Fast, lightweight, advanced system information tool.",
+    "homepage": "https://www.piriform.com/speccy",
+    "license": {
+        "identifier": "Freeware"
+    },
     "url": [
         "https://download.ccleaner.com/spsetup132.exe#/cosi.7z",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/sp.dll#/branding.dll",
