@@ -239,6 +239,7 @@ Describe 'Test installation of added manifests' {
 
 		if ($changedFiles.Count -gt 0) {
 			scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
+			scoop install 7zip sudo innounp # Install default apps for installing
 
 			Context "Intall changed manfifests" {
 				$changedFiles | ForEach-Object {
