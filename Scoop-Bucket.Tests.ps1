@@ -208,7 +208,7 @@ function install() {
 		$command += "--arch $architecture"
 	}
 
-	$result = @(& $command 6>&1)
+	$result = @(Invoke-Expression "$command 6>&1")
 	$exit = $LASTEXITCODE
 
 	log '======'
