@@ -196,11 +196,31 @@ Describe 'Test installation of added manifests' {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
 		$changedFiles | ForEach-Object {
-			It "Intall {$_}" {
-				Write-Host $_ -f Yellow
-				Write-Host ($_ | Out-String) -f magenta
-				scoop install "$_"
-				$LASTEXITCODE | Should Be 0
+			$man = Split-Path $_ -Leaf
+			$noExt = "$man".Split('.')[0]
+			Context "Intall {$man}" {
+				$json = $_ | ConvertFrom-Json
+				if ($json.architecture) {
+					if ($json.architecture.'64bit') {
+						It '64bit' {
+							scoop install $_ --no-cache --arch 64bit
+							$LASTEXITCODE | Should Be 0
+							scoop uninstall $noExt
+						}
+					}
+					if ($json.architecture.'32bit') {
+						It '32bit' {
+							scoop install $_ --no-cache --arch 32bit
+							$LASTEXITCODE | Should Be 0
+							scoop uninstall $noExt
+						}
+					}
+				} else {
+					It 'URL' {
+						scoop install "$_" --no-cache
+						$LASTEXITCODE | Should Be 0
+					}
+				}
 			}
 		}
 	}
