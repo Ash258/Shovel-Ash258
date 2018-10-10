@@ -191,10 +191,10 @@ Describe 'Manifest-validation' {
 	}
 }
 
-
 function log() {
-	param([String] $message = '============')
-	Add-Content "./INSTALL.log" $message -Encoding Ascii
+	param([String[]] $message = "============`r`n")
+
+	Add-Content "./INSTALL.log" ($message -join "`r`n") -Encoding Ascii
 }
 
 function install() {
@@ -215,7 +215,7 @@ function install() {
 	log
 	log "Manifest: $manifest"
 	log "Arch: $architecture"
-	log "$($result -join "`r`n")"
+	log $result
 	log
 
 	return $exit
@@ -236,6 +236,11 @@ Describe 'Test installation of added manifests' {
 		New-Item "INSTALL.log" -Type File
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
+		# Exclude TODO, vscode and texlive manifest
+		$changedFiles = $changedFiles |
+			Where-Object { -not ($_ -like '*TODO*') } |
+			Where-Object { -not ($_ -like '*.vscode*') } |
+			Where-Object { -not ($_ -like '*TexLive*') }
 
 		if ($changedFiles.Count -gt 0) {
 			scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
