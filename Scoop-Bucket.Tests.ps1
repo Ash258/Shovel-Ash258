@@ -199,7 +199,7 @@ Describe 'Test installation of added manifests' {
 			$man = Split-Path $_ -Leaf
 			$noExt = "$man".Split('.')[0]
 			Context "Intall {$man}" {
-				$json = $_ | ConvertFrom-Json
+				$json = parse_json $man | ConvertFrom-Json
 				if ($json.architecture) {
 					if ($json.architecture.'64bit') {
 						It '64bit' {
