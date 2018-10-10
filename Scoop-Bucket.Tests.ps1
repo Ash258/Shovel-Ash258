@@ -220,6 +220,11 @@ function install() {
 	return $exit
 }
 
+function uninstall($noExt){
+	scoop uninstall $noExt 6>$null
+	if ($LASTEXITCODE -eq 0) { Write-Host 'Uninstalling DONE' -ForegroundColor Green }
+}
+
 Describe 'Test installation of added manifests' {
 	if ($env:CI -eq $true) {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
@@ -244,14 +249,14 @@ Describe 'Test installation of added manifests' {
 							It $64 {
 								install $toInstall $64
 								$LASTEXITCODE | Should Be 0
-								scoop uninstall $noExt
+								uninstall $noExt
 							}
 						}
 						if ($json.architecture.$32) {
 							It $32 {
 								install $toInstall $32
 								$LASTEXITCODE | Should Be 0
-								scoop uninstall $noExt
+								uninstall $noExt
 							}
 						}
 					} else {
