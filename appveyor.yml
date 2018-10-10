@@ -26,5 +26,5 @@ test_script:
 artifacts:
   - path: INSTALL.log
 
-on_failure:
-  - Push-AppveyorArtifact INSTALL.log
+on_finish:
+  - ps: Push-AppveyorArtifact INSTALL.log
