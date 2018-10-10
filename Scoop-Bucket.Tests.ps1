@@ -233,6 +233,7 @@ function uninstall($noExt){
 
 Describe 'Test installation of added manifests' {
 	if ($env:CI -eq $true) {
+		New-Item "INSTALL.log" -Type File
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
 
