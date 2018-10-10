@@ -191,6 +191,36 @@ Describe 'Manifest-validation' {
 	}
 }
 
+
+function log($message){
+	Add-Content "./INSTALL.log" $message -Encoding Ascii
+}
+
+function install() {
+	param(
+		[String] $manifest,
+		[ValidateSet('32bit', '64bit')]
+		[String] $architecture
+	)
+
+	$command = scoop install $manifest --no-cache --independent
+	if ($architecture) {
+		$command += "--arch $architecture"
+	} else {
+		$architecture = 'URL'
+	}
+
+	$result = @(& $command 6>$1)
+	$exit = $LASTEXITCODE
+
+	log '======'
+	log "Arch: $architecture"
+	log ($result -join "`r`n")
+	log '======'
+
+	return $exit
+}
+
 Describe 'Test installation of added manifests' {
 	if ($env:CI -eq $true) {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
@@ -203,28 +233,30 @@ Describe 'Test installation of added manifests' {
 			$man = Split-Path $file -Leaf
 			$noExt = $man.Split('.')[0]
 			$toInstall = "./$man"
+			$64 = '64bit'
+			$32 = '32bit'
 
 			Context "Intall manfifests" {
 				Context $man {
 					$json = parse_json $file
 					if ($json.architecture) {
-						if ($json.architecture.'64bit') {
-							It '64bit' {
-								scoop install $toInstall --no-cache --independent --arch 64bit
+						if ($json.architecture.$64) {
+							It $64 {
+								install $toInstall $64
 								$LASTEXITCODE | Should Be 0
 								scoop uninstall $noExt
 							}
 						}
-						if ($json.architecture.'32bit') {
-							It '32bit' {
-								scoop install $toInstall --no-cache --independent --arch 32bit
+						if ($json.architecture.$32) {
+							It $32 {
+								install $toInstall $32
 								$LASTEXITCODE | Should Be 0
 								scoop uninstall $noExt
 							}
 						}
 					} else {
 						It 'URL' {
-							scoop install $toInstall  --independent --no-cache
+							install $toInstall
 							$LASTEXITCODE | Should Be 0
 						}
 					}

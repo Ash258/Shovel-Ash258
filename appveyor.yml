@@ -22,3 +22,9 @@ build: off
 
 test_script:
   - ps: Invoke-Pester -PassThru -EnableExit
+
+artifacts:
+  - path: INSTALL.log
+
+on_failure:
+  - Push-AppveyorArtifact INSTALL.log
