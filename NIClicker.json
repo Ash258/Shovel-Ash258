@@ -12,12 +12,6 @@
             "hash": "411493931a1387aa47bcf04e6436e1072366d30c98f59921fcc5710159f4cb72"
         }
     },
-    "shortcuts": [
-        [
-            "NIAutoClicker.exe",
-            "NI Autoclicker"
-        ]
-    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {

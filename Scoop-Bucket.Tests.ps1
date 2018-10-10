@@ -199,18 +199,18 @@ function log($message){
 function install() {
 	param(
 		[String] $manifest,
-		[ValidateSet('32bit', '64bit')]
+		[ValidateSet('32bit', '64bit', '')]
 		[String] $architecture
 	)
 
 	$command = scoop install $manifest --no-cache --independent
-	if ($architecture) {
-		$command += "--arch $architecture"
-	} else {
+	if ($architecture -eq '') {
 		$architecture = 'URL'
+	} else {
+		$command += "--arch $architecture"
 	}
 
-	$result = @(& $command 6>$1)
+	$result = @(& $command 6>&1)
 	$exit = $LASTEXITCODE
 
 	log '======'
@@ -256,7 +256,7 @@ Describe 'Test installation of added manifests' {
 						}
 					} else {
 						It 'URL' {
-							install $toInstall
+							install $toInstall ''
 							$LASTEXITCODE | Should Be 0
 						}
 					}
