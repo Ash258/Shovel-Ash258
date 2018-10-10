@@ -138,7 +138,7 @@ Describe 'Style constraints for non-binary project files' {
 Describe 'Manifest-validation' {
 	BeforeAll {
 		$workingDirectory = setup_working 'manifest'
-		$schema = "$env:SCOOP_HOME/schema.json"
+		$schema = "$env:SCOOP_HOME\schema.json"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.dll"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.Schema.dll"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Scoop.Validator.dll"
