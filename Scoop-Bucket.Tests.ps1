@@ -195,8 +195,9 @@ Describe 'Test installation of added manifests' {
 	if ($env:CI -eq $true) {
 		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
-		Write-Host $changedFiles -f Yellow
+
 		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Set scoop is updated
+
 		$changedFiles | ForEach-Object {
 			$file = $_
 			$man = Split-Path $file -Leaf
@@ -209,21 +210,21 @@ Describe 'Test installation of added manifests' {
 					if ($json.architecture) {
 						if ($json.architecture.'64bit') {
 							It '64bit' {
-								scoop install $toInstall --no-cache --arch 64bit
+								scoop install $toInstall --no-cache --independent --arch 64bit
 								$LASTEXITCODE | Should Be 0
 								scoop uninstall $noExt
 							}
 						}
 						if ($json.architecture.'32bit') {
 							It '32bit' {
-								scoop install $toInstall --no-cache --arch 32bit
+								scoop install $toInstall --no-cache --independent --arch 32bit
 								$LASTEXITCODE | Should Be 0
 								scoop uninstall $noExt
 							}
 						}
 					} else {
 						It 'URL' {
-							scoop install $toInstall --no-cache
+							scoop install $toInstall  --independent --no-cache
 							$LASTEXITCODE | Should Be 0
 						}
 					}
