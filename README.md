@@ -2,55 +2,7 @@
 
 `scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git`
 
-❗❗❗❗❗❗ After cloning run command:
-
-```powershell
-.\bin\createHooks.ps1
-```
-
-- [Recommended manifest format][Template]
-- Observe blocks sequence and structure from [Template][Template]
-- Always use `regex` instead of `re`
-- Script Blocks
-    - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
-    - Indent code as you would normally do.
-    - Comments
-        - Indent with 4 spaces.
-        - Append space after `#`
-        - `"    # Cosi",`
-- Description
-    - **ALWAYS** include app name at start.
-    - **ALWAYS** end with dot.
-        - `"App name. Meaningful description."`
-- License
-    - **ALWAYS** use identifier property.
-- StringOrArrayOfStrings
-    - **ALWAYS** convert array with only 1 string into normal string.
-- Bins and Shortcuts
-    - Use Backslashes
-    - Do not include `$dir`.
-    - Do not create bin for GUI applications.
-        - Only use bin for CLIs.
-- Persisting
-    - Do not include `$dir`.
-    - Persising file does not exists after unpacking / installing.
-        - Use this block in `pre_install` or `installer > script`:
-            - Available via vscode snippet: `persistCheck`
-
-```json
-{
-    ...
-    "post_install || installer: { script" : [
-        "    # Creating default settings",
-        "function CreateFile([String] $file, [String] $content = $null) {",
-        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-        "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
-        "        Set-Content \"$dir\\$file\" $content -Encoding Ascii",
-        "    }",
-        "}"
-    ]
-}
-```
+## Manifests
 
 | App name **(Scoop name)**                                                               | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
@@ -114,7 +66,7 @@
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 
-# TODO
+### TODO
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
@@ -157,5 +109,57 @@
 
 - VScode-insiders was changed to nightly in [172ee89](https://github.com/Ash258/scoop-Ash258/commit/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a)
     - No need for checkver an autoupdate
+
+## How to write manifests
+
+❗❗❗❗❗❗ After cloning run command:
+
+```powershell
+.\bin\createHooks.ps1
+```
+
+- [Recommended manifest format][Template]
+- Observe blocks sequence and structure from [Template][Template]
+- Always use `regex` instead of `re`
+- Script Blocks
+    - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
+    - Indent code as you would normally do.
+    - Comments
+        - Indent with 4 spaces.
+        - Append space after `#`
+        - `"    # Cosi",`
+- Description
+    - **ALWAYS** include app name at start.
+    - **ALWAYS** end with dot.
+        - `"App name. Meaningful description."`
+- License
+    - **ALWAYS** use identifier property.
+- StringOrArrayOfStrings
+    - **ALWAYS** convert array with only 1 string into normal string.
+- Bins and Shortcuts
+    - Use Backslashes
+    - Do not include `$dir`.
+    - Do not create bin for GUI applications.
+        - Only use bin for CLIs.
+- Persisting
+    - Do not include `$dir`.
+    - Persising file does not exists after unpacking / installing.
+        - Use this block in `pre_install` or `installer > script`:
+            - Available via vscode snippet: `persistCheck`
+
+```json
+{
+    ...
+    "post_install || installer: { script" : [
+        "    # Creating default settings",
+        "function CreateFile([String] $file, [String] $content = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "        Set-Content \"$dir\\$file\" $content -Encoding Ascii",
+        "    }",
+        "}"
+    ]
+}
+```
 
 [Template]: ./.vscode/Template.jsonc
