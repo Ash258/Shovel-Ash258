@@ -1,5 +1,5 @@
 {
-    "version": "4.1.3",
+    "version": "4.1.5",
     "description": "Krita. Professional FREE and open source painting program.",
     "homepage": "https://krita.org/en/homepage/",
     "license": {
@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/stable/krita/4.1.3/krita-x64-4.1.3.zip",
-            "hash": "md5:33a9a2d2876a29661d7b00544a2705ac",
-            "extract_dir": "krita-x64-4.1.3"
+            "url": "https://download.kde.org/stable/krita/4.1.5/krita-x64-4.1.5.zip",
+            "hash": "eb2bd4d5af1e1883a749420b3843c8d6a0b31128d490427c39268a1bec3ef0aa",
+            "extract_dir": "krita-x64-4.1.5"
         },
         "32bit": {
-            "url": "https://download.kde.org/stable/krita/4.1.3/krita-x86-4.1.3.zip",
-            "hash": "md5:a4158d3e629e95a70ee2c69f3908057b",
-            "extract_dir": "krita-x86-4.1.3"
+            "url": "https://download.kde.org/stable/krita/4.1.5/krita-x86-4.1.5.zip",
+            "hash": "96a4425c400665f5d0fb690ecc9bd52639b09ba3457c7699dd1ce572342356b0",
+            "extract_dir": "krita-x86-4.1.5"
         }
     },
     "shortcuts": [
@@ -40,7 +40,7 @@
             }
         },
         "hash": {
-            "url": "https://download.kde.org/stable/krita/$version/md5sum.txt"
+            "url": "$baseurl/md5sum.txt"
         }
     }
 }
