@@ -1,12 +1,12 @@
 {
-    "version": "2.2",
+    "version": "2.3",
     "description": "Get Video Details. Custom Edna Helper.",
     "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
     "license": {
         "identifier": "MIT"
     },
     "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Get-VideoDetails.ps1",
-    "hash": "87717c052ada7e4b2ec17e596461a64bd89667ab1bc4c27e342b6bd9b56c6be9",
+    "hash": "d14c7cf136d5ef09abefbe5d81d507df36a6c3bf4eddfb7b93145fca80ee5296",
     "bin": [
         "Get-VideoDetails.ps1",
         [
