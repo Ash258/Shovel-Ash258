@@ -1,12 +1,12 @@
 {
-    "version": "7.10",
+    "version": "7.11",
     "description": "Microsoft Windows and Office ISO Download Tool. Easy and comfortable way to download genuine Windows 7, Windows 8.1 and Windows 10 disk images (ISO) directly from Microsoft's servers, as well as Office.",
     "homepage": "https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool",
     "license": {
         "identifier": "Freeware"
     },
     "url": "https://www.heidoc.net/php/Windows%20ISO%20Downloader.exe#/WinISODl.exe",
-    "hash": "5964604fb367267f7ccb8a26ea979add76e434c6fa6bc79c63e24da107f51474",
+    "hash": "eb7fc232d8f1fdeb1d34a5951bccb16c2026807239e5e8c3f23230cd7ec383c5",
     "shortcuts": [
         [
             "WinISODl.exe",
