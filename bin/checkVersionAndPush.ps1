@@ -13,30 +13,41 @@
 	If present, -f will be used instead of -u.
 #>
 param(
-	[ValidateScript( { if ($_.EndsWith('.json')) { $true } else { $false } })]
-	[String] $Manifest,
+	[String[]] $Manifest,
 	[Switch] $Force
 )
 
-$Manifest = Resolve-Path $Manifest
-$folder = Split-Path $Manifest -Parent
-$file = Split-Path $Manifest -Leaf
-$noExt = $file.Split('.')[0]
-if ($Force) { $arg = '-f' } else { $arg = '-u'}
+begin { if ($Force) { $arg = '-f' } else { $arg = '-u' } }
 
-Invoke-Expression -Command "$PSScriptRoot\checkver.ps1 '$noExt' '$folder' $arg"
+process {
+	foreach ($man in $Manifest) {
+		if (-not ($man.EndsWith('.json'))) {
+			$man += '.json'
+		}
+		$man = Resolve-Path $man
+		$folder = Split-Path $man -Parent
+		$file = Split-Path $man -Leaf
+		$noExt = $file.Split('.')[0]
+		if ($Force) { scoop cache rm $noExt }
 
-$updated = (git status -s)
-$json = Get-Content "$Manifest" | ConvertFrom-Json
-$version = $json.version
-$message = "${noExt}: Bump to $version"
+		Invoke-Expression -Command "$PSScriptRoot\checkver.ps1 '$noExt' '$folder' $arg"
 
-if ($updated -match "$noExt") {
-	Write-Host 'Commiting' -ForegroundColor Green
-	git commit -m $message -o $file
-	Write-Host 'Pushing' -ForegroundColor Green
-	git push
-	Write-Host 'DONE' -ForegroundColor Yellow
-} else {
-	Write-Host 'No Changes' -ForegroundColor Yellow
+		$updated = @(git status -s)
+
+		if (($updated -match "$noExt").Count -gt 0) {
+			$json = Get-Content "$man" -Raw -Encoding UTF8 | ConvertFrom-Json
+			$version = $json.version
+			$message = "${noExt}: Bumped to $version"
+
+			Write-Host 'Commiting' -ForegroundColor Green
+			git commit -m $message -o $file
+
+			Write-Host 'Pushing' -ForegroundColor Green
+			git push
+
+			Write-Host 'DONE' -ForegroundColor Yellow
+		} else {
+			Write-Host 'No Changes' -ForegroundColor Yellow
+		}
+	}
 }
