@@ -1,12 +1,12 @@
 {
-    "version": "5.106",
+    "version": "5.107",
     "description": "Glary Utilities. Free, Powerful and All-in-one utility for cleaning PC.",
     "homepage": "https://www.glarysoft.com/glary-utilities/",
     "license": {
         "identifier": "Freeware"
     },
     "url": "http://download.glarysoft.com/guportable.zip",
-    "hash": "5d8aa2d62e263d2bf508f5564819cf29f48f5465548b726142ed3d738e4d6379",
+    "hash": "e911e98450ac3dbd23856dfa0f1522e79feb9eb5830f0bd7ccc5979d5e74eb34",
     "extract_dir": "Portable",
     "persist": "data",
     "shortcuts": [
