@@ -240,45 +240,40 @@ Describe 'Test installation of added manifests' {
 		$changedFiles = $changedFiles |
 			Where-Object { -not ($_ -like '*TODO*') } |
 			Where-Object { -not ($_ -like '*.vscode*') } |
+			Where-Object { -not ($_ -like '*E2B*') } |
 			Where-Object { -not ($_ -like '*TexLive*') }
 
 		if ($changedFiles.Count -gt 0) {
 			scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
 			log @(scoop install 7zip sudo innounp 6>&1) # Install default apps for manifest manipultion / installation
 
-			Context "Intall changed manfifests" {
-				$changedFiles | ForEach-Object {
-					$file = $_
-					$man = Split-Path $file -Leaf
-					$noExt = $man.Split('.')[0]
-					$toInstall = "./$man"
-					$64 = '64bit'
-					$32 = '32bit'
-					$URL = 'URL'
+			$changedFiles | ForEach-Object {
+				$file = $_
+				$man = Split-Path $file -Leaf
+				$noExt = $man.Split('.')[0]
+				$toInstall = "./$man"
 
-					Context $man {
-						$json = parse_json $file
-						if ($json.architecture) {
-							if ($json.architecture.$64) {
-								It $64 {
-									install $toInstall $64
-									$LASTEXITCODE | Should Be 0
-									uninstall $noExt
-								}
+				$64 = '64bit'
+				$32 = '32bit'
+				$URL = 'URL'
+
+				Context $man {
+					$json = parse_json $file
+					if ($json.architecture) {
+						if ($json.architecture.$64) {
+							It $64 {
+								(install $toInstall $64) | Should Be 0
 							}
-							if ($json.architecture.$32) {
-								It $32 {
-									install $toInstall $32
-									$LASTEXITCODE | Should Be 0
-									uninstall $noExt
-								}
-							}
-						} else {
-							It 'URL' {
-								install $toInstall $URL
-								$LASTEXITCODE | Should Be 0
-							}
+							uninstall $noExt
 						}
+						if ($json.architecture.$32) {
+							It $32 {
+								(install $toInstall $32) | Should Be 0
+							}
+							uninstall $noExt
+						}
+					} else {
+						It 'URL' { (install $toInstall $URL) | Should Be 0 }
 					}
 				}
 			}
