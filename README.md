@@ -137,6 +137,10 @@
     - **ALWAYS** use identifier property.
 - StringOrArrayOfStrings
     - **ALWAYS** convert array with only 1 string into normal string.
+- Naming
+    - All manifests should use `CamelCase` with first uppercase character.
+        - Unless it's some programming related manifest.
+            - Docker, blisk, pwsh, ...
 - Bins and Shortcuts
     - Use Backslashes
     - Do not include `$dir`.

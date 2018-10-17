@@ -19,7 +19,6 @@
     "architecture": {
         "64bit": {
             "url": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe#/dockerInstall.exe",
-            "hash": "4f48ab087db0162bb5bc6df08222a1b61aefcfe06296cfee1cfc02d483ad11bd",
             "pre_install": [
                 "if((Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online).State -eq \"Disabled\") {",
                 "    Write-Host 'Hyper-V is disabled. Enabling.' -f Yellow",
