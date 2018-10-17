@@ -135,7 +135,7 @@ Describe 'Style constraints for non-binary project files' {
 	}
 }
 
-Describe 'Manifest-validation' {
+Describe 'Manifest Validation' {
 	BeforeAll {
 		$workingDirectory = setup_working 'manifest'
 		$schema = "$env:SCOOP_HOME\schema.json"
@@ -231,50 +231,60 @@ function uninstall($noExt) {
 	}
 }
 
-Describe 'Test installation of added manifests' {
-	if ($env:CI -eq $true) {
-		New-Item "INSTALL.log" -Type File
-		$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
-		$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
-		# Exclude TODO, vscode and texlive manifest
-		$changedFiles = $changedFiles |
-			Where-Object { -not ($_ -like '*TODO*') } |
-			Where-Object { -not ($_ -like '*.vscode*') } |
-			Where-Object { -not ($_ -like '*E2B*') } |
-			Where-Object { -not ($_ -like '*TexLive*') }
+# Don't install when not in CI
+if (-not $env:CI) {
+	Write-Host 'Skipping installation.' -ForegroundColor Yellow
+	return
+}
 
-		if ($changedFiles.Count -gt 0) {
-			scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
-			log @(scoop install 7zip sudo innounp 6>&1) # Install default apps for manifest manipultion / installation
+Describe 'Changed manifests installation' {
+	# Duplicate check when test is manually executed.
+	if (-not $env:CI) {
+		Write-Host 'This test should ran only in CI environment.' -ForegroundColor Yellow
+		return
+	}
 
-			$changedFiles | ForEach-Object {
-				$file = $_
-				$man = Split-Path $file -Leaf
-				$noExt = $man.Split('.')[0]
-				$toInstall = "./$man"
+	New-Item "INSTALL.log" -Type File -Force
+	$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
+	$changedFiles = (Get-GitChangedFile -Include '*.json' -Commit $commit)
+	# Exclude TODO, vscode and texlive manifest
+	$changedFiles = $changedFiles |
+		Where-Object { -not ($_ -like '*TODO*') } |
+		Where-Object { -not ($_ -like '*.vscode*') } |
+		Where-Object { -not ($_ -like '*E2B*') } |
+		Where-Object { -not ($_ -like '*TexLive*') }
 
-				$64 = '64bit'
-				$32 = '32bit'
-				$URL = 'URL'
+	if ($changedFiles.Count -gt 0) {
+		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
+		log @(scoop install 7zip sudo innounp 6>&1) # Install default apps for manifest manipultion / installation
 
-				Context $man {
-					$json = parse_json $file
-					if ($json.architecture) {
-						if ($json.architecture.$64) {
-							It $64 {
-								(install $toInstall $64) | Should Be 0
-							}
-							uninstall $noExt
+		$changedFiles | ForEach-Object {
+			$file = $_
+			$man = Split-Path $file -Leaf
+			$noExt = $man.Split('.')[0]
+			$toInstall = "./$man"
+
+			$64 = '64bit'
+			$32 = '32bit'
+			$URL = 'URL'
+
+			Context $man {
+				$json = parse_json $file
+				if ($json.architecture) {
+					if ($json.architecture.$64) {
+						It $64 {
+							install $toInstall $64 | Should Be 0
 						}
-						if ($json.architecture.$32) {
-							It $32 {
-								(install $toInstall $32) | Should Be 0
-							}
-							uninstall $noExt
-						}
-					} else {
-						It 'URL' { (install $toInstall $URL) | Should Be 0 }
+						uninstall $noExt
 					}
+					if ($json.architecture.$32) {
+						It $32 {
+							install $toInstall $32 | Should Be 0
+						}
+						uninstall $noExt
+					}
+				} else {
+					It $URL { install $toInstall $URL | Should Be 0 }
 				}
 			}
 		}
