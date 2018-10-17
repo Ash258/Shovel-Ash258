@@ -14,6 +14,7 @@
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
 | [BleachBit **(BleachBit)**](./BleachBit.json)                                           | ✔      | ✔        | ✔ (✔)             |
 | [Blisk **(blisk)**](./blisk.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
+| [Borderless Gaming **(BorderlessGaming)**](./BorderlessGaming.json)                     | ✔      | ✔        | ✔ (⛔)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔶    | ✔        | ✔ (⛔)             |
