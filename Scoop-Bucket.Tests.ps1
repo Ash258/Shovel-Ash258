@@ -290,3 +290,5 @@ Describe 'Changed manifests installation' {
 		}
 	}
 }
+
+Get-Content 'INSTALL.log' -Raw

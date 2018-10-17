@@ -1,5 +1,5 @@
 {
-    "version": "1.A5",
+    "version": "1.A6",
     "description": "Easy2boot. USB multiboot solution (Legacy+UEFI).",
     "homepage": "http://www.easy2boot.com/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "http://www.easy2boot.com/contact-us/licensing/"
     },
     "depends": "MPI",
-    "url": "http://files.easy2boot.com/200003317-a7ac0a8a34/Easy2Boot_v1.A5_DPMS.exe",
-    "hash": "d20b888a1b46d9c6a4cd5e60dcf21879dc037f052cc96599047a9ddc096f83ba",
+    "url": "http://files.easy2boot.com/200003321-2252e234bc/Easy2Boot_v1.A6_DPMS.exe",
+    "hash": "871218873c7f8a9feb7998abf09c358c942c14e46682a57556e9531a2bfd3cdb",
     "installer": {
         "script": [
             "    # Download MPI",
