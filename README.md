@@ -23,6 +23,7 @@
 | [CosMOS Beginner **(CosMOSBeginner)**](./CosMOSBeginner.json)                           | ✔🔶    | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
+| [Docker **(docker)**](./docker.json)                                                    | 🎃     | ♻        | ♻ (♻)             |
 | [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FastStone Image Viewer **(FastStone)**](./FastStone.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
@@ -72,7 +73,7 @@
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
-| [Easy2Boot **(E2B)**](./E2B.json)                                                         | ❌      | ✔        | ✔ (⛔)             |
+| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    | ❌      | ✔        | ✔ (⛔)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔🔶      | ✔ (✔)             |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔🔶      | ✔ (❌)             |
@@ -84,7 +85,6 @@
 | ---                                                                                       | ---    | ---      | ---               |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
 | [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃     | ✔        | ✔ (✔)             |
-| [Docker **(docker)**](./TODO/docker.json)                                                 | ❌      | ❌        | ❌ (❌)             |
 | [Google Chrome **(Chrome)**](./TODO/Chrome.json)                                          | ❌      | ❌        | ❌ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌      | ❌        | ❌ (❌)             |
