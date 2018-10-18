@@ -29,6 +29,7 @@
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [Glary Utilities **(GlaryUtilities)**](./GlaryUtilities.json)                           | ✔      | ✔        | ✔ (⛔)             |
+| [Google Chrome **(Chrome)**](./Chrome.json)                                             | ✔      | ✔        | ❗❗ (⛔)            |
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                   | ✔      | ✔        | ✔ (⛔)             |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./KMCleaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [KMSpico **(KMS)**](./KMS.json)                                                         | ✔      | ✔❓       | ✔ (⛔)             |
@@ -85,7 +86,6 @@
 | ---                                                                                       | ---    | ---      | ---               |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
 | [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃     | ✔        | ✔ (✔)             |
-| [Google Chrome **(Chrome)**](./TODO/Chrome.json)                                          | ❌      | ❌        | ❌ (❌)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌      | ❌        | ❌ (❌)             |
 | [Adobe Reader **(AdobeReader)**](./AdobeReader.json)                                      | ❌      | ❌        | ❌ (❌)             |
