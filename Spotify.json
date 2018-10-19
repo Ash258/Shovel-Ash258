@@ -33,6 +33,7 @@
             "$exec = Resolve-Path \"$env:APPDATA\\Spotify\\Spotify.exe\"",
             "    # Terminate all process, which could interfere with Uninstallation process.",
             "Get-Process -Name '*Spotify*' | ForEach-Object { Stop-Process $_ } ",
+            "    # Wait for terminating all process.",
             "Start-Sleep -Seconds 4",
             "Start-Process \"$exec\" -ArgumentList '/Uninstall', '/Silent' -Wait"
         ]
