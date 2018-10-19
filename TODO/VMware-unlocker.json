@@ -1,5 +1,5 @@
 {
-    "version": "3.0.2",
+    "version": "3.0.1",
     "description": "VMWare Unlocker. Able to create / use macOS virtual machines inside VMware.",
     "homepage": "https://github.com/DrDonk/unlocker",
     "license": {
@@ -9,26 +9,22 @@
     "depends": "VMware",
     "architecture": {
         "64bit": {
-            "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PatchTools.zip",
-            "hash": "dfefcaae05156ae4e111f0d6ef8921217fbebea8c9178515823c45332521fa77"
+            "url": "https://github.com/DrDonk/unlocker/releases/download/3.0.1/unlocker301.zip",
+            "hash": "24f9ebf08786d7d5702334599fe7769c9c7fa6a5295b66fb4b5b62163c2b455c"
         }
     },
-    "extract_dir": "Patch Tools",
+    "pre_install": "Remove-Item \"$dir\\*.py\", \"$dir\\*.sh\", \"$dir\\LICENSE\" -Force",
     "installer": {
         "file": "win-install.cmd"
     },
     "uninstaller": {
         "file": "win-uninstall.cmd"
     },
-    "checkver": {
-        "url": "https://github.com/DrDonk/unlocker",
-        "regex": "[\\d+/]+\\s([\\d+\\.]+)\\s-\\s\\w+",
-        "reverse": true
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PatchTools.zip"
+                "url": "https://github.com/DrDonk/unlocker/releases/download/$version/unlocker$cleanVersion.zip"
             }
         }
     }

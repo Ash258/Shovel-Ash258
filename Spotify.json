@@ -1,0 +1,40 @@
+{
+    "version": "nightly",
+    "description": "Spotify. Music streaming service.",
+    "homepage": "https://www.spotify.com/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "notes": "Spotify uses custom installdir which cannot be changed!!",
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "pre_install": [
+        "if (is_admin) {",
+        "    Write-Host 'Spotify need to be installed from non-admin console for some reason.' -f Red",
+        "    exit 1",
+        "}"
+    ],
+    "installer": {
+        "script": [
+            "$file = Resolve-Path \"$dir\\$fname\"",
+            "& \"$file\" /Silent",
+            "    # Kill opened Spotify",
+            "$done = $false",
+            "do {",
+            "    if (Get-Process Spotify -ErrorAction SilentlyContinue) {",
+            "        Stop-Process -Name Spotify",
+            "        $done = $true",
+            "    }",
+            "    Start-Sleep -Seconds 5",
+            "} until ($done)"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$exec = Resolve-Path \"$env:APPDATA\\Spotify\\Spotify.exe\"",
+            "    # Terminate all process, which could interfere with Uninstallation process.",
+            "Get-Process -Name '*Spotify*' | ForEach-Object { Stop-Process $_ } ",
+            "Start-Sleep -Seconds 4",
+            "Start-Process \"$exec\" -ArgumentList '/Uninstall', '/Silent' -Wait"
+        ]
+    }
+}

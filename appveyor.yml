@@ -24,4 +24,6 @@ test_script:
   - ps: Invoke-Pester -PassThru -EnableExit
 
 on_finish:
-  - ps: Push-AppveyorArtifact 'INSTALL.log'
+  - ps: |
+      Write-Host (Get-Content 'INSTALL.log' -Raw)
+      Push-AppveyorArtifact 'INSTALL.log'

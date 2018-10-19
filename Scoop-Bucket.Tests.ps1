@@ -252,6 +252,7 @@ Describe 'Changed manifests installation' {
 		Where-Object { -not ($_ -like '*TODO*') } |
 		Where-Object { -not ($_ -like '*.vscode*') } |
 		Where-Object { -not ($_ -like '*E2B*') } |
+		Where-Object { -not ($_ -like '*unlocker*') } |
 		Where-Object { -not ($_ -like '*TexLive*') }
 
 	if ($changedFiles.Count -gt 0) {
@@ -290,5 +291,3 @@ Describe 'Changed manifests installation' {
 		}
 	}
 }
-
-Get-Content 'INSTALL.log' -Raw
