@@ -246,10 +246,15 @@ Describe 'Changed manifests installation' {
 
 	New-Item "INSTALL.log" -Type File -Force
 	$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
-	$changedFiles = (Get-GitChangedFile -Commit $commit `
-					-Include '*.json' `
-					-Exclude '*TODO*', '*.vscode*', '*E2B*', '*unlocker*', '*TexLive*', '*Spotify*'
-	)
+	$changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
+
+	$changedFiles = $changedFiles |
+		Where-Object { -not ($_ -like '*.vscode*') } |
+		Where-Object { -not ($_ -like '*TODO*') } |
+		Where-Object { -not ($_ -like '*E2B*') } |
+		Where-Object { -not ($_ -like '*TexLive*') } |
+		Where-Object { -not ($_ -like '*Spotify*') }
+
 	if ($changedFiles.Count -gt 0) {
 		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
 		log @(scoop install 7zip sudo innounp 6>&1) # Install default apps for manifest manipultion / installation
