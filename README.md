@@ -49,6 +49,7 @@
 | [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ✔🔶    | ✔        | ✔ (✔)             |
 | [Scoop Auto Completion **(scoop-auto-completion)**](./scoop-auto-completion.json)       | ✔      | ♻        | ♻ (♻)             |
 | [Speccy **(Speccy)**](./Speccy.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
+| [Spotify **(Spotify)**](./Spotify.json)                                                 | 🎃     | ♻        | ♻ (♻)             |
 | [Steam **(Steam)**](./Steam.json)                                                       | ✔      | ♻        | ♻ (♻)             |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | ✔      | ✔        | ✔ (⛔)             |
@@ -94,7 +95,6 @@
 | [Blue Stack Emulator **(BlueStacks)**](./BlueStacks.json)                                 | ❌      | ❌        | ❌ (❌)             |
 | [Google Chrome **(Chrome)**](./Chrome.json)                                               | ❌      | ❌        | ❌ (❌)             |
 | [Free Download Manager **(FDM)**](./FDM.json)                                             | ❌      | ❌        | ❌ (❌)             |
-| [Spotify **(Spotify)**](./Spotify.json)                                                   | 🎃     | ❌        | ❌ (❌)             |
 | [CheatHappens Trainer Manager **(TrainerManager)**](./TrainerManager.json)                | ❌      | ❌        | ❌ (❌)             |
 
 - 🔶 Additional testing is needed
