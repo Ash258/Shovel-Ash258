@@ -240,7 +240,7 @@ if (-not $env:CI) {
 Describe 'Changed manifests installation' {
 	# Duplicate check when test is manually executed.
 	if (-not $env:CI) {
-		Write-Host 'This test should ran only in CI environment.' -ForegroundColor Yellow
+		Write-Host 'This test should run only in CI environment.' -ForegroundColor Yellow
 		return
 	}
 
