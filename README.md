@@ -16,6 +16,7 @@
 | [Blisk **(blisk)**](./blisk.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Borderless Gaming **(BorderlessGaming)**](./BorderlessGaming.json)                     | ✔      | ✔        | ✔ (⛔)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
+| [Carnac **(Carnac)**](./Carnac.json)                                                    | ✔      | ✔        | ✔ (✔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Cheat Engine **(CheatEngine)**](./CheatEngine.json)                                    | ✔🔶    | ✔        | ✔ (⛔)             |
 | [Corsair's iCue **(iCue)**](./iCue.json)                                                | ✔🔶    | ✔        | ✔ (⛔)             |
@@ -30,6 +31,7 @@
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [Glary Utilities **(GlaryUtilities)**](./GlaryUtilities.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Google Chrome **(Chrome)**](./Chrome.json)                                             | ✔      | ✔        | ❗❗ (⛔)            |
+| [Greenshot **(Greenshot)**](./Greenshot.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                   | ✔      | ✔        | ✔ (⛔)             |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./KMCleaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [KMSpico **(KMS)**](./KMS.json)                                                         | ✔      | ✔❓       | ✔ (⛔)             |
@@ -77,6 +79,7 @@
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    | ❌      | ✔        | ✔ (⛔)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
+| [NetLimiter **(NetLimiter)**](./TODO/NetLimiter.json)                                     | ❌      | ❌        | ❌ (❌)             |
 | [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔🔶      | ✔ (✔)             |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔🔶      | ✔ (❌)             |
 | [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌      | ⭕        | ⭕ (⭕)             |
@@ -92,10 +95,9 @@
 | [Adobe Reader **(AdobeReader)**](./AdobeReader.json)                                      | ❌      | ❌        | ❌ (❌)             |
 | [Battle.Net **(BattleNet)**](./BattleNet.json)                                            | ❌      | ❌        | ❌ (❌)             |
 | [Nox App Player **(Nox)**](./TODO/Nox.json)                                               | ❌      | ❌        | ❌ (❌)             |
-| [Blue Stack Emulator **(BlueStacks)**](./BlueStacks.json)                                 | ❌      | ❌        | ❌ (❌)             |
-| [Google Chrome **(Chrome)**](./Chrome.json)                                               | ❌      | ❌        | ❌ (❌)             |
-| [Free Download Manager **(FDM)**](./FDM.json)                                             | ❌      | ❌        | ❌ (❌)             |
-| [CheatHappens Trainer Manager **(TrainerManager)**](./TrainerManager.json)                | ❌      | ❌        | ❌ (❌)             |
+| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            | ❌      | ❌        | ❌ (❌)             |
+| [Free Download Manager **(FDM)**](./TODO/FDM.json)                                        | ❌      | ❌        | ❌ (❌)             |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./TODO/TrainerManager.json)           | ❌      | ❌        | ❌ (❌)             |
 
 - 🔶 Additional testing is needed
 - ⭕ Not needed
