@@ -52,7 +52,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest/",
+        "github": "https://github.com/RPCS3/rpcs3-binaries-win/",
         "regex": "<a href=\".*/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v(?<mainVersion>[\\d+\\.]+-\\d{4})",
         "replace": "${mainVersion}"
     },
