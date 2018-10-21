@@ -40,7 +40,7 @@ process {
 			$message = "${noExt}: Bumped to $version"
 
 			Write-Host 'Commiting' -ForegroundColor Green
-			git commit -m $message -o $file
+			git commit -m $message -o "*$file"
 
 			Write-Host 'Pushing' -ForegroundColor Green
 			git push
