@@ -1,11 +1,12 @@
 {
-    "version": "15.0-10134415",
+    "##": "https://docs.vmware.com/en/VMware-Workstation-Pro/15.0/com.vmware.ws.using.doc/GUID-7C47E119-7AE6-4E25-BC6F-435AB3DCD342.html",
+    "version": "15.0.0-10134415",
     "description": "VMWare. Industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC.",
     "homepage": "https://www.vmware.com/products/workstation-pro.html",
     "architecture": {
         "64bit": {
-            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.0-10134415.exe#/cosi.exe",
-            "hash": "33caa5ddac80f75dfd17215eeafab46856dfa7f45219260f7663f4a583cfd0c0",
+            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.0.0-10134415.exe#/cosi.exe",
+            "hash": "409598a8ba29119b0aa4856f3486b4e3457e2a19098056f9ce500f02834bff9e",
             "installer": {
                 "args": [
                     "/a",
@@ -13,11 +14,11 @@
                     "/v\"",
                     "/qn",
                     "EULAS_AGREED=1",
-                    "INSTALLDIR='$dir'",
                     "DATACOLLECTION=0",
                     "DESKTOP_SHORTCUT=0",
                     "STARTMENU_SHORTCUT=0",
                     "AUTOSOFTWAREUPDATE=0",
+                    "INSTALLDIR=\"\"$dir\"\"",
                     "\""
                 ],
                 "keep": true
@@ -38,28 +39,27 @@
                     "VMware Workstation Pro"
                 ],
                 [
-                    "vmnetcfg.exe",
-                    "Virtual Network Editor"
+                    "vmplayer.exe",
+                    "VMware Workstation Player"
                 ],
                 [
-                    "vmplayer.exe",
-                    "VMware Workstation 14 Player"
+                    "vmnetcfg.exe",
+                    "Virtual Network Editor"
                 ]
             ]
         }
     },
     "checkver": {
-        "url": "https://en.wikipedia.org/wiki/VMware_Workstation",
-        "regex": "<div.*>((?<ver>(\\d+\\.?){3}) Build (?<build>\\d+))<sup",
-        "replace": "${ver}-${build}"
+        "url": "https://www.softpedia.com/get/System/OS-Enhancements/VMware-Workstation.shtml",
+        "regex": "VMware-workstation-full-([\\d+\\.-]+)\\.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-$version.exe#/cosi.exe",
                 "hash": {
-                    "url": "https://my.vmware.com/web/vmware/details?downloadGroup=WKST-1412-WIN&productId=686&rPId=23138",
-                    "find": "SHA256SUM</span>: ([A-Fa-f\\d]{64})"
+                    "url": "https://my.vmware.com/web/vmware/details?downloadGroup=WKST-$majorVersion$minorVersion$patchVersion-WIN&productId=686",
+                    "find": "SHA256SUM</span>:\\s+([A-Fa-f\\d]{64})"
                 }
             }
         }
