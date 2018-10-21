@@ -6,7 +6,11 @@
         "identifier": "MIT",
         "url": "https://code.visualstudio.com/license/insiders"
     },
-    "notes": "When there is vscode update available run 'scoop update vscode-insiders -kf'",
+    "notes": [
+        "When there is vscode update available run 'scoop update vscode-insiders -kf'",
+        "When installed from elevated prompt, context menus will be created.",
+        "    Otherwise, you could create it on your own using install-context.reg file in '$dir' folder"
+    ],
     "architecture": {
         "64bit": {
             "url": [
@@ -54,13 +58,17 @@
             "$content = $content.Replace('&Code', 'Code &Insiders')",
             "Set-Content $REG_UNINSTALL $content -Encoding Ascii",
             "    # Apply context automatically",
-            "regedit /s $REG_INSTALL"
+            "if (is_admin) {",
+            "    regedit /s $REG_INSTALL",
+            "}"
         ]
     },
     "uninstaller": {
         "script": [
             "    # Uninstall context menu",
-            "regedit /s \"$dir\\vscode-uninstall-context.reg\""
+            "if (is_admin) {",
+            "    regedit /s \"$dir\\vscode-uninstall-context.reg\"",
+            "}"
         ]
     },
     "persist": "data",
