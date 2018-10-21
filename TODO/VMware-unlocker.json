@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "VMWare Unlocker. Able to create / use macOS virtual machines inside VMware.",
     "homepage": "https://github.com/DrDonk/unlocker",
     "license": {
@@ -9,8 +9,8 @@
     "depends": "VMware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DrDonk/unlocker/releases/download/3.0.1/unlocker301.zip",
-            "hash": "24f9ebf08786d7d5702334599fe7769c9c7fa6a5295b66fb4b5b62163c2b455c"
+            "url": "https://github.com/DrDonk/unlocker/releases/download/3.0.2/unlocker302.zip",
+            "hash": "ef7e60303a2f596ad280b73d6a01290ed9367e4c97a6d21a80c7d056fea4bae9"
         }
     },
     "pre_install": "Remove-Item \"$dir\\*.py\", \"$dir\\*.sh\", \"$dir\\LICENSE\" -Force",
