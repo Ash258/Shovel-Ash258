@@ -253,6 +253,7 @@ Describe 'Changed manifests installation' {
 		Where-Object { -not ($_ -like '*TODO*') } |
 		Where-Object { -not ($_ -like '*E2B*') } |
 		Where-Object { -not ($_ -like '*TexLive*') } |
+		Where-Object { -not ($_ -like '*unlocker*') } |
 		Where-Object { -not ($_ -like '*Spotify*') }
 
 	if ($changedFiles.Count -gt 0) {

@@ -63,6 +63,8 @@
 | [Uplay **(Uplay)**](./Uplay.json)                                                       | ✔      | ♻        | ♻ (♻)             |
 | [Visual Paradigm Community Edition **(VisualParadigmCE)**](./VisualParadigmCE.json)     | ✔      | ✔        | ✔ (✔)             |
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./VisualParadigmEE.json)    | ✔      | ✔        | ✔ (✔)             |
+| [VMware **(VMware)**](./VMware.json)                                                    | ✔      | ✔        | ✔ (✔)             |
+| [VMware macOS Unlocker **(VMware-unlocker)**](./VMware-unlocker.json)                   | ✔      | ✔        | ✔ (⛔)             |
 | [Wavebox **(Wavebox)**](./Wavebox.json)                                                 | ✔      | ✔        | ✔ (✔)             |
 | [W10Privacy **(W10Privacy)**](./W10Privacy.json)                                        | ✔      | ✔        | ✔ (✔)             |
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
@@ -80,14 +82,12 @@
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    | ❌      | ✔        | ✔ (⛔)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
 | [NetLimiter **(NetLimiter)**](./TODO/NetLimiter.json)                                     | ❌      | ❌        | ❌ (❌)             |
-| [VMware **(VMware)**](./TODO/VMware.json)                                                 | ❌      | ✔🔶      | ✔ (✔)             |
-| [VMware macOS Unlocker **(VMware-unlocker)**](./TODO/VMware-unlocker.json)                | ❌      | ✔🔶      | ✔ (❌)             |
 | [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌      | ⭕        | ⭕ (⭕)             |
-| ---                                                                                       | ---    | ---      | ---               |
+| ----------------------------------------------------------------------------------------- | ---    | ---      | -----             |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
 | [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃     | ✔        | ✔ (✔)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
