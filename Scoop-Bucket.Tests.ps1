@@ -209,7 +209,7 @@ function install() {
 		$command += " --arch $architecture"
 	}
 
-	$result = @(Invoke-Expression "$command 6>&1")
+	$result = @(Invoke-Expression "$command *>&1")
 	$exit = $LASTEXITCODE
 
 	log
@@ -222,10 +222,12 @@ function install() {
 }
 
 function uninstall($noExt) {
-	scoop uninstall $noExt 6>$null
+	$log = @(scoop uninstall $noExt *>&1)
 
 	if ($LASTEXITCODE -eq 0) {
 		log
+		log 'Uninstallation'
+		log $log
 		log "$noExt`: Uninstall DONE"
 		log
 	}
@@ -258,7 +260,7 @@ Describe 'Changed manifests installation' {
 
 	if ($changedFiles.Count -gt 0) {
 		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
-		log @(scoop install 7zip sudo innounp 6>&1) # Install default apps for manifest manipultion / installation
+		log @(scoop install 7zip sudo innounp *>&1) # Install default apps for manifest manipultion / installation
 
 		$changedFiles | ForEach-Object {
 			$file = $_
