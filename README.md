@@ -22,6 +22,7 @@
 | [Corsair's iCue **(iCue)**](./iCue.json)                                                | ✔🔶    | ✔        | ✔ (⛔)             |
 | [CosMOS Advanced **(CosMOS)**](./CosMOS.json)                                           | ✔🔶    | ✔        | ✔ (⛔)             |
 | [CosMOS Beginner **(CosMOSBeginner)**](./CosMOSBeginner.json)                           | ✔🔶    | ✔        | ✔ (⛔)             |
+| [CPU-V **(CPU-V)**](./CPU-V.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
 | [Docker **(docker)**](./docker.json)                                                    | 🎃     | ♻        | ♻ (♻)             |
@@ -80,7 +81,7 @@
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    | ❌      | ✔        | ✔ (⛔)             |
-| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (✔)             |
+| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (⛔)             |
 | [NetLimiter **(NetLimiter)**](./TODO/NetLimiter.json)                                     | ❌      | ❌        | ❌ (❌)             |
 | [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) | ❌      | ⭕        | ⭕ (⭕)             |

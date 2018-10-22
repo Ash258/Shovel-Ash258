@@ -3,7 +3,7 @@
     "description": "Cheat Happens Trainer Manager. Managing, storing and autoupdating of cheat happens trainers.",
     "homepage": "https://www.cheathappens.com/trainermanager.asp",
     "license": {
-        "identifier": ""
+        "identifier": "Freeware"
     },
     "architecture": {
         "64bit": {
@@ -12,7 +12,7 @@
             "shortcuts": [
                 [
                     "Trainer Manager 64.exe",
-                    "Trainer Manger"
+                    "Trainer Manager"
                 ]
             ]
         },
@@ -22,12 +22,16 @@
             "shortcuts": [
                 [
                     "Trainer Manager 32.exe",
-                    "Trainer Manger"
+                    "Trainer Manager"
                 ]
             ]
         }
     },
-    "post_install": "Remove-Item \"$dir\\tm_documentation.txt\" -Force",
+    "pre_install": [
+        "Remove-Item \"$dir\\tm_documentation.txt\" -Force",
+        "New-Item \"$dir\\Trainers\" -Type Directory -Force | Out-Null"
+    ],
+    "persist": "Trainers",
     "checkver": {
         "url": "https://www.cheathappens.com/TM_changelog.txt",
         "regex": "CHANGELOG\\s+-+\\s+VERSION ([\\d+\\.]+)"

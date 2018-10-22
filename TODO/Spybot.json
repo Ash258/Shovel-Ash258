@@ -1,25 +1,17 @@
 {
-    "##": "App is started after installation. Need to be investigated.",
     "version": "2.7.64.0",
     "description": "Spybot Search & Destroy. Free internet security program for removal of malware, spyware, and adware to ensure that the files and data of users is kept secure and private.",
     "homepage": "https://www.safer-networking.org/",
+    "license": {
+        "identifier": "Freeware"
+    },
     "url": "https://updates2.safer-networking.org/spybot1/spybotsd-2.7.64.0.exe",
     "hash": "md5:5424F682BAD5ADF3F7897E2CDA3DBE46",
-    "installer": {
-        "args": [
-            "/VERYSILENT",
-            "/NOICONS",
-            "/LOG=\"$dir\\ScoopInstall.log\"",
-            "/DIR=\"$dir\""
-        ]
-    },
-    "uninstaller": {
-        "file": "unins000.exe",
-        "args": [
-            "/VERYSILENT",
-            "/NORESTART"
-        ]
-    },
+    "innosetup": true,
+    "persist": [
+        "Plugins",
+        "Scripts"
+    ],
     "shortcuts": [
         [
             "SDWelcome.exe",
@@ -31,10 +23,6 @@
         "regex": "What's new in SpyBot - Search & Destroy ([\\d+\\.]+)"
     },
     "autoupdate": {
-        "url": "https://updates2.safer-networking.org/spybot1/spybotsd-$version.exe",
-        "hash": {
-            "url": "https://www.safer-networking.org/dl/",
-            "find": "\\(MD5 sum: ([A-Fa-f\\d]{32})\\)"
-        }
+        "url": "https://updates2.safer-networking.org/spybot1/spybotsd-$version.exe"
     }
 }
