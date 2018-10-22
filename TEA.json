@@ -1,0 +1,22 @@
+{
+    "version": "2.01",
+    "description": "Text Editor Anywhere. Allows you to edit text anywhere with your favorite text editor.",
+    "homepage": "https://www.listary.com/text-editor-anywhere",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://www.listary.com/download/TEAPortable.zip",
+    "hash": "18122737baed04bcd13e1d00f1ee8124420b02a312803209b695248a26320fae",
+    "extract_dir": "TextEditorAnywhere",
+    "persist": "TEAConfig.xml",
+    "shortcuts": [
+        [
+            "TextEditorAnywhere.exe",
+            "Text Editor Anywhere"
+        ]
+    ],
+    "checkver": "strong>\\s+([\\d+\\.]+)</p>",
+    "autoupdate": {
+        "url": "https://www.listary.com/download/TEAPortable.zip"
+    }
+}

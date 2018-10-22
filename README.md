@@ -59,6 +59,7 @@
 | [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | ✔      | ✔        | ❌ (⛔)             |
 | [System Ninja **(SystemNinja)**](./SystemNinja.json)                                    | ✔      | ✔        | ✔ (⛔)             |
 | [TeamSpeak3 **(TS3)**](./TS3.json)                                                      | ✔      | ✔        | ✔ (✔)             |
+| [Text Editor Anywhere **(TEA)**](./TEA.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Texlive **(Texlive)**](./Texlive.json)                                                 | ✔      | ✔        | ✔ (✔)             |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Uplay **(Uplay)**](./Uplay.json)                                                       | ✔      | ♻        | ♻ (♻)             |
