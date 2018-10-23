@@ -40,6 +40,7 @@
 | [Listary **(Listary)**](./Listary.json)                                                 | ✔      | ✔        | ✔ (⛔)             |
 | [Make Partition Image **(MPI)**](./MPI.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ♻        | ♻ (♻)             |
+| [Mudfish VPN **(MudfishVPN)**](./MudfishVPN.json)                                       | ✔🔶    | ✔        | ✔ (✔)             |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json)                | ✔      | ✔        | ✔ (⛔)             |
 | [Opera **(Opera)**](./Opera.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Origin **(Origin)**](./Origin.json)                                                    | ✔      | ♻        | ♻ (♻)             |
@@ -126,7 +127,7 @@
 
 - [Recommended manifest format][Template]
 - Observe blocks sequence and structure from [Template][Template]
-- Always use `regex` instead of `re`
+- **ALWAYS** use `regex` instead of `re`
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
     - Indent code as you would normally do.
@@ -145,15 +146,17 @@
 - Naming
     - All manifests should use `CamelCase` with first uppercase character.
         - Unless it's some programming related manifest.
-            - Docker, blisk, pwsh, ...
+            - docker, blisk, pwsh, ...
 - Bins and Shortcuts
     - Use Backslashes
     - Do not include `$dir`.
     - Do not create bin for GUI applications.
         - Only use bin for CLIs.
+            - Unless GUI application have argument handler.
+                - Code, ...
 - Persisting
     - Do not include `$dir`.
-    - Persising file does not exists after unpacking / installing.
+    - If persising file does not exists after unpacking / installing.
         - Use this block in `pre_install` or `installer > script`:
             - Available via vscode snippet: `persistCheck`
 
