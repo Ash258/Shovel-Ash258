@@ -11,10 +11,13 @@
 	Full Path to manifest. (vscode ${file})
 .PARAMETER Force
 	If present, -f will be used instead of -u.
+.PARAMETER Hashes
+	If present, checkhashes.ps1 script will be executed instead of checkver.ps1
 #>
 param(
 	[String[]] $Manifest,
-	[Switch] $Force
+	[Switch] $Force,
+	[Switch] $Hashes
 )
 
 begin { if ($Force) { $arg = '-f' } else { $arg = '-u' } }
@@ -28,16 +31,28 @@ process {
 		$folder = Split-Path $man -Parent
 		$file = Split-Path $man -Leaf
 		$noExt = $file.Split('.')[0]
+		$cmd = ''
 		if ($Force) { scoop cache rm $noExt }
 
-		Invoke-Expression -Command "$PSScriptRoot\checkver.ps1 '$noExt' '$folder' $arg"
+		if ($Hashes) {
+			$cmd = 'checkhashes'
+		} else {
+			$cmd = 'checkver'
+		}
+		Invoke-Expression -Command "$PSScriptRoot\$cmd.ps1 '$noExt' '$folder' $arg"
 
 		$updated = @(git status -s)
 
 		if (($updated -match "$noExt").Count -gt 0) {
 			$json = Get-Content "$man" -Raw -Encoding UTF8 | ConvertFrom-Json
 			$version = $json.version
-			$message = "${noExt}: Bumped to $version"
+			$message = ''
+
+			if ($Hashes) {
+				$message = "${noExt}: Fixed hashes"
+			} else {
+				$message = "${noExt}: Bumped to $version"
+			}
 
 			Write-Host 'Commiting' -ForegroundColor Green
 			git commit -m $message -o "*$file"

@@ -18,7 +18,7 @@
             // Default (Whiile opened file, Press CTRL+F9 / CTRL+SHIFT+B)
             "label": "Check version and update (Actual)",
             "type": "shell",
-            "command": ".\\bin\\checkVersionAndPush.ps1",
+            "command": ".\\bin\\checkAndPush.ps1",
             "args": [
                 "'${file}'"
             ],
@@ -38,10 +38,45 @@
         {
             "label": "Check version and force update (Actual)",
             "type": "shell",
-            "command": ".\\bin\\checkVersionAndPush.ps1",
+            "command": ".\\bin\\checkAndPush.ps1",
             "args": [
                 "'${file}'",
                 "-Force"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Check hashes and update (Actual)",
+            "type": "shell",
+            "command": ".\\bin\\checkAndPush.ps1",
+            "args": [
+                "'${file}'",
+                "-Hashes"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Check hashes and force update (Actual)",
+            "type": "shell",
+            "command": ".\\bin\\checkAndPush.ps1",
+            "args": [
+                "'${file}'",
+                "-Force",
+                "-Hashes"
             ],
             "presentation": {
                 "echo": true,

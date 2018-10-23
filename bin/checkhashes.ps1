@@ -50,9 +50,7 @@ begin {
 }
 
 process {
-	foreach ($man in $Manifest) {
-		Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkhashes.ps1 -App ""$man"" -Dir ""$Dir"" $Rest"
-	}
+	foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkhashes.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" }
 }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }
