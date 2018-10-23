@@ -38,6 +38,7 @@ param(
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..",
+	[Parameter(ValueFromRemainingArguments)]
 	[String[]] $Rest
 )
 
@@ -48,6 +49,10 @@ begin {
 	$Rest = ($Rest | Select-Object -Unique) -join ' '
 }
 
-process { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkhashes.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" }
+process {
+	foreach ($man in $Manifest) {
+		Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkhashes.ps1 -App ""$man"" -Dir ""$Dir"" $Rest"
+	}
+}
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }
