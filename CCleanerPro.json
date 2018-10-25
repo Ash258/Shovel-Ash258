@@ -32,8 +32,10 @@
     "architecture": {
         "64bit": {
             "bin": [
-                "CCleaner64.exe",
-                "CCleaner"
+                [
+                    "CCleaner64.exe",
+                    "CCleaner"
+                ]
             ],
             "shortcuts": [
                 [
