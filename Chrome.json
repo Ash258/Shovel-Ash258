@@ -3,6 +3,7 @@
         "Autoupdate will not work unless that generated mess is resolved somehow.",
         "How to make autoupdate working.",
         "    1. Go to 'https://www.neowin.net/news/google-chrome-$cleanVersion-offline-installer'",
+        "        1. 'document.querySelectorAll('[href*=\"redirector\"]').forEach(x => console.log(x.href.split('chrome/')[1].split('_')[0]))'",
         "    2. Inspect list of binaries and get some random mess from URL 'chrome/(?<mess>FtlFYnjsE8U)_$version'",
         "    3. Replace mess in autoupdate URLs",
         "    4. Run build task (check ver actual)"
