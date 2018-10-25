@@ -1,13 +1,13 @@
 {
     "##": [
         "Autoupdate will not work unless that generated mess is resolved somehow.",
-        "When autoupdating.",
+        "How to make autoupdate working.",
         "    1. Go to 'https://www.neowin.net/news/google-chrome-$cleanVersion-offline-installer'",
         "    2. Inspect list of binaries and get some random mess from URL 'chrome/(?<mess>FtlFYnjsE8U)_$version'",
         "    3. Replace mess in autoupdate URLs",
         "    4. Run build task (check ver actual)"
     ],
-    "version": "70.0.3538.67",
+    "version": "70.0.3538.77",
     "description": "Google Chrome. Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/",
     "license": {
@@ -15,12 +15,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AI0uwzlkx4lL_70.0.3538.67/70.0.3538.67_chrome_installer.exe#/cosi.7z",
-            "hash": "eb95cddeb1273972ecc79512ee02b244a91c285bcdd23255799392aebace9ed1"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AJ7ozxk4OLvN_70.0.3538.77/70.0.3538.77_chrome_installer.exe#/cosi.7z",
+            "hash": "ad9f8cac40614bceeeed2a86ac6d13e41fcf09f2124855a7b4e4b33e111c83bc"
         },
         "32bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/FtlFYnjsE8U_70.0.3538.67/70.0.3538.67_chrome_installer.exe#/cosi.7z",
-            "hash": "53fcacc5f6227cbdc14077529784041e1c015cbff9013bd59da6fd7fbb590475"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ALiXMYM2w8-h_70.0.3538.77/70.0.3538.77_chrome_installer.exe#/cosi.7z",
+            "hash": "f2ac109bf4bd53c0c1f5004cef9b5745c6cf742f27915502b200bed07d7d690d"
         }
     },
     "installer": {
@@ -45,10 +45,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AI0uwzlkx4lL_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AJ7ozxk4OLvN_$version/$version_chrome_installer.exe#/cosi.7z"
             },
             "32bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/FtlFYnjsE8U_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ALiXMYM2w8-h_$version/$version_chrome_installer.exe#/cosi.7z"
             }
         }
     }
