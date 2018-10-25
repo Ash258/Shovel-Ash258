@@ -1,9 +1,9 @@
 {
-    "version": "3.2.3",
+    "version": "3.2.4",
     "description": "System Ninja. Fast, powerful and effective system optimization solution for Windows.",
     "homepage": "https://singularlabs.com/software/system-ninja/",
     "url": "https://singularlabs.com/download/10294/#/cosi.exe",
-    "hash": "fabf1c5648a91b56f7383f85a2e330d7d1a946bba11bd6ee2d5e95c851754a93",
+    "hash": "d662bbcb84bb3dcddf8693b7f67b10137948f216ef90fbdb9d12356750024fb8",
     "pre_install": [
         "$file = 'config.ini'",
         "if (!(Test-Path \"$persist_dir\\$file\")) {",
