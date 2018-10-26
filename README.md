@@ -74,6 +74,7 @@
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
 | [Windows ISO Downlaoder **(WindowsISODownloader)**](./WindowsISODownloader.json)        | ✔      | ✔        | ✔ (⛔)             |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./WindowsRepairToolbox.json)        | ✔      | ✔        | ✔ (✔)             |
+| [Windows 10 Initial Setup **(Win10-Initial-Setup)**](./Win10-Initial-Setup.json)        | ✔      | ✔        | ✔ (⛔)             |
 | [Wise Disk Claner **(WiseDiskClaner)**](./WiseDiskClaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
