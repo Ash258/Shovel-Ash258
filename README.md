@@ -59,6 +59,7 @@
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | ✔      | ✔        | ✔ (⛔)             |
 | [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | ✔      | ✔        | ❌ (⛔)             |
+| [SyncFolders **(SyncFolders)**](./SyncFolders.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [System Ninja **(SystemNinja)**](./SystemNinja.json)                                    | ✔      | ✔        | ✔ (⛔)             |
 | [TeamSpeak3 **(TS3)**](./TS3.json)                                                      | ✔      | ✔        | ✔ (✔)             |
 | [Text Editor Anywhere **(TEA)**](./TEA.json)                                            | ✔      | ✔        | ✔ (⛔)             |
