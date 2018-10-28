@@ -1,0 +1,28 @@
+{
+    "version": "0.1.5",
+    "description": "",
+    "homepage": "https://www.gitlab.com/Ash258/Scrapers",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://gitlab.com/Ash258/scrapers/blob/master/LICENSE"
+    },
+    "url": "https://gitlab.com/Ash258/scrapers/uploads/d15ca9acc3dd84a5aa2c75db00f1f101/Scraper.exe",
+    "hash": "db2a4410288b8b90fa4ffb2a004bb5aca8194ca7f46d0447292d49e0dead3d97",
+    "bin": [
+        "Scraper.exe",
+        [
+            "Scraper.exe",
+            "Scrapers"
+        ]
+    ],
+    "checkver": {
+        "url": "https://gitlab.com/api/v4/projects/9091078/repository/tags",
+        "regex": "tag_name\":\"([\\d+\\.]+)\".*\\(/uploads/(?<Scraper>[A-Fa-f\\d]+)/.*/uploads/(?<HASH>[A-Fa-f\\d]+)/Scraper.exe.sha256\\)\"}},"
+    },
+    "autoupdate": {
+        "url": "https://gitlab.com/Ash258/scrapers/uploads/$matchScraper/Scraper.exe",
+        "hash": {
+            "url": "https://gitlab.com/Ash258/scrapers/uploads/$matchHASH/Scraper.exe.sha256"
+        }
+    }
+}

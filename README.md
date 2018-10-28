@@ -53,6 +53,7 @@
 | [Rambox Pro **(RamboxPro)**](./RamboxPro.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ✔🔶    | ✔        | ✔ (✔)             |
 | [Scoop Auto Completion **(scoop-auto-completion)**](./scoop-auto-completion.json)       | ✔      | ♻        | ♻ (♻)             |
+| [Scrapers **(Scrapers)**](./Scrapers.json)                                              | ✔      | ✔        | ✔ (✔)             |
 | [Speccy **(Speccy)**](./Speccy.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Spotify **(Spotify)**](./Spotify.json)                                                 | 🎃     | ♻        | ♻ (♻)             |
 | [Steam **(Steam)**](./Steam.json)                                                       | ✔      | ♻        | ♻ (♻)             |
