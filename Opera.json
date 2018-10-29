@@ -1,5 +1,5 @@
 {
-    "version": "56.0.3051.52",
+    "version": "56.0.3051.88",
     "description": "Opera. Fast, secure, easy-to-use browser.",
     "homepage": "https://www.opera.com/",
     "license": {
@@ -7,12 +7,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download1.operacdn.com/pub/opera/desktop/56.0.3051.52/win/Opera_56.0.3051.52_Setup_x64.exe",
-            "hash": "7e5e5a1850bca8e50916064dd6a836ff5281e36527697a7748dc30f6fb97aafa"
+            "url": "https://download1.operacdn.com/pub/opera/desktop/56.0.3051.88/win/Opera_56.0.3051.88_Setup_x64.exe",
+            "hash": "61139610defe75a47c8568f8bd70e0dd2212df23d715bbdec57f1e4181eaee9a"
         },
         "32bit": {
-            "url": "https://download1.operacdn.com/pub/opera/desktop/56.0.3051.52/win/Opera_56.0.3051.52_Setup.exe",
-            "hash": "cd21fbdeea95f3d4c9a1d562d609ce6db73c874ce500e6fc539a209037d4fc1f"
+            "url": "https://download1.operacdn.com/pub/opera/desktop/56.0.3051.88/win/Opera_56.0.3051.88_Setup.exe",
+            "hash": "79f574d867067b75f599b75f51c33224a83ef67dec360d8a7ad08b9b70f1bfc7"
         }
     },
     "installer": {
