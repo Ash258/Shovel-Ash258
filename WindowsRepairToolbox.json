@@ -14,7 +14,7 @@
     ],
     "bin": [
         [
-            "Windows_Repair_Toolbox (fast start, no monitors).bat",
+            "Windows_Repair_Toolbox.exe",
             "winrepair"
         ]
     ],
