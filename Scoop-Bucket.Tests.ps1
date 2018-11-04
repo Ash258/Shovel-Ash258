@@ -253,6 +253,7 @@ Describe 'Changed manifests installation' {
 	$changedFiles = $changedFiles |
 		Where-Object { -not ($_ -like '*.vscode*') } |
 		Where-Object { -not ($_ -like '*TODO*') } |
+		Where-Object { -not ($_ -like '*KMS*') } |
 		Where-Object { -not ($_ -like '*E2B*') } |
 		Where-Object { -not ($_ -like '*TexLive*') } |
 		Where-Object { -not ($_ -like '*unlocker*') } |
