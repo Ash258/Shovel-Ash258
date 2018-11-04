@@ -264,6 +264,9 @@ Describe 'Changed manifests installation' {
 
 		$changedFiles | ForEach-Object {
 			$file = $_
+			# Skip deleted manifests
+			if (-not (Test-Path $file)) { continue }
+
 			$man = Split-Path $file -Leaf
 			$noExt = $man.Split('.')[0]
 			$toInstall = "./$man"
