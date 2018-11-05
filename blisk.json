@@ -11,7 +11,7 @@
     "installer": {
         "script": [
             "extract_7zip \"$dir\\chrome.7z\" \"$dir\"",
-            "Move-Item \"$dir\\Chrome-bin\\*\" \"$dir\" -Force -Recurse",
+            "Move-Item \"$dir\\Chrome-bin\\*\" \"$dir\" -Force",
             "Remove-Item \"$dir\\chrome.7z\", \"$dir\\Chrome-bin\" -Force -Recurse"
         ]
     },

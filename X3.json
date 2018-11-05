@@ -14,8 +14,8 @@
     "extract_dir": "Metro X3 by exsess\\Bold\\Red",
     "installer": {
         "script": [
-            "pnputil.exe -i -a \"$dir\\Install.inf\"",
-            "Write-Host 'Debug' $LASTEXITCODE -f Magenta",
+            "rundll32 syssetup,SetupInfObjectInstallAction DefaultInstall 128 \"$dir\\Install.inf\"",
+            "    # Set X3 as active scheme",
             "if ($LASTEXITCODE -eq 0) {",
             "    function ItemProperty([String] $name, $value, $type) {",
             "        New-ItemProperty -Path \"HKCU:\\Control Panel\\Cursors\" -Name $name -Value $value -PropertyType $type -Force | Out-Null",
