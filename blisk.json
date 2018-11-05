@@ -1,13 +1,13 @@
 {
-    "version": "10.0.261.275",
+    "version": "10.1.262.144",
     "description": "Blisk. First developer-oriented browser.",
     "homepage": "https://blisk.io/",
     "license": {
         "identifier": "Freeware",
         "url": "https://blisk.io/eula"
     },
-    "url": "https://bliskcloudstorage.blob.core.windows.net/win-installers/BliskInstaller_10.0.261.275.exe#/cosi.7z",
-    "hash": "1b87ffc2286c01793b85ae5dd8a8fce1c1b4e8217ebf22c5a3c31aee4cc82625",
+    "url": "https://bliskcloudstorage.blob.core.windows.net/win-installers/BliskInstaller_10.1.262.144.exe#/cosi.7z",
+    "hash": "2b39a4d66b73d97cb76a5ebc8f3954ba7227d5ce53757c4fd8e7c22d346d929f",
     "installer": {
         "script": [
             "extract_7zip \"$dir\\chrome.7z\" \"$dir\"",
