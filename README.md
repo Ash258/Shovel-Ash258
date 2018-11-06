@@ -80,6 +80,15 @@
 | [Winrar **(Winrar)**](./Winrar.json)                                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 
+### Moved to other bucket
+
+| Manifest               | This repository commit                   | External commit                                                          |
+| :--------------------- | :--------------------------------------: | :----------------------------------------------------------------------: |
+| FastStone Image Viewer | 11891f36bb3f105876448a01035af626d35b8bdd |                                                                          |
+| Krita                  |                                          | 1637d2b425036c1aa224f8a35063de4b87e439e6 (lukesampson/scoop-extras#1371) |
+| blisk                  |                                          |
+| Opera                  |                                          |
+
 ### TODO
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
