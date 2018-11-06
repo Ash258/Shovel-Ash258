@@ -12,9 +12,6 @@
 | [Air Steam Skin **(AirSkin)**](./AirSkin.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [AutoClicker **(AutoClicker)**](./AutoClicker.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
-| [BleachBit **(BleachBit)**](./BleachBit.json)                                           | ✔      | ✔        | ✔ (✔)             |
-| [Blisk **(blisk)**](./blisk.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
-| [Borderless Gaming **(BorderlessGaming)**](./BorderlessGaming.json)                     | ✔      | ✔        | ✔ (⛔)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Carnac **(Carnac)**](./Carnac.json)                                                    | ✔      | ✔        | ✔ (✔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
@@ -26,7 +23,6 @@
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
 | [Docker **(docker)**](./docker.json)                                                    | 🎃     | ♻        | ♻ (♻)             |
-| [Format Factory **(FormatFactory)**](./FormatFactory.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [Glary Utilities **(GlaryUtilities)**](./GlaryUtilities.json)                           | ✔      | ✔        | ✔ (⛔)             |
@@ -35,13 +31,11 @@
 | [In Window Clicker **(NIClicker)**](./NIClicker.json)                                   | ✔      | ✔        | ✔ (⛔)             |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./KMCleaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [KMSpico **(KMS)**](./KMS.json)                                                         | ✔      | ✔❓       | ✔ (⛔)             |
-| [Krita **(Krita)**](./Krita.json)                                                       | ✔      | ✔        | ✔ (✔)             |
 | [Listary **(Listary)**](./Listary.json)                                                 | ✔      | ✔        | ✔ (⛔)             |
 | [Make Partition Image **(MPI)**](./MPI.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./vscode-insiders.json) | ✔      | ♻        | ♻ (♻)             |
 | [Mudfish VPN **(MudfishVPN)**](./MudfishVPN.json)                                       | ✔🔶    | ✔        | ✔ (✔)             |
 | [NVidia Profile Inspector **(NVidiaInspector)**](./NVidiaInspector.json)                | ✔      | ✔        | ✔ (⛔)             |
-| [Opera **(Opera)**](./Opera.json)                                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Origin **(Origin)**](./Origin.json)                                                    | ✔      | ♻        | ♻ (♻)             |
 | [Path Of Building **(PathOfBuilding)**](./PathOfBuilding.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [PicoTorrent **(PicoTorrent)**](./PicoTorrent.json)                                     | ✔      | ✔        | ✔ (⛔)             |
@@ -73,7 +67,7 @@
 | [Wavebox **(Wavebox)**](./Wavebox.json)                                                 | ✔      | ✔        | ✔ (✔)             |
 | [W10Privacy **(W10Privacy)**](./W10Privacy.json)                                        | ✔      | ✔        | ✔ (✔)             |
 | [WinAIO Maker Professional **(WinAIO)**](./WinAIO.json)                                 | ✔      | ✔        | ❌ (⛔)             |
-| [Windows ISO Downlaoder **(WindowsISODownloader)**](./WindowsISODownloader.json)        | ✔      | ✔        | ✔ (⛔)             |
+| [Windows ISO Downloader **(WindowsISODownloader)**](./WindowsISODownloader.json)        | ✔      | ✔        | ✔ (⛔)             |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./WindowsRepairToolbox.json)        | ✔      | ✔        | ✔ (✔)             |
 | [Windows 10 Initial Setup **(Win10-Initial-Setup)**](./Win10-Initial-Setup.json)        | ✔      | ✔        | ✔ (⛔)             |
 | [Wise Disk Claner **(WiseDiskClaner)**](./WiseDiskClaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
@@ -82,12 +76,17 @@
 
 ### Moved to other bucket
 
-| Manifest               | This repository commit                   | External commit                                                          |
-| :--------------------- | :--------------------------------------: | :----------------------------------------------------------------------: |
-| FastStone Image Viewer | 11891f36bb3f105876448a01035af626d35b8bdd |                                                                          |
-| Krita                  |                                          | 1637d2b425036c1aa224f8a35063de4b87e439e6 (lukesampson/scoop-extras#1371) |
-| blisk                  |                                          |
-| Opera                  |                                          |
+| Manifest (link to external bucket)                                                                          | Local commit                             | External commit (PR)                                                     |
+| :---------------------------------------------------------------------------------------------------------- | :--------------------------------------: | :----------------------------------------------------------------------: |
+| [Firefox Developer Edition](https://github.com/lukesampson/scoop-extras/blob/master/firefox-developer.json) | d4c30bcec05da25558d8ab0b2edf05a3f015c6da |                                                                          |
+| [FastStone Image Viewer](https://github.com/lukesampson/scoop-extras/blob/master/fsviewer.json)             | 11891f36bb3f105876448a01035af626d35b8bdd |                                                                          |
+| [Krita](https://github.com/lukesampson/scoop-extras/blob/master/krita.json)                                 | bf5a4e66e6bad95440319d6be726bcb3c822e9db | 1637d2b425036c1aa224f8a35063de4b87e439e6 (lukesampson/scoop-extras#1371) |
+| [blisk](https://github.com/lukesampson/scoop-extras/blob/master/blisk.json)                                 |                                          | (lukesampson/scoop-extras#1385)                                          |
+| [Opera](https://github.com/lukesampson/scoop-extras/blob/master/opera.json)                                 |                                          | (lukesampson/scoop-extras#1386)                                          |
+| [Bleachbit](https://github.com/lukesampson/scoop-extras/blob/master/bleachbit.json)                         |                                          | (lukesampson/scoop-extras#1387)                                          |
+| [Borderless Gaming](https://github.com/lukesampson/scoop-extras/blob/master/borderless-gaming.json)         |
+| [Format Factory](https://github.com/lukesampson/scoop-extras/blob/master/format-factory.json)               |
+| [Cheat Engine](https://github.com/lukesampson/scoop-extras/blob/master/cheat-engine.json)                   |
 
 ### TODO
 
