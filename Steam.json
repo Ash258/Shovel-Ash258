@@ -10,7 +10,7 @@
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-            "foreach ($fold in @(\"skins\", \"steamapps\", \"userdata\")) {",
+            "foreach ($fold in @('skins', 'steamapps', 'userdata')) {",
             "    if (!(Test-Path \"$persist_dir\\$fold\")) {",
             "        Write-Host 'Folder' $fold 'does not exists. Creating.' -f Yellow",
             "        New-Item \"$dir\\$fold\" -Type Directory -Force | Out-Null",
