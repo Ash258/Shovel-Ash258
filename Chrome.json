@@ -41,7 +41,7 @@
     ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/Google_Chrome",
-        "regex": "Windows, macOS, Linux</th><td>\\s+([\\d+\\.]+) /"
+        "regex": "Windows, macOS, Linux</th><td>\\s*([\\d+\\.]+) /"
     },
     "autoupdate": {
         "architecture": {
