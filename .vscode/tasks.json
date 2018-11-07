@@ -7,7 +7,22 @@
             "command": ".\\bin\\checkver.ps1",
             "presentation": {
                 "echo": true,
-                "reveal": "silent",
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Check version (Recursive)",
+            "type": "shell",
+            "dependsOn": "Check version",
+            "command": ".\\bin\\checkver.ps1 -Dir 'TODO'",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false
@@ -89,21 +104,6 @@
                 "showReuseMessage": false
             },
             "group": "build",
-            "problemMatcher": []
-        },
-        {
-            "label": "Check version (Recursive)",
-            "type": "shell",
-            "dependsOn": "Check version",
-            "command": ".\\bin\\checkver.ps1 -Dir 'TODO'",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false
-            },
-            "group": "test",
             "problemMatcher": []
         },
         {
