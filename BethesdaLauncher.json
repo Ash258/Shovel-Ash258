@@ -4,6 +4,7 @@
     "homepage": "https://bethesda.net/en/dashboard",
     "url": "http://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe",
     "innosetup": true,
+    "persist": "games",
     "shortcuts": [
         [
             "BethesdaNetLauncher.exe",
