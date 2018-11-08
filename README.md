@@ -12,6 +12,7 @@
 | [Air Steam Skin **(AirSkin)**](./AirSkin.json)                                          | ✔      | ✔        | ✔ (⛔)             |
 | [AutoClicker **(AutoClicker)**](./AutoClicker.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [AutoClickers **(AutoClickers)**](./AutoClickers.json)                                  | ✔      | ✔        | ✔ (✔)             |
+| [AutoClicker Targeted **(AutoCLickerTargeted)**](./AutoCLickerTargeted.json)            | ✔      | ✔        | ✔ (⛔)             |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./BethesdaLauncher.json)                 | ✔      | ♻        | ♻ (♻)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [Carnac **(Carnac)**](./Carnac.json)                                                    | ✔      | ✔        | ✔ (✔)             |
