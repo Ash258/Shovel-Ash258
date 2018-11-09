@@ -46,10 +46,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AJ7ozxk4OLvN_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ALEkMNj_$version/$version_chrome_installer.exe#/cosi.7z"
             },
             "32bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ALiXMYM2w8-h_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/I78EAR3ztkg_$version/$version_chrome_installer.exe#/cosi.7z"
             }
         }
     }
