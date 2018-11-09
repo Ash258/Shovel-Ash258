@@ -1,12 +1,12 @@
 {
-    "version": "4.0.39.0",
+    "version": "4.0.40.0",
     "description": "NetLimiter. Internet traffic control and monitoring tool designed for Windows.",
     "homepage": "https://www.netlimiter.com/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://www.netlimiter.com/files/download/nl4/netlimiter-4.0.39.0.exe",
-    "hash": "382a4cf0f58ce365cf19d490153d3419b3fabd9d76b32cb83ad775d31815d778",
+    "url": "https://www.netlimiter.com/files/download/nl4/netlimiter-4.0.40.0.exe",
+    "hash": "c9c8be41d357f096d9a0592aa2d2692f901f2f1cc15b4f0fbb40a7ce4159b81b",
     "installer": {
         "args": [
             "/extract:\"$env:TMP\"",
