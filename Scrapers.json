@@ -1,13 +1,13 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Scrapers. Custom scraper for edna reports.",
     "homepage": "https://www.gitlab.com/Ash258/Scrapers",
     "license": {
         "identifier": "MIT",
         "url": "https://gitlab.com/Ash258/scrapers/blob/master/LICENSE"
     },
-    "url": "https://gitlab.com/Ash258/scrapers/uploads/8d74fff206d77713e92b46a21a8cf1f4/Scraper.exe",
-    "hash": "117296429fab392a50d5446e50b28e4d6aff1bedd84bdc4d16ac7afe8809f046",
+    "url": "https://gitlab.com/Ash258/scrapers/uploads/34eb1eb81ae344d7385d4e408ed8035c/Scraper.exe",
+    "hash": "3db07cb7701d9ea92d5157ad467774eca483bf8dddde62a4b09c4b24a28a7238",
     "bin": [
         "Scraper.exe",
         [
@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "https://gitlab.com/api/v4/projects/9091078/repository/tags",
-        "regex": "description\":\"([\\d+\\.]+)\\\\n\\\\n\\*\\s+\\[Scraper\\.exe\\]\\(/uploads/(?<Scraper>[A-Fa-f\\d]+)/Scraper\\.exe\\)\\\\n\\\\n\\*\\s+\\[Scraper\\.exe\\.sha256\\]\\(/uploads/(?<HASH>[A-Fa-f\\d]+)/"
+        "regex": "description\":\"([\\d+\\.]+)(\\\\n)+\\*\\s+\\[Scraper\\.exe\\]\\(/uploads/(?<Scraper>[A-Fa-f\\d]+)/Scraper\\.exe\\)(\\\\n)+\\*\\s+\\[Scraper\\.exe\\.sha256\\]\\(/uploads/(?<HASH>[A-Fa-f\\d]+)/"
     },
     "autoupdate": {
         "url": "https://gitlab.com/Ash258/scrapers/uploads/$matchScraper/Scraper.exe",
