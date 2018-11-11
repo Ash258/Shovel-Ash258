@@ -1,13 +1,13 @@
 {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "description": "Scrapers. Custom scraper for edna reports.",
     "homepage": "https://www.gitlab.com/Ash258/Scrapers",
     "license": {
         "identifier": "MIT",
         "url": "https://gitlab.com/Ash258/scrapers/blob/master/LICENSE"
     },
-    "url": "https://gitlab.com/Ash258/scrapers/uploads/59a770666e8ecb017cd665f8e62778cd/Scraper.exe",
-    "hash": "eeda53c8995c948de5c1b4d88c653cb68320d3156db46b039b77ec2393a5872a",
+    "url": "https://gitlab.com/Ash258/scrapers/uploads/f7cf05d0131f41822beb7ae87ddf09c5/Scraper.exe",
+    "hash": "9c20d8293bc83eb1a72a2b2a762d7c85503368c0f211fa3dd1c41637571e7f10",
     "bin": [
         "Scraper.exe",
         [
