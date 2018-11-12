@@ -1,14 +1,14 @@
 {
-    "version": "5.48.6834",
+    "version": "5.49.6856",
     "description": "CCleaner Professional. The number-one tool for cleaning PC. Protects privacy and makes computer faster and more secure!",
     "homepage": "http://www.ccleaner.com/ccleaner",
     "url": [
-        "https://download.ccleaner.com/ccsetup548pro.exe#/cosi.7z",
+        "https://download.ccleaner.com/ccsetup549.exe#/cosi.7z",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dll#/branding.dll",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dat#/CCleaner.dat"
     ],
     "hash": [
-        "33fd9c7081a2a49a2f0efd41b183e4d3804a034c9fef1bf523b747856d63e9bc",
+        "569f51d8459c61d8fbc9efcb97a5eb08228745385b526c015c77ab6c2b8ab832",
         "26d6cd545f57071e3a01e5e39e68fde63af8e086bd39eff2b746633006d71511",
         "d5142f288ee9e334671c807931ace52c31eaa0fa254ffe31979fad0b6ba5c2cd"
     ],
@@ -59,6 +59,6 @@
         "regex": "v([\\d+\\.]+) \\(\\d+"
     },
     "autoupdate": {
-        "url": "https://download.ccleaner.com/ccsetup$majorVersion$minorVersionpro.exe#/cosi.7z"
+        "url": "https://download.ccleaner.com/ccsetup$majorVersion$minorVersion.exe#/cosi.7z"
     }
 }
