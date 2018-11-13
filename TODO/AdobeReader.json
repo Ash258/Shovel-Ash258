@@ -1,5 +1,5 @@
 {
-    "version": "19.008.20071",
+    "version": "19.008.20081",
     "description": "",
     "homepage": "https://get.adobe.com/reader/",
     "license": {
@@ -7,8 +7,8 @@
     },
     "notes": "",
     "depends": "",
-    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1900820071/AcroRdrDC1900820071_en_US.exe",
-    "hash": "74c1691e0ac61467ab929c31994793eaca9ab205a4c63c20130e9cf080efec29",
+    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1900820081/AcroRdrDC1900820081_en_US.exe",
+    "hash": "b0f41f680387ebfd2919d059ebd535ff7e9e29d2ab3e273065f6726c516dbb9e",
     "installer": {
         "args": [
             "/sAll",
