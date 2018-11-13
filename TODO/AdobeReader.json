@@ -1,4 +1,5 @@
 {
+    "##": "TODO: Resolve uninstallation problem with Resrouces/*h files in use and need other privilages.",
     "version": "19.008.20081",
     "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
     "homepage": "https://get.adobe.com/reader/",
@@ -12,7 +13,7 @@
             "/sAll",
             "/rs",
             "/msi",
-            "TARGETDIR=\"$dir\"",
+            "INSTALLDIR=\"$dir\"",
             "EULA_ACCEPT=YES",
             "SUPPRESS_APP_LAUNCH=YES"
         ]
@@ -25,14 +26,14 @@
             "Start-Sleep -Seconds 3"
         ]
     },
+    "post_install": [
+        "$name = 'AdobeARMservice'",
+        "Set-Service -Name $name -StartupType Disabled -Status Stopped"
+    ],
     "shortcuts": [
         [
-            "Acrobat.exe",
+            "Reader\\AcroRd32.exe",
             "Adobe Acrobat DC"
-        ],
-        [
-            "acrodist.exe",
-            "Adobe Acrobat Distiller DC"
         ]
     ],
     "checkver": "Version \\d{2}((?<cosi>[\\d+\\.]+))",
