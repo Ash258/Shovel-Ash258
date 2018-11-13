@@ -1,20 +1,28 @@
 {
     "version": "19.008.20081",
-    "description": "",
+    "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
     "homepage": "https://get.adobe.com/reader/",
     "license": {
-        "identifier": ""
+        "identifier": "Freeware"
     },
-    "notes": "",
-    "depends": "",
     "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1900820081/AcroRdrDC1900820081_en_US.exe",
     "hash": "b0f41f680387ebfd2919d059ebd535ff7e9e29d2ab3e273065f6726c516dbb9e",
     "installer": {
         "args": [
             "/sAll",
+            "/rs",
             "/msi",
-            "INSTALLDIR=\"$dir\"",
+            "TARGETDIR=\"$dir\"",
+            "EULA_ACCEPT=YES",
             "SUPPRESS_APP_LAUNCH=YES"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$ID = (Get-WmiObject Win32_Product -Filter \"Name = 'Adobe Acrobat DC'\").IdentifyingNumber",
+            "msiexec.exe /x $ID /qn",
+            "    # Prevent failed installation",
+            "Start-Sleep -Seconds 3"
         ]
     },
     "shortcuts": [
