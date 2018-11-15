@@ -20,7 +20,7 @@
     },
     "uninstaller": {
         "script": [
-            "$ID = (Get-WmiObject Win32_Product -Filter \"Name = 'Adobe Acrobat DC'\").IdentifyingNumber",
+            "$ID = (Get-CimInstance Win32_Product -Filter \"Name = 'Adobe Acrobat DC'\").IdentifyingNumber",
             "msiexec.exe /x $ID /qn",
             "    # Prevent failed installation",
             "Start-Sleep -Seconds 3"

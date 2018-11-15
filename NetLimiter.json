@@ -22,7 +22,7 @@
     },
     "uninstaller": {
         "script": [
-            "$ID = (Get-WmiObject Win32_Product -Filter \"Name = 'NetLimiter 4'\").IdentifyingNumber",
+            "$ID = (Get-CimInstance Win32_Product -Filter \"Name = 'NetLimiter 4'\").IdentifyingNumber",
             "msiexec.exe /x $ID /qn NL_CLEAN_SETTINGS=1",
             "    # Prevent failed installation",
             "Start-Sleep -Seconds 3"
