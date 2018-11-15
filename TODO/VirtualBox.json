@@ -1,0 +1,38 @@
+{
+    "version": "5.2.22-126460",
+    "description": "",
+    "homepage": "https://www.virtualbox.org/",
+    "license": {
+        "identifier": ""
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Win.exe",
+            "hash": "0c1a8f1de1c5bd18b00d81419f8190660ff36c9a5fddae4ed2c6a2216581d521"
+        }
+    },
+    "installer": {
+        "args": "--silent"
+    },
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.virtualbox.org/wiki/Downloads",
+        "regex": "/VirtualBox-((?<main>[\\d+\\.]+)-(?<cosi>\\d{6}))-Win\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.virtualbox.org/virtualbox/$matchMain/VirtualBox-$version-Win.exe",
+                "hash": {
+                    "url": "https://www.virtualbox.org/download/hashes/$matchMain/SHA256SUMS"
+                }
+            }
+        }
+    }
+}

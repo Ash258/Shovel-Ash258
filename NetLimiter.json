@@ -1,7 +1,9 @@
 {
     "##": [
         "https://www.netlimiter.com/docs/installation/command-line-options",
-        "https://www.advancedinstaller.com/user-guide/exe-setup-file.html"
+        "https://www.advancedinstaller.com/user-guide/exe-setup-file.html",
+        "TODO:",
+        "    Properly uninstall. Some services are running."
     ],
     "version": "4.0.41.0",
     "description": "NetLimiter. Internet traffic control and monitoring tool designed for Windows.",
