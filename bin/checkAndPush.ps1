@@ -56,6 +56,12 @@ process {
 
 			Write-Host 'Commiting' -ForegroundColor Green
 			git commit -m $message -o "*$file"
+			$exit = $LASTEXITCODE
+
+			if ($exit -gt 0) {
+				Write-Host 'Pre-commit hook failed.' -ForegroundColor Red
+				exit $exit
+			}
 
 			Write-Host 'Pushing' -ForegroundColor Green
 			git push
