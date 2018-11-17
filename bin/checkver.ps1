@@ -14,6 +14,8 @@
 .PARAMETER Dir
 	Where to search for manifest.
 	Default to root of repository.
+.PARAMETER Recurse
+	Manifests in all subdirectories will be checked. (except .vscode and bin)
 .PARAMETER Rest
 	-ns - Show all (even up to date) manifests
 	-u - Update given manifests
@@ -57,6 +59,7 @@ param(
 	[String] $Dir = "$PSScriptRoot\..",
 	[Alias('ns')]
 	[Switch] $NoSkip,
+	[Switch] $Recurse,
 	[Parameter(ValueFromRemainingArguments = $true)]
 	[String[]] $Rest = @()
 )
@@ -73,7 +76,14 @@ begin {
 }
 
 process {
-	foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" }
+	if ($Recurse) {
+		$folders = Get-ChildItem $Dir -Directory | Where-Object { $_ -inotmatch '.vscode|bin' }
+		if (-not ($folders -is [Array])) { $folders = Resolve-Path @($Dir, $folders) }
+
+		$folders | ForEach-Object { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -Dir ""$_"" $Rest" }
+	} else {
+		foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" }
+	}
 }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }

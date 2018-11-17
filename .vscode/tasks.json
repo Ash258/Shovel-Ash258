@@ -2,9 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Check version",
+            "label": "Check version (Whole repository)",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1",
+            "command": ".\\bin\\checkver.ps1 -Recurse",
             "presentation": {
                 "echo": true,
                 "reveal": "always",
@@ -16,22 +16,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Check version (Recursive)",
-            "type": "shell",
-            "dependsOn": "Check version",
-            "command": ".\\bin\\checkver.ps1 -Dir 'TODO'",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false
-            },
-            "group": "test",
-            "problemMatcher": []
-        },
-        {
-            // Default (Whiile opened file, Press CTRL+F9 / CTRL+SHIFT+B)
+            // Default (While opened file, Press CTRL+F9 / CTRL+SHIFT+B)
             "label": "Check version and update (Actual)",
             "type": "shell",
             "command": ".\\bin\\checkAndPush.ps1",
