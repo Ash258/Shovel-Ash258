@@ -34,7 +34,7 @@
         "    Set-Content \"$dir\\$file\" $new -Encoding Ascii -Force",
         "}",
         "    # Precreate configurations, which does not exists",
-        "@('UncomFTP.ini', 'license.key') | ForEach-Object {",
+        "@('license.key', 'UncomFTP.ini', 'Uncom.bar') | ForEach-Object {",
         "    if (!(Test-Path \"$persist_dir\\$_\" -Type Leaf)) {",
         "        Write-Host 'File' $_ 'does not exists. Creating.' -f Yellow",
         "        Set-Content \"$dir\\$_\" '' -Encoding Ascii",
