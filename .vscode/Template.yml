@@ -5,31 +5,38 @@ description: Cosi
 homepage: https://ash258.com
 license:
   identifier: MIT
-  url: https://ash258.com/license.md # Whener it's possile attach program specific URL otherwise dont use
+  url: https://ash258.com/license.md # Wheneverr it's possible attach program specific URL otherwise don't use
 notes:
   - COSI
   - COSI 2
 # endregion General Information
 
 # region Requirements
-# depends: STRING
-# or Array of strings
+# depends && suggest: STRING
+#   or Array of strings
 depends:
   - COSI
+  - COSI 2
 suggest:
-  COSI:
-    - COSI
+  COSI: COSI
 # endregion Requirements
 
-# region Downloding
+# region Downloading
 architecture: # Or platform specific below (URL Hash extract)
   64bit:
     url: https://ash258.com
     hash: 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
     extract_dir: COSI
-  32bit:
-    url: https://ash258.com
-    hash: 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
+  32bit: ## Could be array
+    url:
+      - https://ash258.com
+      - https://ash2582.com
+    hash:
+      - 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
+      - 899346f9f2265789874216554afdfdfaadfdfafafaf4d64c2cc74e9b22c1348d7
+    extract_dir:
+      - DirectoryInFirstArchive
+      - DirectoryInSecondArchive
 # endregion Downloding
 
 # region Extracting
@@ -43,8 +50,7 @@ pre_install: |
   Write-Host $DONE
 installer:
   file: somefile.exe # No need to specify if it's downloaded file
-  args:
-    - COSI
+  args: COSI
 # installer with file above or using script
 # installer:
 #   script: |
@@ -59,6 +65,7 @@ uninstaller:
   file: file.exe
   args:
     - COSI
+    - COSI2
 # endregion UnInstalling
 
 # endregion Installing
@@ -74,7 +81,7 @@ persist: FOLDER
 # or
 bin:
   - SINGLE
-  - NEXT
+  - NEXTSingle
   - - FILE
     - NAME
     - ARGS
@@ -84,6 +91,8 @@ env_add_path: SINGLE
 # env_add_path:
 #   - MULTIPLE
 #   - MULTIPLE
+env_set:
+  SomeENVKey: Value
 shortcuts:
   - - FILE
     - NAME

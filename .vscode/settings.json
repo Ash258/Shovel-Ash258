@@ -15,6 +15,6 @@
     "yaml.validate": true,
     "yaml.schemas": {
         "http://json.schemastore.org/appveyor": "appveyor.yml",
-        "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": "**/*.yml"
+        "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": "Template.yml"
     },
 }
