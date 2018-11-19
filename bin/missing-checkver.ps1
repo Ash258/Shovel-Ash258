@@ -1,10 +1,12 @@
 <#
 .SYNOPSIS
-	Check if manifests have checkver property.
+	Check if manifests have checkver  and autoupdate property.
 .DESCRIPTION
 	Check if manifests have checkver property.
+.PARAMETER App
+	Manifest name.
 .PARAMETER Dir
-	Directory to check.
+	Directory where to search for manfiest.
 .PARAMETER Rest
 	-s - Skip supported
 .EXAMPLE
@@ -18,10 +20,11 @@
 	Check all manifests inside TODO directory.
 #>
 param(
+	[String] $App = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..",
 	[Parameter(ValueFromRemainingArguments = $true)]
-	[String[]] $Rest = ""
+	[String[]] $Rest = ''
 )
 
 begin {
@@ -30,6 +33,6 @@ begin {
 	$Rest = $Rest -join ' '
 }
 
-process { Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -Dir ""$Dir"" $Rest" }
+process { Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -App ""$App"" -Dir ""$Dir"" $Rest" }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }
