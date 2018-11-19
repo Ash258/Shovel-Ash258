@@ -1,8 +1,6 @@
 <#
 .SYNOPSIS
 	Check if all urls inside manifest are valid.
-.DESCRIPTION
-	Check if all urls inside manifest are valid.
 .PARAMETER Manifest
 	Manifest to check.
 	Wildcard * is supported.
@@ -28,8 +26,8 @@
 #>
 param(
 	[Parameter(ValueFromPipeline = $true)]
-	[String[]]
-	$Manifest = "*",
+	[Alias('App')]
+	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..",
 	[Int] $Timeout = 5
@@ -41,7 +39,7 @@ begin {
 }
 
 process {
-	foreach ($man in $manifest) {
+	foreach ($man in $Manifest) {
 		Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkurls.ps1 -App ""$man"" -Dir ""$Dir"" -Timeout $Timeout"
 	}
 }

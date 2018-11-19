@@ -15,6 +15,7 @@
 	If present, checkhashes.ps1 script will be executed instead of checkver.ps1
 #>
 param(
+	[Alias('App')]
 	[String[]] $Manifest,
 	[Switch] $Force,
 	[Switch] $Hashes
@@ -31,14 +32,13 @@ process {
 		$folder = Split-Path $man -Parent
 		$file = Split-Path $man -Leaf
 		$noExt = $file.Split('.')[0]
-		$cmd = ''
+		$cmd = 'checkver'
 		if ($Force) { scoop cache rm $noExt }
 
 		if ($Hashes) {
 			$cmd = 'checkhashes'
-		} else {
-			$cmd = 'checkver'
 		}
+
 		Invoke-Expression -Command "$PSScriptRoot\$cmd.ps1 '$noExt' '$folder' $arg"
 
 		$updated = @(git status -s)

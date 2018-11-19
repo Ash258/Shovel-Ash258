@@ -1,3 +1,6 @@
-if(-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+<#
+.SYNOPSIS
+	Execute Pester tests in repository root directory.
+#>
 
-$result = Invoke-Pester "$PSScriptRoot\.." -PassThru -EnableExit
+Invoke-Pester "$PSScriptRoot\.." -PassThru -EnableExit

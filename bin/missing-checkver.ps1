@@ -20,7 +20,9 @@
 	Check all manifests inside TODO directory.
 #>
 param(
-	[String] $App = '*',
+	[Parameter(ValueFromPipeline = $true)]
+	[Alias('App')]
+	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..",
 	[Parameter(ValueFromRemainingArguments = $true)]
@@ -33,6 +35,6 @@ begin {
 	$Rest = $Rest -join ' '
 }
 
-process { Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -App ""$App"" -Dir ""$Dir"" $Rest" }
+process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\missing-checkver.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" } }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }

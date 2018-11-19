@@ -1,11 +1,3 @@
-<#
-.SYNOPSIS
-	Format manifests using scoop's formatter.
-.PARAMETER App
-	Manifest name.
-.PARAMETER Dir
-	Where to search for manifests.
-#>
 param(
 	[Parameter(ValueFromPipeline = $true)]
 	[Alias('App')]
@@ -14,12 +6,11 @@ param(
 	[String] $Dir = "$PSScriptRoot\.."
 )
 
-
 begin {
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 	$Dir = Resolve-Path $Dir
 }
 
-process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\formatjson.ps1 -App ""$man"" -Dir ""$Dir""" } }
+process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\describe.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" } }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }
