@@ -1,12 +1,10 @@
 {
-    "version": "3.15.0.186",
+    "version": "3.16.0.122",
     "description": "Nvidia GeForce Experience. Perfect companion to your GeForce® GTX graphics card.",
     "homepage": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
-    "url": "https://us.download.nvidia.com/GFE/GFEClient/3.15.0.186/GeForce_Experience_v3.15.0.186.exe#/cosi.7z",
-    "hash": "ebb5d145121dbb644895d14b0dfd748b8927b1f32eb4e0acdf8c8b923a73cb4c",
-    "pre_install": [
-        "Remove-Item \"$dir\\Setup*.*\" -Force -Recurse"
-    ],
+    "url": "https://us.download.nvidia.com/GFE/GFEClient/3.16.0.122/GeForce_Experience_v3.16.0.122.exe#/cosi.7z",
+    "hash": "175fed1ceb77ecf9f60e9c8e767cb4161df30994bba6465d4b2a0f5ca8db4378",
+    "pre_install": "Remove-Item \"$dir\\Setup*.*\" -Force -Recurse",
     "shortcuts": [
         [
             "GFExperience\\NVIDIA GeForce Experience.exe",
@@ -14,9 +12,7 @@
         ]
     ],
     "uninstaller": {
-        "script": [
-            "    # Stop all nvidia like process"
-        ]
+        "script": "    # Stop all nvidia like process"
     },
     "checkver": "GFE/GFEClient/.*/GeForce_Experience_v([\\d+\\.]+)\\.exe",
     "autoupdate": {

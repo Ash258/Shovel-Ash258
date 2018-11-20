@@ -54,7 +54,6 @@
 | [SyncFolders **(SyncFolders)**](./SyncFolders.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [System Ninja **(SystemNinja)**](./SystemNinja.json)                                    | ✔      | ✔        | ✔ (⛔)             |
 | [Text Editor Anywhere **(TEA)**](./TEA.json)                                            | ✔      | ✔        | ✔ (⛔)             |
-| [Texlive **(Texlive)**](./Texlive.json)                                                 | ✔      | ✔        | ✔ (✔)             |
 | [Total Commander **(TotalCommander)**](./TotalCommander.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Unreal Commander **(UnrealCommander)**](./UnrealCommander.json)                        | ✔      | ✔        | ✔ (⛔)             |
 | [Uplay **(Uplay)**](./Uplay.json)                                                       | ✔      | ♻        | ♻ (♻)             |
