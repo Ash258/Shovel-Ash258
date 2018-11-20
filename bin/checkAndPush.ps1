@@ -10,9 +10,9 @@
 .PARAMETER Manifest
 	Full Path to manifest. (vscode ${file})
 .PARAMETER Force
-	If present, -f will be used instead of -u.
+	Force parameter will be passed to checkver.
 .PARAMETER Hashes
-	If present, checkhashes.ps1 script will be executed instead of checkver.ps1
+	Checkhashes.ps1 script will be executed instead of checkver.ps1
 #>
 param(
 	[Alias('App')]
@@ -33,11 +33,9 @@ process {
 		$file = Split-Path $man -Leaf
 		$noExt = $file.Split('.')[0]
 		$cmd = 'checkver'
-		if ($Force) { scoop cache rm $noExt }
 
-		if ($Hashes) {
-			$cmd = 'checkhashes'
-		}
+		if ($Force) { scoop cache rm $noExt }
+		if ($Hashes) { $cmd = 'checkhashes' }
 
 		Invoke-Expression -Command "$PSScriptRoot\$cmd.ps1 '$noExt' '$folder' $arg"
 
@@ -46,13 +44,9 @@ process {
 		if (($updated -match "$noExt").Count -gt 0) {
 			$json = Get-Content "$man" -Raw -Encoding UTF8 | ConvertFrom-Json
 			$version = $json.version
-			$message = ''
+			$message = "${noExt}: Bumped to $version"
 
-			if ($Hashes) {
-				$message = "${noExt}: Fixed hashes"
-			} else {
-				$message = "${noExt}: Bumped to $version"
-			}
+			if ($Hashes) { $message = "${noExt}: Fixed hashes" }
 
 			Write-Host 'Commiting' -ForegroundColor Green
 			git commit -m $message -o "*$file"
