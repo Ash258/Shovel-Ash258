@@ -1,13 +1,13 @@
 {
-    "version": "5.98.4800",
+    "version": "5.99.4900",
     "description": "Aida. Industry-leading system information tool, loved by PC enthusiasts around the world, which provides extremely detailed information about hardware and offers benchmarks to measure the performance of the computer.",
     "homepage": "https://www.aida64.com/products/aida64-extreme",
     "url": [
-        "http://download.aida64.com/aida64extreme598.zip",
+        "http://download.aida64.com/aida64extreme599.zip",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aidex#/pkey.txt"
     ],
     "hash": [
-        "2d276d8e9ad5499acf52c306b35b8796c6c154a44f8de8976cf774b798cfd703",
+        "1f99e46d3ec9fe8df7f7d7e654560656fc32d34b30b11fec7dc316d3ebaab22f",
         "9ebc754e99e2a95cbada3190df35033a518a8fb1ea5f8a15388dd4afd205876e"
     ],
     "installer": {
