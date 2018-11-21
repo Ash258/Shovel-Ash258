@@ -5,6 +5,12 @@
     "url": "http://files.easy2boot.com/200003316-eed6defce3/MPI_Tool_Pack_Plus_CloverLite_087.zip",
     "hash": "b085dcf458f7acb6351b22dab00ad12433ebbd7f29156aeac2e3d4a933ae8020",
     "extract_dir": "MPI_Tool_Pack_Plus_CloverLite_087",
+    "post_install": [
+        "if ((Get-ChildItem \"$env:SCOOP\\apps\") -like 'E2B') {",
+        "    Copy-Item \"$dir\\*\" \"$env:SCOOP\\apps\\E2B\\current\\_MPI\" -Force -Recurse",
+        "    Write-Host 'Copying DONE' -f Yellow",
+        "}"
+    ],
     "checkver": "/(?<cosi>[\\w-]+)/MPI_Tool_Pack_Plus_CloverLite_.*Cloverlite ([\\d+\\.]+) \\(",
     "autoupdate": {
         "url": "http://files.easy2boot.com/$matchCosi/MPI_Tool_Pack_Plus_CloverLite_$minorVersion.zip",
