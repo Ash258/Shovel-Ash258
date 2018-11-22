@@ -6,7 +6,7 @@
         "identifier": "Freeware"
     },
     "url": "http://downloads.wisecleaner.com/soft/WDCFree.zip",
-    "hash": "f0cbe56f8cf340f67564b2fc418b6743d313438065660bd056e28325ab918962",
+    "hash": "9243d1c761a899a91fcb9794eecfa5e02e279fb9780c627edc85e6148f5f1c5f",
     "extract_dir": "Wise Disk Cleaner",
     "installer": {
         "script": [
