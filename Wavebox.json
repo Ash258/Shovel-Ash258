@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "github": "https://github.com/wavebox/waveboxapp/",
-        "regex": "Version\\s+([\\d+\\.]+)"
+        "regex": "Version\\s+([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {

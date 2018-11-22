@@ -15,7 +15,7 @@
             "Text Editor Anywhere"
         ]
     ],
-    "checkver": "strong>\\s+([\\d+\\.]+)</p>",
+    "checkver": "strong>\\s+([\\d\\.]+)</p>",
     "autoupdate": {
         "url": "https://www.listary.com/download/TEAPortable.zip"
     }

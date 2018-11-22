@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "https://www.displayfusion.com/Download/",
-        "regex": "Latest Version:</b> v([\\d+\\.]+) \\("
+        "regex": "Latest Version:</b> v([\\d\\.]+) \\("
     },
     "autoupdate": {
         "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-$versionc.exe",

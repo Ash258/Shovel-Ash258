@@ -79,7 +79,7 @@
     ],
     "checkver": {
         "url": "http://potplayer.daum.net/update.html?lang=en&bit",
-        "regex": "\\[([\\d+\\.]+)\\]"
+        "regex": "\\[([\\d\\.]+)\\]"
     },
     "autoupdate": {
         "architecture": {

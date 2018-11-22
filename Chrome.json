@@ -3,8 +3,8 @@
         "Autoupdate will not work unless that generated mess is resolved somehow.",
         "How to make autoupdate working.",
         "    1. Go to 'https://www.neowin.net/news/google-chrome-$cleanVersion-offline-installer'",
-        "        1. 'document.querySelectorAll('[href*=\"release2\"]').forEach(x => console.log(x.href.match(/chrome/(.*)_\\d+/)[1] + '_'))'",
-        "    2. Inspect list of binaries and get some random mess from URL 'chrome/(?<mess>FtlFYnjsE8U)_$version'",
+        "    2. Inspect list of binaries and get some random mess from URL 'chrome/(?<mess>.*)_$version'",
+        "        1. 'document.querySelectorAll('[href*=release2]').forEach(x => console.log(x.href.match(/chrome\\/(.*)_\\d+/)[1] + '_'))'",
         "    3. Replace mess in autoupdate URLs",
         "    4. Run build task (check ver actual)"
     ],
@@ -41,7 +41,7 @@
     ],
     "checkver": {
         "url": "https://chromereleases.googleblog.com/",
-        "regex": "The stable channel has been updated to ([\\d+\\.]+)"
+        "regex": "The stable channel has been updated to ([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {

@@ -22,7 +22,7 @@
             "Free Download Manager"
         ]
     ],
-    "checkver": "FDM ([\\d+\\.]+) for Windows 10",
+    "checkver": "FDM ([\\d\\.]+) for Windows 10",
     "autoupdate": {
         "architecture": {
             "64bit": {

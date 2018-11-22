@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "github": "https://github.com/greenshot/greenshot/",
-        "regex": "Greenshot-RELEASE-([\\d+\\.]+)"
+        "regex": "Greenshot-RELEASE-([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-$version/Greenshot-NO-INSTALLER-$version-RELEASE.zip"

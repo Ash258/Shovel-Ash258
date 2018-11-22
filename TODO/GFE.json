@@ -14,7 +14,7 @@
     "uninstaller": {
         "script": "    # Stop all nvidia like process"
     },
-    "checkver": "GFE/GFEClient/.*/GeForce_Experience_v([\\d+\\.]+)\\.exe",
+    "checkver": "GFE/GFEClient/.*/GeForce_Experience_v([\\d\\.]+)\\.exe",
     "autoupdate": {
         "url": "https://us.download.nvidia.com/GFE/GFEClient/$version/GeForce_Experience_v$version.exe#/cosi.7z",
         "hash": {

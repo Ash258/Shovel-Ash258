@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "http://www.syncfolders.elementfx.com/download.html",
-        "re": "Actual version:\\s+([\\d+\\.]+)"
+        "re": "Actual version:\\s+([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "http://www.syncfolders.elementfx.com/setupfile/SyncFoldersPortable.zip"

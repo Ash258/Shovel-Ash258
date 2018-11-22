@@ -24,7 +24,7 @@
             "PostInstall-User"
         ]
     ],
-    "checkver": "<#\\s+\\.VERSION\\s+([\\d+\\.]+)",
+    "checkver": "<#\\s+\\.VERSION\\s+([\\d\\.]+)",
     "autoupdate": {
         "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1"
     }

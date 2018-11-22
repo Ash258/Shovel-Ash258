@@ -53,7 +53,7 @@
     ],
     "checkver": {
         "github": "https://github.com/RPCS3/rpcs3-binaries-win/",
-        "regex": "<a href=\".*/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v(?<main>[\\d+\\.]+-\\d{4})",
+        "regex": "<a href=\".*/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v(?<main>[\\d\\.]+-\\d{4})",
         "replace": "${main}"
     },
     "autoupdate": {

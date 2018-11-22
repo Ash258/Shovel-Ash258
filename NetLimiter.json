@@ -11,6 +11,10 @@
     "license": {
         "identifier": "Freeware"
     },
+    "notes": [
+        "Restarting system after installation is recommended.",
+        "Some functions could behave incorrectly without restart."
+    ],
     "url": "https://www.netlimiter.com/files/download/nl4/netlimiter-4.0.41.0.exe",
     "hash": "77b0d0ba4ce6c9ee9e25d044019bf703b709d5c545cbb2d35ec19979cf987988",
     "installer": {
@@ -38,7 +42,7 @@
     ],
     "checkver": {
         "url": "https://www.netlimiter.com/releases",
-        "regex": "NetLimiter ([\\d+\\.]+)"
+        "regex": "NetLimiter ([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://www.netlimiter.com/files/download/nl4/netlimiter-$version.exe"

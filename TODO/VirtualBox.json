@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://www.virtualbox.org/wiki/Downloads",
-        "regex": "/VirtualBox-((?<main>[\\d+\\.]+)-(?<cosi>\\d{6}))-Win\\.exe"
+        "regex": "/VirtualBox-((?<main>[\\d\\.]+)-(?<cosi>\\d{6}))-Win\\.exe"
     },
     "autoupdate": {
         "architecture": {

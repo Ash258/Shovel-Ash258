@@ -15,7 +15,7 @@
             "Glary Utilities"
         ]
     ],
-    "checkver": "\">([\\d+\\.]+)</span> for Windows",
+    "checkver": "\">([\\d\\.]+)</span> for Windows",
     "autoupdate": {
         "url": "http://download.glarysoft.com/guportable.zip"
     }

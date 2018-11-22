@@ -56,7 +56,7 @@
     },
     "checkver": {
         "url": "https://www.piriform.com/speccy/download",
-        "regex": "Latest version: <b>([\\d+\\.]+)</b>"
+        "regex": "Latest version: <b>([\\d\\.]+)</b>"
     },
     "autoupdate": {
         "url": "https://download.ccleaner.com/spsetup$majorVersion$minorVersion.exe#/cosi.7z"

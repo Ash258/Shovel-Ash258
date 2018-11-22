@@ -51,7 +51,7 @@
     },
     "checkver": {
         "url": "https://www.softpedia.com/get/System/OS-Enhancements/VMware-Workstation.shtml",
-        "regex": "VMware-workstation-full-([\\d+\\.-]+)\\.exe"
+        "regex": "VMware-workstation-full-([\\d\\.-]+)\\.exe"
     },
     "autoupdate": {
         "architecture": {

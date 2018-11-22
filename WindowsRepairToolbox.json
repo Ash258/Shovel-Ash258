@@ -24,7 +24,7 @@
             "Windows Repair Toolbox"
         ]
     ],
-    "checkver": "Program version:.{2,3}([\\d+\\.]+) \\(",
+    "checkver": "Program version:.{2,3}([\\d\\.]+) \\(",
     "autoupdate": {
         "url": "https://windows-repair-toolbox.com/files/Windows_Repair_Toolbox.zip",
         "hash": {

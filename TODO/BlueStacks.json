@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/BlueStacks",
-        "regex": "Stable release</a></th><td>\\s*<div.*>([\\d+\\.]+)"
+        "regex": "Stable release</a></th><td>\\s*<div.*>([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://cdn3.bluestacks.com/downloads/$version/BlueStacks-Installer_amd64_BS4_native.exe"

@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://mudfish.net/download",
-        "regex": "<strong>v([\\d+\\.]+)"
+        "regex": "<strong>v([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {

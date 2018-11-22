@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://www.winprivacy.de/deutsch-start/download/",
-        "regex": "(?sm)current version: v\\.(?<ver>[\\d+\\.]+).*href=\"/app/download/(?<cosi>\\d+)/W10Privacy.zip",
+        "regex": "(?sm)current version: v\\.(?<ver>[\\d\\.]+).*href=\"/app/download/(?<cosi>\\d+)/W10Privacy.zip",
         "replace": "${ver}"
     },
     "autoupdate": {

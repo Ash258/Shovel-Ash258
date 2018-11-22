@@ -16,7 +16,7 @@
             "Nox App Player"
         ]
     ],
-    "checkver": "Version ([\\d+\\.]+)",
+    "checkver": "Version ([\\d\\.]+)",
     "autoupdate": {
         "url": "https://www.bignox.com/en/download/fullPackage#/cosi.exe"
     }

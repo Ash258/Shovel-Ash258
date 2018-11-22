@@ -36,7 +36,7 @@
             "Adobe Acrobat DC"
         ]
     ],
-    "checkver": "Version \\d{2}((?<cosi>[\\d+\\.]+))",
+    "checkver": "Version \\d{2}((?<cosi>[\\d\\.]+))",
     "autoupdate": {
         "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/$cleanVersion/AcroRdrDC$cleanVersion_en_US.exe"
     }
