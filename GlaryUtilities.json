@@ -6,7 +6,7 @@
         "identifier": "Freeware"
     },
     "url": "http://download.glarysoft.com/guportable.zip",
-    "hash": "8b3782e589880062ba7b2759eb96fcb5dd628fd11a8bbf5fb5cdd25f7506ba6d",
+    "hash": "bc410b6e7966a1d74bb6970143131cb68d25738de50dd2467fe5227309692885",
     "extract_dir": "Portable",
     "persist": "data",
     "shortcuts": [
