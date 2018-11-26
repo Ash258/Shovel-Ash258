@@ -23,6 +23,7 @@
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
 | [Docker **(docker)**](./docker.json)                                                    | 🎃     | ♻        | ♻ (♻)             |
+| [FastShare Download Manager **(FastShare)**](./FastShare.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [Glary Utilities **(GlaryUtilities)**](./GlaryUtilities.json)                           | ✔      | ✔        | ✔ (⛔)             |

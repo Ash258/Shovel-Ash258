@@ -49,7 +49,7 @@ process {
 			if ($Hashes) { $message = "${noExt}: Fixed hashes" }
 
 			Write-Host 'Commiting' -ForegroundColor Green
-			git commit -m $message -o "*$file"
+			git commit --message $message --only "*$file"
 			$exit = $LASTEXITCODE
 
 			if ($exit -gt 0) {
