@@ -109,6 +109,7 @@
 | [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | ----------------------------------------------------------------------------------------- | ---    | ---      | -----             |
+| [UložTo File Manager **(UlozTo)**](./UlozTo.json)                                         | ❌      | ✔        | ✔ (⛔)             |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
 | [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃     | ✔        | ✔ (✔)             |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌      | ❌        | ❌ (❌)             |
