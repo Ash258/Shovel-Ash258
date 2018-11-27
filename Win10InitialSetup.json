@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/Disassembler0/Win10-Initial-Setup-Script/tags",
-        "jp": "$.[0].name"
+        "jsonpath": "$.[0].name"
     },
     "autoupdate": {
         "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/$version.zip",

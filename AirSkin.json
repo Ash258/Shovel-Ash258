@@ -50,7 +50,7 @@
     },
     "checkver": {
         "url": "https://api.github.com/repos/airforsteam/air-for-steam/releases/latest",
-        "jp": "$.tag_name"
+        "jsonpath": "$.tag_name"
     },
     "autoupdate": {
         "url": "https://github.com/airforsteam/Air-for-Steam/archive/$version.zip",
