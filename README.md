@@ -70,6 +70,7 @@
 | [Windows 10 Initial Setup **(Win10-Initial-Setup)**](./Win10-Initial-Setup.json)        | ✔      | ✔        | ✔ (⛔)             |
 | [Wise Disk Claner **(WiseDiskClaner)**](./WiseDiskClaner.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [Winrar CZ **(Winrar-cz)**](./Winrar-cz.json)                                           | ✔      | ✔        | ✔ (⛔)             |
+| [YouTrack **(YouTrack)**](./YouTrack.json)                                              | ✔      | ✔        | ✔ (✔)             |
 
 ### Moved to other bucket
 
