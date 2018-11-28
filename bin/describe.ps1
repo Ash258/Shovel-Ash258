@@ -11,6 +11,6 @@ begin {
 	$Dir = Resolve-Path $Dir
 }
 
-process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\describe.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" } }
+process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\describe.ps1 -App ""$man"" -Dir ""$Dir""" } }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }

@@ -1,5 +1,5 @@
 {
-    "version": "3.2",
+    "version": "3.3",
     "description": "Post Install. Custom post windows 10 post installer.",
     "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
     "license": {
@@ -14,7 +14,7 @@
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.User.ps1"
     ],
     "hash": [
-        "1468183f24fa68eacabf376a47e2695afa718aed71c3a48e7360b45c7c9d39d2",
+        "07dd00d1279cc8ab3a48a5df4bcfe53bd38cef1d821682c2000b548ec0774524",
         "75269e9878d1b7238720b29285e0370df46afc59f14a7c51e10031613f9ffb1d"
     ],
     "bin": [
