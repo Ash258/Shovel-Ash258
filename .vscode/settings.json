@@ -4,9 +4,9 @@
             "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
             "fileMatch": [
                 "TODO/*.json",
-                ".vscode/Template.jsonc"
-            ]
-        }
+                ".vscode/Template.jsonc",
+            ],
+        },
     ],
     "powershell.codeFormatting.preset": "OTBS",
     "yaml.format.bracketSpacing": true,
@@ -15,6 +15,8 @@
     "yaml.validate": true,
     "yaml.schemas": {
         "http://json.schemastore.org/appveyor": "appveyor.yml",
-        "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": "Template.yml"
+        "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": [
+            ".vscode/Template.yml"
+        ],
     },
 }

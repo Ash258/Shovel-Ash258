@@ -2,74 +2,90 @@
     // region General Information
     "##": "Cosi",
     "version": "1.0",
-    "description": "Cosi",
+    "description": "Cosi. Meaningful description.",
     "homepage": "https://ash258.com",
     "license": {
         "identifier": "MIT",
         "url": "https://ash258.com" // Whenever it's possile attach program specific URL otherwise dont use
     },
-    "notes": [
-        "COSI"
+    "notes": [ // String or Array Of Strings
+        "Some notes shown after installation"
     ],
     // endregion General Information
     // region Requirements
-    "depends": [
-        "COSI"
-    ],
+    "depends": "COSI", // String or Array Of Strings
     "suggest": {
-        "COSI": [
-            "COSI"
-        ]
+        "COSI": "COSI" // String or Array Of Strings
     },
     // endregion Requirements
-    // region Downloding
+    // region Downloading
     "architecture": { // Or platform specific below (URL, Hash, extract)
         "64bit": {
-            "url": "https://ash258.com",
+            "url": "https://ash258.com", // String or Array Of Strings
             "hash": "899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7",
             "extract_dir": "COSI"
         },
         "32bit": {
-            "url": "https://ash258.com",
-            "hash": "899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7",
+            "url": [
+                "https://ash258.com",
+                "https://ash258.com#/cosi.zip"
+            ],
+            "hash": [
+                "899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7",
+                "md5:899346f9f283a4fd5aa03015a3f58cde"
+            ],
+            "extract_dir": [
+                "DirectoryInFirstURL",
+                "DirectoryInSecondtURL"
+            ]
         }
     },
     // region Downloding
-    "extract_dir": "COSI",
-    "extract_to": "COSI",
+    "extract_dir": "COSI", // String or Array Of Strings
+    "extract_to": "COSI", // String or Array Of Strings
     // region Installing
-    "pre_install": [
-        ""
+    "pre_install": [ // String or Array Of Strings
+        "Run some powershell commands executed before running installer"
     ],
     "installer": {
         "file": "", // Not needed to be specified
-        "args": [
-            ""
-        ]
+        "args": "" // String or Array Of Strings
     },
-    "post_install": [
-        ""
+    "post_install": [ // String or Array Of Strings
+        "Some powershell commands executed after running installer"
     ],
     // region UnInstalling
     "uninstaller": {
         "file": "",
-        "args": [
-            ""
-        ]
+        "args": "" // String or Array Of Strings
     },
     // endregion UnInstalling
     // endregion Installing
     // region Links
-    "persist": [
-        ""
+    "persist": [ // String or Array Of Strings
+        "FOLDERTOPERSIST",
+        "FILETOPERSIST.extension"
     ],
-    "bin": [
-        ""
+    "bin": [ // String or Array Of Array Of Strings
+        "singlebinary.exe",
+        [
+            "singlebinary.exe",
+            "withOtherName"
+        ],
+        [
+            "singlebinary.exe",
+            "withOtherName",
+            "andSomeArguments"
+        ],
+        [
+            "singlebinary.exe",
+            "withOtherName",
+            "", // Keep blank if none
+            "withOtherIcon.ico"
+        ],
     ],
-    "env_add_path": [
-        ""
-    ],
-    "shortcuts": [
+    "env_add_path": "", // String or Array Of Strings
+    "shortcuts": [ // String or Array Of Array Of Strings (same as bin)
         [
             "",
             ""
@@ -77,11 +93,16 @@
     ],
     // endregion Links
     // region Updating
-    "checkver": "",
+    // "checkver": "", Match regex inside string on homepage
+    "checkver": {
+        "url": "https://cosi.cz",
+        "regex": "REGEXTOMATCH([\\d\\.]+)" // Or JP
+    },
     "autoupdate": {
-        "url": "https://ash258.com",
-        "hash": { // Some vendors does not ship hashes
-            "url": "https://ash258.com"
+        "url": "https://ash258.com#/newName.zip",
+        "hash": { // Some vendors do not ship hashes 😭
+            "url": "https://ash258.com",
+            "find": "REGEXTOFINDONURL"
         }
     }
     // endregion Updating

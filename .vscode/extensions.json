@@ -2,6 +2,6 @@
     "recommendations": [
         "EditorConfig.EditorConfig",
         "ms-vscode.PowerShell",
-        "redhat.vscode-yaml"
-    ]
+        "redhat.vscode-yaml",
+    ],
 }

@@ -1,11 +1,11 @@
 # region General Information
 '##': Cosi
-version: 1.0
+version: '1.0'
 description: Cosi
 homepage: https://ash258.com
 license:
   identifier: MIT
-  url: https://ash258.com/license.md # Wheneverr it's possible attach program specific URL otherwise don't use
+  url: https://ash258.com/license.md # Whenever it's possible attach program specific URL otherwise don't use
 notes:
   - COSI
   - COSI 2
@@ -22,22 +22,22 @@ suggest:
 # endregion Requirements
 
 # region Downloading
-architecture: # Or platform specific below (URL Hash extract)
+architecture: # Or platform specific below (URL Hash extracts)
   64bit:
     url: https://ash258.com
     hash: 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
     extract_dir: COSI
   32bit: ## Could be array
     url:
-      - https://ash258.com
+      - https://ash258.com#/newFileName.zip
       - https://ash2582.com
     hash:
       - 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
-      - 899346f9f2265789874216554afdfdfaadfdfafafaf4d64c2cc74e9b22c1348d7
+      - 'md5:899346f9f283a4fd5aa03015a3f58cde'
     extract_dir:
       - DirectoryInFirstArchive
       - DirectoryInSecondArchive
-# endregion Downloding
+# endregion Downloading
 
 # region Extracting
 extract_dir: COSI
@@ -67,14 +67,13 @@ uninstaller:
     - COSI
     - COSI2
 # endregion UnInstalling
-
 # endregion Installing
 
 # region Links
 persist: FOLDER
-# OR multiple strings
+# OR array of Strings
 # persist:
-#   - FOLDER
+#  - FOLDER
 #  - FILE.file
 
 # bin: SINGLE
@@ -82,9 +81,9 @@ persist: FOLDER
 bin:
   - SINGLE
   - NEXTSingle
-  - - FILE
+  - - FILE # Array with overrided properties
     - NAME
-    - ARGS
+    - ARGUMENTS
     - ICON
 env_add_path: SINGLE
 # or
@@ -106,6 +105,7 @@ shortcuts:
 
 # region Updating
 # checkver: STRING
+#   Use 'github' if hompage contains github repository url
 # or
 checkver:
   url: URL
@@ -114,5 +114,5 @@ autoupdate:
   url: https://ash258.com
   hash: # Some vendors does not ship hashes
     url: https://ash258.com
-    find: 'regex' # or JP
+    find: some regex to match([\d+]{32}) # or JP
 # endregion Updating

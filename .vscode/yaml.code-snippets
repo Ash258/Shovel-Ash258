@@ -20,7 +20,7 @@
             "checkver: $11",
             "autoupdate:",
             "\turl: $12",
-        ]
+        ],
     },
     "New app Arch": {
         "prefix": "appArch",
@@ -48,7 +48,7 @@
             "checkver: $13",
             "autoupdate:",
             "\turl: $14",
-        ]
+        ],
     },
     "New Architecture": {
         "prefix": "arch",
@@ -60,8 +60,8 @@
             "\t\thash: $2",
             "\t32bit:",
             "\t\turl: $3",
-            "\t\thash: $4"
-        ]
+            "\t\thash: $4",
+        ],
     },
     "New Autoupdate with Arch": {
         "prefix": "upAr",
@@ -74,8 +74,8 @@
             "\t\t\thash: $2",
             "\t\t32bit:",
             "\t\t\turl: $3",
-            "\t\t\thash: $4"
-        ]
+            "\t\t\thash: $4",
+        ],
     },
     "Check for existing persist file": {
         "prefix": "persistCheck",
@@ -86,7 +86,7 @@
             "    Write-Host 'File' \\$file 'does not exists. Creating.' -f Yellow",
             "    \\$CONT = @('$2')",
             "    Set-Content \"\\$dir\\\\\\$file\" (\\$CONT -join \"`r`n\") -Encoding Ascii",
-            "'}'"
-        ]
-    }
+            "'}'",
+        ],
+    },
 }

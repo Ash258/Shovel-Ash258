@@ -23,8 +23,8 @@
             "\t\"autoupdate\": {",
             "\t\t\"url\": \"$13\"",
             "\t}",
-            "}\n"
-        ]
+            "}\n",
+        ],
     },
     "New app Arch": {
         "prefix": "appArch",
@@ -54,8 +54,8 @@
             "\t\t\t\"$13\"",
             "\t\t]",
             "\t]",
-            "}\n"
-        ]
+            "}\n",
+        ],
     },
     "New Architecture": {
         "prefix": "arch",
@@ -70,8 +70,8 @@
             "\t\t\"url\": \"$3\",",
             "\t\t\"hash\": \"$4\"",
             "\t}",
-            "},"
-        ]
+            "},",
+        ],
     },
     "New Autoupdate with Arch": {
         "prefix": "upAr",
@@ -86,8 +86,8 @@
             "\t\t\t\"url\": \"$2\"",
             "\t\t}",
             "\t}",
-            "}"
-        ]
+            "}",
+        ],
     },
     "Check for existing persist file": {
         "prefix": "persistCheck",
@@ -98,7 +98,7 @@
             "\"    Write-Host 'File' \\$file 'does not exists. Creating.' -f Yellow\",",
             "\"    \\$CONT = @('$2')\",",
             "\"    Set-Content \\\"\\$dir\\\\\\\\\\$file\\\" (\\$CONT -join \\\"`r`n\\\") -Encoding Ascii\",",
-            "\"}\""
-        ]
-    }
+            "\"}\"",
+        ],
+    },
 }
