@@ -1,0 +1,24 @@
+{
+    "version": "3.3",
+    "description": "",
+    "homepage": "https://www.cyberpowersystems.com/product/software/powerpanel-business-edition-windows/",
+    "license": {
+        "identifier": ""
+    },
+    "url": "https://dl4jz3rbrsfum.cloudfront.net/software/ppbe330-setup.exe",
+    "hash": "b56dd47f16bca79aa288d49327a7ef0e4fe81b7ff3385640542dbfd41aca7bef",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": "Current version:.*</strong>\\s*([\\d\\.]+)",
+    "autoupdate": {
+        "url": "https://dl4jz3rbrsfum.cloudfront.net/software/ppbe$cleanVersion0-setup.exe",
+        "hash": {
+            "url": "https://dl4jz3rbrsfum.cloudfront.net/documents/CyberPower_RN_PPBE-$cleanVersion.pdf",
+            "find": "$basename\\s*([A-Fa-f\\d]{32})"
+        }
+    }
+}
