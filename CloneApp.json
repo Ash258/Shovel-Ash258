@@ -8,7 +8,7 @@
     "extract_dir": "CloneApp",
     "pre_install": [
         "$file = 'Data\\cloneapp.ini'",
-        "if (-not (Test-Path \"$dir\\$file\")) {",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "    $CONT = @(",
         "        '[Settings]'",

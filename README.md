@@ -2,17 +2,11 @@
 
 `scoop bucket add Ash258 'https://github.com/Ash258/scoop-Ash258.git'`
 
-- AIMP 4.51.2084
-- Privacy Eraser 4.45
 - Kodi 18.0 RC2
 - Eusing Cleaner 5.1
 - FlashBoot 3.2b
 - jv16 PowerTools 4.2.0.1942
-- MakeMKV 1.14.2 Beta
-- ImBatch 6.0.1
 - StartisBack++ 2.8 Beta
-- ExperienceIndexOK 1.64
-- Master PDF Editor 5.2.08
 
 ## Manifests
 
@@ -57,6 +51,7 @@
 | [Post Windows Installer **(PostInstall)**](./PostInstall.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [PotPlayer **(PotPlayer)**](./PotPlayer.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 | [PowerShell Core **(pwsh)**](./pwsh.json)                                               | ✔      | ✔        | ✔ (✔)             |
+| [Privacy Eraser **(PrivacyEraser)**](./PrivacyEraser.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [qBittorrent **(qBittorrent)**](./qBittorrent.json)                                     | ✔      | ✔        | ✔ (✔)             |
 | [RPCS3 **(RPCS3)**](./RPCS3.json)                                                       | ✔🔶    | ✔        | ✔ (✔)             |
 | [Scoop Auto Completion **(scoop-auto-completion)**](./scoop-auto-completion.json)       | ✔      | ♻        | ♻ (♻)             |
