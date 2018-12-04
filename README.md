@@ -32,6 +32,7 @@
 | [Eusing Clenaer **(EusingCleaner)**](./EusingCleaner.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./ExperienceIndexOK.json)                   | ✔      | ✔        | ✔ (✔)             |
 | [FastShare Download Manager **(FastShare)**](./FastShare.json)                          | ✔      | ✔        | ✔ (⛔)             |
+| [FlashBoot **(FlashBoot)**](./FlashBoot.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [Glary Utilities **(GlaryUtilities)**](./GlaryUtilities.json)                           | ✔      | ✔        | ✔ (⛔)             |
