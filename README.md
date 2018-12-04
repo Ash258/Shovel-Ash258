@@ -2,7 +2,6 @@
 
 `scoop bucket add Ash258 'https://github.com/Ash258/scoop-Ash258.git'`
 
-- Kodi 18.0 RC2
 - Eusing Cleaner 5.1
 - FlashBoot 3.2b
 - jv16 PowerTools 4.2.0.1942
@@ -110,6 +109,7 @@
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [Kodi **(Kodi)**](./Kodi.json)                                                            | ❌      | ✔        | ✔ (⛔)             |
 | [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  | ❌      | ⭕        | ⭕ (⭕)             |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    | ❌      | ✔        | ✔ (⛔)             |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌      | ✔        | ✔ (⛔)             |

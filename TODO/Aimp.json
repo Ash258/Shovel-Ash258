@@ -1,0 +1,27 @@
+{
+    "version": "4.51.2084",
+    "description": "Aimp. Audio player.",
+    "homepage": "http://www.aimp.ru/",
+    "license": "LGPL-2.1-only",
+    "url": "http://aimp.su/storage/acc1353719050e5fa6f28e8d296078a4/aimp_4.51.2084.exe",
+    "hash": "md5:acc1353719050e5fa6f28e8d296078a4",
+    "shortcuts": [
+        [
+            ".exe",
+            "Aimp"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.aimp.ru/?do=download&os=windows",
+        "##": "Resolve acc mess",
+        "regex": "v(?<ver>[\\d\\.]+) Build (?<build>[\\d]+)",
+        "replace": "${ver}.${build}"
+    },
+    "autoupdate": {
+        "url": "http://aimp.su/storage/acc1353719050e5fa6f28e8d296078a4/aimp_$version.exe",
+        "hash": {
+            "url": "http://www.aimp.ru/?do=download&os=windows",
+            "find": "MD5:([A-Fa-f\\d]{32})"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "version": "6.0.1",
+    "description": "ImBatch. Multithreaded image processing tool.",
+    "homepage": "http://www.highmotionsoftware.com/products/imbatch",
+    "license": "Freeware",
+    "url": "http://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe",
+    "hash": "8493af096a881b96173403f93f74abbebf4f734f258daf0d1da26849ecf00d55",
+    "innosetup": true,
+    "bin": "ImBatch.exe",
+    "shortcuts": [
+        [
+            "ImBatch.exe",
+            "ImBatch"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.highmotionsoftware.com/download-center/imbatch",
+        "regex": "Version:</strong> ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe"
+    }
+}
