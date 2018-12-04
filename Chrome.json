@@ -8,7 +8,7 @@
         "    3. Replace mess in autoupdate URLs",
         "    4. Run build task (check ver actual)"
     ],
-    "version": "70.0.3538.110",
+    "version": "71.0.3578.80",
     "description": "Google Chrome. Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/",
     "license": {
@@ -16,12 +16,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/QNAYH6TuhXA_70.0.3538.110/70.0.3538.110_chrome_installer.exe#/cosi.7z",
-            "hash": "ab97ad05c4d75fd54012acc6a51c00cb35b26a5bbd10380e22d38e8a29998c35"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ALEmItkxlVBi_71.0.3578.80/71.0.3578.80_chrome_installer.exe#/cosi.7z",
+            "hash": "4b323610b1c6ad990ec5bccc59f5ec02c23c56d2d35cb4649b4dccd61f169584"
         },
         "32bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/U5xBpfUKE1Y_70.0.3538.110/70.0.3538.110_chrome_installer.exe#/cosi.7z",
-            "hash": "9a59260ff9b1ac88a5c75ed77524b4dbdf24bff78ea512a7c81d39e8b694ab51"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/W4tpFcs0b30_71.0.3578.80/71.0.3578.80_chrome_installer.exe#/cosi.7z",
+            "hash": "38d25eea2c30f725d39b654f20e682d5f4e28ef5be824124abdf25697a68d76f"
         }
     },
     "installer": {
@@ -41,15 +41,15 @@
     ],
     "checkver": {
         "url": "https://chromereleases.googleblog.com/",
-        "regex": "The stable channel has been updated to ([\\d\\.]+)"
+        "regex": "Chrome ([\\d\\.]+) contains"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/QNAYH6TuhXA_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ALEmItkxlVBi_$version/$version_chrome_installer.exe#/cosi.7z"
             },
             "32bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/U5xBpfUKE1Y_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/W4tpFcs0b30_$version/$version_chrome_installer.exe#/cosi.7z"
             }
         }
     }
