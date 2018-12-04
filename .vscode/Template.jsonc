@@ -84,13 +84,13 @@
             "withOtherIcon.ico"
         ],
     ],
-    "env_add_path": "", // String or Array Of Strings
     "shortcuts": [ // String or Array Of Array Of Strings (same as bin)
         [
             "",
             ""
         ]
     ],
+    "env_add_path": "", // String or Array Of Strings
     // endregion Links
     // region Updating
     // "checkver": "", Match regex inside string on homepage

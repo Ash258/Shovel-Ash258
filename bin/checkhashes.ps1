@@ -39,17 +39,27 @@ param(
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..",
+	[Switch] $Recurse,
 	[Parameter(ValueFromRemainingArguments)]
 	[String[]] $Rest
 )
 
 
 begin {
+	. "$PSScriptRoot\Helpers.ps1"
+
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 	$Dir = Resolve-Path $Dir
+	$Script = "$env:SCOOP_HOME\bin\checkhashes.ps1"
 	$Rest = ($Rest | Select-Object -Unique) -join ' '
 }
 
-process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkhashes.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" } }
+process {
+	if ($Recurse) {
+		Get-RecursiveFolder | ForEach-Object { Invoke-Expression -Command "$Script -Dir ""$_"" $Rest" }
+	} else {
+		foreach ($man in $Manifest) { Invoke-Expression -Command "$Script -App ""$man"" -Dir ""$Dir"" $Rest" }
+	}
+}
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }

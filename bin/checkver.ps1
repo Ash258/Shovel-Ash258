@@ -66,9 +66,12 @@ param(
 )
 
 begin {
+	. "$PSScriptRoot\Helpers.ps1"
+
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 	$Dir = Resolve-Path $Dir
 	$Rest = $Rest | Select-Object -Unique # Remove duplicated switches
+	$Script = "$env:SCOOP_HOME\bin\checkver.ps1"
 
 	# Handle default -s parameter
 	# Don't skip if NoSkip is present
@@ -78,12 +81,9 @@ begin {
 
 process {
 	if ($Recurse) {
-		$folders = Get-ChildItem $Dir -Directory | Where-Object { $_ -inotmatch '.vscode|bin' }
-		if (-not ($folders -is [Array])) { $folders = Resolve-Path @($Dir, $folders) }
-
-		$folders | ForEach-Object { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -Dir ""$_"" $Rest" }
+		Get-RecursiveFolder | ForEach-Object { Invoke-Expression -Command "$Script -Dir ""$_"" $Rest" }
 	} else {
-		foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkver.ps1 -App ""$man"" -Dir ""$Dir"" $Rest" }
+		foreach ($man in $Manifest) { Invoke-Expression -Command "$Script -App ""$man"" -Dir ""$Dir"" $Rest" }
 	}
 }
 

@@ -30,16 +30,23 @@ param(
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..",
-	[Int] $Timeout = 5
+	[Int] $Timeout = 5,
+	[Switch] $Recurse,
+	[Parameter(ValueFromRemainingArguments = $true)]
+	[String[]] $Rest = @()
 )
 
 begin {
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 	$Dir = Resolve-Path $Dir
+	$Script = "$env:SCOOP_HOME\bin\checkurls.ps1"
+	$Rest = ($Rest | Select-Object -Unique) -join ' '
 }
 
 process {
-	foreach ($man in $Manifest) {
-		Invoke-Expression -Command "$env:SCOOP_HOME\bin\checkurls.ps1 -App ""$man"" -Dir ""$Dir"" -Timeout $Timeout"
+	if ($Recurse) {
+		Get-RecursiveFolder | ForEach-Object { Invoke-Expression -Command "$Script -Dir ""$_"" $Rest" }
+	} else {
+		foreach ($man in $Manifest) { Invoke-Expression -Command "$Script -App ""$man"" -Dir ""$Dir"" -Timeout $Timeout $Rest" }
 	}
 }

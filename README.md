@@ -16,6 +16,7 @@
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./BethesdaLauncher.json)                 | ✔      | ♻        | ♻ (♻)             |
 | [Bzzt! Image Editor **(Bzzt)**](./Bzzt.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [CCleaner Professional **(CCleanerPro)**](./CCleanerPro.json)                           | ✔      | ✔        | ✔ (⛔)             |
+| [CloneApp **(CloneApp)**](./CloneApp.json)                                              | ✔      | ✔        | ✔ (✔)             |
 | [Corsair's iCue **(iCue)**](./iCue.json)                                                | ✔🔶    | ✔        | ✔ (⛔)             |
 | [CosMOS Advanced **(CosMOS)**](./CosMOS.json)                                           | ✔🔶    | ✔        | ✔ (⛔)             |
 | [CosMOS Beginner **(CosMOSBeginner)**](./CosMOSBeginner.json)                           | ✔🔶    | ✔        | ✔ (⛔)             |

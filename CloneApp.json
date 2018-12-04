@@ -1,0 +1,45 @@
+{
+    "version": "2.07.317",
+    "description": "CloneApp. Backs up All Windows program settings.",
+    "homepage": "https://www.myclone.app/",
+    "license": "Freeware",
+    "url": "https://www.myclone.app/download/cloneapp/send/2-cloneapp/19-cloneapp#/cosi.zip",
+    "hash": "md5:0b1b9fcfd176aaff381acd04f5239682",
+    "extract_dir": "CloneApp",
+    "pre_install": [
+        "$file = 'Data\\cloneapp.ini'",
+        "if (-not (Test-Path \"$dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "    $CONT = @(",
+        "        '[Settings]'",
+        "      , \"ClonePath=$dir\\Backup\\\"",
+        "      , \"LogPath=$dir\\Backup\\\"",
+        "      , 'EditorPath=$AppEditor$' ",
+        "    )",
+        "    New-Item \"$dir\\$file\" -Type File | Out-Null",
+        "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+        "}"
+    ],
+    "persist": [
+        "BackUp",
+        "Data\\cloneapp.ini"
+    ],
+    "bin": "CloneApp.exe",
+    "shortcuts": [
+        [
+            "CloneApp.exe",
+            "CloneApp"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.myclone.app/downloads/ca_update/changelog.txt",
+        "regex": "Changelog v([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.myclone.app/download/cloneapp/send/2-cloneapp/19-cloneapp#/cosi.zip",
+        "hash": {
+            "url": "https://www.myclone.app/download/cloneapp",
+            "find": "MD5 Checksum: ([A-Fa-f\\d]{32})"
+        }
+    }
+}
