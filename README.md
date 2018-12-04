@@ -2,11 +2,6 @@
 
 `scoop bucket add Ash258 'https://github.com/Ash258/scoop-Ash258.git'`
 
-- Eusing Cleaner 5.1
-- FlashBoot 3.2b
-- jv16 PowerTools 4.2.0.1942
-- StartisBack++ 2.8 Beta
-
 ## Manifests
 
 | App name **(Scoop name)**                                                               | Tested | Checkver | Autoupdate (Hash) |
