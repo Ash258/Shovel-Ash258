@@ -29,6 +29,7 @@
 | [Disable Win Tracking **(DWT)**](./DWT.json)                                            | ✔      | ✔        | ✔ (⛔)             |
 | [DisplayFusion **(DisplayFusion)**](./DisplayFusion.json)                               | ❌      | ✔        | ✔ (✔)             |
 | [Docker **(docker)**](./docker.json)                                                    | 🎃     | ♻        | ♻ (♻)             |
+| [Eusing Clenaer **(EusingCleaner)**](./EusingCleaner.json)                              | ✔      | ✔        | ✔ (⛔)             |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./ExperienceIndexOK.json)                   | ✔      | ✔        | ✔ (✔)             |
 | [FastShare Download Manager **(FastShare)**](./FastShare.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
