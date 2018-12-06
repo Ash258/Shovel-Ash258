@@ -8,6 +8,8 @@
 	Location where to search manfiest.
 .PARAMETER Timeout
 	How many seconds to wait until mark URL as invalid.
+.PARAMETER Rest
+	-s - Skip manifests will all URLs valid.
 .EXAMPLE
 	PS BUCKETROOT > .\bin\checkurls
 	Check urls for all manifests in root of bucket.
@@ -45,7 +47,7 @@ begin {
 
 process {
 	if ($Recurse) {
-		Get-RecursiveFolder | ForEach-Object { Invoke-Expression -Command "$Script -Dir ""$_"" $Rest" }
+		Get-RecursiveFolder | ForEach-Object { Invoke-Expression -Command "$Script -Dir ""$_"" -Timeout $Timeout $Rest" }
 	} else {
 		foreach ($man in $Manifest) { Invoke-Expression -Command "$Script -App ""$man"" -Dir ""$Dir"" -Timeout $Timeout $Rest" }
 	}

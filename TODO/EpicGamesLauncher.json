@@ -1,0 +1,21 @@
+{
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": {
+        "identifier": ""
+    },
+    "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-7.16.0.msi?launcherfilename=EpicInstaller-7.16.0-unrealtournament.msi",
+    "hash": "fasdfasfas",
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": "",
+    "autoupdate": {
+        "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-7.16.0.msi"
+    }
+}
