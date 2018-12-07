@@ -1,0 +1,41 @@
+{
+    "version": "1.3",
+    "description": "SuperF4. Kill programs instantly with Ctrl+Alt+F4.",
+    "homepage": "https://stefansundin.github.io/superf4/",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/stefansundin/superf4/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stefansundin/superf4/releases/download/v1.3/SuperF4-1.3-64bit.zip",
+            "hash": "3f6e53536e2b6a14bd3b5aa4ab4ed24947b7f987629aebf3012f041ef50773e2"
+        },
+        "32bit": {
+            "url": "https://github.com/stefansundin/superf4/releases/download/v1.3/SuperF4-1.3-32bit.zip",
+            "hash": "8268cd722dfe6421ce649a9771f1ebcb3d1f7630b1f0f4a34139744571be05b4"
+        }
+    },
+    "extract_dir": "SuperF4",
+    "persist": "SuperF4.ini",
+    "bin": "SuperF4.exe",
+    "shortcuts": [
+        [
+            "SuperF4.exe",
+            "SuperF4"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/stefansundin/superf4/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stefansundin/superf4/releases/download/v$version/SuperF4-$version-64bit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/stefansundin/superf4/releases/download/v$version/SuperF4-$version-32bit.zip"
+            }
+        }
+    }
+}

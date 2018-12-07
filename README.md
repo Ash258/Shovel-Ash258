@@ -57,6 +57,7 @@
 | [Spotify **(Spotify)**](./Spotify.json)                                                 | 🎃     | ♻        | ♻ (♻)             |
 | [Steam Achievement Manager **(SAM)**](./SAM.json)                                       | ✔      | ✔        | ✔ (⛔)             |
 | [Steam Idle Master **(IdleMaster)**](./IdleMaster.json)                                 | ✔      | ✔        | ✔ (⛔)             |
+| [SuperF4 **(SuperF4)**](./SuperF4.json)                                                 | ✔      | ✔        | ✔ (⛔)             |
 | [Switch UAC level **(SwitchUAC)**](./SwitchUAC.json)                                    | ✔      | ✔        | ❌ (⛔)             |
 | [SyncFolders **(SyncFolders)**](./SyncFolders.json)                                     | ✔      | ✔        | ✔ (⛔)             |
 | [System Ninja **(SystemNinja)**](./SystemNinja.json)                                    | ✔      | ✔        | ✔ (⛔)             |
@@ -117,6 +118,7 @@
 | [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | ----------------------------------------------------------------------------------------- | ---    | ---      | -----             |
+| [GameSave Manager **(GameSaveManager)**](./GameSaveManager.json)                          | ✔      | ✔        | ✔ (✔)             |
 | [UložTo File Manager **(UlozTo)**](./UlozTo.json)                                         | ❌      | ✔        | ✔ (⛔)             |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
 | [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃     | ✔        | ✔ (✔)             |
