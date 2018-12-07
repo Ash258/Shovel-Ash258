@@ -11,7 +11,6 @@ if ($env:CI -eq $true) {
 }
 
 $repoDirectory = (Get-Item $MyInvocation.MyCommand.Path).Directory.FullName
-
 $repoFiles = @(Get-ChildItem $repoDirectory -File -Recurse)
 
 $projectFileExclusions = @(
@@ -23,7 +22,6 @@ $projectFileExclusions = @(
 )
 
 Describe 'Style constraints for non-binary project files' {
-
 	$files = @(
 		# gather all files except '*.exe', '*.zip', or any .git repository files
 		$repoFiles |
@@ -59,7 +57,7 @@ Describe 'Style constraints for non-binary project files' {
 		$badFiles = @(
 			foreach ($file in $files) {
 				$string = [System.IO.File]::ReadAllText($file.FullName)
-				if ($string.Length -gt 0 -and $string[-1] -ne "`n") {
+				if (($string.Length -gt 0) -and ($string[-1] -ne "`n")) {
 					$file.FullName
 				}
 			}
@@ -74,14 +72,14 @@ Describe 'Style constraints for non-binary project files' {
 		$badFiles = @(
 			foreach ($file in $files) {
 				$content = Get-Content -Raw $file.FullName
-				if (!$content) {
+				if (-not $content) {
 					throw "File contents are null: $($file.FullName)"
 				}
 				$lines = [Regex]::Split($content, '\r\n')
 				$lineCount = $lines.Count
 
 				for ($i = 0; $i -lt $lineCount; $i++) {
-					if ( [Regex]::Match($lines[$i], '\r|\n').Success ) {
+					if ([Regex]::Match($lines[$i], '\r|\n').Success) {
 						$file.FullName
 						break
 					}
@@ -151,17 +149,15 @@ Describe 'Manifest Validation' {
 	Context 'Manifest validates against the schema' {
 		BeforeAll {
 			$bucketDirectory = "$PSScriptRoot"
-			$manfiestFiles = Get-ChildItem $bucketDirectory '*.json'
+			$manifestFiles = Get-ChildItem $bucketDirectory '*.json'
 			$validator = New-Object Scoop.Validator($schema, $true)
 		}
 
 		$global:quota_exceeded = $false
 
-		$manfiestFiles | ForEach-Object {
-			It "$_" {
-				$file = $_ # exception handling may overwrite $_
-
-				if (!($global:quota_exceeded)) {
+		foreach ($file in $manifestFiles) {
+			It "$file" {
+				if (-not ($global:quota_exceeded)) {
 					try {
 						$validator.Validate($file.FullName)
 
@@ -182,7 +178,7 @@ Describe 'Manifest Validation' {
 				$manifest = parse_json $file.FullName
 				$url = arch_specific 'url' $manifest '32bit'
 				$url64 = arch_specific 'url' $manifest '64bit'
-				if (!$url) {
+				if (-not $url) {
 					$url = $url64
 				}
 				$url | Should Not BeNullOrEmpty
@@ -205,7 +201,7 @@ function install() {
 	)
 
 	$command = "scoop install $manifest --no-cache --independent"
-	if (-not ($architecture -eq 'URL')) {
+	if ($architecture -ne 'URL') {
 		$command += " --arch $architecture"
 	}
 
@@ -251,20 +247,19 @@ Describe 'Changed manifests installation' {
 	$changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
 
 	$changedFiles = $changedFiles |
-		Where-Object { -not ($_ -like '*.vscode*') } |
-		Where-Object { -not ($_ -like '*TODO*') } |
-		Where-Object { -not ($_ -like '*KMS*') } |
-		Where-Object { -not ($_ -like '*E2B*') } |
-		Where-Object { -not ($_ -like '*TexLive*') } |
-		Where-Object { -not ($_ -like '*unlocker*') } |
-		Where-Object { -not ($_ -like '*Spotify*') }
+		Where-Object { ($_ -notlike '*.vscode*') } |
+		Where-Object { ($_ -notlike '*TODO*') } |
+		Where-Object { ($_ -notlike '*KMS*') } |
+		Where-Object { ($_ -notlike '*E2B*') } |
+		Where-Object { ($_ -notlike '*TexLive*') } |
+		Where-Object { ($_ -notlike '*unlocker*') } |
+		Where-Object { ($_ -notlike '*Spotify*') }
 
 	if ($changedFiles.Count -gt 0) {
 		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
 		log @(scoop install 7zip sudo innounp *>&1) # Install default apps for manifest manipultion / installation
 
-		$changedFiles | ForEach-Object {
-			$file = $_
+		foreach ($file in $changedFiles) {
 			# Skip deleted manifests
 			if (-not (Test-Path $file)) { continue }
 
