@@ -30,6 +30,7 @@
 | [FastShare Download Manager **(FastShare)**](./FastShare.json)                          | ✔      | ✔        | ✔ (⛔)             |
 | [FlashBoot **(FlashBoot)**](./FlashBoot.json)                                           | ✔      | ✔        | ✔ (⛔)             |
 | [FreeRapid Downloader **(FRD)**](./FRD.json)                                            | ✔      | ❌        | ❌ (⛔)             |
+| [GameSave Manager **(GameSaveManager)**](./GameSaveManager.json)                        | ✔      | ✔        | ✔ (✔)             |
 | [Get Video Details **(GVD)**](./GVD.json)                                               | ✔      | ✔        | ✔ (⛔)             |
 | [Glary Utilities **(GlaryUtilities)**](./GlaryUtilities.json)                           | ✔      | ✔        | ✔ (⛔)             |
 | [Google Chrome **(Chrome)**](./Chrome.json)                                             | ✔      | ✔        | ❗❗ (⛔)            |
@@ -118,7 +119,6 @@
 | [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌      | ⭕        | ⭕ (⭕)             |
 | ----------------------------------------------------------------------------------------- | ---    | ---      | -----             |
-| [GameSave Manager **(GameSaveManager)**](./GameSaveManager.json)                          | ✔      | ✔        | ✔ (✔)             |
 | [UložTo File Manager **(UlozTo)**](./UlozTo.json)                                         | ❌      | ✔        | ✔ (⛔)             |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌      | ❌        | ❌ (❌)             |
 | [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃     | ✔        | ✔ (✔)             |
