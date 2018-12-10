@@ -1,10 +1,15 @@
 {
+    "##": [
+        "TODO:",
+        "    Add notes about registering context menus.",
+        "    https://github.com/TortoiseGit/TortoiseGit/blob/master/src/TortoiseGitSetup/StructureFragment.wxi",
+        "    Purge uninstaller script to delete registry path."
+    ],
     "version": "2.7.0.0",
     "description": "Windows Shell Interface to Git based on TortoiseSVN.",
     "homepage": "https://tortoisegit.org/",
-    "license": {
-        "identifier": "GPL-2.0-only"
-    },
+    "license": "GPL-2.0-only",
+    "notes": "Run \"$dir\\context-menu-install.reg\" to add all default context menus.",
     "architecture": {
         "64bit": {
             "url": "https://download.tortoisegit.org/tgit/2.7.0.0/TortoiseGit-2.7.0.0-64bit.msi",
@@ -22,13 +27,25 @@
         "    New-Item $path | Out-Null",
         "    New-ItemProperty -Path $path -Name 'VersionCheck' -PropertyType DWord -Value 0 -Force | Out-Null",
         "    New-ItemProperty -Path $path -Name 'MsysGit' -PropertyType String -Value \"$env:GIT_INSTALL_ROOT\\bin\" -Force | Out-Null",
-        "}"
+        "}",
+        "#$null, $bucket = find_manifest $app",
+        "#$scriptPath = (bucketdir $bucket) + '\\scripts\\tortoisegit'",
+        "#$TGIT_HOME = $dir -replace '\\', '\\\\'",
+        "#$cont = (Get-Content \"$scriptPath\\install.reg\") -replace '%%TGIT_HOME%%', \"$TGIT_HOME\"",
+        "#Set-Content \"$dir\\context-menu-install.reg\" $cont -Encoding Ascii",
+        "#Copy-Item \"$scriptPath\\uninstall.reg\" \"$dir\\context-menu-uninstall.reg\""
     ],
     "bin": [
+        "bin\\TortoiseGitProc.exe",
         "bin\\TortoiseGitUDiff.exe",
         "bin\\TortoisePlink.exe"
     ],
     "shortcuts": [
+        [
+            "bin\\TortoiseGitProc.exe",
+            "TortoiseGit Settings",
+            "/command:settings"
+        ],
         [
             "bin\\TortoiseGitMerge.exe",
             "TortoiseGit Merge"
@@ -40,16 +57,12 @@
         [
             "bin\\TortoiseGitIDiff.exe",
             "TortoiseGit Diff"
-        ],
-        [
-            "bin\\TortoiseGitProc.exe",
-            "TortoiseGit Settings",
-            "/command:settings"
         ]
     ],
     "checkver": {
-        "url": "https://download.tortoisegit.org/tgit/",
-        "regex": "TortoiseGit is: <a href=/tgit/([\\d\\.]+)/"
+        "url": "https://gitlab.com/api/v4/projects/384627/repository/tags",
+        "jsonpath": "$.[0].release.tag_name",
+        "regex": "REL_([\\d\\.]+)_"
     },
     "autoupdate": {
         "architecture": {
