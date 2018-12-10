@@ -1,4 +1,5 @@
 #Requires -Version 5.0
+#requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '4.4.0' }
 
 . "$env:SCOOP_HOME\lib\core.ps1"
 . "$env:SCOOP_HOME\lib\manifest.ps1"
@@ -10,12 +11,16 @@ if ($env:CI -eq $true) {
 	Set-BuildEnvironment -Force
 }
 
-$repoDirectory = (Get-Item $MyInvocation.MyCommand.Path).Directory.FullName
-$repoFiles = @(Get-ChildItem $repoDirectory -File -Recurse)
+$SCHEMA = "$env:SCOOP_HOME\schema.json"
+$REPOSITORY_DIRECTORY = (Get-Item $MyInvocation.MyCommand.Path).Directory.FullName
+$REPOSITORY_FILES = @(Get-ChildItem "$REPOSITORY_DIRECTORY" -File -Recurse)
+# $BUCKET_DIRECTORY = "$PSScriptRoot\bucket"
+$BUCKET_DIRECTORY = "$PSScriptRoot"
+$MANIFEST_FILES = Get-ChildItem $BUCKET_DIRECTORY '*.json'
 
-$projectFileExclusions = @(
-	$([Regex]::Escape($repoDirectory) + '(\\|/).git(\\|/).*$'),
-	$([Regex]::Escape($repoDirectory) + '(\\|/)bin(\\|/).*$'),
+$PROJECT_FILES_EXCLUSIONS = @(
+	$([Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/).git(\\|/).*$'),
+	$([Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)bin(\\|/).*$'),
 	'.sublime-workspace$',
 	'.DS_Store$',
 	'supporting(\\|/)validator(\\|/)packages(\\|/)*'
@@ -24,8 +29,8 @@ $projectFileExclusions = @(
 Describe 'Style constraints for non-binary project files' {
 	$files = @(
 		# gather all files except '*.exe', '*.zip', or any .git repository files
-		$repoFiles |
-			Where-Object { $_.FullName -inotmatch $($projectFileExclusions -join '|') } |
+		$REPOSITORY_FILES |
+			Where-Object { $_.FullName -inotmatch $($PROJECT_FILES_EXCLUSIONS -join '|') } |
 			Where-Object { $_.FullName -inotmatch '(.exe|.zip|.dll)$' }
 	)
 
@@ -136,26 +141,23 @@ Describe 'Style constraints for non-binary project files' {
 Describe 'Manifest Validation' {
 	BeforeAll {
 		$workingDirectory = setup_working 'manifest'
-		$schema = "$env:SCOOP_HOME\schema.json"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.dll"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.Schema.dll"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Scoop.Validator.dll"
 	}
 
 	It 'Scoop.Validator is available' {
-		([System.Management.Automation.PSTypeName] 'Scoop.Validator').Type | Should Be 'Scoop.Validator'
+		([System.Management.Automation.PSTypeName] 'Scoop.Validator').Type | Should -Be 'Scoop.Validator'
 	}
 
 	Context 'Manifest validates against the schema' {
 		BeforeAll {
-			$bucketDirectory = "$PSScriptRoot"
-			$manifestFiles = Get-ChildItem $bucketDirectory '*.json'
-			$validator = New-Object Scoop.Validator($schema, $true)
+			$validator = New-Object Scoop.Validator($SCHEMA, $true)
 		}
 
 		$global:quota_exceeded = $false
 
-		foreach ($file in $manifestFiles) {
+		foreach ($file in $MANIFEST_FILES) {
 			It "$file" {
 				if (-not ($global:quota_exceeded)) {
 					try {
@@ -164,7 +166,7 @@ Describe 'Manifest Validation' {
 						if ($validator.Errors.Count -gt 0) {
 							Write-Host $validator.ErrorsAsString -ForegroundColor Yellow
 						}
-						$validator.Errors.Count | Should Be 0
+						$validator.Errors.Count | Should -Be 0
 					} catch {
 						if ($_.Exception.Message -like '*The free-quota limit of 1000 schema validations per hour has been reached.*') {
 							$global:quota_exceeded = $true
@@ -181,7 +183,7 @@ Describe 'Manifest Validation' {
 				if (-not $url) {
 					$url = $url64
 				}
-				$url | Should Not BeNullOrEmpty
+				$url | Should -Not -BeNullOrEmpty
 			}
 		}
 	}
@@ -276,18 +278,18 @@ Describe 'Changed manifests installation' {
 				if ($json.architecture) {
 					if ($json.architecture.$64) {
 						It $64 {
-							install $toInstall $64 | Should Be 0
+							install $toInstall $64 | Should -Be 0
 						}
 						uninstall $noExt
 					}
 					if ($json.architecture.$32) {
 						It $32 {
-							install $toInstall $32 | Should Be 0
+							install $toInstall $32 | Should -Be 0
 						}
 						uninstall $noExt
 					}
 				} else {
-					It $URL { install $toInstall $URL | Should Be 0 }
+					It $URL { install $toInstall $URL | Should -Be 0 }
 				}
 			}
 		}
