@@ -11,9 +11,8 @@ param(
 	[Alias('App')]
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\.."
+	[String] $Dir = "$PSScriptRoot\..\bucket"
 )
-
 
 begin {
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }

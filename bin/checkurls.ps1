@@ -31,7 +31,7 @@ param(
 	[Alias('App')]
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\..",
+	[String] $Dir = "$PSScriptRoot\..\bucket",
 	[Int] $Timeout = 5,
 	[Switch] $Recurse,
 	[Parameter(ValueFromRemainingArguments = $true)]
