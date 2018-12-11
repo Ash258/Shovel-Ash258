@@ -266,7 +266,7 @@ Describe 'Changed manifests installation' {
 
 			$man = Split-Path $file -Leaf
 			$noExt = $man.Split('.')[0]
-			$toInstall = "./$man"
+			$toInstall = "./bucket/$man"
 
 			$64 = '64bit'
 			$32 = '32bit'
