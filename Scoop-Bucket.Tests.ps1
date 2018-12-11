@@ -16,7 +16,6 @@ $REPOSITORY_DIRECTORY = (Get-Item $MyInvocation.MyCommand.Path).Directory.FullNa
 $REPOSITORY_FILES = @(Get-ChildItem "$REPOSITORY_DIRECTORY" -File -Recurse)
 $BUCKET_DIRECTORY = "$PSScriptRoot\bucket"
 $MANIFEST_FILES = Get-ChildItem $BUCKET_DIRECTORY '*.json'
-
 $PROJECT_FILES_EXCLUSIONS = @(
 	$([Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/).git(\\|/).*$'),
 	$([Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)bin(\\|/).*$'),
@@ -26,12 +25,10 @@ $PROJECT_FILES_EXCLUSIONS = @(
 )
 
 Describe 'Style constraints for non-binary project files' {
-	$files = @(
-		# gather all files except '*.exe', '*.zip', or any .git repository files
-		$REPOSITORY_FILES |
+	# gather all files except '*.exe', '*.zip', or any .git repository files
+	$files = $REPOSITORY_FILES |
 			Where-Object { $_.FullName -inotmatch $($PROJECT_FILES_EXCLUSIONS -join '|') } |
 			Where-Object { $_.FullName -inotmatch '(.exe|.zip|.dll)$' }
-	)
 
 	$filesExist = ($files.Count -gt 0)
 
@@ -139,7 +136,6 @@ Describe 'Style constraints for non-binary project files' {
 
 Describe 'Manifest Validation' {
 	BeforeAll {
-		$workingDirectory = setup_working 'manifest'
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.dll"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.Schema.dll"
 		Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Scoop.Validator.dll"
@@ -151,6 +147,7 @@ Describe 'Manifest Validation' {
 
 	Context 'Manifest validates against the schema' {
 		BeforeAll {
+			# https://github.com/PowerShell/PSScriptAnalyzer/issues/946
 			$validator = New-Object Scoop.Validator($SCHEMA, $true)
 		}
 
@@ -243,7 +240,7 @@ Describe 'Changed manifests installation' {
 		return
 	}
 
-	New-Item "INSTALL.log" -Type File -Force
+	New-Item 'INSTALL.log' -Type File -Force
 	$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 	$changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
 
@@ -266,7 +263,7 @@ Describe 'Changed manifests installation' {
 
 			$man = Split-Path $file -Leaf
 			$noExt = $man.Split('.')[0]
-			$toInstall = "./bucket/$man"
+			$toInstall = ".\bucket\$man"
 
 			$64 = '64bit'
 			$32 = '32bit'
