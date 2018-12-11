@@ -3,8 +3,9 @@
         {
             "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
             "fileMatch": [
-                "TODO/*.json",
                 ".vscode/Template.jsonc",
+                "bucket/*.json",
+                "TODO/*.json",
             ],
         },
     ],
@@ -16,7 +17,9 @@
     "yaml.schemas": {
         "http://json.schemastore.org/appveyor": "appveyor.yml",
         "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": [
-            ".vscode/Template.yml"
+            ".vscode/Template.yml",
+            "TODO/*.yml",
+            "bucket/*.yml",
         ],
     },
 }
