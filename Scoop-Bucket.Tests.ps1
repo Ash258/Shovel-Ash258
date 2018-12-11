@@ -14,8 +14,7 @@ if ($env:CI -eq $true) {
 $SCHEMA = "$env:SCOOP_HOME\schema.json"
 $REPOSITORY_DIRECTORY = (Get-Item $MyInvocation.MyCommand.Path).Directory.FullName
 $REPOSITORY_FILES = @(Get-ChildItem "$REPOSITORY_DIRECTORY" -File -Recurse)
-# $BUCKET_DIRECTORY = "$PSScriptRoot\bucket"
-$BUCKET_DIRECTORY = "$PSScriptRoot"
+$BUCKET_DIRECTORY = "$PSScriptRoot\bucket"
 $MANIFEST_FILES = Get-ChildItem $BUCKET_DIRECTORY '*.json'
 
 $PROJECT_FILES_EXCLUSIONS = @(
