@@ -42,7 +42,6 @@
             "command": ".\\bin\\checkAndPush.ps1",
             "args": [
                 "'${file}'",
-                "-Force",
             ],
             "presentation": {
                 "echo": true,
@@ -97,7 +96,7 @@
             "command": ".\\bin\\test.ps1",
             "presentation": {
                 "echo": true,
-                "reveal": "silent",
+                "reveal": "always",
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": false,
