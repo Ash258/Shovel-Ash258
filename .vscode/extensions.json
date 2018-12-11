@@ -3,5 +3,6 @@
         "EditorConfig.EditorConfig",
         "ms-vscode.PowerShell",
         "redhat.vscode-yaml",
+        "fabiospampinato.vscode-terminals",
     ],
 }
