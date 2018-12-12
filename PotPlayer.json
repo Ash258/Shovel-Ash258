@@ -4,8 +4,8 @@
     "homepage": "https://potplayer.daum.net/",
     "architecture": {
         "64bit": {
-            "url": "https://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "34ad63f39309977e4d50e7ef46a2d33e1f5a995581b79169f6c5c623455b6f10",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
+            "hash": "c6eaa84275c2613a822cffef345dd0c650bd02769f5d13858e79a62205207d8c",
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
@@ -18,8 +18,8 @@
             ]
         },
         "32bit": {
-            "url": "https://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z",
-            "hash": "4802f872d3f55f9eb03075a89aeb98030953a37b7438c1eb5c069f9b00ad0925",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z",
+            "hash": "e82c9528553fe9825f94881b69fb4c819c617b873b225339828c6905c855f72a",
             "shortcuts": [
                 [
                     "PotPlayer.exe",
@@ -84,10 +84,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe#/cosi.7z"
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z"
             },
             "32bit": {
-                "url": "https://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z"
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z"
             }
         }
     }
