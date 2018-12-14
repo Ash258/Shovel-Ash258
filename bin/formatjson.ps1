@@ -1,11 +1,10 @@
 <#
 .SYNOPSIS
-	Find description for given manifest
-.PARAMETER Manifest
-	Manifest to check.
-	It could be List of manifests, specific manifest or string with placeholder.
+	Format manifests using scoop's formatter.
+.PARAMETER App
+	Manifest name.
 .PARAMETER Dir
-	Where to search for manifest.
+	Where to search for manifests.
 	Default to bucket folder.
 #>
 param(
@@ -21,6 +20,6 @@ begin {
 	$Dir = Resolve-Path $Dir
 }
 
-process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\describe.ps1 -App ""$man"" -Dir ""$Dir""" } }
+process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\formatjson.ps1 -App ""$man"" -Dir ""$Dir""" } }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }

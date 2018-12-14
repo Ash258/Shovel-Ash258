@@ -10,6 +10,7 @@
 	Placeholders are supported.
 .PARAMETER Dir
 	Directory, where to look for manifests
+	Default to bucket folder.
 .PARAMETER Rest
 	-u - Update hashes if there are mismatched ones.
 	-f - Update hashes always (even without mismatch).
@@ -38,7 +39,7 @@ param(
 	[Alias('App')]
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\..",
+	[String] $Dir = "$PSScriptRoot\..\bucket",
 	[Switch] $Recurse,
 	[Parameter(ValueFromRemainingArguments)]
 	[String[]] $Rest

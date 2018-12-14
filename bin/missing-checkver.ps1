@@ -7,6 +7,7 @@
 	Manifest name.
 .PARAMETER Dir
 	Directory where to search for manfiest.
+	Default to bucket folder.
 .PARAMETER Rest
 	-s - Skip supported
 .EXAMPLE
@@ -24,7 +25,7 @@ param(
 	[Alias('App')]
 	[String] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\..",
+	[String] $Dir = "$PSScriptRoot\..\bucket",
 	[Parameter(ValueFromRemainingArguments = $true)]
 	[String[]] $Rest = ''
 )

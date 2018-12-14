@@ -7,13 +7,12 @@
 	Few control parameters could be used.
 	-u - Update given manifests
 	-f - Force update given manifests
-	-ns - Show all (even up to date) manifests
 .PARAMETER Manifest
 	Manifest to check.
 	It could be List of manifests, specific manifest or string with placeholder.
 .PARAMETER Dir
 	Where to search for manifest.
-	Default to root of repository.
+	Default to bucket folder.
 .PARAMETER Recurse
 	Manifests in all subdirectories will be checked. (except .vscode and bin)
 .PARAMETER Rest
@@ -57,9 +56,8 @@ param(
 	[Alias('App')]
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\..",
+	[String] $Dir = "$PSScriptRoot\..\bucket",
 	[Alias('ns')]
-	[Switch] $NoSkip,
 	[Switch] $Recurse,
 	[Parameter(ValueFromRemainingArguments = $true)]
 	[String[]] $Rest = @()
@@ -70,13 +68,8 @@ begin {
 
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 	$Dir = Resolve-Path $Dir
-	$Rest = $Rest | Select-Object -Unique # Remove duplicated switches
 	$Script = "$env:SCOOP_HOME\bin\checkver.ps1"
-
-	# Handle default -s parameter
-	# Don't skip if NoSkip is present
-	if ((!$NoSkip) -and ($Rest -cnotcontains '-s')) { $Rest += '-s' }
-	$Rest = $Rest -join ' '
+	$Rest = $Rest | Select-Object -Unique # Remove duplicated switches
 }
 
 process {

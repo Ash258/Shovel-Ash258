@@ -5,7 +5,8 @@
 	Manifest to check.
 	Wildcard * is supported.
 .PARAMETER Dir
-	Location where to search manfiest.
+	Location where to search manifests.
+	Default to bucket folder.
 .PARAMETER Timeout
 	How many seconds to wait until mark URL as invalid.
 .PARAMETER Rest
@@ -31,7 +32,7 @@ param(
 	[Alias('App')]
 	[String[]] $Manifest = '*',
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\..",
+	[String] $Dir = "$PSScriptRoot\..\bucket",
 	[Int] $Timeout = 5,
 	[Switch] $Recurse,
 	[Parameter(ValueFromRemainingArguments = $true)]
