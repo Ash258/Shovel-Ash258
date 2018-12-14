@@ -1,4 +1,5 @@
 $ROOT_DIRECTORY = Resolve-Path "$PSScriptRoot\.."
+$BUCKET_DIRECTORY = Resolve-Path "$ROOT_DIRECTORY\bucket"
 
 function Get-RecursiveFolder {
 	$folders = @($ROOT_DIRECTORY)
