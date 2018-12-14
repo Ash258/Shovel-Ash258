@@ -109,8 +109,8 @@
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Kodi **(Kodi)**](./Kodi.json)                                                            |   ❌    |    ✔     |       ✔ (⛔)       |
-| [X3 Bold Red Cursor **(X3)**](./X3.json)                                                  |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Kodi **(Kodi)**](./TODO/Kodi.json)                                                       |   ❌    |    ✔     |       ✔ (⛔)       |
+| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                           |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
@@ -119,13 +119,13 @@
 | [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
-| [UložTo File Manager **(UlozTo)**](./UlozTo.json)                                         |   ❌    |    ✔     |       ✔ (⛔)       |
+| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
 | [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    |   🎃   |    ✔     |       ✔ (✔)       |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     |   ❌    |    ❌     |       ❌ (❌)       |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   |   ❌    |    ❌     |       ❌ (❌)       |
-| [Adobe Reader **(AdobeReader)**](./AdobeReader.json)                                      |   ❌    |    ❌     |       ❌ (❌)       |
-| [Battle.Net **(BattleNet)**](./BattleNet.json)                                            |   ❌    |    ❌     |       ❌ (❌)       |
+| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 |   ❌    |    ❌     |       ❌ (❌)       |
+| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
 | [Nox App Player **(Nox)**](./TODO/Nox.json)                                               |   ❌    |    ❌     |       ❌ (❌)       |
 | [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            |   ❌    |    ❌     |       ❌ (❌)       |
 | [Free Download Manager **(FDM)**](./TODO/FDM.json)                                        |   ❌    |    ❌     |       ❌ (❌)       |
@@ -191,7 +191,7 @@
 ```json
 {
     ...
-    "post_install || installer: { script" : [
+    "pre_install || installer: { script" : [
         "    # Creating default settings",
         "function CreateFile([String] $file, [String] $content = $null) {",
         "    if (!(Test-Path \"$persist_dir\\$file\")) {",
