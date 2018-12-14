@@ -1,9 +1,9 @@
 {
-    "version": "2018.3-EAP8",
+    "version": "2018.3-EAP9",
     "description": "Fast, powerful and cross-platform .NET IDE.",
     "homepage": "https://www.jetbrains.com/rider/",
-    "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2018.3-EAP8-183.4886.126.Checked.win.zip",
-    "hash": "5a46ddd24785394b73867ee80c6118af0b81c57f297a9928331d70b8f7312463",
+    "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2018.3-EAP9-183.5025.20.Checked.win.zip",
+    "hash": "b8b5837c6ffc9ad9242c7872354c9f805d1e6cb8020f3fc89704ed054cb79d75",
     "persist": "bin\\idea.properties",
     "bin": "bin\\rider.bat",
     "architecture": {

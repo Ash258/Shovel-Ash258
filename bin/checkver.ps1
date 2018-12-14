@@ -58,6 +58,7 @@ param(
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..\bucket",
 	[Alias('ns')]
+	[Switch] $NoSkip,
 	[Switch] $Recurse,
 	[Parameter(ValueFromRemainingArguments = $true)]
 	[String[]] $Rest = @()
@@ -69,7 +70,11 @@ begin {
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 	$Dir = Resolve-Path $Dir
 	$Script = "$env:SCOOP_HOME\bin\checkver.ps1"
-	$Rest = $Rest | Select-Object -Unique # Remove duplicated switches
+	$Rest = $Rest | Select-Object -Unique # Remove duplicated switches	# Handle default -s parameter
+
+	# Don't skip if NoSkip is present
+	if ((!$NoSkip) -and ($Rest -cnotcontains '-s')) { $Rest += '-s' }
+	$Rest = $Rest -join ' '
 }
 
 process {

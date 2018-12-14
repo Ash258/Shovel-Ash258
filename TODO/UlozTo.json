@@ -1,6 +1,6 @@
 {
     "##": "Solve issue with installer always contains 1.00 version.",
-    "version": "2.63",
+    "version": "2.70",
     "description": "UlozTo File Manager. Download and upload manager for Uloz.To service.",
     "homepage": "https://uloz.to/windowsapp",
     "license": {
@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://static.uloz.to/content/UFM64/Uloz.to_Uploader(x64)-setup.exe",
-            "hash": "1e07399ee10a3c64a3c095f159882fc6ed4881fb6147e98459d43c744750d7e6"
+            "hash": "3ad8c8a6c6bc19fbdb89a0485dc55fe9861f507ae9e96539179c9f4006ad8cf8"
         },
         "32bit": {
             "url": "https://uploader.uloz.to/Uloz.to_Uploader-setup.exe",
-            "hash": "89d2a0d3cc44aa9f4ef2ec8fc87251cd0ee09820746918508e6fadeb41e70afe"
+            "hash": "e4adf39268d99e4da36e5e581a011fd137920757c5d3bb32bac1410e018f1bda"
         }
     },
     "innosetup": true,
