@@ -15,19 +15,28 @@ $SCHEMA = "$env:SCOOP_HOME\schema.json"
 $REPOSITORY_DIRECTORY = (Get-Item $MyInvocation.MyCommand.Path).Directory.FullName
 $REPOSITORY_FILES = @(Get-ChildItem "$REPOSITORY_DIRECTORY" -File -Recurse)
 $BUCKET_DIRECTORY = "$PSScriptRoot\bucket"
-$MANIFEST_FILES = Get-ChildItem $BUCKET_DIRECTORY '*.json'
+$MANIFEST_FILES = Get-ChildItem $BUCKET_DIRECTORY -File
 $PROJECT_FILES_EXCLUSIONS = @(
-	$([Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/).git(\\|/).*$'),
-	$([Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)bin(\\|/).*$'),
-	'.sublime-workspace$',
-	'.DS_Store$',
+	[Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)\.git(\\|/).*$',
+	[Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)bin(\\|/).*$',
+	'\.sublime-workspace$',
+	'\.DS_Store$',
 	'supporting(\\|/)validator(\\|/)packages(\\|/)*'
-)
+) -join '|'
+$INSTALL_FILES_EXCLUSIONS = @(
+	'TODO',
+	'KMS',
+	'E2B',
+	'TexLive',
+	'unlocker',
+	'Spotify'
+) -join '|'
+$INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
 Describe 'Style constraints for non-binary project files' {
 	# gather all files except '*.exe', '*.zip', or any .git repository files
 	$files = $REPOSITORY_FILES |
-		Where-Object { $_.FullName -inotmatch $($PROJECT_FILES_EXCLUSIONS -join '|') } |
+		Where-Object { $_.FullName -inotmatch $PROJECT_FILES_EXCLUSIONS } |
 		Where-Object { $_.FullName -inotmatch '(.exe|.zip|.dll)$' }
 
 	$filesExist = ($files.Count -gt 0)
@@ -243,15 +252,7 @@ Describe 'Changed manifests installation' {
 	New-Item 'INSTALL.log' -Type File -Force
 	$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
 	$changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
-
-	$changedFiles = $changedFiles |
-		Where-Object { ($_ -notlike '*.vscode*') } |
-		Where-Object { ($_ -notlike '*TODO*') } |
-		Where-Object { ($_ -notlike '*KMS*') } |
-		Where-Object { ($_ -notlike '*E2B*') } |
-		Where-Object { ($_ -notlike '*TexLive*') } |
-		Where-Object { ($_ -notlike '*unlocker*') } |
-		Where-Object { ($_ -notlike '*Spotify*') }
+	$changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
 	if ($changedFiles.Count -gt 0) {
 		scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
