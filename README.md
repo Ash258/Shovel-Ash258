@@ -12,7 +12,7 @@
 | [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                  |   ✔    |    ✔     |       ✔ (✔)       |
-| [AutoClicker Targeted **(AutoCLickerTargeted)**](./bucket/AutoCLickerTargeted.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AutoClicker Targeted **(AutoClickerTargeted)**](./bucket/AutoClickerTargeted.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                 |   ✔    |    ♻     |       ♻ (♻)       |
 | [Bzzt! Image Editor **(Bzzt)**](./bucket/Bzzt.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CCleaner Professional **(CCleanerPro)**](./bucket/CCleanerPro.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -75,8 +75,8 @@
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                 |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Windows ISO Downloader **(WindowsISODownloader)**](./bucket/WindowsISODownloader.json)        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)        |   ✔    |    ✔     |       ✔ (✔)       |
-| [Windows 10 Initial Setup **(Win10-Initial-Setup)**](./bucket/Win10-Initial-Setup.json)        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Wise Disk Claner **(WiseDiskClaner)**](./bucket/WiseDiskClaner.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
 
