@@ -24,6 +24,7 @@ $PROJECT_FILES_EXCLUSIONS = @(
 	'supporting(\\|/)validator(\\|/)packages(\\|/)*'
 ) -join '|'
 $INSTALL_FILES_EXCLUSIONS = @(
+	'.vscode',
 	'TODO',
 	'KMS',
 	'E2B',

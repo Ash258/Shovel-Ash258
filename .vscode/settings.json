@@ -1,4 +1,5 @@
 {
+    "editor.insertSpaces": false,
     "json.schemas": [
         {
             "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
