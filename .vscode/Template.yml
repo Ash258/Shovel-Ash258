@@ -115,4 +115,5 @@ autoupdate:
   hash: # Some vendors does not ship hashes
     url: https://ash258.com
     find: some regex to match([\d+]{32}) # or JP
+  note: 'Some note after autoupdate'
 # endregion Updating

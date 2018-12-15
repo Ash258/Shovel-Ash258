@@ -251,6 +251,7 @@ Describe 'Changed manifests installation' {
 
 	New-Item 'INSTALL.log' -Type File -Force
 	$commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
+	# TODO: YAML
 	$changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
 	$changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
@@ -271,6 +272,7 @@ Describe 'Changed manifests installation' {
 			$URL = 'URL'
 
 			Context $man {
+				# TODO: YAML
 				$json = parse_json $file
 				if ($json.architecture) {
 					if ($json.architecture.$64) {

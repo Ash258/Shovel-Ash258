@@ -5,10 +5,21 @@
             "fileMatch": [
                 ".vscode/Template.jsonc",
                 "bucket/*.json",
+                "TODO/*.json",
             ],
         },
     ],
     "powershell.codeFormatting.preset": "OTBS",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true,
+        },
+        "editor.autoIndent": true,
+    },
     "yaml.format.bracketSpacing": true,
     "yaml.format.enable": true,
     "yaml.format.singleQuote": true,
@@ -16,7 +27,11 @@
     "yaml.schemas": {
         "http://json.schemastore.org/appveyor": "appveyor.yml",
         "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": [
+            ".vscode/Template.yml",
             "bucket/*.yml",
+            "bucket/*.yaml",
+            "TODO/*.yml",
+            "TODO/*.yaml",
         ],
     },
     "terminals.terminals": [

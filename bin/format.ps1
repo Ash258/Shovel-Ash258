@@ -20,6 +20,7 @@ begin {
 	$Dir = Resolve-Path $Dir
 }
 
+# TODO: After yaml support merge, change to bin\format.ps1
 process { foreach ($man in $Manifest) { Invoke-Expression -Command "$env:SCOOP_HOME\bin\formatjson.ps1 -App ""$man"" -Dir ""$Dir""" } }
 
 end { Write-Host 'DONE' -ForegroundColor Yellow }
