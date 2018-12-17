@@ -20,6 +20,7 @@
 	-u - Update given manifests
 	-f - Force update given manifests
 		Usefull for hash updates
+	-v VER - Version to be updated to.
 .EXAMPLE
 	PS BUCKETROOT > .\bin\checkver.ps1
 	Check all manifests in root.
