@@ -15,10 +15,12 @@ notes:
 # depends && suggest: STRING
 #   or Array of strings
 depends:
+  - extras/cosi
   - COSI
-  - COSI 2
 suggest:
-  COSI: COSI
+  COSI:
+    - COSI
+    - NEXT
 # endregion Requirements
 
 # region Downloading
@@ -47,6 +49,12 @@ extract_to: COSI
 # region Installing
 pre_install: |
   CreateSomeFile $newFile
+  $file = 'someFile.ini'
+  if (!(Test-Path "$persist_dir\$file")) {
+    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow
+    $CONT = @('Some content to be added to file.')
+    Set-Content "$dir\$file" ($CONT -join "`r`n") -Encoding Ascii
+  '}'
   Write-Host $DONE
 installer:
   file: somefile.exe # No need to specify if it's downloaded file
