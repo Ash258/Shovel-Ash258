@@ -6,7 +6,7 @@
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-9.4c.exe",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-9.4.exe",
     "hash": "sha1:90123404357eff155801be6062740d666ddd117f",
     "innosetup": true,
     "shortcuts": [
@@ -20,7 +20,7 @@
         "regex": "Latest Version:</b> v([\\d\\.]+) \\("
     },
     "autoupdate": {
-        "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-$versionc.exe",
+        "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-$version.exe",
         "hash": {
             "url": "https://www.displayfusion.com/Download/",
             "find": "Installer:</b>\\s*([A-Fa-f\\d]{40}) \\(SHA1"
