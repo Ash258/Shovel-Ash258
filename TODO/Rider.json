@@ -1,9 +1,9 @@
 {
-    "version": "2018.2.3",
+    "version": "2018.3",
     "description": "Fast, powerful and cross-platform .NET IDE.",
     "homepage": "https://www.jetbrains.com/rider/",
-    "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.3.zip",
-    "hash": "830ac115c4fa9a862881b6b85d9a2acf9ed3da08041038a48663fcb35685c8c2",
+    "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2018.3.zip",
+    "hash": "599c39a1784ddd699d1a2e62d5775d12accca46009cd3dc37c11dcfef0a3e334",
     "persist": "bin\\idea.properties",
     "bin": "bin\\rider.bat",
     "architecture": {
