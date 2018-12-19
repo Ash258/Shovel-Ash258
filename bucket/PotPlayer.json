@@ -62,7 +62,7 @@
             "$finalFile = $CONT -join \"`r`n\"",
             "    # Set Configs for all executables",
             "foreach ($f in $setFiles) {",
-            "    if (!(Test-Path \"$persist_dir\\$f\")) {",
+            "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
             "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
             "        Set-Content \"$dir\\$f\" $finalFile -Encoding Ascii",
             "    }",

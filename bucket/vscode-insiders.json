@@ -34,7 +34,7 @@
             "$REG_UNINSTALL = \"$dir\\vscode-uninstall-context.reg\"",
             "$CODEPATH = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
             "    # Create data folder",
-            "if (!(Test-Path \"$persist_dir\\data\")) { ",
+            "if (-not (Test-Path \"$persist_dir\\data\")) { ",
             "    Write-Host 'No user data folder exists' -f Yellow",
             "    New-Item \"$PORT\\tmp\", \"$PORT\\user-data\", \"$PORT\\extensions\" -Force -Type Directory | Out-Null",
             "}",

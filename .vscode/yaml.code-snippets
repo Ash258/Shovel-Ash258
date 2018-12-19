@@ -82,7 +82,7 @@
         "scope": "yml,yaml",
         "body": [
             "\\$file = '$1'",
-            "if (!(Test-Path \"\\$persist_dir\\\\\\$file\")) {",
+            "if (-not (Test-Path \"\\$persist_dir\\\\\\$file\")) {",
             "    Write-Host 'File' \\$file 'does not exists. Creating.' -f Yellow",
             "    \\$CONT = @('$2')",
             "    Set-Content \"\\$dir\\\\\\$file\" (\\$CONT -join \"`r`n\") -Encoding Ascii",

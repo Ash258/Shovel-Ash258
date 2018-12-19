@@ -18,7 +18,7 @@
             "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding Ascii",
             "    # Create ccleaner.ini",
             "$file = 'ccleaner.ini'",
-            "if (!(Test-Path \"$persist_dir\\$file\")) {",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
             "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
             "    $CONT = @('[Options]', 'HelpImproveCCleaner=0', 'PrefsPrivacyShowOffers1stParty=0', 'PrefsPrivacyShareData1stParty=0')",
             "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",

@@ -6,7 +6,7 @@
     "hash": "d662bbcb84bb3dcddf8693b7f67b10137948f216ef90fbdb9d12356750024fb8",
     "pre_install": [
         "$file = 'config.ini'",
-        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "    $CONT = @('AutoUpdate:False')",
         "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
@@ -15,7 +15,7 @@
         "function download([String] $remote, [String] $local) {",
         "    (New-Object System.Net.WebClient).DownloadFile($remote, \"$dir\\plugins\\$local\")",
         "}",
-        "if (!(Test-Path \"$persist_dir\\plugins\")) {",
+        "if (-not (Test-Path \"$persist_dir\\plugins\")) {",
         "    New-Item \"$dir\\plugins\" -Type Directory | Out-Null",
         "    download 'https://singularlabs.com/download/11036/' 'Registry.zip'",
         "    download 'https://singularlabs.com/download/10456/' 'ServiceRegistry.zip'",

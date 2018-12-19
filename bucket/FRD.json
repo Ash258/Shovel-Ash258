@@ -54,7 +54,7 @@
         "$finalFile += $end -join $delimeter",
         "    # Set File",
         "$FILE = \"$env:AppData\\VitySoft\\FRD\\frd.xml\"",
-        "if (!(Test-Path $FILE)) {",
+        "if (-not (Test-Path $FILE)) {",
         "    Write-Host 'File' $FILE 'does not exists. Creating.' -f Yellow",
         "    New-Item $FILE -Type File -Force | Out-Null",
         "    Set-Content $FILE $finalFile -Encoding Ascii -Force",

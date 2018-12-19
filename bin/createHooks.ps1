@@ -1,7 +1,7 @@
 $HOOKS_FOLD = Resolve-Path "$PSScriptRoot\..\.git\hooks"
 
 # Exit when hooks folder does not exists for some reason
-if (!(Test-Path $HOOKS_FOLD -Type Container)){
+if (-not (Test-Path $HOOKS_FOLD -Type Container)){
 	Write-Host 'Folder' $HOOKS_FOLD 'Does not Exists. Exiting' -ForegroundColor Red
 	exit 1
 }

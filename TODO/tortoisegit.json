@@ -23,7 +23,7 @@
     "extract_dir": "Program Files\\TortoiseGit",
     "post_install": [
         "$path = 'HKCU:\\Software\\TortoiseGit'",
-        "if (!(Test-path \"$path\")) {",
+        "if (-not (Test-path \"$path\")) {",
         "    New-Item $path | Out-Null",
         "    New-ItemProperty -Path $path -Name 'VersionCheck' -PropertyType DWord -Value 0 -Force | Out-Null",
         "    New-ItemProperty -Path $path -Name 'MsysGit' -PropertyType String -Value \"$env:GIT_INSTALL_ROOT\\bin\" -Force | Out-Null",

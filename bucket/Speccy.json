@@ -20,7 +20,7 @@
         "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding Ascii",
         "    # Create Speccy.ini",
         "$file = 'Speccy.ini'",
-        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "    $CONT = @('[Software\\Piriform\\Speccy]')",
         "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",

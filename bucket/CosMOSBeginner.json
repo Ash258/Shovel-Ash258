@@ -9,7 +9,7 @@
     "hash": "9408e51aa3988d4a92a4fd474b5a5f96a611271f7e3db90805dab879d4f3b72b",
     "pre_install": [
         "$file = 'CoSMOS.settings'",
-        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "    $CONT = @('{', '\"CheckForUpdates\": false', '}')",
         "    Set-Content \"$dir\\$file\" ($CONT -join '') -Encoding Ascii",

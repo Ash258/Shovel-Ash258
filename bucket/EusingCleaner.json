@@ -7,7 +7,7 @@
     "hash": "90bab51e3c8a207dd5af7cee823c7495d4ccbc716b22db4b37e529b3373438bf",
     "pre_install": [
         "$file = 'options.ini'",
-        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "    $CONT = @('[Options]', \"OutputDirectory=$dir\\Backup\")",
         "    New-Item \"$dir\\Backup\" -Type Directory | Out-Null",

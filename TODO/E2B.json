@@ -13,7 +13,7 @@
         "script": [
             "    # Download MPI",
             "$MPI = \"$dir\\_MPI\"",
-            "if (!(Test-Path \"$persist\\_MPI\")) { New-Item $MPI -Type Directory | Out-Null }",
+            "if (-not (Test-Path \"$persist\\_MPI\")) { New-Item $MPI -Type Directory | Out-Null }",
             "Copy-Item \"$(Resolve-Path (scoop prefix MPI))\\*\" $MPI -Force -Recurse",
             "scoop uninstall MPI",
             "    # Run installer",

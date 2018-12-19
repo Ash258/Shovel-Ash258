@@ -9,7 +9,7 @@
     "hash": "2bdd517cd8927dea771e27d1d71423693f1dd282917071a7da455740a3bfc48d",
     "pre_install": [
         "$file = 'Settings.xml'",
-        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "        # File Structure",
         "    $delimeter = \"`r`n\"",
@@ -38,7 +38,7 @@
         "    Set-Content \"$dir\\$file\" $finalFile -Encoding Ascii",
         "}",
         "$file = 'Layout.xml'",
-        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "    Set-Content \"$dir\\$file\" '' -Encoding Ascii",
         "}"
