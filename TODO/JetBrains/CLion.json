@@ -5,6 +5,7 @@
     "url": "https://download.jetbrains.com/cpp/CLion-2018.3.1.zip",
     "hash": "2ed2423c038d724be5156947ac95b9cb2490b65dc92dfb2513f5ed743116380c",
     "bin": "bin\\idea.bat",
+    "##": "TODO REWORK TO BINS isntead of env_add_path",
     "env_add_path": "bin",
     "architecture": {
         "64bit": {
