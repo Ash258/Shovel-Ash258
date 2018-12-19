@@ -107,29 +107,71 @@
 
 ### TODO
 
-| App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
-| ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Kodi **(Kodi)**](./TODO/Kodi.json)                                                       |   ❌    |    ✔     |       ✔ (⛔)       |
-| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                           |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
-| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
-| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    |   🎃   |    ✔     |       ✔ (✔)       |
-| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     |   ❌    |    ❌     |       ❌ (❌)       |
-| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   |   ❌    |    ❌     |       ❌ (❌)       |
-| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 |   ❌    |    ❌     |       ❌ (❌)       |
-| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               |   ❌    |    ❌     |       ❌ (❌)       |
-| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            |   ❌    |    ❌     |       ❌ (❌)       |
-| [Free Download Manager **(FDM)**](./TODO/FDM.json)                                        |   ❌    |    ❌     |       ❌ (❌)       |
-| [CheatHappens Trainer Manager **(TrainerManager)**](./TODO/TrainerManager.json)           |   ❌    |    ❌     |       ❌ (❌)       |
+- JetBrains
+    1. Sort checkver parameters
+        1. `&latest=true&platform=zip|windows&type=release|rc|eap`
+    1. Persist `idea.properties`
+        1. Precreated with system vars edited.
+
+| App name **(Scoop name)**                                                                                                                     | Tested | Checkver | Autoupdate (Hash) |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [JetBrain's CLion **(CLion)**](./TODO/JetBrains/CLion.json)                                                                                   |
+| [JetBrain's CLion (Early Access Program) **(CLion-EAP)**](./TODO/JetBrains/CLion-EAP.json)                                                    |
+| [JetBrain's CLion (Release Candidate) **(CLion-RC)**](./TODO/JetBrains/CLion-RC.json)                                                         |
+| [JetBrain's DataGrip **(DataGrip)**](./TODO/JetBrains/DataGrip.json)                                                                          |
+| [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./TODO/JetBrains/DataGrip-EAP.json)                                           |
+| [JetBrain's DataGrip (Release Candidate) **(DataGrip-RC)**](./TODO/JetBrains/DataGrip-RC.json)                                                |
+| [JetBrain's GoLand **(GoLand)**](./TODO/JetBrains/GoLand.json)                                                                                |
+| [JetBrain's GoLand (Early Access Program) **(GoLand-EAP)**](./TODO/JetBrains/GoLand-EAP.json)                                                 |
+| [JetBrain's GoLand (Release Candidate) **(GoLand-RC)**](./TODO/JetBrains/GoLand-RC.json)                                                      |
+| [JetBrain's Hub **(Hub)**](./TODO/JetBrains/Hub.json)                                                                                         |
+| [JetBrain's IntelliJ-IDEA **(IntelliJ-IDEA)**](./TODO/JetBrains/IntelliJ-IDEA.json)                                                           |
+| [JetBrain's IntelliJ-IDEA (Early Access Program) **(IntelliJ-IDEA-EAP)**](./TODO/JetBrains/IntelliJ-IDEA-EAP.json)                            |
+| [JetBrain's IntelliJ-IDEA (Release Candidate) **(IntelliJ-IDEA-RC)**](./TODO/JetBrains/IntelliJ-IDEA-RC.json)                                 |
+| [JetBrain's IntelliJ-IDEA Ultimate **(IntelliJ-IDEA-Ultimate)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate.json)                                |
+| [JetBrain's IntelliJ-IDEA Ultimate (Early Access Program) **(IntelliJ-IDEA-Ultimate-EAP)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate-EAP.json) |
+| [JetBrain's IntelliJ-IDEA Ultimate (Release Candidate) **(IntelliJ-IDEA-Ultimate-RC)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate-RC.json)      |
+| [JetBrain's MPS **(MPS)**](./TODO/JetBrains/MPS.json)                                                                                         |
+| [JetBrain's PhpStorm **(PhpStorm)**](./TODO/JetBrains/PhpStorm.json)                                                                          |
+| [JetBrain's PhpStorm (Early Access Program) **(PhpStorm-EAP)**](./TODO/JetBrains/PhpStorm-EAP.json)                                           |
+| [JetBrain's PyCharm Community **(PyCharm-Community)**](./TODO/JetBrains/PyCharm-Community.json)                                               |
+| [JetBrain's PyCharm Community (Early Access Program) **(PyCharm-Community-EAP)**](./TODO/JetBrains/PyCharm-Community-EAP.json)                |
+| [JetBrain's PyCharm Community (Release Candidate) **(PyCharm-Community-RC)**](./TODO/JetBrains/PyCharm-Community-RC.json)                     |
+| [JetBrain's PyCharm Professional **(PyCharm-Professional)**](./TODO/JetBrains/PyCharm-Professional.json)                                      |
+| [JetBrain's PyCharm Professional (Early Access Program) **(PyCharm-Professional-EAP)**](./TODO/JetBrains/PyCharm-Professional-EAP.json)       |
+| [JetBrain's PyCharm Professional (Release Candidate) **(PyCharm-Professional-RC)**](./TODO/JetBrains/PyCharm-Professional-RC.json)            |
+| [JetBrain's Rider **(Rider)**](./TODO/JetBrains/Rider.json)                                                                                   |
+| [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./TODO/JetBrains/Rider-EAP.json)                                                    |
+| [JetBrain's RubyMine **(RubyMine)**](./TODO/JetBrains/RubyMine.json)                                                                          |
+| [JetBrain's RubyMine (Early Access Program) **(RubyMine-EAP)**](./TODO/JetBrains/RubyMine-EAP.json)                                           |
+| [JetBrain's RubyMine (Release Candidate) **(RubyMine-RC)**](./TODO/JetBrains/RubyMine-RC.json)                                                |
+| [JetBrain's TeamCity **(TeamCity)**](./TODO/JetBrains/TeamCity.json)                                                                          |
+| [JetBrain's Upsource **(Upsource)**](./TODO/JetBrains/Upsource.json)                                                                          |
+| [JetBrain's WebStorm **(WebStorm)**](./TODO/JetBrains/WebStorm.json)                                                                          |
+| [JetBrain's WebStorm (Early Access Program) **(WebStorm-EAP)**](./TODO/JetBrains/WebStorm-EAP.json)                                           |
+| [JetBrain's YouTrack **(YouTrack)**](./TODO/JetBrains/YouTrack.json)                                                                          |
+| -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
+| [Kodi **(Kodi)**](./TODO/Kodi.json)                                                                                                           |   ❌    |    ✔     |       ✔ (⛔)       |
+| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                                                               |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                                                                        |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                                                                                  |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json)                                                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json)                                                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json)                                                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json)                                                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json)                                                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
+| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                                                                        |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                                                                           |   ❌    |    ❌     |       ❌ (❌)       |
+| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                                                                        |   🎃   |    ✔     |       ✔ (✔)       |
+| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                                                                         |   ❌    |    ❌     |       ❌ (❌)       |
+| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                                                                       |   ❌    |    ❌     |       ❌ (❌)       |
+| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                                                                     |   ❌    |    ❌     |       ❌ (❌)       |
+| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                                                                           |   ❌    |    ❌     |       ❌ (❌)       |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                                                                                   |   ❌    |    ❌     |       ❌ (❌)       |
+| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                                                                                |   ❌    |    ❌     |       ❌ (❌)       |
+| [Free Download Manager **(FDM)**](./TODO/FDM.json)                                                                                            |   ❌    |    ❌     |       ❌ (❌)       |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./TODO/TrainerManager.json)                                                               |   ❌    |    ❌     |       ❌ (❌)       |
 
 - 🔶 Additional testing is needed
 - ⭕ Not needed
