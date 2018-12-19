@@ -36,6 +36,10 @@
 | [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                             |   ✔    |    ✔     |      ❗❗ (⛔)       |
 | [Greenshot **(Greenshot)**](./bucket/Greenshot.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [JetBrain's CLion **(CLion)**](./bucket/CLion.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's CLion (Release Candidate) **(CLion-RC)**](./bucket/CLion-RC.json)                  |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's CLion (Early Access Program) **(CLion-EAP)**](./bucket/CLion-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                         |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Listary **(Listary)**](./bucket/Listary.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -78,7 +82,6 @@
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
 
 ### Moved to other bucket
 
@@ -110,14 +113,12 @@
 - JetBrains
     1. Sort checkver parameters
         1. `&latest=true&platform=zip|windows&type=release|rc|eap`
-    1. Persist `idea.properties`
-        1. Precreated with system vars edited.
 
 | App name **(Scoop name)**                                                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [JetBrain's CLion **(CLion)**](./TODO/JetBrains/CLion.json)                                                                                   |
-| [JetBrain's CLion (Early Access Program) **(CLion-EAP)**](./TODO/JetBrains/CLion-EAP.json)                                                    |
-| [JetBrain's CLion (Release Candidate) **(CLion-RC)**](./TODO/JetBrains/CLion-RC.json)                                                         |
+| [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
+| -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
 | [JetBrain's DataGrip **(DataGrip)**](./TODO/JetBrains/DataGrip.json)                                                                          |
 | [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./TODO/JetBrains/DataGrip-EAP.json)                                           |
 | [JetBrain's DataGrip (Release Candidate) **(DataGrip-RC)**](./TODO/JetBrains/DataGrip-RC.json)                                                |
@@ -140,8 +141,6 @@
 | [JetBrain's PyCharm Professional **(PyCharm-Professional)**](./TODO/JetBrains/PyCharm-Professional.json)                                      |
 | [JetBrain's PyCharm Professional (Early Access Program) **(PyCharm-Professional-EAP)**](./TODO/JetBrains/PyCharm-Professional-EAP.json)       |
 | [JetBrain's PyCharm Professional (Release Candidate) **(PyCharm-Professional-RC)**](./TODO/JetBrains/PyCharm-Professional-RC.json)            |
-| [JetBrain's Rider **(Rider)**](./TODO/JetBrains/Rider.json)                                                                                   |
-| [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./TODO/JetBrains/Rider-EAP.json)                                                    |
 | [JetBrain's RubyMine **(RubyMine)**](./TODO/JetBrains/RubyMine.json)                                                                          |
 | [JetBrain's RubyMine (Early Access Program) **(RubyMine-EAP)**](./TODO/JetBrains/RubyMine-EAP.json)                                           |
 | [JetBrain's RubyMine (Release Candidate) **(RubyMine-RC)**](./TODO/JetBrains/RubyMine-RC.json)                                                |
@@ -149,8 +148,7 @@
 | [JetBrain's Upsource **(Upsource)**](./TODO/JetBrains/Upsource.json)                                                                          |
 | [JetBrain's WebStorm **(WebStorm)**](./TODO/JetBrains/WebStorm.json)                                                                          |
 | [JetBrain's WebStorm (Early Access Program) **(WebStorm-EAP)**](./TODO/JetBrains/WebStorm-EAP.json)                                           |
-| [JetBrain's YouTrack **(YouTrack)**](./TODO/JetBrains/YouTrack.json)                                                                          |
-| -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
+| ---------------------------------------------------------------------------------------------------                                           |  ---   |   ---    |       -----       |
 | [Kodi **(Kodi)**](./TODO/Kodi.json)                                                                                                           |   ❌    |    ✔     |       ✔ (⛔)       |
 | [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                                                               |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                                                                        |   ❌    |    ✔     |       ✔ (⛔)       |
@@ -236,7 +234,7 @@
     "pre_install || installer: { script" : [
         "    # Creating default settings",
         "function CreateFile([String] $file, [String] $content = $null) {",
-        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    if (-not (Test-Path \"$persist_dir\\$file\")) {",
         "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
         "        Set-Content \"$dir\\$file\" $content -Encoding Ascii",
         "    }",

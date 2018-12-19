@@ -1,0 +1,59 @@
+{
+    "version": "2018.3.2-183.4886.39",
+    "description": "CLion. Cross-Platform IDE for C and C++ by JetBrains.",
+    "homepage": "https://www.jetbrains.com/cpp/",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.jetbrains.com/cpp/CLion-2018.3.2.zip",
+            "hash": "24169c45759a81486fcbcdd5e6a952843a2f6567cb84b8d1b8007c28a7705be5",
+            "installer": {
+                "script": [
+                    "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+                    "$file = 'idea.properties'",
+                    "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+                    "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+                    "    $file = \"$dir\\bin\\$file\"",
+                    "    $CONT = Get-Content $file",
+                    "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+                    "        # Replacing config options",
+                    "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+                    "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+                    "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+                    "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+                    "        # Rewrite properties file",
+                    "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+                    "}"
+                ]
+            },
+            "bin": [
+                "bin\\clion.bat",
+                "bin\\clion64.exe"
+            ],
+            "shortcuts": [
+                [
+                    "bin\\clion64.exe",
+                    "CLion"
+                ]
+            ]
+        }
+    },
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=CL&latest=true&platform=zip&type=release",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.jetbrains.com/cpp/CLion-$matchVer.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

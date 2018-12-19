@@ -1,0 +1,55 @@
+{
+    "version": "2018.3-EAP9-183.5025.20",
+    "description": "Rider (Early Access Program). Fast, powerful and cross-platform .NET IDE by JetBrains.",
+    "homepage": "https://www.jetbrains.com/rider/",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2018.3-EAP9-183.5025.20.Checked.win.zip",
+            "hash": "b8b5837c6ffc9ad9242c7872354c9f805d1e6cb8020f3fc89704ed054cb79d75",
+            "installer": {
+                "script": [
+                    "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+                    "$file = 'idea.properties'",
+                    "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+                    "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+                    "    $file = \"$dir\\bin\\$file\"",
+                    "    $CONT = Get-Content $file",
+                    "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+                    "        # Replacing config options",
+                    "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+                    "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+                    "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+                    "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+                    "        # Rewrite properties file",
+                    "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+                    "}"
+                ]
+            },
+            "shortcuts": [
+                [
+                    "bin\\rider64.exe",
+                    "Rider (Early Access Program)"
+                ]
+            ]
+        }
+    },
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=RD&latest=true&platform=zip&type=eap",
+        "regex": "version\":\"(?<ver>[\\w\\.-]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.jetbrains.com/rider/JetBrains.Rider-$version.Checked.win.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
