@@ -4,6 +4,8 @@
 
 ## Manifests
 
+### Available manifests for instllation
+
 | App name **(Scoop name)**                                                                      | Tested | Checkver | Autoupdate (Hash) |
 | ---------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -39,6 +41,8 @@
 | [JetBrain's CLion **(CLion)**](./bucket/CLion.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's CLion (Release Candidate) **(CLion-RC)**](./bucket/CLion-RC.json)                  |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's CLion (Early Access Program) **(CLion-EAP)**](./bucket/CLion-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                         |   ✔    |    ✔❓    |       ✔ (⛔)       |
@@ -116,8 +120,6 @@
 
 | App name **(Scoop name)**                                                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
 | [JetBrain's DataGrip **(DataGrip)**](./TODO/JetBrains/DataGrip.json)                                                                          |
 | [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./TODO/JetBrains/DataGrip-EAP.json)                                           |
