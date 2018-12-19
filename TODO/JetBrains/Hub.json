@@ -1,8 +1,8 @@
 {
-    "version": "2018.3.2",
+    "version": "2018.4.11058",
     "homepage": "https://www.jetbrains.com/idea/",
-    "url": "https://download.jetbrains.com/idea/ideaIU-2018.3.2.win.zip",
-    "hash": "8af7495c7dadffca6c9d38f8ff9f02be4bf183f52dfa5834cde8ea47a342d4f6",
+    "url": "https://download.jetbrains.com/hub/hub-2018.4.11058.msi",
+    "hash": "5ddf454d2c0901b7fbfe701b81b4b984424a392595d6b08f07da68d270f04063",
     "bin": "bin\\idea.bat",
     "env_add_path": "bin",
     "architecture": {
@@ -26,11 +26,12 @@
         }
     },
     "checkver": {
-        "url": "https://data.services.jetbrains.com/products/releases?code=HB&platform=zip&latest=true&type=release",
-        "jp": "$..version"
+        "url": "https://data.services.jetbrains.com/products/releases?code=HB&latest=true&platform=windows&type=release",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}.${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/idea/ideaIU-$version.win.zip",
+        "url": "https://download.jetbrains.com/hub/hub-$version.msi",
         "hash": {
             "url": "$url.sha256"
         }
