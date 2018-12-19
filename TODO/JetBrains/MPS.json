@@ -1,10 +1,9 @@
 {
-    "version": "2018.3.2",
+    "version": "2018.3.1-183.1523",
     "homepage": "https://www.jetbrains.com/idea/",
-    "url": "https://download.jetbrains.com/idea/ideaIU-2018.3.2.win.zip",
-    "hash": "8af7495c7dadffca6c9d38f8ff9f02be4bf183f52dfa5834cde8ea47a342d4f6",
+    "url": "https://download.jetbrains.com/mps/2018.3/MPS-2018.3.1.exe#/cosi.7z",
+    "hash": "a0e59438c69166f31c30e0e76473c2ec8d0881b36fc23aa7c8d457ada1a4d473",
     "bin": "bin\\idea.bat",
-    "env_add_path": "bin",
     "architecture": {
         "64bit": {
             "bin": "bin\\idea64.exe",
@@ -26,11 +25,12 @@
         }
     },
     "checkver": {
-        "url": "https://data.services.jetbrains.com/products/releases?code=MPS&platform=zip&latest=true&type=release",
-        "jp": "$..version"
+        "url": "https://data.services.jetbrains.com/products/releases?code=MPS&latest=true&platform=zip&type=release",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/idea/ideaIU-$version.win.zip",
+        "url": "https://download.jetbrains.com/mps/$majorVersion.$minorVersion/MPS-$matchVer.exe#/cosi.7z",
         "hash": {
             "url": "$url.sha256"
         }
