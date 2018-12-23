@@ -1,10 +1,10 @@
 {
-    "version": "2.08.338",
+    "version": "2.08.358",
     "description": "CloneApp. Backs up All Windows program settings.",
     "homepage": "https://www.myclone.app/",
     "license": "Freeware",
     "url": "https://www.myclone.app/download/cloneapp/send/2-cloneapp/19-cloneapp#/cosi.zip",
-    "hash": "md5:3a0f5457fb8181c222a934757ce6fe73",
+    "hash": "md5:a658e37ed69a282470f20c6bbd2597b6",
     "extract_dir": "CloneApp",
     "pre_install": [
         "$file = 'cloneapp.ini'",
