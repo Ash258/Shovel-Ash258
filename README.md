@@ -65,6 +65,7 @@
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                 |   🎃   |    ♻     |       ♻ (♻)       |
 | [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Steam Bulk Activator **(SteamBulkActivator)**](./bucket/SteamBulkActivator.json)              |   ✔    |    ✔     |       ✔ (✔)       |
 | [Steam Idle Master **(IdleMaster)**](./bucket/IdleMaster.json)                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SuperF4 **(SuperF4)**](./bucket/SuperF4.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                    |   ✔    |    ✔     |       ❌ (⛔)       |
