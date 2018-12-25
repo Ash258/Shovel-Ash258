@@ -1,13 +1,13 @@
 {
     "##": "Test if installation is needed https://www.displayfusion.com/Discussions/View/installer-options/?ID=fc7218f8-f8e2-4acd-99d8-37a9fe7485ba#exeinstall",
-    "version": "9.4",
+    "version": "9.4.2",
     "description": "DisplayFusion. Enhancing multi-monitor experience.",
     "homepage": "https://www.displayfusion.com/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-9.4.exe",
-    "hash": "sha1:90123404357eff155801be6062740d666ddd117f",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-9.4.2.exe",
+    "hash": "sha1:9231c630c96e7940377597b548063012b6c815f8",
     "innosetup": true,
     "shortcuts": [
         [
