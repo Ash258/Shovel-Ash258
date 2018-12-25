@@ -2,6 +2,12 @@
 
 `scoop bucket add Ash258 'https://github.com/Ash258/scoop-Ash258.git'`
 
+- [Manifests](#manifests)
+    - [Available manifests for instllation](#available-manifests-for-instllation)
+    - [Moved to other bucket](#moved-to-other-bucket)
+    - [TODO](#todo)
+- [How to write manifests](#how-to-write-manifests)
+
 ## Manifests
 
 ### Available manifests for instllation
