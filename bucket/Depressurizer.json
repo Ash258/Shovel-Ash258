@@ -1,0 +1,21 @@
+{
+    "version": "4.6.0",
+    "description": "Depressurizer. Steam library categorizing tool.",
+    "homepage": "https://github.com/Depressurizer/Depressurizer",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/Depressurizer/Depressurizer/blob/master/LICENSE"
+    },
+    "url": "https://github.com/Depressurizer/Depressurizer/releases/download/v4.6.0/Depressurizer-v4.6.0.zip",
+    "hash": "e53b7ccd3205f2946d7fa2b1801a15ab92e063b321580db9a401437e94b47a07",
+    "shortcuts": [
+        [
+            "Depressurizer.exe",
+            "Depressurizer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Depressurizer/Depressurizer/releases/download/v$version/Depressurizer-v$version.zip"
+    }
+}
