@@ -1,5 +1,5 @@
 {
-    "version": "00",
+    "version": "0.5",
     "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1",
     "depends": "Win10InitialSetup",
     "url": [
@@ -7,10 +7,15 @@
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Preset.txt",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Include.psm1"
     ],
+    "hash": [
+        "82f8be3a9696f001d6ed84dffdbb3006c39a4bb360b7df99e4baa7bf09c99f15",
+        "256089d3ddb9c7b6d374d0b71284edace631dd2831732b458595fc4b4a61be32",
+        "58d95418bacd581e9c5845a85e881e24bdc3edd1b3e86e39cf3f2476d36581f2"
+    ],
     "bin": [
         [
             "PostInstall.Win10InitialSetup.ps1",
-            "PostI"
+            "PostInstall"
         ]
     ],
     "checkver": "\\.VERSION\\s+([\\d\\.]+)",
