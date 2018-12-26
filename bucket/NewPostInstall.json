@@ -5,8 +5,7 @@
     "url": [
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Preset.txt",
-        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Include.psm1",
-        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Advanced-Preset.txt"
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Include.psm1"
     ],
     "bin": [
         [
@@ -14,7 +13,7 @@
             "PostI"
         ]
     ],
-    "checkver": "<#\\s+\\.VERSION\\s+([\\d\\.]+)",
+    "checkver": "\\.VERSION\\s+([\\d\\.]+)",
     "autoupdate": {
         "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1"
     }
