@@ -1,5 +1,6 @@
 {
-    "version": "0.5",
+    "##": "TODO: Make autoupdate for all urls",
+    "version": "1.0",
     "description": "PostInstall. Easily setup fresh installed Windows 10 machine.",
     "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1",
     "depends": "Win10InitialSetup",
@@ -9,9 +10,9 @@
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Include.psm1"
     ],
     "hash": [
-        "815fc9ce2a4f122de6d7b7a18f39b2ab55eec0534b663b7de58065aa991adef6",
-        "256089d3ddb9c7b6d374d0b71284edace631dd2831732b458595fc4b4a61be32",
-        "58d95418bacd581e9c5845a85e881e24bdc3edd1b3e86e39cf3f2476d36581f2"
+        "4b9205558238d81b980fb6a1d326423d0373571ce2ec4683e3c57be61c38e51c",
+        "2af6db5699d856d497b6fab74adb770f3855ee3c9046903933df5d5649e60fe7",
+        "7835afdd087eeecfc6ac80dae923ee5ea905dda2dd528d99a3c3ea3abc66ebfa"
     ],
     "bin": [
         [
