@@ -1,0 +1,60 @@
+{
+    "version": "2018.3-183.4284.57",
+    "description": "RubyMine Early Access Program. Cross-Platform Ruby on Rails IDE by JetBrains.",
+    "homepage": "https://www.jetbrains.com/rubymine/",
+    "url": "https://download.jetbrains.com/ruby/RubyMine-183.4284.57.exe#/cosi.7z",
+    "hash": "accec7b27ada4c5475566f7b38e97a4abae496a95a8a1a53fcb708f2ddff0a5a",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "bin\\rubymine64.exe",
+                    "RubyMine (Early Access Program)"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "bin\\rubymine.exe",
+                    "RubyMine (Early Access Program)"
+                ]
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+            "$file = 'idea.properties'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $file = \"$dir\\bin\\$file\"",
+            "    $CONT = Get-Content $file",
+            "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+            "        # Replacing config options",
+            "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+            "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+            "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+            "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+            "        # Rewrite properties file",
+            "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+            "}"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=RM&latest=true&platform=zip&type=eap",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/ruby/RubyMine-$matchBuild.exe#/cosi.7z",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

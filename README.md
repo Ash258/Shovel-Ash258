@@ -59,6 +59,9 @@
 | [JetBrain's PhpStorm (Early Access Program) **(PhpStorm-EAP)**](./bucket/PhpStorm-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's RubyMine **(RubyMine)**](./bucket/RubyMine.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's RubyMine (Early Access Program) **(RubyMine-EAP)**](./bucket/RubyMine-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's RubyMine (Release Candidate) **(RubyMine-RC)**](./bucket/RubyMine-RC.json)         |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's WebStorm **(WebStorm)**](./bucket/WebStorm.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's WebStorm (Early Access Program) **(WebStorm-EAP)**](./bucket/WebStorm-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
@@ -155,12 +158,9 @@
 | [JetBrain's PyCharm Professional **(PyCharm-Professional)**](./TODO/JetBrains/PyCharm-Professional.json)                                      |
 | [JetBrain's PyCharm Professional (Early Access Program) **(PyCharm-Professional-EAP)**](./TODO/JetBrains/PyCharm-Professional-EAP.json)       |
 | [JetBrain's PyCharm Professional (Release Candidate) **(PyCharm-Professional-RC)**](./TODO/JetBrains/PyCharm-Professional-RC.json)            |
-| [JetBrain's RubyMine **(RubyMine)**](./TODO/JetBrains/RubyMine.json)                                                                          |
-| [JetBrain's RubyMine (Early Access Program) **(RubyMine-EAP)**](./TODO/JetBrains/RubyMine-EAP.json)                                           |
-| [JetBrain's RubyMine (Release Candidate) **(RubyMine-RC)**](./TODO/JetBrains/RubyMine-RC.json)                                                |
 | [JetBrain's TeamCity **(TeamCity)**](./TODO/JetBrains/TeamCity.json)                                                                          |
 | [JetBrain's Upsource **(Upsource)**](./TODO/JetBrains/Upsource.json)                                                                          |
-| ---------------------------------------------------------------------------------------------------                                           |  ---   |   ---    |       -----       |
+| -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
 | [Kodi **(Kodi)**](./TODO/Kodi.json)                                                                                                           |   ❌    |    ✔     |       ✔ (⛔)       |
 | [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                                                               |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                                                                        |   ❌    |    ✔     |       ✔ (⛔)       |
