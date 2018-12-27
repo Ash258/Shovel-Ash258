@@ -1,10 +1,10 @@
 {
-    "version": "11.8",
+    "version": "11.9",
     "description": "BurnAware. CD, DVD, Blu-ray burning software with lot of features and super-intuitive, multilingual user interface.",
     "homepage": "http://www.burnaware.com/",
     "license": "Freeware",
-    "url": "http://www.burnaware.com/downloads/burnaware_cfree_11.8.exe",
-    "hash": "3c9303e92b50722813cd87d46d55c8a3e171dbe0b5b96cf640d76dbbd83bd848",
+    "url": "http://www.burnaware.com/downloads/burnaware_cfree_11.9.exe",
+    "hash": "4db16b8fd6a1ab9736efbb02a07eaf4c03a7669d6526359c1d55f44c3134d6bc",
     "innosetup": true,
     "bin": "ImBatch.exe",
     "shortcuts": [
