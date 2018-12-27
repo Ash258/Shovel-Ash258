@@ -58,6 +58,8 @@
 | [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's WebStorm **(WebStorm)**](./bucket/WebStorm.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's WebStorm (Early Access Program) **(WebStorm-EAP)**](./bucket/WebStorm-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                         |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Listary **(Listary)**](./bucket/Listary.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -158,8 +160,6 @@
 | [JetBrain's RubyMine (Release Candidate) **(RubyMine-RC)**](./TODO/JetBrains/RubyMine-RC.json)                                                |
 | [JetBrain's TeamCity **(TeamCity)**](./TODO/JetBrains/TeamCity.json)                                                                          |
 | [JetBrain's Upsource **(Upsource)**](./TODO/JetBrains/Upsource.json)                                                                          |
-| [JetBrain's WebStorm **(WebStorm)**](./TODO/JetBrains/WebStorm.json)                                                                          |
-| [JetBrain's WebStorm (Early Access Program) **(WebStorm-EAP)**](./TODO/JetBrains/WebStorm-EAP.json)                                           |
 | ---------------------------------------------------------------------------------------------------                                           |  ---   |   ---    |       -----       |
 | [Kodi **(Kodi)**](./TODO/Kodi.json)                                                                                                           |   ❌    |    ✔     |       ✔ (⛔)       |
 | [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                                                               |   ❌    |    ⭕     |       ⭕ (⭕)       |
