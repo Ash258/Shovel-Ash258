@@ -1,0 +1,59 @@
+{
+    "version": "2018.3-183.4284.118",
+    "description": "IntelliJ IDEA Ultimate Release Candidate. Cross-Platform Java IDE for professional developers by JetBrains.",
+    "homepage": "https://www.jetbrains.com/idea/",
+    "url": "https://download.jetbrains.com/idea/ideaIU-183.4284.118.win.zip",
+    "hash": "116998a77b08a303385377ffd355899f9e565f4201cadc9af6ea51762d98ee30",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "bin\\idea64.exe",
+                    "IntelliJ IDEA Ultimate (Release Candidate)"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "bin\\idea.exe",
+                    "IntelliJ IDEA Ultimate (Release Candidate)"
+                ]
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+            "$file = 'idea.properties'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $file = \"$dir\\bin\\$file\"",
+            "    $CONT = Get-Content $file",
+            "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+            "        # Replacing config options",
+            "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+            "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+            "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+            "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+            "        # Rewrite properties file",
+            "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+            "}"
+        ]
+    },
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&platform=zip&type=rc",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/idea/ideaIU-$matchBuild.win.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
