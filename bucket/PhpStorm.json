@@ -18,10 +18,7 @@
             ]
         },
         "32bit": {
-            "bin": [
-                "bin\\phpstorm.bat",
-                "bin\\phpstorm.exe"
-            ],
+            "bin": "bin\\phpstorm.exe",
             "shortcuts": [
                 [
                     "bin\\phpstorm.exe",
@@ -46,10 +43,10 @@
             "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
             "        # Rewrite properties file",
             "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
-            "}"
+            "}",
+            "Remove-Item \"$dir\\`$*\" -Force -Recurse"
         ]
     },
-    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
     "persist": [
         "bin\\idea.properties",
         "persistedConfig"

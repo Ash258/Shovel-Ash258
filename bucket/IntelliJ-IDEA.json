@@ -18,10 +18,7 @@
             ]
         },
         "32bit": {
-            "bin": [
-                "bin\\idea.bat",
-                "bin\\idea.exe"
-            ],
+            "bin": "bin\\idea.exe",
             "shortcuts": [
                 [
                     "bin\\idea.exe",
@@ -49,7 +46,6 @@
             "}"
         ]
     },
-    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
     "persist": [
         "bin\\idea.properties",
         "persistedConfig"

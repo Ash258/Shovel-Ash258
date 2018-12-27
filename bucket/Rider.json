@@ -22,10 +22,10 @@
                     "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
                     "        # Rewrite properties file",
                     "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
-                    "}"
+                    "}",
+                    "Remove-Item \"$dir\\`$*\" -Force -Recurse"
                 ]
             },
-            "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
             "bin": "bin\\rider.bat",
             "shortcuts": [
                 [
