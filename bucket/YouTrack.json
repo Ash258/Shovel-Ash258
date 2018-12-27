@@ -1,15 +1,15 @@
 {
     "##": "jsonpath cannot be used unless version property does not contains build number.",
-    "version": "2018.4.48293",
+    "version": "2018.4.48406",
     "description": "Youtrack. Free, online, easy-to-use, fully customizable issue tracking and agile project management tool.",
     "homepage": "https://www.jetbrains.com/youtrack/",
     "license": {
         "identifier": "Freeware"
     },
     "notes": "YouTrack needs to be executed within `$dir\\bin` folder.",
-    "url": "https://download.jetbrains.com/charisma/youtrack-2018.4.48293.zip",
-    "hash": "04c7a06a65e46531db5040c6c8431cc20dd347e408ac15bfabd07ebeb557c1bb",
-    "extract_dir": "youtrack-2018.4.48293",
+    "url": "https://download.jetbrains.com/charisma/youtrack-2018.4.48406.zip",
+    "hash": "ba0a066a0e12fe4a5bde201d2cefa9d9d02e63f5868174bf58d4988c9ca03ef9",
+    "extract_dir": "youtrack-2018.4.48406",
     "persist": [
         "backup",
         "data",
