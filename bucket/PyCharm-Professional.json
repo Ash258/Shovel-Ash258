@@ -1,0 +1,65 @@
+{
+    "version": "2018.3.2-183.4886.43",
+    "description": "PyCharm Professional. Cross-Platform Python IDE for professional developers by JetBrains.",
+    "homepage": "https://www.jetbrains.com/pycharm/",
+    "url": "https://download.jetbrains.com/python/pycharm-professional-2018.3.2.exe#/cosi.7z",
+    "hash": "f0abc2a34bbe8d4128a42cce69fd4ff618b8330e3a021bff13b5defa7c22c7ee",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "bin\\pycharm.bat",
+                "bin\\pycharm64.exe"
+            ],
+            "shortcuts": [
+                [
+                    "bin\\pycharm64.exe",
+                    "PyCharm Professional"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "bin\\pycharm.exe",
+            "shortcuts": [
+                [
+                    "bin\\pycharm.exe",
+                    "PyCharm Professional"
+                ]
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+            "$file = 'idea.properties'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $file = \"$dir\\bin\\$file\"",
+            "    $CONT = Get-Content $file",
+            "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+            "        # Replacing config options",
+            "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+            "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+            "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+            "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+            "        # Rewrite properties file",
+            "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+            "}",
+            "Remove-Item \"$dir\\`$*\" -Force -Recurse"
+        ]
+    },
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=PCP&latest=true&platform=zip&type=release",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/python/pycharm-professional-$matchVer.exe#/cosi.7z",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
