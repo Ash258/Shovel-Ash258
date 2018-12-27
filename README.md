@@ -55,6 +55,8 @@
 | [JetBrain's GoLand **(GoLand)**](./bucket/GoLand.json)                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's GoLand (Early Access Program) **(GoLand-EAP)**](./bucket/GoLand-EAP.json)          |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's GoLand (Release Candidate) **(GoLand-RC)**](./bucket/GoLand-RC.json)               |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's PhpStorm **(PhpStorm)**](./bucket/PhpStorm.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's PhpStorm (Early Access Program) **(PhpStorm-EAP)**](./bucket/PhpStorm-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
@@ -147,8 +149,6 @@
 | [JetBrain's IntelliJ-IDEA Ultimate (Early Access Program) **(IntelliJ-IDEA-Ultimate-EAP)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate-EAP.json) |
 | [JetBrain's IntelliJ-IDEA Ultimate (Release Candidate) **(IntelliJ-IDEA-Ultimate-RC)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate-RC.json)      |
 | [JetBrain's MPS **(MPS)**](./TODO/JetBrains/MPS.json)                                                                                         |
-| [JetBrain's PhpStorm **(PhpStorm)**](./TODO/JetBrains/PhpStorm.json)                                                                          |
-| [JetBrain's PhpStorm (Early Access Program) **(PhpStorm-EAP)**](./TODO/JetBrains/PhpStorm-EAP.json)                                           |
 | [JetBrain's PyCharm Community **(PyCharm-Community)**](./TODO/JetBrains/PyCharm-Community.json)                                               |
 | [JetBrain's PyCharm Community (Early Access Program) **(PyCharm-Community-EAP)**](./TODO/JetBrains/PyCharm-Community-EAP.json)                |
 | [JetBrain's PyCharm Community (Release Candidate) **(PyCharm-Community-RC)**](./TODO/JetBrains/PyCharm-Community-RC.json)                     |

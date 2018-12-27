@@ -1,0 +1,68 @@
+{
+    "version": "2018.3.2-183.4886.46",
+    "description": "PhpStorm. Cross-Platform, Lightning-Smart IDE for PHP programming by JetBrains.",
+    "homepage": "https://www.jetbrains.com/phpstorm/",
+    "url": "https://download.jetbrains.com/webide/PhpStorm-2018.3.2.exe#/cosi.7z",
+    "hash": "ce8e17f95a40de725abbae3534df5c53be4ffa37b1fd9a2bf100539828acea9f",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "bin\\phpstorm.bat",
+                "bin\\phpstorm64.exe"
+            ],
+            "shortcuts": [
+                [
+                    "bin\\phpstorm64.exe",
+                    "PhpStorm"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                "bin\\phpstorm.bat",
+                "bin\\phpstorm.exe"
+            ],
+            "shortcuts": [
+                [
+                    "bin\\phpstorm.exe",
+                    "PhpStorm"
+                ]
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+            "$file = 'idea.properties'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $file = \"$dir\\bin\\$file\"",
+            "    $CONT = Get-Content $file",
+            "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+            "        # Replacing config options",
+            "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+            "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+            "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+            "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+            "        # Rewrite properties file",
+            "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+            "}"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=PS&latest=true&platform=zip&type=release",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/webide/PhpStorm-$matchVer.exe#/cosi.7z",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
