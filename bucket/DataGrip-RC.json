@@ -1,0 +1,60 @@
+{
+    "version": "2018.3-183.4284.159",
+    "description": "DataGrip Release Candidate. Cross-Platform IDE for Databases & SQL by JetBrains.",
+    "homepage": "https://www.jetbrains.com/datagrip/",
+    "url": "https://download.jetbrains.com/datagrip/datagrip-183.4284.159.exe#/cosi.7z",
+    "hash": "73b93e47978a75e8de294ae972de53037838782aac4654e57745e21369ff0ac3",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "bin\\datagrip64.exe",
+                    "DataGrip (Release Candidate)"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "bin\\datagrip.exe",
+                    "DataGrip (Release Candidate)"
+                ]
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+            "$file = 'idea.properties'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $file = \"$dir\\bin\\$file\"",
+            "    $CONT = Get-Content $file",
+            "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+            "        # Replacing config options",
+            "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+            "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+            "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+            "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+            "        # Rewrite properties file",
+            "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+            "}"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=DG&latest=true&platform=zip&type=rc",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/datagrip/datagrip-$matchBuild.exe#/cosi.7z",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

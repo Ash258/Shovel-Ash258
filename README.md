@@ -49,6 +49,9 @@
 | [JetBrain's CLion **(CLion)**](./bucket/CLion.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's CLion (Release Candidate) **(CLion-RC)**](./bucket/CLion-RC.json)                  |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's CLion (Early Access Program) **(CLion-EAP)**](./bucket/CLion-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's DataGrip **(DataGrip)**](./bucket/DataGrip.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./bucket/DataGrip-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's DataGrip (Release Candidate) **(DataGrip-RC)**](./bucket/DataGrip-RC.json)         |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
@@ -131,9 +134,6 @@
 | App name **(Scoop name)**                                                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
-| [JetBrain's DataGrip **(DataGrip)**](./TODO/JetBrains/DataGrip.json)                                                                          |
-| [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./TODO/JetBrains/DataGrip-EAP.json)                                           |
-| [JetBrain's DataGrip (Release Candidate) **(DataGrip-RC)**](./TODO/JetBrains/DataGrip-RC.json)                                                |
 | [JetBrain's GoLand **(GoLand)**](./TODO/JetBrains/GoLand.json)                                                                                |
 | [JetBrain's GoLand (Early Access Program) **(GoLand-EAP)**](./TODO/JetBrains/GoLand-EAP.json)                                                 |
 | [JetBrain's GoLand (Release Candidate) **(GoLand-RC)**](./TODO/JetBrains/GoLand-RC.json)                                                      |
