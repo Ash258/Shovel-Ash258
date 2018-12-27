@@ -205,6 +205,7 @@
 - [Recommended manifest format][Template]
 - Observe blocks sequence and structure from [Template][Template]
 - **ALWAYS** use `regex` instead of `re`
+- **ALWAYS** use `jsonpath` instead of `jp`
 - Script Blocks
     - **ALWAYS** escape path in script blocks (unless it's variable; path variables must be strings)
     - Indent code as you would normally do.
@@ -234,7 +235,7 @@
 - Persisting
     - Do not include `$dir`.
     - If persising file does not exists after unpacking / installing.
-        - Use this block in `pre_install` or `installer > script`:
+        - Use this block in `pre_install` or `installer.script`:
             - Available via vscode snippet: `persistCheck`
 
 ```json
@@ -250,6 +251,18 @@
         "}"
     ]
 }
+```
+
+```yml
+...
+pre_install: |
+# installer.script : |
+    # Creating default settings",
+  function CreateFile([String] $file, [String] $content = $null) {
+    if (-not (Test-Path "$persist_dir\$file")) {
+      Write-Host 'File' $file 'does not exists. Creating.' -f Yellow
+      Set-Content "$dir\$file" $content -Encoding Ascii
+   '}'
 ```
 
 [Template]: ./.vscode/Template.jsonc
