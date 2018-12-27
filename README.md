@@ -3,14 +3,14 @@
 `scoop bucket add Ash258 'https://github.com/Ash258/scoop-Ash258.git'`
 
 - [Manifests](#manifests)
-    - [Available manifests for instllation](#available-manifests-for-instllation)
+    - [Available manifests for installation](#available-manifests-for-installation)
     - [Moved to other bucket](#moved-to-other-bucket)
-    - [TODO](#todo)
+    - [TODOs](#todos)
 - [How to write manifests](#how-to-write-manifests)
 
 ## Manifests
 
-### Available manifests for instllation
+### Available manifests for installation
 
 | App name **(Scoop name)**                                                                                                             | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
@@ -148,11 +148,7 @@
 | [SystemNinja](https://github.com/lukesampson/scoop-extras/blob/master/bzzt.json)                   | [TODOCOMMIT](https://github.com/lukesampson/scoop-extras/commit/)                                 | [TODOCOMMIT](https://www.github.com/lukesampson/scoop-extras/commit/) ([lukesampson/scoop-extras#1387](https://www.github.com/lukesampson/scoop-extras/pull/))                                      |
 -->
 
-### TODO
-
-- JetBrains
-    1. Sort checkver parameters
-        1. `&latest=true&platform=zip|windows&type=release|rc|eap`
+### TODOs
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
