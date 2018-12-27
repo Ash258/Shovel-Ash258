@@ -1,6 +1,6 @@
 {
     "version": "2018.3-183.4284.118",
-    "description": "IntelliJ IDEA Early Access Program. Cross-Platform Java IDE for professional developers by JetBrains.",
+    "description": "IntelliJ IDEA Community Early Access Program. Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "url": "https://download.jetbrains.com/idea/ideaIC-183.4284.118.win.zip",
     "hash": "1077958df26d33fd74016074f0d5391217afb200e7aa8704e2de5bd244460d82",
@@ -9,7 +9,7 @@
             "shortcuts": [
                 [
                     "bin\\idea64.exe",
-                    "IntelliJ IDEA (Early Access Program)"
+                    "IntelliJ IDEA Community (Early Access Program)"
                 ]
             ]
         },
@@ -17,7 +17,7 @@
             "shortcuts": [
                 [
                     "bin\\idea.exe",
-                    "IntelliJ IDEA (Early Access Program)"
+                    "IntelliJ IDEA Community (Early Access Program)"
                 ]
             ]
         }

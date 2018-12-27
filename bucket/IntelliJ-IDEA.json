@@ -1,6 +1,6 @@
 {
     "version": "2018.3.2-183.4886.37",
-    "description": "IntelliJ IDEA. Cross-Platform Java IDE for professional developers by JetBrains.",
+    "description": "IntelliJ IDEA Community. Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "url": "https://download.jetbrains.com/idea/ideaIC-2018.3.2.win.zip",
     "hash": "b8c40e9233912eee86b7f199af590771e8b7203f83c25b55f642bc887b07652e",
@@ -13,7 +13,7 @@
             "shortcuts": [
                 [
                     "bin\\idea64.exe",
-                    "IntelliJ IDEA"
+                    "IntelliJ IDEA Community"
                 ]
             ]
         },
@@ -22,7 +22,7 @@
             "shortcuts": [
                 [
                     "bin\\idea.exe",
-                    "IntelliJ IDEA"
+                    "IntelliJ IDEA Community"
                 ]
             ]
         }

@@ -63,6 +63,9 @@
 | [JetBrain's IntelliJ-IDEA Ultimate (Release Candidate) **(IntelliJ-IDEA-Ultimate-RC)**](./bucket/IntelliJ-IDEA-Ultimate-RC.json)      |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's PhpStorm **(PhpStorm)**](./bucket/PhpStorm.json)                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's PhpStorm (Early Access Program) **(PhpStorm-EAP)**](./bucket/PhpStorm-EAP.json)                                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's PyCharm Community **(PyCharm-Community)**](./bucket/PyCharm.json)                                                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's PyCharm Community (Early Access Program) **(PyCharm-Community-EAP)**](./bucket/PyCharm-EAP.json)                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's PyCharm Community (Release Candidate) **(PyCharm-Community-RC)**](./bucket/PyCharm-RC.json)                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                                                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's RubyMine **(RubyMine)**](./bucket/RubyMine.json)                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
@@ -152,9 +155,6 @@
 | -----------------------------------------------------------------------------------------                                               |  ---   |   ---    |       -----       |
 | [JetBrain's Hub **(Hub)**](./TODO/JetBrains/Hub.json)                                                                                   |
 | [JetBrain's MPS **(MPS)**](./TODO/JetBrains/MPS.json)                                                                                   |
-| [JetBrain's PyCharm Community **(PyCharm-Community)**](./TODO/JetBrains/PyCharm-Community.json)                                         |
-| [JetBrain's PyCharm Community (Early Access Program) **(PyCharm-Community-EAP)**](./TODO/JetBrains/PyCharm-Community-EAP.json)          |
-| [JetBrain's PyCharm Community (Release Candidate) **(PyCharm-Community-RC)**](./TODO/JetBrains/PyCharm-Community-RC.json)               |
 | [JetBrain's PyCharm Professional **(PyCharm-Professional)**](./TODO/JetBrains/PyCharm-Professional.json)                                |
 | [JetBrain's PyCharm Professional (Early Access Program) **(PyCharm-Professional-EAP)**](./TODO/JetBrains/PyCharm-Professional-EAP.json) |
 | [JetBrain's PyCharm Professional (Release Candidate) **(PyCharm-Professional-RC)**](./TODO/JetBrains/PyCharm-Professional-RC.json)      |

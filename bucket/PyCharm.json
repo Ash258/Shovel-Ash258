@@ -1,23 +1,28 @@
 {
-    "version": "2018.3-183.4284.118",
-    "description": "IntelliJ IDEA Community Release Candidate. Cross-Platform Java IDE for professional developers by JetBrains.",
-    "homepage": "https://www.jetbrains.com/idea/",
-    "url": "https://download.jetbrains.com/idea/ideaIC-183.4284.118.win.zip",
-    "hash": "1077958df26d33fd74016074f0d5391217afb200e7aa8704e2de5bd244460d82",
+    "version": "2018.3.2-183.4886.43",
+    "description": "PyCharm Community. Cross-Platform Python IDE for professional developers by JetBrains.",
+    "homepage": "https://www.jetbrains.com/pycharm/",
+    "url": "https://download.jetbrains.com/python/pycharm-community-2018.3.2.exe#/cosi.7z",
+    "hash": "3ba823af8244a87e81ce6d18fe6cc617d56284add9a1c8385f433efb30a34e76",
     "architecture": {
         "64bit": {
+            "bin": [
+                "bin\\pycharm.bat",
+                "bin\\pycharm64.exe"
+            ],
             "shortcuts": [
                 [
-                    "bin\\idea64.exe",
-                    "IntelliJ IDEA Community (Release Candidate)"
+                    "bin\\pycharm64.exe",
+                    "PyCharm Community"
                 ]
             ]
         },
         "32bit": {
+            "bin": "bin\\pycharm.exe",
             "shortcuts": [
                 [
-                    "bin\\idea.exe",
-                    "IntelliJ IDEA Community (Release Candidate)"
+                    "bin\\pycharm.exe",
+                    "PyCharm Community"
                 ]
             ]
         }
@@ -38,7 +43,8 @@
             "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
             "        # Rewrite properties file",
             "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
-            "}"
+            "}",
+            "Remove-Item \"$dir\\`$*\" -Force -Recurse"
         ]
     },
     "persist": [
@@ -46,12 +52,12 @@
         "persistedConfig"
     ],
     "checkver": {
-        "url": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&platform=zip&type=rc",
+        "url": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&platform=zip&type=release",
         "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/idea/ideaIC-$matchBuild.win.zip",
+        "url": "https://download.jetbrains.com/python/pycharm-community-$matchVer.exe#/cosi.7z",
         "hash": {
             "url": "$url.sha256"
         }
