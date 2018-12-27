@@ -52,6 +52,9 @@
 | [JetBrain's DataGrip **(DataGrip)**](./bucket/DataGrip.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./bucket/DataGrip-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's DataGrip (Release Candidate) **(DataGrip-RC)**](./bucket/DataGrip-RC.json)         |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's GoLand **(GoLand)**](./bucket/GoLand.json)                                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's GoLand (Early Access Program) **(GoLand-EAP)**](./bucket/GoLand-EAP.json)          |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's GoLand (Release Candidate) **(GoLand-RC)**](./bucket/GoLand-RC.json)               |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
@@ -134,9 +137,6 @@
 | App name **(Scoop name)**                                                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
-| [JetBrain's GoLand **(GoLand)**](./TODO/JetBrains/GoLand.json)                                                                                |
-| [JetBrain's GoLand (Early Access Program) **(GoLand-EAP)**](./TODO/JetBrains/GoLand-EAP.json)                                                 |
-| [JetBrain's GoLand (Release Candidate) **(GoLand-RC)**](./TODO/JetBrains/GoLand-RC.json)                                                      |
 | [JetBrain's Hub **(Hub)**](./TODO/JetBrains/Hub.json)                                                                                         |
 | [JetBrain's IntelliJ-IDEA **(IntelliJ-IDEA)**](./TODO/JetBrains/IntelliJ-IDEA.json)                                                           |
 | [JetBrain's IntelliJ-IDEA (Early Access Program) **(IntelliJ-IDEA-EAP)**](./TODO/JetBrains/IntelliJ-IDEA-EAP.json)                            |

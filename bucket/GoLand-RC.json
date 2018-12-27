@@ -1,0 +1,60 @@
+{
+    "version": "2018.3.2-183.4886.44",
+    "description": "GoLand Release Candidate. Cross-Platform, Clever IDE to Go by JetBrains.",
+    "homepage": "https://www.jetbrains.com/goland/",
+    "url": "https://download.jetbrains.com/go/goland-2018.3.2.exe#/cosi.7z",
+    "hash": "afe8c5c71749e4684efdb6029d071fbb1722eece21fc08b0196875174733ff26",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "bin\\goland64.exe",
+                    "GoLand (Release Candidate)"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "bin\\goland.exe",
+                    "GoLand (Release Candidate)"
+                ]
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$newDir = \"$(Split-Path \"$dir\")\\current\" -replace '\\\\', '/'",
+            "$file = 'idea.properties'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $file = \"$dir\\bin\\$file\"",
+            "    $CONT = Get-Content $file",
+            "    $persistedConfigDir = \"$newDir/persistedConfig\"",
+            "        # Replacing config options",
+            "    $CONT = $CONT -replace '^# idea.config.path=.*$', \"idea.config.path=$persistedConfigDir/config\"",
+            "    $CONT = $CONT -replace '^# idea.system.path=.*$', \"idea.system.path=$persistedConfigDir/system\"",
+            "    $CONT = $CONT -replace '^# idea.plugins.path=', 'idea.plugins.path='",
+            "    $CONT = $CONT -replace '^# idea.log.path=', 'idea.plugins.path='",
+            "        # Rewrite properties file",
+            "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii -Force",
+            "}"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
+    "persist": [
+        "bin\\idea.properties",
+        "persistedConfig"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=GO&latest=true&platform=zip&type=rc",
+        "regex": "version\":\"(?<ver>[\\d\\.]+)\".*\"build\":\"(?<build>[\\d\\.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/go/goland-$matchBuild.exe#/cosi.7z",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
