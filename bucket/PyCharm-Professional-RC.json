@@ -1,9 +1,9 @@
 {
-    "version": "2018.3.2-183.4886.43",
+    "version": "2018.3-183.4284.116",
     "description": "PyCharm Professional Release Candidate. Cross-Platform Python IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/pycharm/",
-    "url": "https://download.jetbrains.com/python/pycharm-professional-2018.3.2.exe#/cosi.7z",
-    "hash": "f0abc2a34bbe8d4128a42cce69fd4ff618b8330e3a021bff13b5defa7c22c7ee",
+    "url": "https://download.jetbrains.com/python/pycharm-professional-183.4284.116.exe#/cosi.7z",
+    "hash": "a20c1a538840c566669db62c1291ff2989f6d4966f1f8ec54ef6748bf2b63f12",
     "architecture": {
         "64bit": {
             "shortcuts": [
