@@ -12,103 +12,106 @@
 
 ### Available manifests for instllation
 
-| App name **(Scoop name)**                                                                      | Tested | Checkver | Autoupdate (Hash) |
-| ---------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Aida64 Extreme **(Aida64)**](./bucket/Aida64.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                     |   ✔    |    ✔     |       ✔ (✔)       |
-| [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                  |   ✔    |    ✔     |       ✔ (✔)       |
-| [AutoClicker Targeted **(AutoClickerTargeted)**](./bucket/AutoClickerTargeted.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                 |   ✔    |    ♻     |       ♻ (♻)       |
-| [Bzzt! Image Editor **(Bzzt)**](./bucket/Bzzt.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CCleaner Professional **(CCleanerPro)**](./bucket/CCleanerPro.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
-| [Corsair's iCue **(iCue)**](./bucket/iCue.json)                                                |  ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                           |  ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                           |  ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CPU-V **(CPU-V)**](./bucket/CPU-V.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                               |   ❌    |    ✔     |       ✔ (✔)       |
-| [Docker **(docker)**](./bucket/docker.json)                                                    |   🎃   |    ♻     |       ♻ (♻)       |
-| [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                 |   ✔    |    ♻     |       ♻ (♻)       |
-| [Eusing Clenaer **(EusingCleaner)**](./bucket/EusingCleaner.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.json)                   |   ✔    |    ✔     |       ✔ (✔)       |
-| [FastShare Download Manager **(FastShare)**](./bucket/FastShare.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [FlashBoot **(FlashBoot)**](./bucket/FlashBoot.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [FreeRapid Downloader **(FRD)**](./bucket/FRD.json)                                            |   ✔    |    ❌     |       ❌ (⛔)       |
-| [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                        |   ✔    |    ✔     |       ✔ (✔)       |
-| [Get Video Details **(GVD)**](./bucket/GVD.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                             |   ✔    |    ✔     |      ❗❗ (⛔)       |
-| [Greenshot **(Greenshot)**](./bucket/Greenshot.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [JetBrain's CLion **(CLion)**](./bucket/CLion.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's CLion (Release Candidate) **(CLion-RC)**](./bucket/CLion-RC.json)                  |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's CLion (Early Access Program) **(CLion-EAP)**](./bucket/CLion-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's DataGrip **(DataGrip)**](./bucket/DataGrip.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./bucket/DataGrip-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's DataGrip (Release Candidate) **(DataGrip-RC)**](./bucket/DataGrip-RC.json)         |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's GoLand **(GoLand)**](./bucket/GoLand.json)                                         |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's GoLand (Early Access Program) **(GoLand-EAP)**](./bucket/GoLand-EAP.json)          |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's GoLand (Release Candidate) **(GoLand-RC)**](./bucket/GoLand-RC.json)               |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's PhpStorm **(PhpStorm)**](./bucket/PhpStorm.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's PhpStorm (Early Access Program) **(PhpStorm-EAP)**](./bucket/PhpStorm-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)             |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's RubyMine **(RubyMine)**](./bucket/RubyMine.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's RubyMine (Early Access Program) **(RubyMine-EAP)**](./bucket/RubyMine-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's RubyMine (Release Candidate) **(RubyMine-RC)**](./bucket/RubyMine-RC.json)         |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's WebStorm **(WebStorm)**](./bucket/WebStorm.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
-| [JetBrain's WebStorm (Early Access Program) **(WebStorm-EAP)**](./bucket/WebStorm-EAP.json)    |   ✔    |    ✔     |       ✔ (✔)       |
-| [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [KMSpico **(KMS)**](./bucket/KMS.json)                                                         |   ✔    |    ✔❓    |       ✔ (⛔)       |
-| [Listary **(Listary)**](./bucket/Listary.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Make Partition Image **(MPI)**](./bucket/MPI.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json) |   ✔    |    ♻     |       ♻ (♻)       |
-| [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                       |  ✔🔶   |    ✔     |       ✔ (✔)       |
-| [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [NVidia Profile Inspector **(NVidiaInspector)**](./bucket/NVidiaInspector.json)                |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Origin **(Origin)**](./bucket/Origin.json)                                                    |   ✔    |    ♻     |       ♻ (♻)       |
-| [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
-| [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                     |   ✔    |    ✔     |       ✔ (✔)       |
-| [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                       |  ✔🔶   |    ✔     |       ✔ (✔)       |
-| [Scoop Auto Completion **(scoop-auto-completion)**](./bucket/scoop-auto-completion.json)       |   ✔    |    ♻     |       ♻ (♻)       |
-| [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
-| [Speccy **(Speccy)**](./bucket/Speccy.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Spotify **(Spotify)**](./bucket/Spotify.json)                                                 |   🎃   |    ♻     |       ♻ (♻)       |
-| [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Steam Bulk Activator **(SteamBulkActivator)**](./bucket/SteamBulkActivator.json)              |   ✔    |    ✔     |       ✔ (✔)       |
-| [Steam Cleaner **(SteamCleaner)**](./bucket/SteamCleaner.json)                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Steam Idle Master **(IdleMaster)**](./bucket/IdleMaster.json)                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [SuperF4 **(SuperF4)**](./bucket/SuperF4.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                    |   ✔    |    ✔     |       ❌ (⛔)       |
-| [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Text Editor Anywhere **(TEA)**](./bucket/TEA.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Total Commander **(TotalCommander)**](./bucket/TotalCommander.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Unreal Commander **(UnrealCommander)**](./bucket/UnrealCommander.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Uplay **(Uplay)**](./bucket/Uplay.json)                                                       |   ✔    |    ♻     |       ♻ (♻)       |
-| [Visual Paradigm Community Edition **(VisualParadigmCE)**](./bucket/VisualParadigmCE.json)     |   ✔    |    ✔     |       ✔ (✔)       |
-| [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.json)    |   ✔    |    ✔     |       ✔ (✔)       |
-| [VMware **(VMware)**](./bucket/VMware.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
-| [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
-| [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                        |   ✔    |    ✔     |       ✔ (✔)       |
-| [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                 |   ✔    |    ✔     |       ❌ (⛔)       |
-| [Windows ISO Downloader **(WindowsISODownloader)**](./bucket/WindowsISODownloader.json)        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)        |   ✔    |    ✔     |       ✔ (✔)       |
-| [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| App name **(Scoop name)**                                                                                  | Tested | Checkver | Autoupdate (Hash) |
+| ---------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Aida64 Extreme **(Aida64)**](./bucket/Aida64.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
+| [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
+| [AutoClicker Targeted **(AutoClickerTargeted)**](./bucket/AutoClickerTargeted.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                             |   ✔    |    ♻     |       ♻ (♻)       |
+| [Bzzt! Image Editor **(Bzzt)**](./bucket/Bzzt.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CCleaner Professional **(CCleanerPro)**](./bucket/CCleanerPro.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [Corsair's iCue **(iCue)**](./bucket/iCue.json)                                                            |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                                       |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                                       |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CPU-V **(CPU-V)**](./bucket/CPU-V.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                           |   ❌    |    ✔     |       ✔ (✔)       |
+| [Docker **(docker)**](./bucket/docker.json)                                                                |   🎃   |    ♻     |       ♻ (♻)       |
+| [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                             |   ✔    |    ♻     |       ♻ (♻)       |
+| [Eusing Clenaer **(EusingCleaner)**](./bucket/EusingCleaner.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.json)                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [FastShare Download Manager **(FastShare)**](./bucket/FastShare.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [FlashBoot **(FlashBoot)**](./bucket/FlashBoot.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [FreeRapid Downloader **(FRD)**](./bucket/FRD.json)                                                        |   ✔    |    ❌     |       ❌ (⛔)       |
+| [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                                    |   ✔    |    ✔     |       ✔ (✔)       |
+| [Get Video Details **(GVD)**](./bucket/GVD.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                                         |   ✔    |    ✔     |      ❗❗ (⛔)       |
+| [Greenshot **(Greenshot)**](./bucket/Greenshot.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [JetBrain's CLion **(CLion)**](./bucket/CLion.json)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's CLion (Release Candidate) **(CLion-RC)**](./bucket/CLion-RC.json)                              |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's CLion (Early Access Program) **(CLion-EAP)**](./bucket/CLion-EAP.json)                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's DataGrip **(DataGrip)**](./bucket/DataGrip.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's DataGrip (Early Access Program) **(DataGrip-EAP)**](./bucket/DataGrip-EAP.json)                |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's DataGrip (Release Candidate) **(DataGrip-RC)**](./bucket/DataGrip-RC.json)                     |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's GoLand **(GoLand)**](./bucket/GoLand.json)                                                     |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's GoLand (Early Access Program) **(GoLand-EAP)**](./bucket/GoLand-EAP.json)                      |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's GoLand (Release Candidate) **(GoLand-RC)**](./bucket/GoLand-RC.json)                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's IntelliJ-IDEA **(IntelliJ-IDEA)**](./bucket/IntelliJ-IDEA.json)                                |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's IntelliJ-IDEA (Early Access Program) **(IntelliJ-IDEA-EAP)**](./bucket/IntelliJ-IDEA-EAP.json) |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's IntelliJ-IDEA (Release Candidate) **(IntelliJ-IDEA-RC)**](./bucket/IntelliJ-IDEA-RC.json)      |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's PhpStorm **(PhpStorm)**](./bucket/PhpStorm.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's PhpStorm (Early Access Program) **(PhpStorm-EAP)**](./bucket/PhpStorm-EAP.json)                |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's Rider **(Rider)**](./bucket/Rider.json)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's Rider (Early Access Program) **(Rider-EAP)**](./bucket/Rider-EAP.json)                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's RubyMine **(RubyMine)**](./bucket/RubyMine.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's RubyMine (Early Access Program) **(RubyMine-EAP)**](./bucket/RubyMine-EAP.json)                |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's RubyMine (Release Candidate) **(RubyMine-RC)**](./bucket/RubyMine-RC.json)                     |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's YouTrack **(YouTrack)**](./bucket/YouTrack.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's WebStorm **(WebStorm)**](./bucket/WebStorm.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrain's WebStorm (Early Access Program) **(WebStorm-EAP)**](./bucket/WebStorm-EAP.json)                |   ✔    |    ✔     |       ✔ (✔)       |
+| [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [KMSpico **(KMS)**](./bucket/KMS.json)                                                                     |   ✔    |    ✔❓    |       ✔ (⛔)       |
+| [Listary **(Listary)**](./bucket/Listary.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Make Partition Image **(MPI)**](./bucket/MPI.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)             |   ✔    |    ♻     |       ♻ (♻)       |
+| [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                                   |  ✔🔶   |    ✔     |       ✔ (✔)       |
+| [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [NVidia Profile Inspector **(NVidiaInspector)**](./bucket/NVidiaInspector.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Origin **(Origin)**](./bucket/Origin.json)                                                                |   ✔    |    ♻     |       ♻ (♻)       |
+| [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
+| [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                   |  ✔🔶   |    ✔     |       ✔ (✔)       |
+| [Scoop Auto Completion **(scoop-auto-completion)**](./bucket/scoop-auto-completion.json)                   |   ✔    |    ♻     |       ♻ (♻)       |
+| [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Spotify **(Spotify)**](./bucket/Spotify.json)                                                             |   🎃   |    ♻     |       ♻ (♻)       |
+| [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Steam Bulk Activator **(SteamBulkActivator)**](./bucket/SteamBulkActivator.json)                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [Steam Cleaner **(SteamCleaner)**](./bucket/SteamCleaner.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Steam Idle Master **(IdleMaster)**](./bucket/IdleMaster.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [SuperF4 **(SuperF4)**](./bucket/SuperF4.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                                |   ✔    |    ✔     |       ❌ (⛔)       |
+| [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Text Editor Anywhere **(TEA)**](./bucket/TEA.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Total Commander **(TotalCommander)**](./bucket/TotalCommander.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Unreal Commander **(UnrealCommander)**](./bucket/UnrealCommander.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Uplay **(Uplay)**](./bucket/Uplay.json)                                                                   |   ✔    |    ♻     |       ♻ (♻)       |
+| [Visual Paradigm Community Edition **(VisualParadigmCE)**](./bucket/VisualParadigmCE.json)                 |   ✔    |    ✔     |       ✔ (✔)       |
+| [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.json)                |   ✔    |    ✔     |       ✔ (✔)       |
+| [VMware **(VMware)**](./bucket/VMware.json)                                                                |   ✔    |    ✔     |       ✔ (✔)       |
+| [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
+| [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
+| [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                             |   ✔    |    ✔     |       ❌ (⛔)       |
+| [Windows ISO Downloader **(WindowsISODownloader)**](./bucket/WindowsISODownloader.json)                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                    |   ✔    |    ✔     |       ✔ (✔)       |
+| [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other bucket
 
@@ -145,9 +148,6 @@
 | --------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | -----------------------------------------------------------------------------------------                                                     |  ---   |   ---    |       -----       |
 | [JetBrain's Hub **(Hub)**](./TODO/JetBrains/Hub.json)                                                                                         |
-| [JetBrain's IntelliJ-IDEA **(IntelliJ-IDEA)**](./TODO/JetBrains/IntelliJ-IDEA.json)                                                           |
-| [JetBrain's IntelliJ-IDEA (Early Access Program) **(IntelliJ-IDEA-EAP)**](./TODO/JetBrains/IntelliJ-IDEA-EAP.json)                            |
-| [JetBrain's IntelliJ-IDEA (Release Candidate) **(IntelliJ-IDEA-RC)**](./TODO/JetBrains/IntelliJ-IDEA-RC.json)                                 |
 | [JetBrain's IntelliJ-IDEA Ultimate **(IntelliJ-IDEA-Ultimate)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate.json)                                |
 | [JetBrain's IntelliJ-IDEA Ultimate (Early Access Program) **(IntelliJ-IDEA-Ultimate-EAP)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate-EAP.json) |
 | [JetBrain's IntelliJ-IDEA Ultimate (Release Candidate) **(IntelliJ-IDEA-Ultimate-RC)**](./TODO/JetBrains/IntelliJ-IDEA-Ultimate-RC.json)      |
