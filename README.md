@@ -152,6 +152,7 @@
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                      |   ❌    |    ✔     |       ✔ (✔)       |
 | ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
 | [JetBrain's Hub **(Hub)**](./TODO/JetBrains/Hub.json)                                     |
 | [JetBrain's MPS **(MPS)**](./TODO/JetBrains/MPS.json)                                     |
