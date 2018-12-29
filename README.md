@@ -96,6 +96,7 @@
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                                              |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [Scoop Auto Completion **(scoop-auto-completion)**](./bucket/scoop-auto-completion.json)                                              |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
+| [Skype **(Skype)**](./bucket/Skype.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                                                        |   🎃   |    ♻     |       ♻ (♻)       |
 | [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |

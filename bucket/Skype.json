@@ -1,0 +1,24 @@
+{
+    "version": "8.36.0.52",
+    "description": "Skype. Communication tool for free calls and chat.",
+    "homepage": "https://www.skype.com/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://endpoint920510.azureedge.net/s4l/s4l/download/win/Skype-8.36.0.52.exe",
+    "hash": "7788d5beac2ab535b7d9e597c34719ab062d75c5515289b6ee58c663a1ad0422",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Skype.exe",
+            "Skype"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.skaip.org/",
+        "regex": "Skype ([\\d\\.]+) for Windows"
+    },
+    "autoupdate": {
+        "url": "https://endpoint920510.azureedge.net/s4l/s4l/download/win/Skype-$version.exe"
+    }
+}
