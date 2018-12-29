@@ -1,31 +1,30 @@
 {
-    "version": "3.5",
-    "description": "Post Install. Custom windows 10 post installer.",
-    "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
+    "##": "TODO: Make autoupdate for all urls",
+    "version": "1.5",
+    "description": "PostInstall. Easily setup fresh installed Windows 10 machine.",
+    "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1",
     "license": {
         "identifier": "MIT"
     },
-    "notes": [
-        "Could be run via \"PostInstall\".",
-        "Also \"-SkipActivation\" parameter is available for skipping KMSpico activation."
-    ],
+    "depends": "Win10InitialSetup",
     "url": [
-        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1",
-        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.User.ps1"
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1",
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Preset.txt",
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/Win10-Initial-Setup-Include.psm1"
     ],
     "hash": [
-        "b57288fac4984c5034e577076675e6c8d2ddf381be52432dffd2a19ab257f770",
-        "75269e9878d1b7238720b29285e0370df46afc59f14a7c51e10031613f9ffb1d"
+        "1f02b3cebc7758d35c6c18e9c47a849be743e6d0c4d4548effd3f255c78a17a2",
+        "2af6db5699d856d497b6fab74adb770f3855ee3c9046903933df5d5649e60fe7",
+        "a1b8d9542a5c95b15b45b35d86d80bd37c01ff4d340c775c3c5d01dc6316999b"
     ],
     "bin": [
-        "PostInstall.ps1",
         [
-            "PostInstall.User.ps1",
-            "PostInstall-User"
+            "PostInstall.Win10InitialSetup.ps1",
+            "PostInstall"
         ]
     ],
-    "checkver": "<#\\s+\\.VERSION\\s+([\\d\\.]+)",
+    "checkver": "\\.VERSION\\s+([\\d\\.]+)",
     "autoupdate": {
-        "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.ps1"
+        "url": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1"
     }
 }

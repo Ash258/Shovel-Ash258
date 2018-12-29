@@ -44,7 +44,7 @@
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                                                                    |   ✔    |    ✔     |      ❗❗ (⛔)       |
+| [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Greenshot **(Greenshot)**](./bucket/Greenshot.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JetBrain's CLion **(CLion)**](./bucket/CLion.json)                                                                                   |   ✔    |    ✔     |       ✔ (✔)       |
