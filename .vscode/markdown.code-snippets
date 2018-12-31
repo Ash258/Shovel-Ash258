@@ -9,6 +9,15 @@
         "scope": "md, markdown",
         "prefix": "movedTableLine",
         // TOOD: hardcoded json
-        "body": "|[${1:Manifest Name}](https://github.com/${2|user,lukesampson,scoopinstaller|}/${3|repo,scoop,scoop-extras|}/blob/master/${4:manifest}.json)|[${5/^(.{7}).*$/${1}/}](https://github.com/Ash258/scoop-Ash258/commit/${5:COMMIT_ID})|[${6/^(.{7}).*$/${1}/}](https://github.com/${2}/${3}/commit/${6:REMOTE_COMMIT_ID}) ([${2}/${3}#${7:PR ID}](https://github.com/${2}/${3}/pull/${7}))|",
+        "body": "|[${1:Manifest Name}](https://github.com/${8:${2|user,lukesampson,scoopinstaller|}/${3|repo,scoop,scoop-extras|}}/blob/master/${4:manifest}.json)|[${5/^(.{7}).*$/${1}/}](https://github.com/Ash258/scoop-Ash258/commit/${5:COMMIT_ID})|[${6/^(.{7}).*$/${1}/}](https://github.com/${8}/commit/${6:REMOTE_COMMIT_ID}) ([${8}#${7:PR ID}](https://github.com/${8}/pull/${7}))|$0",
+    },
+    "cois": {
+        "scope": "md, markdown",
+        "prefix": "cosi",
+        // TOOD: hardcoded json
+        "body": [
+            "https://github.com/${8:${2|user,lukesampson,scoopinstaller|}/${3|repo,scoop,scoop-extras|}}/blob/master/",
+            "${8}",
+        ],
     },
 }
