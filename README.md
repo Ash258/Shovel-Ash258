@@ -147,7 +147,6 @@
 TODO:
 Borderless gaming
 Bzzt image editor
-System Ninja
 -->
 
 ### TODOs
