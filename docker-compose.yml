@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+  scoop:
+    build: .
+    container_name: SCOOP_BUCKET_DEBUG
+    volumes:
+      - .:C:\SCOOP\buckets\Ash258
