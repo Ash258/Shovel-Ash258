@@ -9,6 +9,6 @@
         "scope": "md, markdown",
         "prefix": "movedTableLine",
         // TOOD: hardcoded json
-        "body": "| [${1:Manifest Name}](https://github.com/${2:user}/${3:repository}/tree/master/${4:manifest}.json)|[${5:Local Short Commit}](https://github.com/Ash258/scoop-Ash258/commit/${6:COMMIT ID 7 characters})|[${7:Remote Short Commit}](https://github.com/${2}/${3}/commit/${8: Remote Long Commit}) ([${2}/${3}#${9:PR ID}](https://github.com/${2}/${3}/pull/${9}))",
+        "body": "|[${1:Manifest Name}](https://github.com/${2:user}/${3:repository}/tree/master/${4:manifest}.json)|[${5:Local Short (7) Commit}](https://github.com/Ash258/scoop-Ash258/commit/${6:COMMIT_ID})|[${7:Remote Short (7) Commit}](https://github.com/${2}/${3}/commit/${8:Remote Long Commit}) ([${2}/${3}#${9:PR ID}](https://github.com/${2}/${3}/pull/${9}))|",
     },
 }
