@@ -10,7 +10,7 @@
     "extract_dir": "UWT4\\Ultimate Windows Tweaker 4.5",
     "installer": {
         "script": [
-            "$rename = (Get-ChildItem \"$dir\" 'Ultimate Windows*')[0]",
+            "$rename = (Get-ChildItem \"$dir\" 'Ultimate Windows*exe')[0]",
             "Rename-Item \"$dir\\$rename\" \"$dir\\UWT.exe\""
         ]
     },
