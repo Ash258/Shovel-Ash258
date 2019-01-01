@@ -110,6 +110,9 @@
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Text Editor Anywhere **(TEA)**](./bucket/TEA.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.json)                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [UltimateWindowsTweaker **(UltimateWindowsTweaker)**](./bucket/UltimateWindowsTweaker.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [UltimateWindowsTweaker 2 **(UltimateWindowsTweaker2)**](./bucket/UltimateWindowsTweaker2.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [UltimateWindowsTweaker 3 **(UltimateWindowsTweaker3)**](./bucket/UltimateWindowsTweaker3.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Unreal Commander **(UnrealCommander)**](./bucket/UnrealCommander.json)                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Uplay **(Uplay)**](./bucket/Uplay.json)                                                                                              |   ✔    |    ♻     |       ♻ (♻)       |
 | [Visual Paradigm Community Edition **(VisualParadigmCE)**](./bucket/VisualParadigmCE.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
@@ -119,7 +122,6 @@
 | [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                                                        |   ✔    |    ✔     |       ❌ (⛔)       |
-| [Windows ISO Downloader **(WindowsISODownloader)**](./bucket/WindowsISODownloader.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
