@@ -98,6 +98,7 @@
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                                              |  ✔🔶   |    ✔     |       ✔ (✔)       |
+| [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Scoop Auto Completion **(scoop-auto-completion)**](./bucket/scoop-auto-completion.json)                                              |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [Skype **(Skype)**](./bucket/Skype.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
