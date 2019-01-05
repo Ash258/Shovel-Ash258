@@ -37,6 +37,7 @@
 | [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                                                      |   ❌    |    ✔     |       ✔ (✔)       |
 | [Docker **(docker)**](./bucket/docker.json)                                                                                           |   🎃   |    ♻     |       ♻ (♻)       |
+| [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [Eusing Clenaer **(EusingCleaner)**](./bucket/EusingCleaner.json)                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
