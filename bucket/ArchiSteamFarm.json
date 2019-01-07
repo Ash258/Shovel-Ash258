@@ -1,5 +1,5 @@
 {
-    "version": "3.4.1.7",
+    "version": "3.4.2.2",
     "description": "ArchiSteamFarm. Farm steam cards using multiple steam accounts simultaneously.",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/3.4.1.7/ASF-win-x64.zip#/cosi.7z",
-            "hash": "fb9e23b75f620f0328f51de3e75c64f28b81be86033e2adc3e8c65760026f6c4"
+            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/3.4.2.2/ASF-win-x64.zip#/cosi.7z",
+            "hash": "327f6162fcdfa8ab12e8ba31574a1b857b4ca886b066ac3368db8c9ed87f40c8"
         }
     },
     "persist": "config",
