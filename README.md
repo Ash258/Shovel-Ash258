@@ -34,6 +34,8 @@
 | [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                                                                  |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CPU-V **(CPU-V)**](./bucket/CPU-V.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [DirectX **(DirectX)**](./bucket/DirectX.json)                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
+| [DirectX-SDK **(DirectX-SDK)**](./bucket/DirectX-SDK.json)                                                                            |   ✔    |    ❌     |       ❌ (❌)       |
 | [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                                                      |   ❌    |    ✔     |       ✔ (✔)       |
 | [Docker **(docker)**](./bucket/docker.json)                                                                                           |   🎃   |    ♻     |       ♻ (♻)       |
