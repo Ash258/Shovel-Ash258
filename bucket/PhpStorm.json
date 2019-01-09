@@ -1,9 +1,9 @@
 {
-    "version": "2018.3.2-183.4886.46",
+    "version": "2018.3.3-183.5153.36",
     "description": "PhpStorm. Cross-Platform, Lightning-Smart IDE for PHP programming by JetBrains.",
     "homepage": "https://www.jetbrains.com/phpstorm/",
-    "url": "https://download.jetbrains.com/webide/PhpStorm-2018.3.2.exe#/cosi.7z",
-    "hash": "ce8e17f95a40de725abbae3534df5c53be4ffa37b1fd9a2bf100539828acea9f",
+    "url": "https://download.jetbrains.com/webide/PhpStorm-2018.3.3.exe#/cosi.7z",
+    "hash": "0fea523530c4e6cea6d3a3a938117cb6833d177eff6cee885bf747d6182df1b0",
     "architecture": {
         "64bit": {
             "bin": [
