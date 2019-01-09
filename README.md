@@ -164,6 +164,7 @@ Bzzt image editor
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                         |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                      |   ❌    |    ✔     |       ✔ (✔)       |
 | ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
 | [JetBrain's Hub **(Hub)**](./TODO/JetBrains/Hub.json)                                     |   ❌    |    ✔     |       ✔ (✔)       |
