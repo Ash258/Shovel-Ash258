@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "url": "https://www.visual-paradigm.com/download/community.jsp",
-        "regex": "Version: (?<ver>[\\d\\.]+).*Build number: (?<build>(\\d{8}))",
+        "regex": "Version:\\s*(?<ver>[\\d\\.]+).*Build number:\\s*(?<build>(\\d{8}))",
         "replace": "${ver}.${build}"
     },
     "autoupdate": {
