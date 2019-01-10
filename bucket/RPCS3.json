@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5-7679",
+    "version": "0.0.5-7680",
     "description": "RPCS3. Experimental open-source Sony PlayStation 3 emulator and debugger.",
     "homepage": "https://rpcs3.net/",
     "license": {
@@ -16,15 +16,17 @@
         "3.   Copy RAP file and paste it into '$dir\\dev_hdd0\\home\\00000001\\exdata'",
         "4.   Enjoy the game <3"
     ],
-    "depends": "vcredist2015",
+    "suggest": {
+        "Microsoft Visual C++ Runtime 2015": "vcredist2015"
+    },
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-d7cd280827c1a2d3e9cb5e7ae03b8055835aa5e1/rpcs3-v0.0.5-7679-d7cd2808_win64.7z",
+                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-0236b994e431482e8a36e242f408b37efb378bb0/rpcs3-v0.0.5-7680-0236b994_win64.7z",
                 "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2017_1113_152d950c365ede4130c53ceb18dcd43b/PS3UPDAT.PUP"
             ],
             "hash": [
-                "5781d1863ea65c4574420bb7032661cd34c943ccfddd1c63568c965846cc6ee6",
+                "989be5a7738b707f74019d39aa56c1f11d831f83955b5741117fea7bf3102cb4",
                 "a70669bc35a5d688c94f5db8e1eb4110295b1b076ccc3c8e4a7e9ee397a6ca41"
             ]
         }
