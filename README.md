@@ -28,6 +28,7 @@
 | [Caret **(Caret)**](./bucket/Caret.json)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [Caret Beta **(Caret-Beta)**](./bucket/Caret-Beta.json)                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [CCleaner Professional **(CCleanerPro)**](./bucket/CCleanerPro.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./TODO/TrainerManager.json)                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Corsair's iCue **(iCue)**](./bucket/iCue.json)                                                 |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                            |  ✔🔶   |    ✔     |       ✔ (⛔)       |
@@ -157,7 +158,6 @@ Bzzt image editor
 | [Nox App Player **(Nox)**](./TODO/Nox.json)                                               |   ❌    |    ❌     |       ❌ (❌)       |
 | [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            |   ❌    |    ❌     |       ❌ (❌)       |
 | [Free Download Manager **(FDM)**](./TODO/FDM.json)                                        |   ❌    |    ❌     |       ❌ (❌)       |
-| [CheatHappens Trainer Manager **(TrainerManager)**](./TODO/TrainerManager.json)           |   ❌    |    ❌     |       ❌ (❌)       |
 
 - 🔶 Additional testing is needed
 - ⭕ Not needed
