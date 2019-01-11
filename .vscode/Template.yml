@@ -6,21 +6,24 @@ homepage: https://ash258.com
 license:
   identifier: MIT
   url: https://ash258.com/license.md # Whenever it's possible attach program specific URL otherwise don't use
-notes:
-  - COSI
-  - COSI 2
+notes: Some notes printed after installation
+# or
+# notes:
+  # - COSI
+  # - COSI 2
 # endregion General Information
 
 # region Requirements
 # depends && suggest: STRING
 #   or Array of strings
 depends:
-  - extras/cosi
-  - COSI
+  - bucket/cosi
+  - COSI # bucket will be evaluated automatically as normal installation
 suggest:
-  COSI:
-    - COSI
-    - NEXT
+  SOME NAME: depending
+  # COSI:
+    # - COSI
+    # - NEXT
 # endregion Requirements
 
 # region Downloading
@@ -78,28 +81,15 @@ uninstaller:
 # endregion Installing
 
 # region Links
-persist: FOLDER
-# OR array of Strings
-# persist:
-#  - FOLDER
-#  - FILE.file
-
-# bin: SINGLE
-# or
 bin:
   - SINGLE
   - NEXTSingle
   - - FILE # Array with overrided properties
-    - NAME
-    - ARGUMENTS
-    - ICON
-env_add_path: SINGLE
+  - NAME
+  - ARGUMENTS
+  - ICON
 # or
-# env_add_path:
-#   - MULTIPLE
-#   - MULTIPLE
-env_set:
-  SomeENVKey: Value
+# bin: SINGLE
 shortcuts:
   - - FILE
     - NAME
@@ -109,15 +99,31 @@ shortcuts:
     - NAME
     - ARGS
     - ICON
+psmodule:
+  name: 'AdequateName'
+env_add_path: SINGLE
+# or
+# env_add_path:
+#   - MULTIPLE
+#   - MULTIPLE
+env_set:
+  SomeENVKey: Value
+persist: FOLDER
+# OR array of Strings
+# persist:
+#  - FOLDER
+#  - FILE.file
 # endregion Links
 
 # region Updating
-# checkver: STRING
-#   Use 'github' if hompage contains github repository url
+checkver: regex to be mached on homepage URL
 # or
-checkver:
-  url: URL
-  regex: someregex.* # Or JP
+# checkver: github # if homepage is set to github repository
+# or
+# checkver:
+#   url: URL
+#   regex: someregex.* # Or JP
+#   replace: ${NamedGroup}-${otherNamedGroup}
 autoupdate:
   url: https://ash258.com
   hash: # Some vendors does not ship hashes
