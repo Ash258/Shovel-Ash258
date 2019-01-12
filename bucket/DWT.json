@@ -10,7 +10,9 @@
         "Run As Administrator from start menu or run \"dwt -silent\" for automatic setup.",
         "Uninstall after usage."
     ],
-    "depends": "vcredist2015",
+    "suggest": {
+        "Microsoft Visual C++ Runtime 2015": "vcredist2015"
+    },
     "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/v3.2.1/dwt-3.2.1-cp27-win_x86.zip",
     "hash": "d4c31d005c1a676e9867f4a2a553299e55aa0857626d25a1d7dd84b00e505757",
     "post_install": "Remove-Item \"$dir\\COPYING.LESSER\", \"$dir\\COPYING\"",

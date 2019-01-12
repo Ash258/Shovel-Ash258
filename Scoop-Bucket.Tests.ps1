@@ -28,9 +28,9 @@ $INSTALL_FILES_EXCLUSIONS = @(
 	'TODO',
 	'KMS',
 	'E2B',
-	'TexLive',
 	'unlocker',
-	'Spotify'
+	'Spotify',
+	'TrainerManager'
 ) -join '|'
 $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
