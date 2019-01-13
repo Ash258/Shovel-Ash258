@@ -33,7 +33,6 @@
 | [Corsair's iCue **(iCue)**](./bucket/iCue.json)                                                 |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                            |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                            |  ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CPU-V **(CPU-V)**](./bucket/CPU-V.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DirectX **(DirectX)**](./bucket/DirectX.json)                                                  |   ✔    |    ❌     |       ❌ (❌)       |
 | [DirectX-SDK **(DirectX-SDK)**](./bucket/DirectX-SDK.json)                                      |   ✔    |    ❌     |       ❌ (❌)       |
@@ -129,6 +128,7 @@
 TODO:
 Borderless gaming
 Bzzt image editor
+qBitTorrent-portable
 -->
 
 ### TODOs
