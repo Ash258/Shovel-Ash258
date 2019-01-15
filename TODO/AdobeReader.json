@@ -1,13 +1,13 @@
 {
     "##": "TODO: Resolve uninstallation problem with Resrouces/*h files in use and need other privilages.",
-    "version": "19.010.20064",
+    "version": "19.010.20069",
     "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
     "homepage": "https://get.adobe.com/reader/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020064/AcroRdrDC1901020064_en_US.exe",
-    "hash": "0d0ebe29b5eb22d66d27d0d81d74bcaea5eaab3b1471ca61d1062be44a0ab44b",
+    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020069/AcroRdrDC1901020069_en_US.exe",
+    "hash": "d729b77c3bcf7bd4e37fd69298ab934e21b5156846f54537fa7da03446875e71",
     "installer": {
         "args": [
             "/sAll",

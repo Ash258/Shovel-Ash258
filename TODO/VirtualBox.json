@@ -1,5 +1,5 @@
 {
-    "version": "6.0.0-127566",
+    "version": "6.0.2-128162",
     "description": "",
     "homepage": "https://www.virtualbox.org/",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe",
-            "hash": "e943e84158057da06e3355b0e170b82507cbe7080f5bbf06c9f4a7674ffa783c"
+            "url": "https://download.virtualbox.org/virtualbox/6.0.2/VirtualBox-6.0.2-128162-Win.exe",
+            "hash": "42e9d4a3120585a3578072ecbf77dc707119ac19f4588e3fa327acfd52b21c87"
         }
     },
     "installer": {
