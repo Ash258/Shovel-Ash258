@@ -2,8 +2,7 @@
 .SYNOPSIS
 	Update manifest, commit and push.
 .DESCRIPTION
-	Use as vscode task.
-
+	Use as vscode task:
 		1. Open manifest in editor
 		1. Press CTRL+SHIFT+B or CTRL+F9 (IntelliJ)
 		1. Be surprised
@@ -12,19 +11,28 @@
 .PARAMETER Force
 	Force parameter will be passed to checkver.
 .PARAMETER Hashes
-	Checkhashes.ps1 script will be executed instead of checkver.ps1
+	checkhashes.ps1 script will be executed instead of checkver.ps1
 #>
 param(
 	[Alias('App')]
 	[String[]] $Manifest,
+	[Alias('ForceUpdate')]
 	[Switch] $Force,
 	[Switch] $Hashes
 )
 
-begin { if ($Force) { $arg = '-f' } else { $arg = '-u' } }
+begin {
+	. "$PSScriptRoot\Helpers.ps1"
+
+	if ($Force) { $arg = '-f' } else { $arg = '-u' }
+}
 
 process {
 	foreach ($man in $Manifest) {
+		# TODO: Yaml
+		# if (-not ($man.EndsWith('.yml'))) {
+		# 	$man += '.yml'
+		# }
 		if (-not ($man.EndsWith('.json'))) {
 			$man += '.json'
 		}
@@ -42,8 +50,10 @@ process {
 		$updated = @(git status -s)
 
 		if (($updated -match "$noExt").Count -gt 0) {
-			$json = Get-Content "$man" -Raw -Encoding UTF8 | ConvertFrom-Json
-			$version = $json.version
+			# TODO: Yaml
+			# $manifest = Get-COntent $man -Raw -Encoding UTF8 | ConvertFrom-Yaml -Ordered
+			$manifest = Get-Content "$man" -Raw -Encoding UTF8 | ConvertFrom-Json
+			$version = $manifest.version
 			$message = "${noExt}: Bumped to $version"
 
 			if ($Hashes) { $message = "${noExt}: Fixed hashes" }
