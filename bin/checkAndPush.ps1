@@ -39,7 +39,7 @@ process {
 		$man = Resolve-Path $man
 		$folder = Split-Path $man -Parent
 		$file = Split-Path $man -Leaf
-		$noExt = $file.Split('.')[0]
+		$noExt = ($file -split '\.')[0]
 		$cmd = 'checkver'
 
 		if ($Force) { scoop cache rm $noExt }
@@ -51,10 +51,9 @@ process {
 
 		if (($updated -match "$noExt").Count -gt 0) {
 			# TODO: Yaml
-			# $manifest = Get-COntent $man -Raw -Encoding UTF8 | ConvertFrom-Yaml -Ordered
-			$manifest = Get-Content "$man" -Raw -Encoding UTF8 | ConvertFrom-Json
-			$version = $manifest.version
-			$message = "${noExt}: Bumped to $version"
+			# $manifest = Get-Content $man -Raw -Encoding UTF8 | ConvertFrom-Yaml -Ordered
+			[psobject] $manifest = Get-Content $man -Raw -Encoding UTF8 | ConvertFrom-Json
+			$message = "$noExt`: Bumped to $($manifest.version)"
 
 			if ($Hashes) { $message = "${noExt}: Fixed hashes" }
 
