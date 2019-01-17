@@ -7,7 +7,6 @@
     },
     "url": "https://www.cheathappens.com/CoSMOS_Advanced_510.zip",
     "hash": "5d86feaeb98599193bcc0d3b6b9dab27a1f0d86481739a87963edffe85827f58",
-    "extract_dir": "cosmos510",
     "pre_install": [
         "$file = 'Settings.xml'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
@@ -60,7 +59,6 @@
         "regex": "CoSMOS Advanced Changelog ([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://www.cheathappens.com/CoSMOS_Advanced_$cleanVersion.zip",
-        "extract_dir": "cosmos$cleanVersion"
+        "url": "https://www.cheathappens.com/CoSMOS_Advanced_$cleanVersion.zip"
     }
 }
