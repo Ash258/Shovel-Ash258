@@ -1,10 +1,10 @@
 {
-    "version": "1.66",
+    "version": "1.67",
     "description": "ExperienceIndexOK. Effective solution to read and show Windows Experience Index.",
     "homepage": "http://www.softwareok.com/?seite=Microsoft/ExperienceIndexOK",
     "license": "Freeware",
     "url": "http://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
-    "hash": "d8384c0b8bd71148d15e409fe87eb12f2d996dc48f7dfdb266a1c7154b0db711",
+    "hash": "309725463343e678bf494d19cff27b39953ac196ecb75d80225c45145cd61b9e",
     "pre_install": [
         "$file = 'ExperienceIndexOK.ini'",
         "if (-not (Test-Path \"$dir\\$file\")) {",
