@@ -4,11 +4,11 @@
         "Explore if it's possible to do it after install.",
         "Otherwise, Install it."
     ],
-    "version": "3.10.125",
+    "version": "3.11.114",
     "description": "Corsair's iCue. Connects all your compatible products together in a single interface, giving you complete control of everything from RGB lighting and effects to fan speeds and temperature monitoring.",
     "homepage": "https://www.corsair.com/us/en/icue",
-    "url": "http://softwaredownloads.corsair.com/Files/CUE/iCUESetup_3.10.125_release.msi",
-    "hash": "c1ec0e2ab77a4b2bfa02cd0aaa9d7aa71cbd896579376fdb7971e6862636d07f",
+    "url": "http://softwaredownloads.corsair.com/Files/CUE/iCUESetup_3.11.114_release.msi",
+    "hash": "969403f943f0ef2589b5b9bca159ca4d84b4d1d4af1ba6deb7654fcbc1008fcc",
     "extract_dir": "Corsair\\iCue",
     "shortcuts": [
         [

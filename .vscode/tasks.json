@@ -119,5 +119,22 @@
             "group": "test",
             "problemMatcher": [],
         },
+        {
+            "label": "Push Auto-PR",
+            "type": "shell",
+            "command": ".\\bin\\auto-pr.ps1",
+            "args": [
+                "-Push",
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false,
+            },
+            "problemMatcher": [],
+        },
     ],
 }
