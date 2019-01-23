@@ -17,8 +17,8 @@
 param(
 	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
 	[String] $Dir = "$PSScriptRoot\..\bucket",
-	[ValidatePattern('^(.*)\/(.*):(.*)$')]
-	[String] $Upstream = $((git config --get remote.origin.url) -replace '.*:.*\/(?<user>.*)\/(?<repo>.*)(?:\.git)?', '${user}/${repo}:master'),
+	[ValidatePattern('^(.+)\/(.+):(.+)$')]
+	[String] $Upstream = $((git config --get remote.origin.url) -replace '^.+[:/](?<user>.*)\/(?<repo>.*)(\.git)?$', '${user}/${repo}:master'),
 	[Switch] $Push,
 	[Switch] $Request,
 	[string[]] $SpecialSnowflakes
@@ -26,6 +26,7 @@ param(
 
 begin {
 	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+	Write-Host $Upstream
 	$Dir = Resolve-Path $Dir
 	$Params = @{
 		Dir               = $Dir
