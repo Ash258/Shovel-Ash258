@@ -1,12 +1,12 @@
 {
-    "version": "5.1.1",
+    "version": "5.1.2",
     "description": "CosMOS Advanced. Brand new self-service gamehacking tool.",
     "homepage": "https://www.cheathappens.com/cosmos.asp",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://www.cheathappens.com/CoSMOS_Advanced_511.zip",
-    "hash": "3894e737112e543afc0a67131935bc78b6a9037ee641bc59c9d71f53e149682b",
+    "url": "https://www.cheathappens.com/CoSMOS_Advanced_512.zip",
+    "hash": "d68aee4f634fb0c2281240c7aaaf7ba875ad9401b5ce0977d7d9f2af9883d8b4",
     "pre_install": [
         "$file = 'Settings.xml'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
