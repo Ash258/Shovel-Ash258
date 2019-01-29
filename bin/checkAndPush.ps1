@@ -24,7 +24,7 @@ param(
 begin {
 	. "$PSScriptRoot\Helpers.ps1"
 
-	if ($Force) { $arg = '-f' } else { $arg = '-u' }
+	if ($Force) { $arg = '-ForceUpdate' } else { $arg = '-Update' }
 }
 
 process {

@@ -4,7 +4,10 @@
         {
             "label": "Check version (Whole repository)",
             "type": "shell",
-            "command": ".\\bin\\checkver.ps1 -Recurse",
+            "command": ".\\bin\\checkver.ps1",
+            "args": [
+                "-Recurse",
+            ],
             "presentation": {
                 "echo": true,
                 "reveal": "always",
@@ -17,11 +20,13 @@
         },
         {
             // Default (While opened file, Press CTRL+F9 / CTRL+SHIFT+B)
-            "label": "Check version and update (Actual)",
+            "label": "Check and update (Actual)",
             "type": "shell",
             "command": ".\\bin\\checkAndPush.ps1",
             "args": [
                 "'${file}'",
+                "${input:pickUpdateType}",
+                "${input:pickCheckType}",
             ],
             "presentation": {
                 "echo": true,
@@ -35,61 +40,6 @@
                 "kind": "build",
                 "isDefault": true,
             },
-        },
-        {
-            "label": "Check version and force update (Actual)",
-            "type": "shell",
-            "command": ".\\bin\\checkAndPush.ps1",
-            "args": [
-                "'${file}'",
-                "-Force",
-            ],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-            },
-            "group": "build",
-            "problemMatcher": [],
-        },
-        {
-            "label": "Check hashes and update (Actual)",
-            "type": "shell",
-            "command": ".\\bin\\checkAndPush.ps1",
-            "args": [
-                "'${file}'",
-                "-Hashes",
-            ],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-            },
-            "group": "build",
-            "problemMatcher": [],
-        },
-        {
-            "label": "Check hashes and force update (Actual)",
-            "type": "shell",
-            "command": ".\\bin\\checkAndPush.ps1",
-            "args": [
-                "'${file}'",
-                "-Force",
-                "-Hashes",
-            ],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-            },
-            "group": "build",
-            "problemMatcher": [],
         },
         {
             "label": "Test",
@@ -135,6 +85,28 @@
                 "clear": false,
             },
             "problemMatcher": [],
+        },
+    ],
+    "inputs": [
+        {
+            "id": "pickUpdateType",
+            "description": "Select how manifest should be updated.",
+            "type": "pickString",
+            "options": [
+                "-Update",
+                "-ForceUpdate",
+            ],
+            "default": "-Update",
+        },
+        {
+            "id": "pickCheckType",
+            "description": "Select what binary should be called.",
+            "type": "pickString",
+            "options": [
+                "-Hashes:$false",
+                "-Hashes",
+            ],
+            "default": "-Hashes:$false",
         },
     ],
 }
