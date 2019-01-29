@@ -1,5 +1,5 @@
 {
-    "version": "3.2.1",
+    "version": "3.2.2",
     "description": "Disable Win Tracking. Easily disable tracking / telemetry in Windows 10 with some known methods.",
     "homepage": "https://github.com/10se1ucgo/DisableWinTracking",
     "license": {
@@ -13,8 +13,8 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2015": "vcredist2015"
     },
-    "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/v3.2.1/dwt-3.2.1-cp27-win_x86.zip",
-    "hash": "d4c31d005c1a676e9867f4a2a553299e55aa0857626d25a1d7dd84b00e505757",
+    "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/3.2.2/dwt-3.2.2-cp27-win_x86.zip",
+    "hash": "9fccf3796aa791ce02bfdf221f716af38e9984aef15dd6acaca2267a25a3ba2d",
     "post_install": "Remove-Item \"$dir\\COPYING.LESSER\", \"$dir\\COPYING\"",
     "bin": [
         [
@@ -30,6 +30,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/v$version/dwt-$version-cp27-win_x86.zip"
+        "url": "https://github.com/10se1ucgo/DisableWinTracking/releases/download/$version/dwt-$version-cp27-win_x86.zip"
     }
 }
