@@ -36,16 +36,16 @@
             "    # Create data folder",
             "if (-not (Test-Path \"$persist_dir\\data\")) { ",
             "    Write-Host 'No user data folder exists' -f Yellow",
-            "    New-Item \"$PORT\\tmp\", \"$PORT\\user-data\", \"$PORT\\extensions\" -Force -Type Directory | Out-Null",
+            "    @('tmp', 'user-data', 'extensions') | ForEach-Object { New-Item \"$PORT\\$_\" -Force -Type Directory | Out-Null }",
             "}",
             "    # Create install context file",
             "$content = Get-Content $REG_INSTALL",
-            "$content = $content.Replace('$code', $CODEPATH)",
-            "$content = $content.Replace('&Code', 'Code &Insiders')",
+            "$content = $content -replace '$code', $CODEPATH",
+            "$content = $content -replace '&Code', 'Code &Insiders'",
             "Set-Content $REG_INSTALL $content -Encoding Ascii",
             "    # Create uninstall context file",
             "$content = Get-Content $REG_UNINSTALL",
-            "$content = $content.Replace('&Code', 'Code &Insiders')",
+            "$content = $content -replace '&Code', 'Code &Insiders'",
             "Set-Content $REG_UNINSTALL $content -Encoding Ascii",
             "    # Apply context automatically",
             "if (is_admin) {",
@@ -63,11 +63,11 @@
     },
     "persist": "data",
     "bin": [
+        "bin\\code-insiders.cmd",
         [
             "bin\\code-insiders.cmd",
             "codei"
-        ],
-        "bin\\code-insiders.cmd"
+        ]
     ],
     "shortcuts": [
         [
