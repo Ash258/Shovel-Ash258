@@ -1,12 +1,18 @@
 {
-    "version": "3.2h",
+    "version": "3.2i",
     "description": "FlashBoot. Create an installable clone of Windows 7/8.x/10 (including all apps and data) on the USB thumbdrive/HDD and instantly transfer entire OS to another computer, even with dissimilar hardware.",
     "homepage": "https://www.prime-expert.com/flashboot/",
     "license": "Freeware",
     "url": "http://www.prime-expert.com/flashboot/downloads/flashboot-latest-portable.zip",
-    "hash": "74d5e778e94de4736b971ba519b210610d3e02cc1d8266a040d9e0644efab6d6",
+    "hash": "a9e45d2d9010c50cb2e284b76836aa4e66ecdd1b232eabd6111a565bd0e2cbb2",
     "persist": "FlashBoot.ini",
-    "bin": "fb-cli.exe",
+    "bin": [
+        "fb-cli.exe",
+        [
+            "fb-cli.exe",
+            "flashboot"
+        ]
+    ],
     "shortcuts": [
         [
             "fb-gui.exe",
