@@ -2,7 +2,7 @@
 
 `scoop bucket add Ash258 'https://github.com/Ash258/scoop-Ash258.git'`
 
-- [How to write manifests](./CONTRIBUTING.md)
+- [How to write manifests](./.github/CONTRIBUTING.md)
 
 - [Manifests](#manifests)
     - [Available manifests for installation](#available-manifests-for-installation)

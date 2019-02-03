@@ -1,11 +1,13 @@
 # region General Information
-'##': Cosi
-version: '1.0'
+'##': Cosi # Since '#' is comment, it's need to be quoted
+version: '1.0' # Float or int need to be quoted
+# version: '1' #  Quotes needed
+# version: 1.0.5 Not number is good
 description: Cosi
 homepage: https://ash258.com
 license:
   identifier: MIT
-  url: https://ash258.com/license.md # Whenever it's possible attach program specific URL otherwise don't use
+  url: https://ash258.com/license.md # Whenever it's possible attach program specific URL, otherwise don't use
 notes: Some notes printed after installation
 # or
 # notes:
@@ -14,15 +16,15 @@ notes: Some notes printed after installation
 # endregion General Information
 
 # region Requirements
-# depends && suggest: STRING
-#   or Array of strings
+# depends: STRING
+# or Array of strings
 depends:
   - bucket/cosi
   - COSI # bucket will be evaluated automatically as normal installation
 suggest:
-  SOME NAME: depending
+  SOME NAME: dependingmanifest
   # COSI:
-    # - COSI
+    # - bucket/COSI
     # - NEXT
 # endregion Requirements
 
@@ -32,19 +34,20 @@ architecture: # Or platform specific below (URL Hash extracts)
     url: https://ash258.com
     hash: 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
     extract_dir: COSI
-  32bit: ## Could be array
+  32bit:
     url:
       - https://ash258.com#/newFileName.zip
       - https://ash2582.com
     hash:
       - 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
-      - 'md5:899346f9f283a4fd5aa03015a3f58cde'
+      - md5:899346f9f283a4fd5aa03015a3f58cde
     extract_dir:
       - DirectoryInFirstArchive
       - DirectoryInSecondArchive
 # endregion Downloading
 
 # region Extracting
+innosetup: true
 extract_dir: COSI
 extract_to: COSI
 # endregion Extracting
@@ -57,7 +60,7 @@ pre_install: |
     Write-Host 'File' $file 'does not exists. Creating.' -f Yellow
     $CONT = @('Some content to be added to file.')
     Set-Content "$dir\$file" ($CONT -join "`r`n") -Encoding Ascii
-  '}'
+  }
   Write-Host $DONE
 installer:
   file: somefile.exe # No need to specify if it's downloaded file
@@ -85,9 +88,9 @@ bin:
   - SINGLE
   - NEXTSingle
   - - FILE # Array with overrided properties
-  - NAME
-  - ARGUMENTS
-  - ICON
+    - NAME
+    - ARGUMENTS
+    - ICON
 # or
 # bin: SINGLE
 shortcuts:
@@ -100,7 +103,7 @@ shortcuts:
     - ARGS
     - ICON
 psmodule:
-  name: 'AdequateName'
+  name: AdequateName
 env_add_path: SINGLE
 # or
 # env_add_path:
@@ -124,10 +127,11 @@ checkver: regex to be mached on homepage URL
 #   url: URL
 #   regex: someregex.* # Or JP
 #   replace: ${NamedGroup}-${otherNamedGroup}
+#   replace: ${1}-${otherIndexedGroup}
 autoupdate:
   url: https://ash258.com
   hash: # Some vendors does not ship hashes
     url: https://ash258.com
-    find: some regex to match([\d+]{32}) # or JP
-  note: 'Some note after autoupdate'
+    regex: some regex to match([\d+]{32}) # or JP
+  note: Some note after autoupdate
 # endregion Updating
