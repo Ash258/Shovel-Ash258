@@ -29,7 +29,7 @@
         "url": "https://windows-repair-toolbox.com/files/Windows_Repair_Toolbox.zip",
         "hash": {
             "url": "https://windows-repair-toolbox.com/",
-            "find": "SHA256\\s+\\(zip\\): ([A-Fa-f\\d]{64})"
+            "regex": "SHA256\\s+\\(zip\\): ($sha256)"
         }
     }
 }

@@ -19,7 +19,7 @@
         "url": "https://www.gamesave-manager.com/?s=download&guid=%7B$matchGUID%7D&a=dl#/cosi.zip",
         "hash": {
             "url": "https://www.gamesave-manager.com/?s=download&guid=%7B$matchGUID%7D",
-            "find": "md5 checksum is <i>([A-Fa-f\\d]{32})"
+            "regex": "md5 checksum is <i>($md5)"
         }
     }
 }

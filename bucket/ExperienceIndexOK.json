@@ -24,7 +24,7 @@
         "url": "http://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
         "hash": {
             "url": "http://www.softwareok.com/?Download=ExperienceIndexOK",
-            "find": "$basename.*analysis/\">([A-Fa-f\\d]{64})</a></div></td></tr><tr"
+            "regex": "$basename.*analysis/\">($sha256)</a></div></td></tr><tr"
         }
     }
 }

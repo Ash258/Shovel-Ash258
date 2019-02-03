@@ -26,7 +26,7 @@
         "url": "https://www.savewizard.net/swps4max.zip",
         "hash": {
             "url": "https://www.savewizard.net/download/",
-            "find": "SHA256 :.*>([A-Fa-f\\d]{64})"
+            "regex": "SHA256 :.*>($sha256)"
         }
     }
 }

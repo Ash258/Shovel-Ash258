@@ -23,7 +23,7 @@
         "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-$version.exe",
         "hash": {
             "url": "https://www.displayfusion.com/Download/",
-            "find": "Installer:</b>\\s*([A-Fa-f\\d]{40}) \\(SHA1"
+            "find": "Installer:</b>\\s*($sha1) \\(SHA1"
         }
     }
 }

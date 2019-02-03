@@ -41,7 +41,7 @@
         "url": "https://www.myclone.app/download/cloneapp/send/2-cloneapp/19-cloneapp#/cosi.zip",
         "hash": {
             "url": "https://www.myclone.app/download/cloneapp",
-            "find": "MD5 Checksum: ([A-Fa-f\\d]{32})"
+            "regex": "MD5 Checksum: ($md5)"
         }
     }
 }

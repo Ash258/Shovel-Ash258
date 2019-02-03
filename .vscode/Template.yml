@@ -1,6 +1,6 @@
 # region General Information
 '##': Cosi # Since '#' is comment, it's need to be quoted
-version: '1.0' # Float or int need to be quoted
+version: '1.0' # Floats or ints need to be quoted
 # version: '1' #  Quotes needed
 # version: 1.0.5 Not number is good
 description: Cosi
@@ -125,13 +125,13 @@ checkver: regex to be mached on homepage URL
 # or
 # checkver:
 #   url: URL
-#   regex: someregex.* # Or JP
+#   regex: someregex.* # Or jsonpath
 #   replace: ${NamedGroup}-${otherNamedGroup}
 #   replace: ${1}-${otherIndexedGroup}
 autoupdate:
   url: https://ash258.com
   hash: # Some vendors does not ship hashes
     url: https://ash258.com
-    regex: some regex to match([\d+]{32}) # or JP
+    regex: some regex to match([\d+]{32}) # or jsonpath
   note: Some note after autoupdate
 # endregion Updating

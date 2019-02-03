@@ -59,7 +59,7 @@
                 "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-$version.exe#/cosi.exe",
                 "hash": {
                     "url": "https://my.vmware.com/web/vmware/details?downloadGroup=WKST-$majorVersion$minorVersion$patchVersion-WIN&productId=686",
-                    "find": "SHA256SUM</span>:\\s+([A-Fa-f\\d]{64})"
+                    "regex": "SHA256SUM</span>:\\s+($sha256)"
                 }
             }
         }

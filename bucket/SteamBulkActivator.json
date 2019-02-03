@@ -19,7 +19,7 @@
         "url": "https://github.com/Ezzpify/SteamBulkActivator/releases/download/$version/Release.rar",
         "hash": {
             "url": "https://github.com/Ezzpify/SteamBulkActivator/releases/tag/$version",
-            "find": "$basename</td>\\s*<td>([A-Fa-f\\d]{32})"
+            "regex": "$basename</td>\\s*<td>($md5)"
         }
     }
 }

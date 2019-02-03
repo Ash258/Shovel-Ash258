@@ -39,7 +39,7 @@
         },
         "hash": {
             "url": "https://uk4.visual-paradigm.com/visual-paradigm/vp$matchVer/$matchBuild/checksum.html",
-            "find": "$basename\\s*</td>\\s*<td>\\s*sha256: ([A-Fa-f\\d]{64})"
+            "regex": "$basename\\s*</td>\\s*<td>\\s*sha256: ($sha256)"
         },
         "extract_dir": "Visual Paradigm $matchVer"
     }
