@@ -1,7 +1,7 @@
 if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 
 # Don't install when not in CI
-if (-not $env:CI) {
+if (-not $env:CI) { # Do not install on powershell core
     Write-Host 'Skipping installation.' -ForegroundColor Yellow
     return
 }
@@ -10,6 +10,7 @@ if (-not $env:CI) {
 
 . "$env:SCOOP_HOME\test\Import-Bucket-Tests.ps1"
 
+# region Install changed manifests
 function log() {
     param([String[]] $message = "============`r`n")
 
@@ -54,7 +55,7 @@ function uninstall($noExt) {
 
 Describe 'Changed manifests installation' {
     # Duplicate check when test is manually executed.
-    if (-not $env:CI) {
+    if ((-not $env:CI) -and ($PSVersionTable.PSVersion.Major -ge 6)) {
         Write-Host 'This test should run only in CI environment.' -ForegroundColor Yellow
         return
     }
@@ -104,3 +105,4 @@ Describe 'Changed manifests installation' {
         }
     }
 }
+# endregion Install changed manifests

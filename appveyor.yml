@@ -33,3 +33,7 @@ for:
       - pwsh: . "$env:SCOOP_HOME\test\bin\init.ps1"
     test_script:
       - pwsh: . "$env:SCOOP_HOME\test\bin\test.ps1" -TestPath "$env:APPVEYOR_BUILD_FOLDER"
+on_finish:
+  - ps: |
+      Write-Host (Get-Content 'INSTALL.log' -Raw)
+      Push-AppveyorArtifact 'INSTALL.log'
