@@ -1,5 +1,5 @@
 #Requires -Version 5.0
-#requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '4.4.0' }
+#Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '4.4.0' }
 
 . "$env:SCOOP_HOME\lib\core.ps1"
 . "$env:SCOOP_HOME\lib\manifest.ps1"
