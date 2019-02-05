@@ -1,5 +1,3 @@
-#Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '4.4.0' }
-
 if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 
 # Don't install when not in CI
