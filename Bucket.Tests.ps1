@@ -54,8 +54,13 @@ function uninstall($noExt) {
 
 Describe 'Changed manifests installation' {
     # Duplicate check when test is manually executed.
-    if ((-not $env:CI) -and ($PSVersionTable.PSVersion.Major -ge 6)) { # Do not install on powershell core
-        Write-Host 'This test should run only in CI environment.' -ForegroundColor Yellow
+    if (-not $env:CI) { # Do not install on powershell core
+        Write-Host 'This test should run only in CI environment and on Powershell 5.' -ForegroundColor Yellow
+        return
+    }
+
+    if ($PSVersionTable.PSVersion.Major -ge 6) {
+        Write-Host 'Skipping installation in PWSH, to not install twice.' -ForegroundColor Yellow
         return
     }
 
