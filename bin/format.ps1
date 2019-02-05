@@ -1,23 +1,23 @@
 <#
 .SYNOPSIS
-	Format manifests using scoop's formatter.
+    Format manifests using scoop's formatter.
 .PARAMETER App
-	Manifest name.
+    Manifest name.
 .PARAMETER Dir
-	Where to search for manifests.
+    Where to search for manifests.
 #>
 param(
-	[Parameter(ValueFromPipeline = $true)]
-	[Alias('App')]
-	[String[]] $Manifest = '*',
-	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\.."
+    [Parameter(ValueFromPipeline = $true)]
+    [Alias('App')]
+    [String[]] $Manifest = '*',
+    [ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
+    [String] $Dir = "$PSScriptRoot\.."
 )
 
 
 begin {
-	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
-	$Dir = Resolve-Path $Dir
+    if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+    $Dir = Resolve-Path $Dir
 }
 
 # TODO: After yaml support merge, change to bin\format.ps1

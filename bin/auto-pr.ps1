@@ -1,40 +1,40 @@
 <#
 .SYNOPSIS
-	Updates manifests and pushes them or creates pull-requests.
+    Updates manifests and pushes them or creates pull-requests.
 .DESCRIPTION
-	Updates manifests and pushes them to directly the master branch or creates pull-requests for upstream.
+    Updates manifests and pushes them to directly the master branch or creates pull-requests for upstream.
 .PARAMETER Dir
-	Where to search for manifests.
+    Where to search for manifests.
 .PARAMETER Upstream
-	Upstream repository with target branch.
+    Upstream repository with target branch.
 .PARAMETER Push
-	Push updates directly to 'origin master'.
+    Push updates directly to 'origin master'.
 .PARAMETER Request
-	Create pull-requests on 'upstream master' for each update.
+    Create pull-requests on 'upstream master' for each update.
 .PARAMETER SpecialSnowflakes
-	List of manifests, which should be updated allways. (Force updated)
+    List of manifests, which should be updated allways. (Force updated)
 #>
 param(
-	[ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
-	[String] $Dir = "$PSScriptRoot\..\bucket",
-	[ValidatePattern('^(.+)\/(.+):(.+)$')]
-	[String] $Upstream = $((git config --get remote.origin.url) -replace '^.+[:/](?<user>.*)\/(?<repo>.*)(\.git)?$', '${user}/${repo}:master'),
-	[Switch] $Push,
-	[Switch] $Request,
-	[string[]] $SpecialSnowflakes
+    [ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
+    [String] $Dir = "$PSScriptRoot\..\bucket",
+    [ValidatePattern('^(.+)\/(.+):(.+)$')]
+    [String] $Upstream = $((git config --get remote.origin.url) -replace '^.+[:/](?<user>.*)\/(?<repo>.*)(\.git)?$', '${user}/${repo}:master'),
+    [Switch] $Push,
+    [Switch] $Request,
+    [string[]] $SpecialSnowflakes
 )
 
 begin {
-	if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
-	Write-Host $Upstream
-	$Dir = Resolve-Path $Dir
-	$Params = @{
-		Dir               = $Dir
-		Upstream          = $Upstream
-		Push              = $Push
-		Request           = $Request
-		SpecialSnowflakes = $SpecialSnowflakes
-	}
+    if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+    Write-Host $Upstream
+    $Dir = Resolve-Path $Dir
+    $Params = @{
+        Dir               = $Dir
+        Upstream          = $Upstream
+        Push              = $Push
+        Request           = $Request
+        SpecialSnowflakes = $SpecialSnowflakes
+    }
 }
 
 process { . "$env:SCOOP_HOME\bin\auto-pr.ps1" @Params }
