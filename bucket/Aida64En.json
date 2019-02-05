@@ -32,7 +32,7 @@
     ],
     "checkver": {
         "url": "https://www.aida64.com/downloads",
-        "regex": "AIDA64 Extreme\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">((\\d+)\\.(\\d+)\\.(\\d{4}))"
+        "regex": "AIDA64 Extreme\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "http://download.aida64.com/aida64engineer$match2$match3.zip"

@@ -1,14 +1,13 @@
 if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
 
 # Don't install when not in CI
-if (-not $env:CI) { # Do not install on powershell core
+if (-not $env:CI) {
     Write-Host 'Skipping installation.' -ForegroundColor Yellow
     return
 }
 
 . "$env:SCOOP_HOME\lib\manifest.ps1" # Import for parse json function
-
-. "$env:SCOOP_HOME\test\Import-Bucket-Tests.ps1"
+. "$env:SCOOP_HOME\test\Import-Bucket-Tests.ps1" # run tests from scoop core
 
 # region Install changed manifests
 function log() {
@@ -55,10 +54,22 @@ function uninstall($noExt) {
 
 Describe 'Changed manifests installation' {
     # Duplicate check when test is manually executed.
-    if ((-not $env:CI) -and ($PSVersionTable.PSVersion.Major -ge 6)) {
+    if ((-not $env:CI) -and ($PSVersionTable.PSVersion.Major -ge 6)) { # Do not install on powershell core
         Write-Host 'This test should run only in CI environment.' -ForegroundColor Yellow
         return
     }
+
+    $env:PATH = "$env:PATH;$env:SCOOP_HOME\bin\scoop.ps1"
+    $INSTALL_FILES_EXCLUSIONS = @(
+        '.vscode',
+        'TODO',
+        'KMS',
+        'E2B',
+        'unlocker',
+        'Spotify',
+        'TrainerManager'
+    ) -join '|'
+    $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
     New-Item 'INSTALL.log' -Type File -Force
     $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
