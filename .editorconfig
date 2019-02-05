@@ -8,9 +8,6 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{ps1,psd1,psm1}]
-indent_style = tab
-
 [.git/hooks/*]
 end_of_line = lf
 
