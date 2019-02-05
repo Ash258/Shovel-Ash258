@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://sourceforge.net/projects/orphamielautoclicker/files/?source=navbar",
+        "url": "https://sourceforge.net/projects/orphamielautoclicker/files/",
         "regex": "((?<y>\\d{4})-(?<m>\\d{2})-(?<d>\\d{2}))</abbr></td>",
         "replace": "${y}.${m}.${d}"
     },
