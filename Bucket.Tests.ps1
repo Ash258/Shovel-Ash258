@@ -1,4 +1,12 @@
+#Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '4.4.0' }
+
 if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+
+# Don't install when not in CI
+if (-not $env:CI) {
+    Write-Host 'Skipping installation.' -ForegroundColor Yellow
+    return
+}
 
 . "$env:SCOOP_HOME\lib\manifest.ps1" # Import for parse json function
 
@@ -44,12 +52,6 @@ function uninstall($noExt) {
         log "$noExt`: Uninstall DONE"
         log
     }
-}
-
-# Don't install when not in CI
-if (-not $env:CI) {
-    Write-Host 'Skipping installation.' -ForegroundColor Yellow
-    return
 }
 
 Describe 'Changed manifests installation' {
