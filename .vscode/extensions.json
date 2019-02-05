@@ -6,5 +6,6 @@
         "fabiospampinato.vscode-terminals",
         "yzhang.markdown-all-in-one",
         "DavidAnson.vscode-markdownlint",
+        "PhilHindle.errorlens",
     ],
 }

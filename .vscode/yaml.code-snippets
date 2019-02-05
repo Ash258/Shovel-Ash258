@@ -87,4 +87,17 @@
             "}",
         ],
     },
+    "Check for existing persist file (function)": {
+        "prefix": "persistCheckFunction",
+        "scope": "yml,yaml",
+        "body": [
+            "function persistCheck ([String] $file, $content) {",
+            "\tif (-not (Test-Path \"\\$persist_dir\\\\\\$file\")) {",
+            "\t\tWrite-Host 'File' \\$file 'does not exists. Creating.' -f Yellow",
+            "\t\tSet-Content \"\\$dir\\\\\\$file\" (\\$content -join \"`r`n\") -Encoding Ascii",
+            "\t}",
+            "}",
+            "persistCheck '$1' @('$2')",
+        ],
+    },
 }
