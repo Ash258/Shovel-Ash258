@@ -1,7 +1,7 @@
 param (
-	[String] $Dir = "$PSScriptRoot\..\bucket",
-	[Switch] $ToYaml,
-	[Switch] $ToJson
+    [String] $Dir = "$PSScriptRoot\..\bucket",
+    [Switch] $ToYaml,
+    [Switch] $ToJson
 )
 
 if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
@@ -12,10 +12,10 @@ if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) 
 $files = (Get-ChildItem "$Dir\*" -File -Include '*.json', '*.yml').FullName
 
 foreach ($file in $files) {
-	if (
-		($ToYaml -and ($file -match '\.ya?ml')) -or
-		($ToJson -and ($file -match '\.json'))
-	) { continue }
+    if (
+        ($ToYaml -and ($file -match '\.ya?ml')) -or
+        ($ToJson -and ($file -match '\.json'))
+    ) { continue }
 
-	# Parse, Write
+    # Parse, Write
 }

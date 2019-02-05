@@ -16,7 +16,7 @@
             "hash": "d0be2fc7180f542202aa60a8f5475fa225d02079fd38d8dd2738770dec05a38e"
         }
     },
-    "post_install": "Get-ChildItem $dir '$*' -Directory | Remove-Item -Force -Recurse",
+    "post_install": "Get-ChildItem \"$dir\" '$*' -Directory | Remove-Item -Force -Recurse",
     "persist": "portable_data",
     "shortcuts": [
         [
