@@ -40,7 +40,7 @@
             "}",
             "    # Create install context file",
             "$content = Get-Content $REG_INSTALL",
-            "$content = $content -replace '$code', $CODEPATH",
+            "$content = $content -replace '\\$code', $CODEPATH",
             "$content = $content -replace '&Code', 'Code &Insiders'",
             "Set-Content $REG_INSTALL $content -Encoding Ascii",
             "    # Create uninstall context file",
