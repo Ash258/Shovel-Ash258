@@ -4,7 +4,7 @@
     "homepage": "https://www.wisecleaner.com/wise-disk-cleaner.html",
     "license": "Freeware",
     "url": "https://downloads.wisecleaner.com/soft/WDCFree.zip",
-    "hash": "509addb960e16f51e50a7fde19ae5037ecc4540c2147d9faef744074435afb1d",
+    "hash": "919584ffed0d27e160bf0e92720ce379e70b810a8e8bd8874a2e0c423fd098be",
     "extract_dir": "Wise Disk Cleaner",
     "installer": {
         "script": [
