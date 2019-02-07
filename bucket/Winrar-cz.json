@@ -2,9 +2,7 @@
     "version": "5.61",
     "description": "Winrar. Powerful archive manager.",
     "homepage": "https://rarlab.com/",
-    "license": {
-        "identifier": "Shareware"
-    },
+    "license": "Shareware",
     "notes": [
         "Set up context menu within settings window.",
         "e143436e2f9183a650424d635b535e51"

@@ -3,9 +3,7 @@
     "version": "2.1",
     "description": "PostInstall. Easily setup fresh installed Windows 10 machine.",
     "homepage": "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1",
-    "license": {
-        "identifier": "MIT"
-    },
+    "license": "MIT",
     "depends": "Win10InitialSetup",
     "url": [
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1",

@@ -2,9 +2,7 @@
     "version": "4.4.7",
     "description": "Mudfish VPN. VPN service focused to boost network experience with various WAN Optimization.",
     "homepage": "https://mudfish.net/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://mudfish.net/releases/mudfish-4.4.7-x86_64-win2k-setup.exe#/cosi.7z",

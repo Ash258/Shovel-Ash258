@@ -8,9 +8,7 @@
     "version": "4.0.42.0",
     "description": "NetLimiter. Internet traffic control and monitoring tool designed for Windows.",
     "homepage": "https://www.netlimiter.com/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "notes": [
         "Restarting system after installation is recommended.",
         "Some functions could behave incorrectly without restart."
@@ -41,7 +39,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.netlimiter.com/releases",
+        "url": "https://www.netlimiter.com/releases/",
         "regex": "NetLimiter ([\\d\\.]+)"
     },
     "autoupdate": {

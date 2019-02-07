@@ -1,7 +1,7 @@
 {
     "version": "5.99.4900",
     "description": "Aida. Essential IT asset management solution for small and medium enterprises.",
-    "homepage": "https://www.aida64.com/products/aida64-business",
+    "homepage": "https://www.aida64.com/products/aida64-business/",
     "url": [
         "http://download.aida64.com/aida64business599.zip",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aid#/pkey.txt"
@@ -31,7 +31,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.aida64.com/downloads",
+        "url": "https://www.aida64.com/downloads/",
         "regex": "AIDA64 Business\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">([\\d\\.]+)"
     },
     "autoupdate": {

@@ -2,11 +2,9 @@
     "##": "Persist of config.db file will never work with current implementation of deleting and creating new config on exit.",
     "version": "2.3.1",
     "description": "FastShare Download and Upload Manager. Easily upload and download files from fastshare.cz.",
-    "homepage": "https://fastshare.cz/manager",
-    "license": {
-        "identifier": "Freeware"
-    },
-    "url": "http://www.fastshare.cz/FastShare_v2.3.1.exe",
+    "homepage": "https://fastshare.cz/manager/",
+    "license": "Freeware",
+    "url": "https://www.fastshare.cz/FastShare_v2.3.1.exe",
     "hash": "7075dccd432979f8c9ddf4e65b537adc82eed8e8cf2abdb9cb4519799b1a842b",
     "innosetup": true,
     "shortcuts": [
@@ -19,6 +17,6 @@
     ],
     "checkver": "\\(v([\\d\\.]+) -",
     "autoupdate": {
-        "url": "http://www.fastshare.cz/FastShare_v$version.exe"
+        "url": "https://www.fastshare.cz/FastShare_v$version.exe"
     }
 }

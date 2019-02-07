@@ -78,7 +78,7 @@
         "PotPlayerMini64.ini"
     ],
     "checkver": {
-        "url": "http://potplayer.daum.net/update.html?lang=en&bit",
+        "url": "https://potplayer.daum.net/update.html?lang=en&bit",
         "regex": "\\[([\\d\\.]+)\\]"
     },
     "autoupdate": {

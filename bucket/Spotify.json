@@ -2,11 +2,9 @@
     "version": "nightly",
     "description": "Spotify. Music streaming service.",
     "homepage": "https://www.spotify.com/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "notes": "Spotify uses custom installdir which cannot be changed!!",
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "url": "https://download.spotify.com/SpotifyFullSetup.exe",
     "pre_install": [
         "if (is_admin) {",
         "    Write-Host 'Spotify need to be installed from non-admin console for some reason.' -f Red",

@@ -1,0 +1,21 @@
+{
+    "version": "4.18.4",
+    "description": "Blocks spying and tracking on Windows systems.",
+    "homepage": "https://github.com/crazy-max/WindowsSpyBlocker/",
+    "license": "MIT",
+    "url": "https://github.com/crazy-max/WindowsSpyBlocker/releases/download/4.18.4/WindowsSpyBlocker.exe",
+    "hash": "3c021c259d97db171cbb3e7658d7232d8362db9d04e12dec2ff80fa8770f1e4a",
+    "bin": "WindowsSpyBlocker.exe",
+    "shortcuts": [
+        [
+            "WindowsSpyBlocker.exe",
+            "Windows Spy Blocker"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/crazy-max/WindowsSpyBlocker"
+    },
+    "autoupdate": {
+        "url": "https://github.com/crazy-max/WindowsSpyBlocker/releases/download/$version/WindowsSpyBlocker.exe"
+    }
+}

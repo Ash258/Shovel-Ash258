@@ -2,9 +2,7 @@
     "version": "nightly",
     "description": "Uplay. Ubisoft's PC games portal, where you can find all your games on PC.",
     "homepage": "https://uplay.ubi.com/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "url": "https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe#/cosi.7z",
     "pre_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
@@ -17,7 +15,7 @@
     "persist": [
         "games",
         "savegames",
-        "cache/installers"
+        "cache\\installers"
     ],
     "shortcuts": [
         [

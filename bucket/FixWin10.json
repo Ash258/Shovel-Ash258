@@ -1,10 +1,8 @@
 {
     "version": "10.0.1.0",
     "description": "Fix Windows 10. Easily fix and repair Windows 10 problems, issues and annoyances.",
-    "homepage": "https://www.thewindowsclub.com/fixwin-for-windows-10",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "homepage": "https://www.thewindowsclub.com/fixwin-for-windows-10/",
+    "license": "Freeware",
     "url": "https://www.thewindowsclub.com/downloads/FixWin10.zip",
     "hash": "40b442c92c7800adf53b6274b6ba54ea6b605eda68772471f2fff0d7f5369bc7",
     "extract_dir": "FixWin 10.0.1.0",

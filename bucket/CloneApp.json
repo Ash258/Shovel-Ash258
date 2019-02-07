@@ -40,7 +40,7 @@
     "autoupdate": {
         "url": "https://www.myclone.app/download/cloneapp/send/2-cloneapp/19-cloneapp#/cosi.zip",
         "hash": {
-            "url": "https://www.myclone.app/download/cloneapp",
+            "url": "https://www.myclone.app/download/cloneapp/",
             "regex": "MD5 Checksum: ($md5)"
         }
     }

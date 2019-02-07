@@ -9,7 +9,7 @@
     "notes": "e143436e2f9183a650424d635b535e51",
     "architecture": {
         "64bit": {
-            "url": "http://totalcommander.ch/win/tcmd921ax64.exe#/cosi.7z",
+            "url": "https://totalcommander.ch/win/tcmd921ax64.exe#/cosi.7z",
             "hash": "6b978d580701b04c734ad2645a9393b2611b50f78bd9af62c0bb8f3d5b355326",
             "shortcuts": [
                 [
@@ -19,7 +19,7 @@
             ]
         },
         "32bit": {
-            "url": "http://totalcommander.ch/win/tcmd921ax32.exe#/cosi.7z",
+            "url": "https://totalcommander.ch/win/tcmd921ax32.exe#/cosi.7z",
             "hash": "0ff8a8aff38fc06b536522b4752560d9bc3f60781d0cf93afba201e59b2149a8",
             "shortcuts": [
                 [
@@ -63,10 +63,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx64.exe#/cosi.7z"
+                "url": "https://totalcommander.ch/win/tcmd$cleanVersionx64.exe#/cosi.7z"
             },
             "32bit": {
-                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx32.exe#/cosi.7z"
+                "url": "https://totalcommander.ch/win/tcmd$cleanVersionx32.exe#/cosi.7z"
             }
         }
     }

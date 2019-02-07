@@ -3,9 +3,7 @@
     "version": "9.4.3",
     "description": "DisplayFusion. Enhancing multi-monitor experience.",
     "homepage": "https://www.displayfusion.com/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "url": "https://binaryfortressdownloads.com/Download/BFSFiles/101/DisplayFusionSetup-9.4.3.exe",
     "hash": "sha1:9296db2f66b1cb0edb2ef5d9a7d1a367e68ac33f",
     "innosetup": true,

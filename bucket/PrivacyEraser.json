@@ -55,7 +55,7 @@
         }
     },
     "checkver": {
-        "url": "https://www.cybertronsoft.com/products/privacy-eraser/whats-new",
+        "url": "https://www.cybertronsoft.com/products/privacy-eraser/whats-new/",
         "regex": "Privacy Eraser Free v(?<ver>[\\d\\.]+) Build (?<build>[\\d]+) Released",
         "replace": "${ver}.${build}"
     },

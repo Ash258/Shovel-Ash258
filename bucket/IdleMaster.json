@@ -1,7 +1,7 @@
 {
     "version": "1.3",
     "description": "Idle Master. Get your Steam Trading Cards the Fast Way (Fast Mode Extension).",
-    "homepage": "http://www.steamidlemaster.com/",
+    "homepage": "https://www.steamidlemaster.com/",
     "license": {
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/JonasNilson/idle_master_extended/blob/master/LICENSE"
@@ -18,7 +18,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/JonasNilson/idle_master_extended"
+        "github": "https://github.com/JonasNilson/idle_master_extended/"
     },
     "autoupdate": {
         "url": "https://github.com/JonasNilson/idle_master_extended/releases/download/v$version/idle_master_extended_v$version.zip",

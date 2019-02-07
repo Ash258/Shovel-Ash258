@@ -2,9 +2,7 @@
     "version": "3.1.455.0",
     "description": "Game Save Manager. Easily backup, restore and transfer gamesave(s).",
     "homepage": "https://www.gamesave-manager.com/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "url": "https://www.gamesave-manager.com/?s=download&guid=%7BD5312F19-F659-40E1-869A-1C991BB0E95B%7D&a=dl#/cosi.zip",
     "hash": "md5:f4dea53721f76c61e199f18df3470673",
     "bin": "gs_mngr_3.exe",

@@ -1,8 +1,8 @@
 {
     "version": "nightly",
     "description": "Bethesda.Net Launcher. Gaming platform / launcher.",
-    "homepage": "https://bethesda.net/en/dashboard",
-    "url": "http://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe",
+    "homepage": "https://bethesda.net/en/dashboard/",
+    "url": "https://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe",
     "innosetup": true,
     "persist": "games",
     "shortcuts": [

@@ -2,9 +2,7 @@
     "version": "2018.07.21",
     "description": "Auto Clicker. A full-fledged autoclicker with two modes of autoclicking, at your dynamic cursor location or at a prespecified location. The maximum amounts of clicked can also be set (or left as infinite).",
     "homepage": "https://sourceforge.net/projects/orphamielautoclicker/",
-    "license": {
-        "identifier": "CC-BY-NC-2.0"
-    },
+    "license": "CC-BY-NC-2.0",
     "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClicker.exe",
     "hash": "sha1:a0afda31cf816d602db7b4100282f0834149ca8f",
     "shortcuts": [

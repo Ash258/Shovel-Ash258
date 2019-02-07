@@ -1,7 +1,7 @@
 {
     "version": "5.99.4900",
     "description": "Aida. Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers.",
-    "homepage": "https://www.aida64.com/products/aida64-engineer",
+    "homepage": "https://www.aida64.com/products/aida64-engineer/",
     "url": [
         "http://download.aida64.com/aida64engineer599.zip",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aiden#/pkey.txt"
@@ -31,7 +31,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.aida64.com/downloads",
+        "url": "https://www.aida64.com/downloads/",
         "regex": "AIDA64 Extreme\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">([\\d\\.]+)"
     },
     "autoupdate": {

@@ -2,9 +2,7 @@
     "version": "3.2.0.2",
     "description": "W10Privacy. Sets of data protection and privacy options.",
     "homepage": "https://www.winprivacy.de/english-home/",
-    "license": {
-        "identifier": "CC-BY-NC-ND-4.0"
-    },
+    "license": "CC-BY-NC-ND-4.0",
     "url": "https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip",
     "hash": "dfcc82822c041d06eb5083f5d589198bbd1cb27812bfa96178ce65ba509c41ba",
     "pre_install": [

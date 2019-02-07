@@ -2,9 +2,7 @@
     "version": "8.38.0.161",
     "description": "Skype. Communication tool for free calls and chat.",
     "homepage": "https://www.skype.com/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "url": "https://endpoint920510.azureedge.net/s4l/s4l/download/win/Skype-8.38.0.161.exe",
     "hash": "a581f827f9c5950ce59bba1a4f47f242c15584344bbf0002fd1175b496ba3885",
     "innosetup": true,

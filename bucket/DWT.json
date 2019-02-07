@@ -1,7 +1,7 @@
 {
     "version": "3.2.2",
     "description": "Disable Win Tracking. Easily disable tracking / telemetry in Windows 10 with some known methods.",
-    "homepage": "https://github.com/10se1ucgo/DisableWinTracking",
+    "homepage": "https://github.com/10se1ucgo/DisableWinTracking/",
     "license": {
         "identifier": "LGPL-3.0",
         "url": "https://github.com/10se1ucgo/DisableWinTracking/blob/master/COPYING"

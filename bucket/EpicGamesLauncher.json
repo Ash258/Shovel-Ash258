@@ -2,9 +2,7 @@
     "version": "nightly",
     "description": "Epic Games Launcher. Gaming platform.",
     "homepage": "https://www.epicgames.com/store/",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "suggest": {
         "Direct X Runtime": [
             "DirectX",

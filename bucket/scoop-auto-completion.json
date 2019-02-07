@@ -1,10 +1,8 @@
 {
     "version": "nightly",
     "description": "Scoop Auto Completion. Allow tab compliton for scoop commands.",
-    "homepage": "https://github.com/liuzijing97/scoop-auto-completion",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "homepage": "https://github.com/liuzijing97/scoop-auto-completion/",
+    "license": "Freeware",
     "url": "https://raw.githubusercontent.com/liuzijing97/scoop-auto-completion/master/scoop-completion.ps1",
     "bin": "scoop-completion.ps1"
 }

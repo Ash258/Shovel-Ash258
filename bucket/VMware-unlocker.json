@@ -1,7 +1,7 @@
 {
     "version": "3.0.2",
     "description": "VMWare Unlocker. Able to create / use macOS virtual machines inside VMware.",
-    "homepage": "https://github.com/DrDonk/unlocker",
+    "homepage": "https://github.com/DrDonk/unlocker/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/DrDonk/unlocker/blob/master/license.txt"

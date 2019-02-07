@@ -1,0 +1,45 @@
+{
+    "##": [
+        "There is inconsistency between releaes. Latest 32bit version is 1.5.0 when 64 is 1.7.0",
+        "https://s3.amazonaws.com/authy-electron-repository-production/authy/stable/$version/win32/x32/authy-electron-$version-full.nupkg",
+        "https://s3.amazonaws.com/authy-electron-repository-production/_squirrel/authy/stable/x32/RELEASES"
+    ],
+    "version": "1.7.0",
+    "description": "Free desktop app for two factor authentication.",
+    "homepage": "https://authy.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://s3.amazonaws.com/authy-electron-repository-production/authy/stable/1.7.0/win32/x64/authy-electron-1.7.0-full.nupkg",
+            "hash": "sha1:b8db90abeb6b2dc70e85341d8830c29fec351c0b"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "bin": [
+        [
+            "Authy Desktop.exe",
+            "authy"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Authy Desktop.exe",
+            "Authy Desktop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://s3.amazonaws.com/authy-electron-repository-production/_squirrel/authy/stable/x64/RELEASES",
+        "regex": "authy-electron-([\\d\\.]+)-full\\.nupkg",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://s3.amazonaws.com/authy-electron-repository-production/authy/stable/$version/win32/x64/authy-electron-$version-full.nupkg",
+                "hash": {
+                    "url": "https://s3.amazonaws.com/authy-electron-repository-production/_squirrel/authy/stable/x64/RELEASES"
+                }
+            }
+        }
+    }
+}

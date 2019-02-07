@@ -2,9 +2,7 @@
     "version": "5.1.3",
     "description": "CosMOS Advanced. Brand new self-service gamehacking tool.",
     "homepage": "https://www.cheathappens.com/cosmos.asp",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "url": "https://www.cheathappens.com/CoSMOS_Advanced_513.zip",
     "hash": "1357a6d68eedc6260bf537f67c5ea43e34ba6ea3b6a1e1b46eba89961da7848d",
     "pre_install": [

@@ -2,9 +2,7 @@
     "version": "1.0024",
     "description": "Cheat Happens Trainer Manager. Managing, storing and autoupdating of cheat happens trainers.",
     "homepage": "https://www.cheathappens.com/trainermanager.asp",
-    "license": {
-        "identifier": "Freeware"
-    },
+    "license": "Freeware",
     "notes": "Trainers location folder needs to be set manually within settings page.",
     "architecture": {
         "64bit": {

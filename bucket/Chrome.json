@@ -29,7 +29,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.chrome-portable.com/index.php/google-chrome-offline-installer",
+        "url": "https://www.chrome-portable.com/index.php/google-chrome-offline-installer/",
         "regex": "(?sm)Version:\\s+([\\d\\.]+).*release2/chrome/(?<32>[\\w]+)_\\d+.*release2/chrome/(?<64>[\\w]+)_\\d+.*Download 64-bit"
     },
     "autoupdate": {
