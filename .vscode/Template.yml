@@ -29,6 +29,8 @@ suggest:
 # endregion Requirements
 
 # region Downloading
+cookie:
+  Name Of Cookie: Value to be set
 architecture: # Or platform specific below (URL Hash extracts)
   64bit:
     url: https://ash258.com
@@ -73,7 +75,6 @@ installer:
 post_install: |
   RemoveSomething $newFile
   Write-Host $DONE
-
 # region UnInstalling
 uninstaller:
   file: file.exe
@@ -119,19 +120,20 @@ persist: FOLDER
 # endregion Links
 
 # region Updating
-checkver: regex to be mached on homepage URL
+checkver:
+  url: URL
+  jsonpath: $.whatever
+  regex: someregex.*
+  replace: ${NamedGroup}-${otherNamedGroup}
+#  replace: ${1}-${otherIndexedGroup}
+# or
+# checkver: regex to be mached on homepage URL
 # or
 # checkver: github # if homepage is set to github repository
-# or
-# checkver:
-#   url: URL
-#   regex: someregex.* # Or jsonpath
-#   replace: ${NamedGroup}-${otherNamedGroup}
-#   replace: ${1}-${otherIndexedGroup}
 autoupdate:
   url: https://ash258.com
   hash: # Some vendors does not ship hashes
     url: https://ash258.com
-    regex: some regex to match([\d+]{32}) # or jsonpath
+    regex: do not write regexes for hash algorithms, use variables ($md5, $sha1, $sha256, $sha512, $checksum) # or jsonpath
   note: Some note after autoupdate
 # endregion Updating
