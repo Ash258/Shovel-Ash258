@@ -124,7 +124,7 @@
 | [Text Editor Anywhere](https://github.com/lukesampson/scoop-extras/blob/master/bucket/texteditoranywhere.json)       | [de846b2](https://github.com/Ash258/scoop-Ash258/commit/de846b2ec6e0a1d995840a4cd1ea6bdab60f465b) | [9ce9010](https://github.com/lukesampson/scoop-extras/commit/9ce90107d67f1239c0a39c17ae708f7707488130) ([lukesampson/scoop-extras#1603](https://github.com/lukesampson/scoop-extras/pull/1603)) |
 | [JetBrain's Stuff](https://github.com/Ash258/Scoop-JetBrains/)                                                       | [7dc67a0](https://github.com/Ash258/scoop-Ash258/commit/7dc67a0844aaaae0a64a375e0b0b72d1fd461a91) |                                              [335310b](https://github.com/Ash258/Scoop-JetBrains/commit/335310b3fd136d086501d481a47c4d5c0b21a904)                                               |
 | [CPU-V](https://github.com/lukesampson/scoop-extras/blob/master/bucket/cpu-v.json)                                   | [3192159](https://github.com/Ash258/scoop-Ash258/commit/31921597d287d9f5be0c9d0b965fc20a0640d10b) | [1202b62](https://github.com/lukesampson/scoop-extras/commit/1202b621183b9d705aef29df4226a1b2c3da1a23) ([lukesampson/scoop-extras#1622](https://github.com/lukesampson/scoop-extras/pull/1622)) |
-flashboot extras 1718 ()
+| [FlashBoot](https://github.com/lukesampson/scoop-extras/blob/master/bucket/flashboot.json)                           | [4fc81ae](https://github.com/Ash258/scoop-Ash258/commit/4fc81ae30f946078fba415954e2a64479f28356e) | [01cf0bd](https://github.com/lukesampson/scoop-extras/commit/01cf0bdf15b0bb3203837a7be0f64ab992bd5567) ([lukesampson/scoop-extras#1718](https://github.com/lukesampson/scoop-extras/pull/1718)) |
 <!--
 TODO:
 Borderless gaming
