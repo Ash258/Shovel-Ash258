@@ -12,9 +12,8 @@
             "Windows Spy Blocker"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/crazy-max/WindowsSpyBlocker"
-    },
+    "persist": "app.conf",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/crazy-max/WindowsSpyBlocker/releases/download/$version/WindowsSpyBlocker.exe"
     }

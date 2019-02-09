@@ -1,6 +1,6 @@
 {
     "version": "5.99.4900",
-    "description": "Aida. Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers.",
+    "description": "Aida64 Engineer Edition. Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers.",
     "homepage": "https://www.aida64.com/products/aida64-engineer/",
     "url": [
         "http://download.aida64.com/aida64engineer599.zip",
@@ -31,10 +31,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.aida64.com/downloads/",
-        "regex": "AIDA64 Extreme\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">([\\d\\.]+)"
+        "url": "https://www.aida64.com/downloads/latesta64ee/",
+        "regex": "Version: ([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "http://download.aida64.com/aida64engineer$match2$match3.zip"
+        "url": "http://download.aida64.com/aida64engineer$majorVersion$minorVersion.zip"
     }
 }

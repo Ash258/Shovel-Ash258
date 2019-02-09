@@ -1,6 +1,6 @@
 {
     "version": "5.99.4900",
-    "description": "Aida. Essential IT asset management solution for small and medium enterprises.",
+    "description": "Aida64 Business Edition. Essential IT asset management solution for small and medium enterprises.",
     "homepage": "https://www.aida64.com/products/aida64-business/",
     "url": [
         "http://download.aida64.com/aida64business599.zip",
@@ -35,6 +35,6 @@
         "regex": "AIDA64 Business\\s+</a></span><span.*ZIP package</span></td>\\s+<td class=\"version\">([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "http://download.aida64.com/aida64business$match2$match3.zip"
+        "url": "http://download.aida64.com/aida64business$majorVersion$minorVersion.zip"
     }
 }
