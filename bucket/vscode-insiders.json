@@ -53,6 +53,14 @@
             "}"
         ]
     },
+    "post_install": [
+        "    # Reflect storage change to support correct last opened editor.",
+        "$file = \"$dir\\data\\user-data\\storage.json\"",
+        "if (Test-Path $file) {",
+        "    $cont = (Get-Content $file) -replace 'nightly-\\d+', 'current'",
+        "    Set-Content $file $cont -Encoding Ascii",
+        "}"
+    ],
     "uninstaller": {
         "script": [
             "    # Uninstall context menu",

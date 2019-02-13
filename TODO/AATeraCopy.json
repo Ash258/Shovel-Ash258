@@ -1,0 +1,36 @@
+{
+    "##": "Wait for portable version: 'https://ora.pm/project/14026/kanban/task/183689'",
+    "version": "3.26",
+    "description": "Copy files faster and more securely.",
+    "homepage": "https://codesector.com/teracopy",
+    "notes": "To add TeraCopy as context menu options, run '$dir\\DefaultHandler.reg'.",
+    "url": "https://s3.amazonaws.com/codesector-us/teracopy.exe",
+    "hash": "5b667ff25a5f2ecf810e2f60dd079dc68fce6eafa174e6de835b8aed919e12f3",
+    "innosetup": true,
+    "pre_install": [
+        "if (-not (Test-Path \"$dir\\Portable\" -Type Leaf)) { New-Item \"$dir\\Portable\" -Type File | Out-Null }",
+        "$file = 'Options.ini'",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "    Set-Content \"$dir\\$file\" '[Main]' -Encoding Ascii",
+        "}"
+    ],
+    "bin": "TeraCopy.exe",
+    "shortcuts": [
+        [
+            "TeraCopy.exe",
+            "TeraCopy"
+        ]
+    ],
+    "persist": [
+        "Options.ini",
+        "HIstory"
+    ],
+    "checkver": {
+        "url": "https://codesector.com/downloads",
+        "regex": "TeraCopy ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://s3.amazonaws.com/codesector-us/teracopy.exe"
+    }
+}
