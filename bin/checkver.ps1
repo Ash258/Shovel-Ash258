@@ -80,7 +80,10 @@ begin {
 
 process {
     if ($Recurse) {
-        Get-RecursiveFolder | ForEach-Object { Invoke-Expression -Command "$Script -Dir ""$_"" $Rest" }
+        Get-RecursiveFolder | ForEach-Object {
+            Invoke-Expression -Command "$Script -Dir ""$_"" $Rest"
+            Write-Host '---'
+        }
     } else {
         foreach ($man in $Manifest) { Invoke-Expression -Command "$Script -App ""$man"" -Dir ""$Dir"" $Rest" }
     }
