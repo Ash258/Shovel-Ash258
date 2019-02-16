@@ -23,11 +23,11 @@
         "64bit": {
             "url": [
                 "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-92ff7c4c240954a8d05291979eeb5ba83050292b/rpcs3-v0.0.6-7803-92ff7c4c_win64.7z",
-                "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2017_1113_152d950c365ede4130c53ceb18dcd43b/PS3UPDAT.PUP"
+                "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2019_0214_da485a99e39105b2ccffa5af59f82221/PS3UPDAT.PUP"
             ],
             "hash": [
                 "ca256d9162ac5c011da98ac211d53f385ae5d3fae86ec597ac216fe445f82f63",
-                "a70669bc35a5d688c94f5db8e1eb4110295b1b076ccc3c8e4a7e9ee397a6ca41"
+                "3bd059c6fdc9757aa59db921ab4ff1743134801de7e00e814efd57621471823f"
             ]
         }
     },

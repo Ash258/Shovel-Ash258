@@ -1,5 +1,5 @@
 {
-    "version": "1.20.0",
+    "version": "1.20.2",
     "description": "Ashampoo Burning Studio 2019. .",
     "homepage": "https://www.ashampoo.com/en/usd/pin/5410/burning-software/burning-studio-2019",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.ashampoo.com/en/usd/eul/5410"
     },
     "url": "https://www.ashampoo.com/ashampoo_burning_studio_2019_sm.exe",
-    "hash": "5d112de8ff8f75924ff7d23d63cb6c0c4f744dd3791f5b55b5869e71ff4225a4",
+    "hash": "175fa2f33c6f1c69e547e51b6cafb2bf79d072b9ea18a303e8471366b886b813",
     "innosetup": true,
     "bin": "",
     "shortcuts": [

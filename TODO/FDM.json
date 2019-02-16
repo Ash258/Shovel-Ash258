@@ -1,5 +1,5 @@
 {
-    "version": "5.1.37",
+    "version": "5.1.38",
     "description": "Free Download Manager. Powerful modern download accelerator and organizer for Windows and Mac.",
     "homepage": "https://www.freedownloadmanager.org/",
     "license": {
@@ -8,11 +8,11 @@
     "architecture": {
         "64bit": {
             "url": "https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe",
-            "hash": "85fad02c6f97a5abd6c06c74c3e07341a76532c33f6c207f43ca3f7089a7252c"
+            "hash": "0c05843c56eb0411d1baf2ab5d82207ecbad3fcbb7f7cb8eede1b4b43946bd6d"
         },
         "32bit": {
             "url": "https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x86_setup.exe",
-            "hash": "25d06df3a070c56399af8b377c16e8783d73c489d40401636fd6825986628ee3"
+            "hash": "69cca0d59a37fefe70fe0f8308cb063215bc2687b2305c996cb216141e516f16"
         }
     },
     "innosetup": true,
