@@ -1,5 +1,5 @@
 {
-    "version": "18.0-Leia",
+    "version": "18.1-Leia",
     "description": "Kodi. Multiplatform media player and entertainment hub.",
     "homepage": "https://kodi.tv/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-18.0-Leia-x64.exe#/cosi.7z",
-            "hash": "cd7148037253376da80f5924f49652ba5fdc7dadd4586faa30d62e31db45ffc9"
+            "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-18.1-Leia-x64.exe#/cosi.7z",
+            "hash": "2a898e4cc5cc7db32474aba6800024bb5958596a29d9f6eb852dc5ac4e189a32"
         },
         "32bit": {
-            "url": "https://mirrors.kodi.tv/releases/windows/win32/kodi-18.0-Leia-x86.exe#/cosi.7z",
-            "hash": "d0be2fc7180f542202aa60a8f5475fa225d02079fd38d8dd2738770dec05a38e"
+            "url": "https://mirrors.kodi.tv/releases/windows/win32/kodi-18.1-Leia-x86.exe#/cosi.7z",
+            "hash": "d3610f0aa119c2fce681f02055df7e0d1f9f21410adee4209cfe1c17a3a4b21c"
         }
     },
     "post_install": "Get-ChildItem \"$dir\" '$*' -Directory | Remove-Item -Force -Recurse",
