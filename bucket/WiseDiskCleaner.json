@@ -1,17 +1,20 @@
 {
-    "version": "10.1.5.762",
+    "version": "10.1.6.765",
     "description": "Wise Disk Cleaner. Clean junks of Browsers, remove junk and useless files of Windows and Defragment disk.",
     "homepage": "https://www.wisecleaner.com/wise-disk-cleaner.html",
     "license": "Freeware",
     "url": "https://downloads.wisecleaner.com/soft/WDCFree.zip",
-    "hash": "919584ffed0d27e160bf0e92720ce379e70b810a8e8bd8874a2e0c423fd098be",
+    "hash": "f4115b6500550912f72ed9b74625e9d17213d7d10904bcc28636966cd9bcecf2",
     "extract_dir": "Wise Disk Cleaner",
     "installer": {
         "script": [
             "$file = 'config.ini'",
-            "$CONT = (Get-Content \"$dir\\config.ini\")",
-            "$CONT = $CONT -replace 'checkNewVer=1', 'checkNewVer=0'",
-            "Set-Content \"$dir\\$file\" $CONT -Encoding Ascii"
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    $CONT = (Get-Content \"$dir\\$file\")",
+            "    $CONT = $CONT -replace 'checkNewVer=1', 'checkNewVer=0'",
+            "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+            "}"
         ]
     },
     "persist": [
