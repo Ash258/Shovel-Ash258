@@ -35,6 +35,9 @@
             },
             "group": "test",
             "problemMatcher": [],
+            "runOptions": {
+                "reevaluateOnRerun": false,
+            },
         },
         {
             // Default (While opened file, Press CTRL+F9 / CTRL+SHIFT+B)
@@ -54,6 +57,9 @@
                 "showReuseMessage": false,
             },
             "problemMatcher": [],
+            "runOptions": {
+                "reevaluateOnRerun": false,
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true,
