@@ -1,35 +1,20 @@
 {
-    "##": "TODO: Resolve uninstallation problem with Resrouces/*h files in use and need other privilages.",
     "version": "19.010.20091",
     "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
     "homepage": "https://get.adobe.com/reader/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020091/AcroRdrDC1901020091_en_US.exe",
+    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020091/AcroRdrDC1901020091_en_US.exe#/cosi.7z",
     "hash": "f4e4bc110aaf5167f3fabdf8740359b6da9f035a4e32aab614cfdd8541f6a585",
     "installer": {
-        "args": [
-            "/sAll",
-            "/rs",
-            "/msi",
-            "INSTALLDIR=\"$dir\"",
-            "EULA_ACCEPT=YES",
-            "SUPPRESS_APP_LAUNCH=YES"
-        ]
-    },
-    "uninstaller": {
         "script": [
-            "$ID = (Get-CimInstance Win32_Product -Filter \"Name = 'Adobe Acrobat DC'\").IdentifyingNumber",
-            "msiexec.exe /x $ID /qn",
-            "    # Prevent failed installation",
-            "Start-Sleep -Seconds 3"
+            "$ext_der = 'program files\\Adobe\\Acrobat Reader DC'",
+            "$ms = 'AcroRead.msi'",
+            "(Get-ChildItem \"$dir\" -Exclude $ms) | Remove-Item",
+            "extract_msi \"$dir\\$ms\""
         ]
     },
-    "post_install": [
-        "$name = 'AdobeARMservice'",
-        "Set-Service -Name $name -StartupType Disabled -Status Stopped"
-    ],
     "shortcuts": [
         [
             "Reader\\AcroRd32.exe",
@@ -38,6 +23,6 @@
     ],
     "checkver": "Version \\d{2}((?<cosi>[\\d\\.]+))",
     "autoupdate": {
-        "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/$cleanVersion/AcroRdrDC$cleanVersion_en_US.exe"
+        "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/$cleanVersion/AcroRdrDC$cleanVersion_en_US.exe#/cosi.7z"
     }
 }
