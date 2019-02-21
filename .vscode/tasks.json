@@ -24,6 +24,7 @@
             "command": ".\\bin\\checkver.ps1",
             "args": [
                 "${input:pickSpecificManifest}",
+                "${input:pickBucketDirectory}",
                 "${input:pickUpdateType}",
             ],
             "presentation": {
@@ -139,5 +140,15 @@
             "type": "promptString",
             "default": "*",
         },
+        {
+            "id": "pickBucketDirectory",
+            "description": "Select folder",
+            "type": "pickString",
+            "options": [
+                "bucket",
+                "TODO"
+            ],
+            "default": "bucket"
+        }
     ],
 }
