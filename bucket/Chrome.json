@@ -1,16 +1,16 @@
 {
-    "version": "72.0.3626.109",
+    "version": "72.0.3626.119",
     "description": "Google Chrome. Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/eBNhCVFAPhU_72.0.3626.109/72.0.3626.109_chrome_installer.exe#/cosi.7z",
-            "hash": "1fbdad1b88d3cd81e0b8eb36e54607796576ae8ca517b797f7f72aaeb6b672a7"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/Nz-nh2HFKTg_72.0.3626.119/72.0.3626.119_chrome_installer.exe#/cosi.7z",
+            "hash": "7ff3d2c6ca990db065a45b3f09c5dda85aa164cfaa99969aece364d5122efa4f"
         },
         "32bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AJc8xaUt3y47_72.0.3626.109/72.0.3626.109_chrome_installer.exe#/cosi.7z",
-            "hash": "8cf6c55289709337c68634d823ca2b1de9272328c82ce1112aec46d237fb213d"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AMavr_Q0teHn_72.0.3626.119/72.0.3626.119_chrome_installer.exe#/cosi.7z",
+            "hash": "f08f343aca149af2f3ee7d16fa75d3281b12c797e0f89f14322ebfd2e4d6ef3a"
         }
     },
     "installer": {
@@ -30,7 +30,7 @@
     ],
     "checkver": {
         "url": "https://www.chrome-portable.com/index.php/google-chrome-offline-installer/",
-        "regex": "(?sm)Version:\\s+([\\d\\.]+).*release2/chrome/(?<32>[\\w]+)_\\d+.*release2/chrome/(?<64>[\\w]+)_\\d+.*Download 64-bit"
+        "regex": "(?sm)Version:\\s+([\\d\\.]+).*release2/chrome/(?<32>[\\w-]+)_\\d+.*release2/chrome/(?<64>[\\w-]+)_\\d+.*Download 64-bit"
     },
     "autoupdate": {
         "architecture": {
