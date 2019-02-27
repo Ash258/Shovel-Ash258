@@ -3,8 +3,16 @@
     "description": "ExperienceIndexOK. Effective solution to read and show Windows Experience Index.",
     "homepage": "https://www.softwareok.com/?seite=Microsoft/ExperienceIndexOK/",
     "license": "Freeware",
-    "url": "https://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
-    "hash": "7d5c5f7f17841624f2ea25f50b463d2456f04b2da14a4cd0d2ee64b34e9f2382",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.com/Download/ExperienceIndexOK_x64_Portable.zip",
+            "hash": "7d5c5f7f17841624f2ea25f50b463d2456f04b2da14a4cd0d2ee64b34e9f2382"
+        },
+        "32bit": {
+            "url": "https://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
+            "hash": "40c44c262430201dd1af3dfa9675b493469654066ea3c917b6c192d6153d6649"
+        }
+    },
     "pre_install": [
         "$file = 'ExperienceIndexOK.ini'",
         "if (-not (Test-Path \"$dir\\$file\")) {",
@@ -21,10 +29,17 @@
     ],
     "checkver": "New in version ([\\d\\.]+)",
     "autoupdate": {
-        "url": "https://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.com/Download/ExperienceIndexOK_x64_Portable.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip"
+            }
+        },
         "hash": {
             "url": "https://www.softwareok.com/?Download=ExperienceIndexOK",
-            "regex": "$basename.*analysis/\">($sha256)</a></div></td></tr><tr"
+            "regex": "$basename<div.+analysis/\">($sha256)</a></div></td></tr><tr.+$basename/ExperienceIndexOK_p\\.exe"
         }
     }
 }
