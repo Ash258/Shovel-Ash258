@@ -6,11 +6,23 @@
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/ExperienceIndexOK_x64_Portable.zip",
-            "hash": "7d5c5f7f17841624f2ea25f50b463d2456f04b2da14a4cd0d2ee64b34e9f2382"
+            "hash": "7d5c5f7f17841624f2ea25f50b463d2456f04b2da14a4cd0d2ee64b34e9f2382",
+            "shortcuts": [
+                [
+                    "ExperienceIndexOK_x64_p.exe",
+                    "ExperienceIndexOK"
+                ]
+            ]
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
-            "hash": "40c44c262430201dd1af3dfa9675b493469654066ea3c917b6c192d6153d6649"
+            "hash": "40c44c262430201dd1af3dfa9675b493469654066ea3c917b6c192d6153d6649",
+            "shortcuts": [
+                [
+                    "ExperienceIndexOK_p.exe",
+                    "ExperienceIndexOK"
+                ]
+            ]
         }
     },
     "pre_install": [
@@ -21,12 +33,6 @@
         "}"
     ],
     "persist": "ExperienceIndexOK.ini",
-    "shortcuts": [
-        [
-            "ExperienceIndexOK_p.exe",
-            "ExperienceIndexOK"
-        ]
-    ],
     "checkver": "New in version ([\\d\\.]+)",
     "autoupdate": {
         "architecture": {
