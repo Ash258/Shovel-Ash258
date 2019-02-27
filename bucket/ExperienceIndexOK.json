@@ -39,7 +39,7 @@
         },
         "hash": {
             "url": "https://www.softwareok.com/?Download=ExperienceIndexOK",
-            "regex": "$basename<div.+analysis/\">($sha256)</a></div></td></tr><tr.+$basename/ExperienceIndexOK_p\\.exe"
+            "regex": "$basename<div.+analysis/\">($sha256)</a></div></td></tr><tr.+$basename/ExperienceIndexOK_"
         }
     }
 }
