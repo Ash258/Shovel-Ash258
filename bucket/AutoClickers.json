@@ -18,6 +18,9 @@
         "replace": "${y}.${m}.${d}"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClickers.exe"
+        "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClickers.exe",
+        "hash": {
+            "mode": "sourceforge"
+        }
     }
 }
