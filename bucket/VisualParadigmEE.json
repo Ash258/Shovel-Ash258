@@ -31,16 +31,16 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vp$matchVer/$matchBuild/Visual_Paradigm_$underscoreVersion_Win64_InstallFree.zip"
+                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vp$majorVersion.$minorVersion/$patchVersion/Visual_Paradigm_$underscoreVersion_Win64_InstallFree.zip"
             },
             "32bit": {
-                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vp$matchVer/$matchBuild/Visual_Paradigm_$underscoreVersion_Win32_InstallFree.zip"
+                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vp$majorVersion.$minorVersion/$patchVersion/Visual_Paradigm_$underscoreVersion_Win32_InstallFree.zip"
             }
         },
         "hash": {
             "url": "$baseurl/checksum.html",
             "regex": "$basename\\s*</td>\\s*<td>\\s*sha256: ($sha256)"
         },
-        "extract_dir": "Visual Paradigm $matchVer"
+        "extract_dir": "Visual Paradigm $majorVersion.$minorVersion"
     }
 }
