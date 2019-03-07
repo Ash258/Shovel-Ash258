@@ -1,13 +1,13 @@
 {
-    "version": "2.3.0.0",
+    "version": "2.3.0.1",
     "description": "NVidia Inspector. View detailed info about your nVidia graphics card using this comprehensive application that features overclocking options and other nifty settings.",
     "homepage": "https://github.com/Orbmu2k/nvidiaProfileInspector/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/blob/master/LICENSE.txt"
     },
-    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.3.0.0/nvidiaProfileInspector.zip",
-    "hash": "cfe5bd81f8fd31954a513408133208a5ea0cd5f2177710d4e808816dbabed3b7",
+    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.3.0.1/nvidiaProfileInspector.zip",
+    "hash": "02aa29ab4221d6489b036a8b81df7aee5dff16fe91d574b85af4124a4dfc68ff",
     "shortcuts": [
         [
             "nvidiaProfileInspector.exe",
