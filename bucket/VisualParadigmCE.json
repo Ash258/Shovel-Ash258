@@ -38,7 +38,7 @@
             }
         },
         "hash": {
-            "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce$matchVer/$matchBuild/checksum.html",
+            "url": "$baseurl/checksum.html",
             "regex": "$basename\\s*</td>\\s*<td>\\s*sha256: ($sha256)"
         },
         "extract_dir": "Visual Paradigm CE $matchVer"
