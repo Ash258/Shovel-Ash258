@@ -1,12 +1,12 @@
 {
-    "version": "19.010.20091",
+    "version": "19.010.20098",
     "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
     "homepage": "https://get.adobe.com/reader/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020091/AcroRdrDC1901020091_en_US.exe#/cosi.7z",
-    "hash": "f4e4bc110aaf5167f3fabdf8740359b6da9f035a4e32aab614cfdd8541f6a585",
+    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020098/AcroRdrDC1901020098_en_US.exe#/cosi.7z",
+    "hash": "9d3d645a5072270f87bf74fb73da0973cd9d1a44aa28ab36593beafa26f97b6b",
     "installer": {
         "script": [
             "$ext_der = 'program files\\Adobe\\Acrobat Reader DC'",

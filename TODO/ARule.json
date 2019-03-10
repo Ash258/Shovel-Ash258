@@ -1,0 +1,22 @@
+{
+    "version": "3.3.3",
+    "description": "On screen pixel ruler / reading guide.",
+    "homepage": "https://www.arulerforwindows.com/index.html",
+    "license": "Freeware",
+    "url": "https://www.arulerforwindows.com/arulersetup.exe",
+    "hash": "71ddbd5f78070799283f8392653385ccd66c812fdcb64fe82e70387e8d95bd03",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "aruler.exe",
+            "A Ruler For Windows"
+        ]
+    ],
+    "checkver": {
+        "regex": "\\(version (?<major>\\d)\\.<span lang=\"[\\w-]+\">(?<other>[\\d\\.]+)",
+        "replace": "${major}.${other}"
+    },
+    "autoupdate": {
+        "url": "https://www.arulerforwindows.com/arulersetup.exe"
+    }
+}

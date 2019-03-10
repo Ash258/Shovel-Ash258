@@ -52,6 +52,7 @@
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                          |   ✔    |    ✔❓    |       ✔ (⛔)       |
@@ -127,9 +128,13 @@
 | [FlashBoot](https://github.com/lukesampson/scoop-extras/blob/master/bucket/flashboot.json)                           | [4fc81ae](https://github.com/Ash258/scoop-Ash258/commit/4fc81ae30f946078fba415954e2a64479f28356e) | [01cf0bd](https://github.com/lukesampson/scoop-extras/commit/01cf0bdf15b0bb3203837a7be0f64ab992bd5567) ([lukesampson/scoop-extras#1718](https://github.com/lukesampson/scoop-extras/pull/1718)) |
 <!--
 TODO:
-Borderless gaming
-Bzzt image editor
-qBitTorrent-portable
+    Borderless gaming
+    Bzzt image editor
+    qBitTorrent-portable
+    Skype
+    Chrome
+    NvidiaInspector
+    Kodi
 -->
 
 ### TODOs
