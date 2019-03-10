@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.rarlab.com/rar/winrar-x64-570cz.exe#/cosi.7z",
-            "hash": "5e5ae8476052b973b427fe4991aeee2bf5b05ceae5bb45ed67849d06cb031471"
+            "hash": "91c02c0a94469b010a125bd41d6614adf27a929408c1762d0741e95fb472d650"
         },
         "32bit": {
             "url": "https://www.rarlab.com/rar/wrar570cz.exe#/cosi.7z",
-            "hash": "2b56b58a2ec260589770b377256831d5c3d0f4efe012b109f2c9d31fcc855ff7"
+            "hash": "c62bc146a14fe646c72b5bef235afdd9d8064e12b45d197e7e547a6dc23080af"
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\rarreg.key\")) { Write-Host 'Key does not exist' -f Yellow; Set-Content \"$dir\\rarreg.key\" $null }",
