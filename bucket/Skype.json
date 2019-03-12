@@ -1,10 +1,10 @@
 {
-    "version": "8.40.0.70",
+    "version": "8.41.0.54",
     "description": "Skype. Communication tool for free calls and chat.",
     "homepage": "https://www.skype.com/",
     "license": "Freeware",
-    "url": "https://endpoint920510.azureedge.net/s4l/s4l/download/win/Skype-8.40.0.70.exe",
-    "hash": "b17901fd3bac0b9b2bb15ac0ca0a1467c79c532861ab465166ed1b1d6f98da64",
+    "url": "https://endpoint920510.azureedge.net/s4l/s4l/download/win/Skype-8.41.0.54.exe",
+    "hash": "6d880eea5603147eda5bfa7ac8cb6294d184ac5fbc46ea357380a45a9814fa51",
     "innosetup": true,
     "shortcuts": [
         [
