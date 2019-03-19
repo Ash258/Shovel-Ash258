@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://www.softpedia.com/get/Tweak/System-Tweak/FixWin10.shtml",
-        "regex": "FixWin for Windows 10</strong> ([\\d\\.]+)</h2>"
+        "regex": "FixWin for Windows 10 ([\\d\\.]+)</h2>"
     },
     "autoupdate": {
         "url": "https://www.thewindowsclub.com/downloads/FixWin10.zip",
