@@ -1,21 +1,17 @@
 {
-    "version": "2018.07.21",
-    "description": "Auto Clicker. A full-fledged autoclicker with two modes of autoclicking, at your dynamic cursor location or at a prespecified location. The maximum amounts of clicked can also be set (or left as infinite).",
-    "homepage": "https://sourceforge.net/projects/orphamielautoclicker/",
+    "version": "1.0.0.2",
+    "description": "Auto Clicker. A full-fledged autoclicker with two modes of autoclicking, at dynamic cursor location or at a prespecified location.",
+    "homepage": "https://www.opautoclicker.com/",
     "license": "CC-BY-NC-2.0",
     "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClicker.exe",
-    "hash": "sha1:a0afda31cf816d602db7b4100282f0834149ca8f",
+    "hash": "sha1:1751d9389adb1e7187afa4938a3559e58739dce6",
     "shortcuts": [
         [
             "AutoClicker.exe",
             "OP Auto Clicker"
         ]
     ],
-    "checkver": {
-        "url": "https://sourceforge.net/projects/orphamielautoclicker/files/",
-        "regex": "((?<y>\\d{4})-(?<m>\\d{2})-(?<d>\\d{2}))</abbr></td>",
-        "replace": "${y}.${m}.${d}"
-    },
+    "checkver": "v([\\d\\.]+)\\s*:",
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClicker.exe",
         "hash": {
