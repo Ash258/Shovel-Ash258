@@ -1,5 +1,5 @@
 {
-    "version": "1.0026",
+    "version": "1.0027",
     "description": "Cheat Happens Trainer Manager. Managing, storing and autoupdating of cheat happens trainers.",
     "homepage": "https://www.cheathappens.com/trainermanager.asp",
     "license": "Freeware",
@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.cheathappens.com/TrainerManager64.zip",
-            "hash": "2a6fe42e876beebfd7d0c5188f2ae072848a4abce9fa04662fa4032a05dc0544",
+            "hash": "4dbdfff0003989506d7c8ecdbd9ddc88f3cf068a8b1ee529490ad6ffa4a32505",
             "shortcuts": [
                 [
                     "Trainer Manager 64.exe",
