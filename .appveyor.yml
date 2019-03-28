@@ -3,7 +3,7 @@ skip_commits:
     - '**/*.md'
     - '.vscode/**/*'
 cache:
-  - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> appveyor.yml'
+  - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> .appveyor.yml'
 matrix:
   fast_finish: true
 build: 'off'
