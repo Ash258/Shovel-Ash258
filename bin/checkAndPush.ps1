@@ -14,7 +14,7 @@
     checkhashes.ps1 script will be executed instead of checkver.ps1
 #>
 param(
-    [Alias('App')]
+    [Alias('App', 'Name')]
     [String[]] $Manifest,
     [Alias('ForceUpdate')]
     [Switch] $Force,

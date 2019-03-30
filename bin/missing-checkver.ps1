@@ -22,7 +22,7 @@
 #>
 param(
     [Parameter(ValueFromPipeline = $true)]
-    [Alias('App')]
+    [Alias('App', 'Name')]
     [String] $Manifest = '*',
     [ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
     [String] $Dir = "$PSScriptRoot\..\bucket",

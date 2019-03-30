@@ -3,6 +3,8 @@
     Updates manifests and pushes them or creates pull-requests.
 .DESCRIPTION
     Updates manifests and pushes them to directly the master branch or creates pull-requests for upstream.
+.PARAMETER Manifest
+    Manifest to be updated.
 .PARAMETER Dir
     Where to search for manifests.
 .PARAMETER Upstream
@@ -15,8 +17,8 @@
     List of manifests, which should be updated allways. (Force updated)
 #>
 param(
-    [Alias('Name', 'Manifest')]
-    [String] $App,
+    [Alias('App', 'Name')]
+    [String] $Manifest,
     [ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
     [String] $Dir = "$PSScriptRoot\..\bucket",
     [ValidatePattern('^(.+)\/(.+):(.+)$')]
@@ -28,10 +30,9 @@ param(
 
 begin {
     if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
-    Write-Host $Upstream
     $Dir = Resolve-Path $Dir
     $Params = @{
-        App               = $App
+        App               = $Manifest
         Dir               = $Dir
         Upstream          = $Upstream
         Push              = $Push
