@@ -18,7 +18,7 @@
 #>
 param(
     [Alias('App', 'Name')]
-    [String] $Manifest,
+    [String] $Manifest = '*',
     [ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
     [String] $Dir = "$PSScriptRoot\..\bucket",
     [ValidatePattern('^(.+)\/(.+):(.+)$')]
