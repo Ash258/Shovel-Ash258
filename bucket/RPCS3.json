@@ -1,5 +1,5 @@
 {
-    "version": "0.0.6-7934",
+    "version": "0.0.6-7935",
     "description": "RPCS3. Experimental open-source Sony PlayStation 3 emulator and debugger.",
     "homepage": "https://rpcs3.net/",
     "license": {
@@ -10,7 +10,7 @@
         "Install firmware via 'File -> Install firmware'.",
         "    Latest firmware file ('PS3UPDAT.PUP') is located inside app directory ('$dir').",
         "HOW TO INSTALL GAME:",
-        "1.   Download games from 'http://psndl.net/packages'",
+        "1.   Download games from 'https://psndl.net/packages'",
         "1.1.       Both files ('Rap', 'Package') are needed",
         "2.   Install via 'File -> Install .pkg'",
         "3.   Copy RAP file and paste it into '$dir\\dev_hdd0\\home\\00000001\\exdata'",
@@ -22,11 +22,11 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-7625f7df11323e14fcbe9727c338c74c03f384eb/rpcs3-v0.0.6-7934-7625f7df_win64.7z",
+                "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-f30af3ccd249d57358e1ef62c0375a8dd79e6a25/rpcs3-v0.0.6-7935-f30af3cc_win64.7z",
                 "http://dus01.ps3.update.playstation.net/update/ps3/image/us/2019_0214_da485a99e39105b2ccffa5af59f82221/PS3UPDAT.PUP"
             ],
             "hash": [
-                "c8f1d7e80cc47d69cf9c7827e210cccfd73fd97f54d9b128f152e23895898336",
+                "bb8e38df2e4771d9eea69aa3cc0287f44c77cadf4b8ddc26bbd9291e664f3083",
                 "3bd059c6fdc9757aa59db921ab4ff1743134801de7e00e814efd57621471823f"
             ]
         }
@@ -35,11 +35,11 @@
         "script": [
             "$file = 'GuiConfigs\\CurrentSettings.ini'",
             "if (-not (Test-Path \"$persist_dir\\$file\")) {",
-            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    Write-Host 'File' \"$file\" 'does not exists. Creating.' -f Yellow",
             "    $outfile = \"$dir\\$file\"",
-            "    New-Item $outFile -Type File -Force | Out-Null",
+            "    New-Item \"$outFile\" -Type File -Force | Out-Null",
             "    $CONT = @('[Meta]', 'currentStylesheet=Darker Style by TheMitoSan')",
-            "    Set-Content $outFile ($CONT -join \"`r`n\") -Encoding Ascii",
+            "    Set-Content \"$outFile\" ($CONT -join \"`r`n\") -Encoding Ascii",
             "}"
         ]
     },
