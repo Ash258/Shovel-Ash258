@@ -1,5 +1,5 @@
 {
-    "version": "4.9.3",
+    "version": "4.9.4",
     "description": "Wavebox. Clever new home for cloud apps on macOS, Linux & Windows bringing all kind of web applications into a configurable client.",
     "homepage": "https://wavebox.io/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://wavebox.pro/dl/client/4_9_3/Wavebox_4_9_3_windows_x86_64/wavebox-4.9.3-full.nupkg",
-            "hash": "sha1:a8173ce7276b66ab4f5ca5f9d05d8e1a79719a71"
+            "url": "https://wavebox.pro/dl/client/4_9_4/Wavebox_4_9_4_windows_x86_64/wavebox-4.9.4-full.nupkg",
+            "hash": "sha1:04e853751c2b7a383fe44e41ff14d5a305bdbcd4"
         }
     },
     "extract_dir": "lib\\net45",
