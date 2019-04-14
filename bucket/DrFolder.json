@@ -1,10 +1,10 @@
 {
-    "version": "2.6.7.9",
+    "version": "2.6.8.0",
     "description": "Dr. Folder. Customize desktop & windows folder icon and color.",
     "homepage": "http://www.pcclean.io/dr-folder/",
     "license": "Freeware",
     "url": "http://www.pcclean.io/product-drfolder/dfinstall.exe",
-    "hash": "56e6378274363ebbafde9da5c648db35ebbbaa2b99dc22285b1bc34ebb74017f",
+    "hash": "77fc43e6d2745b9ae35a0a18f00e405378609468d23908371886e4c04cf56c15",
     "innosetup": true,
     "bin": [
         "DrFolderCmd.exe",
