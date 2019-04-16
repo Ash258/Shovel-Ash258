@@ -1,4 +1,5 @@
 {
+    "##": "TODO: persist icon should be merge type",
     "version": "2.6.8.0",
     "description": "Dr. Folder. Customize desktop & windows folder icon and color.",
     "homepage": "http://www.pcclean.io/dr-folder/",
@@ -19,6 +20,7 @@
             "Dr. Folder"
         ]
     ],
+    "persist": "icons",
     "checkver": {
         "url": "http://www.pcclean.io/category/dr-folder-version-history/",
         "regex": "Dr\\. Folder ([\\d\\.]+) released"

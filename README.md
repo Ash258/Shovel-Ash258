@@ -128,13 +128,14 @@
 | [FlashBoot](https://github.com/lukesampson/scoop-extras/blob/master/bucket/flashboot.json)                           | [4fc81ae](https://github.com/Ash258/scoop-Ash258/commit/4fc81ae30f946078fba415954e2a64479f28356e) | [01cf0bd](https://github.com/lukesampson/scoop-extras/commit/01cf0bdf15b0bb3203837a7be0f64ab992bd5567) ([lukesampson/scoop-extras#1718](https://github.com/lukesampson/scoop-extras/pull/1718)) |
 <!--
 TODO:
-    Borderless gaming
-    Bzzt image editor
-    qBitTorrent-portable
     Skype
     Chrome
     NvidiaInspector
     Kodi
+    Borderless gaming
+    qBitTorrent-portable
+    Bzzt image editor
+    DrFolder
 -->
 
 ### TODOs
