@@ -9,7 +9,7 @@ ENV SCOOP_HOME "C:\SCOOP\apps\scoop\current"
 
 RUN powershell.exe -NoLogo -NoExit -Command " \
         iwr -UseBasicParsing 'https://get.scoop.sh' | iex; \
-        scoop install 7zip git sudo innounp lessmsi; \
+        scoop install 7zip git sudo innounp lessmsi dark; \
         scoop cache rm *; \
         "
 
