@@ -61,4 +61,4 @@ pre_install: |
    }
 ```
 
-[Template]: ./.vscode/Template.yml
+[Template]: ../.vscode/Template.yml
