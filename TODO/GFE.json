@@ -1,9 +1,9 @@
 {
-    "version": "3.17.0.126",
+    "version": "3.18.0.102",
     "description": "Nvidia GeForce Experience. Perfect companion to your GeForce® GTX graphics card.",
     "homepage": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
-    "url": "https://us.download.nvidia.com/GFE/GFEClient/3.17.0.126/GeForce_Experience_v3.17.0.126.exe#/cosi.7z",
-    "hash": "4861af7e68125d596a1e36101c315abe7347462a04ab9d095c103cd6702f06b2",
+    "url": "https://us.download.nvidia.com/GFE/GFEClient/3.18.0.102/GeForce_Experience_v3.18.0.102.exe#/cosi.7z",
+    "hash": "457edd5becd4dc6c9f1c83382e7a8dbafd12c1ae1aa85bef4aed7008107a9758",
     "pre_install": "Remove-Item \"$dir\\Setup*.*\" -Force -Recurse",
     "shortcuts": [
         [

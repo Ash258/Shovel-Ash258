@@ -1,12 +1,12 @@
 {
-    "version": "3.1.5",
+    "version": "3.2.0",
     "description": "Next generation front end testing tool built for the modern web.",
     "homepage": "https://www.cypress.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.cypress.io/desktop/3.1.5/win64/cypress.zip",
-            "hash": "a1e9ea90d615bf3ea718812d17e0fedc5dd4c179c1ee5395e295da25f143b99b"
+            "url": "https://cdn.cypress.io/desktop/3.2.0/win64/cypress.zip",
+            "hash": "31007f2932195822e574b4ed2d432bb035c00591c1a2a9e7371493c357d7e3e3"
         }
     },
     "extract_dir": "Cypress",

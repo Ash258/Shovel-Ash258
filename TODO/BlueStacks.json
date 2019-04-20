@@ -1,12 +1,12 @@
 {
-    "version": "4.32.90.1001",
+    "version": "4.60.20.1002",
     "description": "BlueStacks App Player. Easy way to run mobile apps fast and fullscreen on Windows and Mac.",
     "homepage": "https://www.bluestacks.com/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://cdn3.bluestacks.com/downloads/4.32.90.1001/BlueStacks-Installer_amd64_BS4_native.exe",
-    "hash": "201413ba7c5026a06d5f6ddf9b65cc8dc7a7f443ee7d6217216db740fa1315b4",
+    "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.60.20.1002/x64/BlueStacks-Installer_4.60.20.1002_amd64_native.exe",
+    "hash": "9fba789487fc6ddc531def5bbb84bd3eb7fdf60f3b496e6fac53b5023011b9ff",
     "installer": {
         "args": [
             "/S",
@@ -20,10 +20,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://en.wikipedia.org/wiki/BlueStacks",
-        "regex": "Stable release</a></th><td>\\s*<div.*>([\\d\\.]+)"
+        "url": "https://support.bluestacks.com/hc/en-us/articles/360021469391-Release-Notes",
+        "regex": "Release notes for version\\s+([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://cdn3.bluestacks.com/downloads/$version/BlueStacks-Installer_amd64_BS4_native.exe"
+        "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/$version/x64/BlueStacks-Installer_$version_amd64_native.exe"
     }
 }
