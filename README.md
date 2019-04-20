@@ -61,7 +61,6 @@
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)  |   ✔    |    ♻     |       ♻ (♻)       |
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                        |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
-| [NVidia Profile Inspector **(NVidiaInspector)**](./bucket/NVidiaInspector.json)                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                     |   ✔    |    ♻     |       ♻ (♻)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -126,6 +125,7 @@
 | [JetBrain's Stuff](https://github.com/Ash258/Scoop-JetBrains/)                                                       | [7dc67a0](https://github.com/Ash258/scoop-Ash258/commit/7dc67a0844aaaae0a64a375e0b0b72d1fd461a91) |                                              [335310b](https://github.com/Ash258/Scoop-JetBrains/commit/335310b3fd136d086501d481a47c4d5c0b21a904)                                               |
 | [CPU-V](https://github.com/lukesampson/scoop-extras/blob/master/bucket/cpu-v.json)                                   | [3192159](https://github.com/Ash258/scoop-Ash258/commit/31921597d287d9f5be0c9d0b965fc20a0640d10b) | [1202b62](https://github.com/lukesampson/scoop-extras/commit/1202b621183b9d705aef29df4226a1b2c3da1a23) ([lukesampson/scoop-extras#1622](https://github.com/lukesampson/scoop-extras/pull/1622)) |
 | [FlashBoot](https://github.com/lukesampson/scoop-extras/blob/master/bucket/flashboot.json)                           | [4fc81ae](https://github.com/Ash258/scoop-Ash258/commit/4fc81ae30f946078fba415954e2a64479f28356e) | [01cf0bd](https://github.com/lukesampson/scoop-extras/commit/01cf0bdf15b0bb3203837a7be0f64ab992bd5567) ([lukesampson/scoop-extras#1718](https://github.com/lukesampson/scoop-extras/pull/1718)) |
+| [NvidiaProfileInspector](https://github.com/lukesampson/scoop-extras/blob/master/bucket/NvidiaProfileInspector.json) |                [COMMIT_](https://github.com/Ash258/scoop-Ash258/commit/COMMIT_ID)                 | [a9f48e1](https://github.com/lukesampson/scoop-extras/commit/a9f48e1931fabee475bb76088ad62ad7c47f277e) ([lukesampson/scoop-extras#1933](https://github.com/lukesampson/scoop-extras/pull/1933)) |
 <!--
 TODO:
     Skype
