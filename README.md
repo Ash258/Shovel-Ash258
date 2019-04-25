@@ -28,7 +28,7 @@
 | [Caret **(Caret)**](./bucket/Caret.json)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [Caret Beta **(Caret-Beta)**](./bucket/Caret-Beta.json)                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [CCleaner Professional **(CCleanerPro)**](./bucket/CCleanerPro.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CheatHappens Trainer Manager **(TrainerManager)**](./TODO/TrainerManager.json)                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./bucket/TrainerManager.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Corsair's iCue **(iCue)**](./bucket/iCue.json)                                                 |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                            |  ✔🔶   |    ✔     |       ✔ (⛔)       |
