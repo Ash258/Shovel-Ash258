@@ -1,10 +1,10 @@
 {
-    "version": "3.3.0.0",
+    "version": "3.3.0.1",
     "description": "W10Privacy. Sets of data protection and privacy options.",
     "homepage": "https://www.winprivacy.de/english-home/",
     "license": "CC-BY-NC-ND-4.0",
     "url": "https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip",
-    "hash": "dfcc82822c041d06eb5083f5d589198bbd1cb27812bfa96178ce65ba509c41ba",
+    "hash": "34273e77641d92cb64778557f72ffb9fcc9de354ade235ee2a6343292c04bf05",
     "pre_install": [
         "$file = 'W10Privacy.ini'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
