@@ -25,7 +25,7 @@
             "}",
             "    # Remove irrelevant files",
             "    # gci because rm does not support placeholders as expected",
-            "Get-ChildItem \"$dir\\`$*\", \"$dir\\uninst.exe\", \"$dir\\CCUpdate.exe\" | Remove-Item -Force -Recurse"
+            "@('$*', 'uninst.exe', 'CCUpdate.exe') | ForEach-Object { Remove-Item \"$dir\\$_\" -Force -Recurse }"
         ]
     },
     "persist": "ccleaner.ini",
