@@ -7,10 +7,7 @@
     "hash": "68eabde2c393601fde86ec8c67a2c4ae997e0a557b1b4b583ead765e761b101c",
     "extract_dir": "Ultimate Windows Tweaker 3.1.2.0",
     "installer": {
-        "script": [
-            "$rename = (Get-ChildItem \"$dir\" 'Ultimate Windows*exe')[0]",
-            "Rename-Item \"$dir\\$rename\" \"$dir\\UWT.exe\""
-        ]
+        "script": "(Get-ChildItem \"$dir\" 'Ultimate Windows*exe').Fullname | Rename-Item -NewName 'UWT.exe'"
     },
     "shortcuts": [
         [
