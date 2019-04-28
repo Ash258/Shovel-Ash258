@@ -19,8 +19,7 @@
         "    New-Item \"$dir\\plugins\" -Type Directory | Out-Null",
         "    download 'https://singularlabs.com/download/11036/' 'Registry.zip'",
         "    download 'https://singularlabs.com/download/10456/' 'ServiceRegistry.zip'",
-        "    extract_7zip \"$dir\\plugins\\*.zip\" \"$dir\\plugins\"",
-        "    Remove-Item \"$dir\\plugins\\*.zip\" -Force",
+        "    Expand-7zipArchive \"$dir\\plugins\\*.zip\" \"$dir\\plugins\" -Removal",
         "}"
     ],
     "innosetup": true,
