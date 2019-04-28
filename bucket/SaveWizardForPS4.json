@@ -6,10 +6,9 @@
     "hash": "3e99c8f092c261dbeba70a980447fbb094b9ccdd22253572e0c50387aecb85b7",
     "installer": {
         "script": [
-            "$installer = \"$dir\\swps4max.msi\"",
-            "extract_msi $installer \"$dir\\cosi\"",
+            "Expand-MSIArchive \"$dir\\swps4max.msi\" \"$dir\\cosi\" -Removal",
             "Move-Item \"$dir\\cosi\\PFiles\\DataPower\\Save Wizard for PS4 MAX\\*\" \"$dir\"",
-            "Remove-Item \"$dir\\cosi\", $installer -Force -Recurse"
+            "Remove-Item \"$dir\\cosi\" -Force -Recurse"
         ]
     },
     "shortcuts": [

@@ -7,10 +7,7 @@
     "hash": "9a1085288b9c27891733d8200d4b8e654bcfdd1a2e63ee5f069746b26539da19",
     "extract_dir": "FixWin 2.2 for Windows 8.1",
     "installer": {
-        "script": [
-            "$rename = (Get-ChildItem \"$dir\" 'Fix*exe')[0]",
-            "Rename-Item \"$dir\\$rename\" \"$dir\\FixWin.exe\""
-        ]
+        "script": "(Get-ChildItem \"$dir\" 'Fix*exe').Fullname | Rename-Item -NewName 'FixWin.exe'"
     },
     "shortcuts": [
         [

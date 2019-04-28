@@ -1,4 +1,4 @@
-# Scoop Ash258 Bucket [![Build status](https://ci.appveyor.com/api/projects/status/85gmaim6wqk5gc20?svg=true)](https://ci.appveyor.com/project/Ash258/scoop-ash258)
+# Scoop Ash258 Bucket [![Build status](https://ci.appveyor.com/api/projects/status/85gmaim6wqk5gc20/branch/master?svg=true)](https://ci.appveyor.com/project/Ash258/scoop-ash258/branch/master)
 
 `scoop bucket add Ash258 'https://github.com/Ash258/scoop-Ash258.git'`
 

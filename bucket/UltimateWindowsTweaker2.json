@@ -7,10 +7,7 @@
     "hash": "7efe77cb948eed5d968e3355e94f3db1dba78112b49e6ad5129aa37383e974ea",
     "extract_dir": "UWT v2.2",
     "installer": {
-        "script": [
-            "$rename = (Get-ChildItem \"$dir\" 'Ultimate Windows*exe')[0]",
-            "Rename-Item \"$dir\\$rename\" \"$dir\\UWT.exe\""
-        ]
+        "script": "(Get-ChildItem \"$dir\" 'Ultimate Windows*exe').Fullname | Rename-Item -NewName 'UWT.exe'"
     },
     "shortcuts": [
         [

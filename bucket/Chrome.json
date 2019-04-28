@@ -15,10 +15,9 @@
     },
     "installer": {
         "script": [
-            "$arch = \"$dir\\chrome.7z\"",
-            "extract_7zip $arch \"$dir\"",
+            "Expand-7ZipArchive \"$dir\\chrome.7z\" \"$dir\" -Removal",
             "Move-Item \"$dir\\Chrome-bin\\*\" \"$dir\"",
-            "Remove-Item $arch, \"$dir\\Chrome-bin\" -Force -Recurse"
+            "Remove-Item \"$dir\\Chrome-bin\" -Force -Recurse"
         ]
     },
     "bin": "chrome.exe",

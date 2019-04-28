@@ -7,10 +7,7 @@
     "hash": "40b442c92c7800adf53b6274b6ba54ea6b605eda68772471f2fff0d7f5369bc7",
     "extract_dir": "FixWin 10.0.1.0",
     "installer": {
-        "script": [
-            "$rename = (Get-ChildItem \"$dir\" 'Fix*exe')[0]",
-            "Rename-Item \"$dir\\$rename\" \"$dir\\FixWin.exe\""
-        ]
+        "script": "(Get-ChildItem \"$dir\" 'Fix*exe').Fullname | Rename-Item -NewName 'FixWin.exe'"
     },
     "shortcuts": [
         [
