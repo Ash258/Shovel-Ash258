@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "6d632d33fcea6b5cb58c916568a940c24b401c0ac13432a1ec88c61410159763",
+            "hash": "053a8148f7508e9c3e81b944d4e3c0b587e8c54ec5a490e63f76d2ead1c307fe",
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
@@ -19,7 +19,7 @@
         },
         "32bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z",
-            "hash": "b46118859983d7f81a98c8c06d21f953650e975623fa278318a04e539bfcfe36",
+            "hash": "14400cbd85ac761a429a286c97b0f5d64fb1e7ec1b8b57dbb532eac29bb9f41c",
             "shortcuts": [
                 [
                     "PotPlayer.exe",
