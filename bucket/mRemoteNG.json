@@ -1,5 +1,4 @@
 {
-    "##": "Fix creation of confCons.xml and optimize persist checks",
     "version": "1.76.20.24669",
     "description": "Open source, tabbed, multi-protocol, remote connections manager. Fork of mRemote.",
     "homepage": "https://mremoteng.org/",
@@ -30,8 +29,10 @@
         "$CONT += '</settings>'",
         "",
         "Persist-Check 'mRemoteNG.settings' $CONT",
-        "# TODO: ⬇⬇⬇⬇",
-        "$confCONT = @('')",
+        "$confCONT = @(",
+        "    '<?xml version=\"1.0\" encoding=\"utf-8\"?>'",
+        "    '<mrng:Connections xmlns:mrng=\"http://mremoteng.org\" Name=\"Connections\" Export=\"false\" EncryptionEngine=\"AES\" BlockCipherMode=\"GCM\" KdfIterations=\"1000\" FullFileEncryption=\"false\" Protected=\"ivoI7siIZakTBRM676LK7RTH9N2RgT8xngMykDB/xs630qEm8sO8qkFbsO1VewsD2LiptqRME4vJEBqCjEZyFTc1\" ConfVersion=\"2.6\" />'",
+        ")",
         "Persist-Check 'confCons.xml' $confCONT"
     ],
     "bin": [

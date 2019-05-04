@@ -58,6 +58,7 @@
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                          |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)  |   ✔    |    ♻     |       ♻ (♻)       |
+| [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                        |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                     |   ✔    |    ♻     |       ♻ (♻)       |
