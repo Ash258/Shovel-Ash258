@@ -75,6 +75,7 @@
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                  |   🎃   |    ♻     |       ♻ (♻)       |
 | [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Steam Account Manager **(SteamAccountManager)**](./bucket/SteamAccountManager.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Bulk Activator **(SteamBulkActivator)**](./bucket/SteamBulkActivator.json)               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Steam Cleaner **(SteamCleaner)**](./bucket/SteamCleaner.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Idle Master **(IdleMaster)**](./bucket/IdleMaster.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
