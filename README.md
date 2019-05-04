@@ -71,6 +71,7 @@
 | [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Scoop Auto Completion **(scoop-auto-completion)**](./bucket/scoop-auto-completion.json)        |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                  |   🎃   |    ♻     |       ♻ (♻)       |
 | [Steam Account Manager **(SteamAccountManager)**](./bucket/SteamAccountManager.json)            |   ✔    |    ✔     |       ✔ (⛔)       |

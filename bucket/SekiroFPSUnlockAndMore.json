@@ -1,0 +1,21 @@
+{
+    "version": "1.2.5.0",
+    "description": "Sekiro FPS Unlock and More. A small utility to remove frame rate limit, add custom resolutions (widescreen support), increase FOV, borderless window, display and log stats and various game modifications for Sekiro.",
+    "homepage": "https://github.com/uberhalit/SekiroFpsUnlockAndMore/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/uberhalit/SekiroFpsUnlockAndMore/blob/master/LICENSE"
+    },
+    "url": "https://github.com/uberhalit/SekiroFpsUnlockAndMore/releases/download/1.2.5.0/SekiroFpsUnlockAndMore_v1.2.5.0.exe#/SFUAM.exe",
+    "hash": "29b11678305aeb31b4728120b7cf0d662dadf7f85c786e5762749cdff1da7389",
+    "shortcuts": [
+        [
+            "SFUAM.exe",
+            "Sekiro FPS Unlock And More"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/uberhalit/SekiroFpsUnlockAndMore/releases/download/$version/SekiroFpsUnlockAndMore_v$version.exe#/SFUAM.exe"
+    }
+}
