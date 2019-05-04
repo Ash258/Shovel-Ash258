@@ -6,6 +6,7 @@ LABEL org.label-schema.maintainer="Jakub 'Ash258' Čábera <cabera.jakub@gmail.c
 
 ENV SCOOP "C:\SCOOP"
 ENV SCOOP_HOME "C:\SCOOP\apps\scoop\current"
+ENV SCOOP_DEBUG "true"
 
 RUN powershell.exe -NoLogo -NoExit -Command " \
         iwr -UseBasicParsing 'https://get.scoop.sh' | iex; \
