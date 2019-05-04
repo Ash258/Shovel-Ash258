@@ -126,9 +126,9 @@
 | [FlashBoot](https://github.com/lukesampson/scoop-extras/blob/master/bucket/flashboot.json)                               | [4fc81ae](https://github.com/Ash258/scoop-Ash258/commit/4fc81ae30f946078fba415954e2a64479f28356e) | [01cf0bd](https://github.com/lukesampson/scoop-extras/commit/01cf0bdf15b0bb3203837a7be0f64ab992bd5567) ([lukesampson/scoop-extras#1718](https://github.com/lukesampson/scoop-extras/pull/1718)) |
 | [NVidia Profile Inspector](https://github.com/lukesampson/scoop-extras/blob/master/bucket/nvidia-profile-inspector.json) | [a650c8b](https://github.com/Ash258/scoop-Ash258/commit/a650c8b4b85932749090a7f19c6b3e08734a09b1) | [a9f48e1](https://github.com/lukesampson/scoop-extras/commit/a9f48e1931fabee475bb76088ad62ad7c47f277e) ([lukesampson/scoop-extras#1933](https://github.com/lukesampson/scoop-extras/pull/1933)) |
 | [Listary](https://github.com/lukesampson/scoop-extras/blob/master/bucket/listary.json)                                   | [458063b](https://github.com/Ash258/scoop-Ash258/commit/458063b1983f1d75ec5f5e4338e39309cd6c28a3) | [e6be780](https://github.com/lukesampson/scoop-extras/commit/e6be780550b1580bbbf9b74756a462e8be4b34c9) ([lukesampson/scoop-extras#2054](https://github.com/lukesampson/scoop-extras/pull/2054)) |
+| [Skype](https://github.com/lukesampson/scoop-extras/blob/master/bucket/skype.json)                                       | [30c3167](https://github.com/Ash258/scoop-Ash258/commit/30c3167f0359cb79acc230377b268de297abd1f7) | [7ecd6db](https://github.com/lukesampson/scoop-extras/commit/7ecd6db0e307048130c144c7b47fecf60d50ee68) ([lukesampson/scoop-extras#1932](https://github.com/lukesampson/scoop-extras/pull/1932)) |
 <!--
 TODO:
-    Skype
     Chrome
     Kodi
     Borderless gaming
