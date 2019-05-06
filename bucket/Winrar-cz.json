@@ -1,5 +1,5 @@
 {
-    "version": "5.70",
+    "version": "5.71",
     "description": "Winrar. Powerful archive manager.",
     "homepage": "https://rarlab.com/",
     "license": "Shareware",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://www.rarlab.com/rar/winrar-x64-570cz.exe#/cosi.7z",
-            "hash": "91c02c0a94469b010a125bd41d6614adf27a929408c1762d0741e95fb472d650"
+            "url": "https://www.rarlab.com/rar/winrar-x64-571cz.exe#/cosi.7z",
+            "hash": "d69ed094427c35d80ea065a1c91117ce9dae2b4af3514a7546f215c816a41c63"
         },
         "32bit": {
-            "url": "https://www.rarlab.com/rar/wrar570cz.exe#/cosi.7z",
-            "hash": "c62bc146a14fe646c72b5bef235afdd9d8064e12b45d197e7e547a6dc23080af"
+            "url": "https://www.rarlab.com/rar/wrar571cz.exe#/cosi.7z",
+            "hash": "39c4eee4000337c266e338f3a91c5a770180750090669ce68130a86586f50e5f"
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\rarreg.key\")) { Write-Host 'Key does not exist' -f Yellow; Set-Content \"$dir\\rarreg.key\" $null }",
