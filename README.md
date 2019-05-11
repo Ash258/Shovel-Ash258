@@ -30,6 +30,7 @@
 | [CCleaner Professional **(CCleanerPro)**](./bucket/CCleanerPro.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CheatHappens Trainer Manager **(TrainerManager)**](./bucket/TrainerManager.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [Concat **(Concat)**](./bucket/Concat.json)                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                            |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                            |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                |   ✔    |    ✔     |       ✔ (⛔)       |
