@@ -11,6 +11,7 @@ image: Visual Studio 2017
 environment:
   SCOOP: C:\projects\scoop
   SCOOP_HOME: C:\projects\scoop\apps\scoop\current
+  SCOOP_HELPERS: C:\projects\helpers
   matrix:
     - PowerShell: 5
     - PowerShell: 6
