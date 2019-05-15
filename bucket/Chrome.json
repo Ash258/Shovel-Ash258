@@ -1,16 +1,16 @@
 {
-    "version": "74.0.3729.131",
+    "version": "74.0.3729.157",
     "description": "Google Chrome. Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/VgjlGsaFfgA_74.0.3729.131/74.0.3729.131_chrome_installer.exe#/cosi.7z",
-            "hash": "aafc8b370770ed51e2ede16731e303347ee7184376c54d09d2d1fb44a95627a1"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AP6N68SaSyaP_74.0.3729.157/74.0.3729.157_chrome_installer.exe#/cosi.7z",
+            "hash": "341a003a0a105be98469632b9bd009a284b7fe9076c7b9ff5d9f53750bc255a5"
         },
         "32bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AN8PReQd-R9n_74.0.3729.131/74.0.3729.131_chrome_installer.exe#/cosi.7z",
-            "hash": "8e2b910de0047a488266e0521339c1aa25e0dc6c950a184893efe269b18d9588"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AOEa5tQIt_05_74.0.3729.157/74.0.3729.157_chrome_installer.exe#/cosi.7z",
+            "hash": "92c8c8eaa74fd7956c4fe4373f90d481fe5e71ea34f08773afd1f29cdac9e5e1"
         }
     },
     "installer": {
