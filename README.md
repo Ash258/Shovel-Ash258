@@ -24,6 +24,7 @@
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [AutoClicker Targeted **(AutoClickerTargeted)**](./bucket/AutoClickerTargeted.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                  |   ✔    |    ♻     |       ♻ (♻)       |
+| [Borderless Gaming **(BorderlessGaming)**](./bucket/BorderlessGaming.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bzzt! Image Editor **(Bzzt)**](./bucket/Bzzt.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Caret **(Caret)**](./bucket/Caret.json)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [Caret Beta **(Caret-Beta)**](./bucket/Caret-Beta.json)                                         |   ✔    |    ✔     |       ✔ (✔)       |
@@ -40,6 +41,7 @@
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                |   ❌    |    ✔     |       ✔ (✔)       |
 | [Docker **(docker)**](./bucket/docker.json)                                                     |   🎃   |    ♻     |       ♻ (♻)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [emClient **(emClient)**](./bucket/emClient.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                  |   ✔    |    ♻     |       ♻ (♻)       |
 | [Eusing Clenaer **(EusingCleaner)**](./bucket/EusingCleaner.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.json)                    |   ✔    |    ✔     |       ✔ (✔)       |
@@ -51,12 +53,12 @@
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kodi **(Kodi)**](./bucket/Kodi.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                          |   ✔    |    ✔❓    |       ✔ (⛔)       |
+| [Kodi **(Kodi)**](./bucket/Kodi.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)  |   ✔    |    ♻     |       ♻ (♻)       |
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |

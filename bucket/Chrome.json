@@ -5,11 +5,11 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AP6N68SaSyaP_74.0.3729.157/74.0.3729.157_chrome_installer.exe#/cosi.7z",
+            "url": "https://dl.google.com/release2/chrome/AP6N68SaSyaP_74.0.3729.157/74.0.3729.157_chrome_installer.exe#/dl.7z",
             "hash": "341a003a0a105be98469632b9bd009a284b7fe9076c7b9ff5d9f53750bc255a5"
         },
         "32bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/AOEa5tQIt_05_74.0.3729.157/74.0.3729.157_chrome_installer.exe#/cosi.7z",
+            "url": "https://dl.google.com/release2/chrome/AOEa5tQIt_05_74.0.3729.157/74.0.3729.157_chrome_installer.exe#/dl.7z",
             "hash": "92c8c8eaa74fd7956c4fe4373f90d481fe5e71ea34f08773afd1f29cdac9e5e1"
         }
     },
@@ -28,16 +28,24 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.chrome-portable.com/index.php/google-chrome-offline-installer/",
-        "regex": "(?sm)Version:\\s+([\\d\\.]+).*release2/chrome/(?<32>[\\w-]+)_\\d+.*release2/chrome/(?<64>[\\w-]+)_\\d+.*Download 64-bit"
+        "url": "https://lab.skk.moe/chrome/api/chrome.min.xml",
+        "regex": "(?sm)<stable32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<stable64>.+release2/chrome/(?<64>[\\w-]+)_.+</stable64>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/$match64_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
+                "hash": {
+                    "url": "https://lab.skk.moe/chrome/api/chrome.min.xml",
+                    "xpath": "/chromechecker/stable64[version=\"$version\"]/sha256"
+                }
             },
             "32bit": {
-                "url": "https://redirector.gvt1.com/edgedl/release2/chrome/$match32_$version/$version_chrome_installer.exe#/cosi.7z"
+                "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer.exe#/dl.7z",
+                "hash": {
+                    "url": "https://lab.skk.moe/chrome/api/chrome.min.xml",
+                    "xpath": "/chromechecker/stable32[version=\"$version\"]/sha256"
+                }
             }
         }
     }
