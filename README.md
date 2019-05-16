@@ -73,7 +73,7 @@
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                        |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                    |   ✔    |    ✔     |       ✔ (✔)       |
-| [Scoop Auto Completion **(scoop-auto-completion)**](./bucket/scoop-auto-completion.json)        |   ✔    |    ♻     |       ♻ (♻)       |
+| [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                       |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
