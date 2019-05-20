@@ -5,7 +5,6 @@
     "license": "Freeware",
     "url": "https://downloads.paessler.com/tools/SNMP+Tester+5.2.3.zip",
     "hash": "b29f2c2ae4655cef2dd30edf9da6284ca3850121226fb1927047a63453249736",
-    "bin": "snmptest.exe",
     "shortcuts": [
         [
             "snmptest.exe",

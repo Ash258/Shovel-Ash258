@@ -65,6 +65,7 @@
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                        |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                     |   ✔    |    ♻     |       ♻ (♻)       |
+| [Paessler's NetFlow Tester **(NetFlow-Tester)**](./bucket/NetFlow-Tester.json)                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's sFlow Tester **(sFlow-Tester)**](./bucket/sFlow-Tester.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's SNMP Tester **(SNMP-Tester)**](./bucket/SNMP-Tester.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's WMI Tester **(WMI-Tester)**](./bucket/WMI-Tester.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
