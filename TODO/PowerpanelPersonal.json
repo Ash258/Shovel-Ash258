@@ -1,12 +1,12 @@
 {
-    "version": "2.1.5",
+    "version": "2.1.7",
     "description": "",
     "homepage": "https://www.cyberpowersystems.com/product/software/powerpanel-personal-windows/",
     "license": {
         "identifier": ""
     },
-    "url": "https://dl4jz3rbrsfum.cloudfront.net/software/ppp215-setup.exe",
-    "hash": "7b9e4a5427020f01b98fd55f3bc8d66c36a58509fe6478d55af2d7ae62da1ad4",
+    "url": "https://dl4jz3rbrsfum.cloudfront.net/software/ppp217-setup.exe",
+    "hash": "c8f57a56b2d260f6e541cc4a16e46dbbfafd679dba5164d1e443825a7ab1f5fb",
     "shortcuts": [
         [
             ".exe",

@@ -1,12 +1,12 @@
 {
-    "version": "4.60.20.1002",
+    "version": "4.80.0.1060",
     "description": "BlueStacks App Player. Easy way to run mobile apps fast and fullscreen on Windows and Mac.",
     "homepage": "https://www.bluestacks.com/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.60.20.1002/x64/BlueStacks-Installer_4.60.20.1002_amd64_native.exe",
-    "hash": "9fba789487fc6ddc531def5bbb84bd3eb7fdf60f3b496e6fac53b5023011b9ff",
+    "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.80.0.1060/x64/BlueStacks-Installer_4.80.0.1060_amd64_native.exe",
+    "hash": "59381302d32f81f69a4209fdcb935d5495237a33f75b0a8d81813a2ff3fe9779",
     "installer": {
         "args": [
             "/S",
