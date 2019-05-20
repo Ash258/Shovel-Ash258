@@ -65,6 +65,7 @@
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                        |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                     |   ✔    |    ♻     |       ♻ (♻)       |
+| [Paessler's WMI Tester **(WMI-Tester)**](./bucket/WMI-Tester.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
