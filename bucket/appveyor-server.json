@@ -1,0 +1,24 @@
+{
+    "version": "7.0.2126",
+    "description": "Appveyor Server On Premise. Multi-platform, downloadable version of AppVeyor CI service.",
+    "homepage": "https://www.appveyor.com/on-premise/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.appveyor.com/eula/"
+    },
+    "url": "https://www.appveyor.com/downloads/appveyor-server/latest/windows/appveyor-server.msi",
+    "hash": "cb1a65dd974029fd21ef89783d44578f700b39369993094ffe0cf39477310020",
+    "extract_dir": "AppVeyor\\Server",
+    "bin": [
+        "appveyor.exe",
+        "appveyor-build-agent.exe",
+        "appveyor-server.exe"
+    ],
+    "checkver": {
+        "url": "https://www.appveyor.com/releases/",
+        "regex": "/releases/([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.appveyor.com/downloads/appveyor-server/latest/windows/appveyor-server.msi"
+    }
+}
