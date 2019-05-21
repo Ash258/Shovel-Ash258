@@ -19,6 +19,7 @@
 | [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Extreme **(Aida64)**](./bucket/Aida64.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Apache Open Office **(OpenOffice)**](./bucket/OpenOffice.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |

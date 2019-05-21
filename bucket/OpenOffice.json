@@ -5,45 +5,45 @@
     "license": "Apache-2.0",
     "url": "https://archive.apache.org/dist/openoffice/4.1.6/binaries/en-GB/Apache_OpenOffice_4.1.6_Win_x86_install_en-GB.exe#/cosi.7z",
     "hash": "sha512:bf4710d2e247dffe42a6ff9f3c76dcfe9b4e5a28f12a8c0e454550287d466b7b98ea8d4b292510df7f58e05707a4c6b51efda2078785cdae81dd1c89eff7aecd",
-    "pre_install": [
-        "$file = (Get-ChildItem \"$dir\" '*.msi').FullName",
-        "extract_msi \"$file\" \"$dir\""
-    ],
+    "installer": {
+        "script": [
+            "Expand-MsiArchive \"$dir\\openoffice$($version -replace '\\.', '').msi\" \"$dir\\App\" -Removal",
+            "Get-ChildItem \"$dir\" -Exclude 'App' | Remove-Item -Recurse",
+            "Move-Item \"$dir\\App\\OpenOffice 4\\*\" \"$dir\"",
+            "Remove-Item \"$dir\\App\" -Recurse"
+        ]
+    },
     "shortcuts": [
         [
-            "OpenOffice\\OpenOffice",
-            ".exe"
+            "program\\soffice.exe",
+            "OpenOffice\\OpenOffice"
         ],
         [
-            "OpenOffice\\Base",
-            ".exe"
+            "program\\sbase.exe",
+            "OpenOffice\\Base"
         ],
         [
-            "OpenOffice\\Calc",
-            ".exe"
+            "program\\scalc.exe",
+            "OpenOffice\\Calc"
         ],
         [
-            "OpenOffice\\Draw",
-            ".exe"
+            "program\\sdraw.exe",
+            "OpenOffice\\Draw"
         ],
         [
-            "OpenOffice\\Impress",
-            ".exe"
+            "program\\simpress.exe",
+            "OpenOffice\\Impress"
         ],
         [
-            "OpenOffice\\Math",
-            ".exe"
+            "program\\smath.exe",
+            "OpenOffice\\Math"
         ],
         [
-            "OpenOffice\\Writer",
-            ".exe"
-        ],
-        [
-            "OpenOffice\\Calc",
-            ".exe"
+            "program\\swriter.exe",
+            "OpenOffice\\Writer"
         ]
     ],
-    "checkver": "Apache OpenOffice ([\\d\\.]+) released",
+    "checkver": "Apache OpenOffice ([\\d.]+) released",
     "autoupdate": {
         "url": "https://archive.apache.org/dist/openoffice/$version/binaries/en-GB/Apache_OpenOffice_$version_Win_x86_install_en-GB.exe#/cosi.7z",
         "hash": {
