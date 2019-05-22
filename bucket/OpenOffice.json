@@ -20,27 +20,27 @@
         ],
         [
             "program\\sbase.exe",
-            "OpenOffice\\Base"
+            "OpenOffice\\OpenOffice Base"
         ],
         [
             "program\\scalc.exe",
-            "OpenOffice\\Calc"
+            "OpenOffice\\OpenOffice Calc"
         ],
         [
             "program\\sdraw.exe",
-            "OpenOffice\\Draw"
+            "OpenOffice\\OpenOffice Draw"
         ],
         [
             "program\\simpress.exe",
-            "OpenOffice\\Impress"
+            "OpenOffice\\OpenOffice Impress"
         ],
         [
             "program\\smath.exe",
-            "OpenOffice\\Math"
+            "OpenOffice\\OpenOffice Math"
         ],
         [
             "program\\swriter.exe",
-            "OpenOffice\\Writer"
+            "OpenOffice\\OpenOffice Writer"
         ]
     ],
     "checkver": "Apache OpenOffice ([\\d.]+) released",
