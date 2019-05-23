@@ -5,7 +5,7 @@
     "homepage": "http://www.pcclean.io/dr-folder/",
     "license": "Freeware",
     "url": "http://www.pcclean.io/product-drfolder/dfinstall.exe",
-    "hash": "1b0de1cb88b9e51462b5c022447a46465f1ce07f7b80f09d503c66198501d3be",
+    "hash": "af1b4263db6162065672e3be7c98e9ce31c0160aecc4ec46a121ba44b966a588",
     "innosetup": true,
     "bin": [
         "DrFolderCmd.exe",
