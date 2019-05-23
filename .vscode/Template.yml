@@ -11,8 +11,8 @@ license:
 notes: Some notes printed after installation
 # or
 # notes:
-  # - COSI
-  # - COSI 2
+# - COSI
+# - COSI 2
 # endregion General Information
 
 # region Requirements
@@ -24,8 +24,8 @@ depends:
 suggest:
   SOME NAME: dependingmanifest
   # COSI:
-    # - bucket/COSI
-    # - NEXT
+  # - bucket/COSI
+  # - NEXT
 # endregion Requirements
 
 # region Downloading
@@ -122,7 +122,7 @@ persist: FOLDER
 # region Updating
 checkver:
   url: URL
-  jsonpath: $.whatever
+  jsonpath: $.whatever # or xmlpath: /element/child
   regex: someregex.*
   replace: ${NamedGroup}-${otherNamedGroup}
 #  replace: ${1}-${otherIndexedGroup}
