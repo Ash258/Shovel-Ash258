@@ -9,7 +9,7 @@
         // 5 - Checkver
         // 6 - Autoupdate
         // 7 - Autoupdate Hash Extraction
-        "body": "$0|[$1 **(${2:${1/[\\s]//g}})**](./bucket/$2.${3|json,yml,yaml|})|${4|❌,✔|}|${5|❌,✔,♻|}|${6|❌,✔,♻|} (${7|❌,✔,⛔,♻|})|",
+        "body": "$0|[$1 **(${2:${1/[\\s]//g}})**](./bucket/$2.${3|json,yml|})|${4|❌,✔|}|${5|❌,✔,♻|}|${6|❌,✔,♻|} (${7|❌,✔,⛔,♻|})|",
     },
     "Moved Manifests Table line": {
         "scope": "md, markdown",

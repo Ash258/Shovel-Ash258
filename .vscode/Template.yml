@@ -2,7 +2,7 @@
 '##': Cosi # Since '#' is comment, it's need to be quoted
 version: '1.0' # Floats or ints need to be quoted
 # version: '1' #  Quotes needed
-# version: 1.0.5 Not number is good
+# version: 1.0.5 Not number == good
 description: Cosi
 homepage: https://ash258.com
 license:
@@ -86,12 +86,11 @@ uninstaller:
 
 # region Links
 bin:
-  - SINGLE
-  - NEXTSingle
-  - - FILE # Array with overrided properties
-    - NAME
+  - SINGLE.exe
+  - NEXTSingle.ps1
+  - - FILE.exe # Array with overrided properties
+    - NEW NAME
     - ARGUMENTS
-    - ICON
 # or
 # bin: SINGLE
 shortcuts:

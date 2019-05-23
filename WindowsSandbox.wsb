@@ -1,3 +1,4 @@
+<!-- TODO: Wait for support of relative paths. -->
 <Configuration>
     <MappedFolders>
         <MappedFolder>
