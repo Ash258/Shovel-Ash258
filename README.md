@@ -92,6 +92,7 @@
 | [Steam Bulk Activator **(SteamBulkActivator)**](./bucket/SteamBulkActivator.json)                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Steam Cleaner **(SteamCleaner)**](./bucket/SteamCleaner.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Idle Master **(IdleMaster)**](./bucket/IdleMaster.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Steam Library Manager **(SteamLibraryManager)**](./bucket/SteamLibraryManager.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SuperF4 **(SuperF4)**](./bucket/SuperF4.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                                |   ✔    |    ✔     |       ❌ (⛔)       |
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |

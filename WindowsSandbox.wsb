@@ -1,0 +1,11 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>.\bin</HostFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>%USERPROFILE%\Desktop\bin\SandboxInit.cmd</Command>
+    </LogonCommand>
+</Configuration>
