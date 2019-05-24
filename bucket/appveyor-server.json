@@ -1,5 +1,5 @@
 {
-    "version": "7.0.2126",
+    "version": "7.0.2150",
     "description": "Appveyor Server On Premise. Multi-platform, downloadable version of AppVeyor CI service.",
     "homepage": "https://www.appveyor.com/on-premise/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.appveyor.com/eula/"
     },
     "url": "https://www.appveyor.com/downloads/appveyor-server/latest/windows/appveyor-server.msi",
-    "hash": "cb1a65dd974029fd21ef89783d44578f700b39369993094ffe0cf39477310020",
+    "hash": "78e7d0c3d47f77734844ee4e16a83df4cc53e7428fbfc41454dfb8d7a39873f7",
     "extract_dir": "AppVeyor\\Server",
     "bin": [
         "appveyor.exe",
