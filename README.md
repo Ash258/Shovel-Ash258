@@ -91,6 +91,7 @@
 | [Steam Account Manager **(SteamAccountManager)**](./bucket/SteamAccountManager.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Bulk Activator **(SteamBulkActivator)**](./bucket/SteamBulkActivator.json)                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [Steam ChatLogger **(SteamChatLogger)**](./bucket/SteamChatLogger.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Cleaner **(SteamCleaner)**](./bucket/SteamCleaner.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Idle Master **(IdleMaster)**](./bucket/IdleMaster.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Library Manager **(SteamLibraryManager)**](./bucket/SteamLibraryManager.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
