@@ -12,7 +12,7 @@
             "$ext_der = 'program files\\Adobe\\Acrobat Reader DC'",
             "$ms = 'AcroRead.msi'",
             "(Get-ChildItem \"$dir\" -Exclude $ms) | Remove-Item",
-            "extract_msi \"$dir\\$ms\""
+            "Expand-MsiArchive \"$dir\\$ms\""
         ]
     },
     "shortcuts": [
