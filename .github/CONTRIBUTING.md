@@ -52,6 +52,7 @@
 ```yml
 ...
 pre_install: |
+# post_install
 # installer.script : |
   # Creating default settings
   function CreateFile([String] $file, [String] $content = $null) {
