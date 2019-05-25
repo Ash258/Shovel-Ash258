@@ -12,30 +12,30 @@
     - All manifests should use `PascalCase` with first uppercase character
         - Unless it's some programming related manifest
             - docker, blisk, pwsh, ...
-- **ALWAYS** use yml typed manifest, when it's supported
-- **ALWAYS** use `yml` extension instead of `yaml`
-- **ALWAYS** use `regex` instead of `re`
-- **ALWAYS** use `jsonpath` instead of `jp`
+- **ALWAYS** respect:
+    - yml typed manifest, when it's supported
+    - `yml` extension instead of `yaml`
+    - `regex` instead of `re`
+    - `jsonpath` instead of `jp`
+    - Convert array with only 1 string into normal string
+    - Description
+        - Include app name at start
+        - End with dot
+            - `"App name. Meaningful description."`
+    - Script Blocks (`installer.script`, `post_install`, `pre_install`)
+        - Use literal (`|`) blocks instead of folded (`>`)
+        - Escape path in script blocks
+        - Indent code as you would normally do
 - **YAML**
     - Use single quotes
     - Don't quote properties
     - Don't quote strings
         - Unless version is number (integer or float)
-- Script Blocks (`installer.script`, `post_install`, `pre_install`)
-    - **ALWAYS** use literal (`|`) blocks instead of folded (`>`)
-    - **ALWAYS** escape path in script blocks
-    - Indent code as you would normally do
-- Description
-    - **ALWAYS** include app name at start
-    - **ALWAYS** end with dot
-        - `"App name. Meaningful description."`
 - License
     - Use url property if it's available
     - Use string only, if there is no available url
 - Arrays
     - Indent arrays
-- StringOrArrayOfStrings
-    - **ALWAYS** convert array with only 1 string into normal string
 - Bins and Shortcuts
     - Use Backslashes
     - Do not include `$dir`

@@ -168,9 +168,9 @@
             "type": "pickString",
             "options": [
                 "bucket",
-                "TODO"
+                "TODO",
             ],
-            "default": "bucket"
-        }
+            "default": "bucket",
+        },
     ],
 }
