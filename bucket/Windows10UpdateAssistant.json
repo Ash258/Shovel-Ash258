@@ -3,11 +3,11 @@
     "description": "Windows 10 Update Assistant. Force update to latest version of Windows 10.",
     "homepage": "https://www.microsoft.com/en-GB/software-download/windows10",
     "license": "Freeware",
-    "url": "https://download.microsoft.com/download/B/C/F/BCF2D763-F118-4A85-9E63-AEAED1B9E98E/Windows10Upgrade9252.exe#/UpdateAssistant.exe",
+    "url": "https://download.microsoft.com/download/B/C/F/BCF2D763-F118-4A85-9E63-AEAED1B9E98E/Windows10Upgrade9252.exe#/cosi.7z",
     "hash": "7c66b15b4c16d489e83a72418e8048c3c3906fe9f0f2f04512c008b4bde6e4d3",
     "shortcuts": [
         [
-            "UpdateAssistant.exe",
+            "Windows10UpgraderApp.exe",
             "Windows 10 Update Assistant"
         ]
     ],
