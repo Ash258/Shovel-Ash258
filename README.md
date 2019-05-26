@@ -58,6 +58,7 @@
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                     |   ✔    |    ✔❓    |       ✔ (⛔)       |

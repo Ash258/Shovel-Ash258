@@ -6,6 +6,18 @@
     "url": "http://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe",
     "hash": "e3495f53563d473aeec5c7a03ec5bbe32cc7ff278352fe060434b3c9620122b4",
     "innosetup": true,
+    "installer": {
+        "script": [
+            "$file = 'Options\\MainOptions.dat'",
+            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "    New-Item \"$dir\\Options\" -Type Directory | Out-Null",
+            "    $CONT = @('[MainOptions]', 'AutoUpdate=0')",
+            "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+            "}"
+        ]
+    },
+    "persist": "Options",
     "bin": "ImBatch.exe",
     "shortcuts": [
         [
@@ -15,7 +27,7 @@
     ],
     "checkver": {
         "url": "http://www.highmotionsoftware.com/download-center/imbatch",
-        "regex": "Version:</strong> ([\\d\\.]+)"
+        "regex": "Version:</strong> ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe"
