@@ -1,4 +1,4 @@
-FROM microsoft/windowsservercore:1803 as servercore
+FROM microsoft/windowsservercore:1903 as servercore
 
 LABEL org.label-schema.maintainer="Jakub 'Ash258' Čábera <cabera.jakub@gmail.com>" \
       org.label-schema.description="Servercore image for scoop's core testing." \
