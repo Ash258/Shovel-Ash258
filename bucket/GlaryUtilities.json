@@ -4,7 +4,7 @@
     "homepage": "https://www.glarysoft.com/glary-utilities/",
     "license": "Freeware",
     "url": "https://download.glarysoft.com/guportable.zip",
-    "hash": "886cce690d6bb0cb737d650e5410c2a2a65b12a7bed9494b80dd1df143a96ded",
+    "hash": "a2010b2c1b71595aaf46922ed64fa1e11b9b500527eccf374eb2eee4c66bdfe3",
     "extract_dir": "Portable",
     "persist": "data",
     "shortcuts": [
