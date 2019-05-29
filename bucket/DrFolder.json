@@ -1,11 +1,11 @@
 {
     "##": "TODO: persist icon should be merge type",
-    "version": "2.7.0.0",
+    "version": "2.7.0.1",
     "description": "Dr. Folder. Customize desktop & windows folder icon and color.",
     "homepage": "http://www.pcclean.io/dr-folder/",
     "license": "Freeware",
     "url": "http://www.pcclean.io/product-drfolder/dfinstall.exe",
-    "hash": "af1b4263db6162065672e3be7c98e9ce31c0160aecc4ec46a121ba44b966a588",
+    "hash": "c8e6e77371c62890c7eaef3ef0ba7c8aca8aa80c18944b3e4dea9b8eb6332634",
     "innosetup": true,
     "bin": [
         "DrFolderCmd.exe",
