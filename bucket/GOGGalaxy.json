@@ -1,0 +1,33 @@
+{
+    "version": "1.2.56.15",
+    "description": "GOG Galaxy. Gaming Client designed for a convenient purchasing, playing and updating games, as well as an online play between gaming platforms.",
+    "homepage": "https://www.gog.com/galaxy",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://support.gog.com/hc/en-us/articles/212632089-User-Agreement"
+    },
+    "suggest": {
+        "Microsoft Visual C++ Runtime 2015": "extras/vcredist2015"
+    },
+    "url": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_1.2.56.15.exe",
+    "hash": "1f63315e0e5533c05935f006ce2b13e319cb0c345ba3ed38afa31ec451c62468",
+    "installer": {
+        "script": [
+            "& (Get-HelperPath 'innounp') -x \"$dir\\$fname\" -d\"$dir\" | Out-Null",
+            "movedir \"$dir\\{%ALLUSERSPROFILE}\" $env:ALLUSERSPROFILE | Out-Null",
+            "Get-ChildItem \"$dir\" -Exclude '{app}' | Remove-Item -Force -Recurse",
+            "Move-Item \"$dir\\{app}\\*\" \"$dir\"",
+            "Remove-Item \"$dir\\{app}\" -Recurse"
+        ]
+    },
+    "shortcuts": [
+        [
+            "GalaxyClient.exe",
+            "GOG Galaxy"
+        ]
+    ],
+    "checkver": "setup_galaxy_([\\d.]+)\\.exe",
+    "autoupdate": {
+        "url": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_$version.exe"
+    }
+}

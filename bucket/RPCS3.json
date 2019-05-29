@@ -17,7 +17,7 @@
         "4.   Enjoy the game <3"
     ],
     "suggest": {
-        "Microsoft Visual C++ Runtime 2015": "vcredist2015"
+        "Microsoft Visual C++ Runtime 2015": "extras/vcredist2015"
     },
     "architecture": {
         "64bit": {

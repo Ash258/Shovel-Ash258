@@ -56,6 +56,7 @@
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
