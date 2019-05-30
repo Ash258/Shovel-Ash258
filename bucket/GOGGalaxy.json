@@ -13,11 +13,10 @@
     "hash": "1f63315e0e5533c05935f006ce2b13e319cb0c345ba3ed38afa31ec451c62468",
     "installer": {
         "script": [
-            "& (Get-HelperPath 'innounp') -x \"$dir\\$fname\" -d\"$dir\" | Out-Null",
-            "movedir \"$dir\\{%ALLUSERSPROFILE}\" $env:ALLUSERSPROFILE | Out-Null",
-            "Get-ChildItem \"$dir\" -Exclude '{app}' | Remove-Item -Force -Recurse",
-            "Move-Item \"$dir\\{app}\\*\" \"$dir\"",
-            "Remove-Item \"$dir\\{app}\" -Recurse"
+            "$file = \"$dir\\$fname\"",
+            "& (Get-HelperPath 'innounp') -x $file -c'{app}' -d\"$dir\" | Out-Null",
+            "& (Get-HelperPath 'innounp') -x $file -c'{%ALLUSERSPROFILE}' -d\"$env:ALLUSERSPROFILE\" -y | Out-Null",
+            "Remove-Item \"$file\" -Force"
         ]
     },
     "shortcuts": [
