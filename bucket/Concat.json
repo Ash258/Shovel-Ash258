@@ -1,5 +1,5 @@
 {
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "Concat. Downloading twitch VODs using command line.",
     "homepage": "https://github.com/ArneVogel/concat/",
     "license": "GPL-3.0-only",
@@ -9,8 +9,8 @@
             "ffmpeg-nigthly"
         ]
     },
-    "url": "https://github.com/ArneVogel/concat/releases/download/v0.2.6/concat_win.exe#/concat.exe",
-    "hash": "c62404250ff8d89e8e89aa1cbeddbad77e22977b04732ced7204f58878e9835f",
+    "url": "https://github.com/ArneVogel/concat/releases/download/v0.2.7/concat_win.exe#/concat.exe",
+    "hash": "1d2d6ba659fc347f14e61c458008ba942d7a0447cd3d1d7b101482dba2c26aef",
     "bin": "concat.exe",
     "checkver": "github",
     "autoupdate": {
