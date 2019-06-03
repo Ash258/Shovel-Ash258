@@ -81,6 +81,7 @@
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                             |   ✔    |    ❌     |       ❌ (❌)       |
