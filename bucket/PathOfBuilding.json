@@ -1,13 +1,13 @@
 {
-    "version": "1.4.137",
+    "version": "1.4.140",
     "description": "Path Of Building. Offline build planner for Path of Exile.",
     "homepage": "https://github.com/Openarl/PathOfBuilding/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Openarl/PathOfBuilding/blob/master/LICENSE.md"
     },
-    "url": "https://github.com/Openarl/PathOfBuilding/releases/download/v1.4.137/PathOfBuilding-1.4.137.zip",
-    "hash": "2f1c25b37a1eed56c8919b2afda98c9f45488232f0d6fefd07fca45ffba64d1e",
+    "url": "https://github.com/Openarl/PathOfBuilding/releases/download/v1.4.140/PathOfBuilding-1.4.140.zip",
+    "hash": "84d6180f22518449beb039e436bae82475fa9b19b9e04b0b86a185e37823df87",
     "persist": "Builds",
     "shortcuts": [
         [
