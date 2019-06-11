@@ -2,6 +2,10 @@
     "version": "1.7.18958",
     "description": "PotPlayer. A multimedia software player developed for the Microsoft Windows operating system.",
     "homepage": "https://potplayer.daum.net/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://potplayer.daum.net/publicRelation"
+    },
     "architecture": {
         "64bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
