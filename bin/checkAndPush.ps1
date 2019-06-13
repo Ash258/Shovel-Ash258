@@ -12,13 +12,16 @@
     Force parameter will be passed to checkver.
 .PARAMETER Hashes
     checkhashes.ps1 script will be executed instead of checkver.ps1
+.PARAMETER Closes
+    List of issues which should be automatically closed
 #>
 param(
     [Alias('App', 'Name')]
     [String[]] $Manifest,
     [Alias('ForceUpdate')]
     [Switch] $Force,
-    [Switch] $Hashes
+    [Switch] $Hashes,
+    [Int[]] $Closes
 )
 
 begin {
@@ -57,7 +60,11 @@ process {
 
             if ($Hashes) { $message = "${noExt}: Fixed hashes" }
 
-            Write-Host 'Commiting' -ForegroundColor Green
+            if ($Closes) {
+                $message += "`n"
+                $Closes | ForEach-Object { $message += "`n- Closes #$_" }
+            }
+
             git commit --message $message --only "*$file"
             $exit = $LASTEXITCODE
 
