@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "77dda835d76f9a526dbca1e8420163e2e751cee2cecb3506a294c846ff378cf8",
+            "hash": "07834aec356f5ae44357b41d231f19345e315b629c7767b6d23f8e4a0cb60f4f",
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
@@ -23,7 +23,7 @@
         },
         "32bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z",
-            "hash": "6183fd70f2e254d8f2fe78d6a317e159b2f3e151b67ff41f1d67b7ec0a5296a5",
+            "hash": "eaa8d730388d6dc1d7d2c05eed8d7f90138c16c5a080a5bc94e5edee3633e552",
             "shortcuts": [
                 [
                     "PotPlayer.exe",
@@ -84,7 +84,7 @@
     ],
     "checkver": {
         "url": "https://potplayer.daum.net/update.html?lang=en&bit",
-        "regex": "\\[([\\d\\.]+)\\]"
+        "regex": "\\[([\\d.]+)\\]"
     },
     "autoupdate": {
         "architecture": {
