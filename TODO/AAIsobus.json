@@ -17,6 +17,6 @@
         "regex": "Download IsoBuster ([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://www.isobuster.com/dl.php?d=isobuster.com&v=1&l=0#/isobuster.exe"
+        "url": "https://www.isobuster.com/dl.php?d=isobuster.com&v=$version&l=0#/isobuster.exe"
     }
 }
