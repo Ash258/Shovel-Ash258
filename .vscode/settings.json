@@ -8,8 +8,7 @@
             "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
             "fileMatch": [
                 ".vscode/Template.jsonc",
-                "bucket/*.json",
-                "TODO/*.json",
+                "@(TODO|bucket)/*.json",
             ],
         },
     ],
@@ -33,18 +32,20 @@
         },
         "editor.autoIndent": true,
     },
+    "yaml.completion": true,
     "yaml.format.bracketSpacing": true,
-    "yaml.format.enable": true,
+    "yaml.format.enable": false,
     "yaml.format.singleQuote": true,
-    "yaml.validate": true,
+    "yaml.hover": true,
     "yaml.schemas": {
-        "http://json.schemastore.org/appveyor": "appveyor.yml",
-        "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": [
+        "http://json.schemastore.org/appveyor": "appveyor.y*ml",
+        "http://json.schemastore.org/gitlab-ci": "gitlab-ci.y*ml",
+        "https://raw.githubusercontent.com/lukesampson/scoop/develop/schema.json": [
             ".vscode/Template.yml",
-            "bucket/*.yml",
-            "TODO/*.yml",
+            "/@(TODO|bucket)/*.y*ml",
         ],
     },
+    "yaml.validate": true,
     "terminals.terminals": [
         {
             "name": "Powershell",
