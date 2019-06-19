@@ -1,5 +1,4 @@
 {
-    "editor.insertSpaces": false,
     "files.associations": {
         "*.wsb": "xml",
     },
@@ -8,7 +7,8 @@
             "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
             "fileMatch": [
                 ".vscode/Template.jsonc",
-                "@(TODO|bucket)/*.json",
+                "TODO/*.json",
+                "bucket/*.json",
             ],
         },
     ],
@@ -18,34 +18,9 @@
     "markdown.extension.toc.githubCompatibility": true,
     "markdown.extension.toc.levels": "2..6",
     "markdown.extension.toc.plaintext": false,
-    "markdown.extension.toc.tabSize": "4",
     "markdown.extension.toc.unorderedList.marker": "-",
     "markdown.extension.toc.updateOnSave": false,
     "powershell.codeFormatting.preset": "OTBS",
-    "[yaml]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": false,
-            "strings": true,
-        },
-        "editor.autoIndent": true,
-    },
-    "yaml.completion": true,
-    "yaml.format.bracketSpacing": true,
-    "yaml.format.enable": false,
-    "yaml.format.singleQuote": true,
-    "yaml.hover": true,
-    "yaml.schemas": {
-        "http://json.schemastore.org/appveyor": "appveyor.y*ml",
-        "http://json.schemastore.org/gitlab-ci": "gitlab-ci.y*ml",
-        "https://raw.githubusercontent.com/lukesampson/scoop/develop/schema.json": [
-            ".vscode/Template.yml",
-            "/@(TODO|bucket)/*.y*ml",
-        ],
-    },
-    "yaml.validate": true,
     "terminals.terminals": [
         {
             "name": "Powershell",
@@ -68,4 +43,27 @@
             "open": true,
         },
     ],
+    "[yaml]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true,
+        },
+        "editor.autoIndent": true,
+    },
+    "yaml.completion": true,
+    "yaml.format.bracketSpacing": true,
+    "yaml.format.enable": false,
+    "yaml.format.singleQuote": true,
+    "yaml.hover": true,
+    "yaml.schemas": {
+        "http://json.schemastore.org/appveyor": "appveyor.y*ml",
+        "http://json.schemastore.org/gitlab-ci": "gitlab-ci.y*ml",
+        "https://raw.githubusercontent.com/lukesampson/scoop/develop/schema.json": [
+            ".vscode/Template.yml",
+            "TODO/*.y*ml",
+            "bucket/*.y*ml",
+        ],
+    },
+    "yaml.validate": true,
 }
