@@ -75,6 +75,7 @@
 | [Paessler's Multi Server Emulator **(MultiServerEmulator)**](./bucket/MultiServerEmulator.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's NetFlow Tester **(NetFlowTester)**](./bucket/NetFlowTester.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's PRTG Certificate Importer **(PRTGCertificateImporter**](./bucket/PRTGCertificateImporter.json) |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Paessler's PRTG Desktop App **(PRTGDesktop**](./bucket/PRTGDesktop.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's sFlow Tester **(sFlowTester)**](./bucket/sFlowTester.json)                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's SNMP Tester **(SNMPTester)**](./bucket/SNMPTester.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
