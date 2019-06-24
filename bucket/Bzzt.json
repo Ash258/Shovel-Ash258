@@ -3,7 +3,7 @@
     "description": "Bzzt!. Image Editor that can compress, rotate, resize and convert images in bulk from an easy drag-and-drop interface.",
     "homepage": "https://singularlabs.com/software/bzzt-image-editor/",
     "url": "https://singularlabs.com/download/12134/#/cosi.exe",
-    "hash": "e3332b8316029016182ec36d71303b3d25ab738b8e5d9a93ba9751a814ce24a7",
+    "hash": "587fcbc1f81916f3a5ee1b93fdb5e9b407c1bc813075b845d890e40a4cb2f53a",
     "innosetup": true,
     "shortcuts": [
         [
