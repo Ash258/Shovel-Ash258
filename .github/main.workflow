@@ -14,7 +14,7 @@ workflow "Excavator" {
 }
 
 action "IssueHandler" {
-    uses = "Ash258/Scoop-GithubActions@0.4.59"
+    uses = "Ash258/Scoop-GithubActions@stable"
     args = "Issue"
     env = {
         "GITH_EMAIL" = "cabera.jakub@gmail.com"
@@ -23,7 +23,7 @@ action "IssueHandler" {
 }
 
 action "PullRequestHandler" {
-    uses = "Ash258/Scoop-GithubActions@0.4.59"
+    uses = "Ash258/Scoop-GithubActions@stable"
     args = "PR"
     env = {
         "GITH_EMAIL" = "cabera.jakub@gmail.com"
@@ -32,7 +32,7 @@ action "PullRequestHandler" {
 }
 
 action "Excavate" {
-    uses = "Ash258/Scoop-GithubActions@0.4.59"
+    uses = "Ash258/Scoop-GithubActions@stable"
     args = "Scheduled"
     env = {
         "GITH_EMAIL" = "cabera.jakub@gmail.com"
