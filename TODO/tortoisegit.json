@@ -28,8 +28,6 @@
         "    New-ItemProperty -Path $path -Name 'VersionCheck' -PropertyType DWord -Value 0 -Force | Out-Null",
         "    New-ItemProperty -Path $path -Name 'MsysGit' -PropertyType String -Value \"$env:GIT_INSTALL_ROOT\\bin\" -Force | Out-Null",
         "}",
-        "#$null, $bucket = find_manifest $app",
-        "#$scriptPath = (bucketdir $bucket) + '\\scripts\\tortoisegit'",
         "#$TGIT_HOME = $dir -replace '\\', '\\\\'",
         "#$cont = (Get-Content \"$scriptPath\\install.reg\") -replace '%%TGIT_HOME%%', \"$TGIT_HOME\"",
         "#Set-Content \"$dir\\context-menu-install.reg\" $cont -Encoding Ascii",
