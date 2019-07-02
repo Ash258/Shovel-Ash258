@@ -33,6 +33,7 @@
 | [Caret Beta **(Caret-Beta)**](./bucket/Caret-Beta.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [CCleaner Professional **(CCleanerPro)**](./bucket/CCleanerPro.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CheatHappens Trainer Manager **(TrainerManager)**](./bucket/TrainerManager.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [ClickUp **(ClickUp)**](./bucket/ClickUp.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Concat **(Concat)**](./bucket/Concat.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                                       |  ✔🔶   |    ✔     |       ✔ (⛔)       |

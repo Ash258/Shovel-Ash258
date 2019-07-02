@@ -1,0 +1,40 @@
+{
+    "version": "1.4.9",
+    "description": "ClickUp. Platform to make the world more productive through tasks, docs, conversations, timelines, spreadsheets, and mind maps - all in one place.",
+    "homepage": "https://clickup.com/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://clickup.com/terms"
+    },
+    "url": "https://attachments.clickup.com/desktop/clickup-desktop-1.4.9-windows.exe#/cosi.7z",
+    "hash": "sha512:ec98f002ecf9cc6aedde36986db27cfc0f3badc1713bbe67c3cc5c69598486ac795f9c3e870bfb3d13965cb226ab1f4a81b2b91149aa1aad9096e74cb4d93306",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+            }
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "shortcuts": [
+        [
+            "ClickUp.exe",
+            "ClickUp"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/clickup/clickup-release/"
+    },
+    "autoupdate": {
+        "url": "https://attachments.clickup.com/desktop/clickup-desktop-$version-windows.exe#/cosi.7z",
+        "hash": {
+            "url": "https://github.com/clickup/clickup-release/releases/download/v$version/latest.yml",
+            "regex": "sha512:\\s+$base64"
+        }
+    }
+}
