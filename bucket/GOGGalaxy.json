@@ -6,6 +6,7 @@
         "identifier": "Proprietary",
         "url": "https://support.gog.com/hc/en-us/articles/212632089-User-Agreement"
     },
+    "depends": "innounp",
     "suggest": {
         "Microsoft Visual C++ Runtime 2015": "extras/vcredist2015"
     },
@@ -16,7 +17,7 @@
             "$file = \"$dir\\$fname\"",
             "& (Get-HelperPath 'innounp') -x $file -c'{app}' -d\"$dir\" | Out-Null",
             "& (Get-HelperPath 'innounp') -x $file -c'{%ALLUSERSPROFILE}' -d\"$env:ALLUSERSPROFILE\" -y | Out-Null",
-            "Remove-Item \"$file\" -Force"
+            "Remove-Item $file -Force"
         ]
     },
     "shortcuts": [
