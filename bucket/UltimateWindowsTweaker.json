@@ -5,7 +5,7 @@
     "license": "Freeware",
     "url": "https://www.thewindowsclub.com/downloads/UWT4.zip",
     "hash": "e6aafedffc3097e5ad5e528a7f44731e673c49c19a49fee0c3a301cb0a35615e",
-    "extract_dir": "UWT4\\Ultimate Windows Tweaker 4.6",
+    "extract_dir": "Ultimate Windows Tweaker 4.6",
     "installer": {
         "script": "(Get-ChildItem \"$dir\" 'Ultimate Windows*exe').Fullname | Rename-Item -NewName 'UWT.exe'"
     },
@@ -18,6 +18,6 @@
     "checkver": "Ultimate Windows Tweaker ([\\d\\.]+) for Windows 10</strong></a>",
     "autoupdate": {
         "url": "https://www.thewindowsclub.com/downloads/UWT4.zip",
-        "extract_dir": "UWT4\\Ultimate Windows Tweaker $version"
+        "extract_dir": "Ultimate Windows Tweaker $version"
     }
 }
