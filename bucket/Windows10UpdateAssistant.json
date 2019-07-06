@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "regex": "<h2>Windows 10\\s+((?<month>.+)\\s+(?<year>\\d+))\\s+Update now available",
+        "regex": "<h2>Windows 10\\s+((?<month>.+)\\s+(?<year>\\d+)) Update",
         "replace": "${month}${year}"
     }
 }
