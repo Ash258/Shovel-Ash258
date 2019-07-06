@@ -4,7 +4,7 @@
     "homepage": "https://www.microsoft.com/en-GB/software-download/windows10",
     "license": "Freeware",
     "url": "https://download.microsoft.com/download/B/C/F/BCF2D763-F118-4A85-9E63-AEAED1B9E98E/Windows10Upgrade9252.exe#/UpdateAssistant.exe",
-    "hash": "7c66b15b4c16d489e83a72418e8048c3c3906fe9f0f2f04512c008b4bde6e4d3",
+    "hash": "373170c1b35cd0380808adbe3fb43a312d0bd70f6db411cae71bbd34166ee75b",
     "uninstaller": {
         "script": [
             "if ((is_admin) -and (Test-Path 'C:\\Windows10Upgrade')) {",
