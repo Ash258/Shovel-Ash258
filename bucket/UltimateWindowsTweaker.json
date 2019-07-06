@@ -1,11 +1,11 @@
 {
-    "version": "4.5",
+    "version": "4.6",
     "description": "Ultimate Windows Tweaker for Windows 10. Help with tweaking and managing new operating system.",
     "homepage": "https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10/",
     "license": "Freeware",
     "url": "https://www.thewindowsclub.com/downloads/UWT4.zip",
     "hash": "e6aafedffc3097e5ad5e528a7f44731e673c49c19a49fee0c3a301cb0a35615e",
-    "extract_dir": "UWT4\\Ultimate Windows Tweaker 4.5",
+    "extract_dir": "UWT4\\Ultimate Windows Tweaker 4.6",
     "installer": {
         "script": "(Get-ChildItem \"$dir\" 'Ultimate Windows*exe').Fullname | Rename-Item -NewName 'UWT.exe'"
     },
