@@ -1,16 +1,16 @@
 {
-    "version": "3.57.1420",
+    "version": "3.57.1425",
     "description": "Unreal Commander. Easy to use file manager.",
     "homepage": "https://x-diesel.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://x-diesel.biz/download/evolution/uncomsetup3.57x64(build1420).exe",
-            "hash": "2de08424a8cb25304c6980a9581f8f20d022dca27b30f5b347ac35dd64d36ba0"
+            "url": "http://x-diesel.biz/download/evolution/uncomsetup3.57x64(build1425).exe",
+            "hash": "606edbd24bfe2bb5d5bee1b512582056abe587ae1cf431444a75c225d71caf00"
         },
         "32bit": {
-            "url": "http://x-diesel.biz/download/evolution/uncomsetup3.57x32(build1420).exe",
-            "hash": "7131e9c996030eb74cc949f4b11e01dcf424301e218def6949f409a729e7ca39"
+            "url": "http://x-diesel.biz/download/evolution/uncomsetup3.57x32(build1425).exe",
+            "hash": "c11bfac929a238c5ab76eed630640bd9f2e0732d469b86dd897856c1cec6e5f7"
         }
     },
     "pre_install": [
