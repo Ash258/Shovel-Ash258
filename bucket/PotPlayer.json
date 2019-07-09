@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/20190610_1.7.18958/PotPlayerSetup64.exe#/cosi.7z",
             "hash": "1ad9bdce4324f0fc0667ed4f6b8f00d8579125de7dd5c1b1dfb05885ce7fecbd",
             "shortcuts": [
                 [
@@ -22,7 +22,7 @@
             ]
         },
         "32bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/20190610_1.7.18958/PotPlayerSetup.exe#/cosi.7z",
             "hash": "8009065e8c0798caeb864668fc2da3ca3412081fcb3ee1eb9ed58ca6aefbb04e",
             "shortcuts": [
                 [
@@ -84,15 +84,15 @@
     ],
     "checkver": {
         "url": "https://potplayer.daum.net/update.html?lang=en&bit",
-        "regex": "\\[([\\d.]+)\\]"
+        "regex": "\\[([\\d.]+)\\]\\s+(?<year>\\d{4})/(?<month>\\d{2})/(?<day>\\d{2})"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z"
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$matchYear$matchMonth$matchDay_$version/PotPlayerSetup64.exe#/cosi.7z"
             },
             "32bit": {
-                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe#/cosi.7z"
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$matchYear$matchMonth$matchDay_$version/PotPlayerSetup.exe#/cosi.7z"
             }
         }
     }
