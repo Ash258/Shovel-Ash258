@@ -1,0 +1,31 @@
+{
+    "version": "1.37",
+    "description": "Microsoft Visual Studio Code - Exploration build. New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
+    "homepage": "https://code.visualstudio.com/insiders/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://code.visualstudio.com/license/insiders"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://az764295.vo.msecnd.net/exploration/54c6f2047b7e26f9dd6f991d9831ead1f06964b2/VSCodeSetup-x64-1.37.0-exploration.exe",
+            "hash": "0719306a1018bf33c7522b807ade27fdb31825dbd120ff9c93d92719b2e84f42"
+        }
+    },
+    "installer": {
+        "script": "Expand-InnoArchive \"$dir\\$fname\" -ExtractDir '{code_GetDestDir}' -Removal"
+    },
+    "bin": [
+        "bin\\code-exploration.cmd",
+        [
+            "bin\\code-exploration.cmd",
+            "codee"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Code - Exploration.exe",
+            "Visual Studio Code - Exploration"
+        ]
+    ]
+}
