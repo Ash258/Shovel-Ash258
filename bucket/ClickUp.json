@@ -1,13 +1,13 @@
 {
-    "version": "1.5.1",
+    "version": "1.5.2",
     "description": "ClickUp. Platform to make the world more productive through tasks, docs, conversations, timelines, spreadsheets, and mind maps - all in one place.",
     "homepage": "https://clickup.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://clickup.com/terms"
     },
-    "url": "https://attachments.clickup.com/desktop/clickup-desktop-1.5.1-windows.exe#/cosi.7z",
-    "hash": "sha512:12069f1a206c5d8648a88a9647304ee2b499555cec468fd270cb2af918ca4393062e3ad0c736d97b1609c4708d19d626d33ffc5a5912f3ec78a49bb2e6294b25",
+    "url": "https://attachments.clickup.com/desktop/clickup-desktop-1.5.2-windows.exe#/cosi.7z",
+    "hash": "sha512:479ed3061fd2080f8ab52d4fb7a55739b4ef92e3b3d439337832bcc6caf56ad2b3203dc38bd874c0f3f4666284195c51ddac310b13df88a45b7bdf3ba1aeaeaa",
     "architecture": {
         "64bit": {
             "installer": {
