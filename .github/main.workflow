@@ -36,6 +36,7 @@ action "Excavate" {
     args = "Scheduled"
     env = {
         "GITH_EMAIL" = "cabera.jakub@gmail.com"
+        "SKIP_UPDATED" = "1"
     }
     secrets = ["GITHUB_TOKEN"]
 }
