@@ -119,9 +119,10 @@
 | [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                             |   ✔    |    ✔     |       ❌ (⛔)       |
-| [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)       |   ✔    |    ✔     |       ❌ (❌)       |
+| [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                    |   ✔    |    ✔     |       ✔ (✔)       |
+| [Windows Terminal **(WindowsTerminal)**](./bucket/WindowsTerminal.json)                                    |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 
