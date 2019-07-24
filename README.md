@@ -93,6 +93,7 @@
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                  |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                             |   🎃   |    ♻     |       ♻ (♻)       |
 | [Steam Account Manager **(SteamAccountManager)**](./bucket/SteamAccountManager.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
