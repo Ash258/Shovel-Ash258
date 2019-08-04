@@ -8,13 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://az764295.vo.msecnd.net/exploration/54c6f2047b7e26f9dd6f991d9831ead1f06964b2/VSCodeSetup-x64-1.37.0-exploration.exe",
-            "hash": "0719306a1018bf33c7522b807ade27fdb31825dbd120ff9c93d92719b2e84f42"
+            "url": "https://az764295.vo.msecnd.net/exploration/960208fdf9aa06e6892aa14c9c84ddd607fbeb2f/VSCodeSetup-x64-1.37.0-exploration.exe",
+            "hash": "7a725471dda6beeb3c3f5e0a29fcb5bf98ee8ee16bfa536ffe11fce7145c9aba"
         }
     },
-    "installer": {
-        "script": "Expand-InnoArchive \"$dir\\$fname\" -ExtractDir '{code_GetDestDir}' -Removal"
-    },
+    "innosetup": true,
+    "extract_dir": "{code_GetDestDir}",
     "bin": [
         "bin\\code-exploration.cmd",
         [
