@@ -1,0 +1,13 @@
+on: issues
+name: Issues
+jobs:
+  issueHandler:
+    name: IssueHandler
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: IssueHandler
+      uses: Ash258/Scoop-GithubActions@stable
+      env:
+        GITH_EMAIL: cabera.jakub@gmail.com
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
