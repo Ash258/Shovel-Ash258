@@ -1,10 +1,10 @@
 {
-    "version": "1.5.1.10",
+    "version": "1.6.0.0",
     "description": "Steam Library Manager. Manage Steam and Origin libraries in ease of use with multi library support.",
     "homepage": "https://github.com/RevoLand/Steam-Library-Manager/",
     "license": "MIT",
-    "url": "https://github.com/RevoLand/Steam-Library-Manager/releases/download/v1.5.1.10/Steam.Library.Manager.zip",
-    "hash": "d46af1337f48346a2744184ababd83bdddb312803b5fee227990a503d5b9a242",
+    "url": "https://github.com/RevoLand/Steam-Library-Manager/releases/download/v1.6.0.0/Steam.Library.Manager.zip",
+    "hash": "b1abb9a5a7ded351132cbafb8c46d166be1ffebdecbf6a2fe052bc81d4b1037e",
     "shortcuts": [
         [
             "Steam Library Manager.exe",
