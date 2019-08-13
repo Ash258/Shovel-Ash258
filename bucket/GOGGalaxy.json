@@ -26,11 +26,12 @@
             "GOG Galaxy"
         ]
     ],
+    "checkver": "client/setup_galaxy_([\\d.]+)\\.exe",
     "##": [
-        "checkver",
-        "client/setup_galaxy_([\\d.]+)\\.exe"
-    ],
-    "autoupdate": {
-        "url": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_$version.exe"
-    }
+	"autoupdate",
+	": {",
+        "url",
+	"https://cdn.gog.com/open/galaxy/client/setup_galaxy_$version.exe",
+    	"}"
+    ]
 }
