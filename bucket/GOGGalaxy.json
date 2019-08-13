@@ -28,10 +28,10 @@
     ],
     "checkver": "client/setup_galaxy_([\\d.]+)\\.exe",
     "##": [
-	"autoupdate",
-	": {",
+        "autoupdate",
+        ": {",
         "url",
-	"https://cdn.gog.com/open/galaxy/client/setup_galaxy_$version.exe",
-    	"}"
+        "https://cdn.gog.com/open/galaxy/client/setup_galaxy_$version.exe",
+        "}"
     ]
 }
