@@ -9,12 +9,5 @@
             "TargetedClicker.exe",
             "Targeted Clicker"
         ]
-    ],
-    "checkver": {
-        "regex": "changelog v(\\d+)",
-        "reverse": true
-    },
-    "autoupdate": {
-        "url": "https://nog5.com/files/request24.v$version.exe#/TargetedClicker.exe"
-    }
+    ]
 }
