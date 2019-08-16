@@ -43,14 +43,14 @@
     "bin": [
         [
             "pwsh.exe",
-            "pwsh",
+            "pwsh-preview",
             "-NoLogo"
         ]
     ],
     "shortcuts": [
         [
             "pwsh.exe",
-            "PowerShell Core",
+            "PowerShell Core Preview",
             "-NoLogo"
         ]
     ],
