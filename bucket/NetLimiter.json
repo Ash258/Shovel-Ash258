@@ -5,7 +5,7 @@
         "TODO:",
         "    Properly uninstall. Some services are running."
     ],
-    "version": "4.0.50.0",
+    "version": "4.0.51.0",
     "description": "NetLimiter. Internet traffic control and monitoring tool designed for Windows.",
     "homepage": "https://www.netlimiter.com/",
     "license": "Freeware",
@@ -13,8 +13,8 @@
         "Restarting system after installation is recommended.",
         "Some functions could behave incorrectly without restart."
     ],
-    "url": "https://www.netlimiter.com/files/download/nl4/netlimiter-4.0.50.0.exe",
-    "hash": "92d730c72901a59fd7ce5da7278ab2b0f7dbea4b58220a692ba9d0b0aa6ce4a1",
+    "url": "https://www.netlimiter.com/files/download/nl4/netlimiter-4.0.51.0.exe",
+    "hash": "0857440c773d25e7820833160a037857a21fad9be024c53f5f71ec4a9a0e06c3",
     "installer": {
         "args": [
             "/exenoui",
