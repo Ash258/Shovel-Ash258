@@ -1,10 +1,10 @@
 {
-    "version": "3.0.2.0",
+    "version": "3.0.2.1",
     "description": "Windows Repair Toolbox. Portable program that helps repair a Windows system, by making the process faster, easier and uniform.",
     "homepage": "https://windows-repair-toolbox.com/",
     "license": "Freeware",
     "url": "https://windows-repair-toolbox.com/files/Windows_Repair_Toolbox.zip",
-    "hash": "27fcf07b2471b6690aa28c3cd286c544be74a69199b12d25475ef5789c5f7ded",
+    "hash": "3833aeed99f3b6dd4ef3c0b16af60b3bab08b841cd1e50ea1ea7a4f4d56410c6",
     "persist": [
         "Downloads",
         "custom\\custom.xml",
