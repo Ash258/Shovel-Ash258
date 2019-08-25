@@ -108,6 +108,7 @@
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker **(UltimateWindowsTweaker)**](./bucket/UltimateWindowsTweaker.json)                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker 2 **(UltimateWindowsTweaker2)**](./bucket/UltimateWindowsTweaker2.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker 3 **(UltimateWindowsTweaker3)**](./bucket/UltimateWindowsTweaker3.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
