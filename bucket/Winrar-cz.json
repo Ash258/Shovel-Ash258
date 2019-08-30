@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.rarlab.com/rar/winrar-x64-571cz.exe#/cosi.7z",
-            "hash": "d69ed094427c35d80ea065a1c91117ce9dae2b4af3514a7546f215c816a41c63"
+            "hash": "f4005565818f1fbfd8dfdc16f40b2abb25bc8d42d7147b9a5d04ea649220245a"
         },
         "32bit": {
             "url": "https://www.rarlab.com/rar/wrar571cz.exe#/cosi.7z",
-            "hash": "39c4eee4000337c266e338f3a91c5a770180750090669ce68130a86586f50e5f"
+            "hash": "fca66635823ff82766efb581062562c80af00d43dd74fed5c3bac8dcab125ce6"
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\rarreg.key\")) { Write-Host 'Key does not exist' -f Yellow; Set-Content \"$dir\\rarreg.key\" $null }",
