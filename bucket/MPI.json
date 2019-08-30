@@ -3,7 +3,7 @@
     "description": "MakePartitionImage. Converts a bootable payload file (or USB drive partition) into a partition image (.imgPTN) file.",
     "homepage": "http://www.easy2boot.com/download/mpi-pack/",
     "url": "http://files.easy2boot.com/200003720-234ae24469/MPI_Tool_Pack_Plus_CloverLite_096.zip",
-    "hash": "2fc070e804c769757eaf6d608add71d74495a7b325109007b0ee741a5e8094a9",
+    "hash": "a72f30b65cc62d4a7b0a79d2d708a618b97fa95a2c8afee2db600173b7d9c049",
     "extract_dir": "MPI_Tool_Pack_Plus_CloverLite_096",
     "post_install": [
         "if ((Get-ChildItem \"$scoopdir\\apps\") -like 'E2B') {",
