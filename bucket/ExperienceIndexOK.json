@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/ExperienceIndexOK_x64_Portable.zip",
-            "hash": "0e6980702fedcc0dd4deca9ce9d1ef2ea3a3acd31b8c636ba51f4919199e9a78",
+            "hash": "41c985f90411d1fb0302e7d0bc03bddcc5dc655dc63203ba4e1ecd94edc3bad7",
             "shortcuts": [
                 [
                     "ExperienceIndexOK_x64_p.exe",
@@ -16,7 +16,7 @@
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
-            "hash": "de58cfc876c68125b2adfa7cb5abe7e9da4a30a2efb38ce1c332ae975e9c0137",
+            "hash": "847cf53ebfa7c9f6d531f357b579d7de43047183c48b9b2ff68659cff9b25df4",
             "shortcuts": [
                 [
                     "ExperienceIndexOK_p.exe",
