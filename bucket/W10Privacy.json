@@ -4,7 +4,7 @@
     "homepage": "https://www.winprivacy.de/english-home/",
     "license": "CC-BY-NC-ND-4.0",
     "url": "https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip",
-    "hash": "34273e77641d92cb64778557f72ffb9fcc9de354ade235ee2a6343292c04bf05",
+    "hash": "ab33ba443f5fb804156f5743994a2c111407daa79bcfe9371a9171f3ba118700",
     "pre_install": [
         "$file = 'W10Privacy.ini'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
