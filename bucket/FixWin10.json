@@ -4,7 +4,7 @@
     "homepage": "https://www.thewindowsclub.com/fixwin-for-windows-10/",
     "license": "Freeware",
     "url": "https://www.thewindowsclub.com/downloads/FixWin10.zip",
-    "hash": "40b442c92c7800adf53b6274b6ba54ea6b605eda68772471f2fff0d7f5369bc7",
+    "hash": "529c72165b74a215cb773f763230beb2e7a8e2cc000c76bdf5f4fef90f2e232f",
     "extract_dir": "FixWin 10.0.1.0",
     "installer": {
         "script": "(Get-ChildItem \"$dir\" 'Fix*exe').Fullname | Rename-Item -NewName 'FixWin.exe'"
