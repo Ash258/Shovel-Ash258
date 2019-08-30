@@ -4,7 +4,7 @@
     "homepage": "https://www.cybertronsoft.com/products/privacy-eraser/",
     "license": "Freeware",
     "url": "https://www.cybertronsoft.com/download/privacy-eraser-portable.zip",
-    "hash": "a4ce5b8a2f5a8d5cdf4dd6b1e8f41a55ea7927d2b67ef3fc014a6e79a2c61cb8",
+    "hash": "bb979f95bbd440bbc656a32ed2fb7b81671544abb3b30e92e8432c045bf5b410",
     "pre_install": [
         "$file = 'Config.xml'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
