@@ -4,7 +4,7 @@
     "homepage": "http://www.highmotionsoftware.com/products/imbatch",
     "license": "Freeware",
     "url": "http://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe",
-    "hash": "395bb77bf1935bf1bd58c75f769d3eda61a3e7fe59a039485f6fdbb77f29f9e7",
+    "hash": "5f34bf7bec9dc93b5674a6523edcd1cddbd2efd747e30b8084fc5b706d70a15d",
     "innosetup": true,
     "installer": {
         "script": [
