@@ -12,7 +12,6 @@
             "if (-not (Test-Path \"$persist_dir\\webstress.ini\")) { New-Item \"$dir\\webstress.ini\" | Out-Null }"
         ]
     },
-    "bin": "webstress.exe",
     "shortcuts": [
         [
             "webstress.exe",

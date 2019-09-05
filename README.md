@@ -74,6 +74,7 @@
 | [Origin **(Origin)**](./bucket/Origin.json)                                                                |   ✔    |    ♻     |       ♻ (♻)       |
 | [Paessler's MIB Importer **(MIBImporter)**](./bucket/MIBImporter.json)                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's Multi Server Emulator **(MultiServerEmulator)**](./bucket/MultiServerEmulator.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Paessler's NetFlow Generator **(NetFlowGenerator)**](./bucket/NetFlowGenerator.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's NetFlow Tester **(NetFlowTester)**](./bucket/NetFlowTester.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's PRTG Certificate Importer **(PRTGCertificateImporter**](./bucket/PRTGCertificateImporter.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's PRTG Desktop App **(PRTGDesktop**](./bucket/PRTGDesktop.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
