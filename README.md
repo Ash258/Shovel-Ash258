@@ -79,6 +79,7 @@
 | [Paessler's PRTG Desktop App **(PRTGDesktop**](./bucket/PRTGDesktop.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's sFlow Tester **(sFlowTester)**](./bucket/sFlowTester.json)                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's SNMP Tester **(SNMPTester)**](./bucket/SNMPTester.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Paessler's Webserver Stress Tool **(WebserverStress)**](./bucket/WebserverStress.json)                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
