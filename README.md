@@ -35,6 +35,7 @@
 | [CheatHappens Trainer Manager **(TrainerManager)**](./bucket/TrainerManager.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ClickUp **(ClickUp)**](./bucket/ClickUp.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [CloneApp Universal Apps **(CloneAppUA)**](./bucket/CloneAppUA.json)                                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [Concat **(Concat)**](./bucket/Concat.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                                       |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                                       |  ✔🔶   |    ✔     |       ✔ (⛔)       |

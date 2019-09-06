@@ -18,7 +18,7 @@
         "        'EditorPath=$AppEditor$' ",
         "    )",
         "    $file = \"$dir\\$file\"",
-        "    New-Item $file -Type File | Out-Null",
+        "    New-Item $file -Type File -Force | Out-Null",
         "    Set-Content $file ($CONT -join \"`r`n\") -Encoding Ascii",
         "}"
     ],
