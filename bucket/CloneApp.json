@@ -1,9 +1,9 @@
 {
     "version": "2.12.462",
     "description": "CloneApp. Backs up All Windows program settings.",
-    "homepage": "https://www.myclone.app/",
+    "homepage": "https://www.mirinsoft.com/ms-apps/cloneapp",
     "license": "Freeware",
-    "url": "https://www.myclone.app/download/cloneapp/send/2-cloneapp/19-cloneapp#/cosi.zip",
+    "url": "https://www.mirinsoft.com/ca/send/2-cloneapp/19-cloneapp#/cosi.zip",
     "hash": "md5:a0183ba29489a2f5d8f103099771d386",
     "extract_dir": "CloneApp",
     "pre_install": [
@@ -34,14 +34,14 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.myclone.app/downloads/ca_update/changelog.txt",
+        "url": "https://www.mirinsoft.com/downloads/ca_update/changelog.txt",
         "regex": "Changelog v([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://www.myclone.app/download/cloneapp/send/2-cloneapp/19-cloneapp#/cosi.zip",
+        "url": "https://www.mirinsoft.com/ca/send/2-cloneapp/19-cloneapp#/cosi.zip",
         "hash": {
-            "url": "https://www.myclone.app/download/cloneapp/",
-            "regex": "MD5 Checksum: ($md5)"
+            "url": "https://www.mirinsoft.com/download/cloneapp/",
+            "regex": "MD5 Checksum: $md5"
         }
     }
 }
