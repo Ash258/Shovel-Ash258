@@ -17,7 +17,7 @@
     ],
     "installer": {
         "script": [
-            "Set-Content \"$dir\\JDownloader.bat\" '@start javaw.exe -jar \"%~dp0\\JDownloader.jar\" %*' -Encoding ASCII",
+            "Set-Content \"$dir\\JD.bat\" '@start javaw.exe -jar \"%~dp0\\JDownloader.jar\" %*' -Encoding ASCII",
             "New-Item \"$dir\\cfg\", \"$dir\\cfg\\laf\", \"$dir\\libs\\laf\" -ItemType Directory -Force | Out-Null",
             "Move-Item \"$dir\\syntheticaBlackEye.jar\" \"$dir\\libs\\laf\" -Force",
             "Move-Item \"$dir\\*.json\" \"$dir\\cfg\\laf\"",
@@ -37,10 +37,10 @@
             "foreach ($cf in $cfgs.Keys) { Set-Content \"$dir\\cfg\\$cf\" (ConvertTo-Json $cfgs[$cf]) -Encoding Ascii }"
         ]
     },
-    "bin": "JDownloader.bat",
+    "bin": "JD.bat",
     "shortcuts": [
         [
-            "JDownloader.bat",
+            "JD.bat",
             "JD",
             "",
             "icon.ico"
