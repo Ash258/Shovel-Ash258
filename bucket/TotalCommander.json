@@ -1,6 +1,6 @@
 {
     "version": "9.22a",
-    "description": "Total Commander. File manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10, and Windows® 3.1.",
+    "description": "Total Commander. File manager.",
     "homepage": "https://www.ghisler.com/",
     "license": {
         "identifier": "Shareware",
@@ -34,7 +34,7 @@
             "Expand-7zipArchive \"$dir\\INSTALL.CAB\" \"$dir\\cosi\" -Removal",
             "Get-ChildItem \"$dir\" -Exclude cosi | Remove-Item -Force -Recurse",
             "Move-Item \"$dir\\cosi\\*\" \"$dir\"",
-            "Remove-Item \"$dir\\cosi\", \"$dir\\e\", \"$dir\\d\" -Force -Recurse",
+            "Remove-Item \"$dir\\*\" -Include 'cosi', 'd', 'e' -Force -Recurse",
             "    # Creating default settings",
             "function CreateFile([String] $file, [String] $content = $null) {",
             "    if (-not (Test-Path \"$persist_dir\\$file\")) {",
@@ -45,7 +45,7 @@
             "CreateFile 'DEFAULT.BAR'",
             "CreateFile 'default.br2'",
             "CreateFile 'wcx_ftp.ini'",
-            "CreateFile 'wincmd.ini' \"[Configuration]`r`nUseIniInProgramDir=7\"",
+            "CreateFile 'wincmd.ini' @('[Configuration]', 'UseIniInProgramDir=7')",
             "CreateFile 'wincmd.key'"
         ]
     },
@@ -58,7 +58,7 @@
     ],
     "checkver": {
         "url": "https://www.ghisler.com/download.htm",
-        "regex": "Download\\s+version ([\\w+\\.]+) of Total Commander"
+        "regex": "Download\\s+version ([\\w+.]+) of Total Commander"
     },
     "autoupdate": {
         "architecture": {
