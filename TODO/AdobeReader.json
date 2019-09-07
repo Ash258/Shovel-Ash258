@@ -1,19 +1,30 @@
 {
-    "version": "19.012.20034",
+    "version": "19.012.20036",
     "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
     "homepage": "https://get.adobe.com/reader/",
     "license": {
-        "identifier": "Freeware"
+        "identifier": "Proprietary",
+        "url": "https://wwwimages2.adobe.com/www.adobe.com/content/dam/acom/en/legal/licenses-terms/pdf/PlatformClients_PC_WWEULA-en_US-20150407_1357.pdf"
     },
-    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220034/AcroRdrDC1901220034_en_US.exe#/cosi.7z",
-    "hash": "f24a19191f80bce2d67154f57cab7b222919f7be07413db2fd8f2075cb231eff",
+    "suggest": {
+        "Microsoft Visual C++ Redistributable": [
+            "extras/vcredist2012",
+            "extras/vcredist2013"
+        ]
+    },
+    "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220036/AcroRdrDC1901220036_en_US.exe#/cosi.7z",
+    "hash": "8949ebd986098507321a9dc99e2067155595f13e70d6d7106dc0e51b6ee6e945",
     "installer": {
         "script": [
-            "$ext_der = 'program files\\Adobe\\Acrobat Reader DC'",
-            "$ms = 'AcroRead.msi'",
-            "(Get-ChildItem \"$dir\" -Exclude $ms) | Remove-Item",
-            "Expand-MsiArchive \"$dir\\$ms\""
+            "Expand-MsiArchive \"$dir\\AcroRead.msi\" -DestinationPath \"$dir\\cosi\"",
+            "Get-ChildItem $dir -Exclude 'cosi' | Remove-Item -Force -Recurse",
+            "Move-Item \"$dir\\cosi\\program files\\Adobe\\Acrobat Reader DC\\*\" $dir -Force",
+            "Move-Item \"$dir\\cosi\\Common\\*\" $env:CommonProgramFiles -Force",
+            "#Remove-Item \"$dir\\cosi\" -Force -Recurse"
         ]
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"${env:CommonProgramFiles}\\Adobe\" -Force -Recurse"
     },
     "shortcuts": [
         [
@@ -21,7 +32,7 @@
             "Adobe Acrobat DC"
         ]
     ],
-    "checkver": "Version \\d{2}((?<cosi>[\\d\\.]+))",
+    "checkver": "Version\\s+\\d{2}((?<cosi>[\\d.]+))",
     "autoupdate": {
         "url": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/$cleanVersion/AcroRdrDC$cleanVersion_en_US.exe#/cosi.7z"
     }
