@@ -1,12 +1,12 @@
 {
     "version": "2.0.r13",
-    "description": "Monitor and control API calls made by applications and services.",
+    "description": "ApiMonitor. Monitor and control API calls made by applications and services.",
     "homepage": "https://www.rohitab.com/apimonitor",
     "license": "Freeware",
-    "url": "https://www.rohitab.com/download/api-monitor-v2r13-x86-x64.zip",
+    "url": "http://www.rohitab.com/download/api-monitor-v2r13-x86-x64.zip",
     "hash": "d045e45f523a6c0c7a2a8e06831f4b2d705fb84f4995791b5a70b28424a49d2b",
     "extract_dir": "API Monitor (rohitab.com)",
-    "post_install": "Remove-Item \"$dir\\gdiplus.dll\"",
+    "pre_install": "Remove-Item \"$dir\\gdiplus.dll\"",
     "shortcuts": [
         [
             "apimonitor-x64.exe",
@@ -20,10 +20,10 @@
     "persist": "Settings.ini",
     "checkver": {
         "url": "https://www.rohitab.com/apimonitor/changelog/",
-        "regex": "Version (?<main>[\\d\\.]+)\\s\\(\\w+-(?<alpha>r\\d+)\\)",
+        "regex": "Version\\s+(?<main>[\\d.]+)\\s+\\(\\w+-(?<alpha>r\\d+)\\)",
         "replace": "${main}.${alpha}"
     },
     "autoupdate": {
-        "url": "https://www.rohitab.com/download/api-monitor-v$majorVersion$patchVersion-x86-x64.zip"
+        "url": "http://www.rohitab.com/download/api-monitor-v$majorVersion$patchVersion-x86-x64.zip"
     }
 }
