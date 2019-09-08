@@ -131,6 +131,7 @@
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)       |   ✔    |    ✔     |       ❌ (❌)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows Terminal **(WindowsTerminal)**](./bucket/WindowsTerminal.json)                                    |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 
