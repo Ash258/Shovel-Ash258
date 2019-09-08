@@ -1,8 +1,8 @@
-# Scoop Ash258 Bucket [![Build status](https://Img.shields.iO/AppveyoR/CI/Ash258/Scoop-Ash258/Master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://Ci.appveyor.coM/ProjecT/Ash258/Scoop-ash258/BrancH/Master)
+# Scoop Ash258 Bucket [![Build status](https://img.shields.io/Appveyor/CI/Ash258/Scoop-Ash258/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/Scoop-Ash258/branch/master)
 
-`scoop bucket add Ash258 'https://Github.coM/Ash258/Scoop-Ash258.git'`
+`scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'`
 
-- [How to write manifests](./.githuB/CONTRIBUTING.md)
+- [How to write manifests](./.github/CONTRIBUTING.md)
 
 - [Manifests](#manifests)
     - [Available manifests for installation](#available-manifests-for-installation)
@@ -21,7 +21,7 @@
 | [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Apache Open Office **(OpenOffice)**](./bucket/OpenOffice.json)                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [API Monitor **(APIMonitor)**](./bucket/APIMonitor.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [AppVeyor Server **(appveyor-server)**](./bucket/Appveyor-server.json)                                     |   ❌    |    ✔     |       ✔ (⛔)       |
+| [AppVeyor Server **(appveyor-server)**](./bucket/appveyor-server.json)                                     |   ❌    |    ✔     |       ✔ (⛔)       |
 | [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
@@ -48,11 +48,11 @@
 | [DirectX-SDK **(DirectX-SDK)**](./bucket/DirectX-SDK.json)                                                 |   ✔    |    ❌     |       ❌ (❌)       |
 | [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                           |   ❌    |    ✔     |       ✔ (✔)       |
-| [Docker **(docker)**](./bucket/Docker.json)                                                                |   🎃   |    ♻     |       ♻ (♻)       |
+| [Docker **(docker)**](./bucket/docker.json)                                                                |   🎃   |    ♻     |       ♻ (♻)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Easy Context Menu](./bucket/EasyContextMenu.json)                                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Easy Service Optimizer](./bucket/EasyServiceOptimizer.json)                                               |   ✔    |    ✔     |       ✔(⛔)        |
-| [emClient **(emClient)**](./bucket/EmClient.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [emClient **(emClient)**](./bucket/emClient.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                             |   ✔    |    ♻     |       ♻ (♻)       |
 | [Eusing Clenaer **(EusingCleaner)**](./bucket/EusingCleaner.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.json)                               |   ✔    |    ✔     |       ✔ (✔)       |
@@ -76,8 +76,9 @@
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                     |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Kodi **(Kodi)**](./bucket/Kodi.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/Vscode-insiders.json)             |   ✔    |    ♻     |       ♻ (♻)       |
-| [mRemoteNG **(mRemoteNG)**](./bucket/MRemoteNG.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)    |   ✔    |    ♻     |       ♻ (♻)       |
+| [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)             |   ✔    |    ♻     |       ♻ (♻)       |
+| [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                                   |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                                |   ✔    |    ♻     |       ♻ (♻)       |
@@ -87,21 +88,21 @@
 | [Paessler's NetFlow Tester **(NetFlowTester)**](./bucket/NetFlowTester.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's PRTG Certificate Importer **(PRTGCertificateImporter**](./bucket/PRTGCertificateImporter.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's PRTG Desktop App **(PRTGDesktop**](./bucket/PRTGDesktop.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Paessler's sFlow Tester **(sFlowTester)**](./bucket/SFlowTester.json)                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Paessler's sFlow Tester **(sFlowTester)**](./bucket/sFlowTester.json)                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's SNMP Tester **(SNMPTester)**](./bucket/SNMPTester.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's Webserver Stress Tool **(WebserverStress)**](./bucket/WebserverStress.json)                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [PowerShell Core **(pwsh)**](./bucket/Pwsh.json)                                                           |   ✔    |    ✔     |       ✔ (✔)       |
-| [PowerShell Core Preview **(pwsh-preview)**](./bucket/Pwsh-preview.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.json)                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [qBittorrent **(qBittorrent)**](./bucket/QBittorrent.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
+| [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                             |   ✔    |    ❌     |       ❌ (❌)       |
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                   |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                               |   ✔    |    ✔     |       ✔ (✔)       |
-| [Scoop Completion **(scoop-completion)**](./bucket/Scoop-completion.json)                                  |   ✔    |    ♻     |       ♻ (♻)       |
+| [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                  |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
