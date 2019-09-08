@@ -55,6 +55,7 @@
 | [Eusing Clenaer **(EusingCleaner)**](./buckeT/EusingCleaner.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./buckeT/ExperienceIndexOK.json)                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [FastShare Download Manager **(FastShare)**](./buckeT/FastShare.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Firewall App Blocker](./bucket/FirewallAppBlocker.json)                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Fix Windows 7/Vista **(FixWin7)**](./buckeT/FixWin7.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 8/8.1 **(FixWin8)**](./buckeT/FixWin8.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 10 **(FixWin10)**](./buckeT/FixWin10.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -185,7 +186,6 @@ TODO:
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 |                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------ | :---: | :---: | :---: |
-| [Firewall-App-Blocker-Fab](./buckeT/Firewall-App-Blocker-Fab.json)                                           |   ✔   |   ✔   | ✔(⛔)  |
 | [Easy-Service-Optimizer](./buckeT/Easy-Service-Optimizer.json)                                               |   ✔   |   ✔   | ✔(⛔)  |
 | [Bluelifehosts-Editor](./buckeT/Bluelifehosts-Editor.json)                                                   |   ✔   |   ✔   | ✔(⛔)  |
 | [Reiconrestore-Desktop-Icon-Layouts](./buckeT/Reiconrestore-Desktop-Icon-Layouts.json)                       |   ✔   |   ✔   | ✔(⛔)  |
