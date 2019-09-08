@@ -1,0 +1,43 @@
+{
+    "version": "1.9",
+    "description": "ReIcon. Restore desktop icon layouts.",
+    "homepage": "https://www.sordum.org/reicon",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/restore-desktop-icon-layouts/ReIcon.zip",
+    "hash": "5a82724a82072f22e31b52f83d5f5a417648287b00a470dabf739cd497f25295",
+    "extract_dir": "ReIcon",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "ReIcon_x64.exe",
+                [
+                    "ReIcon_x64.exe",
+                    "ReIcon"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "ReIcon_x64.exe",
+                    "Restore Desktop Icon Layouts"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "ReIcon.exe",
+            "shortcuts": [
+                [
+                    "ReIcon.exe",
+                    "Restore Desktop Icon Layouts"
+                ]
+            ]
+        }
+    },
+    "persist": "ReIcon.ini",
+    "checkver": "v([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/restore-desktop-icon-layouts/ReIcon.zip"
+    }
+}

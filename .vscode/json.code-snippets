@@ -108,7 +108,7 @@
             "{",
             "\t\"version\": \"\",",
             "\t\"description\": \"$1. .\",",
-            "\t\"homepage\": \"https://www.sordum.org/$2/\",",
+            "\t\"homepage\": \"https://www.sordum.org/$2\",",
             "\t\"license\": {",
             "\t\t\"identifier\": \"Freeware\",",
             "\t\t\"url\": \"https://www.sordum.org/eula/\"",

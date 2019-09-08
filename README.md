@@ -106,6 +106,7 @@
 | [Sordum's Easy Service Optimizer **(EasyServiceOptimizer)**](./bucket/EasyServiceOptimizer.json)           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Firewall App Blocker **(FirewallAppBlocker)**](./bucket/FirewallAppBlocker.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hide From Uninstall List **(HideFromUninstallList)**](./bucket/HideFromUninstallList.json)       |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Restore Desktop Icon Layouts **(ReIcon)**](./bucket/ReIcon.json)                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Streams Remover **(StreamsRemover)**](./bucket/StreamsRemover.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -190,7 +191,6 @@ TODO:
 
 | App name **(Scoop name)**                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Sordum's ReIcon **(ReIcon)**](./bucket/ReIcon.json)                                                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's RaTool **(RaTool)**](./bucket/RaTool.json)                                                          |   ✔    |    ✔     |       ✔(⛔)        |
