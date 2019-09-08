@@ -68,6 +68,7 @@
 | [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [Hide From Uninstall List](./bucket/HideFromUninstallList.json)                                            |   ✔    |    ✔     |       ✔(⛔)        |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -236,7 +237,6 @@ TODO:
 | [Find-Prime-Numbers](./bucket/Find-Prime-Numbers.json)                                                       |   ✔   |   ✔   | ✔(⛔)  |
 | [Sordum-Monitor-Off](./bucket/Sordum-Monitor-Off.json)                                                       |   ✔   |   ✔   | ✔(⛔)  |
 | [Sordum-Random-Password-Generator](./bucket/Sordum-Random-Password-Generator.json)                           |   ✔   |   ✔   | ✔(⛔)  |
-| [Hide-From-Uninstall-List](./bucket/Hide-From-Uninstall-List.json)                                           |   ✔   |   ✔   | ✔(⛔)  |
 | -----------------------------------------------------------------------------------------                    |  ---  |  ---  | ----- |
 | [Ashampoo Stuff](https://Www.ashampoo.coM/EN/UsD/FdL/21/0/freE/0)                                            |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                         |   ❌   |   ✔   | ✔ (✔) |

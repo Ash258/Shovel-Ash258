@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "description": "Hide From Uninstall List.",
+    "homepage": "https://www.sordum.org/11081/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/hide-from-uninstall-list/HideUL.zip",
+    "hash": "9598aa6d47faccd985d62616d003c120635a48eb22f5742d54cc7f6e98b27bff",
+    "extract_dir": "HideUL",
+    "shortcuts": [
+        [
+            "HideUL.exe",
+            "Hide From Uninstall List"
+        ]
+    ],
+    "persist": "HideUL.ini",
+    "checkver": "v([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/hide-from-uninstall-list/HideUL.zip"
+    }
+}
