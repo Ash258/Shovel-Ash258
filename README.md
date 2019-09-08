@@ -108,6 +108,7 @@
 | [Sordum's Easy Service Optimizer **(EasyServiceOptimizer)**](./bucket/EasyServiceOptimizer.json)           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Firewall App Blocker **(FirewallAppBlocker)**](./bucket/FirewallAppBlocker.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hide From Uninstall List **(HideFromUninstallList)**](./bucket/HideFromUninstallList.json)       |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Removable Access Tool **(RaTool)**](./bucket/RaTool.json)                                        |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Restore Desktop Icon Layouts **(ReIcon)**](./bucket/ReIcon.json)                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Streams Remover **(StreamsRemover)**](./bucket/StreamsRemover.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)           |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -193,7 +194,6 @@ TODO:
 
 | App name **(Scoop name)**                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Sordum's RaTool **(RaTool)**](./bucket/RaTool.json)                                                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's NTFS Drive Protection **(NTFSDriveProtection)**](./bucket/NTFSDriveProtection.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Qemu Simple Boot **(QemuSimpleBoot)**](./bucket/QemuSimpleBoot.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                         |   ✔    |    ✔     |       ✔(⛔)        |
