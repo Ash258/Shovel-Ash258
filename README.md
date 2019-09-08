@@ -29,6 +29,7 @@
 | [A Ruler For Windows **(ARulerForWindows)**](./bucket/ARulerForWindows.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Backup Start Menu Layout **(BackupStartMenuLayout)**](./bucket/BackupStartMenuLayout.json)                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                             |   ✔    |    ♻     |       ♻ (♻)       |
+| [BlueLife Hosts Editor](./bucket/BlueLifeHostsEditor.json)                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Borderless Gaming **(BorderlessGaming)**](./bucket/BorderlessGaming.json)                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bzzt! Image Editor **(Bzzt)**](./bucket/Bzzt.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Caret **(Caret)**](./bucket/Caret.json)                                                                   |   ✔    |    ✔     |       ✔ (✔)       |
@@ -187,7 +188,6 @@ TODO:
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 |                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------ | :---: | :---: | :---: |
-| [Bluelifehosts-Editor](./bucket/Bluelifehosts-Editor.json)                                                   |   ✔   |   ✔   | ✔(⛔)  |
 | [Reiconrestore-Desktop-Icon-Layouts](./bucket/Reiconrestore-Desktop-Icon-Layouts.json)                       |   ✔   |   ✔   | ✔(⛔)  |
 | [Dns-Angel](./bucket/Dns-Angel.json)                                                                         |   ✔   |   ✔   | ✔(⛔)  |
 | [Defender-Control](./bucket/Defender-Control.json)                                                           |   ✔   |   ✔   | ✔(⛔)  |
