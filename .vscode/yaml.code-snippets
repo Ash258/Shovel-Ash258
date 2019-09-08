@@ -101,7 +101,7 @@
         "scope": "yml,yaml",
         "body": [
             "version: ''",
-            "description: $1. .",
+            "description: Sordum's $1. .",
             "homepage: https://www.sordum.org/$2",
             "license:",
             "\tidentifier: Freeware",

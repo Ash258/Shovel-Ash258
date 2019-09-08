@@ -108,6 +108,7 @@
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Context Menu **(EasyContextMenu)**](./bucket/EasyContextMenu.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Service Optimizer **(EasyServiceOptimizer)**](./bucket/EasyServiceOptimizer.json)           |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Find Prime Numbers **(FindPrimeNumbers)**](./bucket/FindPrimeNumbers.json)                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Firewall App Blocker **(FirewallAppBlocker)**](./bucket/FirewallAppBlocker.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hide From Uninstall List **(HideFromUninstallList)**](./bucket/HideFromUninstallList.json)       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Monitor Off **(MonitorOff)**](./bucket/MonitorOff.json)                                          |   ✔    |    ✔     |       ✔(⛔)        |
@@ -234,7 +235,6 @@ TODO:
 | [Sordum's VHD For Context Menu **(VHDForContextMenu)**](./bucket/VHDForContextMenu.json)                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Desktop Ini Editor **(DesktopIniEditor)**](./bucket/DesktopIniEditor.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Show Desktop Icons **(ShowDesktopIcons)**](./bucket/ShowDesktopIcons.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Find Prime Numbers **(FindPrimeNumbers)**](./bucket/FindPrimeNumbers.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | -----------------------------------------------------------------------------------------                     |  ---   |   ---    |       -----       |
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                             |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                          |   ❌    |    ✔     |       ✔ (✔)       |
