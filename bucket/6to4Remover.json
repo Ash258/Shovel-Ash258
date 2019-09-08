@@ -1,6 +1,6 @@
 {
     "version": "1.1",
-    "description": "Tunnel Adapter 6to4 Remover. Remove duplicated Microsoft tunnel 6to4 adapters.",
+    "description": "Sordum's Tunnel Adapter 6to4 Remover. Remove duplicated Microsoft tunnel 6to4 adapters.",
     "homepage": "https://www.sordum.org/tunnel-adapter-microsoft-6to4-adapter-remover",
     "license": {
         "identifier": "Freeware",
