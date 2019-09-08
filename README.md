@@ -113,6 +113,7 @@
 | [Steam Cleaner **(SteamCleaner)**](./bucket/SteamCleaner.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Idle Master **(IdleMaster)**](./bucket/IdleMaster.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Library Manager **(SteamLibraryManager)**](./bucket/SteamLibraryManager.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Streams Remover](./bucket/StreamsRemover.json)                                                            |   ✔    |    ✔     |       ✔(⛔)        |
 | [SuperF4 **(SuperF4)**](./bucket/SuperF4.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                                |   ✔    |    ✔     |       ❌ (⛔)       |
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -236,7 +237,6 @@ TODO:
 | [Sordum-Monitor-Off](./bucket/Sordum-Monitor-Off.json)                                                       |   ✔   |   ✔   | ✔(⛔)  |
 | [Sordum-Random-Password-Generator](./bucket/Sordum-Random-Password-Generator.json)                           |   ✔   |   ✔   | ✔(⛔)  |
 | [Hide-From-Uninstall-List](./bucket/Hide-From-Uninstall-List.json)                                           |   ✔   |   ✔   | ✔(⛔)  |
-| [Streams-Remover](./bucket/Streams-Remover.json)                                                             |   ✔   |   ✔   | ✔(⛔)  |
 | -----------------------------------------------------------------------------------------                    |  ---  |  ---  | ----- |
 | [Ashampoo Stuff](https://Www.ashampoo.coM/EN/UsD/FdL/21/0/freE/0)                                            |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                         |   ❌   |   ✔   | ✔ (✔) |

@@ -145,7 +145,7 @@
             "\t\"checkver\": \"v([\\\\\\d.]+)\",",
             "\t\"autoupdate\": {",
             "\t\t\"url\": \"https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip\"",
-            "\t\t}",
+            "\t}",
             "}",
         ],
     },
