@@ -12,7 +12,8 @@
     "bin": [
         "appveyor.exe",
         "appveyor-build-agent.exe",
-        "appveyor-server.exe"
+        "appveyor-server.exe",
+        "appveyor-db-migrator.exe"
     ],
     "checkver": {
         "url": "https://www.appveyor.com/releases/",
