@@ -102,6 +102,7 @@
 | [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's Backup Start Menu Layout **(BackupStartMenuLayout)**](./bucket/BackupStartMenuLayout.json)       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's BlueLife Hosts Editor **(BlueLifeHostsEditor)**](./bucket/BlueLifeHostsEditor.json)              |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.json)                           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Context Menu **(EasyContextMenu)**](./bucket/EasyContextMenu.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Service Optimizer **(EasyServiceOptimizer)**](./bucket/EasyServiceOptimizer.json)           |   ✔    |    ✔     |       ✔(⛔)        |
@@ -192,7 +193,6 @@ TODO:
 
 | App name **(Scoop name)**                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's RaTool **(RaTool)**](./bucket/RaTool.json)                                                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's NTFS Drive Protection **(NTFSDriveProtection)**](./bucket/NTFSDriveProtection.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Qemu Simple Boot **(QemuSimpleBoot)**](./bucket/QemuSimpleBoot.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
@@ -239,6 +239,10 @@ TODO:
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                             |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                          |   ❌    |    ✔     |       ✔ (✔)       |
 | -----------------------------------------------------------------------------------------                     |  ---   |   ---    |       -----       |
+| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                                               |
+| [Microsoft Edge Beta **(MicrosoftEdgeBeta)**](./TODO/MicrosoftEdgeBeta.json)                                  |
+| [Microsoft Edge Dev **(MicrosoftEdgeDev)**](./TODO/MicrosoftEdgeDev.json)                                     |
+| [Microsoft Edge Canary **(MicrosoftEdgeCanary)**](./TODO/MicrosoftEdgeCanary.json)                            |
 | [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                               |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                                        |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                                                  |   ❌    |    ✔     |       ✔ (⛔)       |
