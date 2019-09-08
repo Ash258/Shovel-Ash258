@@ -1,4 +1,4 @@
-# Scoop Ash258 Bucket [![Build status](https://img.shields.io/appveyor/ci/Ash258/scoop-Ash258/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/Scoop-Ash258/branch/master)
+# Scoop Ash258 Bucket [![Build status](https://img.shields.io/appveyor/ci/Ash258/Scoop-Ash258/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/Scoop-Ash258/branch/master)
 
 `scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'`
 
@@ -236,7 +236,7 @@ TODO:
 | [Sordum's Monitor Off **(MonitorOff)**](./bucket/MonitorOff.json)                                             |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Random Password Generator **(RandomPasswordGenerator)**](./bucket/RandomPasswordGenerator.json)     |   ✔    |    ✔     |       ✔(⛔)        |
 | -----------------------------------------------------------------------------------------                     |  ---   |   ---    |       -----       |
-| [Ashampoo Stuff](https://Www.ashampoo.coM/EN/UsD/FdL/21/0/freE/0)                                             |
+| [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                             |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                          |   ❌    |    ✔     |       ✔ (✔)       |
 | -----------------------------------------------------------------------------------------                     |  ---   |   ---    |       -----       |
 | [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                               |   ❌    |    ⭕     |       ⭕ (⭕)       |
@@ -247,7 +247,7 @@ TODO:
 | [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json)                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json)                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json)                     |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Corsair's iCue **(iCue)**](./TODO/ICue.json)                                                                 |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                                                 |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | -----------------------------------------------------------------------------------------                     |  ---   |   ---    |       -----       |
 | [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                                        |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                                           |   ❌    |    ❌     |       ❌ (❌)       |
@@ -270,5 +270,5 @@ TODO:
         - ...
     - Installing is needed in some cases and path cannot be changed.
 
-- VScode-insiders was changed to nightly in [172ee89](https://Github.coM/Ash258/Scoop-Ash258/CommiT/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a)
+- VScode-insiders was changed to nightly in [172ee89](https://github.com/Ash258/Scoop-Ash258/commit/172ee891b68597f6e940a9e3fd5fc1f3825f9e8a)
     - No need for checkver an autoupdate
