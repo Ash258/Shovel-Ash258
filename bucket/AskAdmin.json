@@ -1,0 +1,35 @@
+{
+    "version": "1.6",
+    "description": "AskAdmin. Restrict an Application, Folder or a File.",
+    "homepage": "https://www.sordum.org/askadmin",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/download/askadmin/AskAdmin.zip",
+    "hash": "4481da48b58fcfae1898de66928c21ebe5294a985e52c3869ce9673af2653342",
+    "extract_dir": "AskAdmin",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "AskAdmin_x64.exe",
+                    "AskAdmin"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "AskAdmin.exe",
+                    "AskAdmin"
+                ]
+            ]
+        }
+    },
+    "persist": "AskAdmin.ini",
+    "checkver": "v([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/download/askadmin/AskAdmin.zip"
+    }
+}

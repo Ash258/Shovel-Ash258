@@ -100,6 +100,7 @@
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json)            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Sordum's AskAdmin **(AskAdmin)**](./bucket/AskAdmin.json)                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Backup Start Menu Layout **(BackupStartMenuLayout)**](./bucket/BackupStartMenuLayout.json)       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's BlueLife Hosts Editor **(BlueLifeHostsEditor)**](./bucket/BlueLifeHostsEditor.json)              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
@@ -199,7 +200,6 @@ TODO:
 | [Sordum's NTFS Drive Protection **(NTFSDriveProtection)**](./bucket/NTFSDriveProtection.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Qemu Simple Boot **(QemuSimpleBoot)**](./bucket/QemuSimpleBoot.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                         |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's AskAdmin **(AskAdmin)**](./bucket/AskAdmin.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Edge Blocker **(EdgeBlocker)**](./bucket/EdgeBlocker.json)                                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's RunAsTool **(RunAsTool)**](./bucket/RunAsTool.json)                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reg Converter **(RegConverter)**](./bucket/RegConverter.json)                                       |   ✔    |    ✔     |       ✔(⛔)        |
