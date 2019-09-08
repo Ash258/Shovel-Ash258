@@ -115,7 +115,7 @@
             "\t\t\t- $4_x64.exe",
             "\t\t\t- - $4_x64.exe",
             "\t\t\t\t\t$4",
-            "\t\tshortcuts: [",
+            "\t\tshortcuts:",
             "\t\t\t- - $4_x64.exe",
             "\t\t\t\t\tSordum\\\\$5",
             "\t32bit:",

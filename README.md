@@ -117,6 +117,7 @@
 | [Sordum's Removable Access Tool **(RaTool)**](./bucket/RaTool.json)                                        |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Restore Desktop Icon Layouts **(ReIcon)**](./bucket/ReIcon.json)                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's RunAsTool **(RunAsTool)**](./bucket/RunAsTool.json)                                              |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Show Desktop Icons **(ShowDesktopIcons)**](./bucket/ShowDesktopIcons.json)                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Streams Remover **(StreamsRemover)**](./bucket/StreamsRemover.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Tunnel Adapter Microsoft 6to4 Adapter Remover **(6to4Remover)**](./bucket/6to4Remover.json)      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)           |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -234,7 +235,6 @@ TODO:
 | [Sordum's Win10 Settings Blocker **(Win10SettingsBlocker)**](./bucket/Win10SettingsBlocker.json)              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's VHD For Context Menu **(VHDForContextMenu)**](./bucket/VHDForContextMenu.json)                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Desktop Ini Editor **(DesktopIniEditor)**](./bucket/DesktopIniEditor.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Show Desktop Icons **(ShowDesktopIcons)**](./bucket/ShowDesktopIcons.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | -----------------------------------------------------------------------------------------                     |  ---   |   ---    |       -----       |
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                             |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                          |   ❌    |    ✔     |       ✔ (✔)       |
