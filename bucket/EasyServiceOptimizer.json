@@ -13,7 +13,7 @@
     "shortcuts": [
         [
             "eso.exe",
-            "Easy Service Optimizer"
+            "Sordum\\Easy Service Optimizer"
         ]
     ],
     "persist": "eso.ini",

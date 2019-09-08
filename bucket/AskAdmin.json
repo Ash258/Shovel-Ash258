@@ -14,7 +14,7 @@
             "shortcuts": [
                 [
                     "AskAdmin_x64.exe",
-                    "AskAdmin"
+                    "Sordum\\AskAdmin"
                 ]
             ]
         },
@@ -22,7 +22,7 @@
             "shortcuts": [
                 [
                     "AskAdmin.exe",
-                    "AskAdmin"
+                    "Sordum\\AskAdmin"
                 ]
             ]
         }

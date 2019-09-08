@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "Ratool.exe",
-            "Removable Access Tool"
+            "Sordum\\Removable Access Tool"
         ]
     ],
     "checkver": "v([\\d.]+)",

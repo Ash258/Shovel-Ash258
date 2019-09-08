@@ -21,7 +21,7 @@
             "shortcuts": [
                 [
                     "Fab_x64.exe",
-                    "Firewall App Blocker"
+                    "Sordum\\Firewall App Blocker"
                 ]
             ]
         },
@@ -30,7 +30,7 @@
             "shortcuts": [
                 [
                     "Fab.exe",
-                    "Firewall App Blocker"
+                    "Sordum\\Firewall App Blocker"
                 ]
             ]
         }

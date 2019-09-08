@@ -21,7 +21,7 @@
             "shortcuts": [
                 [
                     "PowerRun_x64.exe",
-                    "PowerRun"
+                    "Sordum\\PowerRun"
                 ]
             ]
         },
@@ -30,7 +30,7 @@
             "shortcuts": [
                 [
                     "PowerRun.exe",
-                    "PowerRun"
+                    "Sordum\\PowerRun"
                 ]
             ]
         }

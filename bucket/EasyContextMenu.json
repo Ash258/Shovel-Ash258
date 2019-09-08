@@ -21,7 +21,7 @@
             "shortcuts": [
                 [
                     "EcMenu_x64.exe",
-                    "Easy Context Menu"
+                    "Sordum\\Easy Context Menu"
                 ]
             ]
         },
@@ -30,7 +30,7 @@
             "shortcuts": [
                 [
                     "EcMenu.exe",
-                    "Easy Context Menu"
+                    "Sordum\\Easy Context Menu"
                 ]
             ]
         }

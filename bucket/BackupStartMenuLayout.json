@@ -21,7 +21,7 @@
             "shortcuts": [
                 [
                     "BackupSML_x64.exe",
-                    "Backup Start Menu Layout"
+                    "Sordum\\Backup Start Menu Layout"
                 ]
             ]
         },
@@ -30,7 +30,7 @@
             "shortcuts": [
                 [
                     "BackupSML.exe",
-                    "Backup Start Menu Layout"
+                    "Sordum\\Backup Start Menu Layout"
                 ]
             ]
         }

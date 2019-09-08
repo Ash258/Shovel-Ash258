@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "sRemover.exe",
-            "Streams Remover"
+            "Sordum\\Streams Remover"
         ]
     ],
     "checkver": "v([\\d.]+)",

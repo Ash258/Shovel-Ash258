@@ -13,7 +13,7 @@
     "shortcuts": [
         [
             "6to4remover.exe",
-            "6to4 Tunnel Adapter Remover"
+            "Sordum\\6to4 Tunnel Adapter Remover"
         ]
     ],
     "checkver": "v([\\d.]+)",

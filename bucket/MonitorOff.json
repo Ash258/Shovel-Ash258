@@ -13,7 +13,7 @@
     "shortcuts": [
         [
             "MonitorOff.exe",
-            "Monitor Off"
+            "Sordum\\Monitor Off"
         ]
     ],
     "checkver": "v([\\d.]+)",

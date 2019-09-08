@@ -21,7 +21,7 @@
             "shortcuts": [
                 [
                     "ReIcon_x64.exe",
-                    "Restore Desktop Icon Layouts"
+                    "Sordum\\Restore Desktop Icon Layouts"
                 ]
             ]
         },
@@ -30,7 +30,7 @@
             "shortcuts": [
                 [
                     "ReIcon.exe",
-                    "Restore Desktop Icon Layouts"
+                    "Sordum\\Restore Desktop Icon Layouts"
                 ]
             ]
         }

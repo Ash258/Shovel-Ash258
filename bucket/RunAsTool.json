@@ -21,7 +21,7 @@
             "shortcuts": [
                 [
                     "RunAsTool_x64.exe",
-                    "RunAsTool"
+                    "Sordum\\RunAsTool"
                 ]
             ]
         },
@@ -30,7 +30,7 @@
             "shortcuts": [
                 [
                     "RunAsTool.exe",
-                    "RunAsTool"
+                    "Sordum\\RunAsTool"
                 ]
             ]
         }

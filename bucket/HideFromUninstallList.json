@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "HideUL.exe",
-            "Hide From Uninstall List"
+            "Sordum\\Hide From Uninstall List"
         ]
     ],
     "persist": "HideUL.ini",

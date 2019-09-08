@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "DnsAngel.exe",
-            "DNS Angel"
+            "Sordum\\DNS Angel"
         ]
     ],
     "persist": "DnsAngel.ini",

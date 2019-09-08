@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bPuzzle.exe",
-            "bPuzzle"
+            "Sordum\\bPuzzle"
         ]
     ],
     "persist": "bPuzzle.ini",

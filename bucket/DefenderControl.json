@@ -13,7 +13,7 @@
     "shortcuts": [
         [
             "DefenderControl.exe",
-            "Defender Control"
+            "Sordum\\Defender Control"
         ]
     ],
     "persist": "DefenderControl.ini",
