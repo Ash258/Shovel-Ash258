@@ -102,6 +102,7 @@
 | [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's Backup Start Menu Layout **(BackupStartMenuLayout)**](./bucket/BackupStartMenuLayout.json)       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's BlueLife Hosts Editor **(BlueLifeHostsEditor)**](./bucket/BlueLifeHostsEditor.json)              |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.json)                           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Context Menu **(EasyContextMenu)**](./bucket/EasyContextMenu.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
@@ -221,7 +222,6 @@ TODO:
 | [Sordum's Restart Explorer **(RestartExplorer)**](./bucket/RestartExplorer.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.json)              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Fix Print Spooler **(FixPrintSpooler)**](./bucket/FixPrintSpooler.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Bpuzzle **(Bpuzzle)**](./bucket/Bpuzzle.json)                                                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Bluetooth Version Finder **(BluetoothVersionFinder)**](./bucket/BluetoothVersionFinder.json)        |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.json)                           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reset Data Usage **(ResetDataUsage)**](./bucket/ResetDataUsage.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
