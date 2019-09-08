@@ -112,6 +112,7 @@
 | [Sordum's Removable Access Tool **(RaTool)**](./bucket/RaTool.json)                                        |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Restore Desktop Icon Layouts **(ReIcon)**](./bucket/ReIcon.json)                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Streams Remover **(StreamsRemover)**](./bucket/StreamsRemover.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Tunnel Adapter Microsoft 6to4 Adapter Remover **(6to4Remover)**](./bucket/6to4Remover.json)      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                             |   🎃   |    ♻     |       ♻ (♻)       |
@@ -200,7 +201,6 @@ TODO:
 | [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's AskAdmin **(AskAdmin)**](./bucket/AskAdmin.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Edge Blocker **(EdgeBlocker)**](./bucket/EdgeBlocker.json)                                          |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Tunnel Adapter Microsoft 6to4 Adapter Remover **(6to4Remover)**](./bucket/6to4Remover.json)         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's RunAsTool **(RunAsTool)**](./bucket/RunAsTool.json)                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reg Converter **(RegConverter)**](./bucket/RegConverter.json)                                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's BlueLife KeyFreeze **(BlueLifeKeyFreeze)**](./bucket/BlueLifeKeyFreeze.json)                        |   ✔    |    ✔     |       ✔(⛔)        |
