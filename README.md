@@ -27,6 +27,7 @@
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                              |   ✔    |    ✔     |       ✔ (✔)       |
 | [AutoClicker Targeted **(AutoClickerTargeted)**](./bucket/AutoClickerTargeted.json)                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [A Ruler For Windows **(ARulerForWindows)**](./bucket/ARulerForWindows.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Backup Start Menu Layout **(BackupStartMenuLayout)**](./bucket/BackupStartMenuLayout.json)                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                             |   ✔    |    ♻     |       ♻ (♻)       |
 | [Borderless Gaming **(BorderlessGaming)**](./bucket/BorderlessGaming.json)                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bzzt! Image Editor **(Bzzt)**](./bucket/Bzzt.json)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
