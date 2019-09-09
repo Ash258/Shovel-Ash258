@@ -113,6 +113,7 @@
 | [Sordum's Easy Service Optimizer **(EasyServiceOptimizer)**](./bucket/EasyServiceOptimizer.json)              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Find Prime Numbers **(FindPrimeNumbers)**](./bucket/FindPrimeNumbers.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Firewall App Blocker **(FirewallAppBlocker)**](./bucket/FirewallAppBlocker.json)                    |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Fix Print Spooler **(FixPrintSpooler)**](./bucket/FixPrintSpooler.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hibernate Enable Or Disable **(HibernateEnableOrDisable)**](./bucket/HibernateEnableOrDisable.json) |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hide From Uninstall List **(HideFromUninstallList)**](./bucket/HideFromUninstallList.json)          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Monitor Off **(MonitorOff)**](./bucket/MonitorOff.json)                                             |   ✔    |    ✔     |       ✔(⛔)        |
@@ -233,7 +234,6 @@ TODO:
 | [Sordum's Update Time **(UpdateTime)**](./bucket/UpdateTime.json)                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Restart Explorer **(RestartExplorer)**](./bucket/RestartExplorer.json)                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.json)       |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Fix Print Spooler **(FixPrintSpooler)**](./bucket/FixPrintSpooler.json)                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Bluetooth Version Finder **(BluetoothVersionFinder)**](./bucket/BluetoothVersionFinder.json) |   ✔    |    ✔     |       ✔(⛔)        |
 | -----------------------------------------------------------------------------------------              |  ---   |   ---    |       -----       |
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                      |
