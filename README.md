@@ -114,6 +114,7 @@
 | [Sordum's Find Prime Numbers **(FindPrimeNumbers)**](./bucket/FindPrimeNumbers.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Firewall App Blocker **(FirewallAppBlocker)**](./bucket/FirewallAppBlocker.json)                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Fix Print Spooler **(FixPrintSpooler)**](./bucket/FixPrintSpooler.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Folder Painter **(FolderPainter)**](./bucket/FolderPainter.json)                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hibernate Enable Or Disable **(HibernateEnableOrDisable)**](./bucket/HibernateEnableOrDisable.json) |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hide From Uninstall List **(HideFromUninstallList)**](./bucket/HideFromUninstallList.json)          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Monitor Off **(MonitorOff)**](./bucket/MonitorOff.json)                                             |   ✔    |    ✔     |       ✔(⛔)        |
@@ -226,7 +227,6 @@ TODO:
 | [Sordum's Registry Key Jumper **(RegistryKeyJumper)**](./bucket/RegistryKeyJumper.json)                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Simple VHD Manager **(SimpleVHDManager)**](./bucket/SimpleVHDManager.json)                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Sendto Menu Editor **(SendToMenuEditor)**](./bucket/SendToMenuEditor.json)                   |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Folder Painter **(FolderPainter)**](./bucket/FolderPainter.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Temp Cleaner **(TempCleaner)**](./bucket/TempCleaner.json)                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Net Disabler **(NetDisabler)**](./bucket/NetDisabler.json)                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Rebuild Shell Icon Cache **(RebuildShellIconCache)**](./bucket/RebuildShellIconCache.json)   |   ✔    |    ✔     |       ✔(⛔)        |
