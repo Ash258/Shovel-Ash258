@@ -131,6 +131,7 @@
 | [Sordum's Restart Explorer **(RestartExplorer)**](./bucket/RestartExplorer.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Restore Desktop Icon Layouts **(ReIcon)**](./bucket/ReIcon.json)                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's RunAsTool **(RunAsTool)**](./bucket/RunAsTool.json)                                                 |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Sendto Menu Editor **(SendToMenuEditor)**](./bucket/SendToMenuEditor.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Show Desktop Icons **(ShowDesktopIcons)**](./bucket/ShowDesktopIcons.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Show Disk Partition Style **(ShowDiskPartitionStyle)**](./bucket/ShowDiskPartitionStyle.json)       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Shut Down Windows **(ShutDownWindows)**](./bucket/ShutDownWindows.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
@@ -231,7 +232,6 @@ TODO:
 | [Sordum's Drive Letter Changer **(DriveLetterChanger)**](./bucket/DriveLetterChanger.json)             |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Registry Key Jumper **(RegistryKeyJumper)**](./bucket/RegistryKeyJumper.json)                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Simple VHD Manager **(SimpleVHDManager)**](./bucket/SimpleVHDManager.json)                   |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Sendto Menu Editor **(SendToMenuEditor)**](./bucket/SendToMenuEditor.json)                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Rebuild Shell Icon Cache **(RebuildShellIconCache)**](./bucket/RebuildShellIconCache.json)   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.json)       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Bluetooth Version Finder **(BluetoothVersionFinder)**](./bucket/BluetoothVersionFinder.json) |   ✔    |    ✔     |       ✔(⛔)        |
