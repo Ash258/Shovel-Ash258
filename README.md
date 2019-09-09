@@ -134,6 +134,7 @@
 | [Sordum's Streams Remover **(StreamsRemover)**](./bucket/StreamsRemover.json)                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Temp Cleaner **(TempCleaner)**](./bucket/TempCleaner.json)                                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Tunnel Adapter Microsoft 6to4 Adapter Remover **(6to4Remover)**](./bucket/6to4Remover.json)         |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Update Time **(UpdateTime)**](./bucket/UpdateTime.json)                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's VHD For Context Menu **(VHDForContextMenu)**](./bucket/VHDForContextMenu.json)                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Win10 Settings Blocker **(WsBlocker)**](./bucket/WsBlocker.json)                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)              |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -232,7 +233,6 @@ TODO:
 | [Sordum's Net Disabler **(NetDisabler)**](./bucket/NetDisabler.json)                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Rebuild Shell Icon Cache **(RebuildShellIconCache)**](./bucket/RebuildShellIconCache.json)   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Lock **(DNSLock)**](./bucket/DNSLock.json)                                               |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Update Time **(UpdateTime)**](./bucket/UpdateTime.json)                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.json)       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Bluetooth Version Finder **(BluetoothVersionFinder)**](./bucket/BluetoothVersionFinder.json) |   ✔    |    ✔     |       ✔(⛔)        |
 | -----------------------------------------------------------------------------------------              |  ---   |   ---    |       -----       |
