@@ -18,8 +18,11 @@
     "installer": {
         "script": [
             "Set-Content \"$dir\\JD.bat\" '@start javaw.exe -jar \"%~dp0\\JDownloader.jar\" %*' -Encoding ASCII",
-            "New-Item \"$dir\\cfg\", \"$dir\\cfg\\laf\", \"$dir\\libs\\laf\" -ItemType Directory -Force | Out-Null",
+            "'cfg', 'cfg\\menus_v2', 'cfg\\laf', 'libs\\laf' | ForEach-Object {",
+            "    New-Item \"$dir\\$_\" -ItemType Directory -Force | Out-Null",
+            "}",
             "Move-Item \"$dir\\syntheticaBlackEye.jar\" \"$dir\\libs\\laf\" -Force",
+            "Move-Item \"$dir\\*.menu.json\" \"$dir\\cfg\\menus_v2\"",
             "Move-Item \"$dir\\*.json\" \"$dir\\cfg\\laf\"",
             "$cfgs = @{",
             "    'org.jdownloader.controlling.packagizer.PackagizerSettings.json' = @{ 'packagizerenabled' = $true }",
