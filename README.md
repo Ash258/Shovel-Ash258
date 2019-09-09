@@ -111,6 +111,7 @@
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Context Menu **(EasyContextMenu)**](./bucket/EasyContextMenu.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Service Optimizer **(EasyServiceOptimizer)**](./bucket/EasyServiceOptimizer.json)              |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Edge Blocker **(EdgeBlocker)**](./bucket/EdgeBlocker.json)                                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Find Prime Numbers **(FindPrimeNumbers)**](./bucket/FindPrimeNumbers.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Firewall App Blocker **(FirewallAppBlocker)**](./bucket/FirewallAppBlocker.json)                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Fix Print Spooler **(FixPrintSpooler)**](./bucket/FixPrintSpooler.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
@@ -219,7 +220,6 @@ TODO:
 | ------------------------------------------------------------------------------------------------------ | :----: | :------: | :---------------: |
 | [Sordum's Qemu Simple Boot **(QemuSimpleBoot)**](./bucket/QemuSimpleBoot.json)                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                  |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Edge Blocker **(EdgeBlocker)**](./bucket/EdgeBlocker.json)                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's BlueLife KeyFreeze **(BlueLifeKeyFreeze)**](./bucket/BlueLifeKeyFreeze.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Simple Run Blocker **(SimpleRunBlocker)**](./bucket/SimpleRunBlocker.json)                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reduce Memory **(ReduceMemory)**](./bucket/ReduceMemory.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
