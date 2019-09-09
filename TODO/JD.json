@@ -13,7 +13,8 @@
         "https://raw.githubusercontent.com/Vinylwalk3r/JDownloader-2-Dark-Theme/master/syntheticaBlackEye.jar",
         "https://raw.githubusercontent.com/Vinylwalk3r/JDownloader-2-Dark-Theme/master/config/cfg/laf/JDDefaultLookAndFeel.json",
         "https://raw.githubusercontent.com/Vinylwalk3r/JDownloader-2-Dark-Theme/master/config/cfg/laf/JDDefaultLookAndFeel.popupborderinsets.json",
-        "https://raw.githubusercontent.com/Vinylwalk3r/JDownloader-2-Dark-Theme/master/config/cfg/laf/SyntheticaBlackEyeLookAndFeel.json"
+        "https://raw.githubusercontent.com/Vinylwalk3r/JDownloader-2-Dark-Theme/master/config/cfg/laf/SyntheticaBlackEyeLookAndFeel.json",
+        "https://gist.githubusercontent.com/Ash258/daeb1148f9293233996d0e9d43bb8148/raw/LinkgrabberContext.menu.json"
     ],
     "installer": {
         "script": [
