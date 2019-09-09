@@ -127,6 +127,7 @@
 | [Sordum's PowerRun **(PowerRun)**](./bucket/PowerRun.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Qemu Simple Boot **(QemuSimpleBoot)**](./bucket/QemuSimpleBoot.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Random Password Generator **(RandomPasswordGenerator)**](./bucket/RandomPasswordGenerator.json)     |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Rebuild Shell Icon Cache **(RebuildShellIconCache)**](./bucket/RebuildShellIconCache.json)          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reduce Memory **(ReduceMemory)**](./bucket/ReduceMemory.json)                                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reg Converter **(RegConverter)**](./bucket/RegConverter.json)                                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Registry Key Jumper **(RegistryKeyJumper)**](./bucket/RegistryKeyJumper.json)                       |   ✔    |    ✔     |       ✔(⛔)        |
@@ -233,7 +234,6 @@ TODO:
 
 | App name **(Scoop name)**                                                                              | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------ | :----: | :------: | :---------------: |
-| [Sordum's Rebuild Shell Icon Cache **(RebuildShellIconCache)**](./bucket/RebuildShellIconCache.json)   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Bluetooth Version Finder **(BluetoothVersionFinder)**](./bucket/BluetoothVersionFinder.json) |   ✔    |    ✔     |       ✔(⛔)        |
 | -----------------------------------------------------------------------------------------              |  ---   |   ---    |       -----       |
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                      |

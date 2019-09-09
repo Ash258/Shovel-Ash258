@@ -1,0 +1,22 @@
+{
+    "version": "1.1",
+    "description": "Sordum's Rebuild Shell Icon Cache.",
+    "homepage": "https://www.sordum.org/rebuild-shell-icon-cache",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/small-tools/ReIconCache.zip",
+    "hash": "7aa7ce9f3ee4e49747ab0a70ad75374940c7a07dd6d4fc0005704f674b9c2a0c",
+    "bin": "ReIconCache.exe",
+    "shortcuts": [
+        [
+            "ReIconCache.exe",
+            "Sordum\\Rebuild Shell Icon Cache"
+        ]
+    ],
+    "checkver": "v([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/small-tools/ReIconCache.zip"
+    }
+}
