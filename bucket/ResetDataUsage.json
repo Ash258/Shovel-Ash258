@@ -1,0 +1,43 @@
+{
+    "version": "1.2",
+    "description": "Sordum's Reset Data Usage. Reset Windows 10 built-in network usage monitor.",
+    "homepage": "https://www.sordum.org/reset-data-usage",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/small-tools/ResetDu.zip",
+    "hash": "0269ca9143316772dff91d6e8706e0d6cf9240a3bdbc404f033c3884f051c9ed",
+    "extract_dir": "ResetDu",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "ResetDu_x64.exe",
+                [
+                    "ResetDu_x64.exe",
+                    "ResetDu"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "ResetDu_x64.exe",
+                    "Sordum\\Reset Data Usage"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "ResetDu.exe",
+            "shortcuts": [
+                [
+                    "ResetDu.exe",
+                    "Sordum\\Reset Data Usage"
+                ]
+            ]
+        }
+    },
+    "persist": "ResetDu.ini",
+    "checkver": "v([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/small-tools/ResetDu.zip"
+    }
+}
