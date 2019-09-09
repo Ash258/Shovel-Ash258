@@ -106,6 +106,7 @@
 | [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.json)                                                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Copy IP **(CopyIP)**](./bucket/CopyIP.json)                                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.json)                              |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.json)                           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Desktop Ini Editor **(DesktopIniEditor)**](./bucket/DesktopIniEditor.json)                          |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Easy Context Menu **(EasyContextMenu)**](./bucket/EasyContextMenu.json)                             |   ✔    |    ✔     |       ✔(⛔)        |
@@ -234,7 +235,6 @@ TODO:
 | [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.json)       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Fix Print Spooler **(FixPrintSpooler)**](./bucket/FixPrintSpooler.json)                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Bluetooth Version Finder **(BluetoothVersionFinder)**](./bucket/BluetoothVersionFinder.json) |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.json)                    |   ✔    |    ✔     |       ✔(⛔)        |
 | -----------------------------------------------------------------------------------------              |  ---   |   ---    |       -----       |
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                      |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                   |   ❌    |    ✔     |       ✔ (✔)       |
