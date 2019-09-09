@@ -133,6 +133,40 @@
             },
             "problemMatcher": [],
         },
+        {
+            "label": "Checkver Actual",
+            "type": "shell",
+            "command": ".\\bin\\checkver.ps1",
+            "args": [
+                "'${fileBasenameNoExtension}'",
+                "-Force",
+            ],
+            "problemMatcher": [],
+        },
+        {
+            "label": "Purge Actual",
+            "type": "shell",
+            "command": "scoop",
+            "args": [
+                "uninstall",
+                "'${fileBasenameNoExtension}'",
+                "-p",
+            ],
+            "problemMatcher": [],
+        },
+        {
+            "label": "ReInstall Actual",
+            "type": "shell",
+            "command": "scoop",
+            "args": [
+                "install",
+                "'${file}'",
+            ],
+            "dependsOn": [
+                "Purge Actual",
+            ],
+            "problemMatcher": [],
+        },
     ],
     "inputs": [
         {
