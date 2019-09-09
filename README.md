@@ -138,6 +138,7 @@
 | [Sordum's Tunnel Adapter Microsoft 6to4 Adapter Remover **(6to4Remover)**](./bucket/6to4Remover.json)         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Update Time **(UpdateTime)**](./bucket/UpdateTime.json)                                             |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's VHD For Context Menu **(VHDForContextMenu)**](./bucket/VHDForContextMenu.json)                      |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Win10 Settings Blocker **(WsBlocker)**](./bucket/WsBlocker.json)                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -223,7 +224,6 @@ TODO:
 | App name **(Scoop name)**                                                                              | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------ | :----: | :------: | :---------------: |
 | [Sordum's Qemu Simple Boot **(QemuSimpleBoot)**](./bucket/QemuSimpleBoot.json)                         |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's BlueLife KeyFreeze **(BlueLifeKeyFreeze)**](./bucket/BlueLifeKeyFreeze.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Simple Run Blocker **(SimpleRunBlocker)**](./bucket/SimpleRunBlocker.json)                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reduce Memory **(ReduceMemory)**](./bucket/ReduceMemory.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
