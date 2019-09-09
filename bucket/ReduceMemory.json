@@ -1,0 +1,24 @@
+{
+    "version": "1.2",
+    "description": "Sordum's Reduce Memory.",
+    "homepage": "https://www.sordum.org/reduce-memory",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/small-tools/ReduceMemory.zip",
+    "hash": "668d38a17362a4f32c6c1471a99ad37925ac0f6f299a02eaaf661e9f63ce1c3f",
+    "extract_dir": "ReduceMemory",
+    "bin": "ReduceMemory.exe",
+    "shortcuts": [
+        [
+            "ReduceMemory.exe",
+            "Sordum\\Reduce Memory"
+        ]
+    ],
+    "persist": "ReduceMemory.ini",
+    "checkver": "v([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/small-tools/ReduceMemory.zip"
+    }
+}

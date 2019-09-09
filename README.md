@@ -124,6 +124,7 @@
 | [Sordum's NTFS Drive Protection **(NTFSDriveProtection)**](./bucket/NTFSDriveProtection.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's PowerRun **(PowerRun)**](./bucket/PowerRun.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Random Password Generator **(RandomPasswordGenerator)**](./bucket/RandomPasswordGenerator.json)     |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Reduce Memory **(ReduceMemory)**](./bucket/ReduceMemory.json)                                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reg Converter **(RegConverter)**](./bucket/RegConverter.json)                                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Removable Access Tool **(RaTool)**](./bucket/RaTool.json)                                           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Reset Data Usage **(ResetDataUsage)**](./bucket/ResetDataUsage.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
@@ -226,7 +227,6 @@ TODO:
 | [Sordum's Qemu Simple Boot **(QemuSimpleBoot)**](./bucket/QemuSimpleBoot.json)                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's BlueLife KeyFreeze **(BlueLifeKeyFreeze)**](./bucket/BlueLifeKeyFreeze.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Simple Run Blocker **(SimpleRunBlocker)**](./bucket/SimpleRunBlocker.json)                   |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Reduce Memory **(ReduceMemory)**](./bucket/ReduceMemory.json)                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Router Default Password **(RouterDefaultPassword)**](./bucket/RouterDefaultPassword.json)    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Drive Letter Changer **(DriveLetterChanger)**](./bucket/DriveLetterChanger.json)             |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Registry Key Jumper **(RegistryKeyJumper)**](./bucket/RegistryKeyJumper.json)                |   ✔    |    ✔     |       ✔(⛔)        |
