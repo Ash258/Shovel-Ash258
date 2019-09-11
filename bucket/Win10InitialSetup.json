@@ -1,5 +1,5 @@
 {
-    "version": "3.7",
+    "version": "3.8",
     "description": "Windows 10 Initial Setup Script. PowerShell script for automation of routine tasks done after fresh installations of Windows 10 / Server 2016 / Server 2019.",
     "homepage": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/",
     "license": {
@@ -10,9 +10,9 @@
         "Default setup could be run via 'Win10-Init' inside powershell or cmd.",
         "For advanced usage visit: https://github.com/Disassembler0/Win10-Initial-Setup-Script#advanced-usage"
     ],
-    "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/3.7.zip",
-    "hash": "78cffd21197e43027ce2c26133066d07c732fd47e1357a9ad01fb20f73fa7a21",
-    "extract_dir": "Win10-Initial-Setup-Script-3.7",
+    "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/3.8.zip",
+    "hash": "74eb5a125eb41a65450ce436cbf2702f1a8743398c4f764532d4030358639983",
+    "extract_dir": "Win10-Initial-Setup-Script-3.8",
     "bin": [
         [
             "Default.cmd",
