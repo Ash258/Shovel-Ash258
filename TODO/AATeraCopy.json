@@ -28,7 +28,7 @@
     ],
     "checkver": {
         "url": "https://codesector.com/downloads",
-        "regex": "TeraCopy ([\\d\\.]+)"
+        "regex": "(?sm)Windows.*?TeraCopy ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://s3.amazonaws.com/codesector-us/teracopy.exe"

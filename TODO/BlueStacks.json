@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://support.bluestacks.com/hc/en-us/articles/360021469391-Release-Notes",
-        "regex": "Release notes for version\\s+([\\d\\.]+)"
+        "regex": "BlueStacks\\s+([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/$version/x64/BlueStacks-Installer_$version_amd64_native.exe"
