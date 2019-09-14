@@ -71,6 +71,7 @@
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                        |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Kodi **(Kodi)**](./bucket/Kodi.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Meazure **(Meazure)**](./bucket/Meazure.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)       |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                |   ✔    |    ♻     |       ♻ (♻)       |
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
