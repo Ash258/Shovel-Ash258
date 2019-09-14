@@ -19,7 +19,7 @@
     ],
     "installer": {
         "script": [
-            "Set-Content \"$dir\\JD.bat\" '@start javaw.exe -jar \"%~dp0\\JDownloader.jar\" %*' -Encoding ASCII",
+            "Set-Content \"$dir\\JDownloader.bat\" '@start javaw.exe -jar \"%~dp0\\JDownloader.jar\" %*' -Encoding ASCII",
             "'cfg', 'cfg\\menus_v2', 'cfg\\laf', 'libs\\laf' | ForEach-Object {",
             "    New-Item \"$dir\\$_\" -ItemType Directory -Force | Out-Null",
             "}",
@@ -45,11 +45,11 @@
             "foreach ($cf in $cfgs.Keys) { Set-Content \"$dir\\cfg\\$cf\" (ConvertTo-Json $cfgs[$cf]) -Encoding Ascii }"
         ]
     },
-    "bin": "JD.bat",
+    "bin": "JDdownloader.bat",
     "shortcuts": [
         [
-            "JD.bat",
-            "JD",
+            "JDdownloader.bat",
+            "JDdownloader 2",
             "",
             "icon.ico"
         ]
