@@ -66,6 +66,7 @@
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [JDownloader **(JDownloader)**](./bucket/JDownloader.json)                                                    |   ✔    |    ♻     |       ♻ (♻)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                        |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Kodi **(Kodi)**](./bucket/Kodi.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |

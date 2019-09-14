@@ -45,10 +45,10 @@
             "foreach ($cf in $cfgs.Keys) { Set-Content \"$dir\\cfg\\$cf\" (ConvertTo-Json $cfgs[$cf]) -Encoding Ascii }"
         ]
     },
-    "bin": "JDdownloader.bat",
+    "bin": "JDownloader.bat",
     "shortcuts": [
         [
-            "JDdownloader.bat",
+            "JDownloader.bat",
             "JDdownloader 2",
             "",
             "icon.ico"
