@@ -120,11 +120,10 @@ persist: FOLDER
 
 # region Updating
 checkver:
-  url: URL
+  url: https://url.com # Do not include when checkver url is equal to homepage
   jsonpath: $.whatever # or xmlpath: /element/child
-  regex: someregex.*
+  regex: ([\d.]+)(?<NamedGrou>.*)\|(?<otherNamedGroup>.+)$
   replace: ${NamedGroup}-${otherNamedGroup}
-#  replace: ${1}-${otherIndexedGroup}
 # or
 # checkver: regex to be mached on homepage URL
 # or
