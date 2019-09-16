@@ -185,6 +185,7 @@
 | [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                       |   ✔    |    ✔     |       ✔ (✔)       |
+| [Wi-Fi Password Revealer **(WifiPasswordRevealer)**](./bucket/WifiPasswordRevealer.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                                |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)          |   ✔    |    ✔     |       ❌ (❌)       |
