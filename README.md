@@ -103,6 +103,7 @@
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [SoundSwitch **(SoundSwitch)**](./bucket/SoundSwitch.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sordum's AskAdmin **(AskAdmin)**](./bucket/AskAdmin.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Backup Start Menu Layout **(BackupStartMenuLayout)**](./bucket/BackupStartMenuLayout.json)          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's BlueLife Hosts Editor **(BlueLifeHostsEditor)**](./bucket/BlueLifeHostsEditor.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
