@@ -69,6 +69,7 @@
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.json)                                                    |   ✔    |    ♻     |       ♻ (♻)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                        |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Kodi **(Kodi)**](./bucket/Kodi.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
