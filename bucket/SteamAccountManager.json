@@ -1,9 +1,9 @@
 {
-    "version": "1.3.1.2",
+    "version": "1.3.1.3",
     "description": "Steam Account Manager. Easily log in and switch between Steam accounts.",
     "homepage": "https://github.com/rex706/SAM/",
-    "url": "https://github.com/rex706/SAM/releases/download/v1.3.1.2/SAM_1.3.1.2.zip",
-    "hash": "f54a0ee71c87218daa407e7a2f27abf5847e6ec5703715f35489565de3afd0e7",
+    "url": "https://github.com/rex706/SAM/releases/download/v1.3.1.3/SAM_1.3.1.3.zip",
+    "hash": "b56845ac96d04d28b8ff9a2a9f66a4d0fc2814d0440c7f506970783710a239d1",
     "pre_install": [
         "$file = 'SAMSettings.ini'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
