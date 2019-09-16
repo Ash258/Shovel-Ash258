@@ -102,6 +102,7 @@
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                     |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [SharpKeys **(SharpKeys)**](./bucket/SharpKeys.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SoundSwitch **(SoundSwitch)**](./bucket/SoundSwitch.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sordum's AskAdmin **(AskAdmin)**](./bucket/AskAdmin.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
