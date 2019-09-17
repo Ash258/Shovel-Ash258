@@ -195,6 +195,7 @@
 | [Windows Terminal **(WindowsTerminal)**](./bucket/WindowsTerminal.json)                                       |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 
