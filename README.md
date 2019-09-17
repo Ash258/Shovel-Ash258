@@ -80,6 +80,7 @@
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                                      |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                                   |   ✔    |    ♻     |       ♻ (♻)       |
 | [Paessler's MIB Importer **(MIBImporter)**](./bucket/MIBImporter.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's Multi Server Emulator **(MultiServerEmulator)**](./bucket/MultiServerEmulator.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
