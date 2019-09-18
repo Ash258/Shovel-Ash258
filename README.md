@@ -224,12 +224,22 @@
 | [NVidia Profile Inspector](https://Github.coM/LukesampsoN/Scoop-extraS/BloB/MasteR/bucket/Nvidia-profile-inspector.json) | [a650c8b](https://Github.coM/Ash258/Scoop-Ash258/CommiT/A650c8b4b85932749090a7f19c6b3e08734a09b1) | [a9f48e1](https://Github.coM/LukesampsoN/Scoop-extraS/CommiT/A9f48e1931fabee475bb76088ad62ad7c47f277e) ([lukesampsoN/Scoop-extras#1933](https://Github.coM/LukesampsoN/Scoop-extraS/PulL/1933)) |
 | [Listary](https://Github.coM/LukesampsoN/Scoop-extraS/BloB/MasteR/bucket/Listary.json)                                   | [458063b](https://Github.coM/Ash258/Scoop-Ash258/CommiT/458063b1983f1d75ec5f5e4338e39309cd6c28a3) | [e6be780](https://Github.coM/LukesampsoN/Scoop-extraS/CommiT/E6be780550b1580bbbf9b74756a462e8be4b34c9) ([lukesampsoN/Scoop-extras#2054](https://Github.coM/LukesampsoN/Scoop-extraS/PulL/2054)) |
 | [Skype](https://Github.coM/LukesampsoN/Scoop-extraS/BloB/MasteR/bucket/Skype.json)                                       | [30c3167](https://Github.coM/Ash258/Scoop-Ash258/CommiT/30c3167f0359cb79acc230377b268de297abd1f7) | [7ecd6db](https://Github.coM/LukesampsoN/Scoop-extraS/CommiT/7ecd6db0e307048130c144c7b47fecf60d50ee68) ([lukesampsoN/Scoop-extras#1932](https://Github.coM/LukesampsoN/Scoop-extraS/PulL/1932)) |
-<!--
-TODO:
+
+<!-- TODO:
+    AppveyorServer
     Chrome
+    BeefText
+    Hamsket
+    KeyFinder
     Kodi
     Uplay
     Origin
+    Meazure
+    mRemoteNG
+    PotPlayer
+    SharpKeys
+    SoundSwitch
+    SuperF4
     BethesdaLauncher
     Caret
     NetLimiter

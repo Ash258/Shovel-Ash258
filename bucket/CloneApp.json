@@ -15,7 +15,7 @@
         "        '[Settings]'",
         "        \"ClonePath=$to\\Backup\\\"",
         "        \"LogPath=$to\\Backup\\\"",
-        "        'EditorPath=$AppEditor$' ",
+        "        'EditorPath=$AppEditor$'",
         "    )",
         "    $file = \"$dir\\$file\"",
         "    New-Item $file -Type File -Force | Out-Null",
