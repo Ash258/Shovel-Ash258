@@ -1,5 +1,5 @@
 {
-    "version": "2019-0305",
+    "version": "2019-0917",
     "description": "Air For Steam. An elegant and customizable skin for Steam.",
     "homepage": "http://airforsteam.com/",
     "license": {
@@ -12,9 +12,9 @@
         "After copying you can uninstall with 'scoop uninstall AirForSteam'.",
         "There are few themes, which could be set. (see: https://github.com/Outsetini/Air-for-Steam/wiki#colors)"
     ],
-    "url": "https://github.com/airforsteam/Air-for-Steam/archive/2019-0305.zip",
-    "hash": "8ed5012fac97d1aa7a6415da65adc5c4ee31eb6fa3a46d9c962f8b905b6f331f",
-    "extract_dir": "Air-for-Steam-2019-0305",
+    "url": "https://github.com/airforsteam/Air-for-Steam/archive/2019-0917.zip",
+    "hash": "9c497e33ff4ac598f830da0d2ffee6e649e26ecdec768b02502baf0d0fd22194",
+    "extract_dir": "Air-for-Steam-2019-0917",
     "installer": {
         "script": [
             "$extras = \"$dir\\+Extras\"",
