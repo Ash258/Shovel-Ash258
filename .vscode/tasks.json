@@ -144,7 +144,7 @@
             "problemMatcher": [],
         },
         {
-            "label": "Purge Actual",
+            "label": "Purge Uninstall Actual",
             "type": "shell",
             "command": "scoop",
             "args": [
@@ -155,16 +155,23 @@
             "problemMatcher": [],
         },
         {
-            "label": "ReInstall Actual",
+            "label": "Install Actual",
             "type": "shell",
             "command": "scoop",
             "args": [
                 "install",
                 "'${file}'",
             ],
+            "problemMatcher": [],
+        },
+        {
+            "label": "ReInstall Actual",
+            "type": "shell",
             "dependsOn": [
-                "Purge Actual",
+                "Purge Uninstall Actual",
+                "Install Actual",
             ],
+            "dependsOrder": "sequence",
             "problemMatcher": [],
         },
     ],
