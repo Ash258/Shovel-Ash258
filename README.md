@@ -101,6 +101,7 @@
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                                |   ✔    |    ❌     |       ❌ (❌)       |
+| [RockstarGameLauncher **(RockstarGameLauncher)**](./bucket/RockstarGameLauncher.json)                         |   ✔    |    ♻     |       ♻ (♻)       |
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                      |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                                  |   ✔    |    ✔     |       ✔ (✔)       |
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                     |   ✔    |    ♻     |       ♻ (♻)       |
