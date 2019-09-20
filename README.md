@@ -78,6 +78,7 @@
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)       |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                |   ✔    |    ♻     |       ♻ (♻)       |
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [mRemoteNG PreRelease **(mRemoteNG-pre)**](./bucket/mRemoteNG-pre.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                                      |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |

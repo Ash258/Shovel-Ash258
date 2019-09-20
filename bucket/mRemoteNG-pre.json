@@ -1,13 +1,13 @@
 {
-    "version": "1.76.20.24669",
+    "version": "1.77.1.27713",
     "description": "Open source, tabbed, multi-protocol, remote connections manager. Fork of mRemote.",
     "homepage": "https://mremoteng.org",
     "license": {
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/mRemoteNG/mRemoteNG/blob/develop/COPYING.TXT"
     },
-    "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Portable-1.76.20.24669.zip",
-    "hash": "97b0e94bbdc409f3eb09b1017b3b58ccc0eae145a98a3bc6ea651ef1d5bc2d8e",
+    "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.77.1/mRemoteNG-Portable-1.77.1.27713.zip",
+    "hash": "49ca9646e42123f0258caf547b29577b1b24ab9e3effe1b8df6ba250d7ed0de0",
     "pre_install": [
         "function SettingProperty ($key, $value) {",
         "    return \"    <setting name=\"\"$key\"\">$value</setting>\"",
@@ -57,8 +57,8 @@
         "mRemoteNG.settings"
     ],
     "checkver": {
-        "github": "https://github.com/mRemoteNG/mRemoteNG",
-        "regex": "mRemoteNG-Portable-([\\d.]+)\\.zip"
+        "url": "https://github.com/mRemoteNG/mRemoteNG/releases",
+        "regex": "(?sm)Pre-release.*?mRemoteNG-Portable-([\\d.]+)\\.zip"
     },
     "autoupdate": {
         "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v$matchHead/mRemoteNG-Portable-$version.zip"
