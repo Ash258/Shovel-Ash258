@@ -1,10 +1,10 @@
 {
-    "version": "4.1.6",
+    "version": "4.1.7",
     "description": "Leading open-source office software suite for word processing, spreadsheets, presentations, graphics, databases and more.",
     "homepage": "https://www.openoffice.org/",
     "license": "Apache-2.0",
-    "url": "https://archive.apache.org/dist/openoffice/4.1.6/binaries/en-GB/Apache_OpenOffice_4.1.6_Win_x86_install_en-GB.exe#/cosi.7z",
-    "hash": "sha512:bf4710d2e247dffe42a6ff9f3c76dcfe9b4e5a28f12a8c0e454550287d466b7b98ea8d4b292510df7f58e05707a4c6b51efda2078785cdae81dd1c89eff7aecd",
+    "url": "https://archive.apache.org/dist/openoffice/4.1.7/binaries/en-GB/Apache_OpenOffice_4.1.7_Win_x86_install_en-GB.exe#/cosi.7z",
+    "hash": "sha512:f245545b5c3d434dc0407aee4e807dad5d552dcb156b0367d5314ae83a2257180e8f1ef28d76116cf90582767093e2180063ea0fcd20ce72541337826b145850",
     "installer": {
         "script": [
             "Expand-MsiArchive \"$dir\\openoffice$($version -replace '\\.', '').msi\" \"$dir\\App\" -Removal",
