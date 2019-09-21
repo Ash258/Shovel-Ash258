@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/20190919_1.7.20538/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "323feba5bd9c07181c1918f1814f1f4e589ea222728506e5a009af3e4c761674",
+            "hash": "a88319f4b33c23ae1a94944dd88d832fb45bf9c1708402ec9c52966ec4ee0a2e",
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
@@ -23,7 +23,7 @@
         },
         "32bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/20190919_1.7.20538/PotPlayerSetup.exe#/cosi.7z",
-            "hash": "7ac2129aa69340a9a1debcb4ef1d8a04b11cb2bc5c987ca8411d3bf1963743ff",
+            "hash": "d7830ca52243654fe8f9333523990464de30a12103b4c34c8f60b09f1e5c7a7a",
             "shortcuts": [
                 [
                     "PotPlayer.exe",
