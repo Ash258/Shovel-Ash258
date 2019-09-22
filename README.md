@@ -95,6 +95,7 @@
 | [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Postbox **(Postbox)**](./bucket/Postbox.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                                              |   ✔    |    ✔     |       ✔ (✔)       |
 | [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.json)                                      |   ✔    |    ✔     |       ✔ (✔)       |
