@@ -3,14 +3,14 @@
         "https://docs.vmware.com/en/VMware-Workstation-Pro/15.0/com.vmware.ws.using.doc/GUID-7C47E119-7AE6-4E25-BC6F-435AB3DCD342.html",
         "https://docs.vmware.com/en/VMware-Workstation-Pro/15.5/rn/VMware-Workstation-155-Pro-Release-Notes.html"
     ],
-    "version": "15.1.0-13591040",
+    "version": "15.5.0-14665864",
     "description": "VMWare. Industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC.",
     "homepage": "https://www.vmware.com/products/workstation-pro.html",
     "notes": "Before uninstalling run `Get-Process '*vm*' | Stop-Process -Force` in elevated prompt.",
     "architecture": {
         "64bit": {
-            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.1.0-13591040.exe#/cosi.exe",
-            "hash": "81b0af803b7f8e85867fef5a2450b8e0de7b09bd105ce96b1af334581f75fe92",
+            "url": "http://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.5.0-14665864.exe#/cosi.exe",
+            "hash": "07a989ff80b8cf123099ed8aff86f2a03742ebd3798c4a0f00c94ca74374f63a",
             "installer": {
                 "args": [
                     "/s",
