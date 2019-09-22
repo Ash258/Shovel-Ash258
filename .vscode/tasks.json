@@ -152,6 +152,9 @@
                 "'${fileBasenameNoExtension}'",
                 "-p",
             ],
+            "runOptions": {
+                "reevaluateOnRerun": false
+            },
             "problemMatcher": [],
         },
         {
@@ -162,6 +165,9 @@
                 "install",
                 "'${file}'",
             ],
+            "runOptions": {
+                "reevaluateOnRerun": false
+            },
             "problemMatcher": [],
         },
         {
