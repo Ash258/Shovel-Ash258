@@ -1,0 +1,37 @@
+{
+    "version": "4.0.1",
+    "description": "Chronos Timetracker. Desktop client for JIRA.",
+    "homepage": "https://chronos.web-pal.com/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/web-pal/chronos-timetracker/blob/master/LICENSE.md"
+    },
+    "url": "https://github.com/web-pal/chronos-timetracker/releases/download/v4.0.1/Chronos-Setup-4.0.1.exe#/cosi.7z",
+    "hash": "sha512:6cc4efbb7629baf5c8b6ba1f1d4d1cae88db80cdca515fc2420bfbf280e6d2f9640095677fee6d2e748e18814dc00f9c34954ff1878a3753433025b05cb0ac08",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath $dir",
+                    "Remove-Item \"$dir\\*\" -Include '$PLUGINSDIR', 'Uninstall*exe' -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "Chronos.exe",
+            "Chronos"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/web-pal/chronos-timetracker"
+    },
+    "autoupdate": {
+        "url": "https://github.com/web-pal/chronos-timetracker/releases/download/v$version/Chronos-Setup-$version.exe#/cosi.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s+$base64"
+        }
+    }
+}
