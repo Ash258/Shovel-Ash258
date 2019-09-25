@@ -1,16 +1,16 @@
 {
-    "version": "19.22.3",
+    "version": "19.24.14",
     "description": "Paessler's PRTG Desktop App. Completely control multiple PRTG installations.",
     "homepage": "https://www.paessler.com/prtg-desktop-app",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.paessler.com/prtg_desktop/19.22.3/64bit/PRTG_Desktop_Full_Installer.msi",
-            "hash": "138561e224df653e4468fea7085240e416a2943013525401ecd686b7107cf353"
+            "url": "https://downloads.paessler.com/prtg_desktop/19.24.14/64bit/PRTG_Desktop_Full_Installer.msi",
+            "hash": "f57075652c7c2fd111e8479ef806e7d1dab1fe97b8490676dcdcd4f68d3b2a69"
         },
         "32bit": {
-            "url": "https://downloads.paessler.com/prtg_desktop/19.22.3/32bit/PRTG_Desktop_Full_Installer.msi",
-            "hash": "e1ba18d0026fac1770f848ce06f945504855fa1acb7b97d95930bee7b989eeca"
+            "url": "https://downloads.paessler.com/prtg_desktop/19.24.14/32bit/PRTG_Desktop_Full_Installer.msi",
+            "hash": "96bbc23abfb5146cddf552167ea580748d1cc1c43c5e3bb93d06be1179f86def"
         }
     },
     "extract_dir": "Paessler\\PRTG Desktop",
