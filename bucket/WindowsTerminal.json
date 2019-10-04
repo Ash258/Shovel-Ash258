@@ -1,13 +1,13 @@
 {
-    "version": "0.5.2681.0",
+    "version": "0.5.2762.0",
     "description": "Microsoft Terminal. The new Windows Terminal, and the original Windows console host -- all in the same place!",
     "homepage": "https://github.com/microsoft/terminal",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/microsoft/terminal/blob/master/LICENSE"
     },
-    "url": "https://github.com/microsoft/terminal/releases/download/v0.5.2681.0/Microsoft.WindowsTerminal_0.5.2681.0_8wekyb3d8bbwe.msixbundle#/cosi.7z",
-    "hash": "1908fa4daa11dd841004f622e4669bd2aa91252e0980237da4e3d6f2d6663564",
+    "url": "https://github.com/microsoft/terminal/releases/download/v0.5.2762.0/Microsoft.WindowsTerminal_0.5.2762.0_8wekyb3d8bbwe.msixbundle#/cosi.7z",
+    "hash": "5db3eacf7716318e715e61aa20906926eb04443f623c19c2726384d41abc6bfe",
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem $dir -Exclude '*x64.msix' | Remove-Item -Force -Recurse"
