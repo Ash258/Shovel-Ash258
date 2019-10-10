@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-18.4-Leia-x64.exe#/cosi.7z",
-            "hash": "963343668e7259a0a579dc93aba3e4143353e86f5eb56ca8e6326a7aa7a75ab8"
+            "hash": "566e33b5370f64f0b5f379a1ca3d6f5b378e30080f9f1e5cd88e806e59389d15"
         },
         "32bit": {
             "url": "https://mirrors.kodi.tv/releases/windows/win32/kodi-18.4-Leia-x86.exe#/cosi.7z",
-            "hash": "a83aac61d988cc5bed982f3e556655d334407ae37b85ce968e8569b75ba50d57"
+            "hash": "71ed6a10f0701ef919e6bcf95b97c1fa0ae783f7eeb6581309129543f9bf8074"
         }
     },
     "post_install": "Get-ChildItem \"$dir\" '$*' -Directory | Remove-Item -Force -Recurse",
