@@ -53,8 +53,8 @@
         }
     },
     "checkver": {
-        "url": "https://www.piriform.com/speccy/download/",
-        "regex": "Latest version: <b>([\\d\\.]+)</b>"
+        "url": "https://www.ccleaner.com/speccy/version-history",
+        "regex": "v([\\d.]+)\\s+\\("
     },
     "autoupdate": {
         "url": "https://download.ccleaner.com/spsetup$majorVersion$minorVersion.exe#/cosi.7z"
