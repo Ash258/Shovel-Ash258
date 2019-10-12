@@ -1,9 +1,9 @@
 {
     "version": "0.0.7-8863",
-    "description": "RPCS3. Experimental open-source Sony PlayStation 3 emulator and debugger.",
-    "homepage": "https://rpcs3.net/",
+    "description": "RPCS3. Experimental Sony PlayStation 3 emulator and debugger.",
+    "homepage": "https://rpcs3.net",
     "license": {
-        "identifier": "GPL-2.0",
+        "identifier": "GPL-2.0-or-later",
         "url": "https://github.com/RPCS3/rpcs3/blob/master/LICENSE"
     },
     "notes": [
@@ -35,36 +35,36 @@
         "script": [
             "$file = 'GuiConfigs\\CurrentSettings.ini'",
             "if (-not (Test-Path \"$persist_dir\\$file\")) {",
-            "    Write-Host 'File' \"$file\" 'does not exists. Creating.' -f Yellow",
+            "    Write-Host \"File $file does not exists.\" -f Yellow",
             "    $outfile = \"$dir\\$file\"",
-            "    New-Item \"$outFile\" -Type File -Force | Out-Null",
+            "    New-Item $outFile -Type File -Force | Out-Null",
             "    $CONT = @('[Meta]', 'currentStylesheet=Darker Style by TheMitoSan')",
-            "    Set-Content \"$outFile\" ($CONT -join \"`r`n\") -Encoding Ascii",
+            "    Set-Content $outFile $CONT -Encoding Ascii",
             "}"
         ]
     },
-    "persist": [
-        "dev_hdd0",
-        "GuiConfigs"
-    ],
+    "bin": "rpcs3.exe",
     "shortcuts": [
         [
             "rpcs3.exe",
             "RPCS3"
         ]
     ],
+    "persist": [
+        "dev_hdd0",
+        "GuiConfigs"
+    ],
     "checkver": {
-        "github": "https://github.com/RPCS3/rpcs3-binaries-win/",
-        "regex": "<a href=\".*/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v(?<main>[\\d\\.]+-\\d{4})",
-        "replace": "${main}"
+        "github": "https://github.com/RPCS3/rpcs3-binaries-win",
+        "regex": "/build-(?<commit>(?<cosi>\\w{8})\\w{32})/rpcs3-v([\\d.]+-\\d{4})-"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-$matchCommit/rpcs3-v$version-$matchCosi_win64.7z",
                 "hash": {
-                    "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/tag/build-$matchCommit/",
-                    "regex": "($sha256);"
+                    "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/tag/build-$matchCommit",
+                    "regex": "$sha256;"
                 }
             }
         }
