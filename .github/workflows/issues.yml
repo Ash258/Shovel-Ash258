@@ -1,4 +1,6 @@
-on: issues
+on:
+  issues:
+    types: [opened]
 name: Issues
 jobs:
   issueHandler:
@@ -8,6 +10,7 @@ jobs:
     - uses: actions/checkout@master
     - name: IssueHandler
       uses: Ash258/Scoop-GithubActions@stable
+      if: github.event.action == 'opened'
       env:
         GITH_EMAIL: cabera.jakub@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

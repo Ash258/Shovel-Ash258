@@ -1,4 +1,6 @@
-on: issue_comment
+on:
+  issue_comment:
+    types: [created]
 name: Pull requests comment
 jobs:
   pullRequestHandler:
@@ -8,6 +10,7 @@ jobs:
     - uses: actions/checkout@master
     - name: PullRequestHandler
       uses: Ash258/Scoop-GithubActions@stable
+      if: startsWith(github.event.comment.body, '/verify')
       env:
         GITH_EMAIL: cabera.jakub@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
