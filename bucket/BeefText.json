@@ -3,7 +3,7 @@
     "description": "BeefText. Text snippet manager.",
     "homepage": "https://beeftext.org",
     "license": {
-        "identifier": "MIT,G",
+        "identifier": "MIT",
         "url": "https://github.com/xmichelo/Beeftext/blob/master/LICENSE"
     },
     "url": "https://github.com/xmichelo/Beeftext/releases/download/v5.1/Beeftext-5.1-PortableEdition.zip",
