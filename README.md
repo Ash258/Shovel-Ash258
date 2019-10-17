@@ -180,6 +180,7 @@
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                                   |   ✔    |    ✔     |       ❌ (⛔)       |
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Total Commander Beta **(TotalCommander-beta)**](./bucket/TotalCommander-beta.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker **(UltimateWindowsTweaker)**](./bucket/UltimateWindowsTweaker.json)                   |   ✔    |    ✔     |       ✔ (⛔)       |
