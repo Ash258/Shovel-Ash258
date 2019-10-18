@@ -5,7 +5,6 @@
     "license": "Freeware",
     "url": "https://www.mirinsoft.com/ca/send/2-cloneapp/19-cloneapp#/cosi.zip",
     "hash": "md5:a0183ba29489a2f5d8f103099771d386",
-    "extract_dir": "CloneApp",
     "pre_install": [
         "$file = 'Data\\cloneapp.ini'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
