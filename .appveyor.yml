@@ -11,7 +11,6 @@ image: Visual Studio 2019
 environment:
   SCOOP: C:\projects\scoop
   SCOOP_HOME: C:\projects\scoop\apps\scoop\current
-  SCOOP_HELPERS: C:\projects\helpers
   matrix:
     - PowerShell: 5
     - PowerShell: 6
@@ -20,7 +19,7 @@ init:
       (Get-PSProvider 'FileSystem').Home = 'C:\projects\'
       if(!(Test-Path "$env:SCOOP_HOME")) {
         git clone -q --depth=1 'https://github.com/lukesampson/scoop' "$env:SCOOP_HOME"
-        git clone -q --depth=1 'https://github.com/scoopinstaller/scoop-main' "$env:SCOOP\buckets\main"
+        git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
       }
 for:
   - matrix:
@@ -41,6 +40,6 @@ on_finish:
   - ps: |
       $log = 'Install.log'
       if (Test-Path $log) {
-        Write-Host (Get-Content $log -Raw)
+        Get-Content $log -Raw | Write-Host
         Push-AppveyorArtifact $log
       }
