@@ -104,6 +104,7 @@
 | [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.json)                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
+| [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.json)                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                                |   ✔    |    ❌     |       ❌ (❌)       |
 | [RockstarGameLauncher **(RockstarGameLauncher)**](./bucket/RockstarGameLauncher.json)                         |   ✔    |    ♻     |       ♻ (♻)       |
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                      |  ✔🔶   |    ✔     |       ✔ (✔)       |

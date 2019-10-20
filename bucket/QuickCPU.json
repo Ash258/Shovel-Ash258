@@ -1,0 +1,29 @@
+{
+    "version": "3.1.1.0",
+    "description": "Quick CPU. Tune and monitor CPU performance settings.",
+    "homepage": "https://coderbag.com/product/quickcpu",
+    "license": "Unknown",
+    "url": "https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup.zip",
+    "hash": "74b49801de6e66029401cb576022c1f4c01355c1bf748de1e160525fd6b6fee4",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "x64"
+        },
+        "32bit": {
+            "extract_dir": "x32"
+        }
+    },
+    "installer": {
+        "script": "Get-ChildItem $dir 'QuickCPU*msi' | Expand-MsiArchive -DestinationPath $dir -ExtractDir 'QuickCPU' -Removal"
+    },
+    "shortcuts": [
+        [
+            "QuickCPU.exe",
+            "Quick CPU"
+        ]
+    ],
+    "checkver": "Current\\s*version\\s*([\\d.]+)",
+    "autoupdate": {
+        "url": "https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup.zip"
+    }
+}
