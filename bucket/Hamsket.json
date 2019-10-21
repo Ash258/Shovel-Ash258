@@ -1,5 +1,5 @@
 {
-    "version": "0.5.19",
+    "version": "0.5.20",
     "description": "Hamsket. Email and messaging app that combines web applications in one.",
     "homepage": "https://github.com/TheGoddessInari/hamsket",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TheGoddessInari/hamsket/releases/download/0.5.19/Rambox-OS.Setup.0.5.19.exe#/cosi.7z",
-            "hash": "3b90c263e2d72e7365cb1c183be27e60bb9faabe264cb424e2ac312de2729f6b",
+            "url": "https://github.com/TheGoddessInari/hamsket/releases/download/0.5.20/Rambox-OS.Setup.0.5.20.exe#/cosi.7z",
+            "hash": "2c4fa7ff4b64a70f2ca7770056e28fdcd40dc69969de65f20575b51beb0ea380",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir",
