@@ -138,7 +138,10 @@
             "type": "shell",
             "command": ".\\bin\\checkver.ps1",
             "args": [
+                "-App",
                 "'${fileBasenameNoExtension}'",
+                "-Dir",
+                "'${relativeFileDirname}'",
                 "-Force",
             ],
             "problemMatcher": [],
