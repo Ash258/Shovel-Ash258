@@ -7,7 +7,7 @@
         "identifier": "Freeware"
     },
     "url": "https://s3.amazonaws.com/www.whoisonmywifi.com/mywifi.exe",
-    "hash": "sha1:db9ba3ca1954c9c4d7873b7a3b3035f47f98e9eb",
+    "hash": "sha1:8d16895e3057c2741c6d232afbfb14078c3774c5",
     "innosetup": true,
     "installer": {
         "script": [

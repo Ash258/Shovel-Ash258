@@ -4,7 +4,7 @@
     "homepage": "https://www.safer-networking.org/",
     "license": "Freeware",
     "url": "https://updates2.safer-networking.org/spybot1/spybotsd-2.7.64.0.exe",
-    "hash": "md5:5424F682BAD5ADF3F7897E2CDA3DBE46",
+    "hash": "770c55cdd8a793e4ecdbcd88003631ce30d0940a7965ed56afb36b0d26cbd68d",
     "innosetup": true,
     "persist": [
         "Plugins",

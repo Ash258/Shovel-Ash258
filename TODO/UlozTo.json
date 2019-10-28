@@ -1,6 +1,6 @@
 {
     "version": "2.77",
-    "description": "UlozTo File Manager. Download and upload manager for Uloz.To service.",
+    "description": "UložTo File Manager. Download and upload manager for Uloz.To service.",
     "homepage": "https://uloz.to/windowsapp",
     "license": "Freeware",
     "architecture": {
@@ -20,7 +20,7 @@
             "UložTo File Manager"
         ]
     ],
-    "checkver": "Verze ([\\d\\.]+) vyd",
+    "checkver": "Verze ([\\d.]+) vyd",
     "autoupdate": {
         "architecture": {
             "64bit": {
