@@ -14,7 +14,7 @@
         }
     },
     "installer": {
-        "script": "Expand-7ZipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
+        "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
     "bin": "chrome.exe",
     "shortcuts": [
@@ -24,22 +24,22 @@
         ]
     ],
     "checkver": {
-        "url": "https://lab.skk.moe/chrome/api/chrome.min.xml",
-        "regex": "<stable32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<stable64>.+release2/chrome/(?<64>[\\w-]+)_.+</stable64>"
+        "url": "https://chrome-dl.com/api/chrome.min.xml",
+        "regex": "<stable32><version>([\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<stable64>.+release2/chrome/(?<64>[\\w-]+)_.+</stable64>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://lab.skk.moe/chrome/api/chrome.min.xml",
+                    "url": "https://chrome-dl.com/api/chrome.min.xml",
                     "xpath": "/chromechecker/stable64[version=\"$version\"]/sha256"
                 }
             },
             "32bit": {
                 "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://lab.skk.moe/chrome/api/chrome.min.xml",
+                    "url": "https://chrome-dl.com/api/chrome.min.xml",
                     "xpath": "/chromechecker/stable32[version=\"$version\"]/sha256"
                 }
             }
