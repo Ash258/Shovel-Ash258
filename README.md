@@ -70,6 +70,17 @@
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.json)                                                    |   ✔    |    ♻     |       ♻ (♻)       |
+| [Kaspersky's CoinVaultDecryptor **(CoinVaultDecryptor)**](./bucket/CoinVaultDecryptor.json)                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's RakhniDecryptor **(RakhniDecryptor)**](./bucket/RakhniDecryptor.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's RannohDecryptor **(RannohDecryptor)**](./bucket/RannohDecryptor.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's RectorDecryptor **(RectorDecryptor)**](./bucket/RectorDecryptor.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's ScatterDecryptor **(ScatterDecryptor)**](./bucket/ScatterDecryptor.json)                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's ScraperDecryptor **(ScraperDecryptor)**](./bucket/ScraperDecryptor.json)                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's ShadeDecryptor **(ShadeDecryptor)**](./bucket/ShadeDecryptor.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's TDSSKiller **(TDSSKiller)**](./bucket/TDSSKiller.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's Virus Removal Tool **(KasperskyVirusRemovalTool)**](./bucket/KasperskyVirusRemovalTool.json)     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's WildfireDecryptor **(WildfireDecryptor)**](./bucket/WildfireDecryptor.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                        |   ✔    |    ✔❓    |       ✔ (⛔)       |
@@ -171,6 +182,7 @@
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                                |   🎃   |    ♻     |       ♻ (♻)       |
+| [SteamGridDB Manager **(SteamGridDBManager)**](./bucket/SteamGridDBManager.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Account Manager **(SteamAccountManager)**](./bucket/SteamAccountManager.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Bulk Activator **(SteamBulkActivator)**](./bucket/SteamBulkActivator.json)                             |   ✔    |    ✔     |       ✔ (✔)       |
