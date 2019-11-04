@@ -15,6 +15,7 @@
 
 | App name **(Scoop name)**                                                                                     | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [AdwCleaner **(AdwCleaner)**](./bucket/AdwCleaner.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Extreme **(Aida64)**](./bucket/Aida64.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
