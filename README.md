@@ -183,6 +183,7 @@
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                                |   🎃   |    ♻     |       ♻ (♻)       |
+| [SrvStart **(SrvStart)**](./bucket/SrvStart.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SteamGridDB Manager **(SteamGridDBManager)**](./bucket/SteamGridDBManager.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Account Manager **(SteamAccountManager)**](./bucket/SteamAccountManager.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
