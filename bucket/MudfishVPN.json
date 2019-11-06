@@ -1,16 +1,16 @@
 {
-    "version": "5.0.4",
+    "version": "5.0.5",
     "description": "Mudfish VPN. VPN service focused to boost network experience with various WAN Optimization.",
     "homepage": "https://mudfish.net/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://mudfish.net/releases/mudfish-5.0.4-x86_64-win2k-setup.exe#/cosi.7z",
-            "hash": "f455f48783dd3edef21130d40baac3922c04427c4c57d096c66ed67a1c6f11c9"
+            "url": "https://mudfish.net/releases/mudfish-5.0.5-x86_64-win2k-setup.exe#/cosi.7z",
+            "hash": "0db511f9eb2230ad8c34661d1ca644b679fe18b2259e07f67bc15c6fcfd9dbf4"
         },
         "32bit": {
-            "url": "https://mudfish.net/releases/mudfish-5.0.4-i386-win2k-setup.exe#/cosi.7z",
-            "hash": "cf3a2cdf2ad1fd468ea702c0a9acb91027dbd7005707c2748a49c5a0887b2eed"
+            "url": "https://mudfish.net/releases/mudfish-5.0.5-i386-win2k-setup.exe#/cosi.7z",
+            "hash": "53a558d6fc6f0340e6fa600e0057d485e3aa3cfd8b2686a548e0236ec2d6a09f"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
