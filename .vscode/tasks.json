@@ -167,6 +167,8 @@
             "args": [
                 "install",
                 "'${file}'",
+                "--arch",
+                "${input:pickArchitectureType}",
             ],
             "runOptions": {
                 "reevaluateOnRerun": false,
@@ -235,6 +237,16 @@
                 "TODO",
             ],
             "default": "bucket",
+        },
+        {
+            "id": "pickArchitectureType",
+            "description": "Select architecture to be installed",
+            "type": "pickString",
+            "options": [
+                "64bit",
+                "32bit",
+            ],
+            "default": "64bit",
         },
     ],
 }
