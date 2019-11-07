@@ -5,19 +5,19 @@
         "    https://github.com/TortoiseGit/TortoiseGit/blob/master/src/TortoiseGitSetup/StructureFragment.wxi",
         "    Purge uninstaller script to delete registry path."
     ],
-    "version": "2.8.0.0",
+    "version": "2.9.0.0",
     "description": "Windows Shell Interface to Git based on TortoiseSVN.",
     "homepage": "https://tortoisegit.org/",
     "license": "GPL-2.0-only",
     "notes": "Run \"$dir\\context-menu-install.reg\" to add all default context menus.",
     "architecture": {
         "64bit": {
-            "url": "https://download.tortoisegit.org/tgit/2.8.0.0/TortoiseGit-2.8.0.0-64bit.msi",
-            "hash": "d09af93152e0d22afd1dcae386bc39840136fa607398dd4529356fac46ed774f"
+            "url": "https://download.tortoisegit.org/tgit/2.9.0.0/TortoiseGit-2.9.0.0-64bit.msi",
+            "hash": "d866cbce19251ce7b2eea5c178f6c85c567e932ae2aeed999bffe58004645ed7"
         },
         "32bit": {
-            "url": "https://download.tortoisegit.org/tgit/2.8.0.0/TortoiseGit-2.8.0.0-32bit.msi",
-            "hash": "0a5d9e40ea760e83184461ae467559fb6d49831568a4f5eb8085f76b53b1fc88"
+            "url": "https://download.tortoisegit.org/tgit/2.9.0.0/TortoiseGit-2.9.0.0-32bit.msi",
+            "hash": "36c61942913ddc76710a1d640b9e784557b02d8ae9eef07e9d18060e3f1fe8fc"
         }
     },
     "extract_dir": "Program Files\\TortoiseGit",
