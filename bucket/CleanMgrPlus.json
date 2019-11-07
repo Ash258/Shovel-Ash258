@@ -1,13 +1,13 @@
 {
-    "version": "1.2.5.825",
+    "version": "1.2.6.856",
     "description": "CleanMgr+. Improved Replacement for Microsoft Disk Cleanup.",
     "homepage": "https://www.getclone.app/ms-apps/cleanmgrplus",
     "license": {
         "identifier": "Freeware",
         "url": "https://github.com/Mirinsoft/CleanmgrPlus/blob/master/LICENSE.txt"
     },
-    "url": "https://github.com/Mirinsoft/CleanmgrPlus/releases/download/v1.2.5.825/Cleanmgr+.zip",
-    "hash": "md5:68adedbf4891c975f1e417f400f145e5",
+    "url": "https://github.com/Mirinsoft/CleanmgrPlus/releases/download/v1.2.6.856/Cleanmgr+.zip",
+    "hash": "md5:4d7b55d765e66af47075b801808b8097",
     "pre_install": "if (-not (Test-Path \"$persist_dir\\bin\\cleanmgr+.ini\")) { New-Item \"$dir\\bin\\cleanmgr+.ini\" | Out-Null }",
     "shortcuts": [
         [
