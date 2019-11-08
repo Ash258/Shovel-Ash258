@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/small-tools/ReduceMemory.zip",
-    "hash": "668d38a17362a4f32c6c1471a99ad37925ac0f6f299a02eaaf661e9f63ce1c3f",
+    "hash": "4b013e94922cc637000064c29f089d599e45da5382672ec21d98e054c5329750",
     "extract_dir": "ReduceMemory",
     "bin": "ReduceMemory.exe",
     "shortcuts": [
