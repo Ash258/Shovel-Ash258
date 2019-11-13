@@ -1,5 +1,5 @@
 {
-    "version": "16.0.20191006",
+    "version": "16.0.20191102",
     "description": "Visual Paradigm Community Edition. UML CASE Tool supporting UML 2, SysML and Business Process Modeling Notation from the Object Management Group.",
     "homepage": "https://www.visual-paradigm.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce16.0/20191006/Visual_Paradigm_CE_16_0_20191006_Win64_InstallFree.zip",
-            "hash": "82d9a526265bb9195fb53f47338d1bb0e4ade1c873c7e1d5cfdc2bff6238da85"
+            "url": "https://uk3.visual-paradigm.com/visual-paradigm/vpce16.0/20191102/Visual_Paradigm_CE_16_0_20191102_Win64_InstallFree.zip",
+            "hash": "81f4e577cd36990e740e6b5b130064d7399477d65edf4251e1c71409169d5052"
         },
         "32bit": {
-            "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce16.0/20191006/Visual_Paradigm_CE_16_0_20191006_Win32_InstallFree.zip",
-            "hash": "42c60fc41a7cd083d19b7209341a4a5b9aa0e35aa143905f9f2f1faaed1b84ab"
+            "url": "https://uk3.visual-paradigm.com/visual-paradigm/vpce16.0/20191102/Visual_Paradigm_CE_16_0_20191102_Win32_InstallFree.zip",
+            "hash": "f356b5678a53ca520c80c5b627278bf8a42b74899e2b564885f9cbfb41810437"
         }
     },
     "extract_dir": "Visual Paradigm CE 16.0",
@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce$majorVersion.$minorVersion/$patchVersion/Visual_Paradigm_CE_$underscoreVersion_Win64_InstallFree.zip"
+                "url": "https://uk3.visual-paradigm.com/visual-paradigm/vpce$majorVersion.$minorVersion/$patchVersion/Visual_Paradigm_CE_$underscoreVersion_Win64_InstallFree.zip"
             },
             "32bit": {
-                "url": "https://uk4.visual-paradigm.com/visual-paradigm/vpce$majorVersion.$minorVersion/$patchVersion/Visual_Paradigm_CE_$underscoreVersion_Win32_InstallFree.zip"
+                "url": "https://uk3.visual-paradigm.com/visual-paradigm/vpce$majorVersion.$minorVersion/$patchVersion/Visual_Paradigm_CE_$underscoreVersion_Win32_InstallFree.zip"
             }
         },
         "hash": {
