@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "description": "Sordum's Show Desktop Icons. Show or hide common icons on the desktop.",
     "homepage": "https://www.sordum.org/show-desktop-icons",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/small-tools/sDeskIcon.zip",
-    "hash": "6b453e7daac41231e3bde42b5348941d3966606c5a4008d949bfeec698f5342a",
+    "hash": "7fd0a183119bafb750783b8bf0950acd55927c0f07158bd23738266d945ad780",
     "shortcuts": [
         [
             "sDeskIcon.exe",
