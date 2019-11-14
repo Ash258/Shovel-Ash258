@@ -1,13 +1,13 @@
 {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "ClickUp. Platform to make the world more productive through tasks, docs, conversations, timelines, spreadsheets, and mind maps - all in one place.",
     "homepage": "https://clickup.com",
     "license": {
         "identifier": "Proprietary",
         "url": "https://clickup.com/terms"
     },
-    "url": "https://github.com/clickup/clickup-release/releases/download/v2.0.1/clickup-desktop-2.0.1-windows.exe#/cosi.7z",
-    "hash": "sha512:675e6ab6105e42c7e5c0b2692297e73b6d7f7f6041d6e7d9af9e2f50dfdf6f4b82a19497ec8065123cbc26a386756846b14dc160dc81d556325fc69190b488ad",
+    "url": "https://github.com/clickup/clickup-release/releases/download/v2.0.2/clickup-desktop-2.0.2-windows.exe#/cosi.7z",
+    "hash": "sha512:f8d02936559287f56dbdb9f313b71ec7dae860486328d8fd79e398b7e24965eda3a83681d01b3f1656711fdb6f43e94486a57d93d2127fa19c9ebc9c8806d3aa",
     "architecture": {
         "64bit": {
             "installer": {
