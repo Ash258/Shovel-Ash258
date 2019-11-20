@@ -4,7 +4,7 @@
     "homepage": "http://www.eusing.com/free_system_cleaner/system_cleaner.htm",
     "license": "Freeware",
     "url": "https://www.hide-windows.com/Download/EusingCleaner.zip",
-    "hash": "90bab51e3c8a207dd5af7cee823c7495d4ccbc716b22db4b37e529b3373438bf",
+    "hash": "ea0d3b3ae4608e307cdd2af27a4ac73411485c539f1e33e53b5edb714de0040e",
     "pre_install": [
         "$file = 'options.ini'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
