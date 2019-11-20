@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/runastool/RunAsTool.zip",
-    "hash": "2fc7a501883748adb558848850201faeae510bdb13607f48660d2756464291b3",
+    "hash": "ca4e27fe0ec76b165da924f67426aacb3d40f9255fd6eaa14c1d647f7bd9e68d",
     "extract_dir": "RunAsTool",
     "architecture": {
         "64bit": {
