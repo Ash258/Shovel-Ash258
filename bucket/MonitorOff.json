@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "description": "Sordum's Monitor Off. Switch Off Desktop or Laptop Monitor with single Mouse click or by pressing a Keyboard key.",
     "homepage": "https://www.sordum.org/sordum-monitor-off",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/small-tools/MonitorOff.zip",
-    "hash": "52d98527b2d1e52b03fcd8749750d561d24cd659217b861ae50107ebfb025c7d",
+    "hash": "4f5193e0c629f1936342437a83c541a009b8e23aad2ac9b4b922c8882d239f4f",
     "extract_dir": "MonitorOff",
     "bin": "MonitorOff.exe",
     "shortcuts": [
