@@ -6,7 +6,7 @@
     "suggest": {
         "FFmpeg is required": [
             "ffmpeg",
-            "ffmpeg-nigthly"
+            "ffmpeg-nightly"
         ]
     },
     "url": "https://github.com/ArneVogel/concat/releases/download/v0.2.7/concat_win.exe#/concat.exe",

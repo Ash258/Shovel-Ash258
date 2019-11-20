@@ -1,5 +1,5 @@
 {
-    "version": "20191107-b6ae489",
+    "version": "20191119-c52f37f",
     "description": "Yuzu Emulator Nightly. Experimental Nintendo Switch Emulator build with already reviewed and tested features.",
     "homepage": "https://yuzu-emu.org/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yuzu-emu/yuzu-nightly/releases/download/nightly-2349/yuzu-windows-mingw-20191107-b6ae489.7z",
-            "hash": "963f187d005852a70f86eb11389eb3ad6a21d070d713730ad6b9df9d97ca8f07"
+            "url": "https://github.com/yuzu-emu/yuzu-nightly/releases/download/nightly-2373/yuzu-windows-mingw-20191119-c52f37f.7z",
+            "hash": "3e396ffdfe5d44bfbd8a1498adef0df10879ef37f5813b4c7626830c1001c1cf"
         }
     },
     "extract_dir": "nightly",

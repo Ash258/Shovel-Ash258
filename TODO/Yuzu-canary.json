@@ -1,5 +1,5 @@
 {
-    "version": "20191107-d0ca85c",
+    "version": "20191120-29cad2c",
     "description": "Yuzu Emulator Canary. Experimental Nintendo Switch Emulator with additional features that are still waiting on review.",
     "homepage": "https://yuzu-emu.org/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yuzu-emu/yuzu-canary/releases/download/canary-2783/yuzu-windows-msvc-20191107-d0ca85c.zip",
-            "hash": "2da9d2d3c32f8d66f00f62a5c6c56bc0805815119264efc76375b787cea3eddc"
+            "url": "https://github.com/yuzu-emu/yuzu-canary/releases/download/canary-2807/yuzu-windows-msvc-20191120-29cad2c.zip",
+            "hash": "ca6983a85b1537f059ed92550be4ed9d08a28944ca24d6e8519bea581a1d1119"
         }
     },
     "extract_dir": "canary",

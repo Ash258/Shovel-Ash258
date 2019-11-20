@@ -1,0 +1,25 @@
+{
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": {
+        "identifier": ""
+    },
+    "url": "https://freefilesync.org/download/FreeFileSync_10.17_Windows_Setup.exe",
+    "hash": "sha1:d3c1b0fc5bea5ff5b77e2d637fdaebc62f4477f5",
+    "innosetup": true,
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ],
+    "checkver": {
+        "url": "https://freefilesync.org/news-feed.php",
+        "regex": ""
+    },
+    "autoupdate": {
+        "url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"
+    }
+}
