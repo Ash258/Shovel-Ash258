@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/download/defender-control/DefenderControl.zip",
-    "hash": "43dda733df88d59cdf52025fb917968e3c66e2f9a08733b83e217bd2d1ab2964",
+    "hash": "c124a61da2561325be268c6736dfd509f920dd8c557fb49534929b03b2e3ded4",
     "extract_dir": "DefenderControl",
     "bin": "DefenderControl.exe",
     "shortcuts": [
