@@ -1,0 +1,18 @@
+{
+    "version": "0.9.9",
+    "description": "PRTG API. Powershell module for manipulating PRTG Network Monitor.",
+    "homepage": "https://github.com/lordmilko/PrtgAPI",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/lordmilko/PrtgAPI/blob/master/LICENSE"
+    },
+    "url": "https://github.com/lordmilko/PrtgAPI/releases/download/v0.9.9/PrtgAPI.zip",
+    "hash": "c045114840ad4ff79e4e5226edb7bf6956d4da33cfaa3ef68acdb5bc1df95411",
+    "psmodule": {
+        "name": "PrtgAPI"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/lordmilko/PrtgAPI/releases/download/v$version/PrtgAPI.zip"
+    }
+}
