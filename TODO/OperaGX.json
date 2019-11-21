@@ -1,0 +1,52 @@
+{
+    "version": "64.0.3417.61",
+    "description": "Opera GX. .",
+    "homepage": "https://www.opera.com/gx",
+    "license": {
+        "identifier": ""
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download1.operacdn.com/pub/opera/desktop/64.0.3417.61/win/Opera_GX_64.0.3417.61_Setup_x64.exe",
+            "hash": "fasdfsdafdsaf"
+        },
+        "32bit": {
+            "url": "https://download1.operacdn.com/pub/opera/desktop/64.0.3417.61/win/Opera_64.0.3417.61_Setup.exe",
+            "hash": "fasdfsdafdsaf"
+        }
+    },
+    "installer": {
+        "script": [
+            "Move-Item -Path \"$dir\\*\" -Destination \"$dir\\$version\" -Exclude 'Assets', 'launcher*', 'Resources.pri' -ErrorAction Ignore",
+            "if (!(Test-Path \"$dir\\$version\\localization\")) {",
+            "   New-Item -Path \"$dir\\$version\\localization\" -ItemType Directory | Out-Null",
+            "   Move-Item -Path \"$dir\\$version\\*.pak\" -Destination \"$dir\\$version\\localization\" -Exclude 'opera*' -ErrorAction Ignore",
+            "}",
+            "@{'autoupdate'=$false;'enable_stats'=$false;'single_profile'=$true} | ConvertTo-Json | Set-Content \"$dir\\installer_prefs.json\" -Encoding Ascii"
+        ]
+    },
+    "shortcuts": [
+        [
+            "launcher.exe",
+            "Opera"
+        ]
+    ],
+    "persist": "profile",
+    "checkver": {
+        "url": "https://autoupdate.geo.opera.com",
+        "xpath": "/autoupdate/version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download3.operacdn.com/.private/opera_gx/$version/win/Opera_GX_$version_Setup_x64.exe#/cosi.7z"
+            },
+            "32bit": {
+                "url": "https://download3.operacdn.com/.private/opera_gx/$version/win/Opera_GX_$version_Setup.exe#/cosi.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256sum"
+        }
+    }
+}
