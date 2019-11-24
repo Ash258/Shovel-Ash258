@@ -1,29 +1,51 @@
 {
-    "version": "4.80.0.1060",
-    "description": "BlueStacks App Player. Easy way to run mobile apps fast and fullscreen on Windows and Mac.",
+    "##": "windows/bgp/([\\d.]+)/(?<Junk>\\w+)/",
+    "version": "4.150.0.1118",
+    "description": "BlueStacks App Player. The fastest android gaming platform for PC",
     "homepage": "https://www.bluestacks.com/",
-    "license": {
-        "identifier": "Freeware"
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.150.0.1118/88d655e1ed69a78521a23fceb2352bff/x64/BlueStacks-Installer_4.150.0.1118_amd64_native.exe#/cosi.7z",
+            "hash": "5fc4378b2d119e16a74108d537ca3303a08d684b7f8cfa973537d25a16f71d70"
+        },
+        "32bit": {
+            "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.150.0.1118/88d655e1ed69a78521a23fceb2352bff/x86/BlueStacks-Installer_4.150.0.1118_x86_native.exe#/cosi.7z",
+            "hash": "3f33f8b272af6aa126a35d4d1d40a763cca889980f672b1e211ba3d525ea40d9"
+        }
     },
-    "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.80.0.1060/x64/BlueStacks-Installer_4.80.0.1060_amd64_native.exe",
-    "hash": "59381302d32f81f69a4209fdcb935d5495237a33f75b0a8d81813a2ff3fe9779",
+    "extract_to": "INST",
     "installer": {
-        "args": [
-            "/S",
-            "/D=$dir"
+        "script": [
+            "Expand-7zipArchive \"$dir\\INST\\PD.zip\" \"$dir\\App\" -Removal",
+            "Expand-7zipArchive \"$dir\\INST\\CefData.zip\" \"$dir\\App\\CefData\" -Removal",
+            "Expand-7zipArchive \"$dir\\INST\\PF.zip\" \"$dir\\Core\" -Removal",
+            "# https://i.imgur.com/SlWpw8l.png",
+            "Remove-Item \"$dir\\INST\" -Recurse"
         ]
     },
     "shortcuts": [
         [
-            ".exe",
-            ""
+            "App\\Client\\Bluestacks.exe",
+            "BlueStacks"
+        ],
+        [
+            "Core\\HD-MultiInstanceManager.exe",
+            "BlueStacks Multi-Instance Manager"
         ]
     ],
     "checkver": {
-        "url": "https://support.bluestacks.com/hc/en-us/articles/360021469391-Release-Notes",
-        "regex": "BlueStacks\\s+([\\d.]+)"
+        "url": "https://support.bluestacks.com/hc/en-us/articles/360036444091",
+        "regex": "BlueStacks ([\\d.]+) Release Notes"
     },
     "autoupdate": {
-        "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/$version/x64/BlueStacks-Installer_$version_amd64_native.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/$version/$matchJunk/x64/BlueStacks-Installer_$version_amd64_native.exe#/cosi.7z"
+            },
+            "32bit": {
+                "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/$version/$matchJunk/x86/BlueStacks-Installer_$version_x86_native.exe#/cosi.7z"
+            }
+        }
     }
 }
