@@ -1,5 +1,5 @@
 {
-    "version": "1.7.3",
+    "version": "1.8",
     "description": "Twitch Leecher. Twitch broadcasts downloader.",
     "homepage": "https://github.com/Franiac/TwitchLeecher/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Franiac/TwitchLeecher/releases/download/v1.7.3/TwitchLeecher_1.7.3.exe",
-            "hash": "2607c1f449da173e020a49ec63a27989159a004fe8b21435536c379865d7a862"
+            "url": "https://github.com/Franiac/TwitchLeecher/releases/download/v1.8/TwitchLeecher_1.8.exe",
+            "hash": "a714a822b63381d761f95b0b1b3998711a4009680f9c27423950aba05b583ce0"
         }
     },
     "installer": {
