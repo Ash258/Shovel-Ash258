@@ -1,10 +1,10 @@
 {
-    "version": "2.12.462",
+    "version": "2.13.513",
     "description": "CloneApp. Backs up All Windows program settings.",
     "homepage": "https://www.mirinsoft.com/ms-apps/cloneapp",
     "license": "Freeware",
     "url": "https://www.mirinsoft.com/ca/send/2-cloneapp/19-cloneapp#/cosi.zip",
-    "hash": "md5:a0183ba29489a2f5d8f103099771d386",
+    "hash": "md5:1d20bdb7841d6b4980a4988fae09fddc",
     "pre_install": [
         "$file = 'Data\\cloneapp.ini'",
         "if (-not (Test-Path \"$persist_dir\\$file\")) {",
