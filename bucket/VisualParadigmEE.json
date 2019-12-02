@@ -1,5 +1,5 @@
 {
-    "version": "16.0.20191108",
+    "version": "16.1.20191201",
     "description": "Visual Paradigm Enterprise Edition. UML CASE Tool supporting UML 2, SysML and Business Process Modeling Notation from the Object Management Group.",
     "homepage": "https://www.visual-paradigm.com/",
     "license": {
@@ -8,15 +8,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://uk3.visual-paradigm.com/visual-paradigm/vp16.0/20191108/Visual_Paradigm_16_0_20191108_Win64_InstallFree.zip",
-            "hash": "8b696ddcb7fa5ef907b8d04f7797a12075d1bbeb2feb8699606fdb91ea3a1f51"
+            "url": "https://uk3.visual-paradigm.com/visual-paradigm/vp16.1/20191201/Visual_Paradigm_16_1_20191201_Win64_InstallFree.zip",
+            "hash": "3c8e2f42acae49164f59c863d0029c1483a0b71674c6c200a5fc7012ea347025"
         },
         "32bit": {
-            "url": "https://uk3.visual-paradigm.com/visual-paradigm/vp16.0/20191108/Visual_Paradigm_16_0_20191108_Win32_InstallFree.zip",
-            "hash": "012043eb30a14627383ddb4d8faa030be332072b2cbab7a63b30ab81a895611e"
+            "url": "https://uk3.visual-paradigm.com/visual-paradigm/vp16.1/20191201/Visual_Paradigm_16_1_20191201_Win32_InstallFree.zip",
+            "hash": "daadaa4470bc89ff8c2893f8418df7b350ccd129f94087a53755e4a257518164"
         }
     },
-    "extract_dir": "Visual Paradigm 16.0",
+    "extract_dir": "Visual Paradigm 16.1",
     "shortcuts": [
         [
             "Visual Paradigm.exe",
