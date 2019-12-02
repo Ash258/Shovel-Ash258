@@ -1,14 +1,14 @@
 {
     "##": "URL cannot have encoded + characters",
-    "version": "0.3.5",
+    "version": "0.4.0",
     "description": "SteamGridDB Manager. Import games from different launcher into Steam library.",
     "homepage": "https://www.steamgriddb.com/manager",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/steamgriddb/steamgriddb-manager/blob/master/LICENSE.md"
     },
-    "url": "https://steamgriddb.s3.amazonaws.com/manager/SteamGridDB+Manager+Setup+0.3.5.exe#/cosi.7z",
-    "hash": "cd94d871c9c0834da9a4578d6d762955e8d0aa6d4f309ce0d8091fd128b6b2cf",
+    "url": "https://steamgriddb.s3.amazonaws.com/manager/SteamGridDB+Manager+Setup+0.4.0.exe#/cosi.7z",
+    "hash": "2a4756550db8b06c69408ce48fef742da6595d053c73a1089aa7cf58aee98457",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir",
