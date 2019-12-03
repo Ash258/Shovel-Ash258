@@ -223,6 +223,7 @@
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows Terminal **(WindowsTerminal)**](./bucket/WindowsTerminal.json)                                       |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [WireMock **(WireMock)**](./bucket/WireMock.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
