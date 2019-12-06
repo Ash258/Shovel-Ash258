@@ -222,7 +222,6 @@
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)          |   ✔    |    ✔     |       ❌ (❌)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                       |   ✔    |    ✔     |       ✔ (✔)       |
-| [Windows Terminal **(WindowsTerminal)**](./bucket/WindowsTerminal.json)                                       |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -254,6 +253,7 @@
 | [NVidia Profile Inspector](https://Github.coM/LukesampsoN/Scoop-extraS/BloB/MasteR/bucket/Nvidia-profile-inspector.json) | [a650c8b](https://Github.coM/Ash258/Scoop-Ash258/CommiT/A650c8b4b85932749090a7f19c6b3e08734a09b1) | [a9f48e1](https://Github.coM/LukesampsoN/Scoop-extraS/CommiT/A9f48e1931fabee475bb76088ad62ad7c47f277e) ([lukesampsoN/Scoop-extras#1933](https://Github.coM/LukesampsoN/Scoop-extraS/PulL/1933)) |
 | [Listary](https://Github.coM/LukesampsoN/Scoop-extraS/BloB/MasteR/bucket/Listary.json)                                   | [458063b](https://Github.coM/Ash258/Scoop-Ash258/CommiT/458063b1983f1d75ec5f5e4338e39309cd6c28a3) | [e6be780](https://Github.coM/LukesampsoN/Scoop-extraS/CommiT/E6be780550b1580bbbf9b74756a462e8be4b34c9) ([lukesampsoN/Scoop-extras#2054](https://Github.coM/LukesampsoN/Scoop-extraS/PulL/2054)) |
 | [Skype](https://Github.coM/LukesampsoN/Scoop-extraS/BloB/MasteR/bucket/Skype.json)                                       | [30c3167](https://Github.coM/Ash258/Scoop-Ash258/CommiT/30c3167f0359cb79acc230377b268de297abd1f7) | [7ecd6db](https://Github.coM/LukesampsoN/Scoop-extraS/CommiT/7ecd6db0e307048130c144c7b47fecf60d50ee68) ([lukesampsoN/Scoop-extras#1932](https://Github.coM/LukesampsoN/Scoop-extraS/PulL/1932)) |
+| [Windows Terminal](https://github.com/lukesampson/scoop-extras/blob/master/bucket/windows-terminal.json)                 | [aee6809](https://github.com/Ash258/scoop-Ash258/commit/aee6809402a651de6178ee72185013b7a4228f21) | [bbed112](https://github.com/lukesampson/scoop-extras/commit/bbed112913cfdb8fb8c753fa5bad790772a4ba2f) ([lukesampson/scoop-extras#3054](https://github.com/lukesampson/scoop-extras/pull/3054)) |
 
 <!-- TODO:
     AppveyorServer
@@ -266,7 +266,6 @@
     Origin
     Meazure
     mRemoteNG
-    PotPlayer
     SharpKeys
     SoundSwitch
     SuperF4
