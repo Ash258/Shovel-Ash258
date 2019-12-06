@@ -140,6 +140,15 @@
             },
             "problemMatcher": [],
         },
+        {
+            "label": "Sordum Updates",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "command": "gci bucket | where { (Get-Content $_.FullName -Raw | ConvertFrom-Json | Select-Object -ExpandProperty description) -like '*sordum*' } |% { & .\\bin\\checkver.ps1 $_.BaseName -f }",
+            "problemMatcher": [],
+        },
     ],
     "inputs": [
         {
