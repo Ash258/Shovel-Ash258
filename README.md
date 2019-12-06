@@ -20,6 +20,7 @@
 | [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Extreme **(Aida64)**](./bucket/Aida64.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Aimp **(Aimp)**](./bucket/Aimp.json)                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Apache Open Office **(OpenOffice)**](./bucket/OpenOffice.json)                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [API Monitor **(APIMonitor)**](./bucket/APIMonitor.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -257,6 +258,7 @@
 | [Google Chrome](https://github.com/lukesampson/scoop-extras/blob/master/bucket/googlechrome.json)                        | [792a4c7](https://github.com/Ash258/scoop-Ash258/commit/792a4c73100765c33c8823e18b1bd32778c23333) | [ee1e6d9](https://github.com/lukesampson/scoop-extras/commit/ee1e6d9837397c73aa03e062c3f8fc018d2142ff) ([lukesampson/scoop-extras#2144](https://github.com/lukesampson/scoop-extras/pull/2144)) |
 
 <!-- TODO:
+    Aimp
     AppveyorServer
     BeefText
     Hamsket
