@@ -216,7 +216,8 @@
 | [VMware **(VMware)**](./bucket/VMware.json)                                                                   |   ✔    |    ✔     |       ✔ (✔)       |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                       |   ✔    |    ✔     |       ✔ (✔)       |
-| [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                |   ✔    |    ✔     |       ✔ (✔)       |
+| [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wavebox-beta **(Wavebox-beta)**](./bucket/Wavebox-beta.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wi-Fi Password Revealer **(WifiPasswordRevealer)**](./bucket/WifiPasswordRevealer.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                                |   ✔    |    ✔     |       ❌ (⛔)       |
