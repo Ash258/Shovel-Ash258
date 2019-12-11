@@ -1,13 +1,13 @@
 {
-    "version": "10.0.29",
+    "version": "10.0.35",
     "description": "Wavebox 10. A distraction-free browser for fast and focused working across all web apps.",
     "homepage": "https://wavebox.io",
     "license": {
         "identifier": "Proprietary",
         "url": "https://wavebox.io/eula"
     },
-    "url": "https://download.wavebox.app/core/win/Install%20Wavebox%2010.0.29.exe#/cosi.7z",
-    "hash": "b072cc3063a11aea7cc34f2c39762bb25807a89c398c89883bd5138b63512239",
+    "url": "https://download.wavebox.app/core/win/Install%20Wavebox%2010.0.35.exe#/cosi.7z",
+    "hash": "0900311b45524aaed6d4259b1177b40c6283898692d8d0dd838e7aecda17a095",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
