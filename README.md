@@ -133,6 +133,7 @@
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SharpKeys **(SharpKeys)**](./bucket/SharpKeys.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SNMPWalk **(SNMPWalk)**](./bucket/SNMPWalk.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Solar-PuTTY **(Solar-PuTTY)**](./bucket/Solar-PuTTY.json)                                                    |   ✔    |    ❌     |       ✔ (⛔)       |
 | [Sordum's AskAdmin **(AskAdmin)**](./bucket/AskAdmin.json)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Backup Start Menu Layout **(BackupStartMenuLayout)**](./bucket/BackupStartMenuLayout.json)          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's BlueLife Hosts Editor **(BlueLifeHostsEditor)**](./bucket/BlueLifeHostsEditor.json)                 |   ✔    |    ✔     |       ✔(⛔)        |
