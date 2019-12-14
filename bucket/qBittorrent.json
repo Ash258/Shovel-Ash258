@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.2.0/qbittorrent_4.2.0_x64_setup.exe#/cosi.7z",
-            "hash": "4e022e2ad6f43cba34f08627990b6ae24b5b85d385a902ac073617ac66c13116"
+            "hash": "a5416262372c9d9cf186611d10e3716fc65b5cfe570a1d6691c0dbb055e1f43f"
         },
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.2.0/qbittorrent_4.2.0_setup.exe#/cosi.7z",
@@ -42,14 +42,14 @@
                 "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_x64_setup.exe#/cosi.7z",
                 "hash": {
                     "url": "https://www.qbittorrent.org/download.php",
-                    "regex": "(?sm)64-bit.*?<code>$sha256</code>"
+                    "regex": "(?sm)td>64-bit Installer.*?<code>$sha256</code>"
                 }
             },
             "32bit": {
                 "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_setup.exe#/cosi.7z",
                 "hash": {
                     "url": "https://www.qbittorrent.org/download.php",
-                    "regex": "(?sm)32-bit.*?<code>$sha256</code>"
+                    "regex": "(?sm)td>32-bit Installer.*?<code>$sha256</code>"
                 }
             }
         }

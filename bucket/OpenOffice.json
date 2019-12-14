@@ -7,9 +7,9 @@
     "hash": "sha512:f245545b5c3d434dc0407aee4e807dad5d552dcb156b0367d5314ae83a2257180e8f1ef28d76116cf90582767093e2180063ea0fcd20ce72541337826b145850",
     "installer": {
         "script": [
-            "Expand-MsiArchive \"$dir\\openoffice$($version -replace '\\.', '').msi\" \"$dir\\App\" -Removal",
+            "(Get-ChildItem $dir 'openoffic*.msi').FullName | Expand-MsiArchive -DestinationPath \"$dir\\App\"",
             "Get-ChildItem \"$dir\" -Exclude 'App' | Remove-Item -Recurse",
-            "Move-Item \"$dir\\App\\OpenOffice 4\\*\" \"$dir\"",
+            "Move-Item \"$dir\\App\\*\" $dir -Force",
             "Remove-Item \"$dir\\App\" -Recurse"
         ]
     },
