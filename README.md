@@ -114,6 +114,7 @@
 | [Paessler's Webserver Stress Tool **(WebserverStress)**](./bucket/WebserverStress.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Pode **(Pode)**](./bucket/Pode.json)                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Postbox **(Postbox)**](./bucket/Postbox.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
