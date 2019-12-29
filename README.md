@@ -90,6 +90,7 @@
 | [Kodi **(Kodi)**](./bucket/Kodi.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Komodo Edit **(KomodoEdit)**](./bucket/KomodoEdit.json)                                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [Komodo IDE **(KomodoIDE)**](./bucket/KomodoIDE.json)                                                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [LiveSplit **(LiveSplit)**](./bucket/LiveSplit.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Meazure **(Meazure)**](./bucket/Meazure.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)       |   ✔    |    ♻     |       ♻ (♻)       |
