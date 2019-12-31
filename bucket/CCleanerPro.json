@@ -5,12 +5,14 @@
     "url": [
         "https://download.ccleaner.com/ccsetup563.exe#/cosi.7z",
         "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dll#/branding.dll",
-        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dat#/CCleaner.dat"
+        "https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dat#/CCleaner.dat",
+        "https://content.thewebatom.net/files/winapp2.ini"
     ],
     "hash": [
         "f2aba7dc1d4ab617d7b09b19e7a5b4f6b6e3f790981050d163f395002646b890",
         "26d6cd545f57071e3a01e5e39e68fde63af8e086bd39eff2b746633006d71511",
-        "d5142f288ee9e334671c807931ace52c31eaa0fa254ffe31979fad0b6ba5c2cd"
+        "d5142f288ee9e334671c807931ace52c31eaa0fa254ffe31979fad0b6ba5c2cd",
+        "19cfc0226afcc9030126d9699a5ee8284152ef64528e65df1d0d11341a9cc5d1"
     ],
     "installer": {
         "script": [
