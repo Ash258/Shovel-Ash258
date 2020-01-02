@@ -9,13 +9,32 @@
     "url": "https://www.sordum.org/files/simple-vhd-manager/vhd.zip",
     "hash": "6b854b2755a48219c1a8cf6e6c168b5f7804f6888d91871192b3b60830e1a220",
     "extract_dir": "VHD_manager_v1.4",
-    "bin": "VhdManager.exe",
-    "shortcuts": [
-        [
-            "VhdManager.exe",
-            "Sordum\\Simple VHD Manager"
-        ]
-    ],
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "VhdManager_x64.exe",
+                [
+                    "VhdManager_x64.exe",
+                    "VhdManager"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "VhdManager_x64.exe",
+                    "Sordum\\Simple VHD Manager"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "VhdManager.exe",
+            "shortcuts": [
+                [
+                    "VhdManager.exe",
+                    "Sordum\\Simple VHD Manager"
+                ]
+            ]
+        }
+    },
     "persist": "VhdManager.ini",
     "checkver": "v([\\d.]+)",
     "autoupdate": {
