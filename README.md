@@ -104,6 +104,7 @@
 | [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [OnlyM **(OnlyM)**](./bucket/OnlyM.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                                   |   ✔    |    ♻     |       ♻ (♻)       |
+| [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.json)                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's MIB Importer **(MIBImporter)**](./bucket/MIBImporter.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's Multi Server Emulator **(MultiServerEmulator)**](./bucket/MultiServerEmulator.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's NetFlow Generator **(NetFlowGenerator)**](./bucket/NetFlowGenerator.json)                         |   ✔    |    ✔     |       ✔ (⛔)       |
