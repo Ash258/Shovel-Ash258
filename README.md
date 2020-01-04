@@ -47,6 +47,7 @@
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                                          |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                                          |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [DirectX **(DirectX)**](./bucket/DirectX.json)                                                                |   ✔    |    ❌     |       ❌ (❌)       |
 | [DirectX-SDK **(DirectX-SDK)**](./bucket/DirectX-SDK.json)                                                    |   ✔    |    ❌     |       ❌ (❌)       |
 | [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
