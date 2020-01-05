@@ -210,6 +210,7 @@
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander Beta **(TotalCommander-beta)**](./bucket/TotalCommander-beta.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [TransMac **(TransMac)**](./bucket/TransMac.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker **(UltimateWindowsTweaker)**](./bucket/UltimateWindowsTweaker.json)                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker 2 **(UltimateWindowsTweaker2)**](./bucket/UltimateWindowsTweaker2.json)               |   ✔    |    ✔     |       ✔ (⛔)       |
