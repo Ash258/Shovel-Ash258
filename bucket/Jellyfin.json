@@ -15,7 +15,8 @@
         "ffmpeg": [
             "ffmpeg",
             "ffmpeg-nightly"
-        ]
+        ],
+        "nssm": "nssm"
     },
     "architecture": {
         "64bit": {
