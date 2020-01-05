@@ -75,6 +75,7 @@
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.json)                                                    |   ✔    |    ♻     |       ♻ (♻)       |
+| [Jellyfin **(Jellyfin)**](./bucket/Jellyfin.json)                                                             |   ✔    |    ✔     |       ✔ (✔)       |
 | [Kaspersky's CoinVaultDecryptor **(CoinVaultDecryptor)**](./bucket/CoinVaultDecryptor.json)                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's RakhniDecryptor **(RakhniDecryptor)**](./bucket/RakhniDecryptor.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's RannohDecryptor **(RannohDecryptor)**](./bucket/RannohDecryptor.json)                            |   ✔    |    ✔     |       ✔ (⛔)       |
