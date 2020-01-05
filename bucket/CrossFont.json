@@ -1,0 +1,22 @@
+{
+    "version": "7.6",
+    "description": "CrossFont. Macintosh and PC font type convertor.",
+    "homepage": "https://www.acutesystems.com/scrcf.htm",
+    "license": "Proprietary",
+    "url": "http://www.acutesystems.com/cfnt/cfsetup.exe",
+    "hash": "764c4ff6c2afbb74bcee5cd5b3842d44c6ce3bc78de1a269384b20e50cc278b1",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "CrossFnt.exe",
+            "CrossFont"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.acutesystems.com/cfnt/readme.txt",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.acutesystems.com/cfnt/cfsetup.exe"
+    }
+}

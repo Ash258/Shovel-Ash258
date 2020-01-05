@@ -46,6 +46,7 @@
 | [Concat **(Concat)**](./bucket/Concat.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                                          |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                                          |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [DirectX **(DirectX)**](./bucket/DirectX.json)                                                                |   ✔    |    ❌     |       ❌ (❌)       |
