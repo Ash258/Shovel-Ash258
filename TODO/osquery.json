@@ -1,13 +1,13 @@
 {
-    "version": "4.0.2",
+    "version": "4.1.1",
     "description": "osquery. SQL powered operating system instrumentation, monitoring, and analytics.",
     "homepage": "https://osquery.io",
     "license": {
         "identifier": "Apache-2.0|GPL-2.0-only",
         "url": "https://github.com/osquery/osquery/blob/master/LICENSE"
     },
-    "url": "https://pkg.osquery.io/windows/osquery-4.0.2.msi",
-    "hash": "0515eda041d860f9e413f1562118a31831dd95133995de6bf7f456dbd36ea440",
+    "url": "https://pkg.osquery.io/windows/osquery-4.1.1.msi",
+    "hash": "9f38b88d58b2a8d62a7636811a93a37032b91270c4b6b31e24c0dc60754be3c6",
     "bin": "",
     "shortcuts": [
         [

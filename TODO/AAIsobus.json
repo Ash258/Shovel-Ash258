@@ -1,9 +1,9 @@
 {
-    "version": "4.4",
+    "version": "4.5",
     "description": "Rescue deleted / lost files from CD, DVD, Blu Ray disc, Hard Drive, Memory card or from flash media.",
     "homepage": "https://www.isobuster.com/",
-    "url": "https://www.isobuster.com/dl.php?d=isobuster.com&v=4.4&l=0#/isobuster.exe",
-    "hash": "cae9e2bf37ec048dbacf765073fadfcd1b49f12a8fe9aa0a0a61622beb38e441",
+    "url": "https://www.isobuster.com/dl.php?d=isobuster.com&v=4.5&l=0#/isobuster.exe",
+    "hash": "391e08cdec2ae9d6d1cd3d0d863b7e09cd72bc0013a2c84233e624d4772a1447",
     "innosetup": true,
     "bin": "",
     "shortcuts": [
