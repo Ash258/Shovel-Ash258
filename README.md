@@ -56,6 +56,7 @@
 | [Docker **(docker)**](./bucket/docker.json)                                                                   |   🎃   |    ♻     |       ♻ (♻)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Emby **(Emby)**](./bucket/Emby.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [EmbyTheater **(EmbyTheater)**](./bucket/EmbyTheater.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [emClient **(emClient)**](./bucket/emClient.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                                |   ✔    |    ♻     |       ♻ (♻)       |
 | [Eusing Clenaer **(EusingCleaner)**](./bucket/EusingCleaner.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
