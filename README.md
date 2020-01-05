@@ -55,6 +55,7 @@
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                              |   ❌    |    ✔     |       ✔ (✔)       |
 | [Docker **(docker)**](./bucket/docker.json)                                                                   |   🎃   |    ♻     |       ♻ (♻)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Emby **(Emby)**](./bucket/Emby.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [emClient **(emClient)**](./bucket/emClient.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                                |   ✔    |    ♻     |       ♻ (♻)       |
 | [Eusing Clenaer **(EusingCleaner)**](./bucket/EusingCleaner.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
