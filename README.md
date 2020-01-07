@@ -106,6 +106,7 @@
 | [mRemoteNG PreRelease **(mRemoteNG-pre)**](./bucket/mRemoteNG-pre.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                                      |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [NetworkNotepad **(NetworkNotepad)**](./bucket/NetworkNotepad.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NetworkNotepad Professional Edition **(NetworkNotepad-pro)**](./bucket/NetworkNotepad-pro.json)              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Notion **(Notion)**](./bucket/Notion.json)                                                                   |   ✔    |    ✔     |       ✔ (✔)       |
