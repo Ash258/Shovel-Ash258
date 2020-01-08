@@ -177,4 +177,14 @@
             "}",
         ],
     },
+    "Inline persist check (With content)": {
+        "prefix": "persistInlineContent",
+        "scope": "json,jsonc",
+        "body": "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { Set-Content \\\"\\$dir\\\\\\\\$1\\\" $2 -Encoding Ascii }\",",
+    },
+    "Inline persist check (without content)": {
+        "prefix": "persistInlineNoContent",
+        "scope": "json,jsonc",
+        "body": "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { New-Item \\\"\\$dir\\\\\\\\$1\\\" | Out-Null }\",",
+    },
 }
