@@ -270,31 +270,7 @@
 | [Skype](https://Github.coM/LukesampsoN/Scoop-extraS/BloB/MasteR/bucket/Skype.json)                                       | [30c3167](https://Github.coM/Ash258/Scoop-Ash258/CommiT/30c3167f0359cb79acc230377b268de297abd1f7) | [7ecd6db](https://Github.coM/LukesampsoN/Scoop-extraS/CommiT/7ecd6db0e307048130c144c7b47fecf60d50ee68) ([lukesampsoN/Scoop-extras#1932](https://Github.coM/LukesampsoN/Scoop-extraS/PulL/1932)) |
 | [Windows Terminal](https://github.com/lukesampson/scoop-extras/blob/master/bucket/windows-terminal.json)                 | [aee6809](https://github.com/Ash258/scoop-Ash258/commit/aee6809402a651de6178ee72185013b7a4228f21) | [bbed112](https://github.com/lukesampson/scoop-extras/commit/bbed112913cfdb8fb8c753fa5bad790772a4ba2f) ([lukesampson/scoop-extras#3054](https://github.com/lukesampson/scoop-extras/pull/3054)) |
 | [Google Chrome](https://github.com/lukesampson/scoop-extras/blob/master/bucket/googlechrome.json)                        | [792a4c7](https://github.com/Ash258/scoop-Ash258/commit/792a4c73100765c33c8823e18b1bd32778c23333) | [ee1e6d9](https://github.com/lukesampson/scoop-extras/commit/ee1e6d9837397c73aa03e062c3f8fc018d2142ff) ([lukesampson/scoop-extras#2144](https://github.com/lukesampson/scoop-extras/pull/2144)) |
-
-<!-- TODO:
-    Aimp
-    AppveyorServer
-    BeefText
-    Hamsket
-    KeyFinder
-    Kodi
-    Uplay
-    Origin
-    Meazure
-    mRemoteNG
-    SharpKeys
-    SoundSwitch
-    SuperF4
-    BethesdaLauncher
-    Caret
-    NetLimiter
-    DirectX
-    W10Privacy
-    Borderless gaming
-    qBitTorrent-portable
-    Bzzt image editor
-    DrFolder
--->
+| [Aimp](https://github.com/lukesampson/scoop-extras/blob/master/bucket/aimp.json)                                         | [4b7ca26](https://github.com/Ash258/scoop-Ash258/commit/4b7ca26cfbe1bdf451d37d19cd488dd9f4df56d4) | [cc2bbdf](https://github.com/lukesampson/scoop-extras/commit/cc2bbdfca7a1bbd7cb5e285a2a9e389366c14032) ([lukesampson/scoop-extras#3453](https://github.com/lukesampson/scoop-extras/pull/3453)) |
 
 ### TODOs
 
