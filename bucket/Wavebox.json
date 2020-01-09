@@ -1,6 +1,6 @@
 {
     "##": "/download > Windows 10 and later.",
-    "version": "10.0.49",
+    "version": "10.0.54",
     "description": "Wavebox 10. A distraction-free browser for fast and focused working across all web apps.",
     "homepage": "https://wavebox.io",
     "license": {
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.wavebox.app/core/win/Install%20Wavebox%2010.0.49.exe#/cosi.7z",
-            "hash": "fbd98b81a955c91e5fcedb98c2820c4d2056c91950a7b3f9dda4aeca424df3b9"
+            "url": "https://download.wavebox.app/core/win/Install%20Wavebox%2010.0.54.exe#/cosi.7z",
+            "hash": "5769346d89cd44927ecbfebad3307e25447f480279bd2e6191d7b6d5f5ea4a4f"
         }
     },
     "installer": {
