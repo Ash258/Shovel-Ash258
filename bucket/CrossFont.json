@@ -1,10 +1,10 @@
 {
-    "version": "7.6",
+    "version": "7.7",
     "description": "CrossFont. Macintosh and PC font type convertor.",
     "homepage": "https://www.acutesystems.com/scrcf.htm",
     "license": "Proprietary",
     "url": "http://www.acutesystems.com/cfnt/cfsetup.exe",
-    "hash": "764c4ff6c2afbb74bcee5cd5b3842d44c6ce3bc78de1a269384b20e50cc278b1",
+    "hash": "0cea10d4ff19638cb4faa68182a009f597fd6ce92195e632aeb2df47a46bcb0e",
     "innosetup": true,
     "shortcuts": [
         [
