@@ -18,10 +18,7 @@
             "OverClock Checking Tool"
         ]
     ],
-    "checkver": {
-        "url": "https://www.ocbase.com/#changelog",
-        "regex": "Version ([\\d.]+)"
-    },
+    "checkver": "Version ([\\d.]+)</h",
     "autoupdate": {
         "architecture": {
             "64bit": {
