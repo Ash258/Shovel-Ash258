@@ -100,6 +100,7 @@
 | [Meazure **(Meazure)**](./bucket/Meazure.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)       |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                |   ✔    |    ♻     |       ♻ (♻)       |
+| [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
