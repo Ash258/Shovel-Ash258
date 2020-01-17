@@ -1,4 +1,26 @@
 {
+    "Inline persist check (With content)": {
+        "prefix": "persistInlineContent",
+        "scope": "json,jsonc",
+        "body": "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { Set-Content \\\"\\$dir\\\\\\\\$1\\\" $2 -Encoding Ascii }\",",
+    },
+    "Inline persist check (without content)": {
+        "prefix": "persistInlineNoContent",
+        "scope": "json,jsonc",
+        "body": "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { New-Item \\\"\\$dir\\\\\\\\$1\\\" | Out-Null }\",",
+    },
+    "Check for existing persist file": {
+        "prefix": "persistCheck",
+        "scope": "json,jsonc",
+        "body": [
+            "\"\\$file = '$1'\",",
+            "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\\\$file\\\")) {\",",
+            "\"\tWrite-Host 'File' \\$file 'does not exists. Creating.' -f Yellow\",",
+            "\"\t\\$CONT = @('$2')\",",
+            "\"\tSet-Content \\\"\\$dir\\\\\\\\\\$file\\\" (\\$CONT -join \\\"`r`n\\\") -Encoding Ascii\",",
+            "\"}\"",
+        ],
+    },
     "New app String": {
         "prefix": "app",
         "scope": "json,jsonc",
@@ -89,18 +111,6 @@
             "}",
         ],
     },
-    "Check for existing persist file": {
-        "prefix": "persistCheck",
-        "scope": "json,jsonc",
-        "body": [
-            "\"\\$file = '$1'\",",
-            "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\\\$file\\\")) {\",",
-            "\"\tWrite-Host 'File' \\$file 'does not exists. Creating.' -f Yellow\",",
-            "\"\t\\$CONT = @('$2')\",",
-            "\"\tSet-Content \\\"\\$dir\\\\\\\\\\$file\\\" (\\$CONT -join \\\"`r`n\\\") -Encoding Ascii\",",
-            "\"}\"",
-        ],
-    },
     "New Sordum Manifest": {
         "prefix": "sordumApp",
         "scope": "json,jsonc",
@@ -177,14 +187,32 @@
             "}",
         ],
     },
-    "Inline persist check (With content)": {
-        "prefix": "persistInlineContent",
+    "New MiTeC Manifest": {
+        "prefix": "mitecApp",
         "scope": "json,jsonc",
-        "body": "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { Set-Content \\\"\\$dir\\\\\\\\$1\\\" $2 -Encoding Ascii }\",",
-    },
-    "Inline persist check (without content)": {
-        "prefix": "persistInlineNoContent",
-        "scope": "json,jsonc",
-        "body": "\"if (-not (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { New-Item \\\"\\$dir\\\\\\\\$1\\\" | Out-Null }\",",
+        "body": [
+            "{",
+            "\t\"version\": \"\",",
+            "\t\"description\": \"MiTeC $1. $2\",",
+            "\t\"homepage\": \"https://www.mitec.cz/$3.html\",",
+            "\t\"license\": \"Proprietary\",",
+            "\t\"url\": \"https://www.mitec.cz/Downloads/${4:${3/(.*)/${1:/upcase}/}}.zip\",",
+            "\t\"hash\": \"6ab8a58cb2806e5a942c7683a68e517f03845161deb0bf745960360636c3f13b\",",
+            "\t\"bin\": \"$4.exe\",",
+            "\t\"shortcuts\": [",
+            "\t\t[",
+            "\t\t\t\"$4.exe\",",
+            "\t\t\t\"MiTeC\\\\\\\\$4\"",
+            "\t\t]",
+            "\t],",
+            "\t\"checkver\": {",
+            "\t\t\"url\": \"https://www.mitec.cz/Data/XML/data_$3vh.xml\",",
+            "\t\t\"xpath\": \"/VH/RECORD/VERSION\"",
+            "\t},",
+            "\t\"autoupdate\": {",
+            "\t\t\"url\": \"https://www.mitec.cz/Downloads/$4.zip\"",
+            "\t}",
+            "}",
+        ],
     },
 }
