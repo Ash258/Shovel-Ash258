@@ -103,6 +103,7 @@
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -278,12 +279,6 @@
 
 ### TODOs
 
-| App name **(Scoop name)** | Tested | Checkver | Autoupdate (Hash) |
-| ------------------------- | :----: | :------: | :---------------: |
-MiTeC Database Documentation/Code Generator for Interbase/Firebird 1.0.0    2000 KB
-MiTeC Database Documentation/Code Generator for MS SQL 1.0.0    2000 KB
-MiTeC Interbase Performance Monitor 2.2    485 KB
-MiTeC SQLite Query 3.0.0    3000 KB
 MiTeC MSA Query 2.1.0    960 KB
 MiTeC ADO Query 1.9.0    950 KB
 MiTeC Paradox Data Editor 3.4.1    5900 KB
@@ -331,6 +326,11 @@ MiTeC XML Viewer 64-bit 5.8.0    2000 KB
 MiTeC JSON Viewer 1.5.0    1500 KB
 MiTeC Photo View 1.4    1500 KB
 MiTeC DirList 1.3.0
+MiTeC Database Documentation/Code Generator for Interbase/Firebird 1.0.0    2000 KB
+MiTeC Interbase Performance Monitor 2.2    485 KB
+
+| App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
+| ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                 |
 | DJV                                                                                       |
@@ -339,31 +339,31 @@ MiTeC DirList 1.3.0
 | Formatter                                                                                 |
 | notetab                                                                                   |
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                         |
-| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                      | ❌   | ✔   | ✔ (✔) |
-| ----------------------------------------------------------------------------------------- | --- | --- | ----- |
+| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                      |   ❌    |    ✔     |       ✔ (✔)       |
+| ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
 | [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                           |
 | [Microsoft Edge Beta **(MicrosoftEdgeBeta)**](./TODO/MicrosoftEdgeBeta.json)              |
 | [Microsoft Edge Dev **(MicrosoftEdgeDev)**](./TODO/MicrosoftEdgeDev.json)                 |
 | [Microsoft Edge Canary **(MicrosoftEdgeCanary)**](./TODO/MicrosoftEdgeCanary.json)        |
-| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                           | ❌   | ⭕   | ⭕ (⭕) |
-| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    | ❌   | ✔   | ✔ (⛔) |
-| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌   | ✔   | ✔ (⛔) |
-| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             | ✔🔶 | ✔   | ✔ (⛔) |
-| ----------------------------------------------------------------------------------------- | --- | --- | ----- |
-| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    | ❌   | ✔   | ✔ (⛔) |
-| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌   | ❌   | ❌ (❌) |
-| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃  | ✔   | ✔ (✔) |
-| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌   | ❌   | ❌ (❌) |
-| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌   | ❌   | ❌ (❌) |
-| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 | ❌   | ❌   | ❌ (❌) |
-| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                       | ❌   | ❌   | ❌ (❌) |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               | ❌   | ❌   | ❌ (❌) |
-| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            | ❌   | ❌   | ❌ (❌) |
+| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                           |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
+| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
+| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    |   🎃   |    ✔     |       ✔ (✔)       |
+| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     |   ❌    |    ❌     |       ❌ (❌)       |
+| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   |   ❌    |    ❌     |       ❌ (❌)       |
+| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 |   ❌    |    ❌     |       ❌ (❌)       |
+| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               |   ❌    |    ❌     |       ❌ (❌)       |
+| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            |   ❌    |    ❌     |       ❌ (❌)       |
 
 - 🔶 Additional testing is needed
 - ⭕ Not needed
