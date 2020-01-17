@@ -105,6 +105,7 @@
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Weather Agent **(WeatherAgent)**](./bucket/WeatherAgent.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -279,91 +280,84 @@
 
 ### TODOs
 
-MiTeC MSA Query 2.1.0    960 KB
-MiTeC ADO Query 1.9.0    950 KB
-MiTeC Paradox Data Editor 3.4.1    5900 KB
-MiTeC Data Editor 1.0    720 KB
-MiTeC Delphi Form Editor 7.0.0    4200 KB
-MiTeC Auto Ping 1.0    292 KB
-MiTeC XPing 5.0    242 KB
-MiTeC Mail Checker 7.2.0    2000 KB
-Get Adapter Info 1.0    200 KB
-MiTeC Network Meter 2.3.0    1200 KB
-MiTeC Network Scanner 32-bit 5.4.0    3100 KB
-MiTeC Network Scanner 64-bit 5.4.0    3900 KB
-MiTeC INI Editor 1.0    247 KB
-MiTeC AD Explorer 1.2    270 KB
-MiTeC ROM BIOS Explorer 2.2    270 KB
-MiTeC System Information X 32-bit 3.5.0    2000 KB
-MiTeC System Information X 64-bit 3.5.0    3900 KB
-MiTeC WMI Explorer 1.0    430 KB
-MiTeC Process Viewer 1.0    250 KB
-MiTeC Windows 9x Password Hacker 1.0    177 KB
-MiTeC Shell Extension Pack 4.0    1200 KB
-MiTeC Startup Explorer 2.0    450 KB
-MiTeC Account List 1.0    210 KB
-MiTeC OLE/COM Object Explorer 1.4    520 KB
-MiTeC Task Manager DeLuxe 32-bit 2.86.0    2800 KB
-MiTeC Task Manager DeLuxe 64-bit 2.86.0    3600 KB
-MiTeC Machine Journal 1.1.0    600 KB
-MiTeC Certificate Information 1.1.0    1000 KB
-MiTeC Internet History Browser 2.1.0    1600 KB
-MiTeC E-mail History Browser 1.2.0    2000 KB
-MiTeC Instant Messaging History Browser 1.2.1    1400 KB
-MiTeC Windows File Analyzer 2.8.0    1600 KB
-MiTeC Windows Registry Recovery 2.2.0    1500 KB
-MiTeC Structure Storage Viewer 3.5.0    2500 KB
-MiTeC Hexadecimal Editor 6.3.0    1000 KB
-MiTeC DXF Viewer 1.1    350 KB
-MiTeC Weather Agent 3.4.0    1300 KB
-MiTeC InfoBar 3.0.0    1800 KB
-MiTeC Icon Explorer 5.2.0    1300 KB
-MiTeC Mail Viewer 2.3.0    1300 KB
-MiTeC EXE Explorer 2.5.2    1100 KB
-MiTeC Media Manager 1.0    530 KB
-MiTeC XML Viewer 32-bit 5.8.0    1500 KB
-MiTeC XML Viewer 64-bit 5.8.0    2000 KB
-MiTeC JSON Viewer 1.5.0    1500 KB
-MiTeC Photo View 1.4    1500 KB
-MiTeC DirList 1.3.0
-MiTeC Database Documentation/Code Generator for Interbase/Firebird 1.0.0    2000 KB
-MiTeC Interbase Performance Monitor 2.2    485 KB
-
-| App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
-| ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| VeraCrypt                                                                                 |
-| DJV                                                                                       |
-| EarTrumpet                                                                                |
-| NetworkX                                                                                  |
-| Formatter                                                                                 |
-| notetab                                                                                   |
-| [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                         |
-| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                      |   ❌    |    ✔     |       ✔ (✔)       |
-| ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
-| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                           |
-| [Microsoft Edge Beta **(MicrosoftEdgeBeta)**](./TODO/MicrosoftEdgeBeta.json)              |
-| [Microsoft Edge Dev **(MicrosoftEdgeDev)**](./TODO/MicrosoftEdgeDev.json)                 |
-| [Microsoft Edge Canary **(MicrosoftEdgeCanary)**](./TODO/MicrosoftEdgeCanary.json)        |
-| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                           |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             |  ✔🔶   |    ✔     |       ✔ (⛔)       |
-| ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
-| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
-| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    |   🎃   |    ✔     |       ✔ (✔)       |
-| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     |   ❌    |    ❌     |       ❌ (❌)       |
-| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   |   ❌    |    ❌     |       ❌ (❌)       |
-| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 |   ❌    |    ❌     |       ❌ (❌)       |
-| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               |   ❌    |    ❌     |       ❌ (❌)       |
-| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            |   ❌    |    ❌     |       ❌ (❌)       |
+| App name **(Scoop name)**                                                                                                                                       | Tested | Checkver | Autoupdate (Hash) |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [MiTeC Account List **(AccountList)**](./bucket/AccountList.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC AD Explorer **(ADExplorer)**](./bucket/ADExplorer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC ADO Query **(ADOQuery)**](./bucket/ADOQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Auto Ping **(AutoPing)**](./bucket/AutoPing.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Certificate Information **(CertificateInformation)**](./bucket/CertificateInformation.json)                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Database Documentation/Code Generator for Interbase/Firebird **(DatabaseDocumentationCodeGenerator)**](./bucket/DatabaseDocumentationCodeGenerator.json) |
+| [MiTeC Delphi Form Editor **(DelphiFormEditor)**](./bucket/DelphiFormEditor.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC E-mail History Browser **(E-mailHistoryBrowser)**](./bucket/E-mailHistoryBrowser.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Get Adapter Info **(GetAdapterInfo)**](./bucket/GetAdapterInfo.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Hexadecimal Editor **(HexadecimalEditor)**](./bucket/HexadecimalEditor.json)                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Icon Explorer **(IconExplorer)**](./bucket/IconExplorer.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC INI Editor **(INIEditor)**](./bucket/INIEditor.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Instant Messaging History Browser **(InstantMessagingHistoryBrowser)**](./bucket/InstantMessagingHistoryBrowser.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Interbase Performance Monitor **(InterbasePerformanceMonitor)**](./bucket/InterbasePerformanceMonitor.json)                                              |
+| [MiTeC Internet History Browser **(InternetHistoryBrowser)**](./bucket/InternetHistoryBrowser.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Paradox Data Editor **(ParadoxDataEditor)**](./bucket/ParadoxDataEditor.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Process Viewer **(ProcessViewer)**](./bucket/ProcessViewer.json)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC ROM BIOS Explorer **(ROMBIOSExplorer)**](./bucket/ROMBIOSExplorer.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Structure Storage Viewer **(StructureStorageViewer)**](./bucket/StructureStorageViewer.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC XPing **(XPing)**](./bucket/XPing.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| VeraCrypt                                                                                                                                                       |
+| DJV                                                                                                                                                             |
+| EarTrumpet                                                                                                                                                      |
+| NetworkX                                                                                                                                                        |
+| Formatter                                                                                                                                                       |
+| notetab                                                                                                                                                         |
+| [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                                                                               |
+| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                                                                                            |   ❌    |    ✔     |       ✔ (✔)       |
+| -----------------------------------------------------------------------------------------                                                                       |  ---   |   ---    |       -----       |
+| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                                                                                                 |
+| [Microsoft Edge Beta **(MicrosoftEdgeBeta)**](./TODO/MicrosoftEdgeBeta.json)                                                                                    |
+| [Microsoft Edge Dev **(MicrosoftEdgeDev)**](./TODO/MicrosoftEdgeDev.json)                                                                                       |
+| [Microsoft Edge Canary **(MicrosoftEdgeCanary)**](./TODO/MicrosoftEdgeCanary.json)                                                                              |
+| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                                                                                 |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                                                                                          |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                                                                                                    |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json)                                                                       |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json)                                                                       |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json)                                                                       |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json)                                                                       |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json)                                                                       |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                                                                                                   |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| -----------------------------------------------------------------------------------------                                                                       |  ---   |   ---    |       -----       |
+| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                                                                                          |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                                                                                             |   ❌    |    ❌     |       ❌ (❌)       |
+| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                                                                                          |   🎃   |    ✔     |       ✔ (✔)       |
+| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                                                                                           |   ❌    |    ❌     |       ❌ (❌)       |
+| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                                                                                         |   ❌    |    ❌     |       ❌ (❌)       |
+| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                                                                                       |   ❌    |    ❌     |       ❌ (❌)       |
+| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                                                                                             |   ❌    |    ❌     |       ❌ (❌)       |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                                                                                                     |   ❌    |    ❌     |       ❌ (❌)       |
+| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                                                                                                  |   ❌    |    ❌     |       ❌ (❌)       |
 
 - 🔶 Additional testing is needed
 - ⭕ Not needed
