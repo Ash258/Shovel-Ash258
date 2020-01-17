@@ -101,6 +101,7 @@
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)       |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                |   ✔    |    ♻     |       ♻ (♻)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
