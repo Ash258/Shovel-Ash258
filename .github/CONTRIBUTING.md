@@ -1,10 +1,8 @@
+# Contributing
+
+Pull request will be closed as soon as possible. Do not waste my time with opening any.
+
 # How to write manifests
-
-❗❗❗❗❗❗ After cloning run command:
-
-```powershell
-.\bin\createHooks.ps1
-```
 
 - [Recommended manifest format][Template]
 - Observe blocks sequence and structure from [Template][Template]
