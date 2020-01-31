@@ -107,6 +107,7 @@
 | [MiTeC Hexadecimal Editor **(HexEdit)**](./bucket/HexEdit.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -301,7 +302,6 @@
 | [MiTeC Certificate Information **(CertificateInformation)**](./bucket/CertificateInformation.json)                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Database Documentation/Code Generator for Interbase/Firebird **(DatabaseDocumentationCodeGenerator)**](./bucket/DatabaseDocumentationCodeGenerator.json) |
-| [MiTeC Delphi Form Editor **(DelphiFormEditor)**](./bucket/DelphiFormEditor.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC E-mail History Browser **(E-mailHistoryBrowser)**](./bucket/E-mailHistoryBrowser.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Get Adapter Info **(GetAdapterInfo)**](./bucket/GetAdapterInfo.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -310,7 +310,6 @@
 | [MiTeC Instant Messaging History Browser **(InstantMessagingHistoryBrowser)**](./bucket/InstantMessagingHistoryBrowser.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Performance Monitor **(InterbasePerformanceMonitor)**](./bucket/InterbasePerformanceMonitor.json)                                              |
 | [MiTeC Internet History Browser **(InternetHistoryBrowser)**](./bucket/InternetHistoryBrowser.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
