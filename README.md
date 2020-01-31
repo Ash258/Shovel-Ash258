@@ -101,6 +101,7 @@
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)       |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                |   ✔    |    ♻     |       ♻ (♻)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC DFM Editor **(DFMEditor)**](./bucket/DFMEditor.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
