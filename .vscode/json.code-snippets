@@ -215,4 +215,14 @@
             "}",
         ],
     },
+    "Mitec Universal Checkver": {
+        "prefix": "mitecCheckVer",
+        "scope": "json,jsonc",
+        "body": [
+            "    \"checkver\": {",
+            "        \"url\": \"https://www.mitec.cz/Data/XML/data_downloads.xml\",",
+            "        \"regex\": \"<NAME>MiTeC $0\\\\\\s+([\\\\\\d.]+)<\"",
+            "    },",
+        ],
+    },
 }

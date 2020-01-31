@@ -104,11 +104,12 @@
 | [MiTeC Delphi Form File Editor **(DFMEditor)**](./bucket/DFMEditor.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Hex Editor **(HexEdit)**](./bucket/HexEdit.json)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Hexadecimal Editor **(HexEdit)**](./bucket/HexEdit.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -316,7 +317,6 @@
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Paradox Data Editor **(ParadoxDataEditor)**](./bucket/ParadoxDataEditor.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Process Viewer **(ProcessViewer)**](./bucket/ProcessViewer.json)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC ROM BIOS Explorer **(ROMBIOSExplorer)**](./bucket/ROMBIOSExplorer.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
