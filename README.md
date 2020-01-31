@@ -106,6 +106,7 @@
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -312,7 +313,6 @@
 | [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Paradox Data Editor **(ParadoxDataEditor)**](./bucket/ParadoxDataEditor.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
