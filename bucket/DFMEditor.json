@@ -1,6 +1,6 @@
 {
     "version": "7.0.0",
-    "description": "MiTeC DFM Editor. Deplhi Form files editor",
+    "description": "MiTeC Delphi Form File Editor",
     "homepage": "https://www.mitec.cz/dfm.html",
     "license": "Freeware",
     "url": "https://www.mitec.cz/Downloads/DFMEdit.zip",
@@ -13,7 +13,7 @@
     "shortcuts": [
         [
             "DFMEdit.exe",
-            "MiTeC\\DFMEdit"
+            "MiTeC\\DFM Editor"
         ]
     ],
     "checkver": {
