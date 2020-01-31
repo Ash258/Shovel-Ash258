@@ -105,6 +105,7 @@
 | [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Hexadecimal Editor **(HexEdit)**](./bucket/HexEdit.json)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Icon Explorer **(IconExplorer)**](./bucket/IconExplorer.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -305,7 +306,6 @@
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC E-mail History Browser **(E-mailHistoryBrowser)**](./bucket/E-mailHistoryBrowser.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Get Adapter Info **(GetAdapterInfo)**](./bucket/GetAdapterInfo.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Icon Explorer **(IconExplorer)**](./bucket/IconExplorer.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC INI Editor **(INIEditor)**](./bucket/INIEditor.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Instant Messaging History Browser **(InstantMessagingHistoryBrowser)**](./bucket/InstantMessagingHistoryBrowser.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Performance Monitor **(InterbasePerformanceMonitor)**](./bucket/InterbasePerformanceMonitor.json)                                              |
