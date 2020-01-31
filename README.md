@@ -109,6 +109,7 @@
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -312,7 +313,6 @@
 | [MiTeC Internet History Browser **(InternetHistoryBrowser)**](./bucket/InternetHistoryBrowser.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
