@@ -111,6 +111,7 @@
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Structured Storage Viewer **(StructuredStorageViewer)**](./bucket/StructuredStorageViewer.json)        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Weather Agent **(WeatherAgent)**](./bucket/WeatherAgent.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -321,7 +322,6 @@
 | [MiTeC ROM BIOS Explorer **(ROMBIOSExplorer)**](./bucket/ROMBIOSExplorer.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Structure Storage Viewer **(StructureStorageViewer)**](./bucket/StructureStorageViewer.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
