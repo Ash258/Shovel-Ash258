@@ -101,6 +101,7 @@
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)       |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                |   ✔    |    ♻     |       ♻ (♻)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -295,10 +296,8 @@
 | [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Database Documentation/Code Generator for Interbase/Firebird **(DatabaseDocumentationCodeGenerator)**](./bucket/DatabaseDocumentationCodeGenerator.json) |
 | [MiTeC Delphi Form Editor **(DelphiFormEditor)**](./bucket/DelphiFormEditor.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC E-mail History Browser **(E-mailHistoryBrowser)**](./bucket/E-mailHistoryBrowser.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Get Adapter Info **(GetAdapterInfo)**](./bucket/GetAdapterInfo.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Hexadecimal Editor **(HexadecimalEditor)**](./bucket/HexadecimalEditor.json)                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Icon Explorer **(IconExplorer)**](./bucket/IconExplorer.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
