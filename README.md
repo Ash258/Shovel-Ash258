@@ -108,6 +108,7 @@
 | [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Weather Agent **(WeatherAgent)**](./bucket/WeatherAgent.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.json)                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XPing **(XPing)**](./bucket/XPing.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -325,7 +326,6 @@
 | [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                                                                                       |
 | DJV                                                                                                                                                             |
