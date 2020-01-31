@@ -109,6 +109,7 @@
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -221,7 +222,7 @@
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SoundSwitch **(SoundSwitch)**](./bucket/SoundSwitch.json)                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Spotify **(Spotify)**](./bucket/Spotify.json)                                                                |   ✔    |    ♻     |       ♻ (♻)       |
+| [Spotify **(Spotify)**](./bucket/Spotify.json)                                                                |   ❌    |    ♻     |       ♻ (♻)       |
 | [SrvStart **(SrvStart)**](./bucket/SrvStart.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Account Manager **(SteamAccountManager)**](./bucket/SteamAccountManager.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Steam Achievement Manager **(SAM)**](./bucket/SAM.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -312,7 +313,6 @@
 | [MiTeC Interbase Performance Monitor **(InterbasePerformanceMonitor)**](./bucket/InterbasePerformanceMonitor.json)                                              |
 | [MiTeC Internet History Browser **(InternetHistoryBrowser)**](./bucket/InternetHistoryBrowser.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
