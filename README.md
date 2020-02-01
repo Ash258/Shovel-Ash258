@@ -99,6 +99,8 @@
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)                                                               |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Account List **(AccountList)**](./bucket/AccountList.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC AD Explorer **(ADExplorer)**](./bucket/ADExplorer.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC ADO Query **(ADOQuery)**](./bucket/ADOQuery.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Auto Ping **(AutoPing)**](./bucket/AutoPing.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -312,8 +314,6 @@
 
 | App name **(Scoop name)**                                                                               | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [MiTeC Account List **(AccountList)**](./bucket/AccountList.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC AD Explorer **(ADExplorer)**](./bucket/ADExplorer.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Certificate Information **(CertificateInformation)**](./bucket/CertificateInformation.json)      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
