@@ -109,6 +109,7 @@
 | [MiTeC Icon Explorer **(IconExplorer)**](./bucket/IconExplorer.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Internet History Browser **(InternetHistoryBrowser)**](./bucket/InternetHistoryBrowser.json)       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -314,7 +315,6 @@
 | [MiTeC INI Editor **(INIEditor)**](./bucket/INIEditor.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Instant Messaging History Browser **(InstantMessagingHistoryBrowser)**](./bucket/InstantMessagingHistoryBrowser.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Performance Monitor **(InterbasePerformanceMonitor)**](./bucket/InterbasePerformanceMonitor.json)                                              |
-| [MiTeC Internet History Browser **(InternetHistoryBrowser)**](./bucket/InternetHistoryBrowser.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
