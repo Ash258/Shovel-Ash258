@@ -109,6 +109,7 @@
 | [MiTeC Database Documentation/Code Generator for Interbase/Firebird **(DatabaseDocumentation-CodeGeneratorFB)**](./bucket/DatabaseDocumentation-CodeGeneratorFB.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Delphi Form File Editor **(DFMEditor)**](./bucket/DFMEditor.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Email History Browser **(EmailHistoryBrowser)**](./bucket/EmailHistoryBrowser.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Get Adapter Info **(GetAdapterInfo)**](./bucket/GetAdapterInfo.json)                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -323,7 +324,6 @@
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                 |
