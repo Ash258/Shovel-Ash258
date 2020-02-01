@@ -69,7 +69,6 @@
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Google Chrome **(Chrome)**](./bucket/Chrome.json)                                                                                                                    |   ✔    |    ✔     |       ✔ (✔)       |
 | [Hamsket **(Hamsket)**](./bucket/Hamsket.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
