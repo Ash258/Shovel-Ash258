@@ -135,6 +135,7 @@
 | [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Weather Agent **(WeatherAgent)**](./bucket/WeatherAgent.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XPing **(XPing)**](./bucket/XPing.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
@@ -324,7 +325,6 @@
 | [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json) |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                               |
 | DJV                                                                                                     |
