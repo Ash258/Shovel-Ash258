@@ -121,6 +121,7 @@
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Internet History Browser **(InternetHistoryBrowser)**](./bucket/InternetHistoryBrowser.json)                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC JSON Viewer **(JSONViewer)**](./bucket/JSONViewer.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -323,7 +324,6 @@
 | -------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [MiTeC Certificate Information **(CertificateInformation)**](./bucket/CertificateInformation.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                          |
