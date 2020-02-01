@@ -102,6 +102,7 @@
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC ADO Query **(ADOQuery)**](./bucket/ADOQuery.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Database Documentation/Code Generator for MS SQL **(DatabaseDocumentation-CodeGeneratorMS)**](./bucket/DatabaseDocumentation-CodeGeneratorMS.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Database Documentation/Code Generator for Interbase/Firebird **(DatabaseDocumentation-CodeGeneratorFB)**](./bucket/DatabaseDocumentation-CodeGeneratorFB.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Delphi Form File Editor **(DFMEditor)**](./bucket/DFMEditor.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -313,7 +314,6 @@
 | [MiTeC AD Explorer **(ADExplorer)**](./bucket/ADExplorer.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Auto Ping **(AutoPing)**](./bucket/AutoPing.json)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Certificate Information **(CertificateInformation)**](./bucket/CertificateInformation.json)      |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Get Adapter Info **(GetAdapterInfo)**](./bucket/GetAdapterInfo.json)                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC INI Editor **(INIEditor)**](./bucket/INIEditor.json)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
