@@ -133,6 +133,7 @@
 | [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Structured Storage Viewer **(StructuredStorageViewer)**](./bucket/StructuredStorageViewer.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -324,7 +325,6 @@
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                          |
 | DJV                                                                                                |
