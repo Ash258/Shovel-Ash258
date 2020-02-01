@@ -128,6 +128,7 @@
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Paradox Data Editor **(ParadoxDataEditor)**](./bucket/ParadoxDataEditor.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Process Viewer **(ProcessViewer)**](./bucket/ProcessViewer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC ROM BIOS Explorer **(ROMBIOSExplorer)**](./bucket/ROMBIOSExplorer.json)                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -321,7 +322,6 @@
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Process Viewer **(ProcessViewer)**](./bucket/ProcessViewer.json)                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json) |   ✔    |    ✔     |       ✔ (⛔)       |
