@@ -101,6 +101,7 @@
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)                      |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                               |   ✔    |    ♻     |       ♻ (♻)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC ADO Query **(ADOQuery)**](./bucket/ADOQuery.json)                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Delphi Form File Editor **(DFMEditor)**](./bucket/DFMEditor.json)                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Email History Browser **(EmailHistoryBrowser)**](./bucket/EmailHistoryBrowser.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -306,7 +307,6 @@
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
 | [MiTeC Account List **(AccountList)**](./bucket/AccountList.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC AD Explorer **(ADExplorer)**](./bucket/ADExplorer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC ADO Query **(ADOQuery)**](./bucket/ADOQuery.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Auto Ping **(AutoPing)**](./bucket/AutoPing.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Certificate Information **(CertificateInformation)**](./bucket/CertificateInformation.json)                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
