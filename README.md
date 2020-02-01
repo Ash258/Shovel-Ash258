@@ -104,6 +104,7 @@
 | [MiTeC Delphi Form File Editor **(DFMEditor)**](./bucket/DFMEditor.json)                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Hexadecimal Editor **(HexEdit)**](./bucket/HexEdit.json)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Icon Explorer **(IconExplorer)**](./bucket/IconExplorer.json)                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -324,7 +325,6 @@
 | [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                                                                                       |
