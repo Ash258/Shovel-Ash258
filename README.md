@@ -126,6 +126,7 @@
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC OLE/COM Object Explorer **(OLE-COMObjectExplorer)**](./bucket/OLE-COMObjectExplorer.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Paradox Data Editor **(ParadoxDataEditor)**](./bucket/ParadoxDataEditor.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Process Viewer **(ProcessViewer)**](./bucket/ProcessViewer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -324,7 +325,6 @@
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC OLE/COM Object Explorer **(OLE/COMObjectExplorer)**](./bucket/OLE/COMObjectExplorer.json)   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                          |
 | DJV                                                                                                |
