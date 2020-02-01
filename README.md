@@ -20,9 +20,7 @@
 | [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Extreme **(Aida64)**](./bucket/Aida64.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Aimp **(Aimp)**](./bucket/Aimp.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Apache Open Office **(OpenOffice)**](./bucket/OpenOffice.json)                                                                                                       |   ✔    |    ✔     |       ✔ (✔)       |
 | [API Monitor **(APIMonitor)**](./bucket/APIMonitor.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AppVeyor Server **(appveyor-server)**](./bucket/appveyor-server.json)                                                                                                |   ❌    |    ✔     |       ✔ (⛔)       |
 | [arcconf **(arcconf)**](./bucket/arcconf.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
