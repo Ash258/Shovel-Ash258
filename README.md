@@ -126,6 +126,7 @@
 | [MiTeC Machine Journal **(MachineJournal)**](./bucket/MachineJournal.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Checker **(MailChecker)**](./bucket/MailChecker.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Mail Viewer **(MailViewer)**](./bucket/MailViewer.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC MSA Query **(MSAQuery)**](./bucket/MSAQuery.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Meter **(NetworkMeter)**](./bucket/NetworkMeter.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Network Scanner **(NetworkScanner)**](./bucket/NetworkScanner.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -324,7 +325,6 @@
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [MiTeC Media Manager **(MediaManager)**](./bucket/MediaManager.json)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                 |
 | DJV                                                                                       |
