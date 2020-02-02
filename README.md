@@ -178,6 +178,7 @@
 | [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.json)                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [ProtonMail Desktop Unofficial **(ProtonMailDesktop-Unofficial)**](./bucket/ProtonMailDesktop-Unofficial.json)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [PRTG API **(PrtgAPI)**](./bucket/PrtgAPI.json)                                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.json)                                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |

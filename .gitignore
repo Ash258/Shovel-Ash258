@@ -1,2 +1,3 @@
-TODO/A.*
+TODO/A*
+/A*
 page.html
