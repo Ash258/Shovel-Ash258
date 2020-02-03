@@ -63,6 +63,7 @@
 | [Fix Windows 10 **(FixWin10)**](./bucket/FixWin10.json)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 7/Vista **(FixWin7)**](./bucket/FixWin7.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 8/8.1 **(FixWin8)**](./bucket/FixWin8.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Flashpoint Infinity **(FlashpointInfinity)**](./bucket/FlashpointInfinity.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FreeRapid Downloader **(FRD)**](./bucket/FRD.json)                                                                                                                   |   ✔    |    ❌     |       ❌ (⛔)       |
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
