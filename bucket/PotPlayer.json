@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/20200204/PotPlayerSetup64.exe#/cosi.7z",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/200204/PotPlayerSetup64.exe#/cosi.7z",
             "hash": "f14bdcb1e309451c35c7039695814795d395bad602db6c6de3f6f37f8982f47c",
             "shortcuts": [
                 [
@@ -22,7 +22,7 @@
             ]
         },
         "32bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/20200204/PotPlayerSetup.exe#/cosi.7z",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/200204/PotPlayerSetup.exe#/cosi.7z",
             "hash": "c58692858ef11c9164672f723d93f615a269d9ee58f66af15ef7af8d111e76cf",
             "shortcuts": [
                 [
