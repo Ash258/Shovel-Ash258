@@ -4,6 +4,11 @@
         {
             "label": "Check version (Whole repository)",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "command": ".\\bin\\checkver.ps1",
             "args": [
                 "-Recurse",
@@ -47,6 +52,11 @@
         {
             "label": "Push Auto-PR",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "command": ".\\bin\\auto-pr.ps1",
             "args": [
                 "-Push",
@@ -64,6 +74,11 @@
         {
             "label": "Checkver Actual",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "command": ".\\bin\\checkver.ps1",
             "args": [
                 "-App",
@@ -77,6 +92,11 @@
         {
             "label": "Checkhashes Actual",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "command": ".\\bin\\checkhashes.ps1",
             "args": [
                 "-App",
@@ -90,6 +110,11 @@
         {
             "label": "Purge Uninstall Actual",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "command": "scoop",
             "args": [
                 "uninstall",
@@ -104,6 +129,11 @@
         {
             "label": "Install Actual",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "command": "scoop",
             "args": [
                 "install",
@@ -119,6 +149,11 @@
         {
             "label": "ReInstall Actual",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "dependsOn": [
                 "Purge Uninstall Actual",
                 "Install Actual",
@@ -129,6 +164,11 @@
         {
             "label": "Force Update Actual",
             "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
             "command": "scoop",
             "args": [
                 "update",
@@ -144,7 +184,10 @@
             "label": "Sordum Updates",
             "type": "shell",
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
             },
             "command": "gci bucket | where { (Get-Content $_.FullName -Raw | ConvertFrom-Json | Select-Object -ExpandProperty description) -like '*sordum*' } |% { & .\\bin\\checkver.ps1 $_.BaseName -f }",
             "problemMatcher": [],
