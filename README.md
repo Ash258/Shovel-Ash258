@@ -73,6 +73,7 @@
 | [Grammarly **(Grammarly)**](./bucket/Grammarly.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Hamsket **(Hamsket)**](./bucket/Hamsket.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream PDF Editor **(IcecreamPDFEditor)**](./bucket/IcecreamPDFEditor.json)                                                                                        |   ✔    |    ✔     |       ❌ (⛔)       |
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.json)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
