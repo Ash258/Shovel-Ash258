@@ -3,8 +3,8 @@
     "description": "YoloMouse. Game cursor changer",
     "homepage": "http://pandateemo.github.io/YoloMouse/",
     "license": {
-        "identifier": "Unlicense",
-        "url": "https://github.com/PandaTeemo/YoloMouse/blob/master/LICENSE.md"
+        "identifier": "CPL-1.0",
+        "url": "https://github.com/PandaTeemo/YoloMouse/blob/master/etc/EULA.rtf"
     },
     "architecture": {
         "64bit": {
