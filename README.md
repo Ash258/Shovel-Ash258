@@ -326,41 +326,49 @@
 
 ### TODOs
 
-| App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
-| ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| VeraCrypt                                                                                 |
-| DJV                                                                                       |
-| EarTrumpet                                                                                |
-| NetworkX                                                                                  |
-| Formatter                                                                                 |
-| notetab                                                                                   |
-| [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                         |
-| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                      |   ❌    |    ✔     |       ✔ (✔)       |
-| ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
-| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                           |
-| [Microsoft Edge Beta **(MicrosoftEdgeBeta)**](./TODO/MicrosoftEdgeBeta.json)              |
-| [Microsoft Edge Dev **(MicrosoftEdgeDev)**](./TODO/MicrosoftEdgeDev.json)                 |
-| [Microsoft Edge Canary **(MicrosoftEdgeCanary)**](./TODO/MicrosoftEdgeCanary.json)        |
-| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                           |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) |   ❌    |    ⭕     |       ⭕ (⭕)       |
-| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             |  ✔🔶   |    ✔     |       ✔ (⛔)       |
-| ----------------------------------------------------------------------------------------- |  ---   |   ---    |       -----       |
-| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    |   ❌    |    ✔     |       ✔ (⛔)       |
-| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
-| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    |   🎃   |    ✔     |       ✔ (✔)       |
-| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     |   ❌    |    ❌     |       ❌ (❌)       |
-| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   |   ❌    |    ❌     |       ❌ (❌)       |
-| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 |   ❌    |    ❌     |       ❌ (❌)       |
-| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                       |   ❌    |    ❌     |       ❌ (❌)       |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               |   ❌    |    ❌     |       ❌ (❌)       |
-| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            |   ❌    |    ❌     |       ❌ (❌)       |
+| App name **(Scoop name)**                                                                        | Tested | Checkver | Autoupdate (Hash) |
+| ------------------------------------------------------------------------------------------------ | :----: | :------: | :---------------: |
+| [Icecream Screen Recorder **(IcecreamScreenRecorder)**](./bucket/IcecreamScreenRecorder.json)    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Video Editor **(IcecreamVideoEditor)**](./bucket/IcecreamVideoEditor.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Ebook Reader **(IcecreamEbookReader)**](./bucket/IcecreamEbookReader.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Slideshow Maker **(IcecreamSlideshowMaker)**](./bucket/IcecreamSlideshowMaker.json)    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream PDF Converter **(IcecreamPDFConverter)**](./bucket/IcecreamPDFConverter.json)          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream PDF Split Merge **(IcecreamPDFSplitMerge)**](./bucket/IcecreamPDFSplitMerge.json)      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Password Manager **(IcecreamPasswordManager)**](./bucket/IcecreamPasswordManager.json) |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Image Resizer **(IcecreamImageResizer)**](./bucket/IcecreamImageResizer.json)          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| VeraCrypt                                                                                        |
+| DJV                                                                                              |
+| EarTrumpet                                                                                       |
+| NetworkX                                                                                         |
+| Formatter                                                                                        |
+| notetab                                                                                          |
+| [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                |
+| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                             |   ❌    |    ✔     |       ✔ (✔)       |
+| -----------------------------------------------------------------------------------------        |  ---   |   ---    |       -----       |
+| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                                  |
+| [Microsoft Edge Beta **(MicrosoftEdgeBeta)**](./TODO/MicrosoftEdgeBeta.json)                     |
+| [Microsoft Edge Dev **(MicrosoftEdgeDev)**](./TODO/MicrosoftEdgeDev.json)                        |
+| [Microsoft Edge Canary **(MicrosoftEdgeCanary)**](./TODO/MicrosoftEdgeCanary.json)               |
+| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                  |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                           |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                                     |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json)        |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json)        |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json)        |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json)        |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json)        |   ❌    |    ⭕     |       ⭕ (⭕)       |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                                    |  ✔🔶   |    ✔     |       ✔ (⛔)       |
+| -----------------------------------------------------------------------------------------        |  ---   |   ---    |       -----       |
+| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                           |   ❌    |    ✔     |       ✔ (⛔)       |
+| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                              |   ❌    |    ❌     |       ❌ (❌)       |
+| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                           |   🎃   |    ✔     |       ✔ (✔)       |
+| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                            |   ❌    |    ❌     |       ❌ (❌)       |
+| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                          |   ❌    |    ❌     |       ❌ (❌)       |
+| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                        |   ❌    |    ❌     |       ❌ (❌)       |
+| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                              |   ❌    |    ❌     |       ❌ (❌)       |
+| [Nox App Player **(Nox)**](./TODO/Nox.json)                                                      |   ❌    |    ❌     |       ❌ (❌)       |
+| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                                   |   ❌    |    ❌     |       ❌ (❌)       |
 
 - 🔶 Additional testing is needed
 - ⭕ Not needed
