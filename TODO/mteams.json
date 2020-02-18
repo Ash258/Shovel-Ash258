@@ -14,9 +14,10 @@
         }
     },
     "extract_dir": "lib\\net45",
+    "extract_to": "cosi",
     "shortcuts": [
         [
-            "Teams.exe",
+            "cosi\\Teams.exe",
             "Microsoft Teams"
         ]
     ],
