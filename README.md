@@ -107,19 +107,18 @@
 | [MiTeC Auto Ping **(AutoPing)**](./bucket/AutoPing.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Certificate Information **(CertificateInformation)**](./bucket/CertificateInformation.json)                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Data Editor **(DataEditor)**](./bucket/DataEditor.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Database Documentation/Code Generator for MS SQL **(DatabaseDocumentation-CodeGeneratorMS)**](./bucket/DatabaseDocumentation-CodeGeneratorMS.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Database Documentation/Code Generator for Interbase/Firebird **(DatabaseDocumentation-CodeGeneratorFB)**](./bucket/DatabaseDocumentation-CodeGeneratorFB.json) |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Database Documentation/Code Generator for MS SQL **(DatabaseDocumentation-CodeGeneratorMS)**](./bucket/DatabaseDocumentation-CodeGeneratorMS.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Delphi Form File Editor **(DFMEditor)**](./bucket/DFMEditor.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DirList **(DirList)**](./bucket/DirList.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC DXF Viewer **(DXFViewer)**](./bucket/DXFViewer.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Email History Browser **(EmailHistoryBrowser)**](./bucket/EmailHistoryBrowser.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC EXE Explorer **(EXEExplorer)**](./bucket/EXEExplorer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Get Adapter Info **(GetAdapterInfo)**](./bucket/GetAdapterInfo.json)                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC INI Editor **(INIEditor)**](./bucket/INIEditor.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Hexadecimal Editor **(HexEdit)**](./bucket/HexEdit.json)                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Icon Explorer **(IconExplorer)**](./bucket/IconExplorer.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC InfoBar **(InfoBar)**](./bucket/InfoBar.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC INI Editor **(INIEditor)**](./bucket/INIEditor.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Instant Messaging History Browser **(InstantMessagingHistoryBrowser)**](./bucket/InstantMessagingHistoryBrowser.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Performance Monitor **(InterbasePerformanceMonitor)**](./bucket/InterbasePerformanceMonitor.json)                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Interbase Query **(InterbaseQuery)**](./bucket/InterbaseQuery.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -137,7 +136,6 @@
 | [MiTeC Photo View **(PhotoView)**](./bucket/PhotoView.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Process Viewer **(ProcessViewer)**](./bucket/ProcessViewer.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC ROM BIOS Explorer **(ROMBIOSExplorer)**](./bucket/ROMBIOSExplorer.json)                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Shell Extension Pack **(ShellExtensionPack)**](./bucket/ShellExtensionPack.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC SQLite Query **(SQLiteQuery)**](./bucket/SQLiteQuery.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Startup Explorer **(StartupExplorer)**](./bucket/StartupExplorer.json)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -146,6 +144,8 @@
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Weather Agent **(WeatherAgent)**](./bucket/WeatherAgent.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json)                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XPing **(XPing)**](./bucket/XPing.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -289,6 +289,7 @@
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)                                                                  |   ✔    |    ✔     |       ❌ (❌)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 
