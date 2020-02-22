@@ -28,6 +28,7 @@
 | [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [AutoClicker Targeted **(AutoClickerTargeted)**](./bucket/AutoClickerTargeted.json)                                                                                   |   ✔    |    ❌     |       ❌ (❌)       |
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.json)                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [BeefText **(BeefText)**](./bucket/BeefText.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [Borderless Gaming **(BorderlessGaming)**](./bucket/BorderlessGaming.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
