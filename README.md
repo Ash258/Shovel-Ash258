@@ -192,6 +192,7 @@
 | [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                                                                             |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
+| [Scribus **(Scribus)**](./bucket/Scribus.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [ScummVM **(ScummVM)**](./bucket/ScummVM.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [Sekiro FPS Unlock And More **(SekiroFPSUnlockAndMore)**](./bucket/SekiroFPSUnlockAndMore.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SharpKeys **(SharpKeys)**](./bucket/SharpKeys.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
