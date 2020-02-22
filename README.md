@@ -31,6 +31,7 @@
 | [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.json)                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [BeefText **(BeefText)**](./bucket/BeefText.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
+| [BlueGriffon **(BlueGriffon)**](./bucket/BlueGriffon.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Borderless Gaming **(BorderlessGaming)**](./bucket/BorderlessGaming.json)                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bzzt! Image Editor **(Bzzt)**](./bucket/Bzzt.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Caret **(Caret)**](./bucket/Caret.json)                                                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
