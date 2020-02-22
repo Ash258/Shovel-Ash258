@@ -85,7 +85,8 @@ Describe 'Changed manifests installation' {
 
     if ($changedFiles.Count -gt 0) {
         scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
-        log @(scoop install 7zip sudo innounp dark *>&1) # Install default apps for manifest manipultion / installation
+        log @(scoop install 7zip sudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
+        scoop config 'MSIEXTRACT_USE_LESSMSI' $true
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
