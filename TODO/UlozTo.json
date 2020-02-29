@@ -1,12 +1,12 @@
 {
-    "version": "2.77",
+    "version": "2.78",
     "description": "UložTo File Manager. Download and upload manager for Uloz.To service.",
     "homepage": "https://uloz.to/windowsapp",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://static.uloz.to/content/UFM64/Uloz.to_Uploader(x64)-setup.exe",
-            "hash": "0fcde600b91e6a519896b267dcefc6e9eff17f867238115b1c6800e806470bdc"
+            "hash": "d206c5f375bceac10054037e0bc845f9d441d74fc166fcf4feccf89686acb782"
         },
         "32bit": {
             "url": "https://uploader.uloz.to/Uloz.to_Uploader-setup.exe",
