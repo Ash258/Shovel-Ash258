@@ -268,6 +268,7 @@
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                                                                                           |   ✔    |    ✔     |       ❌ (⛔)       |
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [TinyMice **(TinyMice)**](./bucket/TinyMice.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander Beta **(TotalCommander-beta)**](./bucket/TotalCommander-beta.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TransMac **(TransMac)**](./bucket/TransMac.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
