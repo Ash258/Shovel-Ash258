@@ -1,7 +1,5 @@
 {
-    "##": [
-        "    Auto add and remove import-module to profiles (pwsh, powershell)"
-    ],
+    "##": "    Auto add and remove import-module to profiles (pwsh, powershell)",
     "version": "0.2.2",
     "description": "Scoop Auto Completion. Allow tab compliton for scoop commands.",
     "homepage": "https://github.com/Moeologist/scoop-completion",
