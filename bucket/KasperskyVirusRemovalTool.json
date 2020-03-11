@@ -4,7 +4,7 @@
     "homepage": "https://support.kaspersky.com/8527",
     "license": "Freeware",
     "url": "http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe",
-    "hash": "c8cce9ad37c98b132f3ddc54d7768d76aa7566e070a2be0dbdf6695490cd54ba",
+    "hash": "d6d18bc193a76c00d9afd5903354113095352cd91a533800b182936f0d9519ed",
     "bin": "KVRT.exe",
     "shortcuts": [
         [
