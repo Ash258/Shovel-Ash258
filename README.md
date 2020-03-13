@@ -333,6 +333,10 @@
 
 | App name **(Scoop name)**                                                                        | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------------------------------------------------------------------------------ | :----: | :------: | :---------------: |
+| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                                  |   ✔    |    ✔     |       ✔ (✔)       |
+| [Microsoft Edge Beta **(MicrosoftEdge-beta)**](./TODO/MicrosoftEdge-beta.json)                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [Microsoft Edge Dev **(MicrosoftEdge-dev)**](./TODO/MicrosoftEdge-dev.json)                      |   ✔    |    ✔     |       ✔ (✔)       |
+| [Microsoft Edge Canary **(MicrosoftEdge-canary)**](./TODO/MicrosoftEdge-canary.json)             |   ✔    |    ✔     |       ✔ (✔)       |
 | [Icecream Screen Recorder **(IcecreamScreenRecorder)**](./bucket/IcecreamScreenRecorder.json)    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Icecream Video Editor **(IcecreamVideoEditor)**](./bucket/IcecreamVideoEditor.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Icecream Ebook Reader **(IcecreamEbookReader)**](./bucket/IcecreamEbookReader.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -351,10 +355,6 @@
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                             |   ❌    |    ✔     |       ✔ (✔)       |
 | -----------------------------------------------------------------------------------------        |  ---   |   ---    |       -----       |
-| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                                  |
-| [Microsoft Edge Beta **(MicrosoftEdgeBeta)**](./TODO/MicrosoftEdgeBeta.json)                     |
-| [Microsoft Edge Dev **(MicrosoftEdgeDev)**](./TODO/MicrosoftEdgeDev.json)                        |
-| [Microsoft Edge Canary **(MicrosoftEdgeCanary)**](./TODO/MicrosoftEdgeCanary.json)               |
 | [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                                  |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                           |   ❌    |    ✔     |       ✔ (⛔)       |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                                     |   ❌    |    ✔     |       ✔ (⛔)       |
