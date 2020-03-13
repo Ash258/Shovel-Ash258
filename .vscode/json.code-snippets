@@ -244,4 +244,9 @@
             "\"post_install\": \"Get-ChildItem \\\\\"\\$dir\\\\\\\\*,[12].*\\\\\" -Recurse | Remove-Item -Force -Recurse\",",
         ],
     },
+    "Empty hash to supress warning": {
+        "prefix": "hashTemplate",
+        "scope": "json,jsonc",
+        "body": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
+    },
 }

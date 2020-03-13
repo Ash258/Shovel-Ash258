@@ -1,3 +1,45 @@
 {
-    "version": "1.0.0"
+    "version": "80.0.361.66",
+    "description": "New, Chromimum based Microsoft Edge",
+    "homepage": "https://www.microsoft.com/en-us/edge",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/2828e59b-2d46-4c1d-8d52-235fe21da25b/MicrosoftEdgeEnterpriseX64.msi",
+            "hash": "279b3e6eb2dde04ca7601ae9c975a95a5057b1fc44e2b7e8a247944164b41eb2"
+        },
+        "32bit": {
+            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/d79c2c42-96fa-40a3-90ca-bdfd0d7c79b0/MicrosoftEdgeEnterpriseX86.msi",
+            "hash": "d111950a40d5dacc5766e82de539b4062e4c05e2f071902c7070ecc240478bd7"
+        }
+    },
+    "bin": "msedge.exe",
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.microsoft.com/en-us/edge/business/download",
+        "regex": "&quot;Stable&quot;.*?Windows&quot;.*?x86&quot;.*?files/(?<id32>[-\\w]+)/MicrosoftEdgeEnterpriseX86\\.msi&quot;.*?Windows&quot;.*?x64&quot;.*?([\\d.]+)&quot;.*?files/(?<id64>[-\\w]+)/MicrosoftEdgeEnterpriseX64\\.msi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/$matchId64/MicrosoftEdgeEnterpriseX64.msi",
+                "hash": {
+                    "url": "https://www.microsoft.com/en-us/edge/business/download",
+                    "regex": "Stable&quot;.*?x64&quot;.*?$basename.*?hash&quot;.*?$sha256&quot;"
+                }
+            },
+            "32bit": {
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/$matchId32/MicrosoftEdgeEnterpriseX86.msi",
+                "hash": {
+                    "url": "https://www.microsoft.com/en-us/edge/business/download",
+                    "regex": "Stable&quot;.*?x86&quot;.*?$basename.*?hash&quot;.*?$sha256&quot;"
+                }
+            }
+        }
+    }
 }

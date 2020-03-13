@@ -1,0 +1,45 @@
+{
+    "version": "82.0.446.0",
+    "description": "New, Chromimum based Microsoft Edge (Canary)",
+    "homepage": "https://www.microsoft.com/en-us/edge",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/7ce9d5ba-cb4e-4483-85f1-fd4b15166a59/MicrosoftEdgeBetaEnterpriseX64.msi",
+            "hash": "a73c6a9d13b5dad860f56ee2d4e05024621d4bd4741d7ee4135c148fc7ac1372"
+        },
+        "32bit": {
+            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/69f44f4d-1cc0-4586-bb3c-200feca39fed/MicrosoftEdgeBetaEnterpriseX86.msi",
+            "hash": "1e45ff2520871a50ede350a5f310d742326522469bded82e62f75afb93f36678"
+        }
+    },
+    "bin": "msedge.exe",
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.microsoft.com/en-us/edge/business/download",
+        "regex": "&quot;Canary&quot;.*?Windows&quot;.*?x64&quot;.*?([\\d.]+)&quot;.*?files/(?<id64>[-\\w]+)/MicrosoftEdgeCanaryEnterpriseX64\\.msi.*?Windows&quot;.*?x86&quot;.*?files/(?<id32>[-\\w]+)/MicrosoftEdgeCanaryEnterpriseX86\\.msi&quot;"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/$matchId64/MicrosoftEdgeCanaryEnterpriseX64.msi",
+                "hash": {
+                    "url": "https://www.microsoft.com/en-us/edge/business/download",
+                    "regex": "Canary&quot;.*?x64&quot;.*?$basename.*?hash&quot;.*?$sha256&quot;"
+                }
+            },
+            "32bit": {
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/$matchId32/MicrosoftEdgeCanaryEnterpriseX86.msi",
+                "hash": {
+                    "url": "https://www.microsoft.com/en-us/edge/business/download",
+                    "regex": "Canary&quot;.*?x86&quot;.*?$basename.*?hash&quot;.*?$sha256&quot;"
+                }
+            }
+        }
+    }
+}

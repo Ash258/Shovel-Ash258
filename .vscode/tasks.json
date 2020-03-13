@@ -192,6 +192,18 @@
             "command": "gci bucket | where { (Get-Content $_.FullName -Raw | ConvertFrom-Json | Select-Object -ExpandProperty description) -like '*sordum*' } |% { & .\\bin\\checkver.ps1 $_.BaseName -f }",
             "problemMatcher": [],
         },
+        {
+            "label": "Test Homepage",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
+            "command": "curl.exe '${selectedText}' -v *>&1 | Select-String '< HTTP/', '< Location:' | Write-Host",
+            "problemMatcher": [],
+        },
     ],
     "inputs": [
         {
