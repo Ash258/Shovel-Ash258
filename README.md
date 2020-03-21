@@ -71,7 +71,7 @@
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.json)                                                                                                 |   ✔    |    ❌     |       ❌ (❌)       |
 | [Grammarly **(Grammarly)**](./bucket/Grammarly.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Hamsket **(Hamsket)**](./bucket/Hamsket.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -281,7 +281,7 @@
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Visual Paradigm Community Edition **(VisualParadigmCE)**](./bucket/VisualParadigmCE.json)                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.json)                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
-| [VMware **(VMware)**](./bucket/VMware.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [VMware **(VMware)**](./bucket/VMware.json)                                                                                                                           |   ✔    |    ✔❗    |       ✔ (✔)       |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
