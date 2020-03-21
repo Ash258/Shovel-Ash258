@@ -35,7 +35,9 @@
     ],
     "persist": "data",
     "checkver": {
-        "github": "https://github.com/jellyfin/jellyfin"
+        "url": "https://repo.jellyfin.org/releases/server/portable/versions/",
+        "regex": "([\\d.]+)/",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
