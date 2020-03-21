@@ -1,16 +1,16 @@
 {
-    "version": "82.0.446.0",
+    "version": "82.0.453.2",
     "description": "New, Chromimum based Microsoft Edge (Develop)",
     "homepage": "https://www.microsoft.com/en-us/edge",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/de050fb6-5ce8-46ec-8081-2b2850d7e26b/MicrosoftEdgeDevEnterpriseX64.msi",
-            "hash": "277e839cfe4a01400a07ca6267a33af2534adc552f502a7532900ba75a005038"
+            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/3ac7a59e-7de0-4452-b329-66ec94f1d6fe/MicrosoftEdgeDevEnterpriseX64.msi",
+            "hash": "8bba7d5b8d7427c73db152d0fc93e08f0cd82beddf8f88207959e3e987b7e321"
         },
         "32bit": {
             "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/9bd9b1a6-6fc8-4788-be8d-e018930f6b15/MicrosoftEdgeDevEnterpriseX86.msi",
-            "hash": "2ffaa08f82d6e922a4493a4b56028cf839107793b49361a17e2183904643375d"
+            "hash": "ee4198786c8f8b19b3ca98ec5a6a6b30fcef6eca8b2a49dfdd39ac5b044ec6e9"
         }
     },
     "bin": [

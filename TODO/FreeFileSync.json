@@ -1,12 +1,13 @@
 {
-    "version": "",
-    "description": "",
-    "homepage": "",
+    "version": "10.22",
+    "description": "FreeFileSync .Folder comparison and synchronization",
+    "homepage": "https://freefilesync.org",
     "license": {
-        "identifier": ""
+        "identifier": "Freeware",
+        "url": "https://freefilesync.org/faq.php#commercial-usage"
     },
-    "url": "https://freefilesync.org/download/FreeFileSync_10.17_Windows_Setup.exe",
-    "hash": "sha1:d3c1b0fc5bea5ff5b77e2d637fdaebc62f4477f5",
+    "url": "https://freefilesync.org/download/FreeFileSync_10.22_Windows_Setup.exe",
+    "hash": "49137cc5b67aad24653bb272a487e6471473d9271f0783f70695acef5cf5034f",
     "innosetup": true,
     "bin": "",
     "shortcuts": [
@@ -16,8 +17,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://freefilesync.org/news-feed.php",
-        "regex": ""
+        "url": "https://freefilesync.org/download.php",
+        "regex": "FreeFileSync\\s+([\\d.]+)\\s+Windows"
     },
     "autoupdate": {
         "url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"

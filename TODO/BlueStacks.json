@@ -1,17 +1,20 @@
 {
-    "##": "windows/bgp/([\\d.]+)/(?<Junk>\\w+)/",
-    "version": "4.150.0.1118",
+    "##": [
+        "windows/bgp/([\\d.]+)/(?<Junk>\\w+)/",
+        "BlueStacks ([\\d.]+) Release Notes"
+    ],
+    "version": "4.180.10.1006",
     "description": "BlueStacks App Player. The fastest android gaming platform for PC",
     "homepage": "https://www.bluestacks.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.150.0.1118/88d655e1ed69a78521a23fceb2352bff/x64/BlueStacks-Installer_4.150.0.1118_amd64_native.exe#/cosi.7z",
-            "hash": "5fc4378b2d119e16a74108d537ca3303a08d684b7f8cfa973537d25a16f71d70"
+            "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.180.10.1006/e7ae43692c12e609434a9316dd9bc128/x64/BlueStacks-Installer_4.180.10.1006_amd64_native.exe#/cosi.7z",
+            "hash": "afd64381c9e68280583fc0255c62291804f4b141b022b1136cf8da852b57c406"
         },
         "32bit": {
-            "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.150.0.1118/88d655e1ed69a78521a23fceb2352bff/x86/BlueStacks-Installer_4.150.0.1118_x86_native.exe#/cosi.7z",
-            "hash": "3f33f8b272af6aa126a35d4d1d40a763cca889980f672b1e211ba3d525ea40d9"
+            "url": "https://cdn3.bluestacks.com/downloads/windows/bgp/4.180.10.1006/e7ae43692c12e609434a9316dd9bc128/x86/BlueStacks-Installer_4.180.10.1006_x86_native.exe#/cosi.7z",
+            "hash": "5d4a259c0bca7a2403803916f081c64121e492fd9b2e920a5f0f4d4448a0c743"
         }
     },
     "extract_to": "INST",
@@ -35,7 +38,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://support.bluestacks.com/hc/en-us/articles/360036444091",
+        "url": "https://support.bluestacks.com/hc/en-us/articles/360039706992",
         "regex": "BlueStacks ([\\d.]+) Release Notes"
     },
     "autoupdate": {
