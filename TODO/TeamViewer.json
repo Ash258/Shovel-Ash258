@@ -1,15 +1,15 @@
 {
-    "version": "15.0.8397",
+    "version": "15.3.8497",
     "description": "Team Viewer. Remote desktop access solutions. Connect to remote computers, provide remote support & collaborate online.",
     "homepage": "https://www.teamviewer.com/en/products/teamviewer/",
-    "license": "",
+    "license": "Proprietary",
     "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe#/cosi.7z",
-    "hash": "e08d5efa1f17b02ba20f9b4987ed744f7635d2103ade64101551767cf319baf4",
+    "hash": "2e547f6118a778517fdd883c127c5e427c205a35208267014cce6fe49b63a2b3",
     "pre_install": [
-        "extract_7zip \"$dir\\`$_4_\\*.exe\" \"$dir\\cosi\"",
+        "Expand-7zipArchive \"$dir\\`$_4_\\*.exe\" \"$dir\\cosi\" -Removal",
         "Get-ChildItem \"$dir\" -Exclude 'cosi' | Remove-Item -Force -Recurse",
         "Remove-Item \"$dir\\cosi\\`$PLUGINSDIR\" -Force -Recurse",
-        "extract_7zip \"$dir\\cosi\\tvfiles.7z\" \"$dir\""
+        "Expand-7zipArchive \"$dir\\cosi\\tvfiles.7z\" \"$dir\" -Removal"
     ],
     "architecture": {
         "64bit": {
@@ -38,7 +38,7 @@
     ],
     "checkver": {
         "url": "https://www.teamviewer.com/en/download/windows/?os=windows",
-        "regex": "\\s+([\\d\\.]+)<p>"
+        "regex": "\\s*([\\d\\.]+)\\s*<p>"
     },
     "autoupdate": {
         "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe#/cosi.7z"

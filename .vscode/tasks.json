@@ -201,7 +201,7 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "curl.exe '${selectedText}' -v *>&1 | Select-String '< HTTP/', '< Location:' | Write-Host",
+            "command": "scoop test-home '${selectedText}'",
             "problemMatcher": [],
         },
     ],
