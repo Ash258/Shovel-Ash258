@@ -13,8 +13,8 @@
 
 ### Available manifests for installation
 
-| App name **(Scoop name)**                                                                                                                                             | Tested | Checkver | Autoupdate (Hash) |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| App name **(Scoop name)**                                                                                                                                             | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
 | [A Ruler For Windows **(ARulerForWindows)**](./bucket/ARulerForWindows.json)                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AdwCleaner **(AdwCleaner)**](./bucket/AdwCleaner.json)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -187,6 +187,7 @@
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.json)                                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
+| [RingCentral Glip **(Glip)**](./bucket/Glip.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [RockstarGameLauncher **(RockstarGameLauncher)**](./bucket/RockstarGameLauncher.json)                                                                                 |   ✔    |    ♻     |       ♻ (♻)       |
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                                                                              |  ✔🔶   |    ✔     |       ✔ (✔)       |
 | [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
