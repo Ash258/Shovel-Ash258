@@ -1,6 +1,6 @@
 {
     "version": "10.22",
-    "description": "FreeFileSync .Folder comparison and synchronization",
+    "description": "FreeFileSync. Folder comparison and synchronization",
     "homepage": "https://freefilesync.org",
     "license": {
         "identifier": "Freeware",
@@ -9,11 +9,18 @@
     "url": "https://freefilesync.org/download/FreeFileSync_10.22_Windows_Setup.exe",
     "hash": "49137cc5b67aad24653bb272a487e6471473d9271f0783f70695acef5cf5034f",
     "innosetup": true,
-    "bin": "",
+    "bin": [
+        "FreeFileSync.exe",
+        "RealTimeSync.exe"
+    ],
     "shortcuts": [
         [
-            ".exe",
-            ""
+            "FreeFileSync.exe",
+            "FreeFileSync"
+        ],
+        [
+            "RealTimeSync.exe",
+            "RealTimeSync"
         ]
     ],
     "checkver": {

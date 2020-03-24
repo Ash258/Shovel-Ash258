@@ -66,6 +66,7 @@
 | [Fix Windows 7/Vista **(FixWin7)**](./bucket/FixWin7.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 8/8.1 **(FixWin8)**](./bucket/FixWin8.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Flashpoint Infinity **(FlashpointInfinity)**](./bucket/FlashpointInfinity.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Flock **(Flock)**](./bucket/Flock.json)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FreeRapid Downloader **(FRD)**](./bucket/FRD.json)                                                                                                                   |   ✔    |    ❌     |       ❌ (⛔)       |
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -335,7 +336,6 @@
 | App name **(Scoop name)** | Tested | Checkver | Autoupdate (Hash) |
 | ------------------------- | :----: | :------: | :---------------: |
 chanty
-flock
 ryver
 flowdock
 zulipchat
