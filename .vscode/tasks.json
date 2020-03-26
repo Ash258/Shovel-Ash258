@@ -24,6 +24,29 @@
             "problemMatcher": [],
         },
         {
+            "label": "Check hahes",
+            "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
+            "args": [
+                "-Update",
+                "-UseCache",
+            ],
+            "command": ".\\bin\\checkhashes.ps1",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+            },
+            "group": "test",
+            "problemMatcher": [],
+        },
+        {
             // Default (While opened file, Press CTRL+F9 / CTRL+SHIFT+B)
             "label": "Check and update (Actual)",
             "type": "shell",
