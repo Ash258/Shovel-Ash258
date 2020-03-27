@@ -1,10 +1,10 @@
 {
-    "version": "6.14",
+    "version": "6.15",
     "description": "Icecream Screen Recorder",
     "homepage": "https://icecreamapps.com/Screen-Recorder/",
     "license": "Proprietary",
     "url": "http://download.icecreamapps.com/screen_recorder_setup.exe",
-    "hash": "a62b0f30ca247022c68d91a3ba01c91baebad36c389a7e1fd656f6e580492357",
+    "hash": "f4593d9ffe3e89d8a2bc0963a9af1825d03c729d14149b2a3e6ba9e194f7ef1e",
     "innosetup": true,
     "architecture": {
         "64bit": {
