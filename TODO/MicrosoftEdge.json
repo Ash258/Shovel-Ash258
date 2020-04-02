@@ -1,16 +1,16 @@
 {
-    "version": "80.0.361.66",
+    "version": "80.0.361.109",
     "description": "New, Chromimum based Microsoft Edge",
     "homepage": "https://www.microsoft.com/en-us/edge",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/2828e59b-2d46-4c1d-8d52-235fe21da25b/MicrosoftEdgeEnterpriseX64.msi",
-            "hash": "279b3e6eb2dde04ca7601ae9c975a95a5057b1fc44e2b7e8a247944164b41eb2"
+            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/812c141f-8680-4aaa-83d2-f99316588162/MicrosoftEdgeEnterpriseX64.msi",
+            "hash": "a8bec701783cf031b4d3d0c4e0476de5461cf9d1482e462e630f3164b3f50e94"
         },
         "32bit": {
-            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/d79c2c42-96fa-40a3-90ca-bdfd0d7c79b0/MicrosoftEdgeEnterpriseX86.msi",
-            "hash": "d111950a40d5dacc5766e82de539b4062e4c05e2f071902c7070ecc240478bd7"
+            "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/70874dc1-b23c-4634-ba85-84788783a1c4/MicrosoftEdgeEnterpriseX86.msi",
+            "hash": "0c1ca1c2a75e8e08da598195ead4ecd74bdab9507468f7541bacf3a04926cc2b"
         }
     },
     "bin": "msedge.exe",
