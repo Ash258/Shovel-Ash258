@@ -1,5 +1,5 @@
 {
-    "version": "10.0.128.3",
+    "version": "10.0.131.3",
     "description": "Wavebox 10 Beta. A distraction-free browser for fast and focused working across all web apps.",
     "homepage": "https://wavebox.io",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.wavebox.app/beta/win/Install%20Wavebox%2010.0.128.3.exe#/cosi.7z",
-            "hash": "c90e715653cf29f8d08d424e6399b82b69fd3c3485e9dd676b93aac9a0efd186"
+            "url": "https://download.wavebox.app/beta/win/Install%20Wavebox%2010.0.131.3.exe#/cosi.7z",
+            "hash": "d1283f3ad564c222d94aea3e157bda792fc91e606b72a7e453691984b57ce224"
         }
     },
     "installer": {
