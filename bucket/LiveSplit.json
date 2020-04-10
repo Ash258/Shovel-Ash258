@@ -1,13 +1,13 @@
 {
-    "version": "1.8.5",
+    "version": "1.8.6",
     "description": "LiveSplit. Timer for speedrunners",
     "homepage": "https://livesplit.org",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/LiveSplit/LiveSplit/blob/master/LICENSE"
     },
-    "url": "https://github.com/LiveSplit/LiveSplit/releases/download/1.8.5/LiveSplit_1.8.5.zip",
-    "hash": "54a8f4df21db63011a284482d97d492a2cd21449f0416404c9a663915ece5b04",
+    "url": "https://github.com/LiveSplit/LiveSplit/releases/download/1.8.6/LiveSplit_1.8.6.zip",
+    "hash": "ed4e640aca3d41f4c13d8380b01c3d78e66304f4f5f787a35a4deb373f4cdc2b",
     "bin": "LiveSplit.exe",
     "shortcuts": [
         [
