@@ -1,13 +1,13 @@
 {
-    "version": "1.6.1",
+    "version": "1.7.0",
     "description": "Pode. Powershell framework for creating web servers that host REST APIs, Web Sites, and TCP/SMTP Servers.",
     "homepage": "https://badgerati.github.io/Pode/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Badgerati/Pode/blob/develop/LICENSE.txt"
     },
-    "url": "https://github.com/Badgerati/Pode/releases/download/v1.6.1/1.6.1-Binaries.zip",
-    "hash": "aedd3e9872d347921d0fe998da848431d2b5a1348093e4b1e0e23949fa11169b",
+    "url": "https://github.com/Badgerati/Pode/releases/download/v1.7.0/1.7.0-Binaries.zip",
+    "hash": "3bd2fe430a7f8ab41905f586d9b5d1822355fec8bf2ab990a79d2b41ad619c5e",
     "psmodule": {
         "name": "Pode"
     },
