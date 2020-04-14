@@ -1,6 +1,6 @@
 {
     "homepage": "https://code.visualstudio.com",
-    "version": "1.44.0",
+    "version": "1.44.1",
     "description": "Portable code for vim education",
     "license": {
         "identifier": "Freeware",
@@ -9,12 +9,12 @@
     "depends": "vim",
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.44.0/win32-x64-archive/stable#/dl.zip",
-            "hash": "57bd10024f55609aa27370cf1fab7e57ea8d9a4910e87852fe09e76334e4ff3b"
+            "url": "https://vscode-update.azurewebsites.net/1.44.1/win32-x64-archive/stable#/dl.zip",
+            "hash": "bdf6537463605200133a3b2a4c5b6ccdf85694f96aa79c360c8a91de08a00a3c"
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.44.0/win32-archive/stable#/dl.zip",
-            "hash": "06d835b9de31806ecd30fbb4eaf29f32f257c81b751641aace4a1514bb09f7b2"
+            "url": "https://vscode-update.azurewebsites.net/1.44.1/win32-archive/stable#/dl.zip",
+            "hash": "6852ecef7c5f6d2e08c0a92673a99f7818b1d679dfa856317614e2ac9038daac"
         }
     },
     "pre_install": [
