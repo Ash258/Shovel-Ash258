@@ -13,10 +13,6 @@
             "TeamSpeak 5"
         ]
     ],
-    "checkver": {
-        "url": "https://www.teamspeak.com/en/downloads#ts5",
-        "regex": "Expected:\\s*(.*)</"
-    },
     "autoupdate": {
         "url": "https://cosi#/cosi.7z",
         "hash": {
