@@ -1,5 +1,5 @@
 {
-    "version": "20.2.10.29",
+    "version": "20.2.11.32",
     "description": "RingCentral Glip. Collaborative team messaging app",
     "homepage": "https://glip.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.ringcentral.com/glip/rc/20.2.10/x64/RingCentral-20.2.10-x64.exe#/cosi.7z",
-            "hash": "0fc2ca93a878bb510ae277f0f84ad963f4efb57c7300ed18e745a531e42f3480"
+            "url": "https://downloads.ringcentral.com/glip/rc/20.2.11/x64/RingCentral-20.2.11-x64.exe#/cosi.7z",
+            "hash": "5913010886642ac73ce4a3a44902d3f0685def589054b4206d4ff0282e273082"
         }
     },
     "installer": {
