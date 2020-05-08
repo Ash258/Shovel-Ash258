@@ -44,8 +44,6 @@
 | [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [CloneApp Universal Apps **(CloneAppUA)**](./bucket/CloneAppUA.json)                                                                                                  |   ✔    |    ✔     |       ✔ (✔)       |
 | [Concat **(Concat)**](./bucket/Concat.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                                                                                                                  |  ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)                                                                                                  |  ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
@@ -53,7 +51,7 @@
 | [DirectX-SDK **(DirectX-SDK)**](./bucket/DirectX-SDK.json)                                                                                                            |   ✔    |    ❌     |       ❌ (❌)       |
 | [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                                                                                      |   ❌    |    ✔     |       ✔ (✔)       |
-| [Docker **(docker)**](./bucket/docker.json)                                                                                                                           |   🎃   |    ♻     |       ♻ (♻)       |
+| [Docker **(docker)**](./bucket/docker.json)                                                                                                                           |   🎃    |    ♻     |       ♻ (♻)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Emby **(Emby)**](./bucket/Emby.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [EmbyTheater **(EmbyTheater)**](./bucket/EmbyTheater.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -156,7 +154,7 @@
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [mRemoteNG PreRelease **(mRemoteNG-pre)**](./bucket/mRemoteNG-pre.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                                                                                              |  ✔🔶   |    ✔     |       ✔ (✔)       |
+| [Mudfish VPN **(MudfishVPN)**](./bucket/MudfishVPN.json)                                                                                                              |   ✔🔶   |    ✔     |       ✔ (✔)       |
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.json)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NetworkNotepad **(NetworkNotepad)**](./bucket/NetworkNotepad.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NetworkNotepad Professional Edition **(NetworkNotepad-pro)**](./bucket/NetworkNotepad-pro.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -190,7 +188,7 @@
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [RingCentral Glip **(Glip)**](./bucket/Glip.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [RockstarGameLauncher **(RockstarGameLauncher)**](./bucket/RockstarGameLauncher.json)                                                                                 |   ✔    |    ♻     |       ♻ (♻)       |
-| [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                                                                              |  ✔🔶   |    ✔     |       ✔ (✔)       |
+| [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                                                                              |   ✔🔶   |    ✔     |       ✔ (✔)       |
 | [Save Wizard For PS4 **(SaveWizardForPS4)**](./bucket/SaveWizardForPS4.json)                                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                                                                             |   ✔    |    ♻     |       ♻ (♻)       |
 | [Scrapers **(Scrapers)**](./bucket/Scrapers.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
@@ -371,11 +369,11 @@ bitrix24
 | [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) | ❌   | ⭕   | ⭕ (⭕) |
 | [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌   | ⭕   | ⭕ (⭕) |
 | [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             | ✔🔶 | ✔   | ✔ (⛔) |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             | ✔🔶  | ✔   | ✔ (⛔) |
 | ----------------------------------------------------------------------------------------- | --- | --- | ----- |
 | [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    | ❌   | ✔   | ✔ (⛔) |
 | [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌   | ❌   | ❌ (❌) |
-| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃  | ✔   | ✔ (✔) |
+| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃   | ✔   | ✔ (✔) |
 | [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌   | ❌   | ❌ (❌) |
 | [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌   | ❌   | ❌ (❌) |
 | [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 | ❌   | ❌   | ❌ (❌) |
