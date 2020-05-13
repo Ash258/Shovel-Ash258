@@ -212,7 +212,7 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "gci bucket | where { $dsc = (Get-Content $_.FullName -Raw | ConvertFrom-Json).description; $dsc -like '*sordum*' -or $dsc -like 'Kaspersky*' } |% { & .\\bin\\checkver.ps1 $_.BaseName -f }",
+            "command": ".\\bin\\sordum.ps1",
             "problemMatcher": [],
         },
         {
