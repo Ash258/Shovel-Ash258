@@ -36,7 +36,7 @@
         }
     },
     "persist": "Fab.ini",
-    "checkver": "v([\\d.]+)",
+    "checkver": "Fab\\)\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://www.sordum.org/files/firewall-app-blocker/fab.zip"
     }

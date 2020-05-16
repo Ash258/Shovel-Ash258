@@ -1,7 +1,7 @@
 {
     "version": "1.2",
     "description": "Sordum's Easy Service Optimizer",
-    "homepage": "https://www.sordum.org/easy-service-optimizer",
+    "homepage": "https://www.sordum.org/8637/",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.sordum.org/eula/"
@@ -17,7 +17,7 @@
         ]
     ],
     "persist": "eso.ini",
-    "checkver": "v([\\d.]+)",
+    "checkver": "Easy Service Optimizer\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://www.sordum.org/files/easy-service-optimizer/eso.zip"
     }
