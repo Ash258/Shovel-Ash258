@@ -1,5 +1,5 @@
 {
-    "version": "1.3",
+    "version": "1.4",
     "description": "Sordum's Removable Access Tool. Disable USB Storage access or enable write protection.",
     "homepage": "https://www.sordum.org/8104/",
     "license": {
@@ -7,14 +7,34 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/ratool/Ratool.zip",
-    "hash": "929f8b3f38e23b66bac56760f233611f0c3ccf0493e41211d6021c3585616a12",
-    "extract_dir": "Ratool_v1.3",
-    "shortcuts": [
-        [
-            "Ratool.exe",
-            "Sordum\\Removable Access Tool"
-        ]
-    ],
+    "hash": "35d8befde0348d72e1e8815852e95c639663035d9de81084dcdc709e18950765",
+    "extract_dir": "Ratool_v1.4",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "Ratool_x64.exe",
+                [
+                    "Ratool_x64.exe",
+                    "Ratool"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Ratool_x64.exe",
+                    "Sordum\\Removable Access Tool"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "Ratool.exe",
+            "shortcuts": [
+                [
+                    "Ratool.exe",
+                    "Sordum\\Removable Access Tool"
+                ]
+            ]
+        }
+    },
     "persist": "Ratool.ini",
     "checkver": "Ratool\\s*v([\\d.]+)\\s*What",
     "autoupdate": {
