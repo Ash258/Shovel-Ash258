@@ -1,10 +1,10 @@
 {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "MiTeC SQLite Query. SQLite3 databases administration and data manipulation tool",
     "homepage": "https://www.mitec.cz/sqliteq.html",
     "license": "Proprietary",
     "url": "https://www.mitec.cz/Downloads/SQLiteQ.zip",
-    "hash": "693c7b3037523abdff79ea36893f4b47a56c1e42eb87e3cbcd26c61d5cdbc0fb",
+    "hash": "65292e34f4bb25b671c4c54c4e1e607c81d71de9f1fdb9d8c4f95afe04626828",
     "bin": "SQLiteQuery.exe",
     "shortcuts": [
         [
