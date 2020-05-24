@@ -21,7 +21,6 @@
 | [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Extreme **(Aida64)**](./bucket/Aida64.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [API Monitor **(APIMonitor)**](./bucket/APIMonitor.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AppVeyor Server **(appveyor-server)**](./bucket/appveyor-server.json)                                                                                                |   ❌    |    ✔     |       ✔ (⛔)       |
 | [arcconf **(arcconf)**](./bucket/arcconf.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -295,6 +294,15 @@
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+
+### Deprecated
+
+| App name **(Scoop name)**                                                         | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
+| --------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
+| [API Monitor **(APIMonitor)**](./bucket/APIMonitor.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./bucket/TrainerManager.json) |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                              |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)              |   ✔🔶   |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 
