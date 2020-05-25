@@ -1,12 +1,12 @@
 {
-    "version": "2.33",
+    "version": "2.41",
     "description": "ExperienceIndexOK. Effective solution to read and show Windows Experience Index.",
     "homepage": "https://www.softwareok.com/?seite=Microsoft/ExperienceIndexOK/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/ExperienceIndexOK_x64_Portable.zip",
-            "hash": "5556a5fdd73a4f1b6a2b26fefc82e9d30ce439b08bbf1822e3db69bc04380a17",
+            "hash": "72b21f7854824d80349fae1ec80ef32dbe03d157280bb3c233bc40af758a1512",
             "shortcuts": [
                 [
                     "ExperienceIndexOK_x64_p.exe",
@@ -16,7 +16,7 @@
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/ExperienceIndexOK_Portable.zip",
-            "hash": "da4380a235dc375d65b31e3de6fa713c014e21ffd37be32e71ccb4745c39fa4d",
+            "hash": "f8dc056d1ce74d08c1c0599092ef1cbcf57c2cb41a57eadf10e544657f5643ae",
             "shortcuts": [
                 [
                     "ExperienceIndexOK_p.exe",
