@@ -1,13 +1,13 @@
 {
-    "version": "7.0.16",
+    "version": "7.0.17",
     "description": "Postbox. Powerful, feature-rich, intuitive and customizable email client.",
     "homepage": "https://www.postbox-inc.com",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.postbox-inc.com/legal/eula"
     },
-    "url": "https://d3nx85trn0lqsg.cloudfront.net/win/postbox-7.0.16-win32.exe#/cosi.7z",
-    "hash": "ef6684940e3e90e7714df2e95655127c203dde1f34d4e2c1fb595d5754458fae",
+    "url": "https://d3nx85trn0lqsg.cloudfront.net/win/postbox-7.0.17-win32.exe#/cosi.7z",
+    "hash": "0dfc9e4b350bbd85f646d2b6ed136f2710e92d968ec7596deec06c05cbb600f9",
     "extract_dir": "core",
     "shortcuts": [
         [
