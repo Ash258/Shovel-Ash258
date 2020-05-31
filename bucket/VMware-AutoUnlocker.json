@@ -1,5 +1,5 @@
 {
-    "version": "1.1",
+    "version": "1.1.1",
     "description": "VMWare Auto Unlocker. Create/use macOS virtual machines inside VMware.",
     "homepage": "https://github.com/paolo-projects/auto-unlocker",
     "license": {
@@ -11,7 +11,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/paolo-projects/auto-unlocker/releases/download/v1.1/Unlocker.zip",
+            "url": "https://github.com/paolo-projects/auto-unlocker/releases/download/v1.1.1/Unlocker.zip",
             "hash": "e4d784cc0e3da50fd1961f2ff00adc2a713faafb8ac5584fbd14df93a53d1ffc"
         }
     },
