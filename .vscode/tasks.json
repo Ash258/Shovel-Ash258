@@ -227,6 +227,18 @@
             "command": "scoop test-home '${selectedText}'",
             "problemMatcher": [],
         },
+        {
+            "label": "Download",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "SCOOP_DEBUG": "true",
+                },
+            },
+            "command": "scoop download '${file}' -bs",
+            "problemMatcher": [],
+        },
     ],
     "inputs": [
         {
