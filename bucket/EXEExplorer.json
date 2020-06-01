@@ -4,7 +4,7 @@
     "homepage": "https://www.mitec.cz/exe.html",
     "license": "Proprietary",
     "url": "https://www.mitec.cz/Downloads/EXE.zip",
-    "hash": "da5ca7dc70fe76b36e10787b9b71891a238c0864d3c69d0cd6398dbfa62d351f",
+    "hash": "2e30e6f68330b2ed61c54c78200a26da22a70f439ce1e8b4f9f0942b2fba7aff",
     "installer": {
         "script": [
             "$p = appdir 'TaskManagerDeLuxe' $global",
