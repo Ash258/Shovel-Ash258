@@ -1,11 +1,11 @@
 {
     "##": "Network Notepad Professional License Agreement.rtf",
-    "version": "1.3.84",
+    "version": "1.3.85",
     "description": "Network Notepad Professional Edition. Interactive network diagrams creator",
     "homepage": "https://www.networknotepad.com/index.shtml",
     "license": "Proprietary",
     "url": "https://www.networknotepad.com/Prosetup.zip",
-    "hash": "79ee547d5f237660e7c736cbac148051fa77c78a66a99a9ca4573c19e8df4d33",
+    "hash": "269b80bc8fe211ca7725c9b26b5af2f2eb5f3a17cb94f1d1e5e9bc798c299fbc",
     "installer": {
         "script": [
             "Expand-InnoArchive \"$dir\\Prosetup.exe\" -ExtractDir '{code_DefAppDataFolder}' -DestinationPath \"$env:APPDATA\"",
