@@ -16,7 +16,7 @@
         ]
     ],
     "checkver": {
-        "regex": "\\w+\\s\\w+\\s\\d{4}\\. Ultimate Windows Tweaker ([\\d.]+)",
+        "regex": "\\d{4}\\.\\s+Ultimate Windows Tweaker ([\\d.]+)",
         "reverse": true
     },
     "autoupdate": {
