@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.mitec.cz/Downloads/TMX64.zip",
-            "hash": "dadd21f51ef627c28d0962f53de6e42389b71d3bc9429f7a0c8f8523055ab76f"
+            "hash": "15b8ba2c8b1698f61d75aff9be0af2935903ec724c96a41c747f3f5473e22e26"
         },
         "32bit": {
             "url": "https://www.mitec.cz/Downloads/TMX.zip",
-            "hash": "978521917f98af7622a19699747eda3f00045984c4dc0354d9c2947203f37374"
+            "hash": "96733b941b4b250d7507a10f405382a45e3583a267765767173afeb3c94bbe79"
         }
     },
     "pre_install": "Get-ChildItem $dir 'TMX*exe' | Rename-Item -NewName 'TMX.exe'",
