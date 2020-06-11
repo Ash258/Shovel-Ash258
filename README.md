@@ -67,7 +67,7 @@
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Get Video Details **(GVD)**](./bucket/GVD.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.json)                                                                                                 |   ✔    |    ❌     |       ❌ (❌)       |
 | [Grammarly **(Grammarly)**](./bucket/Grammarly.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Hamsket **(Hamsket)**](./bucket/Hamsket.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
