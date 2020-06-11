@@ -111,6 +111,9 @@
                 "-Force",
             ],
             "problemMatcher": [],
+            "runOptions": {
+                "instanceLimit": 99,
+            },
         },
         {
             "label": "Checkhashes Actual",
@@ -129,6 +132,9 @@
                 "-Force",
             ],
             "problemMatcher": [],
+            "runOptions": {
+                "instanceLimit": 99,
+            },
         },
         {
             "label": "Purge Uninstall Actual",
@@ -144,10 +150,11 @@
                 "'${fileBasenameNoExtension}'",
                 "-p",
             ],
+            "problemMatcher": [],
             "runOptions": {
+                "instanceLimit": 99,
                 "reevaluateOnRerun": false,
             },
-            "problemMatcher": [],
         },
         {
             "label": "Install Actual",
@@ -164,10 +171,11 @@
                 "--arch",
                 "${input:pickArchitectureType}",
             ],
+            "problemMatcher": [],
             "runOptions": {
                 "reevaluateOnRerun": false,
+                "instanceLimit": 99,
             },
-            "problemMatcher": [],
         },
         {
             "label": "ReInstall Actual",
@@ -183,6 +191,9 @@
             ],
             "dependsOrder": "sequence",
             "problemMatcher": [],
+            "runOptions": {
+                "instanceLimit": 99,
+            },
         },
         {
             "label": "Force Update Actual",
@@ -198,10 +209,11 @@
                 "'${fileBasenameNoExtension}'",
                 "-f",
             ],
+            "problemMatcher": [],
             "runOptions": {
                 "reevaluateOnRerun": false,
+                "instanceLimit": 99,
             },
-            "problemMatcher": [],
         },
         {
             "label": "Sordum Updates",
@@ -238,6 +250,9 @@
             },
             "command": "scoop download '${file}' -bs",
             "problemMatcher": [],
+            "runOptions": {
+                "instanceLimit": 99,
+            }
         },
     ],
     "inputs": [
