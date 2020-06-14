@@ -1,0 +1,22 @@
+{
+    "version": "6.0.0-5112508",
+    "description": "",
+    "homepage": "",
+    "license": {
+        "identifier": ""
+    },
+    "url": "http://vsphereclient.vmware.com/vsphereclient/5/1/1/2/5/0/8/VMware-viclient-all-6.0.0-5112508.exe",
+    "hash": "36224467f8b0dc26738828b65f351e5728cff88dab2c0224119df81f8c47b9e4",
+    "installer": {
+        "args": [
+            "a"
+        ]
+    },
+    "bin": "",
+    "shortcuts": [
+        [
+            ".exe",
+            ""
+        ]
+    ]
+}
