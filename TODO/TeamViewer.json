@@ -1,10 +1,10 @@
 {
-    "version": "15.4.8332",
+    "version": "15.6.7",
     "description": "Team Viewer. Remote desktop access solutions. Connect to remote computers, provide remote support & collaborate online.",
     "homepage": "https://www.teamviewer.com/en/products/teamviewer/",
     "license": "Proprietary",
     "url": "https://dl.tvcdn.de/download/TeamViewer_Setup.exe#/cosi.7z",
-    "hash": "17db6c7ed3c0b9e6e7bf3cbd9dfde8714179c733025fec84077b9e8f91a9d43b",
+    "hash": "c8dc0c36c1d444fc73ce15225fb70c1dd0c727c581dfd60dfe7ec1c1544fd295",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$_4_\\*.exe\" \"$dir\\cosi\" -Removal",
         "Get-ChildItem \"$dir\" -Exclude 'cosi' | Remove-Item -Force -Recurse",
