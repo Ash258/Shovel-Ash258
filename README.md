@@ -58,6 +58,7 @@
 | [Eusing Cleaner **(EusingCleaner)**](./bucket/EusingCleaner.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.json)                                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [FastShare Download Manager **(FastShare)**](./bucket/FastShare.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Fiddler Everywhere **(FiddlerEverywhere)**](./bucket/FiddlerEverywhere.json)                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [Fix Windows 10 **(FixWin10)**](./bucket/FixWin10.json)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 7/Vista **(FixWin7)**](./bucket/FixWin7.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 8/8.1 **(FixWin8)**](./bucket/FixWin8.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
