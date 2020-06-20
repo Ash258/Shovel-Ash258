@@ -91,6 +91,7 @@
 | [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.json)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                                                                                |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Kodi **(Kodi)**](./bucket/Kodi.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Komodo Edit **(KomodoEdit)**](./bucket/KomodoEdit.json)                                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
