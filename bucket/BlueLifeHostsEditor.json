@@ -7,18 +7,38 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/bluelife-host-editor/bl_hst_edit.zip",
-    "hash": "e1e0c7e65f52dd512fe34ed6a80aced5cde8be5708bfc6fde5c9f8112ba04d99",
-    "extract_dir": "bl_hosts_editor",
-    "bin": "HostsEditor.exe",
-    "shortcuts": [
-        [
-            "HostsEditor.exe",
-            "Sordum\\BlueLife Hosts Editor"
-        ]
-    ],
-    "persist": "HostsEditor.ini",
+    "hash": "d45b837067a2748b5fad2b2cb2dfae4ad699f1e3c058fe27ba0239ab6cd1b31a",
+    "extract_dir": "HostsEditor_v1.3",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "hEdit_x64.exe",
+                [
+                    "hEdit_x64.exe",
+                    "hEdit"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "hEdit_x64.exe",
+                    "Sordum\\BlueLife Hosts Editor"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "hEdit.exe",
+            "shortcuts": [
+                [
+                    "hEdit.exe",
+                    "Sordum\\BlueLife Hosts Editor"
+                ]
+            ]
+        }
+    },
+    "persist": "hEdit.ini",
     "checkver": "BlueLife Hosts Editor\\s*v([\\d.]+)",
     "autoupdate": {
-        "url": "https://www.sordum.org/files/bluelife-host-editor/bl_hst_edit.zip"
+        "url": "https://www.sordum.org/files/bluelife-host-editor/bl_hst_edit.zip",
+        "extract_dir": "HostsEditor_v$version"
     }
 }
