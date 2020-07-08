@@ -287,6 +287,7 @@
 | [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wavebox-beta **(Wavebox-beta)**](./bucket/Wavebox-beta.json)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wi-Fi Password Revealer **(WifiPasswordRevealer)**](./bucket/WifiPasswordRevealer.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Win Toolkit **(WinToolkit)**](./bucket/WinToolkit.json)                                                                                                              |   ✔    |    ✔     |       ❌ (❌)       |
 | [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                                                                                        |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
