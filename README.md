@@ -296,7 +296,7 @@
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
-| [Wise Disk Claner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Deprecated
 
