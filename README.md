@@ -244,6 +244,7 @@
 | [Sordum's Simple Run Blocker **(SimpleRunBlocker)**](./bucket/SimpleRunBlocker.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Simple VHD Manager **(SimpleVHDManager)**](./bucket/SimpleVHDManager.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Streams Remover **(StreamsRemover)**](./bucket/StreamsRemover.json)                                                                                         |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Switch Power Scheme **(SwitchPowerScheme)**](./bucket/SwitchPowerScheme.json)                                                                               |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Temp Cleaner **(TempCleaner)**](./bucket/TempCleaner.json)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Tunnel Adapter Microsoft 6to4 Adapter Remover **(6to4Remover)**](./bucket/6to4Remover.json)                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Update Time **(UpdateTime)**](./bucket/UpdateTime.json)                                                                                                     |   ✔    |    ✔     |       ✔(⛔)        |
