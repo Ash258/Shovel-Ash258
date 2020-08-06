@@ -78,6 +78,7 @@
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.json)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
 | [Jellyfin **(Jellyfin)**](./bucket/Jellyfin.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
+| [JetBrains Space **(JetBrains-Space)**](./bucket/JetBrains-Space.json)                                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [Kaspersky's CoinVaultDecryptor **(CoinVaultDecryptor)**](./bucket/CoinVaultDecryptor.json)                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's RakhniDecryptor **(RakhniDecryptor)**](./bucket/RakhniDecryptor.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's RannohDecryptor **(RannohDecryptor)**](./bucket/RannohDecryptor.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -297,7 +298,7 @@
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
-| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Deprecated
 
