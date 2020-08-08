@@ -102,7 +102,6 @@
 | [Meazure **(Meazure)**](./bucket/Meazure.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.json)                                                               |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.json)                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
-| [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./bucket/MiniToolPartitionWizard.json)                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Account List **(AccountList)**](./bucket/AccountList.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC AD Explorer **(ADExplorer)**](./bucket/ADExplorer.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC ADO Query **(ADOQuery)**](./bucket/ADOQuery.json)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -302,12 +301,13 @@
 
 ### Deprecated
 
-| App name **(Scoop name)**                                                         | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
-| --------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
-| [API Monitor **(APIMonitor)**](./bucket/APIMonitor.json)                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CheatHappens Trainer Manager **(TrainerManager)**](./bucket/TrainerManager.json) |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CosMOS Advanced **(CosMOS)**](./bucket/CosMOS.json)                              |   ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CosMOS Beginner **(CosMOSBeginner)**](./bucket/CosMOSBeginner.json)              |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| App name **(Scoop name)**                                                                                 | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
+| --------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
+| [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.json)                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.json)                                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.json)                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 
