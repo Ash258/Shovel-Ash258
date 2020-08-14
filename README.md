@@ -2,6 +2,8 @@
 
 `scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'`
 
+❗❗ [For the most optimized scoop experience use "shovel" implementation](https://github.com/Ash258/Scoop-Core) ❗❗
+
 - [How to write manifests](./.github/CONTRIBUTING.md)
 
 - [Manifests](#manifests)
