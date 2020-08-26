@@ -89,7 +89,7 @@
 | [Kaspersky's ScraperDecryptor **(ScraperDecryptor)**](./bucket/ScraperDecryptor.json)                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's ShadeDecryptor **(ShadeDecryptor)**](./bucket/ShadeDecryptor.json)                                                                                       |   ✔    |    ❌     |         ❌         |
 | [Kaspersky's TDSSKiller **(TDSSKiller)**](./bucket/TDSSKiller.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's Virus Removal Tool **(KasperskyVirusRemovalTool)**](./bucket/KasperskyVirusRemovalTool.json)                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's Virus Removal Tool **(KasperskyVirusRemovalTool)**](./bucket/KasperskyVirusRemovalTool.json)                                                             |   ✔    |    ♻     |       ♻(♻)        |
 | [Kaspersky's WildfireDecryptor **(WildfireDecryptor)**](./bucket/WildfireDecryptor.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
