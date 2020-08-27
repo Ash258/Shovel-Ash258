@@ -4,7 +4,7 @@
     "homepage": "https://coderbag.com/product/quickcpu",
     "license": "Unknown",
     "url": "https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup.zip",
-    "hash": "4e3a1b43342c9956e686cbdd7498f4ac31e2cd0af91afab308e4aa3bbd225323",
+    "hash": "3cc975a6e64162d9fad19c9b2b162283533b828d2effd95b993c6eab1917623f",
     "architecture": {
         "64bit": {
             "extract_dir": "x64"
