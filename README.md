@@ -239,6 +239,7 @@
 | [Sordum's Restore Desktop Icon Layouts **(ReIcon)**](./bucket/ReIcon.json)                                                                                            |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Router Default Password **(RouterDefaultPassword)**](./bucket/RouterDefaultPassword.json)                                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's RunAsTool **(RunAsTool)**](./bucket/RunAsTool.json)                                                                                                         |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Safe Mode Launcher **(SafeModeLauncher)**](./bucket/SafeModeLauncher.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's Send Windows Key **(SendWindowsKey)**](./bucket/SendWindowsKey.json)                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Sordum's Sendto Menu Editor **(SendToMenuEditor)**](./bucket/SendToMenuEditor.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Show Desktop Icons **(ShowDesktopIcons)**](./bucket/ShowDesktopIcons.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
