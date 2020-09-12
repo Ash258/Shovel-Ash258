@@ -161,7 +161,6 @@
 | [NetworkNotepad **(NetworkNotepad)**](./bucket/NetworkNotepad.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NetworkNotepad Professional Edition **(NetworkNotepad-pro)**](./bucket/NetworkNotepad-pro.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Notion **(Notion)**](./bucket/Notion.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [OnlyM **(OnlyM)**](./bucket/OnlyM.json)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                                                                                           |   ✔    |    ♻     |       ♻ (♻)       |
 | [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
