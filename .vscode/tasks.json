@@ -252,7 +252,7 @@
             "problemMatcher": [],
             "runOptions": {
                 "instanceLimit": 99,
-            }
+            },
         },
     ],
     "inputs": [

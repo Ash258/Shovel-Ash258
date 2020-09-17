@@ -4,7 +4,7 @@
     },
     "json.schemas": [
         {
-            "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+            "url": "https://raw.githubusercontent.com/Ash258/Scoop-Core/NEW/schema.json",
             "fileMatch": [
                 ".vscode/Template.jsonc",
                 "TODO/*.json",
@@ -15,41 +15,18 @@
     "markdown.extension.italic.indicator": "_",
     "markdown.extension.orderedList.marker": "one",
     "markdown.extension.tableFormatter.enabled": true,
-    "markdown.extension.toc.githubCompatibility": true,
     "markdown.extension.toc.levels": "2..6",
     "markdown.extension.toc.plaintext": false,
     "markdown.extension.toc.unorderedList.marker": "-",
     "markdown.extension.toc.updateOnSave": false,
     "powershell.codeFormatting.preset": "OTBS",
-    "terminals.terminals": [
-        {
-            "name": "Powershell",
-            "shellPath": "powershell.exe",
-            "shellArgs": [
-                "-NoLogo",
-                "-NoExit",
-            ],
-            "focus": true,
-            "open": true,
-        },
-        {
-            "name": "Powershell Core",
-            "shellPath": "pwsh.exe",
-            "shellArgs": [
-                "-NoLogo",
-                "-NoExit",
-            ],
-            "focus": true,
-            "open": true,
-        },
-    ],
     "[yaml]": {
         "editor.quickSuggestions": {
             "other": true,
             "comments": false,
             "strings": true,
         },
-        "editor.autoIndent": true,
+        "editor.autoIndent": "full",
     },
     "yaml.completion": true,
     "yaml.format.bracketSpacing": true,
@@ -59,7 +36,7 @@
     "yaml.schemas": {
         "http://json.schemastore.org/appveyor": "appveyor.y*ml",
         "http://json.schemastore.org/gitlab-ci": "gitlab-ci.y*ml",
-        "https://raw.githubusercontent.com/lukesampson/scoop/develop/schema.json": [
+        "https://raw.githubusercontent.com/Ash258/Scoop-Core/NEW/schema.json": [
             ".vscode/Template.yml",
             "TODO/*.y*ml",
             "bucket/*.y*ml",
