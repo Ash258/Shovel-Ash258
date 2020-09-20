@@ -52,6 +52,7 @@
 | [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                                                                                      |   ❌    |    ✔     |       ✔ (✔)       |
 | [Docker **(docker)**](./bucket/docker.json)                                                                                                                           |   🎃    |    ♻     |       ♻ (♻)       |
+| [DockerCompletion **(DockerCompletion)**](./bucket/DockerCompletion.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Emby **(Emby)**](./bucket/Emby.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [EmbyTheater **(EmbyTheater)**](./bucket/EmbyTheater.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
