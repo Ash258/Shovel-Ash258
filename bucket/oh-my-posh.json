@@ -1,10 +1,10 @@
 {
-    "version": "2.0.478",
+    "version": "2.0.483",
     "description": "A prompt theming engine for Powershell running in ConEmu",
     "homepage": "https://github.com/JanDeDobbeleer/oh-my-posh",
     "license": "MIT",
-    "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/2.0.478/oh-my-posh.zip",
-    "hash": "3401913192b3788bc223078df81751ce902fd092b660dcbae049db26ef898e89",
+    "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/2.0.483/oh-my-posh.zip",
+    "hash": "e95ca53224ad7acb0b00a664463e15fab2ab62c99b74e432d701a296b400e3a8",
     "psmodule": {
         "name": "oh-my-posh"
     },
