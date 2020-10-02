@@ -45,6 +45,7 @@
 | [CloneApp Universal Apps **(CloneAppUA)**](./bucket/CloneAppUA.json)                                                                                                  |   ✔    |    ✔     |       ✔ (✔)       |
 | [Concat **(Concat)**](./bucket/Concat.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [cwRsync **(cwRsync)**](./bucket/cwRsync.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [DirectX **(DirectX)**](./bucket/DirectX.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
