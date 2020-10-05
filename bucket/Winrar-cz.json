@@ -1,5 +1,5 @@
 {
-    "version": "5.80",
+    "version": "5.91",
     "description": "Winrar. Powerful archive manager",
     "homepage": "https://rarlab.com/",
     "license": "Shareware",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://www.rarlab.com/rar/winrar-x64-580cz.exe#/cosi.7z",
-            "hash": "d2a96a5244cf897ab3143ff1d2e531c434c21db1528494b83ad0d65eb70ee602"
+            "url": "https://www.rarlab.com/rar/winrar-x64-591cz.exe#/cosi.7z",
+            "hash": "e99f1eedc50570871fc825da3dd0581af6206baf11b33483fedb69deb06c253e"
         },
         "32bit": {
-            "url": "https://www.rarlab.com/rar/wrar580cz.exe#/cosi.7z",
-            "hash": "fa2839f96ffa923c32c8d58276b3b7a7ff3cdff6a90c3fa762b9c839e50413b9"
+            "url": "https://www.rarlab.com/rar/wrar591cz.exe#/cosi.7z",
+            "hash": "8a68a2bd6df7528a9be5f21c0665d4ec979f7a152c88dd14691e367da76984a3"
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
