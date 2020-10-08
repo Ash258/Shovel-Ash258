@@ -253,7 +253,7 @@
 | [Sordum's Temp Cleaner **(TempCleaner)**](./bucket/TempCleaner.json)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Tunnel Adapter Microsoft 6to4 Adapter Remover **(6to4Remover)**](./bucket/6to4Remover.json)                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Update Time **(UpdateTime)**](./bucket/UpdateTime.json)                                                                                                     |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's URL Disabler **(UrlDisablerUrlDisabler)**](./bucket/UrlDisabler.json)                                                                                       |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's URL Disabler **(UrlDisabler)**](./bucket/UrlDisabler.json)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's VHD For Context Menu **(VHDForContextMenu)**](./bucket/VHDForContextMenu.json)                                                                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Win10 Settings Blocker **(WsBlocker)**](./bucket/WsBlocker.json)                                                                                            |   ✔    |    ✔     |       ✔(⛔)        |
