@@ -19,6 +19,9 @@
             "Expand-InnoArchive $file -Removal"
         ]
     },
+    "persist": [
+      "plugins"
+    ],
     "shortcuts": [
         [
             "GalaxyClient.exe",
