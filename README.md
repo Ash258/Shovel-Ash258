@@ -224,6 +224,7 @@
 | [Sordum's Hibernate Enable Or Disable **(HibernateEnableOrDisable)**](./bucket/HibernateEnableOrDisable.json)                                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Hide From Uninstall List **(HideFromUninstallList)**](./bucket/HideFromUninstallList.json)                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Monitor Off **(MonitorOff)**](./bucket/MonitorOff.json)                                                                                                     |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Mouse Settings Changer **(MouseSettingsChanger)**](./bucket/MouseSettingsChanger.json)                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Net Disabler **(NetDisabler)**](./bucket/NetDisabler.json)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's No Mouse Wheel Zoom **(NoMouseWheelZoom)**](./bucket/NoMouseWheelZoom.json)                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's NTFS Drive Protection **(NTFSDriveProtection)**](./bucket/NTFSDriveProtection.json)                                                                         |   ✔    |    ✔     |       ✔(⛔)        |
