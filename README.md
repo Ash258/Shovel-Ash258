@@ -189,6 +189,7 @@
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.json)                                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
+| [Remote Desktop Manager Free **(RemoteDesktopManager)**](./bucket/RemoteDesktopManager.json)                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [RingCentral Glip **(Glip)**](./bucket/Glip.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [RockstarGameLauncher **(RockstarGameLauncher)**](./bucket/RockstarGameLauncher.json)                                                                                 |   ✔    |    ♻     |       ♻ (♻)       |
 | [RPCS3 **(RPCS3)**](./bucket/RPCS3.json)                                                                                                                              |   ✔🔶   |    ✔     |       ✔ (✔)       |
