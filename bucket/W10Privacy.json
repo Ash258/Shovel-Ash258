@@ -2,10 +2,7 @@
     "version": "3.6.1.1",
     "description": "W10Privacy. Sets of data protection and privacy options.",
     "homepage": "https://www.winprivacy.de/english-home",
-    "license": {
-        "identifier": "CC-BY-NC-ND-4.0",
-        "url": "https://www.winprivacy.de/deutsch-start/download"
-    },
+    "license": "Freeware",
     "url": "https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip",
     "hash": "09617bfe3fbcc9b7b03ae3b61c624bf461b826950d1a9bb7a40d116eb2bb7060",
     "installer": {
