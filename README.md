@@ -76,6 +76,7 @@
 | [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.json)                                                                                                 |   ✔    |    ❌     |       ❌ (❌)       |
 | [Grammarly **(Grammarly)**](./bucket/Grammarly.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Hamsket **(Hamsket)**](./bucket/Hamsket.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [hetzner-kube **(hetzner-kube)**](./bucket/hetzner-kube.json)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Icecream PDF Editor **(IcecreamPDFEditor)**](./bucket/IcecreamPDFEditor.json)                                                                                        |   ✔    |    ✔     |       ❌ (⛔)       |
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
