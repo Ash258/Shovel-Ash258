@@ -1,5 +1,5 @@
 {
-    "version": "7.1.0",
+    "version": "7.1.0.99",
     "description": "OverClock Checking Tool (OCCT). CPU/GPU/Power Supply testing tool",
     "homepage": "https://www.ocbase.com",
     "license": {
@@ -18,7 +18,10 @@
             "OverClock Checking Tool"
         ]
     ],
-    "checkver": "Version ([\\d.]+)</h",
+    "checkver": {
+        "url": "https://www.ocbase.com/occt-version.php",
+        "regex": "Stable=([\\d.]+)\\s*"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
