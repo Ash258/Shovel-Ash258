@@ -289,7 +289,7 @@
 | [Unreal Commander **(UnrealCommander)**](./bucket/UnrealCommander.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Uplay **(Uplay)**](./bucket/Uplay.json)                                                                                                                              |   ✔    |    ♻     |       ♻ (♻)       |
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Visual Paradigm Community Edition **(VisualParadigmCE)**](./bucket/VisualParadigmCE.json)                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
+| [Visual Paradigm Community Edition **(VisualParadigm)**](./bucket/VisualParadigm.json)                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.json)                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [VMware **(VMware)**](./bucket/VMware.json)                                                                                                                           |   ✔    |    ✔❗    |       ✔ (✔)       |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
