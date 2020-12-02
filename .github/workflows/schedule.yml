@@ -11,7 +11,8 @@ jobs:
     - name: Excavate
       uses: Ash258/Scoop-GithubActions@stable-win
       env:
-        SHOVEL: '1'
         GITH_EMAIL: cabera.jakub@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SHOVEL: '1'
+        SCOOP_BRANCH: 'NEW'
         SKIP_UPDATED: '1'
