@@ -17,9 +17,7 @@ environment:
 init:
   - pwsh: |
       (Get-PSProvider 'FileSystem').Home = 'C:\projects\'
-      write-host "here22", $env:SCOOP, $env:SCOOP_HOME -f yellow
       if(!(Test-Path "$env:SCOOP_HOME")) {
-        write-host "here" -f yellow
         git clone -q --depth=1 --branch 'NEW' 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
         git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
       }
