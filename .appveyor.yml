@@ -26,7 +26,7 @@ init:
 for:
   - matrix:
       only:
-        - PowerShell: 6
+        - PowerShell: 7
     install:
       - pwsh: . "$env:SCOOP_HOME\test\bin\init.ps1"
     test_script:
