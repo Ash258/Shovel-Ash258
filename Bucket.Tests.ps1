@@ -54,18 +54,21 @@ function uninstall($noExt) {
 
 Describe 'Changed manifests installation' {
     # Duplicate check when test is manually executed.
-    if (-not $env:CI) { # Do not install on powershell core
-        Write-Host 'This test should run only in CI environment and on Powershell 5.' -ForegroundColor Yellow
+    if (-not $env:CI) {
+        # Do not install on powershell core
+        Write-Host 'This test should run only in CI environment.' -ForegroundColor Yellow
         return
     }
 
-    if ($PSVersionTable.PSVersion.Major -ge 6) {
-        Write-Host 'Skipping installation in PWSH, to not install twice.' -ForegroundColor Yellow
-        return
-    }
-
+    New-Item "$env:SCOOP\shims" -ItemType Directory | Out-Null
+    Set-Content "$env:SCOOP\shims\scoop.ps1" @'
+$path = Join-Path "$PSScriptRoot" "..\apps\scoop\current\bin\scoop.ps1"
+if ($MyInvocation.ExpectingInput) { $input | & $path @args } else { & $path @args }
+exit $LASTEXITCODE
+'@
+    Copy-Item "$env:SCOOP\shims\scoop.ps1" "$env:SCOOP\shims\shovel.ps1"
     $env:PATH = "$env:PATH;$env:SCOOP\shims"
-    . "$env:SCOOP_HOME\bin\refresh.ps1"
+
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
         'TODO',
@@ -84,8 +87,8 @@ Describe 'Changed manifests installation' {
     $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
     if ($changedFiles.Count -gt 0) {
-        scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
-        log @(scoop install 7zip sudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
+        shovel config 'lastupdate' '258|2580-12-03 17:24:19'
+        log @(scoop install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
         scoop config 'MSIEXTRACT_USE_LESSMSI' $true
 
         foreach ($file in $changedFiles) {
