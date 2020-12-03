@@ -66,10 +66,9 @@ $path = Join-Path "$PSScriptRoot" "..\apps\scoop\current\bin\scoop.ps1"
 if ($MyInvocation.ExpectingInput) { $input | & $path @args } else { & $path @args }
 exit $LASTEXITCODE
 '@
-
+    Copy-Item "$env:SCOOP\shims\scoop.ps1" "$env:SCOOP\shims\shovel.ps1"
     $env:PATH = "$env:PATH;$env:SCOOP\shims"
-    Get-Content "$env:SCOOP\shims\scoop.ps1"
-    Write-Host -f yellow $env:PATH
+    shovel config 'lastupdate' '258|2580-12-03 17:24:19'
 
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
