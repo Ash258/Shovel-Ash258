@@ -87,9 +87,9 @@ exit $LASTEXITCODE
     $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
     if ($changedFiles.Count -gt 0) {
-        shovel config 'lastupdate' '258|2580-12-03 17:24:19'
-        log @(scoop install 7zip sudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
-        scoop config 'MSIEXTRACT_USE_LESSMSI' $true
+        shovel config 'lastupdate' '258|2580-12-03 17:24:19' | Out-Null
+        log @(scoop install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
+        scoop config 'MSIEXTRACT_USE_LESSMSI' $true | Out-Null
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
