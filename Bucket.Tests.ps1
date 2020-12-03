@@ -68,7 +68,9 @@ exit $LASTEXITCODE
 '@
 
     $env:PATH = "$env:PATH;$env:SCOOP\shims"
-    # . "$env:SCOOP_HOME\bin\refresh.ps1"
+    Get-Content "$env:SCOOP\shims\scoop.ps1"
+    Write-Host -f yellow $env:PATH
+
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
         'TODO',
