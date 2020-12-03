@@ -6,7 +6,7 @@
         "identifier": "Proprietary",
         "url": "https://wavebox.io/eula"
     },
-    "break": true,
+    "breakagain": true,
     "changelog": "https://wavebox.io/changelog/beta/10.0.385/",
     "architecture": {
         "64bit": {

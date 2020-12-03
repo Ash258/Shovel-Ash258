@@ -14,7 +14,7 @@ environment:
   SCOOP: C:\SCOOP
   SCOOP_HOME: '%SCOOP%\apps\scoop\current'
   matrix:
-    - PowerShell: 7
+    - PowerShell: 5
 init:
   - pwsh: |
       (Get-PSProvider 'FileSystem').Home = 'C:\projects\'
@@ -25,7 +25,7 @@ init:
 for:
   - matrix:
       only:
-        - PowerShell: 7
+        - PowerShell: 5
     install:
       - pwsh: . "$env:SCOOP_HOME\test\bin\init.ps1"
     test_script:
