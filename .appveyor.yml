@@ -5,6 +5,7 @@ skip_commits:
 cache:
   - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> .appveyor.yml'
   - 'C:\projects\helpers'
+  - '%SCOOP%\apps'
 matrix:
   fast_finish: true
 build: 'off'
