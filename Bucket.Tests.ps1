@@ -56,12 +56,19 @@ Describe 'Changed manifests installation' {
     # Duplicate check when test is manually executed.
     if (-not $env:CI) {
         # Do not install on powershell core
-        Write-Host 'This test should run only in CI environment and on Powershell 5.' -ForegroundColor Yellow
+        Write-Host 'This test should run only in CI environment.' -ForegroundColor Yellow
         return
     }
 
+    New-Item "$env:SCOOP_HOME\shims" -ItemType Directory | Out-Null
+    Set-Content "$env:SCOOP_HOME\shims\scoop.ps1" @'
+$path = Join-Path "$PSScriptRoot" "..\apps\scoop\current\bin\scoop.ps1"
+if ($MyInvocation.ExpectingInput) { $input | & $path @args } else { & $path @args }
+exit $LASTEXITCODE
+'@
+
     $env:PATH = "$env:PATH;$env:SCOOP\shims"
-    . "$env:SCOOP_HOME\bin\refresh.ps1"
+    # . "$env:SCOOP_HOME\bin\refresh.ps1"
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
         'TODO',
