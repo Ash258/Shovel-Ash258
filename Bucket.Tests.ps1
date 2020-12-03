@@ -68,7 +68,6 @@ exit $LASTEXITCODE
 '@
     Copy-Item "$env:SCOOP\shims\scoop.ps1" "$env:SCOOP\shims\shovel.ps1"
     $env:PATH = "$env:PATH;$env:SCOOP\shims"
-    shovel config 'lastupdate' '258|2580-12-03 17:24:19'
 
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
@@ -88,7 +87,7 @@ exit $LASTEXITCODE
     $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
     if ($changedFiles.Count -gt 0) {
-        scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
+        shovel config 'lastupdate' '258|2580-12-03 17:24:19'
         log @(scoop install 7zip sudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
         scoop config 'MSIEXTRACT_USE_LESSMSI' $true
 

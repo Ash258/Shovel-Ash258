@@ -4,6 +4,7 @@ skip_commits:
     - '.vscode/**/*'
 cache:
   - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> .appveyor.yml'
+  - 'C:\projects\helpers'
 matrix:
   fast_finish: true
 build: 'off'
