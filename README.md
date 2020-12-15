@@ -61,6 +61,7 @@
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.json)                                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [Eusing Cleaner **(EusingCleaner)**](./bucket/EusingCleaner.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.json)                                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [Facebook Messenger **(FacebookMessenger)**](./bucket/FacebookMessenger.json)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FastShare Download Manager **(FastShare)**](./bucket/FastShare.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fiddler Everywhere **(FiddlerEverywhere)**](./bucket/FiddlerEverywhere.json)                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [Fix Windows 10 **(FixWin10)**](./bucket/FixWin10.json)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
