@@ -8,8 +8,9 @@
             "url": "https://www.messenger.com/messenger/desktop/downloadV2/?platform=win#/cosi.7z",
             "hash": "f28dcf089bf82bc8bf3efe6609a3512dd0bedd3ca22e0607565ad21b3f205926",
             "pre_install": [
+                "try { Get-Command 'Test-Persistence' -ErrorAction 'Stop' | Out-Null } catch { error 'Shovel flavour of scoop is required'; exit 258 }",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir",
-                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+                "Remove-AppDirItem '$*', 'Uninstall*'"
             ]
         }
     },

@@ -1,4 +1,9 @@
 {
+    "Shovel assert": {
+        "prefix": "assertShovel",
+        "scope": "json,jsonc",
+        "body": "\"try { Get-Command 'Test-Persistence' -ErrorAction 'Stop' | Out-Null } catch { error 'Shovel flavour of scoop is required'; exit 258 }\",",
+    },
     "Inline persist check (With content)": {
         "prefix": "persistInlineContent",
         "scope": "json,jsonc",

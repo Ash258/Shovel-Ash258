@@ -288,7 +288,6 @@
 | [UltimateWindowsTweaker 2 **(UltimateWindowsTweaker2)**](./bucket/UltimateWindowsTweaker2.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker 3 **(UltimateWindowsTweaker3)**](./bucket/UltimateWindowsTweaker3.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Unreal Commander **(UnrealCommander)**](./bucket/UnrealCommander.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Uplay **(Uplay)**](./bucket/Uplay.json)                                                                                                                              |   ✔    |    ♻     |       ♻ (♻)       |
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Visual Paradigm Community Edition **(VisualParadigm)**](./bucket/VisualParadigm.json)                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.json)                                                                           |   ✔    |    ✔     |       ✔ (✔)       |

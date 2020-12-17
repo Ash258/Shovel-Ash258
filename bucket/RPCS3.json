@@ -31,17 +31,10 @@
             ]
         }
     },
-    "installer": {
-        "script": [
-            "$file = 'GuiConfigs\\CurrentSettings.ini'",
-            "if (-not (Test-Path \"$persist_dir\\$file\")) {",
-            "    Write-Host \"File $file does not exists.\" -f Yellow",
-            "    $outfile = \"$dir\\$file\"",
-            "    New-Item $outFile -Type File -Force | Out-Null",
-            "    Set-Content $outFile '[Meta]', 'currentStylesheet=Darker Style by TheMitoSan' -Encoding Ascii",
-            "}"
-        ]
-    },
+    "pre_install": [
+        "try { Get-Command 'Test-Persistence' -ErrorAction 'Stop' | Out-Null } catch { error 'Shovel flavour of scoop is required'; exit 258 }",
+        "Test-Persistence 'GuiConfigs\\CurrentSettings.ini' '[Meta]', 'currentStylesheet=Darker Style by TheMitoSan'"
+    ],
     "bin": "rpcs3.exe",
     "shortcuts": [
         [

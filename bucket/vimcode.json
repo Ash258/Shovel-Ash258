@@ -20,7 +20,7 @@
     },
     "pre_install": [
         "if (-not (Test-Path \"$persist_dir\\data\")) { ",
-        "    @('tmp', 'user-data', 'extensions') | ForEach-Object { New-Item \"$dir\\data\\$_\" -Force -Type Directory | Out-Null }",
+        "    @('tmp', 'user-data', 'extensions') | ForEach-Object { Confirm-DirectoryExistence \"$dir\\data\\$_\" | Out-Null }",
         "}"
     ],
     "post_install": [
