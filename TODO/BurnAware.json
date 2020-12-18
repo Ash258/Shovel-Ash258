@@ -1,13 +1,13 @@
 {
-    "version": "13.7",
+    "version": "13.9",
     "description": "BurnAware. CD, DVD, Blu-ray burning software with lot of features and super-intuitive, multilingual user interface.",
     "homepage": "http://www.burnaware.com/",
     "license": {
         "identifier": "Freeware",
         "url": "http://www.burnaware.com/eula.html"
     },
-    "url": "http://www.burnaware.com/downloads/burnaware_free_13.7.exe",
-    "hash": "74e220519f81388c6fcd38c6a75a34ae03f7f3648d706ca6ce682a8d8b738258",
+    "url": "http://www.burnaware.com/downloads/burnaware_free_13.9.exe",
+    "hash": "e21071f99bd555bab24c79f64f0d35698abbde501ad09f281ba7c58650556933",
     "innosetup": true,
     "shortcuts": [
         [

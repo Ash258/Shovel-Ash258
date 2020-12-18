@@ -13,11 +13,11 @@
             ""
         ]
     ],
-    "checkver": "Current version:.*</strong>\\s*([\\d\\.]+)",
+    "checkver": "Current version:.*</strong>\\s*([\\d.]+)",
     "autoupdate": {
-        "url": "https://dl4jz3rbrsfum.cloudfront.net/software/ppbe$cleanVersion0-setup.exe",
+        "url": "https://dl4jz3rbrsfum.cloudfront.net/software/ppbe${cleanVersion}0-setup.exe",
         "hash": {
-            "url": "https://dl4jz3rbrsfum.cloudfront.net/documents/CyberPower_RN_PPBE-$cleanVersion.pdf",
+            "url": "https://dl4jz3rbrsfum.cloudfront.net/documents/CyberPower_RN_PPBE-${cleanVersion}0.pdf",
             "find": "$basename\\s*([A-Fa-f\\d]{32})"
         }
     }

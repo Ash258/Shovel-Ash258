@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://www.ashampoo.com/en/usd/fdl/21/31/free/0",
-        "regex": "v([\\d\\.]+)</td>"
+        "regex": "v([\\d.]+)</td>"
     },
     "autoupdate": {
         "url": "https://www.ashampoo.com/ashampoo_burning_studio_2019_sm.exe"
