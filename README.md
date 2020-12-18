@@ -55,6 +55,7 @@
 | [Docker **(docker)**](./bucket/docker.json)                                                                                                                           |   🎃    |    ♻     |       ♻ (♻)       |
 | [DockerCompletion **(DockerCompletion)**](./bucket/DockerCompletion.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [DuckStation **(DuckStation)**](./bucket/DuckStation.json)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
 | [Emby **(Emby)**](./bucket/Emby.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [EmbyTheater **(EmbyTheater)**](./bucket/EmbyTheater.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [emClient **(emClient)**](./bucket/emClient.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -289,7 +290,7 @@
 | [UltimateWindowsTweaker 3 **(UltimateWindowsTweaker3)**](./bucket/UltimateWindowsTweaker3.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Unreal Commander **(UnrealCommander)**](./bucket/UnrealCommander.json)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Visual Paradigm Community Edition **(VisualParadigm)**](./bucket/VisualParadigm.json)                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
+| [Visual Paradigm Community Edition **(VisualParadigm)**](./bucket/VisualParadigm.json)                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.json)                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [VMware **(VMware)**](./bucket/VMware.json)                                                                                                                           |   ✔    |    ✔❗    |       ✔ (✔)       |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -304,7 +305,7 @@
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)                                                                  |   ✔    |    ✔     |       ❌ (❌)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [winget **(winget)**](./bucket/winget.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [winget **(winget)**](./bucket/winget.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
