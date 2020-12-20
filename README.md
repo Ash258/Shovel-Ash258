@@ -303,6 +303,7 @@
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                                                                                        |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)                                                                  |   ✔    |    ✔     |       ❌ (❌)       |
+| [Windows on Raspberry **(WindowsOnRaspberry)**](./bucket/WindowsOnRaspberry.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [winget **(winget)**](./bucket/winget.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
