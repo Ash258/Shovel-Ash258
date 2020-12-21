@@ -1,10 +1,10 @@
 {
-    "version": "2.21",
+    "version": "2.34",
     "description": "Icecream Video Editor",
     "homepage": "https://icecreamapps.com/Video-editor/",
     "license": "Proprietary",
     "url": "http://download.icecreamapps.com/video_editor_setup.exe",
-    "hash": "04e3319a4b37e6c700781db1721ae975da832bfdca246f342ab5f2334f1ceb2b",
+    "hash": "5492919c514f9f69d7656c1886b2a1d0832617617cb7aa6bfe0dfbfe04ee1b38",
     "innosetup": true,
     "architecture": {
         "64bit": {
