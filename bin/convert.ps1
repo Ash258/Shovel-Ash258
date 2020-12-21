@@ -1,19 +1,18 @@
-param ([String] $Dir = "$PSScriptRoot\..\bucket")
+param ([String] $Dir = "$PSScriptRoot\..\bucket", [String] $App = '*')
 
-if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
-
-# Import-Module (Resolve-Path "$env:SCOOP_HOME\supporting\yaml\bin\powershell-yaml.psm1")
-. "$env:SCOOP_HOME\lib\manifest.ps1"
+if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix 'scoop') }
 
 $Dir = Resolve-Path $Dir
-$files = (Get-ChildItem $Dir '*.json')
+$files = Get-ChildItem $Dir "$App.json"
 
-foreach ($file in $files) {
-    $content = Get-Manifest $file.FullName
-    $newfile = "$Dir\$($file.BaseName).yml"
+$ind = 0
+foreach ($gci in $files) {
+    ++$ind
+    Write-Progress -Activity 'Converting' -Status $gci.BaseName -Id 1 -PercentComplete ($ind * (100 / $files.Count))
 
-    # Move to keep history
-    git mv $file.Fullname $newfile
+    $newfile = "$Dir\$($gci.BaseName).yml"
 
-    Set-Manifet $newfile $content
+    git mv $gci.Fullname $newfile
+
+    & "$env:SCOOP_HOME\bin\format.ps1" $gci.BaseName $Dir
 }
