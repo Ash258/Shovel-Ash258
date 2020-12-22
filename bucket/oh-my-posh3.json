@@ -3,7 +3,6 @@
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": "GPL-3.0-only",
-    "notes": "Refer to 'https://ohmyposh.dev/docs/installation#4-replace-your-existing-prompt' for shell specific configurations.",
     "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/tag/v3.58.0",
     "architecture": {
         "64bit": {
@@ -14,8 +13,8 @@
             ],
             "hash": [
                 "2d2e7354e58bb3a24f6c7b58a39068775bda3a4acb29dc7df0df744f278427e6",
-                "4abf299392c3a8edea04f714fdf0ae55fa644526edb3c1b272ea36587200acf1",
-                "e6b65183bb3f30407afb45a0a187cc75557048ef9bd564c83eab7e1a54254fc4"
+                "aaebe35950824e192d9a7274ca8d4be7b0fb53b00c455e2ac47b6e56a53fda32",
+                "a2c0eb9d6409746073299b138a9b2de1487db6166ca2e5d0e4b6cc14f2bf1744"
             ]
         }
     },
