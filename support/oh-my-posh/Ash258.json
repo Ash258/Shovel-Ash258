@@ -1,0 +1,87 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh3/main/themes/schema.json",
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "root",
+                    "style": "plain",
+                    "foreground": "#FFEE58"
+                },
+                {
+                    "type": "session",
+                    "style": "plain",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "postfix": ""
+                    }
+                },
+                {
+                    "type": "envvar",
+                    "style": "powerline",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "var_name": "__POSH_PS_INFO__"
+                    }
+                },
+                {
+                    "type": "os",
+                    "style": "plain",
+                    "foreground": "#8E24AA"
+                },
+                {
+                    "type": "path",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#100e23",
+                    "background": "#91ddff",
+                    "properties": {
+                        "style": "short"
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#193549",
+                    "background": "#95ffa4"
+                },
+                {
+                    "type": "python",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#100e23",
+                    "background": "#906cff",
+                    "properties": {
+                        "prefix": " \uE235 "
+                    }
+                },
+                {
+                    "type": "exit",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#ff8080",
+                    "properties": {
+                        "prefix": "\uE20F"
+                    }
+                },
+                {
+                    "type": "executiontime",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#8800dd",
+                    "properties": {
+                        "threshold": 500,
+                        "style": "austin",
+                        "prefix": " <#fefefe>\ufbab</> "
+                    }
+                }
+            ]
+        }
+    ],
+    "final_space": true
+}
