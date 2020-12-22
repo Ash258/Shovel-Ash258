@@ -8,7 +8,15 @@
                 {
                     "type": "root",
                     "style": "plain",
-                    "foreground": "#FFEE58"
+                    "foreground": "#ffee58"
+                },
+                {
+                    "type": "exit",
+                    "style": "powerline",
+                    "foreground": "#e61010",
+                    "properties": {
+                        "prefix": "x"
+                    }
                 },
                 {
                     "type": "session",
@@ -29,14 +37,14 @@
                 {
                     "type": "os",
                     "style": "plain",
-                    "foreground": "#8E24AA"
+                    "foreground": "#8e24aa"
                 },
                 {
                     "type": "path",
                     "style": "powerline",
                     "powerline_symbol": "\uE0B0",
-                    "foreground": "#100e23",
-                    "background": "#91ddff",
+                    "background": "#0037da",
+                    "foreground": "#ffffff",
                     "properties": {
                         "style": "short"
                     }
@@ -45,25 +53,27 @@
                     "type": "git",
                     "style": "powerline",
                     "powerline_symbol": "\uE0B0",
+                    "background": "#0ad014",
                     "foreground": "#193549",
-                    "background": "#95ffa4"
-                },
-                {
-                    "type": "exit",
-                    "style": "powerline",
-                    "powerline_symbol": "\uE0B0",
-                    "foreground": "#ffffff",
-                    "background": "#ff8080",
                     "properties": {
-                        "prefix": "\uE20F"
+                        "ahead_and_behind_color": "#f26d50",
+                        "ahead_color": "#89569c",
+                        "behind_color": "#c50f1f",
+                        "color_background": true,
+                        "display_stash_count": true,
+                        "display_status": true,
+                        "display_upstream_icon": true,
+                        "local_changes_color": "#e74856",
+                        "stash_count_icon": "\uF692 ",
+                        "status_colors_enabled": true
                     }
                 },
                 {
                     "type": "executiontime",
                     "style": "powerline",
                     "powerline_symbol": "\uE0B0",
-                    "foreground": "#ffffff",
                     "background": "#8800dd",
+                    "foreground": "#ffffff",
                     "properties": {
                         "threshold": 500,
                         "style": "austin",
@@ -82,9 +92,9 @@
                 {
                     "type": "text",
                     "style": "plain",
-                    "foreground": "#007ACC",
+                    "foreground": "#0037da",
                     "properties": {
-                        "text": "\uE602"
+                        "text": "❯"
                     }
                 }
             ]
