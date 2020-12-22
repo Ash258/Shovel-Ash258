@@ -49,16 +49,6 @@
                     "background": "#95ffa4"
                 },
                 {
-                    "type": "python",
-                    "style": "powerline",
-                    "powerline_symbol": "\uE0B0",
-                    "foreground": "#100e23",
-                    "background": "#906cff",
-                    "properties": {
-                        "prefix": " \uE235 "
-                    }
-                },
-                {
                     "type": "exit",
                     "style": "powerline",
                     "powerline_symbol": "\uE0B0",
@@ -78,6 +68,23 @@
                         "threshold": 500,
                         "style": "austin",
                         "prefix": " <#fefefe>\ufbab</> "
+                    }
+                }
+            ]
+        },
+        {
+            "type": "newline"
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "foreground": "#007ACC",
+                    "properties": {
+                        "text": "\uE602"
                     }
                 }
             ]

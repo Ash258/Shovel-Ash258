@@ -25,7 +25,7 @@
     $startInfo = New-Object System.Diagnostics.ProcessStartInfo
     $startInfo.FileName = $exec
     $cleanPWD = $PWD.ProviderPath.TrimEnd('\')
-    $startInfo.Arguments = "-config=""$posh\themes\Ash258.json"" -error=$errorCode -pwd=""$cleanPWD"" -execution-time=$executionTime"
+    $startInfo.Arguments = "-config=""$posh\themes\Ash258.omp.json"" -error=$errorCode -pwd=""$cleanPWD"" -execution-time=$executionTime"
     $startInfo.Environment['TERM'] = 'xterm-256color'
     $startInfo.CreateNoWindow = $true
     $startInfo.StandardOutputEncoding = [System.Text.Encoding]::UTF8
