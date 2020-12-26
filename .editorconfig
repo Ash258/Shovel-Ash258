@@ -13,3 +13,6 @@ end_of_line = lf
 
 [*.{yml,yaml}]
 indent_size = 2
+
+[*.{fi,ba,*}sh]
+end_of_line = lf

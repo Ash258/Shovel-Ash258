@@ -17,8 +17,9 @@
     }
 
     # Custom ENVs
-    $_a = if ([intptr]::size -eq 4) { '32bit' } else { '64bit' }
-    $env:__POSH_PS_INFO__ = '@' + $PSVersionTable.PSVersion.ToString() + '@' + $_a
+    $bitness = if ([intptr]::size -eq 4) { '32bit' } else { '64bit' }
+    $ps = if ($PSVersionTable.PSVersion.Major -ge 6) { 'pwsh' } else { 'ps' }
+    $env:__SHELL_INFORMATION_POSH_258__ = $ps + $PSVersionTable.PSVersion.ToString() + '@' + $bitness
 
     $posh = shovel prefix 'oh-my-posh3' --global
     $exec = Join-Path $posh 'oh-my-posh.exe'
