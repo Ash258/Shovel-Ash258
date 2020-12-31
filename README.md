@@ -191,7 +191,7 @@
 | [PRTG API **(PrtgAPI)**](./bucket/PrtgAPI.json)                                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.json)                                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Raspberry Pi Imager **(RaspberryPiImager)**](./bucket/RaspberryPiImager.json)                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
+| [Raspberry Pi Imager **(RaspberryPiImager)**](./bucket/RaspberryPiImager.json)                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [Remote Desktop Manager Free **(RemoteDesktopManager)**](./bucket/RemoteDesktopManager.json)                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [RingCentral Glip **(Glip)**](./bucket/Glip.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
