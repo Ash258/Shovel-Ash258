@@ -44,6 +44,17 @@ EOB
 cat >> ~/.zshrc <<EOB
 
 #region Oh-my-posh
+currentOhMyPoshVersion=$(oh-my-posh --version)
+remoteOhMyPoshVersion=$(wget -qO- 'https://api.github.com/repos/JanDeDobbeleer/oh-my-posh3/releases/latest' | grep '"tag_name": "' | sed -E 's/.*: "v?(.*?)",/\1/g')
+if [[ $currentOhMyPoshVersion != $remoteOhMyPoshVersion ]]; then
+    echo "Updating oh-my-posh from $currentOhMyPoshVersion to $remoteOhMyPoshVersion"
+    sudo wget -q 'https://github.com/JanDeDobbeleer/oh-my-posh3/releases/latest/download/posh-linux-amd64' -O '/usr/local/bin/oh-my-posh'
+    sudo wget -q 'https://raw.githubusercontent.com/Ash258/Scoop-Ash258/master/support/oh-my-posh/Ash258.json' -O '/var/Ash258.omp.json'
+    sudo chmod +x '/usr/local/bin/oh-my-posh'
+else
+    echo "Skipping Oh My Posh updates"
+fi
+
 if [ \$(uname -m) = 'x86_64' ]; then
     bitness='64bit'
 else
@@ -58,8 +69,16 @@ EOB
 touch ~/.config/fish/config.fish
 cat >> ~/.config/fish/config.fish <<EOF
 
+#region Oh-my-posh
+set currentOhMyPoshVersion (oh-my-posh --version)
+set remoteOhMyPoshVersion (wget -qO- 'https://api.github.com/repos/JanDeDobbeleer/oh-my-posh3/releases/latest' | grep '>if test $currentOhMyPoshVersion != $remoteOhMyPoshVersion
+    echo "Updating oh-my-posh from $currentOhMyPoshVersion to $remoteOhMyPoshVersion"
+    sudo wget -q 'https://github.com/JanDeDobbeleer/oh-my-posh3/releases/latest/download/posh-linux-amd64' -O '/usr/loc>    sudo wget -q 'https://raw.githubusercontent.com/Ash258/Scoop-Ash258/master/support/oh-my-posh/Ash258.json' -O '/var>    sudo chmod +x '/usr/local/bin/oh-my-posh'
+else
+    echo "Skipping Oh My Posh updates"
+end
+
 function fish_prompt
-    #region Oh-my-posh
     if uname -m | xargs -I % test "%" = 'x86_64'
         set bitness '64bit'
     else
@@ -68,8 +87,8 @@ function fish_prompt
 
     set -Ux '__SHELL_INFORMATION_POSH_258__' "fish@\$FISH_VERSION@\$bitness"
     oh-my-posh --init --shell fish --config '$themeFile' | source
-    #endregion Oh-my-posh
 end
+#endregion Oh-my-posh
 EOF
 
 exit 0
