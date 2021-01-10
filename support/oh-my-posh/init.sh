@@ -13,15 +13,25 @@ sudo wget 'https://github.com/JanDeDobbeleer/oh-my-posh3/releases/latest/downloa
 sudo chmod +x '/usr/local/bin/oh-my-posh'
 
 # Powershell
+mkdir -p ~/.config/powershell
 touch ~/.config/powershell/Microsoft.PowerShell_profile.ps1
 cat >> ~/.config/powershell/Microsoft.PowerShell_profile.ps1 <<EOP
 
 #region Oh-my-posh
-\$bitness = \$(uname -m) -eq 'x86_64' ? '64bit' : '32bit'
-\$ps = \$PSVersionTable.PSVersion.Major -ge 6 ? 'pwsh': 'ps'
+Set-PSReadLineOption -HistoryNoDuplicates:\$true
+Set-PSReadLineOption -PredictionSource History
+
+\$a=\$(uname -m)
+switch (\$a) {
+    'x86_64' { \$bitness = '64bit' }
+    'i386' { \$bitness = '32bit' }
+    'aarch64' { \$bitness = 'arm64' }
+    default { \$bitness = 'arm32' }
+}
+\$ps = \$PSVersionTable.PSVersion.Major -ge 6 ? 'pwsh' : 'ps'
 \$ps += '@' + \$PSVersionTable.PSVersion.ToString()
 \$env:__SHELL_INFORMATION_POSH_258__ = "\$ps@\$bitness"
-Invoke-Expression (oh-my-posh --init --shell pwsh --config '$themeFile')
+Invoke-Expression (oh-my-posh --init --shell 'pwsh' --config '$themeFile')
 #endregion Oh-my-posh
 EOP
 
@@ -30,13 +40,15 @@ touch ~/.bashrc
 cat >> ~/.bashrc <<EOB
 
 #region Oh-my-posh
-if [ \$(uname -m) = 'x86_64' ]; then
-    bitness='64bit'
-else
-    bitness='32bit'
-fi
+arch=\$(uname -m)
+case \$arch in
+    'x86_64') bitness='64bit' ;;
+    'i386') bitness='32bit' ;;
+    'aarch64') bitness='arm64' ;;
+    *) bitness='arm32' ;;
+esac
 export __SHELL_INFORMATION_POSH_258__="bash@\$BASH_VERSION@\$bitness"
-eval "\$(oh-my-posh --init --shell bash --config '$themeFile')"
+eval "\$(oh-my-posh --init --shell 'bash' --config '$themeFile')"
 #endregion Oh-my-posh
 EOB
 
@@ -55,17 +67,20 @@ else
     echo "Skipping Oh My Posh updates"
 fi
 
-if [ \$(uname -m) = 'x86_64' ]; then
-    bitness='64bit'
-else
-    bitness='32bit'
-fi
+arch=\$(uname -m)
+case \$arch in
+    'x86_64') bitness='64bit' ;;
+    'i386') bitness='32bit' ;;
+    'aarch64') bitness='arm64' ;;
+    *) bitness='arm32' ;;
+esac
 export __SHELL_INFORMATION_POSH_258__="zsh@\$ZSH_VERSION@\$bitness"
-eval "\$(oh-my-posh --init --shell zsh --config '$themeFile')"
+eval "\$(oh-my-posh --init --shell 'zsh' --config '$themeFile')"
 #endregion Oh-my-posh
 EOB
 
 # Fish
+mkdir -p ~/.config/fish
 touch ~/.config/fish/config.fish
 cat >> ~/.config/fish/config.fish <<EOF
 
@@ -79,14 +94,20 @@ else
 end
 
 function fish_prompt
-    if uname -m | xargs -I % test "%" = 'x86_64'
-        set bitness '64bit'
-    else
-        set bitness '32bit'
+    set arch (uname -m)
+    switch \$arch
+        case 'x86_64'
+            set bitness '64bit'
+        case 'i386'
+            set bitness '32bit'
+        case 'aarch64'
+            set bitness 'arm64'
+        case '*'
+            set bitness 'arm32'
     end
 
     set -Ux '__SHELL_INFORMATION_POSH_258__' "fish@\$FISH_VERSION@\$bitness"
-    oh-my-posh --init --shell fish --config '$themeFile' | source
+    oh-my-posh --init --shell 'fish' --config '$themeFile' | source
 end
 #endregion Oh-my-posh
 EOF
