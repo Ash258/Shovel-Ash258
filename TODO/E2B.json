@@ -1,5 +1,5 @@
 {
-    "version": "2.06A",
+    "version": "2.07",
     "description": "Easy2boot. USB multiboot solution (Legacy+UEFI).",
     "homepage": "http://www.easy2boot.com",
     "license": {
@@ -7,8 +7,8 @@
         "url": "http://www.easy2boot.com/contact-us/licensing/"
     },
     "depends": "MPI",
-    "url": "https://www.fosshub.com/Easy2Boot.html?dwl=Easy2Boot_v2.06A_DPMS.exe",
-    "hash": "e8386695af71de559a43e5ebb1f4485e0df6a546e87d0cf789294820a5e4708b",
+    "url": "https://www.fosshub.com/Easy2Boot.html?dwl=Easy2Boot_v2.07_DPMS.exe",
+    "hash": "d8eae3e611fad9793c6bb60dd9baa9238bc9b602a420f308f5be272a5afdf395",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\$fname\" -Removal",
