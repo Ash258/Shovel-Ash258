@@ -5,7 +5,7 @@
     "license": "Proprietary",
     "changelog": "https://www.mitec.cz/Data/XML/data_tmxvh.xml",
     "url": "https://www.mitec.cz/Downloads/TMX.zip",
-    "hash": "6cd51bad2bc7fb5c45eb115beef674fccbcf3c7e6c341516b47644507b9cb656",
+    "hash": "d601ea7e1d686bef61321325b894ca67170fc8528375193724d585eab3fbf4f7",
     "uninstaller": {
         "script": "shortcut_folder $global | Split-Path | Get-ChildItem -Filter 'TMX*' | Remove-Item -Force"
     },
