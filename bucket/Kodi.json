@@ -1,5 +1,5 @@
 {
-    "version": "19.0-Matrix_rc1",
+    "version": "19.0-Matrix",
     "description": "Kodi. Multiplatform media player and entertainment hub.",
     "homepage": "https://kodi.tv",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-19.0-Matrix_rc1-x64.exe#/cosi.7z",
-            "hash": "0cde4f4ea6a6beae1a940b17295eca482dc7ee1f05c613afb162984794fbaedf"
+            "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-19.0-Matrix-x64.exe#/cosi.7z",
+            "hash": "387cbfd00ebe64ec9ebd02ea1f7271fdec9ef7fde75843501623b8e4348969a6"
         },
         "32bit": {
-            "url": "https://mirrors.kodi.tv/releases/windows/win32/kodi-19.0-Matrix_rc1-x86.exe#/cosi.7z",
-            "hash": "2484b4e18dcbe40e71bc72ec0a7ea6bc2f92be2d0e80edebd6399b5df7575085"
+            "url": "https://mirrors.kodi.tv/releases/windows/win32/kodi-19.0-Matrix-x86.exe#/cosi.7z",
+            "hash": "fb789ce1dea294468e4b7dbb2344222e74fd676f8016d9a3046d11ac9352e11e"
         }
     },
     "pre_install": [
