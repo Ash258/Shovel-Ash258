@@ -35,7 +35,7 @@
         "    Add-Content $prof $c -Force",
         "}"
     ],
-    "bin": "oh-my-posh.exe",
+    "bin": "bin\\oh-my-posh.exe",
     "persist": "themes",
     "checkver": {
         "github": "https://github.com/JanDeDobbeleer/oh-my-posh3"
