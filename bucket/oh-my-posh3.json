@@ -28,7 +28,7 @@
         "        '$ps += ''@'' + $PSVersionTable.PSVersion.ToString()'",
         "        '$env:__SHELL_INFORMATION_POSH_258__ = \"$ps@$bitness\"'",
         "    )",
-        "    $c += & \"$dir\\oh-my-posh.exe\" --shell 'pwsh' --config \"$dir\\themes\\Ash258.omp.json\" --init",
+        "    $c += & \"$dir\\bin\\oh-my-posh.exe\" --shell 'pwsh' --config \"$dir\\themes\\Ash258.omp.json\" --init",
         "    $c += '#endregion Oh-my-posh'",
         "    $prof = if ($global) { $PROFILE.AllUsersAllHosts } else { $PROFILE }",
         "    New-Item $prof -ErrorAction 'SilentlyContinue' -Force | Out-Null",
