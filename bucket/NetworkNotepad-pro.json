@@ -4,8 +4,8 @@
     "description": "Network Notepad Professional Edition. Interactive network diagrams creator",
     "homepage": "https://www.networknotepad.com/index.shtml",
     "license": "Proprietary",
-    "url": "https://www.networknotepad.com/Prosetup.zip",
-    "hash": "08467053f43a1ee7253e43e671f293000dc4a15b94a2ffa7d6d3002900afd821",
+    "url": "https://www.networknotepad.com/Download/NetworkNotepadPro1.3.98.exe",
+    "hash": "476204ab624a979032f11b98f97bac03ce4fd99d70d3e4b4d7bc353497abf3fa",
     "installer": {
         "script": [
             "$file = (Get-Item \"$dir\\NetworkNotepad*.exe\").FullName",
@@ -23,6 +23,6 @@
     ],
     "checkver": "Version ([\\d.]+)",
     "autoupdate": {
-        "url": "https://www.networknotepad.com/Prosetup.zip"
+        "url": "https://www.networknotepad.com/Download/NetworkNotepadPro$version.exe"
     }
 }
