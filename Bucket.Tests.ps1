@@ -76,7 +76,8 @@ exit $LASTEXITCODE
         'E2B',
         'unlocker',
         'Spotify',
-        'TrainerManager'
+        'TrainerManager',
+        'TransMac'
     ) -join '|'
     $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
@@ -84,7 +85,8 @@ exit $LASTEXITCODE
     $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
     # TODO: YAML
     $changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
-    $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
+    $changedFiles = $changedFiles | Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS }
+    $changedFiles = $changedFiles | Where-Object { $_ -imatch 'bucket/' }
 
     if ($changedFiles.Count -gt 0) {
         shovel config 'lastupdate' '258|2580-12-03 17:24:19'
