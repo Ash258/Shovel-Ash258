@@ -1,10 +1,10 @@
 {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "MiTeC Internet History Browser",
     "homepage": "https://www.mitec.cz/ihb.html",
     "license": "Proprietary",
     "url": "https://www.mitec.cz/Downloads/IHB.zip",
-    "hash": "45c67cbc4fa1353cc821be97fc5a34d707481d67731c7d7ef46c5d21e4fbbaf3",
+    "hash": "0e52d632edc7dbc2a44d408a2e7b786ab34e6ac8a1b2ce345dee869c35e0e052",
     "bin": "IHB.exe",
     "shortcuts": [
         [
