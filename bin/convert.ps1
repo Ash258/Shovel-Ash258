@@ -14,5 +14,5 @@ foreach ($gci in $files) {
 
     git mv $gci.Fullname $newfile
 
-    & "$env:SCOOP_HOME\bin\format.ps1" $gci.BaseName $Dir
+    shovel utils format (Get-Item $newfile).FullName
 }

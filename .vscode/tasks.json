@@ -2,77 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Check version (Whole repository)",
-            "type": "shell",
-            "options": {
-                "env": {
-                    "SCOOP_DEBUG": "true",
-                },
-            },
-            "command": ".\\bin\\checkver.ps1",
-            "args": [
-                "-Recurse",
-            ],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-            },
-            "group": "test",
-            "problemMatcher": [],
-        },
-        {
-            "label": "Check hahes",
-            "type": "shell",
-            "options": {
-                "env": {
-                    "SCOOP_DEBUG": "true",
-                },
-            },
-            "args": [
-                "-Update",
-                "-UseCache",
-            ],
-            "command": ".\\bin\\checkhashes.ps1",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-            },
-            "group": "test",
-            "problemMatcher": [],
-        },
-        {
-            // Default (While opened file, Press CTRL+F9 / CTRL+SHIFT+B)
-            "label": "Check and update (Actual)",
-            "type": "shell",
-            "command": ".\\bin\\checkAndPush.ps1",
-            "args": [
-                "'${file}'",
-                "${input:pickUpdateType}",
-                "${input:pickCheckType}",
-            ],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-            },
-            "problemMatcher": [],
-            "runOptions": {
-                "reevaluateOnRerun": false,
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true,
-            },
-        },
-        {
             "label": "Push Auto-PR",
             "type": "shell",
             "options": {
@@ -80,8 +9,11 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": ".\\bin\\auto-pr.ps1",
+            "command": "shovel",
             "args": [
+                "utils",
+                "auto-pr",
+                "--additional-options",
                 "-Push",
             ],
             "presentation": {
@@ -102,12 +34,12 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": ".\\bin\\checkver.ps1",
+            "command": "shovel",
             "args": [
-                "-App",
-                "'${fileBasenameNoExtension}'",
-                "-Dir",
-                "'${relativeFileDirname}'",
+                "utils",
+                "checkver",
+                "'${file}'",
+                "--additional-options",
                 "-Force",
             ],
             "problemMatcher": [],
@@ -123,12 +55,12 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": ".\\bin\\checkhashes.ps1",
+            "command": "shovel",
             "args": [
-                "-App",
-                "'${fileBasenameNoExtension}'",
-                "-Dir",
-                "'${relativeFileDirname}'",
+                "utils",
+                "checkhashes",
+                "'${file}'",
+                "--additional-options",
                 "-Force",
             ],
             "problemMatcher": [],
@@ -144,11 +76,11 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "scoop",
+            "command": "shovel",
             "args": [
                 "uninstall",
                 "'${fileBasenameNoExtension}'",
-                "-p",
+                "--purge",
             ],
             "problemMatcher": [],
             "runOptions": {
@@ -164,7 +96,7 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "scoop",
+            "command": "shovel",
             "args": [
                 "install",
                 "'${file}'",
@@ -203,11 +135,11 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "scoop",
+            "command": "shovel",
             "args": [
                 "update",
                 "'${fileBasenameNoExtension}'",
-                "-f",
+                "--force",
             ],
             "problemMatcher": [],
             "runOptions": {
@@ -236,7 +168,11 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "scoop test-home '${selectedText}'",
+            "command": "shovel",
+            "args": [
+                "test-home",
+                "'${selectedText}'",
+            ],
             "problemMatcher": [],
         },
         {
@@ -248,7 +184,13 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "scoop download '${file}' -bs",
+            "command": "shove",
+            "args": [
+                "download",
+                "'${file}'",
+                "--all-architectures",
+                "--skip",
+            ],
             "problemMatcher": [],
             "runOptions": {
                 "instanceLimit": 99,
@@ -256,43 +198,6 @@
         },
     ],
     "inputs": [
-        {
-            "id": "pickUpdateType",
-            "description": "Select how manifest should be updated.",
-            "type": "pickString",
-            "options": [
-                "-Update",
-                "-ForceUpdate",
-                "-NoSkip",
-            ],
-            "default": "-Update",
-        },
-        {
-            "id": "pickCheckType",
-            "description": "Select what binary should be called.",
-            "type": "pickString",
-            "options": [
-                "-Hashes:$false",
-                "-Hashes",
-            ],
-            "default": "-Hashes:$false",
-        },
-        {
-            "id": "pickSpecificManifest",
-            "description": "Select what manifest should be checked.",
-            "type": "promptString",
-            "default": "*",
-        },
-        {
-            "id": "pickBucketDirectory",
-            "description": "Select folder",
-            "type": "pickString",
-            "options": [
-                "bucket",
-                "TODO",
-            ],
-            "default": "bucket",
-        },
         {
             "id": "pickArchitectureType",
             "description": "Select architecture to be installed",

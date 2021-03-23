@@ -1,14 +1,13 @@
 {
-    "version": "3.120.0-last",
+    "version": "3.120.0",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": "GPL-3.0-only",
-    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/tag/v3.120.0",
-    "pre_download": "throw 'Deprecated. Use ''oh-my-posh'' instead'",
+    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v3.120.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v3.120.0/posh-windows-wsl-amd64.7z",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v3.120.0/posh-windows-wsl-amd64.7z",
                 "https://raw.githubusercontent.com/Ash258/Scoop-Ash258/master/support/oh-my-posh/Ash258.json"
             ],
             "hash": [
@@ -37,5 +36,19 @@
         "}"
     ],
     "bin": "bin\\oh-my-posh.exe",
-    "persist": "themes"
+    "persist": "themes",
+    "checkver": {
+        "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-wsl-amd64.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
 }

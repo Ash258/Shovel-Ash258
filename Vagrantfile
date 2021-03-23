@@ -10,6 +10,7 @@ Vagrant.configure('2') do |config|
   config.vm.provider 'hyperv' do |h|
     h.memory = 4096
     h.cpus = 2
+    h.linked_clone = 'True'
   end
 
   config.vm.synced_folder('.', '/Vagrantfiles', type: 'rsync', disabled: true)
