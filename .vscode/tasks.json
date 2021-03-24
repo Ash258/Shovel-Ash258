@@ -184,7 +184,7 @@
                     "SCOOP_DEBUG": "true",
                 },
             },
-            "command": "shove",
+            "command": "shovel",
             "args": [
                 "download",
                 "'${file}'",
