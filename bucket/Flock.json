@@ -1,13 +1,13 @@
 {
-    "version": "2.2.486",
+    "version": "2.2.491",
     "description": "Flock. Online collaboration platform",
     "homepage": "https://flock.com",
     "license": {
         "identifier": "Proprietary",
         "url": "https://support.flock.com/hc/en-us/articles/115004287093-Flock-Terms-Of-Use"
     },
-    "url": "https://updates.flock.co/fl_win_electron/Flock-setup-2.2.486.exe#/cosi.7z",
-    "hash": "162b7ca97144d17ad7e7813ba4c27905b42382f69d24e4a48aa27628f19ba116",
+    "url": "https://updates.flock.co/fl_win_electron/Flock-setup-2.2.491.exe#/cosi.7z",
+    "hash": "45000f8865cb356bf92327309c882f4034785988265de649d72a6d0cd3b35fb8",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir"
