@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/qemu-simple-boot/qsiboot_v1.3.zip",
-    "hash": "ab06fed84a6b207ceb06a0e75ee6176da531a0b0ae8afc89c2f1ca973f1fb868",
+    "hash": "f4fafaa182a55967379c246c4be11227df53a9b5a5fb97f7cd4320ea622db292",
     "extract_dir": "qsib_v1.3",
     "shortcuts": [
         [

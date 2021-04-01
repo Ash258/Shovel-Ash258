@@ -4,7 +4,7 @@
     "homepage": "https://support.kaspersky.com/13059",
     "license": "Freeware",
     "url": "https://media.kaspersky.com/utilities/VirusUtilities/EN/shadedecryptor.zip",
-    "hash": "b61764bf018c5a8b6758a02f2631008e27ad88edc37d885061c3de99cea28ffe",
+    "hash": "9274b92917bd19bb0b79a9c5bf8ee712ff0b5b02119d3b879cdb80734c2ed448",
     "bin": "ShadeDecryptor.exe",
     "shortcuts": [
         [

@@ -27,7 +27,6 @@
 | [arcconf **(arcconf)**](./bucket/arcconf.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
-| [AutoClicker Targeted **(AutoClickerTargeted)**](./bucket/AutoClickerTargeted.json)                                                                                   |   ✔    |    ❌     |       ❌ (❌)       |
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.json)                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [BeefText **(BeefText)**](./bucket/BeefText.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -54,7 +53,6 @@
 | [Disable Win Tracking **(DWT)**](./bucket/DWT.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DisplayFusion **(DisplayFusion)**](./bucket/DisplayFusion.json)                                                                                                      |   ❌    |    ✔     |       ✔ (✔)       |
 | [Docker **(docker)**](./bucket/docker.json)                                                                                                                           |   🎃    |    ♻     |       ♻ (♻)       |
-| [DockerCompletion **(DockerCompletion)**](./bucket/DockerCompletion.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Dr. Folder **(DrFolder)**](./bucket/DrFolder.json)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [DuckStation **(DuckStation)**](./bucket/DuckStation.json)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
 | [Emby **(Emby)**](./bucket/Emby.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -85,7 +83,6 @@
 | [ImBatch **(ImBatch)**](./bucket/ImBatch.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.json)                                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.json)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
-| [Jellyfin **(Jellyfin)**](./bucket/Jellyfin.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [JetBrains Space **(JetBrains-Space)**](./bucket/JetBrains-Space.json)                                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [Kaspersky's CoinVaultDecryptor **(CoinVaultDecryptor)**](./bucket/CoinVaultDecryptor.json)                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's RakhniDecryptor **(RakhniDecryptor)**](./bucket/RakhniDecryptor.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -192,7 +189,6 @@
 | [PRTG API **(PrtgAPI)**](./bucket/PrtgAPI.json)                                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.json)                                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Raspberry Pi Imager **(RaspberryPiImager)**](./bucket/RaspberryPiImager.json)                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [Remote Desktop Manager Free **(RemoteDesktopManager)**](./bucket/RemoteDesktopManager.json)                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [RingCentral Glip **(Glip)**](./bucket/Glip.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -279,7 +275,6 @@
 | [Steam Library Manager **(SteamLibraryManager)**](./bucket/SteamLibraryManager.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SteamGridDB Manager **(SteamGridDBManager)**](./bucket/SteamGridDBManager.json)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SuperF4 **(SuperF4)**](./bucket/SuperF4.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                                                                                           |   ✔    |    ✔     |       ❌ (⛔)       |
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.json)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TinyMice **(TinyMice)**](./bucket/TinyMice.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -319,11 +314,14 @@
 | App name **(Scoop name)**                                                                                 | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
 | --------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
 | [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AutoClicker Targeted **(AutoClickerTargeted)**](./deprecated/AutoClickerTargeted.json)                   |   ✔    |    ❌     |       ❌ (❌)       |
 | [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.json)                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.json)                                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.json)                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [oh-my-posh (v2) **(oh-my-posh)**](./deprecated/oh-my-posh.json)                                          |   ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                 |   ✔    |    ♻     |       ♻ (♻)       |
+| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
 
 ### Moved to other (known) bucket
 
@@ -357,6 +355,9 @@
 | [Aimp](https://github.com/lukesampson/scoop-extras/blob/master/bucket/aimp.json)                                         | [4b7ca26](https://github.com/Ash258/Scoop-Ash258/commit/4b7ca26cfbe1bdf451d37d19cd488dd9f4df56d4) | [cc2bbdf](https://github.com/lukesampson/scoop-extras/commit/cc2bbdfca7a1bbd7cb5e285a2a9e389366c14032) ([lukesampson/Scoop-Extras#3453](https://github.com/lukesampson/scoop-extras/pull/3453)) |
 | [Apache Open Office](https://github.com/lukesampson/scoop-extras/blob/master/bucket/openoffice.json)                     | [a31a10d](https://github.com/Ash258/Scoop-Ash258/commit/a31a10d918cf9d867d4124cab2faae1d24decaa5) | [26043e0](https://github.com/lukesampson/scoop-extras/commit/26043e0a94a8632a7c185211724d929522672a73) ([lukesampson/Scoop-Extras#3454](https://github.com/lukesampson/scoop-extras/pull/3454)) |
 | [Notion](https://github.com/lukesampson/scoop-extras/blob/master/bucket/notion.json)                                     | [bbcfd26](https://github.com/Ash258/scoop-Ash258/commit/bbcfd264381e20aa9d22a17f3f8191c1ca123ec8) |                                             [f4f508a](https://github.com/lukesampson/scoop-extras/commit/f4f508adcce1cd3bd72f16ed9a40b870b8cda3f0)                                              |
+| [DockerCompletion](https://github.com/lukesampson/scoop-extras/blob/master/bucket/dockercompletion.json)                 | [bf2ea86](https://github.com/Ash258/scoop-Ash258/commit/bf2ea865baa2def52647bc534242063f51c3d7bd) | [bfb1621](https://github.com/lukesampson/scoop-extras/commit/bfb1621674876ebba256473a9b865918c3430a83) ([lukesampson/scoop-extras#5627](https://github.com/lukesampson/scoop-extras/pull/5627)) |
+| [RaspberryPiImager](https://github.com/lukesampson/scoop-extras/blob/master/bucket/raspberry-pi-imager.json)             | [50a9854](https://github.com/Ash258/scoop-Ash258/commit/50a98546d96271dee2ccb395d11437b854b85d6f) | [9138f57](https://github.com/lukesampson/scoop-extras/commit/9138f5755f9ded4f263733b68314695d053e9620) ([lukesampson/scoop-extras#5816](https://github.com/lukesampson/scoop-extras/pull/5816)) |
+| [Jellyfin](https://github.com/lukesampson/scoop-extras/blob/master/bucket/jellyfin.json)                                 | [fb7f67d](https://github.com/Ash258/scoop-Ash258/commit/fb7f67d7e54e3130ea70884d85823676af79f4ff) | [a7ea06c](https://github.com/lukesampson/scoop-extras/commit/a7ea06c6d757f7a476113e69819c7a51caa9e3cd) ([lukesampson/scoop-extras#5396](https://github.com/lukesampson/scoop-extras/pull/5396)) |
 
 ### TODOs
 

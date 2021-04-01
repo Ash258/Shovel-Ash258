@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/reg-converter/RegCon.zip",
-    "hash": "de3f923717ff0eb290a630d591a343e68c22f9e59119fd80eef935cfc33e73e6",
+    "hash": "02f24bf151045aace93e67012744434d81b3d63d59223d2de275cc3871097305",
     "extract_dir": "RegConvert_v1.2",
     "bin": "RegConvert.exe",
     "shortcuts": [

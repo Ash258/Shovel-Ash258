@@ -8,7 +8,7 @@
     },
     "changelog": "Readme.txt",
     "url": "https://www.sordum.org/files/win10-settings-blocker/WsBlocker.zip",
-    "hash": "17b6fc638f2ead251634078a38cf9fec44f2007f0309f46ef3730da5fa989ebe",
+    "hash": "ce021c60bb8952152d03df48220bd5050afeeb7a8e3baea0f582284c5e56fa39",
     "extract_dir": "WsBlocker",
     "architecture": {
         "64bit": {
