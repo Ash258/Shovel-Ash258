@@ -47,6 +47,7 @@
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [cwRsync **(cwRsync)**](./bucket/cwRsync.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [devcontainer-cli **(devcontainer-cli)**](./bucket/devcontainer-cli.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [DirectX **(DirectX)**](./bucket/DirectX.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [DirectX-SDK **(DirectX-SDK)**](./bucket/DirectX-SDK.json)                                                                                                            |   ✔    |    ❌     |       ❌ (❌)       |
