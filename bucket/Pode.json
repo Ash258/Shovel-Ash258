@@ -6,6 +6,7 @@
         "identifier": "MIT",
         "url": "https://github.com/Badgerati/Pode/blob/develop/LICENSE.txt"
     },
+    "changelog": "https://github.com/Badgerati/Pode/releases/tag/v2.2.3",
     "url": "https://github.com/Badgerati/Pode/releases/download/v2.2.3/2.2.3-Binaries.zip",
     "hash": "c372754a16acc17b6e64e8539b0b8a1398e2b9079a32d48b4091838e38510677",
     "psmodule": {
@@ -15,6 +16,7 @@
         "github": "https://github.com/Badgerati/Pode"
     },
     "autoupdate": {
+        "changelog": "https://github.com/Badgerati/Pode/releases/tag/v$version",
         "url": "https://github.com/Badgerati/Pode/releases/download/v$version/$version-Binaries.zip",
         "hash": {
             "url": "https://github.com/Badgerati/Pode/releases/tag/v$version",
