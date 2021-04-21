@@ -1,17 +1,17 @@
 {
-    "version": "3.140.1",
+    "version": "3.141.0",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": "GPL-3.0-only",
-    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v3.140.1",
+    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v3.141.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v3.140.1/posh-windows-wsl-amd64.7z",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v3.141.0/posh-windows-wsl-amd64.7z",
                 "https://raw.githubusercontent.com/Ash258/Scoop-Ash258/master/support/oh-my-posh/Ash258.json"
             ],
             "hash": [
-                "1f05d337fdc58eef44bc7ddc38e0bbdb194dac3700f2c99e3c39ff5c804d3b48",
+                "8dc5306c96b06d26001cb58f418f54c3313a6e835feb842b489fbb84ca004eeb",
                 "a4f713d959f13867a9eb131219e4263c2fd85814b7e57d09c64a04ac57725aa7"
             ]
         }
