@@ -8,10 +8,10 @@
     "uninstaller": {
         "script": [
             "if ((is_admin)) {",
-            "    Remove-Item 'C:\\Windows10Upgrade' -ErrorAction SilentlyContinue -Force -Recurse",
+            "    Remove-Item 'C:\\Windows10Upgrade' -ErrorAction 'SilentlyContinue' -Force -Recurse",
             "    $name = 'Windows 10 Update Assistant*'",
             "    (shortcut_folder $true | Split-Path), \"$env:USERPROFILE\\Desktop\" | ForEach-Object {",
-            "        Join-Path $_ $name | Remove-Item -ErrorAction SilentlyContinue -Force",
+            "        Join-Path $_ $name | Remove-Item -ErrorAction 'SilentlyContinue' -Force",
             "    }",
             "} else {",
             "    warn 'To fully uninstall Update Assistant you need to run ''Remove-Item \"C:\\Windows10Upgrade\" -Force -Recurse'' within elevated prompt.'",
