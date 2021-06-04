@@ -294,6 +294,7 @@
 | [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wavebox-beta **(Wavebox-beta)**](./bucket/Wavebox-beta.json)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wavebox-canary **(Wavebox-canary)**](./bucket/Wavebox-canary.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wi-Fi Password Revealer **(WifiPasswordRevealer)**](./bucket/WifiPasswordRevealer.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Win Toolkit **(WinToolkit)**](./bucket/WinToolkit.json)                                                                                                              |   ✔    |    ✔     |       ❌ (❌)       |
 | [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
