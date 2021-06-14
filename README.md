@@ -210,7 +210,7 @@
 | [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.json)                                                                                                               |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Copy IP **(CopyIP)**](./bucket/CopyIP.json)                                                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.json)                                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.json)                                                                                   |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Defender Exclusion Tool **(DefenderExclusionTool)**](./bucket/DefenderExclusionTool.json)                                                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Desktop Ini Editor **(DesktopIniEditor)**](./bucket/DesktopIniEditor.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                                                                           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Lock **(DNSLock)**](./bucket/DNSLock.json)                                                                                                              |   ✔    |    ✔     |       ✔(⛔)        |
@@ -323,6 +323,7 @@
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.json) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                 |   ✔    |    ♻     |       ♻ (♻)       |
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
+| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.json)                       |   ✔    |    ✔     |       ✔(⛔)        |
 
 ### Moved to other (known) bucket
 
