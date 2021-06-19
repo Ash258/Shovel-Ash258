@@ -22,6 +22,8 @@ init:
       if(!(Test-Path "$env:SCOOP_HOME")) {
         git clone -q --depth=1 --branch 'NEW' 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
         git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
+      } else {
+        git -C $env:SCOOP_HOME pull
       }
 for:
   - matrix:
