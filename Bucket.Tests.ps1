@@ -10,10 +10,8 @@ if (-not $env:CI) {
 . "$env:SCOOP_HOME\test\Import-Bucket-Tests.ps1" # run tests from scoop core
 
 # region Install changed manifests
-function log() {
-    param([String[]] $message = "============`r`n")
-
-    Add-Content "./INSTALL.log" ($message -join "`r`n") -Encoding Ascii
+function log([String[]] $message = "============`r`n") {
+    Add-Content "./INSTALL.log" ($message -join "`r`n") -Encoding 'Ascii'
 }
 
 function install() {
@@ -23,7 +21,7 @@ function install() {
         [String] $architecture
     )
 
-    $command = "scoop install $manifest --no-cache --independent"
+    $command = "shovel install $manifest --no-cache --independent"
     if ($architecture -ne 'URL') {
         $command += " --arch $architecture"
     }
@@ -41,7 +39,7 @@ function install() {
 }
 
 function uninstall($noExt) {
-    $log = @(scoop uninstall $noExt *>&1)
+    $log = @(shovel uninstall $noExt *>&1)
 
     if ($LASTEXITCODE -eq 0) {
         log
@@ -83,31 +81,32 @@ exit $LASTEXITCODE
 
     New-Item 'INSTALL.log' -Type File -Force
     $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
-    # TODO: YAML
-    $changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
+    $allChanges = Get-GitChangedFile -Commit $commit
+    $changedFiles = $allChanges | Where-Object { $_ -like '*.json' }
+    $changedFiles += $allChanges | Where-Object { $_ -like '*.y*ml' }
     $changedFiles = $changedFiles | Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS }
     $changedFiles = $changedFiles | Where-Object { $_ -imatch 'bucket/' }
 
     if ($changedFiles.Count -gt 0) {
         shovel config 'lastupdate' '258|2580-12-03 17:24:19'
-        log @(scoop install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
-        scoop config 'MSIEXTRACT_USE_LESSMSI' $true
+        log @(shovel install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
+        shovel config 'MSIEXTRACT_USE_LESSMSI' $true
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
             if (-not (Test-Path $file)) { continue }
 
-            $man = Split-Path $file -Leaf
-            $noExt = $man.Split('.')[0]
-            $toInstall = ".\bucket\$man"
+            $mm = Get-Item $file
+            $man = $mm.Name
+            $noExt = $mm.BaseName
+            $toInstall = $mm.FullName
 
             $64 = '64bit'
             $32 = '32bit'
             $URL = 'URL'
 
             Context $man {
-                # TODO: YAML
-                $json = parse_json $file
+                $json = ConvertFrom-Manifest $file
                 if ($json.architecture) {
                     if ($json.architecture.$64) {
                         It $64 {

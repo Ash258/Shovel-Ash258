@@ -3,7 +3,6 @@
 
 . "$env:SCOOP_HOME\lib\core.ps1"
 . "$env:SCOOP_HOME\lib\manifest.ps1"
-. "$env:SCOOP_HOME\lib\unix.ps1"
 . "$env:SCOOP_HOME\test\Scoop-TestLib.ps1"
 
 if ($env:CI -eq $true) {
@@ -29,8 +28,7 @@ $INSTALL_FILES_EXCLUSIONS = @(
     'KMS',
     'E2B',
     'unlocker',
-    'Spotify',
-    'TrainerManager'
+    'Spotify'
 ) -join '|'
 $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
