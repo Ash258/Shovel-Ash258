@@ -81,20 +81,20 @@ exit $LASTEXITCODE
 
     New-Item 'INSTALL.log' -Type File -Force
     $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
-    $allChanges = Get-GitChangedFile -Commit $commit
+    $allChanges = Get-GitChangedFile -Commit $commit |
+        Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS } |
+        Where-Object { $_ -imatch 'bucket/' }
     $changedFiles = $allChanges | Where-Object { $_ -like '*.json' }
-    $changedFiles += $allChanges | Where-Object { $_ -like '*.y*ml' }
-    $changedFiles = $changedFiles | Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS }
-    $changedFiles = $changedFiles | Where-Object { $_ -imatch 'bucket/' }
+    $changedFiles += $changedFiles | Where-Object { $_ -like '*.y*ml' }
 
     if ($changedFiles.Count -gt 0) {
-        shovel config 'lastupdate' '258|2580-12-03 17:24:19'
+        shovel config 'lastupdate' '258|2580-12-03 12:58:19'
         log @(shovel install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
         shovel config 'MSIEXTRACT_USE_LESSMSI' $true
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
-            if (-not (Test-Path $file)) { continue }
+            if (!(Test-Path $file)) { continue }
 
             $mm = Get-Item $file
             $man = $mm.Name
