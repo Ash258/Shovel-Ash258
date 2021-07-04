@@ -32,6 +32,7 @@ switch (\$a) {
 \$ps += '@' + \$PSVersionTable.PSVersion.ToString()
 \$env:__SHELL_INFORMATION_POSH_258__ = "\$ps@\$bitness"
 Invoke-Expression (oh-my-posh --init --shell 'pwsh' --config '$themeFile')
+Enable-PoshTransientPrompt
 #endregion Oh-my-posh
 EOP
 
@@ -76,6 +77,7 @@ case \$arch in
 esac
 export __SHELL_INFORMATION_POSH_258__="zsh@\$ZSH_VERSION@\$bitness"
 eval "\$(oh-my-posh --init --shell 'zsh' --config '$themeFile')"
+enable_poshtransientprompt
 #endregion Oh-my-posh
 EOB
 
@@ -108,6 +110,7 @@ function fish_prompt
 
     set -Ux '__SHELL_INFORMATION_POSH_258__' "fish@\$FISH_VERSION@\$bitness"
     oh-my-posh --init --shell 'fish' --config '$themeFile' | source
+    enable_poshtransientprompt
 end
 #endregion Oh-my-posh
 EOF

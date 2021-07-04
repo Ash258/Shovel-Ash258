@@ -28,6 +28,7 @@
         "        '$ps += ''@'' + $PSVersionTable.PSVersion.ToString()'",
         "        '$env:__SHELL_INFORMATION_POSH_258__ = \"$ps@$bitness\"'",
         "        \"Invoke-Expression (@(oh-my-posh.exe --print-init --shell 'pwsh' --config '$dir\\themes\\Ash258.omp.json') -join \"\"``n\"\")\"",
+        "        'Enable-PoshTransientPrompt'",
         "        '#endregion Oh-my-posh'",
         "    )",
         "    $prof = if ($global) { $PROFILE.AllUsersAllHosts } else { $PROFILE }",
