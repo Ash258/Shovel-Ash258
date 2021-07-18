@@ -7,6 +7,7 @@ $items = Join-Path $PSScriptRoot '..\bucket' -Resolve | Get-ChildItem -File | Wh
 
 if (!$UseCache) {
     $i = $items.Basename
+    Write-Host 'Removing previous downloads'
     shovel cache rm @i
 }
 
