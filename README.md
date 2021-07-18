@@ -28,7 +28,6 @@
 | [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AutoClicker **(AutoClicker)**](./bucket/AutoClicker.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [AutoClickers **(AutoClickers)**](./bucket/AutoClickers.json)                                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
-| [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.json)                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [BeefText **(BeefText)**](./bucket/BeefText.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Bethesda.Net Launcher **(BethesdaLauncher)**](./bucket/BethesdaLauncher.json)                                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [BlueGriffon **(BlueGriffon)**](./bucket/BlueGriffon.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
@@ -210,7 +209,7 @@
 | [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.json)                                                                                                               |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Copy IP **(CopyIP)**](./bucket/CopyIP.json)                                                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.json)                                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Defender Exclusion Tool **(DefenderExclusionTool)**](./bucket/DefenderExclusionTool.json)                                                                                   |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Defender Exclusion Tool **(DefenderExclusionTool)**](./bucket/DefenderExclusionTool.json)                                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Desktop Ini Editor **(DesktopIniEditor)**](./bucket/DesktopIniEditor.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Angel **(DNSAngel)**](./bucket/DNSAngel.json)                                                                                                           |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's DNS Lock **(DNSLock)**](./bucket/DNSLock.json)                                                                                                              |   ✔    |    ✔     |       ✔(⛔)        |
@@ -316,6 +315,7 @@
 | --------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
 | [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AutoClicker Targeted **(AutoClickerTargeted)**](./deprecated/AutoClickerTargeted.json)                   |   ✔    |    ❌     |       ❌ (❌)       |
+| [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.json)                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.json)                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.json)                                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.json)                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
