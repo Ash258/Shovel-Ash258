@@ -1,16 +1,16 @@
 {
-    "version": "10.0.593.4",
+    "version": "10.0.594.4",
     "description": "Wavebox 10 Canary. A distraction-free browser for fast and focused working across all web apps.",
     "homepage": "https://wavebox.io",
     "license": {
         "identifier": "Proprietary",
         "url": "https://wavebox.io/eula"
     },
-    "changelog": "https://wavebox.io/changelog/canary/10.0.593/",
+    "changelog": "https://wavebox.io/changelog/canary/10.0.594/",
     "architecture": {
         "64bit": {
-            "url": "https://download.wavebox.app/canary/win/Install%20Wavebox%2010.0.593.4.exe#/cosi.7z",
-            "hash": "4f753c6e59ee1361fcb8781bbaa24f0b22b0c8cffde415d0705cd4796f4f7fbd"
+            "url": "https://download.wavebox.app/canary/win/Install%20Wavebox%2010.0.594.4.exe#/cosi.7z",
+            "hash": "cc4c579df2220d2df2bbfb26ed04d4ca54eee11230344c89ce8da83d4419a7d7"
         }
     },
     "installer": {
