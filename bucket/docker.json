@@ -1,13 +1,12 @@
 {
-    "version": "nightly",
+    "version": "3.5.2",
     "description": "Docker Desktop. Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
-    "homepage": "https://www.docker.com",
+    "homepage": "https://www.docker.com/products/docker-desktop",
     "license": {
         "identifier": "Apache-2.0",
-        "url": "https://github.com/moby/moby/blob/master/LICENSE"
+        "url": "https://www.docker.com/legal/docker-software-end-user-license-agreement"
     },
     "notes": [
-        "This version of docker manifest is nightly and has its own mind.",
         "All files will be installed into DEFAULT docker directory. (C:\\Program Files\\Docker)",
         "I suggest to change the docker images location:",
         "    https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file",
@@ -20,7 +19,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe#/dockerInstall.exe"
+            "url": "https://desktop.docker.com/win/stable/amd64/66501/Docker%20Desktop%20Installer.exe#/DockerDesktopInstall.exe",
+            "hash": "d6e3ecaf222e1ab595902d28792cca5151f88c09f009e6aebdd429f2277383db"
         }
     },
     "pre_install": [
@@ -40,10 +40,22 @@
         "keep": true
     },
     "uninstaller": {
-        "file": "dockerInstall.exe",
+        "file": "DockerDesktopInstall.exe",
         "args": [
             "uninstall",
             "--quiet"
         ]
+    },
+    "checkver": {
+        "url": "https://desktop.docker.com/win/stable/amd64/appcast.xml",
+        "xpath": "rss/channel/item/title",
+        "regex": "([\\d.]+)\\ \\((?<build>[\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://desktop.docker.com/win/stable/amd64/$matchBuild/Docker%20Desktop%20Installer.exe#/DockerDesktopInstall.exe"
+            }
+        }
     }
 }
