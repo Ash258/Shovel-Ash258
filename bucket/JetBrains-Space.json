@@ -1,12 +1,12 @@
 {
-    "version": "2021.2.1",
+    "version": "2021.2.2",
     "description": "Desktop Application for JetBrains Space - integrated team environment",
     "homepage": "https://download-cf.jetbrains.com/space/jetbrains-space.exe",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.jetbrains.com/space/jetbrains-space-2021.2.1.exe#/cosi.7z",
-            "hash": "sha512:83c98e407bad16b5372bec1f97e0549438945a46cabaea0a11d2812c89c96336ea03fcf23d14850270d529522065d20556eb79f3330494dbbb0500a66d3b82f4",
+            "url": "https://download.jetbrains.com/space/jetbrains-space-2021.2.2.exe#/cosi.7z",
+            "hash": "sha512:8d67b8b85084e619741717cda6687f475eb08e99f92c063b168ed065169555243560536e3fa08d00d5be5553e9852b33833ebe0aa18d42f32cc396d869393c11",
             "pre_install": [
                 "try { Get-Command 'Test-Persistence' -ErrorAction 'Stop' | Out-Null } catch { error 'Shovel flavour of scoop is required'; exit 258 }",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir",
