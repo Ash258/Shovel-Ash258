@@ -226,6 +226,7 @@
 | [Sordum's Monitor Off **(MonitorOff)**](./bucket/MonitorOff.json)                                                                                                     |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Mouse Settings Changer **(MouseSettingsChanger)**](./bucket/MouseSettingsChanger.json)                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Net Disabler **(NetDisabler)**](./bucket/NetDisabler.json)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Network Profile Name Changer **(NetworkProfileNameChanger)**](./bucket/NetworkProfileNameChanger.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's No Mouse Wheel Zoom **(NoMouseWheelZoom)**](./bucket/NoMouseWheelZoom.json)                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's NTFS Drive Protection **(NTFSDriveProtection)**](./bucket/NTFSDriveProtection.json)                                                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's PowerRun **(PowerRun)**](./bucket/PowerRun.json)                                                                                                            |   ✔    |    ✔     |       ✔(⛔)        |
