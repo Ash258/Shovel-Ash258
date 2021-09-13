@@ -1,6 +1,6 @@
-# Scoop Ash258 Bucket [![Build status](https://img.shields.io/appveyor/ci/Ash258/Scoop-Ash258/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/Scoop-Ash258/branch/master)
+# [Shovel](https://github.com/Ash258/Scoop-Core) Ash258 Bucket [![Build status](https://img.shields.io/appveyor/ci/Ash258/Shovel-Ash258/main.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/Shovel-Ash258/branch/main)
 
-`scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'`
+`shovel bucket add 'ash258.ash258' 'https://github.com/Ash258/Scoop-Ash258.git'`
 
 ❗❗ [For the most optimized scoop experience use "shovel" implementation](https://github.com/Ash258/Scoop-Core) ❗❗
 
@@ -15,7 +15,7 @@
 
 ### Available manifests for installation
 
-| App name **(Scoop name)**                                                                                                                                             | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
+| App name **(Shovel manifest name)**                                                                                                                                   | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
 | [A Ruler For Windows **(ARulerForWindows)**](./bucket/ARulerForWindows.json)                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AdwCleaner **(AdwCleaner)**](./bucket/AdwCleaner.json)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -226,7 +226,7 @@
 | [Sordum's Monitor Off **(MonitorOff)**](./bucket/MonitorOff.json)                                                                                                     |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Mouse Settings Changer **(MouseSettingsChanger)**](./bucket/MouseSettingsChanger.json)                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Net Disabler **(NetDisabler)**](./bucket/NetDisabler.json)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Network Profile Name Changer **(NetworkProfileNameChanger)**](./bucket/NetworkProfileNameChanger.json)                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Network Profile Name Changer **(NetworkProfileNameChanger)**](./bucket/NetworkProfileNameChanger.json)                                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's No Mouse Wheel Zoom **(NoMouseWheelZoom)**](./bucket/NoMouseWheelZoom.json)                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's NTFS Drive Protection **(NTFSDriveProtection)**](./bucket/NTFSDriveProtection.json)                                                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's PowerRun **(PowerRun)**](./bucket/PowerRun.json)                                                                                                            |   ✔    |    ✔     |       ✔(⛔)        |
@@ -312,7 +312,7 @@
 
 ### Deprecated
 
-| App name **(Scoop name)**                                                                                 | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
+| App name **(Shovel manifest name)**                                                                       | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
 | --------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
 | [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AutoClicker Targeted **(AutoClickerTargeted)**](./deprecated/AutoClickerTargeted.json)                   |   ✔    |    ❌     |       ❌ (❌)       |
@@ -364,8 +364,8 @@
 
 ### TODOs
 
-| App name **(Scoop name)** | Tested | Checkver | Autoupdate (Hash) |
-| ------------------------- | :----: | :------: | :---------------: |
+| App name **(Shovel manifest name)** | Tested | Checkver | Autoupdate (Hash) |
+| ----------------------------------- | :----: | :------: | :---------------: |
 chanty
 ryver
 flowdock
