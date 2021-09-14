@@ -2,16 +2,39 @@
     "version": "3.181.0",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
-    "license": "GPL-3.0-only",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
+    },
     "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v3.181.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v3.181.0/posh-windows-wsl-amd64.7z",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v3.181.0/posh-windows-amd64.exe#/oh-my-posh.exe",
                 "https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.json"
             ],
             "hash": [
-                "901f82fc74576b8a28aaefd0e52b804fdb1bf8ffd6a9d5e3871dd61e5081b5e5",
+                "0fad285814d37b1b611b93284c2238d6a859655f6746019420cd16ebbce9c1e9",
+                "af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v3.181.0/posh-windows-386.exe#/oh-my-posh.exe",
+                "https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.json"
+            ],
+            "hash": [
+                "e786e0c563c297d25d583ed183a803daae246b1f7af949575e5d11b129b010f0",
+                "af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6"
+            ]
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v3.181.0/posh-windows-arm64.exe#/oh-my-posh.exe",
+                "https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.json"
+            ],
+            "hash": [
+                "5ddd75c41fbe0a20471a14d562f955102b2957379d2771864424b5576c2bb982",
                 "af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6"
             ]
         }
@@ -36,7 +59,7 @@
         "    Add-Content $prof $c -Force",
         "}"
     ],
-    "bin": "bin\\oh-my-posh.exe",
+    "bin": "oh-my-posh.exe",
     "persist": "themes",
     "checkver": {
         "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
@@ -45,11 +68,18 @@
         "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v$version",
         "architecture": {
             "64bit": {
-                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-wsl-amd64.7z"
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-amd64.exe#/oh-my-posh.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-386.exe#/oh-my-posh.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-arm64.exe#/oh-my-posh.exe"
             }
         },
         "hash": {
-            "url": "$url.sha256"
+            "url": "$url.sha256",
+            "regex": "$sha256"
         }
     }
 }
