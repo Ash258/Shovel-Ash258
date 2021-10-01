@@ -1,14 +1,14 @@
 {
-    "version": "10",
+    "version": "10.1",
     "description": "BlueMaxima's Flashpoint Infinity. Archive of old flashpoint games/animations",
     "homepage": "https://bluemaxima.org/flashpoint/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/FlashpointProject/launcher/blob/master/LICENSE"
     },
-    "url": "https://bluemaxima.org/flashpoint/Flashpoint%2010%20Infinity.exe#/cosi.7z",
-    "hash": "a6dc971bc1f692dac39256ed8cf2ea447b9fc36e5ebd29c8b20d534aa57649c3",
-    "extract_dir": "Flashpoint 10 Infinity",
+    "url": "https://bluemaxima.org/flashpoint/Flashpoint%2010.1%20Infinity.exe#/cosi.7z",
+    "hash": "1ead18fc1898ffdcdc4523bc3800a694313574a6de975efbe3a5c53ecd7a2c05",
+    "extract_dir": "Flashpoint 10.1 Infinity",
     "shortcuts": [
         [
             "Launcher\\Flashpoint.exe",
