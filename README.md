@@ -40,7 +40,6 @@
 | [CleanMgrPlus **(CleanMgrPlus)**](./bucket/CleanMgrPlus.json)                                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [ClickUp **(ClickUp)**](./bucket/ClickUp.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [CloneApp **(CloneApp)**](./bucket/CloneApp.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
-| [CloneApp Universal Apps **(CloneAppUA)**](./bucket/CloneAppUA.json)                                                                                                  |   ✔    |    ✔     |       ✔ (✔)       |
 | [Concat **(Concat)**](./bucket/Concat.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [cwRsync **(cwRsync)**](./bucket/cwRsync.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
@@ -94,7 +93,6 @@
 | [Kaspersky's Virus Removal Tool **(KasperskyVirusRemovalTool)**](./bucket/KasperskyVirusRemovalTool.json)                                                             |   ✔    |    ♻     |       ♻(♻)        |
 | [Kaspersky's WildfireDecryptor **(WildfireDecryptor)**](./bucket/WildfireDecryptor.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Keyboard and Mouse Cleaner **(KMCleaner)**](./bucket/KMCleaner.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.json)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                                                                                |   ✔    |    ✔❓    |       ✔ (⛔)       |
