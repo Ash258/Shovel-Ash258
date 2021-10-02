@@ -43,6 +43,7 @@
 | [Concat **(Concat)**](./bucket/Concat.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [cwRsync **(cwRsync)**](./bucket/cwRsync.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
+| [CZ Manager **(CZManager)**](./bucket/CZManager.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devcontainer-cli **(devcontainer-cli)**](./bucket/devcontainer-cli.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
