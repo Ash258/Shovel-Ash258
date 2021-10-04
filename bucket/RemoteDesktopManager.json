@@ -1,5 +1,5 @@
 {
-    "version": "2021.2.13.0",
+    "version": "2021.2.14.0",
     "description": "Devolutions Remote Desktop Manager",
     "homepage": "https://remotedesktopmanager.com",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://remotedesktopmanager.com/support/faq"
     },
     "changelog": "https://remotedesktopmanager.com/release-notes/free",
-    "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManagerFree.Bin.2021.2.13.0.zip",
-    "hash": "9568488ba92c909c420bc12cb2fc45cacbe922d2de2d6fd39bef3bc293c6535a",
+    "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManagerFree.Bin.2021.2.14.0.zip",
+    "hash": "add731ca0cd4c47efd584381ce78ec0ad5aa12a995876a9f874857f3b772fced",
     "shortcuts": [
         [
             "RemoteDesktopManagerFree.exe",
