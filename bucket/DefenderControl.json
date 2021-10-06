@@ -8,7 +8,7 @@
     },
     "changelog": "ReadMe.txt",
     "url": "https://www.sordum.org/files/download/d-control/dControl.zip#/cosi.cosi",
-    "hash": "41c5d6123478b452ad6e70f086788a88c712970551b811fa817d46db11e2b3fa",
+    "hash": "33d5083e52f05a0e777f29bdfcbaa133664ec67a533acd7d63ba2aa20f609ff9",
     "extract_dir": "dControl",
     "pre_install": [
         "$splat = @{ 'ExtractDir' = $manifest.extract_dir; 'Switches' = '-psordum'; 'Removal' = $true }",
