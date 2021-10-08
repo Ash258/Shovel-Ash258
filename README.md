@@ -259,6 +259,7 @@
 | [Sordum's VHD For Context Menu **(VHDForContextMenu)**](./bucket/VHDForContextMenu.json)                                                                              |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Win10 Settings Blocker **(WsBlocker)**](./bucket/WsBlocker.json)                                                                                            |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Windows 11 Classic Context menu **(Windows11ClassicContextmenu)**](./bucket/Windows11ClassicContextmenu.json)                                               |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.json)                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SoundSwitch **(SoundSwitch)**](./bucket/SoundSwitch.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
