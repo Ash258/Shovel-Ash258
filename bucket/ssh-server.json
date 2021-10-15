@@ -6,16 +6,17 @@
         "identifier": "BSD-3-Clause",
         "url": "https://github.com/PowerShell/openssh-portable/blob/latestw_all/LICENCE"
     },
+    "changelog": "https://github.com/PowerShell/Win32-OpenSSH/releases/tag/V8.6.0.0p1-Beta",
     "pre_download": "Assert-Administrator",
     "architecture": {
         "64bit": {
-            "hash": "9f9215dc0b823264d52603f4767d8531880ddfa9aedf16404923814c0ab086b7",
             "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/V8.6.0.0p1-Beta/OpenSSH-Win64.zip",
+            "hash": "9f9215dc0b823264d52603f4767d8531880ddfa9aedf16404923814c0ab086b7",
             "extract_dir": "OpenSSH-Win64"
         },
         "32bit": {
-            "hash": "0221324212413a6caf260f95e308d22f8c141fc37727b622a6ad50998c46d226",
             "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/V8.6.0.0p1-Beta/OpenSSH-Win32.zip",
+            "hash": "0221324212413a6caf260f95e308d22f8c141fc37727b622a6ad50998c46d226",
             "extract_dir": "OpenSSH-Win32"
         }
     },
@@ -73,6 +74,7 @@
         "regex": "download/V([\\w.-]+)/"
     },
     "autoupdate": {
+        "changelog": "https://github.com/PowerShell/Win32-OpenSSH/releases/tag/V$version",
         "architecture": {
             "64bit": {
                 "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/V$version/OpenSSH-Win64.zip"
