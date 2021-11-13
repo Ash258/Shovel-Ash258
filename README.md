@@ -44,6 +44,7 @@
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [cwRsync **(cwRsync)**](./bucket/cwRsync.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [CZ Manager **(CZManager)**](./bucket/CZManager.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [DBeaver **(DBeaver)**](./bucket/DBeaver.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devcontainer-cli **(devcontainer-cli)**](./bucket/devcontainer-cli.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
