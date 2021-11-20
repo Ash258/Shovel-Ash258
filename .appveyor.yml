@@ -19,12 +19,14 @@ environment:
 init:
   - ps: |
       (Get-PSProvider 'FileSystem').Home = 'C:\projects\'
-      if(!(Test-Path "$env:SCOOP_HOME")) {
+      if(!(Test-Path -LiteralPath "$env:SCOOP_HOME" -PathType Container)) {
         git clone -q --depth=1 --branch 'NEW' 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
         git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
       } else {
+        Write-Host 'Pulling'
         git -C $env:SCOOP_HOME pull
       }
+      & "${env:SCOOP_HOME}/bin/scoop.ps1" --version
 for:
   - matrix:
       only:
