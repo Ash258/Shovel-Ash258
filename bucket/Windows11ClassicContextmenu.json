@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.sordum.org/files/download/win11-classic-context-menu/W11ClassicMenu.zip",
-            "hash": "13ada4941dc9a8a2c8210edbf40df693449a2a815f46b1a8790fe3f9af54b154"
+            "hash": "4320b4000c917ee698a461796a88eea1da985a0671c850f5b87ce458052bc6d8"
         }
     },
     "extract_dir": "W11ClassicMenu",
