@@ -294,9 +294,9 @@
 | [VMware **(VMware)**](./bucket/VMware.json)                                                                                                                           |   ✔    |    ✔❗    |       ✔ (✔)       |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
-| [Wavebox **(Wavebox)**](./bucket/Wavebox.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Wavebox-beta **(Wavebox-beta)**](./bucket/Wavebox-beta.json)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Wavebox-canary **(Wavebox-canary)**](./bucket/Wavebox-canary.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wavebox **(Wavebox)**](./bucket/Wavebox.yml)                                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wavebox-beta **(Wavebox-beta)**](./bucket/Wavebox-beta.yml)                                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wavebox-canary **(Wavebox-canary)**](./bucket/Wavebox-canary.yml)                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wi-Fi Password Revealer **(WifiPasswordRevealer)**](./bucket/WifiPasswordRevealer.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Win Toolkit **(WinToolkit)**](./bucket/WinToolkit.json)                                                                                                              |   ✔    |    ✔     |       ❌ (❌)       |
 | [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
