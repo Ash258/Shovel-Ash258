@@ -163,6 +163,7 @@
 | [NetworkNotepad **(NetworkNotepad)**](./bucket/NetworkNotepad.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NetworkNotepad Professional Edition **(NetworkNotepad-pro)**](./bucket/NetworkNotepad-pro.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.json)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Oh My Posh **(oh-my-posh)**](./bucket/oh-my-posh.yml)                                                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [OnlyM **(OnlyM)**](./bucket/OnlyM.json)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.json)                                                                                                                           |   ✔    |    ♻     |       ♻ (♻)       |
 | [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -180,7 +181,7 @@
 | [Pode **(Pode)**](./bucket/Pode.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Postbox **(Postbox)**](./bucket/Postbox.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
 | [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.json)                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -305,7 +306,7 @@
 | [Windows on Raspberry **(WindowsOnRaspberry)**](./bucket/WindowsOnRaspberry.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
-| [winget **(winget)**](./bucket/winget.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [winget **(winget)**](./bucket/winget.yml)                                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
@@ -313,19 +314,19 @@
 
 ### Deprecated
 
-| App name **(Shovel manifest name)**                                                                       | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
-| --------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
-| [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.json)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [AutoClicker Targeted **(AutoClickerTargeted)**](./deprecated/AutoClickerTargeted.json)                   |   ✔    |    ❌     |       ❌ (❌)       |
-| [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.json)                          |   ✔    |    ✔     |       ✔ (✔)       |
-| [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.json)                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.json)                                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.json)                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [oh-my-posh (v2) **(oh-my-posh)**](./deprecated/oh-my-posh.json)                                          |   ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.json) |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.json)                                 |   ✔    |    ♻     |       ♻ (♻)       |
-| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.json)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
-| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.json)                       |   ✔    |    ✔     |       ✔(⛔)        |
+| App name **(Shovel manifest name)**                                                                      | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
+| -------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
+| [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.yml)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AutoClicker Targeted **(AutoClickerTargeted)**](./deprecated/AutoClickerTargeted.yml)                   |   ✔    |    ❌     |       ❌ (❌)       |
+| [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.yml)                          |   ✔    |    ✔     |       ✔ (✔)       |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.yml)                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.yml)                                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.yml)                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [oh-my-posh (v2) **(oh-my-posh)**](./deprecated/oh-my-posh.yml)                                          |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.yml) |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.yml)                                 |   ✔    |    ♻     |       ♻ (♻)       |
+| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.yml)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
+| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.yml)                       |   ✔    |    ✔     |       ✔(⛔)        |
 
 ### Moved to other (known) bucket
 
@@ -372,48 +373,43 @@ ryver
 flowdock
 zulipchat
 bitrix24
-| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.json)                                  |   ✔    |    ✔     |       ✔ (✔)       |
-| [Microsoft Edge Beta **(MicrosoftEdge-beta)**](./TODO/MicrosoftEdge-beta.json)                   |   ✔    |    ✔     |       ✔ (✔)       |
-| [Microsoft Edge Dev **(MicrosoftEdge-dev)**](./TODO/MicrosoftEdge-dev.json)                      |   ✔    |    ✔     |       ✔ (✔)       |
-| [Microsoft Edge Canary **(MicrosoftEdge-canary)**](./TODO/MicrosoftEdge-canary.json)             |   ✔    |    ✔     |       ✔ (✔)       |
-| [Icecream Screen Recorder **(IcecreamScreenRecorder)**](./bucket/IcecreamScreenRecorder.json)    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Icecream Video Editor **(IcecreamVideoEditor)**](./bucket/IcecreamVideoEditor.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Icecream Ebook Reader **(IcecreamEbookReader)**](./bucket/IcecreamEbookReader.json)             |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Icecream Slideshow Maker **(IcecreamSlideshowMaker)**](./bucket/IcecreamSlideshowMaker.json)    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Icecream PDF Converter **(IcecreamPDFConverter)**](./bucket/IcecreamPDFConverter.json)          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Icecream PDF Split Merge **(IcecreamPDFSplitMerge)**](./bucket/IcecreamPDFSplitMerge.json)      |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Icecream Password Manager **(IcecreamPasswordManager)**](./bucket/IcecreamPasswordManager.json) |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Icecream Image Resizer **(IcecreamImageResizer)**](./bucket/IcecreamImageResizer.json)          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.json)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Microsoft Edge **(MicrosoftEdge)**](./TODO/MicrosoftEdge.yml)                                  |   ✔    |    ✔     |       ✔ (✔)       |
+| [Microsoft Edge Beta **(MicrosoftEdge-beta)**](./TODO/MicrosoftEdge-beta.yml)                   |   ✔    |    ✔     |       ✔ (✔)       |
+| [Microsoft Edge Dev **(MicrosoftEdge-dev)**](./TODO/MicrosoftEdge-dev.yml)                      |   ✔    |    ✔     |       ✔ (✔)       |
+| [Microsoft Edge Canary **(MicrosoftEdge-canary)**](./TODO/MicrosoftEdge-canary.yml)             |   ✔    |    ✔     |       ✔ (✔)       |
+| [Icecream Screen Recorder **(IcecreamScreenRecorder)**](./bucket/IcecreamScreenRecorder.yml)    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Video Editor **(IcecreamVideoEditor)**](./bucket/IcecreamVideoEditor.yml)             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Ebook Reader **(IcecreamEbookReader)**](./bucket/IcecreamEbookReader.yml)             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Slideshow Maker **(IcecreamSlideshowMaker)**](./bucket/IcecreamSlideshowMaker.yml)    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream PDF Converter **(IcecreamPDFConverter)**](./bucket/IcecreamPDFConverter.yml)          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream PDF Split Merge **(IcecreamPDFSplitMerge)**](./bucket/IcecreamPDFSplitMerge.yml)      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Password Manager **(IcecreamPasswordManager)**](./bucket/IcecreamPasswordManager.yml) |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Icecream Image Resizer **(IcecreamImageResizer)**](./bucket/IcecreamImageResizer.yml)          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AmmyyAdmin **(AmmyyAdmin)**](./bucket/AmmyyAdmin.yml)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | VeraCrypt                                                                                        |
 | DJV                                                                                              |
 | EarTrumpet                                                                                       |
 | NetworkX                                                                                         |
 | Formatter                                                                                        |
 | notetab                                                                                          |
-| [Fleep **(Fleep)**](./TODO/Fleep.json)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Fleep **(Fleep)**](./TODO/Fleep.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                |
-| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.json)                      | ❌   | ✔   | ✔ (✔) |
+| [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.yml)                       | ❌   | ✔   | ✔ (✔) |
 | ----------------------------------------------------------------------------------------- | --- | --- | ----- |
-| [X3 Bold Red Cursor **(X3)**](./bucket/X3.json)                                           | ❌   | ⭕   | ⭕ (⭕) |
-| [Easy2Boot **(E2B)**](./TODO/E2B.json)                                                    | ❌   | ✔   | ✔ (⛔) |
-| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.json)                              | ❌   | ✔   | ✔ (⛔) |
-| [Microsoft Office 2007 Professional Plus CZ **(MSOffice2007)**](./TODO/MSOffice2007.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2010 Professional Plus CZ **(MSOffice2010)**](./TODO/MSOffice2010.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2013 Professional Plus CZ **(MSOffice2013)**](./TODO/MSOffice2013.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2016 Professional Plus CZ **(MSOffice2016)**](./TODO/MSOffice2016.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Microsoft Office 2019 Professional Plus CZ **(MSOffice2019)**](./TODO/MSOffice2019.json) | ❌   | ⭕   | ⭕ (⭕) |
-| [Corsair's iCue **(iCue)**](./TODO/iCue.json)                                             | ✔🔶  | ✔   | ✔ (⛔) |
+| [X3 Bold Red Cursor **(X3)**](./bucket/X3.yml)                                            | ❌   | ⭕   | ⭕ (⭕) |
+| [Easy2Boot **(E2B)**](./TODO/E2B.yml)                                                     | ❌   | ✔   | ✔ (⛔) |
+| [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.yml)                               | ❌   | ✔   | ✔ (⛔) |
+| [Corsair's iCue **(iCue)**](./TODO/iCue.yml)                                              | ✔🔶  | ✔   | ✔ (⛔) |
 | ----------------------------------------------------------------------------------------- | --- | --- | ----- |
-| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.json)                                    | ❌   | ✔   | ✔ (⛔) |
-| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.json)                                       | ❌   | ❌   | ❌ (❌) |
-| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.json)                                    | 🎃   | ✔   | ✔ (✔) |
-| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.json)                                     | ❌   | ❌   | ❌ (❌) |
-| [TeamSpeak5 **(TS5)**](./TODO/TS5.json)                                                   | ❌   | ❌   | ❌ (❌) |
-| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.json)                                 | ❌   | ❌   | ❌ (❌) |
-| [Battle.Net **(BattleNet)**](./TODO/BattleNet.json)                                       | ❌   | ❌   | ❌ (❌) |
-| [Nox App Player **(Nox)**](./TODO/Nox.json)                                               | ❌   | ❌   | ❌ (❌) |
-| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.json)                            | ❌   | ❌   | ❌ (❌) |
+| [UložTo File Manager **(UlozTo)**](./TODO/UlozTo.yml)                                     | ❌   | ✔   | ✔ (⛔) |
+| [Eset Nod32 **(EsetNod32)**](./TODO/EsetNod32.yml)                                        | ❌   | ❌   | ❌ (❌) |
+| [NVidia GeForce Experience **(GFE)**](./TODO/GFE.yml)                                     | 🎃   | ✔   | ✔ (✔) |
+| [TeamViewer **(TeamViewer)**](./TODO/TeamViewer.yml)                                      | ❌   | ❌   | ❌ (❌) |
+| [TeamSpeak5 **(TS5)**](./TODO/TS5.yml)                                                    | ❌   | ❌   | ❌ (❌) |
+| [Adobe Reader **(AdobeReader)**](./TODO/AdobeReader.yml)                                  | ❌   | ❌   | ❌ (❌) |
+| [Battle.Net **(BattleNet)**](./TODO/BattleNet.yml)                                        | ❌   | ❌   | ❌ (❌) |
+| [Nox App Player **(Nox)**](./TODO/Nox.yml)                                                | ❌   | ❌   | ❌ (❌) |
+| [Blue Stack Emulator **(BlueStacks)**](./TODO/BlueStacks.yml)                             | ❌   | ❌   | ❌ (❌) |
 
 - 🔶 Additional testing is needed
 - ⭕ Not needed
