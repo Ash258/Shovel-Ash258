@@ -1,43 +1,32 @@
-{
-    "version": "065b450db9f555f177161748e8f2911ebb5677f9",
-    "description": "Automatic vscode server insiders installation. For vms preparation.",
-    "homepage": "https://code.visualstudio.com/docs/remote/remote-overview",
-    "license": "Proprietary",
-    "architecture": {
-        "64bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/065b450db9f555f177161748e8f2911ebb5677f9/vscode-server-win32-x64.zip",
-            "hash": "b5013283d67cde78b1a151d0934eed865cf96a39365769e40089869bdfa1bf00"
-        }
-    },
-    "pre_install": [
-        "try { Get-Command 'Test-Persistence' -ErrorAction 'Stop' | Out-Null } catch { error 'Shovel flavour of scoop is required'; exit 258 }",
-        "Rename-Item \"$dir\\$($fname -replace '\\.zip')\" $version",
-        "$bin = Join-Path $env:USERPROFILE '.vscode-server-insiders\\bin'",
-        "Confirm-DirectoryExistence $bin | Out-Null",
-        "if ($env:__VSS_Install -and $env:__VSS_Install -eq 1) {",
-        "    if (Join-Path $bin $version | Test-Path -PathType Container) {",
-        "        Write-UserMessage \"Server with version '$version' already exists\" -Warning",
-        "    } else {",
-        "        Write-UserMessage \"Installing server to '$bin'\" -Info",
-        "        Move-Item \"$dir\\$version\" $bin",
-        "    }",
-        "}"
-    ],
-    "pre_uninstall": [
-        "if ($purge) {",
-        "    Write-UserMessage \"Removing server installation from '$env:USERPROFILE\\.vscode-server-insiders\\bin\\$version'\" -Info",
-        "    Remove-Item \"$env:USERPROFILE\\.vscode-server-insiders\\bin\\$version\" -Force -Recurse",
-        "}"
-    ],
-    "checkver": {
-        "url": "https://code.visualstudio.com/sha?build=insider",
-        "jsonpath": "$.products[0].version"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://az764295.vo.msecnd.net/insider/$version/vscode-server-win32-x64.zip"
-            }
-        }
-    }
-}
+version: 065b450db9f555f177161748e8f2911ebb5677f9
+description: Automatic vscode server insiders installation. For vms preparation.
+homepage: https://code.visualstudio.com/docs/remote/remote-overview
+license: Proprietary
+architecture:
+  64bit:
+    url: https://az764295.vo.msecnd.net/insider/065b450db9f555f177161748e8f2911ebb5677f9/vscode-server-win32-x64.zip
+    hash: b5013283d67cde78b1a151d0934eed865cf96a39365769e40089869bdfa1bf00
+pre_install: |
+  Rename-Item "$dir\$($fname -replace '\.zip')" $version
+  $bin = Join-Path $env:USERPROFILE '.vscode-server-insiders\bin'
+  Confirm-DirectoryExistence $bin | Out-Null
+  if ($env:__VSS_Install -and $env:__VSS_Install -eq 1) {
+      if (Join-Path $bin $version | Test-Path -PathType 'Container') {
+          Write-UserMessage "Server with version '$version' already exists" -Warning
+      } else {
+          Write-UserMessage "Installing server to '$bin'" -Info
+          Move-Item "$dir\$version" $bin
+      }
+  }
+pre_uninstall: |
+  if ($purge) {
+      Write-UserMessage "Removing server installation from '$env:USERPROFILE\.vscode-server-insiders\bin\$version'" -Info
+      Remove-Item "$env:USERPROFILE\.vscode-server-insiders\bin\$version" -Force -Recurse
+  }
+checkver:
+  url: https://code.visualstudio.com/sha?build=insider
+  jsonpath: $.products[0].version
+autoupdate:
+  architecture:
+    64bit:
+      url: https://az764295.vo.msecnd.net/insider/$version/vscode-server-win32-x64.zip
