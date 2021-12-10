@@ -11,7 +11,7 @@ if (-not $env:CI) {
 
 # region Install changed manifests
 function log([String[]] $message = "============`r`n") {
-    Add-Content "./INSTALL.log" ($message -join "`r`n") -Encoding 'Ascii'
+    Add-Content './INSTALL.log' ($message -join "`r`n") -Encoding 'Ascii'
 }
 
 function install() {
@@ -58,14 +58,16 @@ Describe 'Changed manifests installation' {
         return
     }
 
-    New-Item "$env:SCOOP\shims" -ItemType Directory | Out-Null
-    Set-Content "$env:SCOOP\shims\scoop.ps1" @'
+    $shm = "$env:SCOOP\shims"
+    if (!(Test-Path -LiteralPath $shm -PathType 'Container')) { New-Item $shm -ItemType 'Directory' | Out-Null }
+
+    Set-Content "$shm\scoop.ps1" @'
 $path = Join-Path "$PSScriptRoot" "..\apps\scoop\current\bin\scoop.ps1"
 if ($MyInvocation.ExpectingInput) { $input | & $path @args } else { & $path @args }
 exit $LASTEXITCODE
-'@
-    Copy-Item "$env:SCOOP\shims\scoop.ps1" "$env:SCOOP\shims\shovel.ps1"
-    $env:PATH = "$env:PATH;$env:SCOOP\shims"
+'@ -Force
+    Copy-Item "$shm\scoop.ps1" "$shm\shovel.ps1" -Force
+    $env:PATH = "$shm;${env:PATH}"
 
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
