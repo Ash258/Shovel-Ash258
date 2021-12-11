@@ -90,6 +90,7 @@ exit $LASTEXITCODE
     $changedFiles += $changedFiles | Where-Object { $_ -like '*.y*ml' }
 
     if ($changedFiles.Count -gt 0) {
+        Write-Host "Processing $($changedFiles.Count) changed manifests ($($changedFiles.BaseName -join ', '))" -ForegroundColor 'Green'
         shovel config 'lastupdate' '258|2580-12-03 12:58:19'
         log @(shovel install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
         shovel config 'MSIEXTRACT_USE_LESSMSI' $true
@@ -108,7 +109,7 @@ exit $LASTEXITCODE
             $URL = 'URL'
 
             Context $man {
-                $json = ConvertFrom-Manifest $file
+                $json = ConvertFrom-Manifest $toInstall
                 if ($json.architecture) {
                     if ($json.architecture.$64) {
                         It $64 {
