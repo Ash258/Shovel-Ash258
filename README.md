@@ -182,8 +182,8 @@
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Postbox **(Postbox)**](./bucket/Postbox.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [PowerShell Core **(pwsh)**](./bucket/pwsh.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
-| [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.json)                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
+| [PowerShell Core **(pwsh)**](./bucket/pwsh.yml)                                                                                                                       |   ✔    |    ✔     |       ✔ (✔)       |
+| [PowerShell Core Preview **(pwsh-preview)**](./bucket/pwsh-preview.yml)                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Privacy Eraser **(PrivacyEraser)**](./bucket/PrivacyEraser.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ProtonMail Desktop Unofficial **(ProtonMailDesktop-Unofficial)**](./bucket/ProtonMailDesktop-Unofficial.json)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [PRTG API **(PrtgAPI)**](./bucket/PrtgAPI.yml)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |

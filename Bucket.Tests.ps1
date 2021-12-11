@@ -87,7 +87,7 @@ exit $LASTEXITCODE
         Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS } |
         Where-Object { $_ -imatch 'bucket/' }
     $changedFiles = $allChanges | Where-Object { $_ -like '*.json' }
-    $changedFiles += $changedFiles | Where-Object { $_ -like '*.y*ml' }
+    $changedFiles += $allChanges | Where-Object { $_ -like '*.yml' }
 
     if ($changedFiles.Count -gt 0) {
         Write-Host "Processing $($changedFiles.Count) changed manifests ($($changedFiles.BaseName -join ', '))" -ForegroundColor 'Green'
