@@ -71,7 +71,7 @@
 | [Flock **(Flock)**](./bucket/Flock.json)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FreeRapid Downloader **(FRD)**](./bucket/FRD.json)                                                                                                                   |   ✔    |    ❌     |       ❌ (⛔)       |
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.json)                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
-| [Get Video Details **(GVD)**](./bucket/GVD.json)                                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Get Video Details **(GVD)**](./bucket/GVD.yml)                                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.json)                                                                                                 |   ✔    |    ❌     |       ❌ (❌)       |
@@ -179,7 +179,7 @@
 | [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Pode **(Pode)**](./bucket/Pode.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
-| [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Postbox **(Postbox)**](./bucket/Postbox.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PotPlayer **(PotPlayer)**](./bucket/PotPlayer.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [PowerShell Core **(pwsh)**](./bucket/pwsh.yml)                                                                                                                       |   ✔    |    ✔     |       ✔ (✔)       |
@@ -301,7 +301,7 @@
 | [Win Toolkit **(WinToolkit)**](./bucket/WinToolkit.json)                                                                                                              |   ✔    |    ✔     |       ❌ (❌)       |
 | [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                                                                                        |   ✔    |    ✔     |       ❌ (⛔)       |
-| [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.json)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)                                                                  |   ✔    |    ✔     |       ❌ (❌)       |
 | [Windows on Raspberry **(WindowsOnRaspberry)**](./bucket/WindowsOnRaspberry.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |

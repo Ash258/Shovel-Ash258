@@ -50,6 +50,7 @@ persist:
 checkver:
   github: https://www.github.com/PowerShell/PowerShell
 autoupdate:
+  archive: true
   changelog: https://github.com/PowerShell/PowerShell/releases/tag/v$version
   architecture:
     64bit:

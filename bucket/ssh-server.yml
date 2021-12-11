@@ -66,6 +66,7 @@ checkver:
   github: https://github.com/PowerShell/Win32-OpenSSH
   regex: download/V([\w.-]+)/
 autoupdate:
+  archive: true
   changelog: https://github.com/PowerShell/Win32-OpenSSH/releases/tag/V$version
   architecture:
     64bit:
