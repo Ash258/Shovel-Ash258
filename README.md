@@ -44,7 +44,7 @@
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [cwRsync **(cwRsync)**](./bucket/cwRsync.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [CZ Manager **(CZManager)**](./bucket/CZManager.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [DBeaver **(DBeaver)**](./bucket/DBeaver.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
+| [DBeaver **(DBeaver)**](./bucket/DBeaver.yml)                                                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devcontainer-cli **(devcontainer-cli)**](./bucket/devcontainer-cli.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
@@ -305,7 +305,7 @@
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)                                                                  |   ✔    |    ✔     |       ❌ (❌)       |
 | [Windows on Raspberry **(WindowsOnRaspberry)**](./bucket/WindowsOnRaspberry.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
-| [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.json)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [winget **(winget)**](./bucket/winget.yml)                                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
