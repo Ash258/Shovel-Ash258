@@ -94,7 +94,7 @@
 | [Kaspersky's TDSSKiller **(TDSSKiller)**](./bucket/TDSSKiller.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's Virus Removal Tool **(KasperskyVirusRemovalTool)**](./bucket/KasperskyVirusRemovalTool.json)                                                             |   ✔    |    ♻     |       ♻(♻)        |
 | [Kaspersky's WildfireDecryptor **(WildfireDecryptor)**](./bucket/WildfireDecryptor.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.json)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.json)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                                                                                |   ✔    |    ✔❓    |       ✔ (⛔)       |
@@ -152,8 +152,8 @@
 | [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.json)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC XPing **(XPing)**](./bucket/XPing.json)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.yml)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC XPing **(XPing)**](./bucket/XPing.yml)                                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [mRemoteNG **(mRemoteNG)**](./bucket/mRemoteNG.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -311,6 +311,7 @@
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [YoloMouse **(YoloMouse)**](./bucket/YoloMouse.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Deprecated
 
