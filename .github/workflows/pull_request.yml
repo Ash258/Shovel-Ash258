@@ -9,8 +9,8 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: PullRequestHandler
-      uses: Ash258/Scoop-GithubActions@stable-win
+      uses: shovel-org/GithubActions@main
       env:
-        SHOVEL: '1'
         GITH_EMAIL: cabera.jakub@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SCOOP_BRANCH: NEW
