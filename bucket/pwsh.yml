@@ -1,5 +1,5 @@
 version: 7.2.1
-description: PowerShell Core Preview. Cross-Platform task automation and configuration management framework/tool.
+description: PowerShell Core. Cross-Platform task automation and configuration management framework/tool.
 homepage: https://github.com/PowerShell/PowerShell
 license:
   identifier: MIT
@@ -38,11 +38,11 @@ pre_uninstall: |
   regedit /s "$dir\pwsh-context-un.reg"
 bin:
 - - pwsh.exe
-  - pwsh-preview
+  - pwsh
   - -NoLogo
 shortcuts:
 - - pwsh.exe
-  - PowerShell Core Preview
+  - PowerShell Core
   - -NoLogo
 persist:
 - Microsoft.PowerShell_profile.ps1
