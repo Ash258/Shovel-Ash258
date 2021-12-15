@@ -44,7 +44,7 @@
 | [CrossFont **(CrossFont)**](./bucket/CrossFont.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [cwRsync **(cwRsync)**](./bucket/cwRsync.json)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [CZ Manager **(CZManager)**](./bucket/CZManager.json)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [DBeaver **(DBeaver)**](./bucket/DBeaver.yml)                                                                                                                        |   ✔    |    ✔     |       ✔ (✔)       |
+| [DBeaver **(DBeaver)**](./bucket/DBeaver.yml)                                                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
 | [Depressurizer **(Depressurizer)**](./bucket/Depressurizer.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devcontainer-cli **(devcontainer-cli)**](./bucket/devcontainer-cli.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [devilutionX **(devilutionX)**](./bucket/devilutionX.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
@@ -94,7 +94,7 @@
 | [Kaspersky's TDSSKiller **(TDSSKiller)**](./bucket/TDSSKiller.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kaspersky's Virus Removal Tool **(KasperskyVirusRemovalTool)**](./bucket/KasperskyVirusRemovalTool.json)                                                             |   ✔    |    ♻     |       ♻(♻)        |
 | [Kaspersky's WildfireDecryptor **(WildfireDecryptor)**](./bucket/WildfireDecryptor.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.yml)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.json)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.json)                                                                                                                                |   ✔    |    ✔❓    |       ✔ (⛔)       |
@@ -151,8 +151,8 @@
 | [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json)                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.yml)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.yml)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.yml)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.yml)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XPing **(XPing)**](./bucket/XPing.yml)                                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [mRemoteNC **(mRemoteNC)**](./bucket/mRemoteNC.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -176,7 +176,7 @@
 | [Paessler's sFlow Tester **(sFlowTester)**](./bucket/sFlowTester.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's SNMP Tester **(SNMPTester)**](./bucket/SNMPTester.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's Webserver Stress Tool **(WebserverStress)**](./bucket/WebserverStress.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.yml)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.yml)                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Pode **(Pode)**](./bucket/Pode.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -305,7 +305,7 @@
 | [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)                                                                  |   ✔    |    ✔     |       ❌ (❌)       |
 | [Windows on Raspberry **(WindowsOnRaspberry)**](./bucket/WindowsOnRaspberry.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
-| [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.yml)                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [winget **(winget)**](./bucket/winget.yml)                                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
