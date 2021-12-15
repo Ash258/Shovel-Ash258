@@ -147,10 +147,10 @@
 | [MiTeC Structured Storage Viewer **(StructuredStorageViewer)**](./bucket/StructuredStorageViewer.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC System Information X **(SystemInformationX)**](./bucket/SystemInformationX.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Task Manager DeLuxe **(TaskManagerDeLuxe)**](./bucket/TaskManagerDeLuxe.json)                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Weather Agent **(WeatherAgent)**](./bucket/WeatherAgent.json)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json)                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Weather Agent **(WeatherAgent)**](./bucket/WeatherAgent.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.yml)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.yml)                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.yml)                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.yml)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.yml)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XPing **(XPing)**](./bucket/XPing.yml)                                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -175,7 +175,7 @@
 | [Paessler's PRTG Desktop App **(PRTGDesktop**](./bucket/PRTGDesktop.json)                                                                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's sFlow Tester **(sFlowTester)**](./bucket/sFlowTester.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's SNMP Tester **(SNMPTester)**](./bucket/SNMPTester.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Paessler's Webserver Stress Tool **(WebserverStress)**](./bucket/WebserverStress.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Paessler's Webserver Stress Tool **(WebserverStress)**](./bucket/WebserverStress.yml)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.yml)                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Pode **(Pode)**](./bucket/Pode.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
@@ -259,11 +259,11 @@
 | [Sordum's Update Time **(UpdateTime)**](./bucket/UpdateTime.json)                                                                                                     |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's URL Disabler **(UrlDisabler)**](./bucket/UrlDisabler.json)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's VHD For Context Menu **(VHDForContextMenu)**](./bucket/VHDForContextMenu.json)                                                                              |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.json)                                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Win10 Settings Blocker **(WsBlocker)**](./bucket/WsBlocker.json)                                                                                            |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Windows 11 Classic Context menu **(Windows11ClassicContextmenu)**](./bucket/Windows11ClassicContextmenu.json)                                               |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.json)                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.json)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Sordum's WebCam On/Off **(WebCamOnOff)**](./bucket/WebCamOnOff.yml)                                                                                                  |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Win10 Settings Blocker **(WsBlocker)**](./bucket/WsBlocker.yml)                                                                                             |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Windows 11 Classic Context menu **(Windows11ClassicContextmenu)**](./bucket/Windows11ClassicContextmenu.yml)                                                |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Window Topmost Control **(WindowTopMostControl)**](./bucket/WindowTopMostControl.yml)                                                                       |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Windows Update Blocker **(WindowsUpdateBlocker)**](./bucket/WindowsUpdateBlocker.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SoundSwitch **(SoundSwitch)**](./bucket/SoundSwitch.json)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Speccy **(Speccy)**](./bucket/Speccy.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Spotify **(Spotify)**](./bucket/Spotify.json)                                                                                                                        |   ❌    |    ♻     |       ♻ (♻)       |
@@ -293,24 +293,24 @@
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.json)                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [VMware **(VMware)**](./bucket/VMware.json)                                                                                                                           |   ✔    |    ✔❗    |       ✔ (✔)       |
 | [VMware macOS Unlocker **(VMware-unlocker)**](./bucket/VMware-unlocker.json)                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [W10Privacy **(W10Privacy)**](./bucket/W10Privacy.yml)                                                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wavebox **(Wavebox)**](./bucket/Wavebox.yml)                                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wavebox-beta **(Wavebox-beta)**](./bucket/Wavebox-beta.yml)                                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Wavebox-canary **(Wavebox-canary)**](./bucket/Wavebox-canary.yml)                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Wi-Fi Password Revealer **(WifiPasswordRevealer)**](./bucket/WifiPasswordRevealer.json)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Win Toolkit **(WinToolkit)**](./bucket/WinToolkit.json)                                                                                                              |   ✔    |    ✔     |       ❌ (❌)       |
-| [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
-| [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.json)                                                                                                        |   ✔    |    ✔     |       ❌ (⛔)       |
+| [Wi-Fi Password Revealer **(WifiPasswordRevealer)**](./bucket/WifiPasswordRevealer.yml)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Win Toolkit **(WinToolkit)**](./bucket/WinToolkit.yml)                                                                                                               |   ✔    |    ✔     |       ❌ (❌)       |
+| [Win+X Menu Editor **(WinXMenuEditor)**](./bucket/WinXMenuEditor.yml)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
+| [WinAIO Maker Professional **(WinAIO)**](./bucket/WinAIO.yml)                                                                                                         |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Windows 10 Initial Setup **(Win10InitialSetup)**](./bucket/Win10InitialSetup.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.json)                                                                  |   ✔    |    ✔     |       ❌ (❌)       |
-| [Windows on Raspberry **(WindowsOnRaspberry)**](./bucket/WindowsOnRaspberry.json)                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.json)                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
+| [Windows 10 Update Assistant **(Windows10UpdateAssistant)**](./bucket/Windows10UpdateAssistant.yml)                                                                   |   ✔    |    ✔     |       ❌ (❌)       |
+| [Windows on Raspberry **(WindowsOnRaspberry)**](./bucket/WindowsOnRaspberry.yml)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Windows Repair Toolbox **(WindowsRepairToolbox)**](./bucket/WindowsRepairToolbox.yml)                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.yml)                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [winget **(winget)**](./bucket/winget.yml)                                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
-| [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
+| [WinUSB **(WinUSB)**](./bucket/WinUSB.yml)                                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.yml)                                                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
-| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.yml)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.yml)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [YoloMouse **(YoloMouse)**](./bucket/YoloMouse.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Deprecated
