@@ -151,7 +151,7 @@
 | [MiTeC Windows 9x Password Hacker **(Windows9xPasswordHacker)**](./bucket/Windows9xPasswordHacker.json)                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows File Analyzer **(WindowsFileAnalyzer)**](./bucket/WindowsFileAnalyzer.json)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC Windows Registry Recovery **(WindowsRegistryRecovery)**](./bucket/WindowsRegistryRecovery.json)                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
-| [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.json)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MiTeC WMI Explorer **(WMIExplorer)**](./bucket/WMIExplorer.yml)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XML Viewer **(XMLViewer)**](./bucket/XMLViewer.yml)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MiTeC XPing **(XPing)**](./bucket/XPing.yml)                                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [MockServer **(MockServer)**](./bucket/MockServer.json)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
@@ -176,7 +176,7 @@
 | [Paessler's sFlow Tester **(sFlowTester)**](./bucket/sFlowTester.json)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's SNMP Tester **(SNMPTester)**](./bucket/SNMPTester.json)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's Webserver Stress Tool **(WebserverStress)**](./bucket/WebserverStress.json)                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.json)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Paessler's WMI Tester **(WMITester)**](./bucket/WMITester.yml)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Path Of Building **(PathOfBuilding)**](./bucket/PathOfBuilding.json)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Pode **(Pode)**](./bucket/Pode.json)                                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [Post Windows Installer **(PostInstall)**](./bucket/PostInstall.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -309,8 +309,8 @@
 | [winget **(winget)**](./bucket/winget.yml)                                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.json)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WinUSB **(WinUSB)**](./bucket/WinUSB.json)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [WireMock **(WireMock)**](./bucket/WireMock.json)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
-| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.json)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [WireMock **(WireMock)**](./bucket/WireMock.yml)                                                                                                                      |   ✔    |    ✔     |       ✔ (✔)       |
+| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.yml)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [YoloMouse **(YoloMouse)**](./bucket/YoloMouse.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Deprecated
