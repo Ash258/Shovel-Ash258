@@ -1,31 +1,31 @@
-version: 6.33.1
+version: 6.34.0
 description: A prompt theme engine for any shell
 homepage: https://ohmyposh.dev
 license:
   identifier: GPL-3.0-only
   url: https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING
-changelog: https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v6.33.1
+changelog: https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v6.34.0
 architecture:
   64bit:
     url:
-    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.33.1/posh-windows-amd64.exe#/oh-my-posh.exe
+    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.34.0/posh-windows-amd64.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.json
     hash:
-    - 07f390b1ee7d2a5b797c7ed835e9258ac61e56610140abc3c44d3d21e9543d84
+    - 78ae7be1720080afbd05126dd156bf7e2dd53f8a94e4522212e7a224ee0465ec
     - af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6
   32bit:
     url:
-    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.33.1/posh-windows-386.exe#/oh-my-posh.exe
+    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.34.0/posh-windows-386.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.json
     hash:
-    - c0ee83912d29f6ffec3750c7ddb4fcd5eccfe0c0c2934c9a44078eb5a3091802
+    - 2ead9bd7599663fdc08c55df696c07c1e131d54f8697ed45ddc6460f65dbc447
     - af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6
   arm64:
     url:
-    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.33.1/posh-windows-arm64.exe#/oh-my-posh.exe
+    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.34.0/posh-windows-arm64.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.json
     hash:
-    - dd27f8c4a817b452684c53f2ad8ce0a8c9283fc603e8fd6561da7a8d60999e69
+    - a23e0b2579f02f2f39608dc6026a4c25fd70ec311247903003bf79fabeb22f23
     - af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6
 post_install: |
   Move-Item "$dir\Ash258.json" "$dir\themes\Ash258.omp.json" -Force
