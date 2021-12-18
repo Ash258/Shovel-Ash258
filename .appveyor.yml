@@ -30,12 +30,15 @@ init:
     exit $LASTEXITCODE
     '@
 
-    shovel config 'aria2-enabled' $false
     shovel config 'dbgBypassArmCheck' $true
+    shovel config 'aria2-enabled' $false
     shovel config 'show_update_log' $false
     shovel config 'lastUpdate' '258|2421-12-18 08:50:35'
 
     shovel --version
+    shovel config show
+    write-host 'cosi' -f magenta
+    get-content ~/.config/scoop/config.json
 for:
 - matrix:
     only:
