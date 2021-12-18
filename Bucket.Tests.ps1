@@ -109,7 +109,6 @@ Describe 'Changed manifests installation' {
                         uninstall $noExt
                     }
                     if ($json.architecture.$arm64) {
-                        shovel config 'dbgBypassArmCheck' $true
                         It $arm64 {
                             install $toInstall $arm64 | Should -Be 0
                         }
