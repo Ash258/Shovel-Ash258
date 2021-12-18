@@ -13,13 +13,14 @@ matrix:
 environment:
   SCOOP: C:\SCOOP
   SCOOP_HOME: '%SCOOP%\apps\scoop\current'
+  SCOOP_BRANCH: NEW
   PATH: '%SCOOP%\shims;%PATH%'
   matrix:
   - PowerShell: 5
 init:
 - ps: |
     (Get-PSProvider 'FileSystem').Home = 'C:\projects\'
-    git clone -q --depth=1 --branch 'ciYml' 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
+    git clone -q --depth=1 --branch $env:SCOOP_BRANCH 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
     git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
 
     New-Item "$env:SCOOP\shims" -ItemType Directory | Out-Null
