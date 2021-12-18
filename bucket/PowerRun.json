@@ -36,7 +36,7 @@
         }
     },
     "persist": "PowerRun.ini",
-    "checkver": "PowerRun\\s*v([\\d.]+)",
+    "checkver": "PowerfasdfasdfRun\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://www.sordum.org/files/download/power-run/PowerRun.zip"
     }

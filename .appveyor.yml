@@ -8,7 +8,6 @@ clone_folder: '%SCOOP%\buckets\Ash258'
 cache:
 - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> .appveyor.yml'
 - 'C:\projects\helpers'
-- '%SCOOP%\apps'
 matrix:
   fast_finish: true
 environment:
@@ -26,6 +25,7 @@ init:
       git -C $env:SCOOP_HOME checkout ciYml
       git -C $env:SCOOP_HOME pull
     }
+    & "${env:SCOOP_HOME}\bin\scoop.ps1" --version
 for:
 - matrix:
     only:

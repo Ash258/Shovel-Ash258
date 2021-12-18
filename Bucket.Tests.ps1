@@ -99,8 +99,7 @@ exit $LASTEXITCODE
     Write-Host $changedFiles.Count, ($changedFiles -join ', ') -f magenta
 
     if ($changedFiles.Count -gt 0) {
-        Write-Host "Processing $($changedFiles.Count) changed manifests ($($changedFiles.BaseName -join ', '))" -ForegroundColor 'Green'
-        shovel config 'lastupdate' '258|2580-12-03 12:58:19'
+        Write-Host "Processing $($changedFiles.Count) changed manifests ($($changedFiles -join ', '))" -ForegroundColor 'Green'
         log @(shovel install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
         shovel config 'MSIEXTRACT_USE_LESSMSI' $true
 
