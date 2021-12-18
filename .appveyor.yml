@@ -36,9 +36,6 @@ init:
     shovel config 'lastUpdate' '258|2421-12-18 08:50:35'
 
     shovel --version
-    shovel config show
-    write-host 'cosi' -f magenta
-    get-content ~/.config/scoop/config.json
 for:
 - matrix:
     only:
