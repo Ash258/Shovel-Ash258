@@ -58,17 +58,6 @@ Describe 'Changed manifests installation' {
         return
     }
 
-    $shm = "$env:SCOOP\shims"
-    if (!(Test-Path -LiteralPath $shm -PathType 'Container')) { New-Item $shm -ItemType 'Directory' | Out-Null }
-
-    Set-Content "$shm\scoop.ps1" @'
-$path = Join-Path "$PSScriptRoot" "..\apps\scoop\current\bin\scoop.ps1"
-if ($MyInvocation.ExpectingInput) { $input | & $path @args } else { & $path @args }
-exit $LASTEXITCODE
-'@ -Force
-    Copy-Item "$shm\scoop.ps1" "$shm\shovel.ps1" -Force
-    $env:PATH = "$shm;${env:PATH}"
-
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
         'TODO',
@@ -83,25 +72,19 @@ exit $LASTEXITCODE
 
     New-Item 'INSTALL.log' -Type File -Force
     $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
-    Write-Host $commit -f red
-    Write-Host (Get-GitChangedFile -Commit $commit) -f red
-    Write-Host ((Get-GitChangedFile -Commit $commit) -join ', ') -f red
     $allChanges = Get-GitChangedFile -Commit $commit |
         Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS } |
         Where-Object { $_ -imatch '[/\\]bucket[/\\]' }
 
-    Write-Host 'DBG:'
-    Write-Host $allChanges.Count, ($allChanges -join ', ') -f magenta
-
     $changedFiles = $allChanges | Where-Object { $_ -like '*.json' }
     $changedFiles += $allChanges | Where-Object { $_ -like '*.yml' }
 
-    Write-Host $changedFiles.Count, ($changedFiles -join ', ') -f magenta
-
     if ($changedFiles.Count -gt 0) {
-        Write-Host "Processing $($changedFiles.Count) changed manifests ($($changedFiles -join ', '))" -ForegroundColor 'Green'
+        Write-Host "Processing $($changedFiles.Count) changed manifests" -ForegroundColor 'Green'
+        shovel config 'show_update_log' $false
+        shovel config 'lastUpdate' '258|2021-12-18 08:50:35'
+
         log @(shovel install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
-        shovel config 'MSIEXTRACT_USE_LESSMSI' $true
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
