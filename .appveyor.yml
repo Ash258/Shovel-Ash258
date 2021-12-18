@@ -26,11 +26,11 @@ init:
 
       New-Item "$env:SCOOP\shims" -ItemType Directory
       Set-Content "$env:SCOOP\shims\shovel.ps1" @'
-      if (!(Test-Path Variable:PSScriptRoot)) { $PSScriptRoot = Split-Path $MyInvocation.MyCommand.Path -Parent }
-      $path = Join-Path "$PSScriptRoot" "../apps/scoop/current/bin/scoop.ps1"
-      if($MyInvocation.ExpectingInput) { $input | & $path  @args } else { & $path  @args }
-      exit $LASTEXITCODE
-      '@
+    if (!(Test-Path Variable:PSScriptRoot)) { $PSScriptRoot = Split-Path $MyInvocation.MyCommand.Path -Parent }
+    $path = Join-Path "$PSScriptRoot" "../apps/scoop/current/bin/scoop.ps1"
+    if($MyInvocation.ExpectingInput) { $input | & $path  @args } else { & $path  @args }
+    exit $LASTEXITCODE
+    '@
       shovel config 'show_update_log' $false
       shovel config 'lastUpdate' '258|2421-12-18 08:50:35'
     } else {
