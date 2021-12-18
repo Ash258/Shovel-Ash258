@@ -83,6 +83,9 @@ exit $LASTEXITCODE
 
     New-Item 'INSTALL.log' -Type File -Force
     $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
+    Write-Host $commit -f red
+    Write-Host (Get-GitChangedFile -Commit $commit) -f red
+    Write-Host ((Get-GitChangedFile -Commit $commit) -join ', ') -f red
     $allChanges = Get-GitChangedFile -Commit $commit |
         Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS } |
         Where-Object { $_ -imatch 'bucket/' }
