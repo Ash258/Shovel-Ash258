@@ -17,7 +17,7 @@ function log([String[]] $message = "============`r`n") {
 function install() {
     param(
         [String] $manifest,
-        [ValidateSet('32bit', '64bit', 'URL')]
+        [ValidateSet('32bit', '64bit', 'arm64', 'URL')]
         [String] $architecture
     )
 
@@ -96,6 +96,7 @@ Describe 'Changed manifests installation' {
 
             $64 = '64bit'
             $32 = '32bit'
+            $arm64 = 'arm64'
             $URL = 'URL'
 
             Context $man {
@@ -104,6 +105,12 @@ Describe 'Changed manifests installation' {
                     if ($json.architecture.$64) {
                         It $64 {
                             install $toInstall $64 | Should -Be 0
+                        }
+                        uninstall $noExt
+                    }
+                    if ($json.architecture.$arm64) {
+                        It $arm64 {
+                            install $toInstall $arm64 | Should -Be 0
                         }
                         uninstall $noExt
                     }
