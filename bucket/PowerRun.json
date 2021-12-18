@@ -1,6 +1,6 @@
 {
     "version": "1.5",
-    "description": "Sordum's asdfdsffasdfsadfadsfafdasfsdadsfPowerRun. Execute application with the same privileges as the TrustedInstaller/Nt Authority/system.",
+    "description": "Sordum's PowerRun. Execute application with the same privileges as the TrustedInstaller/Nt Authority/system.",
     "homepage": "https://www.sordum.org/9416/",
     "license": {
         "identifier": "Freeware",
@@ -36,7 +36,7 @@
         }
     },
     "persist": "PowerRun.ini",
-    "checkver": "PowerfasdfasdffasdfsadfRun\\s*v([\\d.]+)",
+    "checkver": "PowerRun\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://www.sordum.org/files/download/power-run/PowerRun.zip"
     }
