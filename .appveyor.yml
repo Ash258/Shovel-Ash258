@@ -8,12 +8,13 @@ clone_folder: '%SCOOP%\buckets\Ash258'
 cache:
 - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> .appveyor.yml'
 - 'C:\projects\helpers'
-- '%SCOOP'
+- '%SCOOP% -> .appveyor.yml'
 matrix:
   fast_finish: true
 environment:
   SCOOP: C:\SCOOP
   SCOOP_HOME: '%SCOOP%\apps\scoop\current'
+  PATH: '%SCOOP%\shims;%PATH%'
   matrix:
   - PowerShell: 5
 init:
@@ -22,6 +23,16 @@ init:
     if(!(Test-Path -LiteralPath "$env:SCOOP_HOME" -PathType Container)) {
       git clone -q --depth=1 --branch 'ciYml' 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
       git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
+
+      New-Item "$env:SCOOP\shims" -ItemType Directory
+      Set-Content "$env:SCOOP\shims\shovel.ps1" @'
+      if (!(Test-Path Variable:PSScriptRoot)) { $PSScriptRoot = Split-Path $MyInvocation.MyCommand.Path -Parent }
+      $path = Join-Path "$PSScriptRoot" "../apps/scoop/current/bin/scoop.ps1"
+      if($MyInvocation.ExpectingInput) { $input | & $path  @args } else { & $path  @args }
+      exit $LASTEXITCODE
+      '@
+      shovel config 'show_update_log' $false
+      shovel config 'lastUpdate' '258|2421-12-18 08:50:35'
     } else {
       git -C $env:SCOOP_HOME checkout ciYml
       git -C $env:SCOOP_HOME pull
@@ -40,9 +51,9 @@ for:
   - ps: . "$env:SCOOP_HOME\test\bin\test.ps1" -TestPath "$env:APPVEYOR_BUILD_FOLDER"
 on_finish:
 - ps: |
-    Remove-Item -Force -Recurse "$env:SCOOP\buckets\Ash258"
     $log = 'Install.log'
     if (Test-Path $log) {
       Get-Content $log -Raw | Write-Host
       Push-AppveyorArtifact $log
     }
+    Remove-Item -Force -Recurse "$env:SCOOP\buckets\Ash258"

@@ -81,8 +81,6 @@ Describe 'Changed manifests installation' {
 
     if ($changedFiles.Count -gt 0) {
         Write-Host "Processing $($changedFiles.Count) changed manifests" -ForegroundColor 'Green'
-        shovel config 'show_update_log' $false
-        shovel config 'lastUpdate' '258|2021-12-18 08:50:35'
 
         log @(shovel install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
 
