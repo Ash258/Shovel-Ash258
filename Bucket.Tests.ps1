@@ -88,7 +88,7 @@ exit $LASTEXITCODE
     Write-Host ((Get-GitChangedFile -Commit $commit) -join ', ') -f red
     $allChanges = Get-GitChangedFile -Commit $commit |
         Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS } |
-        Where-Object { $_ -imatch '[/\]bucket[/\]' }
+        Where-Object { $_ -imatch '[/\\]bucket[/\\]' }
 
     Write-Host 'DBG:'
     Write-Host $allChanges.Count, ($allChanges -join ', ') -f magenta
