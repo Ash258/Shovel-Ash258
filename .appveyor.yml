@@ -8,33 +8,43 @@ clone_folder: '%SCOOP%\buckets\Ash258'
 cache:
 - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> .appveyor.yml'
 - 'C:\projects\helpers'
-- '%SCOOP%\apps'
 matrix:
   fast_finish: true
 environment:
   SCOOP: C:\SCOOP
   SCOOP_HOME: '%SCOOP%\apps\scoop\current'
+  SCOOP_BRANCH: NEW
+  PATH: '%SCOOP%\shims;%PATH%'
   matrix:
   - PowerShell: 5
 init:
 - ps: |
     (Get-PSProvider 'FileSystem').Home = 'C:\projects\'
-    if(!(Test-Path -LiteralPath "$env:SCOOP_HOME" -PathType Container)) {
-      git clone -q --depth=1 --branch 'ciYml' 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
-      git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
-    } else {
-      git -C $env:SCOOP_HOME checkout ciYml
-      git -C $env:SCOOP_HOME pull
-    }
-    & "${env:SCOOP_HOME}/bin/scoop.ps1" --version
+    git clone -q --depth=1 --branch $env:SCOOP_BRANCH 'https://github.com/Ash258/Scoop-Core' "$env:SCOOP_HOME"
+    git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
+
+    New-Item "$env:SCOOP\shims" -ItemType Directory | Out-Null
+    Set-Content "$env:SCOOP\shims\shovel.ps1" @'
+    if (!(Test-Path Variable:PSScriptRoot)) { $PSScriptRoot = Split-Path $MyInvocation.MyCommand.Path -Parent }
+    $path = Join-Path "$PSScriptRoot" "../apps/scoop/current/bin/scoop.ps1"
+    if($MyInvocation.ExpectingInput) { $input | & $path  @args } else { & $path  @args }
+    exit $LASTEXITCODE
+    '@
+
+    shovel config 'dbgBypassArmCheck' $true
+    shovel config 'aria2-enabled' $false
+    shovel config 'show_update_log' $false
+    shovel config 'lastUpdate' '258|2421-12-18 08:50:35'
+
+    shovel --version
 for:
 - matrix:
     only:
     - PowerShell: 5
   install:
-  - ps: . "$env:SCOOP_HOME\test\bin\init.ps1"
+  - ps: . "${env:SCOOP_HOME}\test\bin\init.ps1"
   test_script:
-  - ps: . "$env:SCOOP_HOME\test\bin\test.ps1" -TestPath "$env:APPVEYOR_BUILD_FOLDER"
+  - ps: . "${env:SCOOP_HOME}\test\bin\test.ps1" -TestPath "$env:APPVEYOR_BUILD_FOLDER"
 on_finish:
 - ps: |
     $log = 'Install.log'

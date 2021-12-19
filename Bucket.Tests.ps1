@@ -17,7 +17,7 @@ function log([String[]] $message = "============`r`n") {
 function install() {
     param(
         [String] $manifest,
-        [ValidateSet('32bit', '64bit', 'URL')]
+        [ValidateSet('32bit', '64bit', 'arm64', 'URL')]
         [String] $architecture
     )
 
@@ -58,17 +58,6 @@ Describe 'Changed manifests installation' {
         return
     }
 
-    $shm = "$env:SCOOP\shims"
-    if (!(Test-Path -LiteralPath $shm -PathType 'Container')) { New-Item $shm -ItemType 'Directory' | Out-Null }
-
-    Set-Content "$shm\scoop.ps1" @'
-$path = Join-Path "$PSScriptRoot" "..\apps\scoop\current\bin\scoop.ps1"
-if ($MyInvocation.ExpectingInput) { $input | & $path @args } else { & $path @args }
-exit $LASTEXITCODE
-'@ -Force
-    Copy-Item "$shm\scoop.ps1" "$shm\shovel.ps1" -Force
-    $env:PATH = "$shm;${env:PATH}"
-
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
         'TODO',
@@ -85,15 +74,16 @@ exit $LASTEXITCODE
     $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
     $allChanges = Get-GitChangedFile -Commit $commit |
         Where-Object { $_ -inotmatch $INSTALL_FILES_EXCLUSIONS } |
-        Where-Object { $_ -imatch 'bucket/' }
-    $changedFiles = $allChanges | Where-Object { $_ -like '*.json' }
+        Where-Object { $_ -imatch '[/\\]bucket[/\\]' }
+
+    $changedFiles = @()
+    $changedFiles += $allChanges | Where-Object { $_ -like '*.json' }
     $changedFiles += $allChanges | Where-Object { $_ -like '*.yml' }
 
     if ($changedFiles.Count -gt 0) {
-        Write-Host "Processing $($changedFiles.Count) changed manifests ($($changedFiles.BaseName -join ', '))" -ForegroundColor 'Green'
-        shovel config 'lastupdate' '258|2580-12-03 12:58:19'
+        Write-Host "Processing $($changedFiles.Count) changed manifests" -ForegroundColor 'Green'
+
         log @(shovel install 7zip gsudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
-        shovel config 'MSIEXTRACT_USE_LESSMSI' $true
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
@@ -106,6 +96,7 @@ exit $LASTEXITCODE
 
             $64 = '64bit'
             $32 = '32bit'
+            $arm64 = 'arm64'
             $URL = 'URL'
 
             Context $man {
@@ -114,6 +105,12 @@ exit $LASTEXITCODE
                     if ($json.architecture.$64) {
                         It $64 {
                             install $toInstall $64 | Should -Be 0
+                        }
+                        uninstall $noExt
+                    }
+                    if ($json.architecture.$arm64) {
+                        It $arm64 {
+                            install $toInstall $arm64 | Should -Be 0
                         }
                         uninstall $noExt
                     }
