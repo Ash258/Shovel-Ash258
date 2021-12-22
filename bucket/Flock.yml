@@ -1,11 +1,11 @@
-version: 2.2.506
+version: 2.2.507
 description: Flock. Online collaboration platform
 homepage: https://flock.com
 license:
   identifier: Proprietary
   url: https://support.flock.com/hc/en-us/articles/115004287093-Flock-Terms-Of-Use
-url: https://updates.flock.co/fl_win_electron/Flock-setup-2.2.506.exe#/cosi.7z
-hash: c671edb5ecdac761a6dec806cfb88a1e93d9d28983a30ee257edb4e52b15763d
+url: https://updates.flock.co/fl_win_electron/Flock-setup-2.2.507.exe#/cosi.7z
+hash: a8a6bfbcf6c1541bcee891bf81c405ba7463c2663a4bcda5f9c6895d4fcbd5cc
 architecture:
   64bit:
     pre_install: Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
