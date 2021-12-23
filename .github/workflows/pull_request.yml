@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: PullRequestHandler
-      uses: shovel-org/GithubActions@main
+      uses: shovel-org/GithubActions@new.new
       env:
         GITH_EMAIL: cabera.jakub@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

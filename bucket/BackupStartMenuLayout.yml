@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip
-hash: a845b1e095673e52ac7dd33818ca4bd39fc1f9c1ee7866ce402d34c82c3b0f0e
+hash: cc0afb10cad42a3b908717f1d2c60b1fbf50b30d5f3ea79597316867bf90ef72
 extract_dir: BackupSML
 architecture:
   64bit:

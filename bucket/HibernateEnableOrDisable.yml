@@ -4,14 +4,11 @@ homepage: https://www.sordum.org/9502/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
+changelog: Read_me.txt
 url: https://www.sordum.org/files/small-tools/Hibernate.zip
-hash: 44a58143ed21b5550abb811f518ce1856aabfd338ae0e7e1034e02352f0499ef
+hash: 3b9cb3425b970b99a4650ac2bd6c78ab1127e2e1b4f3c7b8aa86e4bb6f4c5988
+extract_dir: Hibernate
 architecture:
-  32bit:
-    bin: Hibernate.exe
-    shortcuts:
-    - - Hibernate.exe
-      - Sordum\Hibernate - Enable or Disable
   64bit:
     bin:
     - Hibernate_x64.exe
@@ -20,6 +17,12 @@ architecture:
     shortcuts:
     - - Hibernate_x64.exe
       - Sordum\Hibernate - Enable or Disable
+  32bit:
+    bin: Hibernate.exe
+    shortcuts:
+    - - Hibernate.exe
+      - Sordum\Hibernate - Enable or Disable
+persist: Hibernate.ini
 checkver: Hibernate Enable or Disable\s*v([\d.]+)
 autoupdate:
   url: https://www.sordum.org/files/small-tools/Hibernate.zip

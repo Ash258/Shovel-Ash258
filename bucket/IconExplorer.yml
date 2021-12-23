@@ -1,9 +1,9 @@
-version: 5.2.0
+version: 5.3.0.0
 description: MiTeC Icon Explorer. Browse, search, extractand map icons in/from files and libraries.
 homepage: https://www.mitec.cz/iconex.html
 license: Proprietary
 url: https://www.mitec.cz/Downloads/IconExplorer.zip
-hash: 413bdf0b4792c0eca657bb06b9cd0a3e5864bf870398ba864743dd587cdbd06f
+hash: 8ccac1037c2a981d2a4f4a650cc50207c09cc5902544e882aceed64d556e1900
 bin: IconExplorer.exe
 shortcuts:
 - - IconExplorer.exe
@@ -12,4 +12,5 @@ checkver:
   url: https://www.mitec.cz/Data/XML/data_downloads.xml
   regex: <NAME>MiTeC Icon Explorer\s+([\d.]+)<
 autoupdate:
+  disable: true
   url: https://www.mitec.cz/Downloads/IconExplorer.zip
