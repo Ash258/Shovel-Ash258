@@ -1,11 +1,11 @@
-version: 2021.4.1
+version: 2021.4.2
 description: Desktop Application for JetBrains Space - integrated team environment
 homepage: https://download-cf.jetbrains.com/space/jetbrains-space.exe
 license: Freeware
 architecture:
   64bit:
-    url: https://download.jetbrains.com/space/jetbrains-space-2021.4.1.exe#/cosi.7z
-    hash: sha512:6fb177b5d7fbffae305450eef45d3206982c500972533228f7a3bbd639b6f4d28a1e120c5447479b1dc7fe8acb5c1dbf75fa8163dda2f9415c74431284160335
+    url: https://download.jetbrains.com/space/jetbrains-space-2021.4.2.exe#/cosi.7z
+    hash: sha512:f58d88cd42b56a3663f96621cb68ceb120843906a01f983d8bf8918b26d14215560941ea4c846aa9ce3ab534a0170544a1a5b4d86d15f05a0c76e059f1cd1af2
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
       Remove-AppDirItem '$*', 'Uninstall*'
