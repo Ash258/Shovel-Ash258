@@ -1,4 +1,4 @@
-version: 0.0.18-12817
+version: 0.0.19-13136
 description: RPCS3. Experimental Sony PlayStation 3 emulator and debugger
 homepage: https://rpcs3.net
 license:
@@ -18,10 +18,10 @@ suggest:
 architecture:
   64bit:
     url:
-    - https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-fff0c96bf38d1ada075e524c4753a7f263c06449/rpcs3-v0.0.18-12817-fff0c96b_win64.7z
+    - https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-900d7df40f6e0c4b1b5b7d23c200e86c65d18643/rpcs3-v0.0.19-13136-900d7df4_win64.7z
     - http://dus01.ps3.update.playstation.net/update/ps3/image/us/2021_0601_a0b63a3e4ae92ed176d6b9a67ce447f0/PS3UPDAT.PUP
     hash:
-    - ddfb55895da15fd947fcb85b1f4ec8369db6371275bcedb46bac042812702b6d
+    - fbaa4ba95afee1a175cb3f4b467428d7a24fe9142464c65cf4e7c864bf571736
     - 8491361628abe5862f5101e57878b5852b175b887a98cfc6ba9a3e67d1f6530a
 pre_install: Test-Persistence 'GuiConfigs\CurrentSettings.ini' '[Meta]', 'currentStylesheet=Darker Style by TheMitoSan'
 bin: rpcs3.exe
@@ -32,7 +32,7 @@ persist:
 - dev_hdd0
 - GuiConfigs
 checkver:
-  github: https://github.com/RPCS3/rpcs3-binaries-win
+  url: https://api.github.com/repos/RPCS3/rpcs3-binaries-win/releases
   regex: /build-(?<commit>(?<cosi>\w{8})\w{32})/rpcs3-v([\d.-]+)-
 autoupdate:
   architecture:
