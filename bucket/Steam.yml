@@ -7,7 +7,7 @@ license:
 changelog: https://store.steampowered.com/oldnews/?feed=steam_client
 notes: Changing Steam library folder is HIGHLY recommended.
 url: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe#/dl.7z
-pre_install: Remove-AppDirItem '$*' -Force -Recurse
+pre_install: Remove-AppDirItem '$*'
 uninstaller:
   file: uninstall.exe
   args: /S
