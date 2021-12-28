@@ -1,0 +1,22 @@
+version: nightly
+description: Steam. The ultimate entertainment platform
+homepage: https://store.steampowered.com
+license:
+  identifier: Freeware
+  url: https://store.steampowered.com/legal/
+changelog: https://store.steampowered.com/oldnews/?feed=steam_client
+notes: Changing Steam library folder is HIGHLY recommended.
+url: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe#/dl.7z
+pre_install: Remove-AppDirItem '$*' -Force -Recurse
+uninstaller:
+  file: uninstall.exe
+  args: /S
+bin: Steam.exe
+shortcuts:
+- - Steam.exe
+  - Steam
+  - -dev
+persist:
+- skins
+- steamapps
+- userdata
