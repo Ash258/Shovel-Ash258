@@ -12,21 +12,21 @@ architecture:
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.yml
     hash:
     - 194269465fa31c5c47c4295e181da4d51f26cb1385fcd307f48d193d4606cde0
-    - af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6
+    - 766d4cc72ea4334a78eb546bf16310c487246f49566b4d83f457ea587da46706
   32bit:
     url:
     - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.4/posh-windows-386.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.yml
     hash:
     - 6f8d29949b0fef2567c00c5285dfed50e2673a5f668187ab174e5bb78b5d7de2
-    - af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6
+    - 766d4cc72ea4334a78eb546bf16310c487246f49566b4d83f457ea587da46706
   arm64:
     url:
     - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.4/posh-windows-arm64.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.yml
     hash:
     - b671e5eb5317012dada4cdcbd6b03a72cc144160fa65b9fbb1677e2274decfbe
-    - af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6
+    - 766d4cc72ea4334a78eb546bf16310c487246f49566b4d83f457ea587da46706
 post_install: |
   $th = "$dir\themes"
   Move-Item "$dir\Ash258.yml" "$th\Ash258.omp.yml" -Force
