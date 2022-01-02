@@ -1,0 +1,16 @@
+version: nightly
+description: Ubisoft PC games Launcher
+homepage: https://ubisoftconnect.com
+license:
+  identifier: Shareware
+  url: https://legal.ubi.com/termsofuse/
+url: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UbisoftConnectInstaller.exe#/cosi.7z
+pre_install: Remove-AppDirItem '$*', 'Uninstall*'
+shortcuts:
+- - UbisoftConnect.exe
+  - Ubisoft Connect
+persist:
+- games
+- savegames
+- cache\download
+- cache\installers
