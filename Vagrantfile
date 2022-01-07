@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure('2') do |config|
-  config.vm.box = 'gusztavvargadr/windows-10'
+  config.vm.box = 'gusztavvargadr/windows-11'
   config.vm.box_check_update = false
 
   config.vm.network 'public_network'

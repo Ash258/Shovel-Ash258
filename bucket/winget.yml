@@ -50,9 +50,11 @@ installer:
     movedir "$dir\cosi" "$dir" | Out-Null
     Remove-AppDirItem 'cosi'
 bin:
-- AppInstallerCLI.exe
-- - AppInstallerCLI.exe
-  - winget
+- winget.exe
+- - winget.exe
+  - AppInstallerCLI
+- - winget.exe
+  - AppInstaller
 checkver:
   url: https://github.com/microsoft/winget-cli/releases
   regex: tag/v([\w.-]+)"
