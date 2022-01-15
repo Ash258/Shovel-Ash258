@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip
-hash: cc0afb10cad42a3b908717f1d2c60b1fbf50b30d5f3ea79597316867bf90ef72
+hash: 8317938206054eff10710422113f77514d57031de55df96f7ba75b3b8253dc19
 extract_dir: BackupSML
 architecture:
   64bit:
@@ -21,7 +21,9 @@ architecture:
     shortcuts:
     - - BackupSML.exe
       - Sordum\Backup Start Menu Layout
-persist: MenuLayouts
+persist:
+- MenuLayouts
+- BackupSML.ini
 checkver: Backup Start Menu Layout\s*v([\d.]+)
 autoupdate:
   url: https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip

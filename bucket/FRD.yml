@@ -50,7 +50,7 @@ post_install: |
 shortcuts:
 - - frd.bat
   - Freerapid Downloader
-  - ''
+  - ""
   - frd.ico
 autoupdate:
   url: http://www.wordrider.net/download/FreeRapid-$version.zip

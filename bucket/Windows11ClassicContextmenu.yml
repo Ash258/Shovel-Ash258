@@ -8,12 +8,13 @@ changelog: Read_me.txt
 architecture:
   64bit:
     url: https://www.sordum.org/files/download/win11-classic-context-menu/W11ClassicMenu.zip
-    hash: 78c06c32e88622eaf57688f3733d9afd3c7f37edef489190247b5867652db521
+    hash: d640e5172495e6f5d135fcec952f966e5c2ab3af95a74ea3e9ae52cc3bad880d
 extract_dir: W11ClassicMenu
 bin: W11ClassicMenu.exe
 shortcuts:
 - - W11ClassicMenu.exe
   - Sordum\Win11 Classic Context Menu
+persist: W11ClassicMenu.ini
 checkver: v([\d.]+)
 autoupdate:
   url: https://www.sordum.org/files/download/win11-classic-context-menu/W11ClassicMenu.zip

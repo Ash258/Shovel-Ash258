@@ -9,7 +9,7 @@ innosetup: true
 shortcuts:
 - - FastShare.exe
   - FastShare
-  - ''
+  - ""
   - fastshare.ico
 checkver: '\(v([\d.]+) -'
 autoupdate:

@@ -8,7 +8,7 @@ changelog: https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html
 architecture:
   64bit:
     url: https://t1.daumcdn.net/potplayer/PotPlayer/Version/220106/PotPlayerSetup64.exe#/cosi.7z
-    hash: e0f551c7908219b2ebaaffebab0a0aa54a95adc036c43de5929c3f2a446d1e30
+    hash: 88269b3141cc444a8ca631b6e16fe51b9c2d41f77d5eab6f4d66c5dc3ad8407f
     shortcuts:
     - - PotPlayer64.exe
       - PotPlayer
@@ -16,7 +16,7 @@ architecture:
       - PotPlayer Mini
   32bit:
     url: https://t1.daumcdn.net/potplayer/PotPlayer/Version/220106/PotPlayerSetup.exe#/cosi.7z
-    hash: 24311ca33e71af01f1e6e5b4f3c88775ce8e1d317a9caefa06efc90bba70fac6
+    hash: bb238e636eeaff97e479eb4a4e5ecfde98437cf12fffae24ccee8b6300637780
     shortcuts:
     - - PotPlayer.exe
       - PotPlayer

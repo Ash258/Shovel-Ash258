@@ -4,8 +4,9 @@ homepage: https://www.sordum.org/9660/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
+changelog: Read_me.txt
 url: https://www.sordum.org/files/small-tools/NetDisabler.zip
-hash: 9cd0e623cc3550717ec03f981b271da4942e673e322730c35e6f84424e50852a
+hash: d53f87d8035ed185f5773f26b2c7104d37f7de76ea2630e2e6ada2f8a146963d
 extract_dir: NetDisabler
 architecture:
   64bit:
@@ -21,6 +22,7 @@ architecture:
     shortcuts:
     - - NetDisabler.exe
       - Sordum\Net Disabler
+persist: NetDisabler.ini
 checkver: Net Disabler\s*v([\d.]+)
 autoupdate:
   url: https://www.sordum.org/files/small-tools/NetDisabler.zip

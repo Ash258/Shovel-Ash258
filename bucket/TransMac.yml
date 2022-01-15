@@ -3,7 +3,7 @@ description: TransMac. Mac disk drive format opener
 homepage: https://www.acutesystems.com/scrtm.htm
 license: Proprietary
 url: https://www.acutesystems.com/tmac/tmsetup.exe
-hash: 614372b7fc4a7091ca13668e6ba82b6170027c53527077c9da5037792be510f0
+hash: 8379b275886fc7615042878b7303d1f7d43974a6c5b1cd7ea4796db26810a977
 innosetup: true
 shortcuts:
 - - TransMac.exe

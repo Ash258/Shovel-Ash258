@@ -22,3 +22,5 @@ autoupdate:
       url: https://github.com/stuartleeks/devcontainer-cli/releases/download/v$version/devcontainer-cli_windows_amd64.zip
     32bit:
       url: https://github.com/stuartleeks/devcontainer-cli/releases/download/v$version/devcontainer-cli_windows_386.zip
+  hash:
+    url: $baseurl/devcontainer-cli_$version_checksums.txt

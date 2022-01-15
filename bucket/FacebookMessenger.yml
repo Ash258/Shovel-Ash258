@@ -5,7 +5,7 @@ license: Unknown
 architecture:
   64bit:
     url: https://www.messenger.com/messenger/desktop/downloadV2/?platform=win#/cosi.7z
-    hash: 82bdbf89701ce2e116da21d0ec64db6274420f1d47cb313c0c8aa7a230bc9cc1
+    hash: 6e2cfd45df275819cdf169378616d9b6b214a4ddebfe52d90ee8fce88907b86b
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
       Remove-AppDirItem '$*', 'Uninstall*'

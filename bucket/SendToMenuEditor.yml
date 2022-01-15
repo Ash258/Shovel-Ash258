@@ -4,8 +4,9 @@ homepage: https://www.sordum.org/10830/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
+changelog: Read_Me.txt
 url: https://www.sordum.org/files/sendto-menu-editor/SendToEditor.zip
-hash: 8bce1149bff30ff6a4030eb8dbf664c4c359e56d95df5525fae8cd4bdc7d1c0c
+hash: 444f59c2579c9f5d84e9183fa97d217af5878b5fb61acea5284ed6b719219dfa
 extract_dir: SendToEditor
 architecture:
   64bit:

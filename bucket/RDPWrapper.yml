@@ -10,7 +10,7 @@ url:
 - https://raw.githubusercontent.com/asmtron/rdpwrap/master/autoupdate.zip#/auto.alfa
 hash:
 - 35a9481ddbed5177431a9ea4bd09468fe987797d7b1231d64942d17eb54ec269
-- f73546211a939f80b94851ff67c3c8c8e3264b3c4c9a88f3777daec2332143d7
+- 2a12fc292430f9d6978335113f616dd58a70d1b021b175870b56ae7cfe41634f
 pre_install: |
   $inst = Join-Path $env:ProgramFiles 'RDP Wrapper'
   Confirm-DirectoryExistence $inst | Out-Null

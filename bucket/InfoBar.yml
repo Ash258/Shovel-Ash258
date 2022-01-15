@@ -3,7 +3,7 @@ description: MiTeC InfoBar. Windows-taskbar-like window with the most important 
 homepage: https://www.mitec.cz/infobar.html
 license: Proprietary
 url: https://www.mitec.cz/Downloads/InfoBar_Setup.exe
-hash: c5b5f8913805f69bc3ac7fd5c332357f639dae8e388137452991d5b56bc48e9b
+hash: bf65c352dbda2aca36757eef46d4e462354e5cab6e0215150b700240ee011c8d
 innosetup: true
 architecture:
   64bit:
