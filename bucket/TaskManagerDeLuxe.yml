@@ -1,10 +1,10 @@
-version: 4.0.1.0
+version: 4.0.2.0
 description: MiTeC Task Manager DeLuxe. Full-featured task manager replacement
 homepage: https://www.mitec.cz/tmx.html
 license: Proprietary
 changelog: https://www.mitec.cz/Data/XML/data_tmxvh.xml
 url: https://www.mitec.cz/Downloads/TMX.zip
-hash: e0215d857232bfed4d6b82cba12c6efa81ca05d0bb4702c9e941f2887a821a2e
+hash: 7d7868fcb00822c8dcde187a08df7d092edb2291cca32c212bcd3645717d5d29
 pre_uninstall: shortcut_folder $global | Split-Path | Get-ChildItem -Filter 'TMX*' | Remove-Item -Force
 architecture:
   64bit:
