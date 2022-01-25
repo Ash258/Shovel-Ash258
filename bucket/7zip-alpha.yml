@@ -20,14 +20,3 @@ bin: 7z.exe
 shortcuts:
 - - 7zFM.exe
   - 7-Zip
-checkver:
-  url: https://www.7-zip.org/download.html
-  regex: Download 7-Zip ([\d.]+)\s+(beta|alpha)
-autoupdate:
-  architecture:
-    64bit:
-      url: https://7-zip.org/a/7z$cleanVersion-x64.msi
-    32bit:
-      url: https://7-zip.org/a/7z$cleanVersion.msi
-    arm64:
-      url: https://7-zip.org/a/7z$cleanVersion-arm64.exe#/cosi.7z
