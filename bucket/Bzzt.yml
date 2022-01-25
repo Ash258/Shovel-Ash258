@@ -1,4 +1,4 @@
-version: "1.3"
+version: 1.3.0.2
 description: Bzzt!. Image Editor that can compress, rotate, resize and convert images in bulk from an easy drag-and-drop interface.
 homepage: https://singularlabs.com/software/bzzt-image-editor/
 license:
@@ -10,6 +10,5 @@ innosetup: true
 shortcuts:
 - - bzzt.exe
   - Bzzt!
-checkver: Version ([\d.]+) released \d+
 autoupdate:
   url: https://singularlabs.com/download/12134/#/cosi.exe
