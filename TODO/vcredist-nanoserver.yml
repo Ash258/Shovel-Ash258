@@ -1,0 +1,12 @@
+version: 11.0.61030
+description: Microsoft Visual C++ Redistributable for "instalaltion" on nanoserver.
+homepage: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+license:
+  identifier: Freeware
+  url: https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx
+url: https://stor.shovel.ash258.com/vcredist-test.zip
+hash: 70c3653f274303cf54c390eaca953552226b854668c60e2ee15394ce351252d9
+pre_install: |
+  $todo = Confirm-DirectoryExistence "$dir\TODO"
+  Move-Item "$dir\$version\System\*" $todo -Force -ErrorAction 'SilentlyContinue'
+  Move-Item "$dir\$version\System64\*" $todo -Force -ErrorAction 'SilentlyContinue'

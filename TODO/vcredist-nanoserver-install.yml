@@ -1,0 +1,42 @@
+version: 11.0.61030
+description: Microsoft Visual C++ Redistributable for "instalaltion" on nanoserver.
+homepage: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+license:
+  identifier: Freeware
+  url: https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx
+url:
+- https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe#/vcredist_x64_2012_win.exe
+- https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe#/vcredist_x86_2012_win.exe
+- https://download.visualstudio.microsoft.com/download/pr/10912041/cee5d6bca2ddbcd039da727bf4acb48a/vcredist_x64.exe#/vcredist_x64_2013.exe
+- https://download.visualstudio.microsoft.com/download/pr/10912113/5da66ddebb0ad32ebd4b922fd82e8e25/vcredist_x86.exe#/vcredist_x86_2013.exe
+- https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x64.exe#/vcredist_x64_2015.exe
+- https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x86.exe#/vcredist_x86_2015.exe
+- https://download.visualstudio.microsoft.com/download/pr/36c5faaf-bd8b-433f-b3d7-2af73bae10a8/212f41f2ccffee6d6dc27f901b7d77a1/vc_redist.x64.exe#/vcredist_x64_2017.exe
+- https://download.visualstudio.microsoft.com/download/pr/e9e1e87c-5bba-49fa-8bad-e00f0527f9bc/8e641901c2257dda7f0d3fd26541e07a/vc_redist.x86.exe#/vcredist_x86_2017.exe
+- https://download.visualstudio.microsoft.com/download/pr/85d47aa9-69ae-4162-8300-e6b7e4bf3cf3/52B196BBE9016488C735E7B41805B651261FFA5D7AA86EB6A1D0095BE83687B2/VC_redist.x64.exe#/vcredist_x64_2019.exe
+- https://download.visualstudio.microsoft.com/download/pr/85d47aa9-69ae-4162-8300-e6b7e4bf3cf3/14563755AC24A874241935EF2C22C5FCE973ACB001F99E524145113B2DC638C1/VC_redist.x86.exe#/vcredist_x86_2019.exe
+- https://download.visualstudio.microsoft.com/download/pr/8c1c2dbb-0856-4dc3-b863-b16c637bc245/C527CE426B8D25CB7D4F577476E984C73E84AAAC3E84730BC118A4E0E0FA3CB0/VC_redist.x64.exe#/#/vcredist_x64_2022.exe
+- https://download.visualstudio.microsoft.com/download/pr/8c1c2dbb-0856-4dc3-b863-b16c637bc245/E55681B9E07A58F7143E5AB5941F45DE0B485E0C9933B0CB6B702D3921F48527/VC_redist.x86.exe#/vcredist_x86_2022.exe
+hash:
+- 681be3e5ba9fd3da02c09d7e565adfa078640ed66a0d58583efad2c1e3cc4064
+- b924ad8062eaf4e70437c8be50fa612162795ff0839479546ce907ffa8d6e386
+- a4bba7701e355ae29c403431f871a537897c363e215cafe706615e270984f17c
+- 53b605d1100ab0a88b867447bbf9274b5938125024ba01f5105a9e178a3dcdbd
+- da66717784c192f1004e856bbcf7b3e13b7bf3ea45932c48e4c9b9a50ca80965
+- 12a69af8623d70026690ba14139bf3793cc76c865759cad301b207c1793063ed
+- b192e143d55257a0a2f76be42e44ff8ee14014f3b1b196c6e59829b6b3ec453c
+- 7355962b95d6a5441c304cd2b86baf37bc206f63349f4a02289bcfb69ef142d3
+- 52b196bbe9016488c735e7b41805b651261ffa5d7aa86eb6a1d0095be83687b2
+- 14563755ac24a874241935ef2c22c5fce973acb001f99e524145113b2dc638c1
+- c527ce426b8d25cb7d4f577476e984c73e84aaac3e84730bc118a4e0e0fa3cb0
+- e55681b9e07a58f7143e5ab5941f45de0b485e0c9933b0cb6b702d3921f48527
+pre_install: |
+  Get-ChildItem "$dir\vcredist_*_win.exe" | ForEach-Object { Expand-DarkArchive $_ "$dir\vcredist" -Removal }
+  Get-ChildItem "$dir\vcredist\AttachedContainer\packages\*\*.msi" | ForEach-Object {
+    Expand-MsiArchive $_.FullName $dir -ExtractDir 'Win'
+  }
+
+  Get-ChildItem "$dir\vcredist_*.exe" | ForEach-Object { Expand-DarkArchive $_ "$dir\vcredist" -Removal }
+  Get-ChildItem "$dir\vcredist\AttachedContainer\packages\*\*.msi" | ForEach-Object { Expand-MsiArchive $_.FullName "$dir" }
+
+  Remove-Item "$dir\vcredist" -Recurse
