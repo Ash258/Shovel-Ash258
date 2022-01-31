@@ -1,4 +1,4 @@
-version: 0.0.20-13245
+version: 0.0.20-13248
 description: RPCS3. Experimental Sony PlayStation 3 emulator and debugger
 homepage: https://rpcs3.net
 license:
@@ -18,10 +18,10 @@ suggest:
 architecture:
   64bit:
     url:
-    - https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-3a804674c91bfa75a2a4f7da7f624af801be1eb8/rpcs3-v0.0.20-13245-3a804674_win64.7z
+    - https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-7977fbb9c58f58e61722e44a509b5c313cfb3962/rpcs3-v0.0.20-13248-7977fbb9_win64.7z
     - http://dus01.ps3.update.playstation.net/update/ps3/image/us/2021_0601_a0b63a3e4ae92ed176d6b9a67ce447f0/PS3UPDAT.PUP
     hash:
-    - ab93c9723c7a65c3f6bd6a9964fe71962561ccca991a7ed68243933257eafcf1
+    - bfeaa4ce06e326c0ade46846fe2ab7980458166d7dea69044f9e52124e8c22ac
     - 8491361628abe5862f5101e57878b5852b175b887a98cfc6ba9a3e67d1f6530a
 pre_install: Test-Persistence 'GuiConfigs\CurrentSettings.ini' '[Meta]', 'currentStylesheet=Darker Style by TheMitoSan'
 bin: rpcs3.exe
