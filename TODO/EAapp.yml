@@ -1,0 +1,14 @@
+version: 12.0.179.5090-773
+description: EA beta application
+homepage: https://www.ea.com/ea-app-beta
+license:
+  identifier: Proprietary
+  url: https://www.ea.com/legal/copyright-infringement-notice
+architecture:
+  64bit:
+    url: https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAapp-12.0.179.5090-773.msi
+    hash: c7957f3668133211ac1e3ebdfd15e7ffcc70b32ee4190cd06cf6bf6aaa776339
+extract_dir: Electronic Arts\EA Desktop\EA Desktop
+shortcuts:
+  - - EADesktop.exe
+    - EA
