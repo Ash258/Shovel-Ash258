@@ -1,11 +1,11 @@
-version: 899d46d82c4c95423fb7e10e68eba52050e30ba3
+version: 5554b12acf27056905806867f251c859323ff7e9
 description: Automatic vscode server installation. For vms preparation.
 homepage: https://code.visualstudio.com/docs/remote/remote-overview
 license: Proprietary
 architecture:
   64bit:
-    url: https://az764295.vo.msecnd.net/stable/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-server-win32-x64.zip
-    hash: becf5c6d84a623a52a60aaa8781d019a095f680fbf83e8f17371c9af14b9be28
+    url: https://az764295.vo.msecnd.net/stable/5554b12acf27056905806867f251c859323ff7e9/vscode-server-win32-x64.zip
+    hash: 5f7523bcbd0aba4c89c0b3bfb977196818678a5d37af7e926e263a0ba2615875
 pre_install: |
   Rename-Item "$dir\$($fname -replace '\.zip')" $version
   $bin = Join-Path $env:USERPROFILE '.vscode-server\bin'
