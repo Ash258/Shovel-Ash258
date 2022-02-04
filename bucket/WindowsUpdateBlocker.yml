@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/windows-update-blocker/Wub.zip
-hash: 893db534e431a8f920cc55439f9254e628c8b0e925c8217c2aab2a688450e5c5
+hash: 2789a83c2fba506b05589078cd4e027a7dfef0d6568fc826f84ba8b0c3062636
 extract_dir: Wub
 architecture:
   64bit:
