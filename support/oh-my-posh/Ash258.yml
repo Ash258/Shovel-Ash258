@@ -79,17 +79,18 @@ blocks:
       threshold: 500
       style: austin
       prefix: ' <#fefefe>ﮫ</> '
-- newline: true
-  type: prompt
+- type: prompt
   alignment: left
+  newline: true
   segments:
   - type: text
     style: powerline
     foreground: '#0037da'
     properties:
-      text: ❯
+      template: ' ❯'
+final_space: true
+osc99: true
 transient_prompt:
   background: transparent
   foreground: '#8800dd'
   template: '{{ regexReplaceAll "@\\w+$" .Env.__SHELL_INFORMATION_POSH_258__ "" }}> '
-final_space: true
