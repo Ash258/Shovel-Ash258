@@ -1,10 +1,10 @@
 '##': Network Notepad Professional License Agreement.rtf
-version: 1.3.120
+version: 1.3.121
 description: Network Notepad Professional Edition. Interactive network diagrams creator
 homepage: https://www.networknotepad.com/index.shtml
 license: Proprietary
-url: https://www.networknotepad.com/Download/NetworkNotepadPro1.3.120.exe
-hash: 4e7d48043ba5ac25b04552be5568ef3b79aaa45f493dd3ee7b3ae1e2886b1c01
+url: https://www.networknotepad.com/Download/NetworkNotepadPro1.3.121.exe
+hash: a15dfa631401b543bbdbd560b8d7625742f25fdf4c33dae54f1f4514b72d4d60
 installer:
   script: |
     $file = (Get-Item "$dir\NetworkNotepad*.exe").FullName
