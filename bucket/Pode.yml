@@ -1,12 +1,12 @@
-version: 2.5.2
+version: 2.6.0
 description: Pode. Powershell framework for creating web servers that host REST APIs, Web Sites, and TCP/SMTP Servers.
 homepage: https://badgerati.github.io/Pode/
 license:
   identifier: MIT
   url: https://github.com/Badgerati/Pode/blob/develop/LICENSE.txt
-changelog: https://github.com/Badgerati/Pode/releases/tag/v2.5.2
-url: https://github.com/Badgerati/Pode/releases/download/v2.5.2/2.5.2-Binaries.zip
-hash: fd247ca5be09a31a474f014020822c3bfdaba367323e50a9ab2af74b179ee4cc
+changelog: https://github.com/Badgerati/Pode/releases/tag/v2.6.0
+url: https://github.com/Badgerati/Pode/releases/download/v2.6.0/2.6.0-Binaries.zip
+hash: 007d0eecb869f88d4f681076cf93d3f1593687287fe255902538333f9627acfd
 psmodule:
   name: Pode
 checkver:
