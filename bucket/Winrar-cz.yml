@@ -1,4 +1,4 @@
-version: "6.02"
+version: "6.10"
 description: Winrar. Powerful archive manager
 homepage: https://rarlab.com/
 license: Shareware
@@ -8,11 +8,11 @@ notes:
 - e143436e2f9183a650424d635b535e51
 architecture:
   64bit:
-    url: https://www.rarlab.com/rar/winrar-x64-602cz.exe#/cosi.7z
-    hash: 4e7cfbf47e7e636b0056193568a95ac15fad45ebe3e0544e3c64c9a372230bf5
+    url: https://www.rarlab.com/rar/winrar-x64-610cz.exe#/cosi.7z
+    hash: cb36e9919f59c96bf3b27658099a4c81e3bbf2e695e3dcf3ba64340301600089
   32bit:
-    url: https://www.rarlab.com/rar/wrar602cz.exe#/cosi.7z
-    hash: a28eb8b0a705065d4e89d6097173a052ba331a793b15011eaebbb2607c8daa0b
+    url: https://www.rarlab.com/rar/winrar-x32-610cz.exe#/cosi.7z
+    hash: 69de7b9cdfadea76c60b92f7958762cbf7da8b8ac276122c305070ad9f22be69
 pre_install: Test-Persistence 'rarreg.key'
 bin:
 - Rar.exe
@@ -28,6 +28,6 @@ checkver:
 autoupdate:
   architecture:
     64bit:
-      url: https://www.rarlab.com/rar/winrar-x64-$cleanVersioncz.exe#/cosi.7z
+      url: https://www.rarlab.com/rar/winrar-x64-${cleanVersion}cz.exe#/cosi.7z
     32bit:
-      url: https://www.rarlab.com/rar/wrar$cleanVersioncz.exe#/cosi.7z
+      url: https://www.rarlab.com/rar/winrar-x32-${cleanVersion}cz.exe#/cosi.7z
