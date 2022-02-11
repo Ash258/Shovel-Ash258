@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Read_Me.txt
 url: https://www.sordum.org/files/sendto-menu-editor/SendToEditor.zip
-hash: 444f59c2579c9f5d84e9183fa97d217af5878b5fb61acea5284ed6b719219dfa
+hash: d9cf5c2bb33710ca8abfb6190eaa03817d70455fd64ac76596143b8d915474bd
 extract_dir: SendToEditor
 architecture:
   64bit:

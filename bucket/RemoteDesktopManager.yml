@@ -12,6 +12,6 @@ shortcuts:
   - Remote Desktop Manager Free
 checkver:
   url: https://remotedesktopmanager.com/release-notes/free
-  regex: '>VERSION\s+([\d.]+)\s+\('
+  regex: '<h4 id="v([\d.]+)"'
 autoupdate:
   url: https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManagerFree.Bin.$version.zip

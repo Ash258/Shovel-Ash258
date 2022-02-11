@@ -3,7 +3,7 @@ description: MiTeC ROM BIOS Explorer
 homepage: https://www.mitec.cz
 license: Unknown
 url: https://www.mitec.cz/Downloads/RBE.zip
-hash: 88e9d78af5c9a058c0db2188700a0ff36d1b71d1e3961fbdcf57a365cd992175
+hash: 7f5930acd37813c0a61b51c232ed30cc94c4b112c1bbf50da07cfb3c776a2a26
 bin: RBE.exe
 shortcuts:
 - - RBE.exe

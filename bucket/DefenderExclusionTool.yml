@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: ReadMe.txt
 url: https://www.sordum.org/files/download/defender-exclusion-tool/ExcTool.zip
-hash: 700b45d6665e45172ad4941f4244e1a64dbebd76c0dcaf4451c41d078f50e15c
+hash: b41eb4fc674f017529f997551afafc4b31ef16d1d91eba0b1f595d6061e25a55
 extract_dir: ExcTool_v1.3
 bin: ExcTool.exe
 shortcuts:

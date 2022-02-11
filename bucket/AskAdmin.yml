@@ -5,7 +5,7 @@ license:
   identifier: Freemium
   url: https://www.sordum.org/files/eula/eula_askadmin.zip
 url: https://www.sordum.org/files/download/askadmin/AskAdmin.zip
-hash: 523031fc774b495405741d3773f5a397048591f6de1997405b8f4faba33434f9
+hash: 05d3b6c7b20d2b9f92f0522efaadbdd7acbb1f812707a99ab51901aea27cd4f7
 extract_dir: AskAdmin
 architecture:
   64bit:

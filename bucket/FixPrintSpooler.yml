@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/FixPrintSpooler.zip
-hash: b6f8fc83c8c22febca0e1429a360911a45a135d29737a6e8449edaf4a3708bdb
+hash: f2aa07b2c086a8c513d9df2633a3fd27d66c9a7261c53d8c826830f968bd2ad8
 extract_dir: FixPrintSpooler_v1.3
 architecture:
   64bit:
