@@ -1,0 +1,9 @@
+version: "2021"
+description: Rychlé stahování z Ulož.to
+homepage: https://vzum.hys.cz
+license: Unknown
+url: http://vzum.8u.cz/publish/Vzum.zip
+hash: aec6baa59127c70e91104681700e79446f6c2623813ed4e86144c2f959eb4620
+shortcuts:
+- - Vzum.exe
+  - Vžum
