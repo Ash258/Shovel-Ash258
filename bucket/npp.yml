@@ -1,17 +1,17 @@
-version: "8.3"
+version: 8.3.1
 description: A free source code editor and Notepad replacement that supports several languages.
 homepage: https://notepad-plus-plus.org
 license: GPL-2.0-only
 architecture:
   64bit:
-    url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.3/npp.8.3.portable.x64.zip
-    hash: 1a5c01fc3fbb0f0a99daef7ca25b8c6aa30f34bd52e1ac9f645c189efc173e53
+    url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.3.1/npp.8.3.1.portable.x64.zip
+    hash: 99382154344d7268dfd8612b684456868d97896f2bd23c6bed644bbc0a17739d
   32bit:
-    url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.3/npp.8.3.portable.zip
-    hash: 0457ccbc82978a917944283fdad7416bf6ed9d7e5dd37c5b02404168a8bad745
+    url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.3.1/npp.8.3.1.portable.zip
+    hash: a75368f2a072931077b6ebfc7dffbb950cbd20196e08081f21a6f307f991fe80
   arm64:
-    url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.3/npp.8.3.portable.arm64.zip
-    hash: cdf6131bbd876c27987eea5a71d7d533a5f3afee86452f61051dd2a78834f677
+    url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.3.1/npp.8.3.1.portable.arm64.zip
+    hash: 7d967a1aa9c58006d6a7272371c35d88e8cdbe758dc74724b2d75bf7605a3e62
 pre_install: Test-Persistence 'session.xml', 'userDefineLang.xml'
 bin:
 - notepad++.exe
