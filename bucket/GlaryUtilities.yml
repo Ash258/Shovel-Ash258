@@ -3,7 +3,7 @@ description: Glary Utilities. Free, Powerful and All-in-one utility for cleaning
 homepage: https://www.glarysoft.com/glary-utilities/
 license: Freeware
 url: https://download.glarysoft.com/guportable.zip
-hash: df457fe3c80a57679721d183d18742c9fc7a66aa811a7fd7f3ac5f0e0c1f296f
+hash: 1831aadb2880a519a1bf4785629e8ca5ed5d607a3b4901ab37c1052a5396a6a9
 extract_dir: Portable
 shortcuts:
 - - Integrator.exe

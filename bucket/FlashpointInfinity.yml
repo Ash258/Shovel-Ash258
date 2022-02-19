@@ -5,7 +5,7 @@ license:
   identifier: MIT
   url: https://github.com/FlashpointProject/launcher/blob/master/LICENSE
 url: https://bluemaxima.org/flashpoint/Flashpoint%2010.1%20Infinity.exe#/cosi.7z
-hash: 5a3c0ba06a1437caf698979126043300c2d45eedfa524d8bc17e32efe45ee4b1
+hash: 8b9131d9117cc6b66c78aa33d7403b0f722f11e3c12b27f7061566f9009bf7cb
 extract_dir: Flashpoint 10.1 Infinity
 shortcuts:
 - - Launcher\Flashpoint.exe

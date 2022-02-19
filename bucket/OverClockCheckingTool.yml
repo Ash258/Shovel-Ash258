@@ -7,7 +7,7 @@ license:
 architecture:
   64bit:
     url: https://www.ocbase.com/download#/occt.exe
-    hash: ab8e9260a3de9838762bd9198dc3199e06421f96d6294c5f27dd976835a2ff41
+    hash: 453981e0f5ed5a99232a481ef98307dbf7f982d0c8a81d383fd74ea9f81f5243
 shortcuts:
 - - occt.exe
   - OverClock Checking Tool

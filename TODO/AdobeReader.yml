@@ -1,4 +1,4 @@
-version: 21.007.20099
+version: 21.011.20039
 description: Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.
 homepage: https://get.adobe.com/uk/reader/
 license:
@@ -8,8 +8,8 @@ suggest:
   Microsoft Visual C++ Redistributable:
   - extras/vcredist2012
   - extras/vcredist2013
-url: http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100720099/AcroRdrDC2100720099_en_US.exe#/cosi.7z
-hash: 89b9112cdbb9713f3e08a35f6bb4f6c8bdb658a985afc9cbbc83a8363f1c8517
+url: http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2101120039/AcroRdrDC2101120039_en_US.exe#/cosi.7z
+hash: 9ea7854fc05fd9c92b070893c6b199fbef922e36304e85177503df6d1470cd62
 installer:
   script: |
     Expand-MsiArchive "$dir\AcroRead.msi" -DestinationPath "$dir\cosi"

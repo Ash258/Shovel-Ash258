@@ -1,11 +1,11 @@
-version: "14.9"
+version: "15.1"
 description: BurnAware. CD, DVD, Blu-ray burning software with lot of features and super-intuitive, multilingual user interface.
 homepage: http://www.burnaware.com/
 license:
   identifier: Freeware
   url: http://www.burnaware.com/eula.html
-url: http://www.burnaware.com/downloads/burnaware_free_14.9.exe
-hash: 571159e21f1fca9c00de0f89b883ff97407ae5514162a505577ec062b6e7be28
+url: http://www.burnaware.com/downloads/burnaware_free_15.1.exe
+hash: c42485c101f270bc531cdd46b380defc5430aed34e80aafd328b52482dcc2132
 innosetup: true
 shortcuts:
 - - BurnAware.exe

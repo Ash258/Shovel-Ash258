@@ -3,18 +3,18 @@
 - '    Add notes about registering context menus.'
 - '    https://github.com/TortoiseGit/TortoiseGit/blob/master/src/TortoiseGitSetup/StructureFragment.wxi'
 - '    Purge uninstaller script to delete registry path.'
-version: 2.12.0.0
+version: 2.13.0.0
 description: Windows Shell Interface to Git based on TortoiseSVN.
 homepage: https://tortoisegit.org/
 license: GPL-2.0-only
 notes: Run "$dir\context-menu-install.reg" to add all default context menus.
 architecture:
   64bit:
-    url: https://download.tortoisegit.org/tgit/2.12.0.0/TortoiseGit-2.12.0.0-64bit.msi
-    hash: eb5d8a986e74e9af582138617048fa7a7876eaf833999f7b271dd4c919ca0fee
+    url: https://download.tortoisegit.org/tgit/2.13.0.0/TortoiseGit-2.13.0.0-64bit.msi
+    hash: 5ae28426fad5088ad266d941d51a72d1fab57a98479904ad47f946edc4d13ab9
   32bit:
-    url: https://download.tortoisegit.org/tgit/2.12.0.0/TortoiseGit-2.12.0.0-32bit.msi
-    hash: 2cddbe4b3792a3cd0b15e91298cc2de46ec1c859485934117ca41c3d6728e3a3
+    url: https://download.tortoisegit.org/tgit/2.13.0.0/TortoiseGit-2.13.0.0-32bit.msi
+    hash: 1402498cea1db9f3290d119cae308d1f726650beff516a2b7d94a62dc13fe2e2
 extract_dir: Program Files\TortoiseGit
 post_install: |
   $path = 'HKCU:\Software\TortoiseGit'

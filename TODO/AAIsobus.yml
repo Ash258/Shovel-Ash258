@@ -1,9 +1,9 @@
-version: "4.8"
+version: "4.9"
 description: Rescue deleted / lost files from CD, DVD, Blu Ray disc, Hard Drive, Memory card or from flash media.
 homepage: https://www.isobuster.com/
 license: Unknown
-url: https://www.isobuster.com/dl.php?d=isobuster.com&v=4.8&l=0#/isobuster.exe
-hash: a27b732723fc8c8af1d741344e100fcf6e4731bd5231362c8c3fee5e673e12ff
+url: https://www.isobuster.com/dl.php?d=isobuster.com&v=4.9&l=0#/isobuster.exe
+hash: 9c166a0c6a3d4410ffc412d568aa8c45a5462b9059ec64069ee7426eb7b44ca2
 innosetup: true
 bin: ""
 shortcuts:

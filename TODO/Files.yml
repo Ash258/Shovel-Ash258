@@ -1,0 +1,30 @@
+version: 2.1.13.0
+description: Files. A modern file explorer
+homepage: https://files.community
+license:
+  identifier: GPL-3.0-only
+  url: https://github.com/files-community/Files/blob/main/LICENSE
+changelog: https://github.com/files-community/Files/releases/tag/v2.1.13
+url: https://github.com/files-community/Files/releases/download/v2.1.13/Files.Package_2.1.13.0.zip
+hash: 014de3d5850803ed0934feb6805a5d90e687d237dc8d8923d94d1c4cfab9c94f
+extract_dir: Files.Package_2.1.13.0_Test
+pre_install: |
+  $f = Get-ChildItem "$dir\Files.Package_${version}_*.msixbundle" | Select-Object -First 1
+  Expand-7zipArchive $f.Fullname "$dir\cosi" -Removal
+  $all = Get-ChildItem "$dir\*" -Exclude 'cosi' -Force
+  $all = $all | Where-Object -Property 'BaseName' -NotIn @('Dependencies', 'cosi')
+  $a = if ($Architecture -eq '32bit') { 'x86' } else { 'x64' }
+  $a = if ($Architecture -eq 'arm64') { 'arm64' } else { $a }
+  Expand-7zipArchive "$dir\cosi\Files.Package_${version}_$a.msix" $dir
+  Remove-AppDirItem 'cosi', '`[Content_Types`].xml'
+bin: Files.exe
+shortcuts:
+- - Files.exe
+  - Files
+checkver:
+  github: https://github.com/files-community/Files
+  regex: Files\.Package_([\d.]+)\.
+autoupdate:
+  changelog: https://github.com/files-community/Files/releases/tag/v$headVersion
+  url: https://github.com/files-community/Files/releases/download/v$headVersion/Files.Package_$version.zip
+  extract_dir: Files.Package_$version_Test
