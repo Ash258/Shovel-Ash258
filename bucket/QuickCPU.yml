@@ -1,14 +1,14 @@
-version: 4.2.1.0
+version: 4.3.0.0
 description: Quick CPU. Tune and monitor CPU performance settings.
 homepage: https://coderbag.com/product/quickcpu
 license: Unknown
 architecture:
   64bit:
     url: https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup64.zip
-    hash: ee90aa4633a595678ebcfd34caa7edeccb6084bc3c920b1574db4c7724819c15
+    hash: a042721b066f5421885071a7f74947000b7d69c3bfdca4cf6e941413589e5c4a
   32bit:
     url: https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup32.zip
-    hash: 1ab0e438cd3801fccc4c64a4e979fc374fca0fd02d91ad1443fff96e97b64674
+    hash: e20f57f84fb4afbe0b4569435f5ddddae6456e30179b2f4a7189c8bddc36b44b
 pre_install: (Get-ChildItem $dir 'QuickCPU*msi').FullName | Expand-MsiArchive -DestinationPath $dir -ExtractDir 'QuickCPU' -Removal
 shortcuts:
 - - QuickCPU.exe
