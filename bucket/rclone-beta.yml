@@ -1,0 +1,30 @@
+version: 1.58.0-beta.6004.89f0e4df8
+description: Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.
+homepage: https://rclone.org
+license:
+  identifier: MIT
+  url: https://github.com/rclone/rclone/blob/master/COPYING
+changelog: https://github.com/rclone/rclone/commits/master
+architecture:
+  64bit:
+    url: https://beta.rclone.org/v1.58.0-beta.6004.89f0e4df8/rclone-v1.58.0-beta.6004.89f0e4df8-windows-amd64.zip
+    hash: 0d1508b02b32d2e32c252a36d081eaeca608e5f55f5aa71573e5d8bc0fa7f7d2
+    extract_dir: rclone-v1.58.0-beta.6004.89f0e4df8-windows-amd64
+  32bit:
+    url: https://beta.rclone.org/v1.58.0-beta.6004.89f0e4df8/rclone-v1.58.0-beta.6004.89f0e4df8-windows-386.zip
+    hash: db3b165bfae14e3afd3f61b2ef191f734058093f8b3e9d3cf29f19b742529e78
+    extract_dir: rclone-v1.58.0-beta.6004.89f0e4df8-windows-386
+pre_install: Test-Persistence 'rclone.conf'
+bin: rclone.exe
+persist: rclone.conf
+checkver:
+  url: https://beta.rclone.org/version.txt
+  regex: rclone v(.*)$
+autoupdate:
+  architecture:
+    64bit:
+      url: https://beta.rclone.org/v$version/rclone-v${version}-windows-amd64.zip
+      extract_dir: rclone-v$version-windows-amd64
+    32bit:
+      url: https://beta.rclone.org/v$version/rclone-v${version}-windows-386.zip
+      extract_dir: rclone-v$version-windows-386
