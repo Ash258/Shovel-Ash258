@@ -1,11 +1,11 @@
-version: 1.8.2
+version: 1.8.3
 description: Kigo Netlifx Video Downloader
 homepage: https://www.kigo-video-converter.com/netflix-downloader/
 license:
   identifier: Proprtietary
   url: https://raw.githubusercontent.com/Ash258/Scoop-Licenses/master/KigoNetflixVideoDownloader.txt
 url: https://www.kigo-video-converter.com/netflix-downloader.exe#/cosi.7z
-hash: sha512:6816c1ab79b742d98c62e5f98b171d57a138dbb91ce16eb6b5c1ed337e9a0661fab880c2cf8a4ed84d096fd655623343aa43662225831690634c7044df566bbe
+hash: sha512:424a9d7c6d9a411cabd3dfc6ee0e9646d99f0cf9cb28fb7ee7e0167d6531399572250967857bcf9dd86b9d3828e6b33fb4dc5b7ad453bba2091461d992f1e901
 pre_install: Remove-AppDirItem '$*', 'Uninst*'
 shortcuts:
 - - Kigo Netflix Video Downloader.exe
