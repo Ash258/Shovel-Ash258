@@ -13,6 +13,7 @@ shortcuts:
 - - GrammarlyForWindows.exe
   - Grammarly
 checkver:
+  disable: true
   url: https://chocolatey.org/packages/grammarly
   regex: Downloads of v\s+([\d.]+)
 autoupdate:
