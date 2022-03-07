@@ -1,14 +1,14 @@
-version: 0.6.2
+version: 0.6.3
 description: Hamsket. Email and messaging app that combines web applications in one.
 homepage: https://github.com/TheGoddessInari/hamsket
 license:
   identifier: GPL-3.0-or-later
   url: https://github.com/TheGoddessInari/hamsket/blob/master/LICENSE
-changelog: https://github.com/TheGoddessInari/hamsket/releases/tag/0.6.2
+changelog: https://github.com/TheGoddessInari/hamsket/releases/tag/0.6.3
 architecture:
   64bit:
-    url: https://github.com/TheGoddessInari/hamsket/releases/download/0.6.2/Hamsket.Setup.0.6.2.exe#/cosi.7z
-    hash: adefb0c9b3e76d939fe791765b5a10780b7ec6b9477a880f8a33b4704f774021
+    url: https://github.com/TheGoddessInari/hamsket/releases/download/0.6.3/Hamsket.Setup.0.6.3.exe#/cosi.7z
+    hash: 2ee21a27e22bec234e3a6d063ef048d2307d703bb152fa60f430dff62b24b517
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
       Remove-AppDirItem '$*', 'Uninstall*'
