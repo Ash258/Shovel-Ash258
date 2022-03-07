@@ -1,15 +1,15 @@
 '##': Rename from zip to 7z is needed due to 'unsupported compression method' error.
-version: 5.2.3.6
+version: 5.2.3.7
 description: ArchiSteamFarm. Farm steam cards using multiple steam accounts simultaneously.
 homepage: https://github.com/JustArchiNET/ArchiSteamFarm
 license:
   identifier: Apache-2.0
   url: https://github.com/JustArchiNET/ArchiSteamFarm/blob/master/LICENSE-2.0.txt
-changelog: https://github.com/JustArchiNET/ArchiSteamFarm/releases/tag/5.2.3.6
+changelog: https://github.com/JustArchiNET/ArchiSteamFarm/releases/tag/5.2.3.7
 architecture:
   64bit:
-    url: https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/5.2.3.6/ASF-win-x64.zip#/cosi.7z
-    hash: 5c438d3efecf56fa8ac3aec83534d95f685214953ced664a3d5a752e17250bc1
+    url: https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/5.2.3.7/ASF-win-x64.zip#/cosi.7z
+    hash: 7674d36d9bf10ae081817d0466cc86c3b0d2fb17a0adb00cbf830f4a18d4c337
 shortcuts:
 - - ArchiSteamFarm.exe
   - ArchiSteamFarm
