@@ -1,4 +1,4 @@
-version: 1.65.1
+version: 1.65.2
 description: Portable code for vim education
 homepage: https://code.visualstudio.com
 license:
@@ -8,14 +8,14 @@ changelog: https://code.visualstudio.com/updates/v1_65
 depends: vim
 architecture:
   64bit:
-    url: https://update.code.visualstudio.com/1.65.1/win32-x64-archive/stable#/cosi.zip
-    hash: 76391e494ad72d83ec4e7c0280de7c81bf5cc8f321c5f94acd7a9505f7b41749
+    url: https://update.code.visualstudio.com/1.65.2/win32-x64-archive/stable#/cosi.zip
+    hash: 79b19354494e56c9d5749f44cb29081980884b709744b0e98aca32b693110634
   32bit:
-    url: https://update.code.visualstudio.com/1.65.1/win32-archive/stable#/cosi.zip
-    hash: de538651284b2d58737f39f45a9570c267967a800a101d38ecde8ef86d33894f
+    url: https://update.code.visualstudio.com/1.65.2/win32-archive/stable#/cosi.zip
+    hash: e078cffe87a9f8c66b17348467fe22bca1eac0ea2699784e61093ab0f23a9fa1
   arm64:
-    url: https://update.code.visualstudio.com/1.65.1/win32-arm64-archive/stable#/cosi.zip
-    hash: 42636c54d1a93957fc14f3e645a3d77e1e678fd1d1d96fc3ad22f6548397bf1b
+    url: https://update.code.visualstudio.com/1.65.2/win32-arm64-archive/stable#/cosi.zip
+    hash: 06beba5ce94b417dc9a6c731053ba6c56db20cdda0f7066b71aa2f1252d7431e
 pre_install: |
   if (!(Test-Path -LiteralPath "$persist_dir\data" -PathType 'Container')) {
       @('tmp', 'user-data', 'extensions') | ForEach-Object { Confirm-DirectoryExistence "$dir\data\$_" | Out-Null }
