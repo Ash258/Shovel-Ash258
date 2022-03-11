@@ -5,10 +5,10 @@ license: Unknown
 architecture:
   64bit:
     url: https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup64.zip
-    hash: a042721b066f5421885071a7f74947000b7d69c3bfdca4cf6e941413589e5c4a
+    hash: 788e68a7050ab7a73c77ff6eb6ea48d336cbe34f1803e80d5d5f27dcca62c440
   32bit:
     url: https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup32.zip
-    hash: e20f57f84fb4afbe0b4569435f5ddddae6456e30179b2f4a7189c8bddc36b44b
+    hash: eb76cf822d949c71d9b29cc68d4e8f899102c3c818bee47543caefcea6b8b250
 pre_install: (Get-ChildItem $dir 'QuickCPU*msi').FullName | Expand-MsiArchive -DestinationPath $dir -ExtractDir 'QuickCPU' -Removal
 shortcuts:
 - - QuickCPU.exe

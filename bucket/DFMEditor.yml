@@ -1,10 +1,10 @@
-version: 8.1.0.0
+version: 8.2.0.0
 description: MiTeC Delphi Form File Editor
 homepage: https://www.mitec.cz/dfm.html
 license: Freeware
 changelog: https://www.mitec.cz/Data/XML/data_dfmvh.xml
 url: https://www.mitec.cz/Downloads/DFMEdit.zip
-hash: 03d6eb2e6e2816aba658e3d77af94d2bbe6230a9ae60ceb75a431b5dd5f496b6
+hash: 4958a73fed3b26732299dad8e5014db2394047a617e033335825344b552ed7f3
 bin: DFMEdit.exe
 shortcuts:
 - - DFMEdit.exe

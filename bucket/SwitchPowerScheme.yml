@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/switch-power-scheme/SwitchPowerScheme.zip
-hash: a45bdbf524cf0d74c2fb925902137233e77d9a377ffb7b2247db4df1eef97481
+hash: 32b0782f2ae014764725048813fa4c46e28a3587040099de9376a48827e88200
 extract_dir: SwitchPowerScheme_v1.3
 architecture:
   64bit:
