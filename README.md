@@ -84,17 +84,6 @@
 | [In Window Clicker **(NIClicker)**](./bucket/NIClicker.yml)                                                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.yml)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
 | [JetBrains Space **(JetBrains-Space)**](./bucket/JetBrains-Space.yml)                                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
-| [Kaspersky's CoinVaultDecryptor **(CoinVaultDecryptor)**](./bucket/CoinVaultDecryptor.yml)                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's RakhniDecryptor **(RakhniDecryptor)**](./bucket/RakhniDecryptor.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's RannohDecryptor **(RannohDecryptor)**](./bucket/RannohDecryptor.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's RectorDecryptor **(RectorDecryptor)**](./bucket/RectorDecryptor.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's ScatterDecryptor **(ScatterDecryptor)**](./bucket/ScatterDecryptor.yml)                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's ScraperDecryptor **(ScraperDecryptor)**](./bucket/ScraperDecryptor.yml)                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's ShadeDecryptor **(ShadeDecryptor)**](./bucket/ShadeDecryptor.yml)                                                                                       |   ✔    |    ❌     |         ❌         |
-| [Kaspersky's TDSSKiller **(TDSSKiller)**](./bucket/TDSSKiller.yml)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's Virus Removal Tool **(KasperskyVirusRemovalTool)**](./bucket/KasperskyVirusRemovalTool.json)                                                            |   ✔    |    ♻     |       ♻(♻)        |
-| [Kaspersky's WildfireDecryptor **(WildfireDecryptor)**](./bucket/WildfireDecryptor.yml)                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kaspersky's XoristDecryptor **(XoristDecryptor)**](./bucket/XoristDecryptor.yml)                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.yml)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.yml)                                                                                                                                |   ✔    |    ✔❓    |       ✔ (⛔)       |
