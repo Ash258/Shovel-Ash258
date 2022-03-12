@@ -90,6 +90,7 @@
 | [Kodi **(Kodi)**](./bucket/Kodi.yml)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Komodo Edit **(KomodoEdit)**](./bucket/KomodoEdit.yml)                                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
 | [Komodo IDE **(KomodoIDE)**](./bucket/KomodoIDE.yml)                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
+| [lego **(lego)**](./bucket/lego.yml)                                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [LiveSplit **(LiveSplit)**](./bucket/LiveSplit.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Meazure **(Meazure)**](./bucket/Meazure.yml)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
