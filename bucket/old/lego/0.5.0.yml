@@ -1,0 +1,15 @@
+version: 0.5.0
+description: Let's Encrypt client
+homepage: https://go-acme.github.io/lego/
+license:
+  identifier: MIT
+  url: https://github.com/go-acme/lego/blob/86f17212810e5b2c031794fa07fd4ae454ef3a2f/LICENSE
+changelog: https://github.com/go-acme/lego/releases/tag/v0.5.0
+architecture:
+  64bit:
+    url: https://github.com/go-acme/lego/releases/download/v0.5.0/lego_v0.5.0_windows_amd64.zip
+    hash: 458c3de76ee01ef5f1060b983e55b495004aab929f6b40acbfb51b239806a61f
+  32bit:
+    url: https://github.com/go-acme/lego/releases/download/v0.5.0/lego_v0.5.0_windows_386.zip
+    hash: 9fd217a5ab694e1c7edae16f27de3d3afe951227d0d7ba7ba83547836a466a2e
+bin: lego.exe
