@@ -39,7 +39,7 @@ post_install: |
           '$ps = if ($PSVersionTable.PSVersion.Major -ge 6) { ''pwsh'' } else { ''ps'' }'
           '$ps += ''@'' + $PSVersionTable.PSVersion.ToString()'
           '$env:__SHELL_INFORMATION_POSH_258__ = "$ps@$bitness"'
-          "Invoke-Expression (@(oh-my-posh.exe --print-init --shell 'pwsh' --config '$th\Ash258.omp.yml') -join ""``n"")"
+          "Invoke-Expression (@(oh-my-posh.exe prompt init pwsh --print --config '$th\Ash258.omp.yml') -join ""``n"")"
           'Enable-PoshTransientPrompt'
           '#endregion Oh-my-posh'
       )
