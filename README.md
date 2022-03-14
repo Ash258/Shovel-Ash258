@@ -94,6 +94,7 @@
 | [LiveSplit **(LiveSplit)**](./bucket/LiveSplit.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Make Partition Image **(MPI)**](./bucket/MPI.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Meazure **(Meazure)**](./bucket/Meazure.yml)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [MediaHuman Audio Converter **(MHAudioConverter)**](./bucket/MHAudioConverter.yml)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Microsoft Visual Studio Code - Exploration **(vscode-exploration)**](./bucket/vscode-exploration.yml)                                                               |   ✔    |    ♻     |       ♻ (♻)       |
 | [Microsoft Visual Studio Code - Insiders **(vscode-insiders)**](./bucket/vscode-insiders.yml)                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [MiTeC Account List **(AccountList)**](./bucket/AccountList.yml)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
