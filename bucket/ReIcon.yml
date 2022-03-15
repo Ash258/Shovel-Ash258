@@ -1,11 +1,11 @@
-version: "1.9"
+version: "2.0"
 description: Sordum's ReIcon. Restore desktop icon layouts.
 homepage: https://www.sordum.org/8366/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/restore-desktop-icon-layouts/ReIcon.zip
-hash: d55730a3530281fa6fbf5577b0177600addbad0a987b88996a6e1a939c661d0b
+hash: b5a515ef491013f69891ef7b0215f8e9a75ecfb54757d58e8ec727e4fddc68b6
 extract_dir: ReIcon
 pre_install: Test-Persistence 'IconLayouts.ini'
 architecture:
