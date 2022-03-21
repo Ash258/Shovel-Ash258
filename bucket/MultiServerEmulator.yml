@@ -1,4 +1,4 @@
-version: "0.1"
+version: .
 description: Paessler's Mullti Server Emulator. The cost effective solution to perform large scale testing.
 homepage: https://www.paessler.com/tools/serversimulator
 license: Freeware
