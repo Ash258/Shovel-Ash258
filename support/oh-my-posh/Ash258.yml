@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
-version: 1
+version: 2
 blocks:
 - type: prompt
   alignment: left
@@ -23,9 +23,9 @@ blocks:
   - type: text
     style: powerline
     foreground: '#fff000'
+    template: '{{.Env.__SHELL_INFORMATION_POSH_258__}}'
     properties:
       prefix: ' ﲵ '
-      template: '{{.Env.__SHELL_INFORMATION_POSH_258__}}'
   - type: go
     style: powerline
     foreground: '#b600ff'
@@ -86,8 +86,7 @@ blocks:
   - type: text
     style: powerline
     foreground: '#0037da'
-    properties:
-      template: ' ❯'
+    template: ' ❯'
 final_space: true
 osc99: true
 transient_prompt:
