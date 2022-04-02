@@ -1,11 +1,11 @@
-version: 5.13.0
+version: 5.13.1
 description: Mock Server. HTTP(s) APIs mocking tool
 homepage: http://www.mock-server.com
 license:
   identifier: Apache-2.0
   url: https://github.com/mock-server/mockserver/blob/master/LICENSE.md
-url: https://repo1.maven.org/maven2/org/mock-server/mockserver-netty/5.13.0/mockserver-netty-5.13.0.jar#/mockserver.jar
-hash: sha1:d97b685decc1ddf440e478df07188a5c3764f658
+url: https://repo1.maven.org/maven2/org/mock-server/mockserver-netty/5.13.1/mockserver-netty-5.13.1.jar#/mockserver.jar
+hash: sha1:3bfc516c82aa210d9a5b57e8bfa4d3a4550c1832
 bin: mockserver.jar
 checkver:
   url: https://repo1.maven.org/maven2/org/mock-server/mockserver-netty/maven-metadata.xml
