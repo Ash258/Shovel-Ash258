@@ -10,7 +10,9 @@ post_install: |
       Copy-Item "$dir\*" "$SCOOP_ROOT_DIRECTORY\apps\E2B\current\_MPI" -Force -Recurse
       Write-Host 'Copying DONE' -f Yellow
   }
-checkver: /(?<cosi>[\w-]+)/MPI_Tool_Pack_Plus_CloverLite_.*Cloverlite ([\d.]+) \(
+checkver:
+  regex: /(?<cosi>[\w-]+)/MPI_Tool_Pack_Plus_CloverLite_.*Cloverlite ([\d.]+) \(
+  disable: true
 autoupdate:
   url: https://easy2boot.webnode.com/_files/$matchCosi/MPI_Tool_Pack_Plus_CloverLite_$minorVersion.zip
   extract_dir: MPI_Tool_Pack_Plus_CloverLite_$minorVersion

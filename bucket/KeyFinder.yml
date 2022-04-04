@@ -11,6 +11,8 @@ innosetup: true
 shortcuts:
 - - keyfinder.exe
   - KeyFinder
-checkver: Installer\s*v([\d.]+)\s+\(
+checkver:
+  regex: Installer\s*v([\d.]+)\s+\(
+  disable: true
 autoupdate:
   url: https://www.magicaljellybean.com/downloads/KeyFinderInstaller.exe

@@ -17,6 +17,7 @@ uninstaller:
   file: win-uninstall.cmd
 checkver: github
 autoupdate:
+  disable: true
   changelog: https://github.com/paolo-projects/unlocker/releases/tag/$version
   architecture:
     64bit:
