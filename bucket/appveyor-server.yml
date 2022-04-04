@@ -1,10 +1,10 @@
-version: 7.0.3150
+version: 7.0.3212
 description: Appveyor Server On Premise. Multi-platform, downloadable version of AppVeyor CI service
 homepage: https://www.appveyor.com/self-hosted/
 license:
   identifier: Proprietary
   url: https://www.appveyor.com/eula/
-changelog: https://www.appveyor.com/releases/7.0.3150/
+changelog: https://www.appveyor.com/releases/7.0.3212/
 url: https://www.appveyor.com/downloads/appveyor-server/latest/windows/appveyor-server.msi
 hash: 6334d0d276f325b6f8d854666e9dc40897a6141984d582a576e5c86111330452
 extract_dir: AppVeyor\Server
