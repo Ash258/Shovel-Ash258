@@ -1,0 +1,48 @@
+version: 2022.01.07-1.77.2-nb
+description: Tabbed, multi-protocol remote connections manager. Fork of mRemote.
+homepage: https://mremoteng.org
+license:
+  identifier: GPL-2.0-only
+  url: https://github.com/mRemoteNG/mRemoteNG/blob/develop/COPYING.TXT
+url: https://github.com/mRemoteNG/mRemoteNG/releases/download/2022.01.07-1.77.2-nb/2022.01.07-1.77.2-nb.mRemoteNG.Portable.rar
+hash: bf61ea02806aeb81e2ef6eab9136cf20428c431a07ad0c8e4f3f18107ee4c11a
+extract_dir: 2022.01.07-1.77.2-nb mRemoteNG Portable
+pre_install: |
+  function SettingProperty ($key, $value) {
+      return "    <setting name=""$key"">$value</setting>"
+  }
+  $SETTINGS = @{
+      'CheckForUpdatesOnStartup' = 'False'
+      'CheckForUpdatesAsked'     = 'True'
+  }
+  $CONT = @(
+      '<?xml version="1.0" encoding="utf-8"?>'
+      '<settings>'
+      '  <localSettings>'
+  )
+  $SETTINGS.Keys | ForEach-Object { $CONT += SettingProperty $_ $SETTINGS[$_] }
+  $CONT += '  </localSettings>'
+  $CONT += '</settings>'
+
+  Test-Persistence 'mRemoteNG.settings' $CONT
+  Test-Persistence 'confCons.xml' @(
+      '<?xml version="1.0" encoding="utf-8"?>'
+      '<mrng:Connections xmlns:mrng="http://mremoteng.org" Name="Connections" Export="false" EncryptionEngine="AES" BlockCipherMode="GCM" KdfIterations="1000" FullFileEncryption="false" Protected="ivoI7siIZakTBRM676LK7RTH9N2RgT8xngMykDB/xs630qEm8sO8qkFbsO1VewsD2LiptqRME4vJEBqCjEZyFTc1" ConfVersion="2.6" />'
+  )
+bin:
+- mRemoteNG.exe
+- PuTTYNG.exe
+shortcuts:
+- - mRemoteNG.exe
+  - mRemoteNG
+- - PuTTYNG.exe
+  - PuTTYNG
+persist:
+- confCons.xml
+- mRemoteNG.settings
+checkver:
+  url: https://github.com/mRemoteNG/mRemoteNG/releases
+  regex: /(20\d{2}[\w\d.-]+)\.mRemoteNG
+autoupdate:
+  url: https://github.com/mRemoteNG/mRemoteNG/releases/download/$version/$version.mRemoteNG.Portable.rar
+  extract_dir: $version mRemoteNG Portable
