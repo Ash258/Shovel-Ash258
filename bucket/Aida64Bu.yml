@@ -1,14 +1,14 @@
-version: 6.60.5900
+version: 6.70.6000
 description: Aida64 Business Edition. Essential IT asset management solution for small and medium enterprises
 homepage: https://www.aida64.com/products/aida64-business
 license:
   identifier: Proprietary
   url: https://www.aida64.com/licensing
 url:
-- http://download.aida64.com/aida64business660.zip
+- http://download.aida64.com/aida64business670.zip
 - https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aid#/pkey.txt
 hash:
-- 96f9e5273e6f09e0a833aae2a619a661489c7b3ec7fe014b619cdc962939aa4a
+- 56496ca01f901dd4aec1ec0d43997aea77306e167ba574d60b2a9c5d259a6772
 - eb3cca82be1f3e581bee9377f183227ab0c2e0b723b85f6da7e38e9e986224e6
 pre_install: Test-Persistence 'aida64.ini' '[Generic]', '', 'NoRegistry=1', 'NetUpdateFreq=0'
 bin: aida64.exe
