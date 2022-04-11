@@ -1,11 +1,11 @@
-version: 6ea335e334b90a9aca753d558dec1d14741eff1e
+version: b84feecf9231d404a766e251f8a37c730089511b
 description: Automatic vscode server insiders installation. For vms preparation.
 homepage: https://code.visualstudio.com/docs/remote/remote-overview
 license: Proprietary
 architecture:
   64bit:
-    url: https://az764295.vo.msecnd.net/insider/6ea335e334b90a9aca753d558dec1d14741eff1e/vscode-server-win32-x64.zip
-    hash: ab8f994f46eaa2b45b18d2e60d68613247f989b1969e502e0a95254ea63af1d8
+    url: https://az764295.vo.msecnd.net/insider/b84feecf9231d404a766e251f8a37c730089511b/vscode-server-win32-x64.zip
+    hash: 1b7590de5b21bedc97445ece09ac1d1a9ab9361a26d5ca0df03273f9e08b21e9
 pre_install: |
   Rename-Item "$dir\$($fname -replace '\.zip')" $version
   $bin = Join-Path $env:USERPROFILE '.vscode-server-insiders\bin'
