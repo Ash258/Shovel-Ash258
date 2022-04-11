@@ -1,14 +1,14 @@
-version: 6.60.5900
+version: 6.70.6000
 description: Aida64 Engineer Edition. Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers
 homepage: https://www.aida64.com/products/aida64-engineer
 license:
   identifier: Proprietary
   url: https://www.aida64.com/licensing
 url:
-- http://download.aida64.com/aida64engineer660.zip
+- http://download.aida64.com/aida64engineer670.zip
 - https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aiden#/pkey.txt
 hash:
-- 4c77454df299026bb32cd331dc5ee79cbebc3007250d69c911370d3e27841347
+- 49045688240f1171d934dd0f62126bb91b72c94c8bc4bedd728ab966e62c9b39
 - 61f8bb66520310acc677963b01f5699773dd7be9d6685c9570d064d24960ad8a
 pre_install: Test-Persistence 'aida64.ini' '[Generic]', '', 'NoRegistry=1', 'NetUpdateFreq=0'
 bin: aida64.exe
