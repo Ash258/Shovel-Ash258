@@ -4,7 +4,7 @@ homepage: https://www.mitec.cz/jsonv.html
 license: Proprietary
 changelog: https://www.mitec.cz/Data/XML/data_jsonvvh.xml
 url: https://www.mitec.cz/Downloads/JSONView.zip
-hash: 70d54c034ce6b5b120dc10dc254e75c3e61c1de9aa496d790551a82d49697d90
+hash: d232374a48d9ec62a4d6365f6063b722751c9b9a292f5cb0051b4e2991a894ac
 bin: JSONView.exe
 shortcuts:
 - - JSONView.exe
