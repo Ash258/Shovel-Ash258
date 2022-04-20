@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Read_me.txt
 url: https://www.sordum.org/files/small-tools/NetDisabler.zip
-hash: 8c04e698c0b8401bd78ec0784ca2342d39bcd012b18e1c7efcb86994f5ad1410
+hash: 091c0fb803230236045a6da27c75256034ac571a90034e5b53e5a19938bb84ec
 extract_dir: NetDisabler
 architecture:
   64bit:

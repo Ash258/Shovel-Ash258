@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/easy-context-menu/ec_menu.zip
-hash: 7e331c6526b71182ac32780eed545652c2e823805a05a3e4eb3b23256b564c34
+hash: 7fda0f551fd769b150d1519c614131e2d610a2d98769f87ff654e3cd6de76167
 extract_dir: EcMenu_v1.6
 architecture:
   64bit:

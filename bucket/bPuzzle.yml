@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/bpuzzle/bPuzzle.zip
-hash: 01926e7c75a06c7c7fc8b06628f3e60ef985a77b2ceebbefc917722ae4fcd884
+hash: f7af847ead02e947a63b4bfedfe5b340ec86a3cf70b4e992120ebab3b4841765
 extract_dir: bPuzzle
 architecture:
   64bit:

@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/registry-key-jumper/RegJump.zip
-hash: d40ad6ce256a1aae0d89a508a09575569e02bea94e1e417b49fa4a41be9e3a83
+hash: f564b7521c5db597efc1afeb334ee94a7b609771942ff8bbf8945a83bb89f8ef
 extract_dir: RegJump
 architecture:
   64bit:
