@@ -4,7 +4,7 @@ description: Network Notepad. Interactive network diagrams creator
 homepage: https://www.networknotepad.com/index.shtml
 license: Freeware
 url: https://www.networknotepad.com/Download/NetworkNotepadFree6.0.20.exe
-hash: 4ad4f0370e6c7ec2f3b0fdd4ab4a01af6fc1ea226c30b386312476c84492d7a4
+hash: e76da0e022ee7d78bd2c4557677465d68551eb733efeb515f1b8b8ab73831a43
 installer:
   script: |
     $file = (Get-Item "$dir\NetworkNotepad*.exe").FullName

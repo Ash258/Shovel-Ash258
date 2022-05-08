@@ -11,7 +11,7 @@ architecture:
     - https://t1.daumcdn.net/potplayer/PotPlayer/Version/220420/PotPlayerSetup64.exe#/cosi.7z
     - https://t1.daumcdn.net/potplayer/PotPlayer/Codec/v1/OpenCodecSetup64.exe#/codec.7z
     hash:
-    - c7d4d55760890a1fa1c5ecef44997a379ffbda81b41b3b35ff45ad5cb3441b5b
+    - cf02b34945316d89ad3ddb5b13ea7d59c69cb9e347e53c1b893de2a5982b81b0
     - 383686311183cbcf9e8d1f4a29191d05a0c3b2aa70396a2324f58e5a2ec98648
     shortcuts:
     - - PotPlayer64.exe
@@ -23,7 +23,7 @@ architecture:
     - https://t1.daumcdn.net/potplayer/PotPlayer/Version/220420/PotPlayerSetup.exe#/cosi.7z
     - https://t1.daumcdn.net/potplayer/PotPlayer/Codec/v1/OpenCodecSetup.exe#/codec.7z
     hash:
-    - dc6b31727dc0522ea5fd13a267fcdd86f16f4ad58141c092074a45c394814426
+    - 7c042db34648683da31aef0ad2db43582538e0da67c25c5dda5e93aeeb126b94
     - 8ee793feed9b6eeb21d45876932ba91494657a66b1b0df7666fd35416d805c3c
     shortcuts:
     - - PotPlayer.exe

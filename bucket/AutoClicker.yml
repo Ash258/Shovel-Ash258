@@ -3,7 +3,7 @@ description: Auto Clicker. A full-fledged autoclicker with two modes of autoclic
 homepage: https://www.opautoclicker.com
 license: CC-BY-NC-2.0
 url: https://downloads.sourceforge.net/project/orphamielautoclicker/AutoClicker.exe
-hash: sha1:1751d9389adb1e7187afa4938a3559e58739dce6
+hash: sha1:f35013967cb5ff638491edb409eee863c5f8ada0
 shortcuts:
 - - AutoClicker.exe
   - OP Auto Clicker

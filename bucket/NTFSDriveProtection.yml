@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/ntfs-drive-protection/Ntfs_drive_prot.zip
-hash: 195801f5a08d74aa02bbc1440ba2a1ee7f22d7e8177a8004631b1609825408f8
+hash: 41e6a03938c69914c4b024f9518e8cf820b7ce926a0cd0b6de124c241688d4ad
 extract_dir: Ntfs_drive_protection
 architecture:
   64bit:

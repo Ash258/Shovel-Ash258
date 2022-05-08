@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/restore-desktop-icon-layouts/ReIcon.zip
-hash: fdbe7bfc27f59fb7a8168cdac93ddd64a7210d80f51b5cd73c75c46990507974
+hash: d91282e0695a4b88c314da3550f67f082e75a2940f6badf5899270c3e174153d
 extract_dir: ReIcon
 pre_install: Test-Persistence 'IconLayouts.ini'
 architecture:
