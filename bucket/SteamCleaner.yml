@@ -1,12 +1,12 @@
-version: "2.3"
+version: "2.4"
 description: SteamCleaner. Restore disk space from various game clients like Origin, Steam, Uplay, Battle.net, GoG and Nexon.
 homepage: https://github.com/Codeusa/SteamCleaner
 license:
   identifier: GPL-3.0-only
   url: https://github.com/Codeusa/SteamCleaner/blob/master/LICENSE
-changelog: https://github.com/Codeusa/SteamCleaner/releases/tag/2.3
-url: https://github.com/Codeusa/SteamCleaner/releases/download/2.3/SteamCleaner.exe
-hash: 119b7e6cedae5660c69e6c85284824a6787a08c0522ee1d2140ae9d0180e3df7
+changelog: https://github.com/Codeusa/SteamCleaner/releases/tag/2.4
+url: https://github.com/Codeusa/SteamCleaner/releases/download/2.4/SteamCleaner.exe
+hash: c7319112d5c5c7c666ccd8bbac622fbe6e4845bcf309fe269ec86314cd936579
 shortcuts:
 - - SteamCleaner.exe
   - SteamCleaner
