@@ -1,8 +1,8 @@
 version: 2.3.3.9
 description: CZ Manager
-homepage: https://lokalizace.net/Home/Manager
+homepage: https://lokalizace.net/manager
 license: Unknown
-url: https://lokalizace.net/downloads/CZ_Manager_2.3.3.9.zip
+url: https://downloads.lokalizace.net/manager/CZ_Manager_2.3.3.9.zip
 hash: f29362ce97be100ec8feb6d7841d792da37d8f08e34c6cea42304a15f1cdbe1f
 pre_install: |
   Test-Persistence 'settings.ini'
@@ -11,6 +11,8 @@ shortcuts:
 - - CZManagerV2.exe
   - CZ Manager
 persist: settings.ini
-checkver: '>([\d.]+)</'
+checkver:
+  disable: true
+  regex: '>([\d.]+)</'
 autoupdate:
-  url: https://lokalizace.net/downloads/CZ_Manager_$version.zip
+  url: https://downloads.lokalizace.net/manager/CZ_Manager_$version.zip
