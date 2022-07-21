@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/webcam-on-off/webcamonoff.zip
-hash: e70e565417973e17b7502b53fc5a448c451fd37f29ad9a043e6e105043be04b2
+hash: fe3035cf23d0ed2ea83832bf46bb9de910053d45f6c8a8c7edb9f6bfae8675de
 extract_dir: webcam_on_off_v1.4
 bin: WebCam.exe
 shortcuts:

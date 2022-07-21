@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/url-disabler/UrlDisabler.zip
-hash: 963f2ef0e4b0dc67884611816c66914a82e0db2007084b9e439a963a5e9a377d
+hash: 56be0eec534e51422e54489cfdec070cdc04d1ce6bd106346b91f74b07b2b0f3
 extract_dir: UrlDisabler
 architecture:
   64bit:
