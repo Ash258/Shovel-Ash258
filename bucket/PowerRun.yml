@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/power-run/PowerRun.zip
-hash: 478e5f3799d5efe1ba60c6b1a4eb6d62f560c37b0ccb8d4eb5fe59c5e3af88cf
+hash: 4933d53b4ced954101691f1b734b4b4b457859737fe478495267bc645f012f7e
 extract_dir: PowerRun
 architecture:
   64bit:

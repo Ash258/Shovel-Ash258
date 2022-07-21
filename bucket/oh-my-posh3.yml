@@ -8,7 +8,7 @@ architecture:
   64bit:
     url:
     - https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v3.120.0/posh-windows-wsl-amd64.7z
-    - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/master/support/oh-my-posh/Ash258.json
+    - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.yml
     hash:
     - c4825f6099b59240614db2b912f0bb3eb9facc0bf0da86c796f3c7163921a612
-    - af5fa4864736479f1b462ecd33380bc7b5b7c99173108b59e99a6c06b7d477a6
+    - 254ecc440bdd96f19fe770f9fc5147a28bf25788f24ac02fd73c3876722a1aac

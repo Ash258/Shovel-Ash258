@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/network-profile-name-changer/NetPnc.zip
-hash: b583d28ed9cf3167049088296d72b80dba03d4e3d1f3f910b4b2a0d8b3166eda
+hash: 095c3fa5419314e64464228983c93f9ab883e1b81b2026eb9bf9ba539c283414
 extract_dir: NetPnc
 shortcuts:
 - - NetPnc.exe

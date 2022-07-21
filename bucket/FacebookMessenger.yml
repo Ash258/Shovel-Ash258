@@ -1,11 +1,11 @@
-version: 132.12.119
+version: 156.0.0.21.216
 description: Facebook Messenger Desktop
 homepage: https://www.messenger.com/desktop
 license: Unknown
 architecture:
   64bit:
     url: https://www.messenger.com/messenger/desktop/downloadV2/?platform=win#/cosi.7z
-    hash: 6e2cfd45df275819cdf169378616d9b6b214a4ddebfe52d90ee8fce88907b86b
+    hash: d3ff5ef65f9a1ec375c3f151815ff397c9222c81026f7ba4229e322105048ff1
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
       Remove-AppDirItem '$*', 'Uninstall*'
@@ -13,9 +13,8 @@ shortcuts:
 - - Messenger.exe
   - Messenger
 checkver:
-  disable: true
-  url: https://www.facebook.com/messenger/desktop/update/latest.yml
-  regex: version:\s*([\d.]+)
+  url: https://www.facebook.com/messenger/desktop/zeratul/update.xml?target=zeratul&platform=win
+  xpath: /rss/channel/item/enclosure/@sparkle:shortVersionString
 autoupdate:
   architecture:
     64bit:
