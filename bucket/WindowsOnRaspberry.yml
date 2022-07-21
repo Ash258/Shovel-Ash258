@@ -1,8 +1,8 @@
 version: 2.3.0
 description: Windows on Raspberry
-homepage: https://www.worproject.ml
+homepage: https://worproject.com/downloads
 license: Unknown
-changelog: https://www.worproject.ml/changelog.htm
+changelog: https://worproject.com/dldserv/wor/changelog.htm
 url: https://dl.orangedox.com/WoR-Release-2.3.0?dl=1#/cosi.7z
 hash: 022d8274513030fa7d166837bf34e1489f2963f851dfe011655ed9124d545c59
 pre_install: Test-Persistence 'settings.ini' '[WoR Configuration File]'
@@ -13,7 +13,7 @@ persist:
 - logs
 - settings.ini
 checkver:
-  url: https://www.worproject.ml/dldserv/wor/changelog.htm
+  url: https://worproject.com/dldserv/wor/changelog.htm
   regex: '\[version\s+([\d.]+)\]'
 autoupdate:
   url: https://dl.orangedox.com/WoR-Release-$version?dl=1#/cosi.7z
