@@ -1,11 +1,11 @@
-version: 2022.1.1
+version: 2022.1.2
 description: Desktop Application for JetBrains Space - integrated team environment
 homepage: https://download-cf.jetbrains.com/space/jetbrains-space.exe
 license: Freeware
 architecture:
   64bit:
-    url: https://download.jetbrains.com/space/jetbrains-space-2022.1.1.exe#/cosi.7z
-    hash: sha512:ee7a8bdc2d0ebd157e57e8c764fbfbda56f410c75f1862869a2a0779a3cea3cb933190b875ee659acfd25c2ed339ee1fe9f253b8d2b1f6bf8387daf85f9c03b5
+    url: https://download.jetbrains.com/space/jetbrains-space-2022.1.2.exe#/cosi.7z
+    hash: sha512:03b04863b312d6af7b7a83b5f14da25bf2d33f74e396d6d1344a7702a726f5d73c53a473ea207dafa0aec3c3953d7a2d76f6d0a80843cfa8a13df3cdd0d04761
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
       Remove-AppDirItem '$*', 'Uninstall*'
