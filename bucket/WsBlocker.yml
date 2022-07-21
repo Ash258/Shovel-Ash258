@@ -1,4 +1,4 @@
-version: "1.1"
+version: "1.2"
 description: Sordum's Windows 10 Settings Blocker
 homepage: https://www.sordum.org/11128/
 license:
@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Readme.txt
 url: https://www.sordum.org/files/win10-settings-blocker/WsBlocker.zip
-hash: 9f81c8ba2664a577bb11d348168a284197f2b49da6299720cd0bcc345c21db7d
+hash: 74c3cfa3243dfcb799e566c3431e3b604e919ad72645483db75743c8b532c330
 extract_dir: WsBlocker
 architecture:
   64bit:
@@ -18,6 +18,6 @@ architecture:
     - - WsBlocker.exe
       - Sordum\Windows 10 Settings Blocker
 persist: WsBlocker.ini
-checkver: Win10 Settings Blocker\s*v([\d.]+)
+checkver: Windows Settings Blocker\s*v([\d.]+)
 autoupdate:
   url: https://www.sordum.org/files/win10-settings-blocker/WsBlocker.zip
