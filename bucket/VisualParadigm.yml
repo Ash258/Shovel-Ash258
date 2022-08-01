@@ -1,4 +1,4 @@
-version: 16.3.20220622
+version: 17.0.20220801
 description: Visual Paradigm Community Edition. UML CASE Tool supporting UML 2, SysML and Business Process Modeling Notation from the Object Management Group.
 homepage: https://www.visual-paradigm.com
 license:
@@ -6,9 +6,9 @@ license:
   url: https://www.visual-paradigm.com/product/licenseagreement.jsp?product=vp&edition=ce
 architecture:
   64bit:
-    url: https://uk3.dl.visual-paradigm.com/visual-paradigm/vpce16.3/20220622/Visual_Paradigm_CE_16_3_20220622_Win64_InstallFree.zip
-    hash: 443b32c57f14fe52d3820d45f5d15784776d662c897486adeaebeed30260929d
-extract_dir: Visual Paradigm CE 16.3
+    url: https://uk3.dl.visual-paradigm.com/visual-paradigm/vpce17.0/20220801/Visual_Paradigm_CE_17_0_20220801_Win64_InstallFree.zip
+    hash: 052053757d79d57f6d562ed6f27d90c452973208f088d2a8df312308fa19a453
+extract_dir: Visual Paradigm CE 17.0
 shortcuts:
 - - Visual Paradigm.exe
   - Visual Paradigm
