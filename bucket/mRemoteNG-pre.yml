@@ -1,11 +1,11 @@
-version: 1.77.1.27713
+version: 1.77.0.41307
 description: Tabbed, multi-protocol remote connections manager. Fork of mRemote.
 homepage: https://mremoteng.org
 license:
   identifier: GPL-2.0-only
   url: https://github.com/mRemoteNG/mRemoteNG/blob/develop/COPYING.TXT
-url: https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.77.1/mRemoteNG-Portable-1.77.1.27713.zip
-hash: 49ca9646e42123f0258caf547b29577b1b24ab9e3effe1b8df6ba250d7ed0de0
+url: https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.77.0/mRemoteNG-Portable-1.77.0.41307.zip
+hash: 5dbfc7ef0b95677420e0c0314fd82124ed0d0e1df8d57e70b06e9592d1142f83
 pre_install: |
   function SettingProperty ($key, $value) {
       return "    <setting name=""$key"">$value</setting>"
