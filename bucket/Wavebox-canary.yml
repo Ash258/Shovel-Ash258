@@ -1,4 +1,4 @@
-version: 10.104.7.4
+version: 10.104.8.4
 description: Wavebox 10 Canary. A distraction-free browser for fast and focused working across all web apps.
 homepage: https://wavebox.io
 license:
@@ -7,8 +7,8 @@ license:
 changelog: https://wavebox.io/changelog/canary/
 architecture:
   64bit:
-    url: https://download.wavebox.app/canary/win/Install%20Wavebox%2010.104.7.4.exe#/cosi.7z
-    hash: 62c9e32f41f99865949ecc8dbd4f7cba3cff8c8b2bbd3b2015253398c8ec08af
+    url: https://download.wavebox.app/canary/win/Install%20Wavebox%2010.104.8.4.exe#/cosi.7z
+    hash: 60c33b944f80a746233de2df5ef376b318244291179ff2d623d2bcfb1b31f4d6
 pre_install: Expand-7zipArchive "$dir\chrome.7z" -ExtractDir 'Chrome-bin' -Removal
 bin:
 - Wavebox.exe
