@@ -1,10 +1,10 @@
 '##': Network Notepad License Agreement.rtf
-version: 6.0.20
+version: 6.0.21
 description: Network Notepad. Interactive network diagrams creator
 homepage: https://www.networknotepad.com/index.shtml
 license: Freeware
-url: https://www.networknotepad.com/Download/NetworkNotepadFree6.0.20.exe
-hash: e76da0e022ee7d78bd2c4557677465d68551eb733efeb515f1b8b8ab73831a43
+url: https://www.networknotepad.com/Download/NetworkNotepadFree6.0.21.exe
+hash: 3a4dde28104dff05235743c1c46c897ce841d94b32d87369efbc821991498db1
 installer:
   script: |
     $file = (Get-Item "$dir\NetworkNotepad*.exe").FullName
