@@ -1,12 +1,12 @@
-version: 1.8-BETA
+version: 1.8.0
 description: Idle Master. Automatic Steam Trading Cards drops
 homepage: https://www.steamidlemaster.com
 license:
   identifier: GPL-2.0-only
   url: https://github.com/JonasNilson/idle_master_extended/blob/master/LICENSE
-url: https://github.com/JonasNilson/idle_master_extended/releases/download/v1.8-BETA/idle_master_extended_v1.8-BETA.zip
-hash: 5206ce18261b513dd1d8221183f8f875e1006cffbc5e9325b9874243a637387a
-extract_dir: idle_master_extended_v1.8-BETA
+url: https://github.com/JonasNilson/idle_master_extended/releases/download/v1.8.0/idle_master_extended_v1.8.0.zip
+hash: a1c3218df7e9e8d1740552bbc1025d50603ccae35e6062872b34e095dd6d8864
+extract_dir: idle_master_extended_v1.8.0
 shortcuts:
 - - IdleMasterExtended.exe
   - Idle Master
