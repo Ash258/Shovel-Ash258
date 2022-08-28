@@ -1,0 +1,30 @@
+version: 2.8.80
+description: Collection of unique tools for downloading TV shows, movies, music and other videos and audios from popular OTT platforms.
+homepage: https://myfilmdownload.com
+license: Proprietary
+architecture:
+  64bit:
+    url: https://myfilmdownload.com/install/myfilmdownload_portable_2.8.80.zip
+    hash: 048720e6d7093b0dfef4dce53cb5e2167b23193707510738dd51f500dd529381
+shortcuts:
+  - - _myAmazon.exe
+    - myAmazon
+  - - _myAppleMusic.exe
+    - myAppleMusic
+  - - _myDisneyPlus.exe
+    - myDisneyplus
+  - - _myHboGo.exe
+    - myHBOGo
+  - - _myHboMax.exe
+    - myHBOHMax
+  - - _myHotstar.exe
+    - myHotstar
+  - - _myHulu.exe
+    - myHulu
+  - - _myNetflix.exe
+    - myNetflix
+checkver: portable_([\d.]+)\.zip
+autoupdate:
+  architecture:
+    64bit:
+      url: https://myfilmdownload.com/install/myfilmdownload_portable_$version.zip
