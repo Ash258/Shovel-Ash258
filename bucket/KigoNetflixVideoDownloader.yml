@@ -11,6 +11,7 @@ shortcuts:
 - - Kigo Netflix Video Downloader.exe
   - Kigo Netflix Video Downloader
 checkver:
+  disable: true
   url: https://www.kigo-video-converter.com/netflix-downloader/latest.yml
   regex: version:\s+([\d.]+)
 autoupdate:
