@@ -1,20 +1,20 @@
-version: 7.2.6
+version: 7.0.12
 description: PowerShell Core. Cross-Platform task automation and configuration management framework/tool.
 homepage: https://github.com/PowerShell/PowerShell
 license:
   identifier: MIT
   url: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
-changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.2.6
+changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.0.12
 architecture:
   64bit:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/PowerShell-7.2.6-win-x64.zip
-    hash: 4fb17e905b3422df8ee748a1a42826996c0741e3c6affa41371f19b95404db38
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.0.12/PowerShell-7.0.12-win-x64.zip
+    hash: ad7663f7dabde44d6e55f11683cf9f08f611ba28b1a3b9c63f3f87c705e16cbc
   32bit:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/PowerShell-7.2.6-win-x86.zip
-    hash: 04e0691f7f56388b6396b931cd23aef6e86504b0aa147660317f342538914551
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.0.12/PowerShell-7.0.12-win-x86.zip
+    hash: 257aa9189afff30d4d9e0baabb366f9411c5b8ba96e0e451b32a397415387063
   arm64:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/PowerShell-7.2.6-win-arm64.zip
-    hash: 33c09ecc109fdbd446d3ea5509be5aa831dafbd47fcc5057c7c7cab0e503d2b8
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.0.12/PowerShell-7.0.12-win-arm64.zip
+    hash: dc9d3d32f2f21441d61ffd8c150ae20725bad970b0aa00ff5fd1a1ecded95c43
 pre_install: |
   Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'
 
@@ -47,17 +47,3 @@ shortcuts:
 persist:
 - Microsoft.PowerShell_profile.ps1
 - profile.ps1
-checkver:
-  github: https://www.github.com/PowerShell/PowerShell
-autoupdate:
-  archive: true
-  changelog: https://github.com/PowerShell/PowerShell/releases/tag/v$version
-  architecture:
-    64bit:
-      url: https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip
-    32bit:
-      url: https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x86.zip
-    arm64:
-      url: https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-arm64.zip
-  hash:
-    url: $baseurl/hashes.sha256
