@@ -1,14 +1,14 @@
-version: 2.0.7
+version: 2.0.6
 description: Twitch Leecher. Twitch broadcasts downloader
 homepage: https://github.com/Franiac/TwitchLeecher
 license:
   identifier: MIT
   url: https://github.com/Franiac/TwitchLeecher/blob/master/LICENSE
-changelog: https://github.com/Franiac/TwitchLeecher/releases/tag/v2.0.7
+changelog: https://github.com/Franiac/TwitchLeecher/releases/tag/v2.0.6
 architecture:
   64bit:
-    url: https://github.com/Franiac/TwitchLeecher/releases/download/v2.0.7/TwitchLeecher_2.0.7.exe
-    hash: 19f969e35223d37a2739430ca4e5e2e0f686ed36d44511667ffa1261698b5db2
+    url: https://github.com/Franiac/TwitchLeecher/releases/download/v2.0.6/TwitchLeecher_2.0.6.exe
+    hash: e0e388f2727f6dc07793bd0085875ef364a3a5c7bcf948307c1ab40957ebf91b
 installer:
   script: |
     Expand-DarkArchive (Join-Path $dir $fname) -Removal
