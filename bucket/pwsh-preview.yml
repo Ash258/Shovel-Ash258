@@ -1,20 +1,20 @@
-version: 7.3.0-preview.7
+version: 7.3.0-preview.8
 description: PowerShell Core Preview. Cross-Platform task automation and configuration management framework/tool.
 homepage: https://github.com/PowerShell/PowerShell
 license:
   identifier: MIT
   url: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
-changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.3.0-preview.7
+changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.3.0-preview.8
 architecture:
   64bit:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.7/PowerShell-7.3.0-preview.7-win-x64.zip
-    hash: 6df128d2e055c2fae5a0fd2b7dfeeff3dd9c922a437ae1eda05877c43a05c085
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.8/PowerShell-7.3.0-preview.8-win-x64.zip
+    hash: 083cf35701e5f25fbb09a8cb24e956e327eb7b1179acd21fb0f5479782f9e9c9
   32bit:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.7/PowerShell-7.3.0-preview.7-win-x86.zip
-    hash: 2fe95c040f8770cbefb11265aa5dfbe953251edbefea0550e73c3c9cabe6e11a
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.8/PowerShell-7.3.0-preview.8-win-x86.zip
+    hash: 3f100e348414fbb345e0349ed44ffe5c6090503793e3609a7d296e0d76f9f507
   arm64:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.7/PowerShell-7.3.0-preview.7-win-arm64.zip
-    hash: be9dde346e7376165f1c3804218089fbe05c475510f6ab66bbbba215aa65244e
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.8/PowerShell-7.3.0-preview.8-win-arm64.zip
+    hash: 4d85d9f3385050abaa7d60abef6b1bf1eb347159269f1a140b7f652630d99255
 pre_install: |
   Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'
 
