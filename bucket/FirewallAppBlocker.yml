@@ -1,11 +1,11 @@
-version: "1.8"
+version: "1.9"
 description: Sordum's Firewall App Blocker
 homepage: https://www.sordum.org/8125/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/firewall-app-blocker/fab.zip
-hash: 684a7369c215837509d7daf597f9c3c77efe3038be936377477fd658b40e9f09
+hash: 40d44dcd9da129d7c850b962b69ca1145ddd3571ed6401d5ae0c74e36fee7cfe
 extract_dir: fab
 architecture:
   64bit:
