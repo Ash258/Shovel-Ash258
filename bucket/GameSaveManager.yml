@@ -1,10 +1,10 @@
-version: 3.1.512.0
+version: 3.1.517.0
 description: Game Save Manager. Easily backup, restore and transfer gamesave(s).
 homepage: https://www.gamesave-manager.com
 license: Freeware
-changelog: https://www.gamesave-manager.com/?s=changelog&ref=ee3756da-d69b-483b-bf88-b672a74daec6&type=client
-url: https://www.gamesave-manager.com/?s=download&ref=ee3756da-d69b-483b-bf88-b672a74daec6&action=start#/cosi.zip
-hash: sha1:7db9c356d9e0918e8495b2c19fc3836b9aa2d78c
+changelog: https://www.gamesave-manager.com/?s=changelog&ref=dab3599c-414d-4f7f-99ca-ba0a86c084f8&type=client
+url: https://www.gamesave-manager.com/?s=download&ref=dab3599c-414d-4f7f-99ca-ba0a86c084f8&action=start#/cosi.zip
+hash: sha1:c8512604066168178162ed6c58e355bdadb4efb8
 bin: gs_mngr_3.exe
 shortcuts:
 - - gs_mngr_3.exe
