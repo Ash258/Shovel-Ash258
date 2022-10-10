@@ -40,7 +40,8 @@ persist:
 - confCons.xml
 - mRemoteNG.settings
 checkver:
-  url: https://github.com/mRemoteNG/mRemoteNG/releases
-  regex: (?sm)Pre-release.*?mRemoteNG-Portable-([\d.]+)\.zip
+  disable: true
+  url: https://api.github.com/repos/mRemoteNG/mRemoteNG/releases
+  regex: mRemoteNG-Portable-([\d.]+)\.zip
 autoupdate:
   url: https://github.com/mRemoteNG/mRemoteNG/releases/download/v$matchHead/mRemoteNG-Portable-$version.zip
