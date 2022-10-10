@@ -1,12 +1,12 @@
-version: 2022.01.07-1.77.2-nb
+version: 1.77.3
 description: Tabbed, multi-protocol remote connections manager. Fork of mRemote.
 homepage: https://mremoteng.org
 license:
   identifier: GPL-2.0-only
   url: https://github.com/mRemoteNG/mRemoteNG/blob/develop/COPYING.TXT
-url: https://github.com/mRemoteNG/mRemoteNG/releases/download/2022.01.07-1.77.2-nb/2022.01.07-1.77.2-nb.mRemoteNG.Portable.rar
-hash: bf61ea02806aeb81e2ef6eab9136cf20428c431a07ad0c8e4f3f18107ee4c11a
-extract_dir: 2022.01.07-1.77.2-nb mRemoteNG Portable
+url: https://github.com/mRemoteNG/mRemoteNG/releases/download/2022.06.13-v1.77.3-nb/Portable.-.1.77.3.NB.rar
+hash: 0b7b711241d5a15fba168a623f19a9d431dc062134cbf612b8f749511aa60758
+extract_dir: Portable - 1.77.3 NB
 pre_install: |
   function SettingProperty ($key, $value) {
       return "    <setting name=""$key"">$value</setting>"
@@ -41,8 +41,8 @@ persist:
 - confCons.xml
 - mRemoteNG.settings
 checkver:
-  url: https://github.com/mRemoteNG/mRemoteNG/releases
-  regex: /(20\d{2}[\w\d.-]+)\.mRemoteNG
+  url: https://api.github.com/repos/mRemoteNG/mRemoteNG/releases
+  regex: download/(?<date>[\d.]+)-v([\d.]+)-nb/
 autoupdate:
-  url: https://github.com/mRemoteNG/mRemoteNG/releases/download/$version/$version.mRemoteNG.Portable.rar
-  extract_dir: $version mRemoteNG Portable
+  url: https://github.com/mRemoteNG/mRemoteNG/releases/download/$matchDate-v$version-nb/Portable.-.$version.NB.rar
+  extract_dir: Portable - $version NB
