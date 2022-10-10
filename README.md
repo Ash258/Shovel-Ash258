@@ -22,7 +22,6 @@
 | [Aida64 Business **(Aida64Bu)**](./bucket/Aida64Bu.yml)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Engineer **(Aida64En)**](./bucket/Aida64En.yml)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Aida64 Extreme **(Aida64)**](./bucket/Aida64.yml)                                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.yml)                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [AppVeyor Server **(appveyor-server)**](./bucket/appveyor-server.yml)                                                                                                |   ❌    |    ✔     |       ✔ (⛔)       |
 | [arcconf **(arcconf)**](./bucket/arcconf.yml)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [ArchiSteamFarm **(ArchiSteamFarm)**](./bucket/ArchiSteamFarm.yml)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -354,6 +353,7 @@
 | [DockerCompletion](https://github.com/ScoopInstaller/Extras/blob/master/bucket/dockercompletion.json)                 | [bf2ea86](https://github.com/Ash258/Shovel-Ash258/commit/bf2ea865baa2def52647bc534242063f51c3d7bd) | [bfb1621](https://github.com/ScoopInstaller/Extras/commit/bfb1621674876ebba256473a9b865918c3430a83) ([ScoopInstaller/Extras#5627](https://github.com/ScoopInstaller/Extras/pull/5627)) |
 | [RaspberryPiImager](https://github.com/ScoopInstaller/Extras/blob/master/bucket/raspberry-pi-imager.json)             | [50a9854](https://github.com/Ash258/Shovel-Ash258/commit/50a98546d96271dee2ccb395d11437b854b85d6f) | [9138f57](https://github.com/ScoopInstaller/Extras/commit/9138f5755f9ded4f263733b68314695d053e9620) ([ScoopInstaller/Extras#5816](https://github.com/ScoopInstaller/Extras/pull/5816)) |
 | [Jellyfin](https://github.com/ScoopInstaller/Extras/blob/master/bucket/jellyfin.json)                                 | [fb7f67d](https://github.com/Ash258/Shovel-Ash258/commit/fb7f67d7e54e3130ea70884d85823676af79f4ff) | [a7ea06c](https://github.com/ScoopInstaller/Extras/commit/a7ea06c6d757f7a476113e69819c7a51caa9e3cd) ([ScoopInstaller/Extras#5396](https://github.com/ScoopInstaller/Extras/pull/5396)) |
+| [Air Steam Skin **(AirSkin)**](./bucket/AirSkin.yml)                                                                  |                                                 ✔                                                  |                                                                                           ✔                                                                                            | ✔ (⛔) |
 
 ### TODOs
 
