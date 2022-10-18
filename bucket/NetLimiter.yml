@@ -3,15 +3,15 @@
 - https://www.advancedinstaller.com/user-guide/exe-setup-file.html
 - 'TODO:'
 - '    Properly uninstall. Some services are running.'
-version: 4.1.14.0
+version: 5.1.2.0
 description: NetLimiter. Internet traffic control and monitoring tool designed for Windows.
 homepage: https://www.netlimiter.com
 license: Freeware
 notes:
 - Restarting system after installation is recommended.
 - Some functions could behave incorrectly without restart.
-url: https://www.netlimiter.com/files/download/nl4/netlimiter-4.1.14.0.exe
-hash: b685c3c5cdb7255c72761012ad7252b3dcfb05072c3393e37046e73f2010cfc9
+url: https://www.netlimiter.com/files/download/nl4/netlimiter-5.1.2.0.exe
+hash: 045127a2636495d98a5baab2ffd337fca85bfaca02ce804fb5cb6dc729f6600e
 installer:
   args:
   - /exenoui
