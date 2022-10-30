@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: PullRequestHandler
-      uses: shovel-org/GithubActions@new.new
+      uses: shovel-org/GithubActions@main
       if: startsWith(github.event.comment.body, '/verify')
       env:
         GITH_EMAIL: cabera.jakub@gmail.com

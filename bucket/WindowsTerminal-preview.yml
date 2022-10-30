@@ -28,7 +28,7 @@ shortcuts:
   - Windows Terminal Preview
 checkver:
   url: https://api.github.com/repos/microsoft/terminal/releases
-  regex: download/v([\d.]+)/
+  regex: download/v([\d.]+)/Microsoft.WindowsTerminalPreview_
 autoupdate:
   changelog: https://github.com/microsoft/terminal/releases/tag/v$version
   url: https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_Win10_$version_8wekyb3d8bbwe.msixbundle#/cosi.7z

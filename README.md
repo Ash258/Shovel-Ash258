@@ -298,7 +298,6 @@
 | [Windows Terminal Preview **(WindowsTerminal-preview)**](./bucket/WindowsTerminal-preview.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [winget **(winget)**](./bucket/winget.yml)                                                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [WinUSB **(WinUSB)**](./bucket/WinUSB.yml)                                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.yml)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [YoloMouse **(YoloMouse)**](./bucket/YoloMouse.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
