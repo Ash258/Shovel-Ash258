@@ -45,6 +45,7 @@ persist:
 - Uncom.bar
 - Uncom.ini
 checkver:
+  disable: true
   regex: Unreal Commander v(?<pure>[\d.]+)(?:\s*(beta\s+\d+)\s*)?\(build (?<build>\d+)\)
   replace: ${pure}.${build}
 autoupdate:

@@ -1,9 +1,9 @@
-version: November2021
+version: 22H2
 description: Windows 10 Update Assistant. Force update to latest version of Windows 10.
 homepage: https://www.microsoft.com/en-GB/software-download/windows10
 license: Freeware
-url: https://download.microsoft.com/download/f/1/9/f19ea9d5-1b5f-4a4d-9f50-04cbf63dc9c6/Windows10Upgrade9252.exe#/UpdateAssistant.exe
-hash: d2447038c5da0853f3f12f12b3589b4e3445889fb306d2dcfcc37fca0561186c
+url: https://download.microsoft.com/download/4/8/3/483976ae-b4b1-490d-bd5f-74fdc44bb84e/Windows10Upgrade9252.exe#/UpdateAssistant.exe
+hash: c0424d0ae06ca1e6e0249b40d33ac40d74075856d543ec0924884664fba52b79
 uninstaller:
   script: |
     if ((is_admin)) {
@@ -19,5 +19,4 @@ shortcuts:
 - - UpdateAssistant.exe
   - Windows 10 Update Assistant
 checkver:
-  regex: <h2>Windows 10\s+((?<month>.+)\s+(?<year>\d+)) Update
-  replace: ${month}${year}
+  regex: Version ([\dH]+)</h2

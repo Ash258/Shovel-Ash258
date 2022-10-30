@@ -11,6 +11,4 @@ shortcuts:
 persist:
 - Settings.txt
 - Updates
-checkver:
-  url: http://wintoolkit.win-unattended.de/Update/
-  regex: ^([\d.]+)
+checkver: '>Win Toolkit ([\d.]+)</a>'
