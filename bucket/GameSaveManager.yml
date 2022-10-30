@@ -2,17 +2,16 @@ version: 3.1.517.0
 description: Game Save Manager. Easily backup, restore and transfer gamesave(s).
 homepage: https://www.gamesave-manager.com
 license: Freeware
-changelog: https://www.gamesave-manager.com/?s=changelog&ref=dab3599c-414d-4f7f-99ca-ba0a86c084f8&type=client
-url: https://www.gamesave-manager.com/?s=download&ref=dab3599c-414d-4f7f-99ca-ba0a86c084f8&action=start#/cosi.zip
+changelog: https://www.gamesave-manager.com/?s=changelog&view=a21505c0-021f-4252-9797-da19a84e1bf7&type=client
+url: https://www.gamesave-manager.com/?s=download&file-id=dab3599c-414d-4f7f-99ca-ba0a86c084f8&action=start#/cosi.zip
 hash: sha1:c8512604066168178162ed6c58e355bdadb4efb8
 bin: gs_mngr_3.exe
 shortcuts:
 - - gs_mngr_3.exe
   - GameSave Manager
-checkver: (?sm)releasedetailsvalues">\s+([\d.]+).*?s=download&ref=(?<GUID>[-\dA-Za-z]+)&
+checkver: (?sm)releasedetailsvalues">\s+([\d.]+).*?s=download&file-id=(?<GUID>[-\dA-Za-z]+)&
 autoupdate:
-  changelog: https://www.gamesave-manager.com/?s=changelog&ref=$matchGUID&type=client
-  url: https://www.gamesave-manager.com/?s=download&ref=$matchGUID&action=start#/cosi.zip
+  url: https://www.gamesave-manager.com/?s=download&file-id=$matchGUID&action=start#/cosi.zip
   hash:
-    url: https://www.gamesave-manager.com/?s=download&ref=$matchGUID&action=thanks
+    url: https://www.gamesave-manager.com/?s=download&file-id=$matchGUID&action=thanks
     regex: <td>$sha1</td
