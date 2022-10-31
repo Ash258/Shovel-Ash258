@@ -1,10 +1,10 @@
-version: 4.1.1
+version: 4.1.2
 description: MiTeC Structured Storage Viewer. MS OLE Structured Storage based file manager
 homepage: https://www.mitec.cz/ssv.html
 license: Proprietary
 changelog: https://www.mitec.cz/Data/XML/data_ssvvh.xml
 url: https://www.mitec.cz/Downloads/SSView.zip
-hash: 8ceb003a88ed985b772accb81551577ce363f268fe14ef23ec47f912b1abe111
+hash: 4b9ffce3bfb53013b860cbf2af97b847cb3f259d5bb8633106caa94ac006a483
 bin: SSView.exe
 shortcuts:
 - - SSView.exe
