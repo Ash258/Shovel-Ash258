@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: IssueHandler
-      uses: shovel-org/GithubActions@main
+      uses: shovel-org/GithubActions@dev
       if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
       env:
         GITH_EMAIL: cabera.jakub@gmail.com
