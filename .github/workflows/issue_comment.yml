@@ -12,6 +12,5 @@ jobs:
       uses: shovel-org/GithubActions@dev
       if: startsWith(github.event.comment.body, '/verify')
       env:
-        GITH_EMAIL: cabera.jakub@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SCOOP_BRANCH: NEW
