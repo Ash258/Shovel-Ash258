@@ -1,9 +1,9 @@
-version: 9.2.1185.0
+version: 9.2.1222.0
 description: Fully-featured email client with a modern and easy-to-use interface.
 homepage: https://emclient.com
 license: Freeware
-url: https://www.emclient.com/dist/v9.2.1185/setup.msi
-hash: 4378bcd38b633b1f5dbe738b8343c48fb510375b2123daca180135cc01fbba84
+url: https://www.emclient.com/dist/v9.2.1222/setup.msi
+hash: c3141e438be6e7341fa9a4a94098396bdcaba6497f29cf03342fe38a39a8cfe2
 extract_dir: PFiles\eM Client
 bin: MailClient.exe
 shortcuts:
