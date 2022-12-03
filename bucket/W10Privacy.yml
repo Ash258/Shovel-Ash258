@@ -1,10 +1,10 @@
-version: 4.1.0.0
+version: 4.1.1.0
 description: W10Privacy. Sets of data protection and privacy options
 homepage: https://www.winprivacy.de/english-home
 license: Freeware
 changelog: https://www.w10privacy.de/deutsch-start/versionshistorie
-url: https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip?t=1669225339#/cosi.zip
-hash: 5ac1a69260e7fa8a5d3678cbd9f8f643144daf95642bdf232ee01a2ae8bb5ece
+url: https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip?t=1670056258#/cosi.zip
+hash: 6ce1aa9887f4c56b57a62b9d25d4b8cc8a434fb58b740207e5c94fbcd7ca6890
 pre_install: |
   (Get-ChildItem $dir 'W10*Setup.exe').FullName | Expand-7zipArchive -DestinationPath $dir -Removal
   Remove-AppDirItem '$*', 'Uninstal*'
