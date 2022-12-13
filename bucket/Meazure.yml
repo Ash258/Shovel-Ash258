@@ -1,17 +1,16 @@
-version: 2.0.1
+version: 4.0.0
 description: Meazure. Measure, magnify and capture the screen by providing a battery of features in a cohesive user interface.
-homepage: http://www.cthing.com/Meazure.asp
+homepage: https://github.com/cthing/meazure
 license:
-  identifier: GPL-3.0-or-later
-  url: https://bitbucket.org/cthing/meazure/src/master/License.txt
-url: https://bitbucket.org/cthing/meazure/downloads/meazr201.exe
-hash: 27613c581e1cc39974aebea5d8d34dfaa8aecff22ec189c7167a48b5eea99509
+  identifier: GPL-2.0
+  url: https://github.com/cthing/meazure/blob/master/LICENSE
+url: https://github.com/cthing/meazure/releases/download/4.0.0/meazr400x64.exe
+hash: 4478CCA366237CE65E0F2805A74E9F2919F87E87B0A58ED999DEE0367CFC8ACF
 innosetup: true
 shortcuts:
 - - Meazure.exe
   - Meazure
-checkver:
-  url: https://api.bitbucket.org/2.0/repositories/cthing/meazure/refs/tags
-  jsonpath: $.values[0].name
+checkver: github
 autoupdate:
-  url: https://bitbucket.org/cthing/meazure/downloads/meazr$cleanVersion.exe
+  url: https://github.com/cthing/meazure/releases/download/$version/meazr$cleanVersionx64.exe
+  hash: https://github.com/cthing/meazure/releases/download/4.0.0/meazr$cleanVersionx64.exe.sha256
