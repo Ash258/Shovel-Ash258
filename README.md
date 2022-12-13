@@ -273,7 +273,6 @@
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander Beta **(TotalCommander-beta)**](./bucket/TotalCommander-beta.yml)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker **(UltimateWindowsTweaker)**](./bucket/UltimateWindowsTweaker.yml)                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker 2 **(UltimateWindowsTweaker2)**](./bucket/UltimateWindowsTweaker2.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker 3 **(UltimateWindowsTweaker3)**](./bucket/UltimateWindowsTweaker3.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -317,6 +316,7 @@
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.yml)                                 |   ✔    |    ♻     |       ♻ (♻)       |
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.yml)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.yml)                       |   ✔    |    ✔     |       ✔(⛔)        |
+| [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 

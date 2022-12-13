@@ -18,7 +18,7 @@ shortcuts:
 - - komodo.exe
   - Komodo Edit
 checkver:
-  url: https://www.activestate.com/products/komodo-ide/downloads/edit/
+  url: https://downloads.activestate.com/Komodo/releases/12.0.1/index.html
   regex: -Edit-([\d.-]+)\.msi
 autoupdate:
   url: https://downloads.activestate.com/Komodo/releases/$matchHead/Komodo-Edit-$version.msi
