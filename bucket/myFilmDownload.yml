@@ -1,11 +1,11 @@
-version: 2.8.81
+version: 2.8.82
 description: Collection of unique tools for downloading TV shows, movies, music and other videos and audios from popular OTT platforms.
 homepage: https://myfilmdownload.com
 license: Proprietary
 architecture:
   64bit:
-    url: https://myfilmdownload.com/install/myfilmdownload_portable_2.8.81.zip
-    hash: 6742abb65f71527415689860283b0713dcb291b7190e2de2bb501b0994a6dabf
+    url: https://myfilmdownload.com/install/myfilmdownload_portable_2.8.82.zip
+    hash: 43590ce74699f04efc163d753dc156ac02f2d926b36bbd852e8ee5c5d17bd072
 shortcuts:
 - - _myAmazon.exe
   - myAmazon
