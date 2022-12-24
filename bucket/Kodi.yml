@@ -1,4 +1,4 @@
-version: 20.0-Nexus_rc2
+version: 19.5-Matrix
 description: Kodi. Multiplatform media player and entertainment hub.
 homepage: https://kodi.tv
 license:
@@ -6,11 +6,11 @@ license:
   url: https://github.com/xbmc/xbmc/blob/master/LICENSES/README.md
 architecture:
   64bit:
-    url: https://mirrors.kodi.tv/releases/windows/win64/kodi-20.0-Nexus_rc2-x64.exe#/cosi.7z
-    hash: 0a8d810c4e5843413dde40c3e85e51b508be16fee5fe04d62d5fbce70a20c42d
+    url: https://mirrors.kodi.tv/releases/windows/win64/kodi-19.5-Matrix-x64.exe#/cosi.7z
+    hash: 5e2177703ab6b0ec8397ad209956a65898021352b983d2917862efe2b6556f4c
   32bit:
-    url: https://mirrors.kodi.tv/releases/windows/win32/kodi-20.0-Nexus_rc2-x86.exe#/cosi.7z
-    hash: 9ae925788a233f6239af5db4d004b901bf316e54dc49d46fdb50b0473efc9030
+    url: https://mirrors.kodi.tv/releases/windows/win32/kodi-19.5-Matrix-x86.exe#/cosi.7z
+    hash: c3026b5846371145a86054ee421bb3936394b0bad3cc45c2b9f11537f809f988
 pre_install: Remove-AppDirItem '$*'
 shortcuts:
 - - kodi.exe
