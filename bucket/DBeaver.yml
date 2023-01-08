@@ -1,14 +1,14 @@
-version: 22.3.1
+version: 22.3.2
 description: DBeaver Community Edition. Universal database tool for developers and database administrators
 homepage: https://dbeaver.io
 license:
   identifier: Apache-2.0
   url: https://dbeaver.io/product/dbeaver_license.txt
-changelog: https://github.com/dbeaver/dbeaver/releases/tag/22.3.1
+changelog: https://github.com/dbeaver/dbeaver/releases/tag/22.3.2
 architecture:
   64bit:
-    url: https://download.dbeaver.com/community/22.3.1/dbeaver-ce-22.3.1-win32.win32.x86_64.zip
-    hash: 1edea8f1da8f4df4bcf443c64ee466c9fde24e1b361fcb16b69cee47ba846440
+    url: https://download.dbeaver.com/community/22.3.2/dbeaver-ce-22.3.2-win32.win32.x86_64.zip
+    hash: 1206821cc47e8fc38442a059505f0d3c53596aa480c6b798d723fe9ba437c845
 extract_dir: dbeaver
 bin:
 - - dbeaver.exe
