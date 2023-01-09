@@ -1,4 +1,4 @@
-version: "1.4"
+version: "1.5"
 description: Sordum's DNS Lock. Keep DNS configuration constant.
 homepage: https://www.sordum.org/9432/
 license:
