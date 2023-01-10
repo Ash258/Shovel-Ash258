@@ -4,7 +4,7 @@ homepage: https://www.acutesystems.com/scrcf.htm
 license: Proprietary
 changelog: https://www.acutesystems.com/cfnt/readme.txt
 url: http://www.acutesystems.com/cfnt/cfsetup.exe
-hash: d91f856522921170b95d733c20c38855fa133497c073d42a9e69f85f2d3b18f6
+hash: cddb875128a9a479fadb6bc74ba8be6ac4b4b124e76aa23f5b81678c3a658ae1
 innosetup: true
 shortcuts:
 - - CrossFnt.exe

@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/bluelife-host-editor/bl_hst_edit.zip
-hash: 165bf7803af54a23b239873d4f0826e0873ad8387af70b263f7308d6f77b34eb
+hash: 48f64d992c8169a4de7681b8ddd466609a686aa570e1195ee08c14d751c9d309
 extract_dir: HostsEditor_v1.4
 architecture:
   64bit:

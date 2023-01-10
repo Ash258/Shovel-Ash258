@@ -8,7 +8,7 @@ url:
 - http://download.aida64.com/aida64business685.zip
 - https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aid#/pkey.txt
 hash:
-- ac4275d2042f2d54a0ff9137095029a23717ef20dadffac3ef5d0b1065fde891
+- 5cca16379a78c132893c94d7726671bd17b021996ea89280a301665c815ce188
 - eb3cca82be1f3e581bee9377f183227ab0c2e0b723b85f6da7e38e9e986224e6
 pre_install: Test-Persistence 'aida64.ini' '[Generic]', '', 'NoRegistry=1', 'NetUpdateFreq=0'
 bin: aida64.exe

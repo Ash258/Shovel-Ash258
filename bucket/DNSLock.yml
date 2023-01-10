@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/dns-lock/DNS-Lock.zip
-hash: e61b072926831759ceedeb121e9915388838e6959ae69aecaf30b452b94ff737
+hash: 9a30abb7b9b67482f7bfa53755fc56f2ef19ce2821d3eb85e7dd95180dec87e2
 extract_dir: DNS-Lock
 architecture:
   64bit:
