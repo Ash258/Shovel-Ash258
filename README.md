@@ -73,7 +73,6 @@
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [GOG Galaxy **(GOGGalaxy)**](./bucket/GOGGalaxy.yml)                                                                                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [GOG.com Downloader **(GOGDownloader)**](./bucket/GOGDownloader.yml)                                                                                                 |   ✔    |    ❌     |       ❌ (❌)       |
-| [Grammarly **(Grammarly)**](./bucket/Grammarly.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Hamsket **(Hamsket)**](./bucket/Hamsket.yml)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [hetzner-kube **(hetzner-kube)**](./bucket/hetzner-kube.yml)                                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [HoverSnap **(HoverSnap)**](./bucket/HoverSnap.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -317,6 +316,7 @@
 | [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.yml)                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                       |   ✔    |    ❌     |       ❌ (⛔)       |
+| [Grammarly **(Grammarly)**](./bucket/Grammarly.yml)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 

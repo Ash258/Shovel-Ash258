@@ -6,8 +6,8 @@ license:
   url: https://www.ocbase.com/#notice
 architecture:
   64bit:
-    url: https://www.ocbase.com/download#/occt.exe
-    hash: bbe01bea6d241de9b51c6ee4b6ed129b6f4936352bb3a0c155ec9f2a6dea3639
+    url: https://dl.ocbase.com/per/stable/OCCT.exe#/occt.exe
+    hash: c460c3be9b011fa8b171a7de18cd64bc10799bda22034d124e0ee9090ca67101
 shortcuts:
 - - occt.exe
   - OverClock Checking Tool
@@ -17,4 +17,4 @@ checkver:
 autoupdate:
   architecture:
     64bit:
-      url: https://www.ocbase.com/download#/occt.exe
+      url: https://dl.ocbase.com/per/stable/OCCT.exe#/occt.exe
