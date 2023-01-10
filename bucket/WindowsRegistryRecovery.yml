@@ -4,7 +4,7 @@ homepage: https://www.mitec.cz/wrr.html
 license: Proprietary
 changelog: https://www.mitec.cz/Data/XML/data_wrrvh.xml
 url: https://www.mitec.cz/Downloads/WRR.zip
-hash: 8d5cea30df81d2b12eec837c9f2d71cb68db9b23cca146742bc4a099b1e1121b
+hash: 7d3d05c5df58fca2d8e10195f588b7c71213e94b1fb29e3a4be092d6b4a20e65
 bin: WRR.exe
 shortcuts:
 - - WRR.exe

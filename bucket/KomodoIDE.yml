@@ -4,7 +4,7 @@ homepage: https://www.activestate.com/products/komodo-ide/
 license:
   identifier: Proprietary
   url: https://www.activestate.com/products/komodo-ide/license-agreement/
-url: https://raw.github.com/ActiveState/OpenKomodoIDE/master/installers/Komodo-IDE-12.0.1-91869.msi
+url: https://github.com/ActiveState/OpenKomodoIDE/raw/master/installers/Komodo-IDE-12.0.1-91869.msi
 hash: md5:ff0642924bcf4f2349d1f3ae1a637042
 extract_dir: PFILES\ActiveState Komodo IDE 12
 bin:
@@ -22,7 +22,7 @@ checkver:
   regex: -IDE-([\d.-]+)\.msi
   reverse: true
 autoupdate:
-  url: https://raw.github.com/ActiveState/OpenKomodoIDE/master/installers/Komodo-IDE-$version.msi
+  url: https://github.com/ActiveState/OpenKomodoIDE/raw/master/installers/Komodo-IDE-$version.msi
   hash:
     url: $baseurl/MD5SUM
   extract_dir: PFILES\ActiveState Komodo IDE $majorVersion

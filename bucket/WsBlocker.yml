@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Readme.txt
 url: https://www.sordum.org/files/win10-settings-blocker/WsBlocker.zip
-hash: 74c3cfa3243dfcb799e566c3431e3b604e919ad72645483db75743c8b532c330
+hash: b0dd578c025248e80d25619f730cd3b2d3209038672d09e404c6e663af2d8ed8
 extract_dir: WsBlocker
 architecture:
   64bit:
