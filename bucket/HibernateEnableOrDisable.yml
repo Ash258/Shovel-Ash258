@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Read_me.txt
 url: https://www.sordum.org/files/small-tools/Hibernate.zip
-hash: f797f1195824c7001e747ae1200d966dd1e1ea5282ed7ccbc669ee6ca9b51e42
+hash: aed5753c9027af59d317329aff57d06c8de344c3a0615bfc0728fec28a84195a
 extract_dir: Hibernate
 architecture:
   64bit:

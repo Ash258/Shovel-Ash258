@@ -12,14 +12,14 @@ architecture:
     - http://cdn.pvpgn.pro/diablo1/DIABDAT.MPQ#/diabdat.mpq
     hash:
     - a105fd56e595011e4b0a6537b6f7123b220fdb32158cc404b9613dc01316dd8e
-    - 66243e552327f8ae254269d42214eabf211d27e55b049580251e171b0bb63615
+    - 6bc120a603fdb383ff91f374e7db599765d6230d81e5a4c1b33f8254911774e7
   32bit:
     url:
     - https://github.com/diasurgical/devilutionX/releases/download/1.4.1/devilutionx-windows-i386.zip
     - http://cdn.pvpgn.pro/diablo1/DIABDAT.MPQ#/diabdat.mpq
     hash:
     - 0da38156f2a8d027b27b7ab956d9f01dbfd5425d2786b59d816cf10ef0a3ff3d
-    - 66243e552327f8ae254269d42214eabf211d27e55b049580251e171b0bb63615
+    - 6bc120a603fdb383ff91f374e7db599765d6230d81e5a4c1b33f8254911774e7
 extract_dir: devilutionx
 bin: devilutionX.exe
 shortcuts:

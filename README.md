@@ -68,7 +68,6 @@
 | [Fix Windows 8/8.1 **(FixWin8)**](./bucket/FixWin8.yml)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Flashpoint Infinity **(FlashpointInfinity)**](./bucket/FlashpointInfinity.yml)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Flock **(Flock)**](./bucket/Flock.yml)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                                                                                   |   ✔    |    ❌     |       ❌ (⛔)       |
 | [GameSave Manager **(GameSaveManager)**](./bucket/GameSaveManager.yml)                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [Get Video Details **(GVD)**](./bucket/GVD.yml)                                                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Glary Utilities **(GlaryUtilities)**](./bucket/GlaryUtilities.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -317,6 +316,7 @@
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.yml)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.yml)                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                       |   ✔    |    ❌     |       ❌ (⛔)       |
 
 ### Moved to other (known) bucket
 
