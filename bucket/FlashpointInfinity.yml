@@ -1,12 +1,12 @@
-version: "11"
+version: "11.1"
 description: BlueMaxima's Flashpoint Infinity. Archive of old flashpoint games/animations
 homepage: https://bluemaxima.org/flashpoint/
 license:
   identifier: MIT
   url: https://github.com/FlashpointProject/launcher/blob/master/LICENSE
-url: https://bluemaxima.org/flashpoint/Flashpoint%2011%20Infinity.exe#/cosi.7z
-hash: 4c171d82a37827045168d71c7394c1e6197f306aa96aaa0d8507503e826be1c0
-extract_dir: Flashpoint 11 Infinity
+url: https://bluemaxima.org/flashpoint/Flashpoint%2011.1%20Infinity.exe#/cosi.7z
+hash: 17006b5c8e1670522991b8eac3dcafb335f5776a4bc8844340d77c8057f85e49
+extract_dir: Flashpoint 11.1 Infinity
 shortcuts:
 - - Launcher\Flashpoint.exe
   - Flashpoint Infinity
