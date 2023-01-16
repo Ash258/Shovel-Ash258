@@ -1,10 +1,10 @@
-version: "2.1"
+version: 2.1.1
 description: MediaHuman Audio Converter
 homepage: https://www.mediahuman.com/audio-converter/
 license: Freeware
 changelog: https://www.mediahuman.com/audio-converter/changelog.html
 url: https://mirror.mediahuman.com/files/MHAudioConverter.exe#/install.exe
-hash: 77e7fd133f8789c9ff2551b46a32dd2cb78cc960356790979ccd423016115b21
+hash: 965e83d180ddc6a8aa532d62d28ca41937bd86207f7c35f572a4a32629291c48
 innosetup: true
 shortcuts:
 - - MHAudioConverter.exe
