@@ -1,12 +1,12 @@
-version: 2022.3.30.0
+version: 2022.3.31.0
 description: Devolutions Remote Desktop Manager
 homepage: https://remotedesktopmanager.com
 license:
   identifier: Freeware
   url: https://remotedesktopmanager.com/support/faq
 changelog: https://remotedesktopmanager.com/release-notes/free
-url: https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.Bin.2022.3.30.0.zip
-hash: 0c8726c0cb8d417cda85a3091faee0f2c70df3f61a21fb261bc8201bf3a40f4b
+url: https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.Bin.2022.3.31.0.zip
+hash: 073aa5366adc089cedce021eca08afd4c609fa02ab3b8bab7c7746426ec44c3a
 shortcuts:
 - - RemoteDesktopManagerFree.exe
   - Remote Desktop Manager Free
