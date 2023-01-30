@@ -1,11 +1,11 @@
-version: 175.0.0.10.103
+version: 176.0.0.12.101
 description: Facebook Messenger Desktop
 homepage: https://www.messenger.com/desktop
 license: Unknown
 architecture:
   64bit:
     url: https://www.messenger.com/messenger/desktop/downloadV2/?platform=win#/cosi.7z
-    hash: e792091e1e6cc2b69b4301f4abe907175e62851afc15179c6b0dda47536f044c
+    hash: 594455f52b21f7eb0fd04c765131fa5f0d997821b5e1adb0e242e0871de3d824
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
       Remove-AppDirItem '$*', 'Uninstall*'
