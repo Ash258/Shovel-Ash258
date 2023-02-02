@@ -1,4 +1,4 @@
-version: 10.110.4.3
+version: 10.110.6.3
 description: Wavebox 10 Beta. A distraction-free browser for fast and focused working across all web apps.
 homepage: https://wavebox.io
 license:
@@ -7,8 +7,8 @@ license:
 changelog: https://wavebox.io/changelog/beta/
 architecture:
   64bit:
-    url: https://download.wavebox.app/beta/win/Install%20Wavebox%2010.110.4.3.exe#/cosi.7z
-    hash: 7b1b9efcae30b243d66085722dd5f37b4014d7d58f01201cf6bf07dccfae1308
+    url: https://download.wavebox.app/beta/win/Install%20Wavebox%2010.110.6.3.exe#/cosi.7z
+    hash: ac2b571e7034383d99dd86b98ee7d0e829c4eb9519af286e4a678634a7a4eed1
 pre_install: Expand-7zipArchive "$dir\chrome.7z" -ExtractDir 'Chrome-bin' -Removal
 bin:
 - Wavebox.exe
