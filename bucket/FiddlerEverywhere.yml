@@ -1,4 +1,4 @@
-version: 4.1.1
+version: 4.1.0
 description: Network traffic analyzer
 homepage: https://www.telerik.com/fiddler-everywhere
 license:
@@ -6,8 +6,8 @@ license:
   url: https://www.telerik.com/purchase/license-agreement/fiddler
 architecture:
   64bit:
-    url: https://downloads.getfiddler.com/win/Fiddler%20Everywhere%204.1.1.exe#/dl.7z
-    hash: sha512:ba1c68a7e674c1bf398bc4817f88534354f4f30ddfb639eb1f78bf67c699f4888e71e099b899a0c1a9ece83123bc090b732578e5f494961220dae8c24841d820
+    url: https://downloads.getfiddler.com/win/Fiddler%20Everywhere%204.1.0.exe#/dl.7z
+    hash: sha512:8643582848668c03868ec278e21dd1ebf85d7e57b972635f91bb281ee5ed70857b24cd292d5c356e195a89ab84e11d7ecb630e1f2542ff2d814aff80f2e244a6
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" "$dir"
       Remove-AppDirItem '$*', 'Uninst*'
