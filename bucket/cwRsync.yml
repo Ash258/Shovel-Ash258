@@ -1,15 +1,15 @@
-version: 6.2.7
+version: 6.2.8
 description: Rsync client
 homepage: https://www.itefix.net/cwrsync
 license:
   identifier: Proprietary
   url: https://www.itefix.net/content/cwrsync-license-version
-changelog: https://www.itefix.net/content/cwrsync-client-627
+changelog: https://www.itefix.net/content/cwrsync-client-628
 architecture:
   64bit:
-    url: https://itefix.net/dl/free-software/cwrsync_6.2.7_x64_free.zip
-    hash: ab55d70cf84ca62ba010263b3e65b9927ff8d73a08769e3527ecfb5f37dd3811
-    extract_dir: cwrsync_6.2.7_x64_free
+    url: https://itefix.net/dl/free-software/cwrsync_6.2.8_x64_free.zip
+    hash: 118a625efc42c4fd48e73c919e2ad179fd01c0df0e5e3070635c11a73e42de5d
+    extract_dir: cwrsync_6.2.8_x64_free
 bin:
 - bin\rsync.exe
 - - bin\rsync.exe
