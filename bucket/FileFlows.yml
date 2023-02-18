@@ -1,0 +1,38 @@
+version: 1.0.9.2211
+description: File processing application that can execute actions against a file in a tree flow structure.
+homepage: https://fileflows.com
+license:
+  identifier: Proprietary
+  url: https://fileflows.com/pricing
+architecture:
+  64bit:
+    url: https://github.com/revenz/FileFlows/releases/download/FF_1.0.9/FileFlows-1.0.9.2211.exe#/cosi.7z
+    hash: 2ba7e7b5997de9b2c93ababf840bee9dd89464887c1355eca0d4d048af4bf8cd
+pre_install: |
+  Remove-AppDirItem '$*', 'uninstall.exe'
+  $cnt = @(
+    '@echo off',
+    'SET Type=Server',
+    'if "%1%"=="Node" (',
+    '    SET Type=%1%',
+    ')',
+    'SET d=FileFlows.%Type%.dll',
+    'PUSHD "%~dp0%Type%"',
+    'START dotnet "%~dp0%Type%\%d%"',
+    'POPD'
+  )
+
+  Out-UTF8File "$dir\start.bat" $cnt
+bin:
+- - start.bat
+  - start_ff
+persist:
+- Data
+- Logs
+checkver:
+  github: https://github.com/revenz/FileFlows
+  regex: /FileFlows-([\d.]+)\.exe
+autoupdate:
+  architecture:
+    64bit:
+      url: https://github.com/revenz/FileFlows/releases/download/FF_$headVersion/FileFlows-$version.exe#/cosi.7z

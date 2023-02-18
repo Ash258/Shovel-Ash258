@@ -63,6 +63,7 @@
 | [Facebook Messenger **(FacebookMessenger)**](./bucket/FacebookMessenger.yml)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FastShare Download Manager **(FastShare)**](./bucket/FastShare.yml)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fiddler Everywhere **(FiddlerEverywhere)**](./bucket/FiddlerEverywhere.yml)                                                                                         |   ✔    |    ✔     |       ✔ (✔)       |
+| [FileFlows **(FileFlows)**](./bucket/FileFlows.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (❌)       |
 | [Fix Windows 10 **(FixWin10)**](./bucket/FixWin10.yml)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 7/Vista **(FixWin7)**](./bucket/FixWin7.yml)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Fix Windows 8/8.1 **(FixWin8)**](./bucket/FixWin8.yml)                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
