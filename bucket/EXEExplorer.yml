@@ -1,10 +1,10 @@
-version: 3.6.0.0
+version: 3.6.1.0
 description: MiTeC Exe Explorer. Executable file explorer for OS/2, NE, PE32, PE32+ and VxD file types
 homepage: https://www.mitec.cz/exe.html
 license: Proprietary
 changelog: https://www.mitec.cz/Data/XML/data_exevh.xml
 url: https://www.mitec.cz/Downloads/EXE.zip
-hash: 8944c213540816221acfd40207e52b530544a15122caa5a9a5339bb40508385f
+hash: 7dff710a3d52155faf971ef2241037e37609f16b0f83ac12e0d29d4d26e1f516
 installer:
   script: |
     $p = appdir 'TaskManagerDeLuxe' $global
