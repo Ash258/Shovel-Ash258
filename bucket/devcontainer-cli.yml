@@ -1,4 +1,4 @@
-version: 0.1.4404076970
+version: 0.1.4425007051
 description: Unofficial Visual Studio Code devcontainers "manager"
 homepage: https://github.com/stuartleeks/devcontainer-cli
 license:
@@ -6,11 +6,11 @@ license:
   url: https://github.com/stuartleeks/devcontainer-cli/blob/main/LICENSE
 architecture:
   64bit:
-    url: https://github.com/stuartleeks/devcontainer-cli/releases/download/v0.1.4404076970/devcontainer-cli_windows_amd64.zip
-    hash: 0e28688e847ed7d3d9e7b04df06cb3e11bfa9524c981aa2159843cd7b9bfb2d8
+    url: https://github.com/stuartleeks/devcontainer-cli/releases/download/v0.1.4425007051/devcontainer-cli_windows_amd64.zip
+    hash: 9932c4da9674976ce428cbe2af415bed98e7839d49b3f87cf1cc1b8d9072b4c0
   32bit:
-    url: https://github.com/stuartleeks/devcontainer-cli/releases/download/v0.1.4404076970/devcontainer-cli_windows_386.zip
-    hash: 9e91df5c821af3701874ad214f60e4e3055989276dc8d147b1530dec6ca42ac6
+    url: https://github.com/stuartleeks/devcontainer-cli/releases/download/v0.1.4425007051/devcontainer-cli_windows_386.zip
+    hash: f0f1a6ea5d28a3f57b9f3b2d7ab37451fc2ebb5acb510e267bfae9782ed3072d
 bin:
 - devcontainer.exe
 - - devcontainer.exe
