@@ -1,11 +1,11 @@
-version: 5.2.0
+version: 5.3.0
 description: Depressurizer. Steam library categorizing tool
 homepage: https://github.com/Depressurizer/Depressurizer
 license:
   identifier: GPL-3.0-only
   url: https://github.com/Depressurizer/Depressurizer/blob/master/LICENSE
-url: https://github.com/Depressurizer/Depressurizer/releases/download/v5.2.0/Depressurizer-v5.2.0.zip
-hash: a9f92353c0ebfc85d42c3bb93df08cb380df003e2b694431b62c333fc58e4f26
+url: https://github.com/Depressurizer/Depressurizer/releases/download/v5.3.0/Depressurizer-v5.3.0.zip
+hash: 2216931516fb46276827322285536fb532c026666acd950efa394946f8ad3f93
 shortcuts:
 - - Depressurizer.exe
   - Depressurizer
