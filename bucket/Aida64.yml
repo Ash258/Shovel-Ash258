@@ -1,14 +1,14 @@
-version: 6.85.6300
+version: 6.88.6400
 description: Aida64 Extreme Edition. System information tool with extremely detailed information about hardware and benchmarks to measure the performance of the computer
 homepage: https://www.aida64.com/products/aida64-extreme
 license:
   identifier: Proprietary
   url: https://www.aida64.com/licensing
 url:
-- http://download.aida64.com/aida64extreme685.zip
+- http://download.aida64.com/aida64extreme688.zip
 - https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aidex#/pkey.txt
 hash:
-- fc040983171ad0acab91c46c6dbe4585667338790d1f959461a75374c9bbece2
+- a38ff4509c75a7cb2ff7c2677b65fe96328ec307af093d0a272064ea7df13cf5
 - 9ebc754e99e2a95cbada3190df35033a518a8fb1ea5f8a15388dd4afd205876e
 pre_install: Test-Persistence 'aida64.ini' '[Generic]', '', 'NoRegistry=1', 'NetUpdateFreq=0'
 bin: aida64.exe
