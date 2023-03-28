@@ -1,11 +1,11 @@
-version: "1.6"
+version: "1.7"
 description: Sordum's Restart Explorer
 homepage: https://www.sordum.org/9192/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/Rexplorer.zip
-hash: 86fe9c301ebc9c9ee9fc29df220562a3de091c5045fbba6ed00000844c4c9629
+hash: 2f371f2c8c6dd871899ff7c42c2babf4f4a7cc5107cf898140385fecf222067e
 extract_dir: Rexplorer
 architecture:
   64bit:
