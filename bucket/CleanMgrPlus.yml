@@ -1,11 +1,11 @@
-version: 1.38.1200
+version: 1.50.1300
 description: CleanMgr+. Improved Replacement for Microsoft Disk Cleanup
 homepage: https://www.builtbybel.com/ms-apps/cleanmgrplus
 license:
   identifier: Freeware
   url: https://github.com/Mirinsoft/CleanmgrPlus/blob/master/LICENSE.txt
-url: https://github.com/builtbybel/CleanmgrPlus/releases/download/1.38.1200/cleanmgrplus.zip
-hash: b9b7394f341b80155cf560899869a2cebb24529ad5e88cc86107e8fcf327459b
+url: https://github.com/builtbybel/CleanmgrPlus/releases/download/1.50.1300/cleanmgrplus.zip
+hash: 5f70463cde65755406667e82b53ce5b77c94cb471663584592123d206e3986d7
 pre_install: Test-Persistence 'bin\cleanmgr+.ini'
 shortcuts:
 - - Cleanmgr+.exe
