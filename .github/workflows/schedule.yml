@@ -12,5 +12,5 @@ jobs:
       uses: shovel-org/GithubActions@dev
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SCOOP_BRANCH: featGitNativeCall
+        SCOOP_BRANCH: NEW
         SKIP_UPDATED: '1'
