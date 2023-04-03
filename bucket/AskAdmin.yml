@@ -1,11 +1,11 @@
-version: "1.9"
+version: "2.0"
 description: Sordum's AskAdmin. Restrict an Application, Folder or a File.
 homepage: https://www.sordum.org/7941/
 license:
   identifier: Freemium
   url: https://www.sordum.org/files/eula/eula_askadmin.zip
 url: https://www.sordum.org/files/download/askadmin/AskAdmin.zip
-hash: 360749520c526f9b46fed13223a0274434e8f4b3165df484395f66c79c515bd3
+hash: 08c6d6cb3697d8a44b0f08409033987faf6dcb16c410ec4db4bd93388bb28c44
 extract_dir: AskAdmin
 architecture:
   64bit:
