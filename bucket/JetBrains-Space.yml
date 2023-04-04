@@ -1,9 +1,9 @@
-version: 2023.1.0
+version: 2023.1.1
 description: Desktop Application for JetBrains Space - integrated team environment
 homepage: https://www.jetbrains.com/help/space/space-desktop-app.html
 license: Freeware
-url: https://download.jetbrains.com/space/jetbrains-space-2023.1.0.exe#/cosi.7z
-hash: sha512:69f19ad75e461c7cc5fbcf379b5349c7386463e900cad29ca764b477f1ea9274fc314e29fb7629e335f55929db1db5d56c7af609596c39c5a1caa091b877aee1
+url: https://download.jetbrains.com/space/jetbrains-space-2023.1.1.exe#/cosi.7z
+hash: sha512:43d3b14e29cd5a38ee61235463c36d84d232d3408726be74307c045cf9b11e72bd5ed65fa1235ba2534d73c8fa90ae734f22bc48b9bec2a8c8001ebeac2ba1d5
 pre_install: |
   Expand-7zipArchive "$dir\`$PLUGINSDIR\app-32.7z" $dir
   Remove-AppDirItem '$*', 'Uninstall*'
