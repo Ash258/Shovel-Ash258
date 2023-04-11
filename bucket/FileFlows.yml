@@ -1,4 +1,4 @@
-version: 1.1.0.2259
+version: 1.1.0.2264
 description: File processing application that can execute actions against a file in a tree flow structure.
 homepage: https://fileflows.com
 license:
@@ -6,8 +6,8 @@ license:
   url: https://fileflows.com/pricing
 architecture:
   64bit:
-    url: https://github.com/revenz/FileFlows/releases/download/FF_1.1.0/FileFlows-1.1.0.2259.exe#/cosi.7z
-    hash: f0c031562133c940350bbb3a661682af23c4313bc3d9c4d8776df703a8ef3035
+    url: https://github.com/revenz/FileFlows/releases/download/FF_1.1.0/FileFlows-1.1.0.2264.exe#/cosi.7z
+    hash: bc7da753032a393e702ffb6d96c3bb9b1bfad3d6f8e34e53db8e52adbfd337a0
 pre_install: |
   Remove-AppDirItem '$*', 'uninstall.exe'
   $cnt = @(
