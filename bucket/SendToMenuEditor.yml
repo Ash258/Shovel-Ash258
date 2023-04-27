@@ -1,4 +1,4 @@
-version: "1.1"
+version: "1.2"
 description: Sordum's SendTo Menu Editor
 homepage: https://www.sordum.org/10830/
 license:
@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Read_Me.txt
 url: https://www.sordum.org/files/sendto-menu-editor/SendToEditor.zip
-hash: d9cf5c2bb33710ca8abfb6190eaa03817d70455fd64ac76596143b8d915474bd
+hash: 42b0c629de3697c4064b780c5bff9561f4ae9dd0cae36c7d4398a65a1e5330fb
 extract_dir: SendToEditor
 architecture:
   64bit:
