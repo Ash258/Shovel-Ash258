@@ -269,6 +269,7 @@
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.yml)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.yml)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TinyMice **(TinyMice)**](./bucket/TinyMice.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
+| [tone **(tone)**](./bucket/tone.yml)                                                                                                                                 |   ✔    |    ✔     |       ✔ (❌)       |
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Total Commander Beta **(TotalCommander-beta)**](./bucket/TotalCommander-beta.yml)                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker **(UltimateWindowsTweaker)**](./bucket/UltimateWindowsTweaker.yml)                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
