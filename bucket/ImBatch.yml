@@ -1,9 +1,9 @@
-version: 7.5.0
+version: 7.6.0
 description: ImBatch. Multithreaded image processing tool
 homepage: http://www.highmotionsoftware.com/products/imbatch
 license: Freeware
 url: http://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe
-hash: 845dbbd49153eaf317623a08ec273a6debe0eb5f7080d40797fc2e0fc70b50d3
+hash: 65a46bae3ca990ac3df3d9f994410f285d1f5a6d7ff8354effd8273a9442c124
 innosetup: true
 pre_install: Test-Persistence 'MainOptions.dat' '[MainOptions]', 'AutoUpdate=0'
 bin: ImBatch.exe
