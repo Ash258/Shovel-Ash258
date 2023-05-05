@@ -1,11 +1,11 @@
-version: "1.7"
+version: "1.8"
 description: Sordum's Edge Blocker
 homepage: https://www.sordum.org/9312/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/EdgeBlock.zip
-hash: a136294b1fc47162c7f6b1b1dfdd85c47cc234bcbc3d7d471de017512f1e5aa5
+hash: dde37f38a1e85cf9bd0e19e1233e2ea2f5aff86f2d7bba5608c4efb2155e8e15
 extract_dir: EdgeBlock
 architecture:
   64bit:
