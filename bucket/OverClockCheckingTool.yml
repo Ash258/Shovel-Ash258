@@ -1,4 +1,4 @@
-version: 11.0.22.99
+version: 11.0.23.99
 description: OverClock Checking Tool (OCCT). CPU/GPU/Power Supply testing tool
 homepage: https://www.ocbase.com
 license:
@@ -7,7 +7,7 @@ license:
 architecture:
   64bit:
     url: https://dl.ocbase.com/per/stable/OCCT.exe#/occt.exe
-    hash: 0dca90b95562ba384ea49276fd79d67be932c57b596c15aeda75ce76a2f68cd1
+    hash: 922ab29877201b8c757240164e8a5fb84201c608e4934cd759d0fe03d80943bd
 shortcuts:
 - - occt.exe
   - OverClock Checking Tool
