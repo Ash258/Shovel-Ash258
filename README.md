@@ -276,7 +276,6 @@
 | [UltimateWindowsTweaker 2 **(UltimateWindowsTweaker2)**](./bucket/UltimateWindowsTweaker2.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [UltimateWindowsTweaker 3 **(UltimateWindowsTweaker3)**](./bucket/UltimateWindowsTweaker3.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Unreal Commander **(UnrealCommander)**](./bucket/UnrealCommander.yml)                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
-| [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Visual Paradigm Community Edition **(VisualParadigm)**](./bucket/VisualParadigm.yml)                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [Visual Paradigm Enterprise Edition **(VisualParadigmEE)**](./bucket/VisualParadigmEE.yml)                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [VMware **(VMware)**](./bucket/VMware.yml)                                                                                                                           |   ✔    |    ✔❗    |       ✔ (✔)       |
@@ -319,6 +318,7 @@
 | [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                       |   ✔    |    ❌     |       ❌ (⛔)       |
 | [Grammarly **(Grammarly)**](./bucket/Grammarly.yml)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 

@@ -6,10 +6,7 @@ license:
   url: https://github.com/SamuelTulach/VirusTotalUploader/blob/master/LICENSE
 url: https://github.com/SamuelTulach/VirusTotalUploader/releases/download/0.1.9/setup_anycpu_signed.zip
 hash: 142751060f6e68b989af65df8b16420e7d29979849f6aaa27e782d59901beae9
-pre_install: |
-  Rename-Item "$dir\uploader.exe" 'installer.exe'
-  Expand-InnoArchive "$dir\installer.exe" -Removal
-  Copy-Item "$persist_dir\vtu_settings.json" $dir -ErrorAction SilentlyContinue -Force
+pre_install: Copy-Item "$persist_dir\vtu_settings.json" $dir -ErrorAction SilentlyContinue -Force
 pre_uninstall: Copy-Item "$dir\vtu_settings.json" $persist_dir -ErrorAction SilentlyContinue -Force
 shortcuts:
 - - uploader.exe
