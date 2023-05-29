@@ -1,9 +1,9 @@
-version: 5.205.0.234
+version: 5.206.0.235
 description: Glary Utilities. Free, Powerful and All-in-one utility for cleaning PC.
 homepage: https://www.glarysoft.com/glary-utilities/
 license: Freeware
 url: https://download.glarysoft.com/guportable.zip
-hash: 2d05b51a910914157322b40872323d3e2c4c50f7be098dedbb72c9a6e5316a61
+hash: a80d578e43261027181517a3de87b85cf478b19a7fed5f396ffa72b3a9b28635
 extract_dir: Portable
 shortcuts:
 - - Integrator.exe
