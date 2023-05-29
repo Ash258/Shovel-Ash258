@@ -1,13 +1,13 @@
-version: 1.17.1023
+version: 1.18.1421.0
 description: The new Windows Terminal, and the original Windows console host
 homepage: https://github.com/microsoft/terminal
 license: MIT
-changelog: https://github.com/microsoft/terminal/releases/tag/v1.16.3463.0
+changelog: https://github.com/microsoft/terminal/releases/tag/v1.18.1421.0
 suggest:
   vcredist: extras/vcredist2019
 pre_download: Assert-WindowsMinimalVersion '10.0.22000.0'
-url: https://github.com/microsoft/terminal/releases/download/v1.17.1023/Microsoft.WindowsTerminalPreview_Win10_1.17.10234.0_8wekyb3d8bbwe.msixbundle#/cosi.7z
-hash: 8829bf4a1ecffa384f2dbed1496c39dd291db44d0d0fb3f81845ae76eb174484
+url: https://github.com/microsoft/terminal/releases/download/v1.18.1421.0/Microsoft.WindowsTerminalPreview_1.18.1421.0_8wekyb3d8bbwe.msixbundle#/cosi.7z
+hash: 08f749e71fdedbf967aed18163005727b4cd91bdbfc93847f4172cd18f3ac417
 architecture:
   64bit:
     pre_install: Get-ChildItem $dir -Exclude '*x64.msix' | Remove-Item -Force -Recurse
@@ -31,4 +31,4 @@ checkver:
   regex: download/v([\d.]+)/Microsoft.WindowsTerminalPreview_
 autoupdate:
   changelog: https://github.com/microsoft/terminal/releases/tag/v$version
-  url: https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_Win10_$version_8wekyb3d8bbwe.msixbundle#/cosi.7z
+  url: https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_$version_8wekyb3d8bbwe.msixbundle#/cosi.7z
