@@ -1,4 +1,4 @@
-version: "6.21"
+version: "6.22"
 description: Winrar. Powerful archive manager
 homepage: https://rarlab.com/
 license: Shareware
@@ -8,11 +8,11 @@ notes:
 - e143436e2f9183a650424d635b535e51
 architecture:
   64bit:
-    url: https://www.rarlab.com/rar/winrar-x64-621cz.exe#/cosi.7z
-    hash: 04f6017dd747ef0421f472b9dc90475517e4b0d6b4898a8459b8a64a0b276dd4
+    url: https://www.rarlab.com/rar/winrar-x64-622cz.exe#/cosi.7z
+    hash: 171e26997f601519418b8e8fd7a0b443e09176f9311b906530d182b771d567a8
   32bit:
-    url: https://www.rarlab.com/rar/winrar-x32-621cz.exe#/cosi.7z
-    hash: a5304ea92b42628c00f7ac194a035a1e2767d5f38d1846794baa3ed7687339e2
+    url: https://www.rarlab.com/rar/winrar-x32-622cz.exe#/cosi.7z
+    hash: 399c6352ed00598709a4d1efafad9b404ab845e6578689108397bb52789cde4e
 pre_install: Test-Persistence 'rarreg.key'
 bin:
 - Rar.exe
