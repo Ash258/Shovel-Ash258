@@ -1,4 +1,4 @@
-version: 2.0.66.20
+version: 2.0.67.2
 description: GOG Galaxy 2.0. Gaming Client designed for a convenient purchasing, playing and updating games, as well as an online play between gaming platforms.
 homepage: https://www.gog.com/galaxy
 license:
@@ -7,8 +7,8 @@ license:
 suggest:
   Microsoft Visual C++ Runtime 2015: extras/vcredist2015
 depends: innounp
-url: https://cdn.gog.com/open/galaxy/client/2.0.66.20/setup_galaxy_2.0.66.20.exe
-hash: md5:6d5b636dab96fdc9229a4f462a22ad44
+url: https://cdn.gog.com/open/galaxy/client/2.0.67.2/setup_galaxy_2.0.67.2.exe
+hash: md5:b838eefedc1295a65c38a649a1ffa205
 installer:
   script: |
     $file = "$dir\$fname"
