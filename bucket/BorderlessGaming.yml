@@ -1,11 +1,11 @@
-version: 9.5.6
+version: 9.5.5
 description: Borderless Gaming. Play games in a borderless window. No more time consuming alt-tabs.
 homepage: https://github.com/Codeusa/Borderless-Gaming
 license:
   identifier: GPL-2.0
   url: https://github.com/Codeusa/Borderless-Gaming/blob/master/LICENSE
-url: https://github.com/Codeusa/Borderless-Gaming/releases/download/9.5.6/BorderlessGaming9.5.6_admin_setup.exe
-hash: 250d2d883cb9f5a05a60be5b74191ca357489686a979cf7832fcb4c5f0522eda
+url: https://github.com/Codeusa/Borderless-Gaming/releases/download/9.5.5/BorderlessGaming9.5.5_admin_setup.exe
+hash: ec435fcb49345803be505a237fd81f07177b0b7f9066f699bfe8d124d8c2efd3
 innosetup: true
 shortcuts:
 - - BorderlessGaming.exe
