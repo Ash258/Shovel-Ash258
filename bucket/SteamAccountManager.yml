@@ -1,10 +1,10 @@
-version: 1.5.2.0
+version: 1.5.3.0
 description: Steam Account Manager. Easily log in and switch between Steam accounts.
 homepage: https://github.com/rex706/SAM
 license: Unknown
-changelog: https://github.com/rex706/SAM/releases/tag/v1.5.2.0
-url: https://github.com/rex706/SAM/releases/download/v1.5.2.0/SAM.exe
-hash: 65f8beaf89ea9eaed6b4041110b3fce2bfb1eeb93dc6d29dc3f2da8c1775c536
+changelog: https://github.com/rex706/SAM/releases/tag/v1.5.3.0
+url: https://github.com/rex706/SAM/releases/download/v1.5.3.0/SAM.exe
+hash: 5ee9829f5e154096c9d937244a2f754493f2b6910e2dc678277952d633f743eb
 pre_install: |
   Test-Persistence 'SAMSettings.ini' '[Settings]', 'CheckForUpdates=False'
   if (Join-Path $persist_dir 'info.dat' | Test-Path) { Copy-Item "$persist_dir\info.dat" $dir }
