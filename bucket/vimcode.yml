@@ -1,21 +1,21 @@
-version: 1.79.2
+version: 1.80.0
 description: Portable code for vim education
 homepage: https://code.visualstudio.com
 license:
   identifier: Freeware
   url: https://code.visualstudio.com/License
-changelog: https://code.visualstudio.com/updates/v1_79
+changelog: https://code.visualstudio.com/updates/v1_80
 depends: vim
 architecture:
   64bit:
-    url: https://update.code.visualstudio.com/1.79.2/win32-x64-archive/stable#/cosi.zip
-    hash: f242d0359e7817c6c860ca04853990a61ff7ccf3ce6a96bff78ee76686cafc34
+    url: https://update.code.visualstudio.com/1.80.0/win32-x64-archive/stable#/cosi.zip
+    hash: 41dc4b7ae124ac7e13181c04c30f0fd025d9a30fe715f4907f1da130f0ba934e
   32bit:
-    url: https://update.code.visualstudio.com/1.79.2/win32-archive/stable#/cosi.zip
-    hash: adcd7358c04cf3b79cf5b49aac56b8336ba8a37e025135680413369d8a3899a6
+    url: https://update.code.visualstudio.com/1.80.0/win32-archive/stable#/cosi.zip
+    hash: 8d4a91b8b4551925b656e223a3d0398540aafd41f57e923e4c5987afb7bb5395
   arm64:
-    url: https://update.code.visualstudio.com/1.79.2/win32-arm64-archive/stable#/cosi.zip
-    hash: dff1e933a45c46ea9f7aa1a28e2409b7f04ac474c15a98d559484d5f6011794f
+    url: https://update.code.visualstudio.com/1.80.0/win32-arm64-archive/stable#/cosi.zip
+    hash: a0cf8c11277e9406e606c096ef3b608a7af6656fc93d4c4213ba77cba4eb3c0f
 pre_install: |
   if (!(Test-Path -LiteralPath "$persist_dir\data" -PathType 'Container')) {
       @('tmp', 'user-data', 'extensions') | ForEach-Object { Confirm-DirectoryExistence "$dir\data\$_" | Out-Null }
