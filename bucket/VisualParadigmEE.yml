@@ -1,4 +1,4 @@
-version: 17.1.20230601
+version: 17.1.20230711
 description: Visual Paradigm Enterprise Edition. UML CASE Tool supporting UML 2, SysML and Business Process Modeling Notation from the Object Management Group.
 homepage: https://www.visual-paradigm.com
 license:
@@ -6,8 +6,8 @@ license:
   url: https://www.visual-paradigm.com/product/licenseagreement.jsp?product=vp&edition=ee
 architecture:
   64bit:
-    url: https://uk3.dl.visual-paradigm.com/visual-paradigm/vp17.1/20230601/Visual_Paradigm_17_1_20230601_Win64_InstallFree.zip
-    hash: cda2aadb3509528dbb851cfafaa73b235905199c06474dab22776acac992b97f
+    url: https://uk3.dl.visual-paradigm.com/visual-paradigm/vp17.1/20230711/Visual_Paradigm_17_1_20230711_Win64_InstallFree.zip
+    hash: a4bbb3ab2b57044b3882229621fb9a78f458e264f3c234c18fdba48cf4f8db00
 extract_dir: Visual Paradigm 17.1
 shortcuts:
 - - Visual Paradigm.exe
