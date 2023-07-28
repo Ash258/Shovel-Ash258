@@ -1,4 +1,4 @@
-version: 6.14.10584
+version: 6.13.10517
 description: CCleaner Professional. The number-one tool for cleaning PC. Protects privacy and makes computer faster and more secure!
 homepage: https://www.ccleaner.com/ccleaner
 license:
@@ -6,11 +6,11 @@ license:
   url: https://www.ccleaner.com/legal/end-user-license-agreement
 changelog: https://www.ccleaner.com/ccleaner/version-history
 url:
-- https://download.ccleaner.com/ccsetup614.exe#/cosi.7z
+- https://download.ccleaner.com/ccsetup613.exe#/cosi.7z
 - https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dll#/branding.dll
 - https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/ccl.dat#/CCleaner.dat
 hash:
-- e377f2f3262407ac611d5129380590162095d657665f1cb8d3a78fbf3dff0dc6
+- 58ffccd47a2d1e0d1ce1eb4efdfa27e33bbce47a871a34235c2ebb3e2dd73349
 - 26d6cd545f57071e3a01e5e39e68fde63af8e086bd39eff2b746633006d71511
 - d5142f288ee9e334671c807931ace52c31eaa0fa254ffe31979fad0b6ba5c2cd
 pre_install: |
