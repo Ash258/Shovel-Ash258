@@ -6,10 +6,10 @@ changelog: https://coderbag.com/product/quickcpu/releasenotes/version/4.6.0.0
 architecture:
   64bit:
     url: https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup64.zip
-    hash: ef12154f5542c9de1ed2e4f4294a0a93eec16cac22218b36d05c4cf8a6e7241b
+    hash: 8b848557cb61ae480db46d6054e6a667fe3d9dacf8ef3610470aeb15525340e0
   32bit:
     url: https://coderbag.com/assets/downloads/cpm/currentversion/QuickCpuSetup32.zip
-    hash: 5de29ccfb3b8f7641d8e2b42981bad172093e37d86c65d5ad495f32af772f047
+    hash: 505eb80587c98788abd294c4a218ce554c759ccc8a703a89c03cc220fd839d13
 pre_install: (Get-ChildItem $dir 'QuickCPU*msi').FullName | Expand-MsiArchive -DestinationPath $dir -ExtractDir 'QuickCPU' -Removal
 shortcuts:
 - - QuickCPU.exe
