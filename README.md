@@ -177,7 +177,6 @@
 | [ProtonMail Desktop Unofficial **(ProtonMailDesktop-Unofficial)**](./bucket/ProtonMailDesktop-Unofficial.yml)                                                        |   ✔    |    ✔     |       ✔ (✔)       |
 | [PRTG API **(PrtgAPI)**](./bucket/PrtgAPI.yml)                                                                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [qBittorrent **(qBittorrent)**](./bucket/qBittorrent.yml)                                                                                                            |   ✔    |    ✔     |       ✔ (✔)       |
-| [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.yml)                                                                                                                    |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Regshot **(Regshot)**](./bucket/Regshot.yml)                                                                                                                        |   ✔    |    ❌     |       ❌ (❌)       |
 | [Remote Desktop Manager Free **(RemoteDesktopManager)**](./bucket/RemoteDesktopManager.yml)                                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [RingCentral Glip **(Glip)**](./bucket/Glip.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -319,6 +318,7 @@
 | [Grammarly **(Grammarly)**](./bucket/Grammarly.yml)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.yml)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 
