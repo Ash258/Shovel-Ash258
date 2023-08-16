@@ -155,7 +155,6 @@
 | [Oh My Posh **(oh-my-posh)**](./bucket/oh-my-posh.yml)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [OnlyM **(OnlyM)**](./bucket/OnlyM.yml)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.yml)                                                                                                                           |   ✔    |    ♻     |       ♻ (♻)       |
-| [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.yml)                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's MIB Importer **(MIBImporter)**](./bucket/MIBImporter.yml)                                                                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's Multi Server Emulator **(MultiServerEmulator)**](./bucket/MultiServerEmulator.yml)                                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Paessler's NetFlow Generator **(NetFlowGenerator)**](./bucket/NetFlowGenerator.yml)                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -319,6 +318,7 @@
 | [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.yml)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
+| [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.yml)                |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 
