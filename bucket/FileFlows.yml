@@ -6,8 +6,8 @@ license:
   url: https://fileflows.com/pricing
 architecture:
   64bit:
-    url: https://fileflows.com/downloads/zip#/cozi.zip
-    hash: 98eb523ab9edd379108f971ce7c9610dab06d4946f2cc502d2520f838594954a
+    url: https://fileflows.com/downloads/exe#/cozi.7z
+    hash: 3c3e12e46d7444d2df7888f2b6547fccad0dc06fb448deaa09b5a10b1828931c
 pre_install: |
   Remove-AppDirItem '$*', 'uninstall.exe'
   $cnt = @(
@@ -34,4 +34,4 @@ checkver:
 autoupdate:
   architecture:
     64bit:
-      url: https://fileflows.com/downloads/zip#/cozi.zip
+      url: https://fileflows.com/downloads/exe#/cozi.7z
