@@ -1,14 +1,14 @@
-version: 0.11.2
+version: 0.11.3
 description: YoloMouse. Game cursor changer
 homepage: http://pandateemo.github.io/YoloMouse/
 license:
   identifier: CPL-1.0
   url: https://github.com/PandaTeemo/YoloMouse/blob/master/etc/EULA.rtf
-changelog: https://github.com/PandaTeemo/YoloMouse/releases/tag/0.11.2
+changelog: https://github.com/PandaTeemo/YoloMouse/releases/tag/0.11.3
 architecture:
   64bit:
-    url: https://github.com/PandaTeemo/YoloMouse/releases/download/0.11.2/YoloMouse64.msi
-    hash: 687963ab07521966c41ec994eea5cd95fefafc729f5d014236cae7d2ee19feba
+    url: https://github.com/PandaTeemo/YoloMouse/releases/download/0.11.3/YoloMouse64.msi
+    hash: 78e9bb8f8f64d562abcc667039ea483cc07a23c05d1a955412022d9ff102add7
 extract_dir: YoloMouse
 uninstaller:
   script: |
