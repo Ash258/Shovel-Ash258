@@ -1,9 +1,9 @@
-version: 11.0.3.817
+version: 11.0.4.818
 description: Wise Disk Cleaner. Clean junks of Browsers, remove junk and useless files of Windows and Defragment disk.
 homepage: https://www.wisecleaner.com/wise-disk-cleaner.html
 license: Freeware
-url: http://downloads.wisecleaner.com/soft/WDCFree_11.0.3.817.exe
-hash: 3406b4b78f90cf308a2ad33df42cc6e6e87120643e180a3372a7014d74d66e7c
+url: http://downloads.wisecleaner.com/soft/WDCFree_11.0.4.818.exe
+hash: 0bdbd15d101e1d5f29ac82ae22a7f4991ced04af9ca89964967bf5cb3f7dab10
 innosetup: true
 pre_install: Test-Persistence 'config.ini' '[General]', 'checkNewVer=3'
 shortcuts:
