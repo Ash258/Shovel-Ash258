@@ -1,9 +1,9 @@
-version: 5.40.0.4560
+version: 5.40.3.4569
 description: Privacy Eraser. Internet history, browsing history and past computer activities cleaner
 homepage: https://www.cybertronsoft.com/products/privacy-eraser/
 license: Freeware
 url: https://www.cybertronsoft.com/download/privacy-eraser-portable.zip
-hash: af791e1593654d46e9681e4a41549f82ae4c61352869123c3c73a9dbbf73758f
+hash: febea93675f9f80f263dc7845bee44c761721ce68b0741e265810d0a637edb1d
 pre_install: |
   Test-Persistence 'Config.xml' -ScriptBlock {
       Write-UserMessage 'File' $currentFileDir 'does not exists. Creating.' -Warning
