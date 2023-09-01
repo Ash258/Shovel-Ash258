@@ -1,4 +1,4 @@
-version: "11.00"
+version: "11.01"
 description: Total Commander. File manager
 homepage: https://www.ghisler.com
 license:
@@ -7,8 +7,8 @@ license:
 notes: e143436e2f9183a650424d635b535e51
 architecture:
   64bit:
-    url: https://totalcommander.ch/win/tcmd1100x64.exe#/cosi.7z
-    hash: 085d171d8a9af4b56ebd90ce23e3c5c5b092470e338cc5333b7061b0f20828cd
+    url: https://totalcommander.ch/win/tcmd1101x64.exe#/cosi.7z
+    hash: 9caa1e62f0eba3354654bf62aefa1ea3b304cdd0458eb6ef533d8ad6ae701404
     bin:
     - TOTALCMD64.EXE
     - - TOTALCMD64.EXE
@@ -17,8 +17,8 @@ architecture:
     - - TOTALCMD64.EXE
       - Total Commander
   32bit:
-    url: https://totalcommander.ch/win/tcmd1100x32.exe#/cosi.7z
-    hash: 95a1162b98cebed60c48fc853a26e7833c91f8805a94faf6ef5bf588f13e7f1b
+    url: https://totalcommander.ch/win/tcmd1101x32.exe#/cosi.7z
+    hash: 23eb6db864248453101c5cbbd87e990500f1bc9443cdaa197b52a4bf196d8b6a
     bin: TOTALCMD.EXE
     shortcuts:
     - - TOTALCMD.EXE
