@@ -6,7 +6,7 @@ license:
   url: https://raw.githubusercontent.com/Ash258/Scoop-Licenses/master/SystemNinja.txt
 changelog: https://singularlabs.com/releases/system-ninja-3-2-10/
 url: https://singularlabs.com/download/10294/#/cosi.exe
-hash: 833028e593f1910691a6bbdeef231d62a071ed92e6dd25c2eefcee72e50510fa
+hash: 7b1195fc6ed17823a44ade7fbf6ea90e85e0872480b916f970501c000f380e8f
 innosetup: true
 pre_install: |
   Test-Persistence 'config.ini' 'AutoUpdate:False'

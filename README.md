@@ -263,7 +263,6 @@
 | [SteamGridDB Manager **(SteamGridDBManager)**](./bucket/SteamGridDBManager.yml)                                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SuperF4 **(SuperF4)**](./bucket/SuperF4.yml)                                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [SyncFolders **(SyncFolders)**](./bucket/SyncFolders.yml)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
-| [System Ninja **(SystemNinja)**](./bucket/SystemNinja.yml)                                                                                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TinyMice **(TinyMice)**](./bucket/TinyMice.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [tone **(tone)**](./bucket/tone.yml)                                                                                                                                 |   ✔    |    ✔     |       ✔ (❌)       |
 | [Total Commander **(TotalCommander)**](./bucket/TotalCommander.yml)                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -315,6 +314,7 @@
 | [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                        |   ✔    |    ❌     |       ❌ (⛔)       |
 | [Grammarly **(Grammarly)**](./bucket/Grammarly.yml)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [System Ninja **(SystemNinja)**](./bucket/SystemNinja.yml)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                           |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
