@@ -194,7 +194,6 @@
 | [Sordum's BlueLife Hosts Editor **(BlueLifeHostsEditor)**](./bucket/BlueLifeHostsEditor.yml)                                                                         |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's BlueLife KeyFreeze **(BlueLifeKeyFreeze)**](./bucket/BlueLifeKeyFreeze.yml)                                                                                |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Bluetooth Version Finder **(BluetoothVersionFinder)**](./bucket/BluetoothVersionFinder.yml)                                                                |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.yml)                                                                                                               |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Copy IP **(CopyIP)**](./bucket/CopyIP.yml)                                                                                                                 |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Control **(DefenderControl)**](./bucket/DefenderControl.yml)                                                                                      |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Exclusion Tool **(DefenderExclusionTool)**](./bucket/DefenderExclusionTool.yml)                                                                   |   ✔    |    ✔     |       ✔(⛔)        |
@@ -311,6 +310,7 @@
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.yml) |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.yml)                                 |   ✔    |    ♻     |       ♻ (♻)       |
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.yml)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
+| [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.yml)                                                   |   ✔    |    ✔     |       ✔(⛔)        |
 | [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.yml)                       |   ✔    |    ✔     |       ✔(⛔)        |
 | [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                       |   ✔    |    ❌     |       ❌ (⛔)       |
