@@ -1,15 +1,15 @@
-version: 4.21.1556
+version: 4.21.1626
 description: Unreal Commander. Easy to use file manager
 homepage: https://x-diesel.com
 license: Freeware
 changelog: https://x-diesel.com/?whatsnew
 architecture:
   64bit:
-    url: https://unrealcommander.org/download/evolution/uncomsetup4.21beta2x64(build1556).exe
-    hash: 8a6f4a8724da3c1369a4cc0174e289f6939717173e772d1dc2ed9eccc24ba6c9
+    url: https://unrealcommander.org/download/evolution/uncomsetup4.21beta14x64(build1626).exe
+    hash: 41c383da9efe66a495391d65eaac6a0d1bf91037b1b599cf8601a7e467c111f4
   32bit:
-    url: https://unrealcommander.org/download/evolution/uncomsetup4.21beta2x32(build1556).exe
-    hash: 9551704556bf5296e14d3d746d6d78b5821970c7cb028ee35a6af746d99af377
+    url: https://unrealcommander.org/download/evolution/uncomsetup4.21beta14x32(build1626).exe
+    hash: 2fd4eae1f21918f9e9965c35a86ed01342d844031d84088fff801f18237dbce2
 innosetup: true
 pre_install: |
   Test-Persistence 'license.key', 'UncomFTP.ini'
@@ -46,7 +46,8 @@ persist:
 - Uncom.ini
 checkver:
   disable: true
-  regex: Unreal Commander v(?<pure>[\d.]+)(?:\s*(beta\s+\d+)\s*)?\(build (?<build>\d+)\)
+  url: https://x-diesel.com/?download
+  regex: Unreal Commander (?<pure>[\d.]+)(?:\s*(beta\s+\d+)\s*)?\(.*?(?<build>\d+)\)
   replace: ${pure}.${build}
 autoupdate:
   architecture:
