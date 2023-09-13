@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/ReduceMemory.zip
-hash: 91fd4eb002ab708796e93684f10ceec5168e8c4e826d0c52db25754cad3ea1f7
+hash: 8381123114d1817365b08fa86a808a794f5ef472720aa49a055217b6e0c8b0e7
 extract_dir: ReduceMemory
 architecture:
   64bit:

@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Readme.txt
 url: https://www.sordum.org/files/download/safe-mode-launcher/SafeMode.zip
-hash: 479f9f09f60edf6c1bb2eed962c72b10473141eaa19af28bbea00ee931fd1e6b
+hash: 854638d9be8972c4cf2821277ebefa6e2d7f420969eee19ff7b24a991ba28b51
 extract_dir: SafeMode
 architecture:
   64bit:

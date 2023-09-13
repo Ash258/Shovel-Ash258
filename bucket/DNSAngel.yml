@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/dns-angel/DnsAngel.zip
-hash: 8d7a1d6a7fef05fe2cefac7b08f6c92fa3d6fe136d2472e96bb97b1e2686cf04
+hash: ce98f61f9c2df15d263c9742daaa92ee83631447733db9a9f56eacd194c03991
 extract_dir: DnsAngel
 shortcuts:
 - - DnsAngel.exe

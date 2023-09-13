@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/runastool/RunAsTool.zip
-hash: 89bcf4ef807ac310a2fa96707e791e755cd3e821302b0905f7056571b72b241b
+hash: bfe64c76792dc3dd40206895ed49c0ca462f6f618485060c96fa2d57dddc1e60
 extract_dir: RunAsTool
 architecture:
   64bit:
