@@ -83,7 +83,6 @@
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.yml)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
 | [JetBrains Space **(JetBrains-Space)**](./bucket/JetBrains-Space.yml)                                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.yml)                                                            |   ✔    |    ✔     |       ✔ (✔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.yml)                                                                                                                                |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Kodi **(Kodi)**](./bucket/Kodi.yml)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Komodo Edit **(KomodoEdit)**](./bucket/KomodoEdit.yml)                                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
@@ -298,27 +297,28 @@
 
 ### Deprecated
 
-| App name **(Shovel manifest name)**                                                                      | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
-| -------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
-| [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.yml)                                              |   ✔    |    ✔     |       ✔ (⛔)       |
-| [AutoClicker Targeted **(AutoClickerTargeted)**](./deprecated/AutoClickerTargeted.yml)                   |   ✔    |    ❌     |       ❌ (❌)       |
-| [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.yml)                          |   ✔    |    ✔     |       ✔ (✔)       |
-| [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.yml)                     |   ✔    |    ✔     |       ✔ (⛔)       |
-| [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.yml)                                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.yml)                                  |   ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [oh-my-posh (v2) **(oh-my-posh)**](./deprecated/oh-my-posh.yml)                                          |   ✔🔶   |    ✔     |       ✔ (⛔)       |
-| [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.yml) |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.yml)                                 |   ✔    |    ♻     |       ♻ (♻)       |
-| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.yml)                                               |   ✔    |    ✔     |       ❌ (⛔)       |
-| [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.yml)                                                   |   ✔    |    ✔     |       ✔(⛔)        |
-| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.yml)                       |   ✔    |    ✔     |       ✔(⛔)        |
-| [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                       |   ✔    |    ❌     |       ❌ (⛔)       |
-| [Grammarly **(Grammarly)**](./bucket/Grammarly.yml)                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
-| [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
-| [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                          |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.yml)                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.yml)                |   ✔    |    ✔     |       ✔ (⛔)       |
+| App name **(Shovel manifest name)**                                                                       | Tested | Checkver | Autoupdate (Hash) | Top-Grade |
+| --------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: | :-------: |
+| [API Monitor **(APIMonitor)**](./deprecated/APIMonitor.yml)                                               |   ✔    |    ✔     |       ✔ (⛔)       |
+| [AutoClicker Targeted **(AutoClickerTargeted)**](./deprecated/AutoClickerTargeted.yml)                    |   ✔    |    ❌     |       ❌ (❌)       |
+| [Autodesk SketchBook **(AutodeskSketchBook)**](./bucket/AutodeskSketchBook.yml)                           |   ✔    |    ✔     |       ✔ (✔)       |
+| [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.yml)                      |   ✔    |    ✔     |       ✔ (⛔)       |
+| [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.yml)                                                   |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.yml)                                   |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.yml) |   ✔    |    ✔     |       ✔ (✔)       |
+| [oh-my-posh (v2) **(oh-my-posh)**](./deprecated/oh-my-posh.yml)                                           |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.yml)  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.yml)                                  |   ✔    |    ♻     |       ♻ (♻)       |
+| [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.yml)                                                |   ✔    |    ✔     |       ❌ (⛔)       |
+| [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.yml)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
+| [Sordum's Defender Injector **(DefenderInjector)**](./bucket/DefenderInjector.yml)                        |   ✔    |    ✔     |       ✔(⛔)        |
+| [TwitchLeecher **(TwitchLeecher)**](./bucket/TwitchLeecher.yml)                                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [FreeRapid Downloader **(FRD)**](./bucket/FRD.yml)                                                        |   ✔    |    ❌     |       ❌ (⛔)       |
+| [Grammarly **(Grammarly)**](./bucket/Grammarly.yml)                                                       |   ✔    |    ✔     |       ✔ (⛔)       |
+| [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
+| [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
+| [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.yml)                 |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Moved to other (known) bucket
 
