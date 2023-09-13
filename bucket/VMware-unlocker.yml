@@ -1,16 +1,16 @@
-version: 3.0.4
+version: 3.0.5
 description: VMWare Unlocker. Able to create/use macOS virtual machines inside VMware.
 homepage: https://github.com/paolo-projects/unlocker
 license:
   identifier: MIT
   url: https://github.com/paolo-projects/unlocker/blob/master/license.txt
-changelog: https://github.com/paolo-projects/unlocker/releases/tag/3.0.4
+changelog: https://github.com/paolo-projects/unlocker/releases/tag/3.0.5
 suggest:
   VMware Workstation: ash258.ash258/VMware
 architecture:
   64bit:
-    url: https://github.com/paolo-projects/unlocker/releases/download/3.0.4/unlocker.zip
-    hash: d0c9ca9dbacd720ac4fde4804b3213eaed9ca8f0541f7f93d65fa9ca88f44acb
+    url: https://github.com/paolo-projects/unlocker/releases/download/3.0.5/release-python-embedded.zip
+    hash: d97c7d7db6dfa6b751a988c4e95e6c789981eb98ed79620f461a632dceb6dea4
 installer:
   file: win-install.cmd
 uninstaller:
@@ -21,4 +21,4 @@ autoupdate:
   changelog: https://github.com/paolo-projects/unlocker/releases/tag/$version
   architecture:
     64bit:
-      url: https://github.com/paolo-projects/unlocker/releases/download/$version/unlocker.zip
+      url: https://github.com/paolo-projects/unlocker/releases/download/$version/release-python-embedded.zip
