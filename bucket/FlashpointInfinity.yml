@@ -1,12 +1,12 @@
-version: "11.1"
-description: BlueMaxima's Flashpoint Infinity. Archive of old flashpoint games/animations
-homepage: https://bluemaxima.org/flashpoint/
+version: '12'
+description: BlueMaxima's Flashpoint Infinity/Archive/Launcher. Community effort to preserve games and animations from the web
+homepage: https://flashpointarchive.org/
 license:
   identifier: MIT
   url: https://github.com/FlashpointProject/launcher/blob/master/LICENSE
-url: https://bluemaxima.org/flashpoint/Flashpoint%2011.1%20Infinity.exe#/cosi.7z
-hash: 17006b5c8e1670522991b8eac3dcafb335f5776a4bc8844340d77c8057f85e49
-extract_dir: Flashpoint 11.1 Infinity
+url: https://download.unstable.life/upload/fp12static.7z
+hash: 4ba08e3284b1b9eae0f7976af9c61f94cd5bae6250f8f73bdd3bd3adc7056312
+extract_dir: Flashpoint 12 Infinity
 shortcuts:
 - - Launcher\Flashpoint.exe
   - Flashpoint Infinity
@@ -15,8 +15,8 @@ persist:
 - Flash Save Backup
 - Launcher\config.json
 checkver:
-  url: https://bluemaxima.org/flashpoint/changelog.txt
-  regex: Flashpoint\s+([\d.]+)
+  url: https://flashpointarchive.org/downloads
+  regex: fp([\d.]+)static\.7z
 autoupdate:
-  url: https://bluemaxima.org/flashpoint/Flashpoint%20$version%20Infinity.exe#/cosi.7z
+  url: https://download.unstable.life/upload/fp${version}static.7z
   extract_dir: Flashpoint $version Infinity

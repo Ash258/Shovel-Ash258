@@ -196,6 +196,24 @@
                 "instanceLimit": 99,
             },
         },
+        {
+            "label": "Test Homepage (Bash)",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+            "command": "curl",
+            "args": [
+                "-v",
+                "'${selectedText}'",
+                "2>&1",
+                "|",
+                "grep",
+                "-E",
+                "'< HTTP/|< Location:'",
+            ],
+            "problemMatcher": [],
+        },
     ],
     "inputs": [
         {
