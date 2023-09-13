@@ -3,7 +3,7 @@ description: Paessler's PRTG Certificate Importer. Eases the installation of a t
 homepage: https://www.paessler.com/tools/certificateimporter
 license: Freeware
 url: https://downloads.paessler.com/tools/Paessler+PRTG+Certificate+Importer.zip
-hash: 41f9bd7170d91e0f437797a259ab2a2c0c5d704e1fd6890e479e01cee3085f03
+hash: 23169c1690e7784fdf84fe611dc7b810d2dbc515810f1c7465bd13d63478ab45
 pre_install: (Get-ChildItem $dir '*Setup.exe').FullName | Expand-InnoArchive -DestinationPath $dir -Removal
 shortcuts:
 - - PRTGCertImporter.exe

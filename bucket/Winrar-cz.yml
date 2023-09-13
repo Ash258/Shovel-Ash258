@@ -9,10 +9,10 @@ notes:
 architecture:
   64bit:
     url: https://www.rarlab.com/rar/winrar-x64-623cz.exe#/cosi.7z
-    hash: 454dfe869fe5bc86b58f926999719c637bb70e0d2dabc55834a67659b6a1f8b9
+    hash: a965cc2711c5319f54f2b7139bbb0db269abfb68887cfe2ae1ddd746f438c06e
   32bit:
     url: https://www.rarlab.com/rar/winrar-x32-623cz.exe#/cosi.7z
-    hash: d173daf834e5ea4bec25fca42a8b8006fd813544aec72a5eb7eac698189efe57
+    hash: 1054096cd3a3aeeb92b4de4af924664aba406c0c6acbecb223f04d0ccfe14d30
 pre_install: Test-Persistence 'rarreg.key'
 bin:
 - Rar.exe

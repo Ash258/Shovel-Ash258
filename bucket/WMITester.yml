@@ -3,7 +3,7 @@ description: Paessler's WMI Tester. Simple debugging tool for monitoring confugr
 homepage: https://www.paessler.com/tools/wmitester
 license: Freeware
 url: https://downloads.paessler.com/tools/WMI+Tester+2.3.3.8.zip
-hash: eaf7e8ae7c9e34e68894ba42bfb5da89de43fbd60c5ad0bc914a4e0aa5c39582
+hash: 53ed5c5d113220e7ecd0f7fe2c86c15e9e911a884e946aa0fca9afbf10c2af16
 shortcuts:
 - - WMITest.exe
   - WMI Tester

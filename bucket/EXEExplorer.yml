@@ -4,7 +4,7 @@ homepage: https://www.mitec.cz/exe.html
 license: Proprietary
 changelog: https://www.mitec.cz/Data/XML/data_exevh.xml
 url: https://www.mitec.cz/Downloads/EXE.zip
-hash: f3c60e834e1820b58ae38ae11e49c48d1186f0edfb54a7f7dc5c89f456d87a6f
+hash: a98ec081b0bb1195de0f8f7cc1f7445b42419a5d20c0d1630cd7b5eb8c2c1c2b
 installer:
   script: |
     $p = appdir 'TaskManagerDeLuxe' $global
