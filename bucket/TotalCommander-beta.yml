@@ -1,4 +1,4 @@
-version: 10.50b4
+version: 11.00b10
 description: Total Commander Beta. File manager
 homepage: https://www.ghisler.com
 license:
@@ -7,8 +7,8 @@ license:
 notes: e143436e2f9183a650424d635b535e51
 architecture:
   64bit:
-    url: https://www.totalcommander.ch/beta/tc1050x64_b4.exe#/cosi.7z
-    hash: d755c26407f9d84d4676b8ee9ddd6b04e5b3e29946d5e8cbda18f4d713c57dab
+    url: https://www.totalcommander.ch/beta/tc1100x64_b10.exe#/cosi.7z
+    hash: 2b0bda3b797053adf103e54c56b441dba6681789c4f5a5e095bbe967a84f4f0f
     bin:
     - - TOTALCMD64.EXE
       - TOTALCMD64-beta
@@ -18,8 +18,8 @@ architecture:
     - - TOTALCMD64.EXE
       - Total Commander Beta
   32bit:
-    url: https://www.totalcommander.ch/beta/tc1050x32_b4.exe#/cosi.7z
-    hash: 70912947f672edcf85b2849c84b6174054af57fa31e8cd1efe01bc358623fc7a
+    url: https://www.totalcommander.ch/beta/tc1100x32_b10.exe#/cosi.7z
+    hash: b2c4595849c176bc975ab134ed97af3ba23059c634762ce75b9c4e1573a16655
     bin:
     - - TOTALCMD.EXE
       - TOTALCMD-beta
@@ -40,7 +40,7 @@ persist:
 checkver:
   disable: true
   url: https://www.ghisler.com/whatsnew.htm
-  regex: Total\s+Commander\s+([\d.]+)\s+beta\s+(\d\.+)?(?<beta>\d+)
+  regex: Commander ([\d.]+) beta (?<beta>\d+) is now
   replace: ${1}b${beta}
 autoupdate:
   architecture:
