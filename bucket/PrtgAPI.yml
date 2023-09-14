@@ -1,12 +1,12 @@
-version: 0.9.18
+version: 0.9.19
 description: PRTG API. Powershell module for manipulating PRTG Network Monitor.
 homepage: https://github.com/lordmilko/PrtgAPI
 license:
   identifier: MIT
   url: https://github.com/lordmilko/PrtgAPI/blob/master/LICENSE
-changelog: https://github.com/lordmilko/PrtgAPI/releases/tag/v0.9.18
-url: https://github.com/lordmilko/PrtgAPI/releases/download/v0.9.18/PrtgAPI.zip
-hash: 2816cc579908f84819da4d398b376d0c4836d6c2617e8ec56755d2d55efdcd7b
+changelog: https://github.com/lordmilko/PrtgAPI/releases/tag/v0.9.19
+url: https://github.com/lordmilko/PrtgAPI/releases/download/v0.9.19/PrtgAPI.zip
+hash: 70bdea70aafc5d9bf20b126fc56155b81bbeaca955aa6e4a03996788c96b2295
 psmodule:
   name: PrtgAPI
 checkver: github
