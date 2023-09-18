@@ -1,11 +1,11 @@
-version: 3.0.4
+version: 3.1.0
 description: WireMock. HTTP(s) services mocking tool
 homepage: https://wiremock.org
 license:
   identifier: Apache-2.0
   url: https://github.com/tomakehurst/wiremock/blob/master/LICENSE.txt
-url: https://repo1.maven.org/maven2/org/wiremock/wiremock-standalone/3.0.4/wiremock-standalone-3.0.4.jar#/wiremock.jar
-hash: sha1:91817518df3ea08b1d298bb4be6a5e5635994d3d
+url: https://repo1.maven.org/maven2/org/wiremock/wiremock-standalone/3.1.0/wiremock-standalone-3.1.0.jar#/wiremock.jar
+hash: sha1:b2e4e94dab648f92b0e1da68cf0431bcced9621a
 pre_install: Copy-Item "$persist_dir\*" $dir -Include 'mappings', '__files' -Recurse
 uninstaller:
   script: |
