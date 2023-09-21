@@ -1,12 +1,12 @@
-version: "1.4"
+version: "1.5"
 description: Sordum's Simple VHD Manager
 homepage: https://www.sordum.org/8705/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/simple-vhd-manager/vhd.zip
-hash: fdb8c6a9fbd3e700f85000bfde808c167beefc3d4114eac3eb3812a3b53dbe9b
-extract_dir: VHD_manager_v1.4
+hash: 63e1380a930bf3bb2ad08ab38c3596e0cb9f9199f8fe840b70304f35d9749ed9
+extract_dir: VHD_manager_v1.5
 architecture:
   64bit:
     bin:
