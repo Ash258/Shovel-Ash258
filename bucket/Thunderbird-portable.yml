@@ -1,17 +1,17 @@
-version: 115.3.0
+version: 115.3.1
 description: An email application that is easy to set up and customize.
 homepage: https://www.thunderbird.net
 license:
   identifier: MPL-2.0
   url: https://www.mozilla.org/en-US/about/legal/terms/thunderbird/
-changelog: https://www.thunderbird.net/en-US/thunderbird/115.3.0/releasenotes/
+changelog: https://www.thunderbird.net/en-US/thunderbird/115.3.1/releasenotes/
 architecture:
   64bit:
-    url: https://archive.mozilla.org/pub/thunderbird/releases/115.3.0/win64/en-US/Thunderbird%20Setup%20115.3.0.exe#/dl.7z
-    hash: sha512:866a9105286e4f8d7f6a64e20b63f9282d82a24c3bf97e462bb2ceaec0cb3abc2eba256c230ec33d3d4f54217ad091a474382674f3ac68fde2c34a0b79cc9cb6
+    url: https://archive.mozilla.org/pub/thunderbird/releases/115.3.1/win64/en-US/Thunderbird%20Setup%20115.3.1.exe#/dl.7z
+    hash: sha512:f0ee25427b876e091a9c3f27f2d4c0eee63a8a377c136ad9bac7195d9bb82ad8fe5a679ba32f741be817e7c5e5e472be1f77dea05cb6c66263f6db811ee8ec71
   32bit:
-    url: https://archive.mozilla.org/pub/thunderbird/releases/115.3.0/win32/en-US/Thunderbird%20Setup%20115.3.0.exe#/dl.7z
-    hash: 2c8d97d969512af5ca47ded95dad0f83bda3918211b67b3149aa67e01f9f4dcf
+    url: https://archive.mozilla.org/pub/thunderbird/releases/115.3.1/win32/en-US/Thunderbird%20Setup%20115.3.1.exe#/dl.7z
+    hash: sha512:4d6e519db15533c5e397dd1d98635b4544a0831e31191c63ab18f4ebc6286612fc4a0a7f84f8776c880651ffdf73e23893bce4cfddcd527fb20b8ec98511891f
 extract_dir: core
 bin:
 - - thunderbird.exe
