@@ -1,19 +1,19 @@
-version: 9.4.0.0p1-Beta
+version: 9.2.2.0p1-Beta
 description: A suite of secure networking utilities based on the Secure Shell protocol. (Microsoft port)
 homepage: https://github.com/PowerShell/Win32-OpenSSH
 license:
   identifier: BSD-3-Clause
   url: https://github.com/PowerShell/openssh-portable/blob/latestw_all/LICENCE
-changelog: https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.4.0.0p1-Beta
+changelog: https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.2.2.0p1-Beta
 pre_download: Assert-Administrator
 architecture:
   64bit:
-    url: https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.4.0.0p1-Beta/OpenSSH-Win64.zip
-    hash: 580231dc77c96acdbc84f3c99e5c780cd0d8a06a6edfe6fecfe3d07664159a78
+    url: https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win64.zip
+    hash: ec8144a107014740ec3ce16ec51710398fc390fca5344931c1506e7cc2e181f3
     extract_dir: OpenSSH-Win64
   32bit:
-    url: https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.4.0.0p1-Beta/OpenSSH-Win32.zip
-    hash: ca7cab368dfe415e1b8b90e0a4f8c2d129a39c86a4f1eafe980c3a2d19fdae98
+    url: https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win32.zip
+    hash: 7b132aad088eae3ac67d85751e88d884e80631607cab9b1da52c838655bb5ae6
     extract_dir: OpenSSH-Win32
 pre_install: |
   ##### TODO: How to handle updates?
@@ -62,14 +62,3 @@ bin:
 - ssh-shellhost.exe
 - ssh.exe
 - sshd.exe
-checkver:
-  github: https://github.com/PowerShell/Win32-OpenSSH
-  regex: download/v([\w.-]+)/
-autoupdate:
-  archive: true
-  changelog: https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v$version
-  architecture:
-    64bit:
-      url: https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version/OpenSSH-Win64.zip
-    32bit:
-      url: https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version/OpenSSH-Win32.zip
