@@ -58,6 +58,7 @@
 | [EmbyTheater **(EmbyTheater)**](./bucket/EmbyTheater.yml)                                                                                                            |   ✔    |    ✔     |       ✔ (⛔)       |
 | [emClient **(emClient)**](./bucket/emClient.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.yml)                                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
+| [The Microsoft Error Lookup Tool **(Err)**](./bucket/Err.yml)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Eusing Cleaner **(EusingCleaner)**](./bucket/EusingCleaner.yml)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.yml)                                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Facebook Messenger **(FacebookMessenger)**](./bucket/FacebookMessenger.yml)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
