@@ -1,13 +1,13 @@
 '##': URL cannot have encoded + characters
-version: 0.4.2
+version: 0.4.1
 description: SteamGridDB Manager. Import games from different launcher into Steam library.
 homepage: https://www.steamgriddb.com/manager
 license:
   identifier: MIT
   url: https://github.com/steamgriddb/steamgriddb-manager/blob/master/LICENSE.md
-changelog: https://github.com/SteamGridDB/steamgriddb-manager/releases/tag/v0.4.2
-url: https://cdn.steamgriddb.com/manager/SteamGridDB%20Manager%20Setup%200.4.2.exe#/cosi.7z
-hash: c1e513d351bedaa8abdd26ac161a666608ece35022012346686dd6bbff14710d
+changelog: https://github.com/SteamGridDB/steamgriddb-manager/releases/tag/v0.4.1
+url: https://cdn.steamgriddb.com/manager/SteamGridDB%20Manager%20Setup%200.4.1.exe#/cosi.7z
+hash: d627e2809d580ba3f3c5446860f9e74b811e5877fbb512da2d2e29c41a06ee95
 pre_install: |
   Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
   Remove-AppDirItem '$*'
