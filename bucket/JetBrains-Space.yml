@@ -2,11 +2,13 @@ version: 2023.1.5
 description: Desktop Application for JetBrains Space - integrated team environment
 homepage: https://www.jetbrains.com/help/space/space-desktop-app.html
 license: Freeware
-url: https://download.jetbrains.com/space/jetbrains-space-2023.1.5.exe#/cosi.7z
-hash: sha512:f177fc14320ec3771365ede27bfa45cf130d47109db56666aaae0f9e1557b42ae9bab4dd350279217a8d333633a3992396cb1ca1aa0be6f056156e1f74f6ee7b
-pre_install: |
-  Expand-7zipArchive "$dir\`$PLUGINSDIR\app-32.7z" $dir
-  Remove-AppDirItem '$*', 'Uninstall*'
+architecture:
+  64bit:
+    url: https://download.jetbrains.com/space/jetbrains-space-2023.1.5.exe#/cosi.7z
+    hash: sha512:f177fc14320ec3771365ede27bfa45cf130d47109db56666aaae0f9e1557b42ae9bab4dd350279217a8d333633a3992396cb1ca1aa0be6f056156e1f74f6ee7b
+    pre_install: |
+      Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
+      Remove-AppDirItem '$*', 'Uninstall*'
 shortcuts:
 - - JetBrains Space.exe
   - JetBrains Space
@@ -14,7 +16,9 @@ checkver:
   url: https://download-cf.jetbrains.com/space/latest.yml
   regex: version:\s*([\d.]+)
 autoupdate:
-  url: https://download.jetbrains.com/space/jetbrains-space-$version.exe#/cosi.7z
+  architecture:
+    64bit:
+      url: https://download.jetbrains.com/space/jetbrains-space-$version.exe#/cosi.7z
   hash:
     url: $baseurl/latest.yml
     regex: sha512:\s+$base64
