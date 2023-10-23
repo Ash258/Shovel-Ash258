@@ -7,7 +7,7 @@ license:
 changelog: https://github.com/web-pal/chronos-timetracker/releases/tag/v6.0.12
 architecture:
   64bit:
-    url: https://github.com/web-pal/chronos-timetracker/releases/download/v6.0.12/Chronos-Setup-6.0.12.exe
+    url: https://github.com/web-pal/chronos-timetracker/releases/download/v6.0.12/Chronos-Setup-6.0.12.exe#/cosi.7z
     hash: sha512:29513abf756f174aa02986d19a5740bf9eeff936fd91dba6b62e0ffd2cf1f20236b28ac0ffd53dd66869aeff131f40172bccff62430be27191a100673107d30c
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
@@ -21,7 +21,7 @@ autoupdate:
   changelog: https://github.com/web-pal/chronos-timetracker/releases/tag/v$version
   architecture:
     64bit:
-      url: https://github.com/web-pal/chronos-timetracker/releases/download/v$version/Chronos-Setup-$version.exe
+      url: https://github.com/web-pal/chronos-timetracker/releases/download/v$version/Chronos-Setup-$version.exe#/cosi.7z
       hash:
         url: $baseurl/latest.yml
         regex: sha512:\s+$base64
