@@ -1,14 +1,14 @@
-version: 6.2.0
+version: 6.3.0
 description: Chronos Timetracker. Desktop client for JIRA
 homepage: https://chronos.web-pal.com
 license:
   identifier: MIT
   url: https://github.com/web-pal/chronos-timetracker/blob/master/LICENSE.md
-changelog: https://github.com/web-pal/chronos-timetracker/releases/tag/v6.2.0
+changelog: https://github.com/web-pal/chronos-timetracker/releases/tag/v6.3.0
 architecture:
   64bit:
-    url: https://github.com/web-pal/chronos-timetracker/releases/download/v6.2.0/Chronos-Setup-6.2.0.exe#/cosi.7z
-    hash: sha512:fcc45989a1b7e1141b84ef921c224fba7e3130923329cd612c2c30854bc75498a11a05df3e133e08e707b75bbade78566eb516c004c533f1021d2f3d4648882f
+    url: https://github.com/web-pal/chronos-timetracker/releases/download/v6.3.0/Chronos-Setup-6.3.0.exe#/cosi.7z
+    hash: sha512:72da3325dd31eef0cfe90d91d82c4ea5c06ea5c5a8bde05ab86a070dab2a1420148c790658ee77a3337a31492b4459cd33736079d119833d37a0e4026ac53b7f
     pre_install: |
       Expand-7zipArchive "$dir\`$PLUGINSDIR\app-64.7z" $dir
       Remove-AppDirItem '$*', 'Uninst*'
