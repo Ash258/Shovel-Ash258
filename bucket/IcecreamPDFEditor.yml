@@ -1,9 +1,9 @@
-version: "3.15"
+version: "3.16"
 description: Icecream PDF Editor
 homepage: https://icecreamapps.com/PDF-Editor/
 license: Proprietary
 url: http://download.icecreamapps.com/pdf_editor_setup.exe
-hash: 6eb3bc409d1a007b9a5a7e271a3850028eacf419170b3dd83074fc14c599fcc6
+hash: 5ead02c4e403fcc1c9042512c9c998b559c3728460ef9a3160f529a30dddda61
 innosetup: true
 uninstaller:
   script: |
