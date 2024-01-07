@@ -1,9 +1,9 @@
-version: 3.0.3.7
+version: 3.0.3.8
 description: Windows Repair Toolbox. Faster, easier and uniform process of Windows repair.
 homepage: https://windows-repair-toolbox.com
 license: Freeware
 url: https://windows-repair-toolbox.com/files/Windows_Repair_Toolbox.zip
-hash: 43fde8eeacb4b2c977025e1f55b1d2b753abc4cc67c80471fdb19b6bb40f6945
+hash: d02229a49b0fe09954520da34651f4988bac507f7ba4f40ae22867393ab09aca
 bin:
 - - Windows_Repair_Toolbox.exe
   - winrepair
