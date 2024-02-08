@@ -1,4 +1,4 @@
-version: "1.3"
+version: "1.4"
 description: Sordum's Hibernate Enable Or Disable
 homepage: https://www.sordum.org/9502/
 license:
@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: Read_me.txt
 url: https://www.sordum.org/files/small-tools/Hibernate.zip
-hash: aed5753c9027af59d317329aff57d06c8de344c3a0615bfc0728fec28a84195a
+hash: 6c73fdd9f9efb374aaad085c3442baf5838e7b02dd7b08999224d7507446d85d
 extract_dir: Hibernate
 architecture:
   64bit:
