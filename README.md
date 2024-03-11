@@ -84,6 +84,7 @@
 | [JDownloader **(JDownloader)**](./bucket/JDownloader.yml)                                                                                                            |   ✔    |    ♻     |       ♻ (♻)       |
 | [JetBrains Space **(JetBrains-Space)**](./bucket/JetBrains-Space.yml)                                                                                                |   ✔    |    ✔     |       ✔ (✔)       |
 | [KeyFinder **(KeyFinder)**](./bucket/KeyFinder.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [kiota **(kiota)**](./bucket/kiota.yml)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [KMSpico **(KMS)**](./bucket/KMS.yml)                                                                                                                                |   ✔    |    ✔❓    |       ✔ (⛔)       |
 | [Kodi **(Kodi)**](./bucket/Kodi.yml)                                                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Komodo Edit **(KomodoEdit)**](./bucket/KomodoEdit.yml)                                                                                                              |   ✔    |    ✔     |       ✔ (✔)       |
