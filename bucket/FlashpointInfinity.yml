@@ -1,12 +1,12 @@
-version: "121"
+version: "13"
 description: BlueMaxima's Flashpoint Infinity/Archive/Launcher. Community effort to preserve games and animations from the web
 homepage: https://flashpointarchive.org/
 license:
   identifier: MIT
   url: https://github.com/FlashpointProject/launcher/blob/master/LICENSE
-url: https://download.unstable.life/upload/fp121static.7z
-hash: 4cdfc249b3e5c4d042da0dd2345695841cdcbde0bda33cf05decd2e429ad9d83
-extract_dir: Flashpoint 121 Infinity
+url: https://download.unstable.life/upload/fp13static.7z
+hash: a23323440968bf7d4c21f89b3eff10e7314c7b081125062c5548506173e0e288
+extract_dir: Flashpoint 13 Infinity
 shortcuts:
 - - Launcher\Flashpoint.exe
   - Flashpoint Infinity
