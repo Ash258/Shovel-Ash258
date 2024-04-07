@@ -1,13 +1,13 @@
 '##': Inspect if any of PDB files need to be persisted
-version: 6.10.2.0
+version: 6.8.1.0
 description: SoundSwitch. Default playing device switcher
 homepage: https://soundswitch.aaflalo.me
 license:
   identifier: GPL-2.0-or-later
   url: https://github.com/Belphemur/SoundSwitch/blob/master/LICENSE.txt
-changelog: https://github.com/Belphemur/SoundSwitch/releases/tag/v6.10.2.0
-url: https://github.com/Belphemur/SoundSwitch/releases/download/v6.10.2/SoundSwitch_v6.10.2.0_Release_Installer.exe
-hash: 45b44e24dcbbe118e856905e13f8099e46e80e4b1a977216e46c3baf9c308687
+changelog: https://github.com/Belphemur/SoundSwitch/releases/tag/v6.8.1.0
+url: https://github.com/Belphemur/SoundSwitch/releases/download/v6.8.1/SoundSwitch_v6.8.1.0_Release_Installer.exe
+hash: 1824baf1da19490a428a96969d7af8367411d01f4dbcd6f7584e90cfc2137fa9
 innosetup: true
 shortcuts:
 - - SoundSwitch.exe
