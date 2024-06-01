@@ -18,5 +18,4 @@ uninstaller:
 shortcuts:
 - - UpdateAssistant.exe
   - Windows 10 Update Assistant
-checkver:
-  regex: Version ([\dH]+)</h2
+checkver: Version ([\dH]+)</h2
