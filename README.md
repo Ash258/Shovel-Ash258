@@ -8,6 +8,7 @@
 
 - [Manifests](#manifests)
     - [Available manifests for installation](#available-manifests-for-installation)
+    - [Deprecated](#deprecated)
     - [Moved to other (known) bucket](#moved-to-other-known-bucket)
     - [TODOs](#todos)
 
@@ -152,7 +153,6 @@
 | [NetLimiter **(NetLimiter)**](./bucket/NetLimiter.yml)                                                                                                               |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NetworkNotepad **(NetworkNotepad)**](./bucket/NetworkNotepad.yml)                                                                                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [NetworkNotepad Professional Edition **(NetworkNotepad-pro)**](./bucket/NetworkNotepad-pro.yml)                                                                      |   ✔    |    ✔     |       ✔ (⛔)       |
-| [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.yml)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Oh My Posh **(oh-my-posh)**](./bucket/oh-my-posh.yml)                                                                                                               |   ✔    |    ✔     |       ✔ (✔)       |
 | [OnlyM **(OnlyM)**](./bucket/OnlyM.yml)                                                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Origin **(Origin)**](./bucket/Origin.yml)                                                                                                                           |   ✔    |    ♻     |       ♻ (♻)       |
@@ -309,6 +309,7 @@
 | [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.yml) |   ✔    |    ✔     |       ✔ (✔)       |
 | [oh-my-posh (v2) **(oh-my-posh)**](./deprecated/oh-my-posh.yml)                                           |   ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.yml)  |   ✔    |    ✔     |       ✔ (⛔)       |
+| [NoteTab Light **(NoteTabLight)**](./bucket/NoteTabLight.yml)                                             |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Scoop Completion **(scoop-completion)**](./bucket/scoop-completion.yml)                                  |   ✔    |    ♻     |       ♻ (♻)       |
 | [Switch UAC level **(SwitchUAC)**](./bucket/SwitchUAC.yml)                                                |   ✔    |    ✔     |       ❌ (⛔)       |
 | [Sordum's bPuzzle **(Bpuzzle)**](./bucket/bPuzzle.yml)                                                    |   ✔    |    ✔     |       ✔(⛔)        |
