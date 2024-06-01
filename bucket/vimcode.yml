@@ -1,21 +1,18 @@
-version: 1.83.1
+version: 1.89.1
 description: Portable code for vim education
 homepage: https://code.visualstudio.com
 license:
   identifier: Freeware
   url: https://code.visualstudio.com/License
-changelog: https://code.visualstudio.com/updates/v1_83
+changelog: https://code.visualstudio.com/updates/v1_89
 depends: vim
 architecture:
   64bit:
-    url: https://update.code.visualstudio.com/1.83.1/win32-x64-archive/stable#/cosi.zip
-    hash: bf53268e45d12cd43d4f7c61cd782d11d13646eb21e7d57532739a952f4d7ff5
-  32bit:
-    url: https://update.code.visualstudio.com/1.83.1/win32-archive/stable#/cosi.zip
-    hash: 91f1e91dfc17caaa23d7c0bdf889581b79621362eb10bda00ed0a9bb0c13ff77
+    url: https://update.code.visualstudio.com/1.89.1/win32-x64-archive/stable#/cosi.zip
+    hash: 197301c5b2e9f3021520c6e005fdf4304ea706f81aba50ebf481069955748921
   arm64:
-    url: https://update.code.visualstudio.com/1.83.1/win32-arm64-archive/stable#/cosi.zip
-    hash: 91d66a14408ea12bf63905f56b7673242ea3e4f797f75df3b4c0e702c9e3a1b7
+    url: https://update.code.visualstudio.com/1.89.1/win32-arm64-archive/stable#/cosi.zip
+    hash: 91e8e24013f271b059d05abb095b7b03e59da2138d311a30a0aaaa09aa6c4b28
 pre_install: |
   if (!(Test-Path -LiteralPath "$persist_dir\data" -PathType 'Container')) {
       @('tmp', 'user-data', 'extensions') | ForEach-Object { Confirm-DirectoryExistence "$dir\data\$_" | Out-Null }
@@ -42,11 +39,6 @@ autoupdate:
       hash:
         url: https://code.visualstudio.com/sha?build=stable
         jsonpath: $.products[?(@.platform.os == 'win32-x64-archive')].sha256hash
-    32bit:
-      url: https://update.code.visualstudio.com/$version/win32-archive/stable#/cosi.zip
-      hash:
-        url: https://code.visualstudio.com/sha?build=stable
-        jsonpath: $.products[?(@.platform.os == 'win32-archive')].sha256hash
     arm64:
       url: https://update.code.visualstudio.com/$version/win32-arm64-archive/stable#/cosi.zip
       hash:
