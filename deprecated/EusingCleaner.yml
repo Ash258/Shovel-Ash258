@@ -3,7 +3,7 @@ description: Eusing Cleaner. System optimization and privacy cleaner tool.
 homepage: https://www.eusing.com/free_system_cleaner/system_cleaner.htm
 license: Freeware
 url: https://www.hide-windows.com/Download/EusingCleaner.zip
-hash: ea0d3b3ae4608e307cdd2af27a4ac73411485c539f1e33e53b5edb714de0040e
+hash: acf938833de67b5c348532dc35268ba706138756240b668b5c670c840a55676b
 pre_install: Test-Persistence 'options.ini' '[Options]', "OutputDirectory=$dir\Backup"
 shortcuts:
 - - SCleaner.exe

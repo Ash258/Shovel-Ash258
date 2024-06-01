@@ -60,7 +60,6 @@
 | [emClient **(emClient)**](./bucket/emClient.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Epic Games Launcher **(EpicGamesLauncher)**](./bucket/EpicGamesLauncher.yml)                                                                                        |   ✔    |    ♻     |       ♻ (♻)       |
 | [The Microsoft Error Lookup Tool **(Err)**](./bucket/Err.yml)                                                                                                        |   ✔    |    ✔     |       ✔ (⛔)       |
-| [Eusing Cleaner **(EusingCleaner)**](./bucket/EusingCleaner.yml)                                                                                                     |   ✔    |    ✔     |       ✔ (⛔)       |
 | [ExperienceIndexOK **(ExperienceIndexOK)**](./bucket/ExperienceIndexOK.yml)                                                                                          |   ✔    |    ✔     |       ✔ (✔)       |
 | [Facebook Messenger **(FacebookMessenger)**](./bucket/FacebookMessenger.yml)                                                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [FastShare Download Manager **(FastShare)**](./bucket/FastShare.yml)                                                                                                 |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -293,7 +292,6 @@
 | [winget **(winget)**](./bucket/winget.yml)                                                                                                                           |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
-| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.yml)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
 | [X3 Bold Red Cursor **(X3)**](./bucket/X3.yml)                                                                                                                       |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [YoloMouse **(YoloMouse)**](./bucket/YoloMouse.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 
@@ -307,6 +305,7 @@
 | [CheatHappens Trainer Manager **(TrainerManager)**](./deprecated/TrainerManager.yml)                      |   ✔    |    ✔     |       ✔ (⛔)       |
 | [CosMOS Advanced **(CosMOS)**](./deprecated/CosMOS.yml)                                                   |   ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [CosMOS Beginner **(CosMOSBeginner)**](./deprecated/CosMOSBeginner.yml)                                   |   ✔🔶   |    ✔     |       ✔ (⛔)       |
+| [Eusing Cleaner **(EusingCleaner)**](./bucket/EusingCleaner.yml)                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Kigo Netflix Video Downloader **(KigoNetflixVideoDownloader)**](./bucket/KigoNetflixVideoDownloader.yml) |   ✔    |    ✔     |       ✔ (✔)       |
 | [oh-my-posh (v2) **(oh-my-posh)**](./deprecated/oh-my-posh.yml)                                           |   ✔🔶   |    ✔     |       ✔ (⛔)       |
 | [MiniTool Partition Wizard Free **(MiniToolPartitionWizard)**](./deprecated/MiniToolPartitionWizard.yml)  |   ✔    |    ✔     |       ✔ (⛔)       |
@@ -321,6 +320,7 @@
 | [System Ninja **(SystemNinja)**](./bucket/SystemNinja.yml)                                                |   ✔    |    ✔     |       ✔ (⛔)       |
 | [TransMac **(TransMac)**](./bucket/TransMac.yml)                                                          |   ✔    |    ✔     |       ✔ (⛔)       |
 | [VirusTotal Uploader **(VirusTotalUploader)**](./bucket/VirusTotalUploader.yml)                           |   ✔    |    ✔     |       ✔ (⛔)       |
+| [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.yml)                                   |   ✔    |    ✔     |       ✔ (⛔)       |
 | [Quick CPU **(QuickCPU)**](./bucket/QuickCPU.yml)                                                         |   ✔    |    ✔     |       ✔ (⛔)       |
 | [OverClock Checking Tool **(OverClockCheckingTool)**](./bucket/OverClockCheckingTool.yml)                 |   ✔    |    ✔     |       ✔ (⛔)       |
 

@@ -3,7 +3,7 @@ description: SolarWinds Putty. Professional remote session manager
 homepage: https://www.solarwinds.com/free-tools/solar-putty
 license: Freeware
 url: https://downloads.solarwinds.com/solarwinds/Release/FreeTool/SolarWinds-FT-Solar-PuTTY.zip
-hash: 213fe096d2f172d5276cb328bb08b1e598ad76cb165ba5bfe311048bfe56e201
+hash: eba14cd3dadea0eaaa8fb3957b2fc9f26ea28119ec621f8733f750e8f173671a
 installer:
   script: |
     Expand-7zipArchive "$dir\Solar-PuTTY.exe" -Removal

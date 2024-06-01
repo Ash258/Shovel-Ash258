@@ -3,7 +3,7 @@ description: A Ruler For Windows. On screen pixel ruler / reading guide.
 homepage: https://www.arulerforwindows.com/index.html
 license: CC-BY-ND-4.0
 url: https://www.arulerforwindows.com/arulersetupv39.exe
-hash: 6296925b2471940b689ced28b5ad897297a40cffb37d22f42a9af8b11810c08d
+hash: 0cef9f5dcc7aa14cd86fce0f4a0989a8498a87cd7740bb96feb978eed546bd75
 innosetup: true
 shortcuts:
 - - aruler.exe
