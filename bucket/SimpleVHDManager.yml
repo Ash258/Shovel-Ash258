@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/simple-vhd-manager/vhd.zip
-hash: 63e1380a930bf3bb2ad08ab38c3596e0cb9f9199f8fe840b70304f35d9749ed9
+hash: 90bb2f1e5287b4ac0958d726b89db40f39fde429e465e2d5d098caede5bcbafa
 extract_dir: VHD_manager_v1.5
 architecture:
   64bit:

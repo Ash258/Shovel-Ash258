@@ -6,7 +6,7 @@ license:
   url: https://www.sordum.org/eula/
 changelog: ReadMe.txt
 url: https://www.sordum.org/files/download/d-control/dControl.zip#/cosi.cosi
-hash: 9205988554d2cc6e3186a6d8452e3edb9c1bfbd730352a8a17dd7d219ce380f0
+hash: 7eb7ab6f0065c6ea388e7de88f32c2736dedfcc86178189c0d20d8b3255eb201
 extract_dir: dControl
 pre_install: |
   $splat = @{ 'ExtractDir' = $manifest.extract_dir; 'Switches' = '-psordum'; 'Removal' = $true }

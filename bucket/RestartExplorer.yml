@@ -5,7 +5,7 @@ license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/Rexplorer.zip
-hash: 0cd4fe0ee1d9f87a4635ff3742ef656b31cb04c0b6fa782febec6b2c687ae88c
+hash: b6c1e6ab3c3fac4846803eca37f3b98db5fc40c304cda8e950aed5d7accd6908
 extract_dir: Rexplorer
 architecture:
   64bit:

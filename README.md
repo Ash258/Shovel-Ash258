@@ -294,6 +294,7 @@
 | [Winrar CZ **(Winrar-cz)**](./bucket/Winrar-cz.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 | [WireMock **(WireMock)**](./bucket/WireMock.yml)                                                                                                                     |   ✔    |    ✔     |       ✔ (✔)       |
 | [Wise Disk Cleaner **(WiseDiskCleaner)**](./bucket/WiseDiskCleaner.yml)                                                                                              |   ✔    |    ✔     |       ✔ (⛔)       |
+| [X3 Bold Red Cursor **(X3)**](./bucket/X3.yml)                                                                                                                       |   ❌    |    ⭕     |       ⭕ (⭕)       |
 | [YoloMouse **(YoloMouse)**](./bucket/YoloMouse.yml)                                                                                                                  |   ✔    |    ✔     |       ✔ (⛔)       |
 
 ### Deprecated
@@ -391,7 +392,6 @@ bitrix24
 | [Ashampoo Stuff](https://www.ashampoo.com/en/usd/fdl/21/0/free/0)                                |
 | [Who Is On My WiFi **(WhoIsOnMyWifi)**](./bucket/WhoIsOnMyWifi.yml)                       | ❌   | ✔   | ✔ (✔) |
 | ----------------------------------------------------------------------------------------- | --- | --- | ----- |
-| [X3 Bold Red Cursor **(X3)**](./bucket/X3.yml)                                            | ❌   | ⭕   | ⭕ (⭕) |
 | [Easy2Boot **(E2B)**](./TODO/E2B.yml)                                                     | ❌   | ✔   | ✔ (⛔) |
 | [Spybot Search & Destroy 2 **(Spybot)**](./TODO/Spybot.yml)                               | ❌   | ✔   | ✔ (⛔) |
 | [Corsair's iCue **(iCue)**](./TODO/iCue.yml)                                              | ✔🔶  | ✔   | ✔ (⛔) |
