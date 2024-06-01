@@ -7,14 +7,14 @@ hash: 961c2dc2ed3cb3629623dbe7bc0dc8fdc57671d711ea58bb3c4e183a6af5cb00
 innosetup: true
 pre_install: Test-Persistence 'config.ini' '[General]', 'checkNewVer=3'
 shortcuts:
-- - WiseDiskCleaner.exe
-  - Wise Disk Cleaner
+  - - WiseDiskCleaner.exe
+    - Wise Disk Cleaner
 persist:
-- config.ini
-- DefragOptions.ini
+  - config.ini
+  - DefragOptions.ini
 checkver:
   url: http://www.wisecleaner.com/software_update/getinfo.php?p_id=4
   jsonpath: $.download_exe
   regex: Free_([\d.]+)\.exe
 autoupdate:
-  url: http://downloads.wisecleaner.com/soft/WDCFree_$version.exe
+  url: https://downloads.wisecleaner.com/soft/WDCFree_$version.exe

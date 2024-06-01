@@ -5,7 +5,7 @@ license:
   identifier: MIT
   url: https://github.com/FlashpointProject/launcher/blob/master/LICENSE
 url: https://download.unstable.life/upload/fp13static.7z
-hash: a23323440968bf7d4c21f89b3eff10e7314c7b081125062c5548506173e0e288
+hash: b49aea698b2ca76e52d8482aae0b19ed1222eb20585b469feb341f6e7401d3dd
 extract_dir: Flashpoint 13 Infinity
 shortcuts:
 - - Launcher\Flashpoint.exe

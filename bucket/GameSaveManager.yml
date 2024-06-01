@@ -4,12 +4,14 @@ homepage: https://www.gamesave-manager.com
 license: Freeware
 changelog: https://www.gamesave-manager.com/?s=changelog&view=a21505c0-021f-4252-9797-da19a84e1bf7&type=client
 url: https://www.gamesave-manager.com/?s=download&file-id=dab3599c-414d-4f7f-99ca-ba0a86c084f8&action=start#/cosi.zip
-hash: sha1:c8512604066168178162ed6c58e355bdadb4efb8
+hash: sha1:0500f55f6b7c9df7112920ab2abb6ddfe227193a
 bin: gs_mngr_3.exe
 shortcuts:
 - - gs_mngr_3.exe
   - GameSave Manager
-checkver: (?sm)releasedetailsvalues">\s+([\d.]+).*?s=download&file-id=(?<GUID>[-\dA-Za-z]+)&
+checkver:
+  regex: (?sm)releasedetailsvalues">\s+([\d.]+).*?s=download&file-id=(?<GUID>[-\dA-Za-z]+)&
+  disable: true
 autoupdate:
   url: https://www.gamesave-manager.com/?s=download&file-id=$matchGUID&action=start#/cosi.zip
   hash:
