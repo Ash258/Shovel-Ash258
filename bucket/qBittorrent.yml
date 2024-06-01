@@ -1,4 +1,4 @@
-version: 4.5.5
+version: 4.6.5
 description: qBittorrent. Free and reliable P2P Bittorent client
 homepage: https://www.qbittorrent.org
 license:
@@ -6,8 +6,8 @@ license:
   url: https://github.com/qbittorrent/qBittorrent/blob/master/COPYING
 architecture:
   64bit:
-    url: https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.5.5/qbittorrent_4.5.5_lt20_qt6_x64_setup.exe#/cosi.7z
-    hash: 35a9015ca2fbce85348ba4d896af7c3d9eef6b58f424e575f39102fac5450be6
+    url: https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.6.5/qbittorrent_4.6.5_lt20_qt6_x64_setup.exe#/cosi.7z
+    hash: bf2d8a0e58e61a4fc75b20b71453fe911765c6f4b2ce0d1862ccda9c38c849f1
 pre_install: Remove-AppDirItem '$*'
 bin: qbittorrent.exe
 shortcuts:
