@@ -1,14 +1,14 @@
-version: 6.5.0
+version: 6.5.1
 description: Simple and lightweight application to convert set of mp3 files to single m4b file.
 homepage: https://www.recoupler.com/products/audiobookconverter
 license:
   identifier: GPL-2.0-only
   url: https://github.com/yermak/AudioBookConverter/blob/master/LICENSE
-changelog: https://github.com/yermak/AudioBookConverter/releases/tag/version_6.5.0
+changelog: https://github.com/yermak/AudioBookConverter/releases/tag/version_6.5.1
 architecture:
   64bit:
-    url: https://github.com/yermak/AudioBookConverter/releases/download/version_6.5.0/AudioBookConverter-Portable-6.5.0.zip
-    hash: eccb22d9fbfe8712c6bdf05bf945b89688d713d3e94b561c1ea1f2cffb66860f
+    url: https://github.com/yermak/AudioBookConverter/releases/download/version_6.5.1/AudioBookConverter-Portable-6.5.1.zip
+    hash: 60494dd16d477976d7fab8bb61bab937cf81ff938d9e7d6a6afb5a4e3aae8e6f
 extract_dir: AudioBookConverter
 shortcuts:
 - - AudioBookConverter.exe
