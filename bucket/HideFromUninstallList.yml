@@ -1,11 +1,11 @@
-version: "1.0"
+version: "1.1"
 description: Sordum's Hide From Uninstall List
 homepage: https://www.sordum.org/11081/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/hide-from-uninstall-list/HideUL.zip
-hash: c0dfa51657d72d26ab58594bca7fd35e6e41e57085436974efd4ffd25e4445b8
+hash: f41608c7d9654bea7657aa28954a69f35eeb2145cef77768572886428d875a31
 extract_dir: HideUL
 shortcuts:
 - - HideUL.exe
