@@ -1,4 +1,4 @@
-version: 1.6.1
+version: 1.6.2
 description: Scribus. Libre Desktop Publishing
 homepage: https://www.scribus.net
 license:
@@ -6,11 +6,11 @@ license:
   url: https://sourceforge.net/p/scribus/code/ci/master/tree/Scribus/COPYING
 architecture:
   64bit:
-    url: https://downloads.sourceforge.net/project/scribus/scribus/1.6.1/scribus-1.6.1-windows-x64.exe#/cosi.7z
-    hash: 7eaa92581a8262a2f339b7cc4cb8982fa52454d27e6738e23ec14a66db2a8fed
+    url: https://downloads.sourceforge.net/project/scribus/scribus/1.6.2/scribus-1.6.2-windows-x64.exe#/cosi.7z
+    hash: 6d83526a6ff88208e52c474ecbc8b714ee51d8e5e1672cd6527b98d9c4977706
   32bit:
-    url: https://downloads.sourceforge.net/project/scribus/scribus/1.6.1/scribus-1.6.1-windows.exe#/cosi.7z
-    hash: 82e7bed899524f2084f698f90fbfc41269c1d3b7c9f22ee8434866f0a51f1cfa
+    url: https://downloads.sourceforge.net/project/scribus/scribus/1.6.2/scribus-1.6.2-windows.exe#/cosi.7z
+    hash: 57065cfac522f6fa3d08de070df8a0bf84baa8eec881f4098a31c2a08a9690d6
 pre_install: Remove-AppDirItem '$*', 'unins*'
 bin: Scribus.exe
 shortcuts:
