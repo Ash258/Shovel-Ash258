@@ -1,24 +1,24 @@
-version: 1.5.2
+version: 1.5.3
 description: devilutionX. Diablo I
 homepage: https://github.com/diasurgical/devilutionX
 license:
   identifier: Unlicense
   url: https://github.com/diasurgical/devilutionX/blob/master/LICENSE
-changelog: https://github.com/diasurgical/devilutionX/releases/tag/1.5.2
+changelog: https://github.com/diasurgical/devilutionX/releases/tag/1.5.3
 architecture:
   64bit:
     url:
-    - https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-windows-x86_64.zip
+    - https://github.com/diasurgical/devilutionX/releases/download/1.5.3/devilutionx-windows-x86_64.zip
     - http://cdn.pvpgn.pro/diablo1/DIABDAT.MPQ#/diabdat.mpq
     hash:
-    - 827d64c41b5e3402b670d2e7d71f7a18dd373a6803854e1daae334480831172d
+    - a089c38b13fb7e0a2d12c47bd0fd2cece6615fb8b364d52c14c8159e2c582797
     - 6bc120a603fdb383ff91f374e7db599765d6230d81e5a4c1b33f8254911774e7
   32bit:
     url:
-    - https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-windows-i386.zip
+    - https://github.com/diasurgical/devilutionX/releases/download/1.5.3/devilutionx-windows-i386.zip
     - http://cdn.pvpgn.pro/diablo1/DIABDAT.MPQ#/diabdat.mpq
     hash:
-    - e3ff971697551dd98141e414f62b115a2028c097998809f24d6fa36e22c7b31f
+    - 0c577a9b97a2c72f6ab70b76488113db4976002ac4e601dea1877c736b32d33f
     - 6bc120a603fdb383ff91f374e7db599765d6230d81e5a4c1b33f8254911774e7
 extract_dir: devilutionx
 bin: devilutionX.exe
