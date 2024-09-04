@@ -1,4 +1,4 @@
-version: 1.68.0-beta.8255.296281a6e
+version: 1.68.0-beta.8257.802a938bd
 description: Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.
 homepage: https://rclone.org
 license:
@@ -7,13 +7,13 @@ license:
 changelog: https://github.com/rclone/rclone/commits/master
 architecture:
   64bit:
-    url: https://beta.rclone.org/v1.68.0-beta.8255.296281a6e/rclone-v1.68.0-beta.8255.296281a6e-windows-amd64.zip
-    hash: 0b8263f136cd9b1791a9900f1ad7e7023f5bbffe9d4f65b70213a7aef8dd744e
-    extract_dir: rclone-v1.68.0-beta.8255.296281a6e-windows-amd64
+    url: https://beta.rclone.org/v1.68.0-beta.8257.802a938bd/rclone-v1.68.0-beta.8257.802a938bd-windows-amd64.zip
+    hash: 1bf909feaf70c96d20b974fce09616e1d150489abf26ffcd1f3d69d90cb7f62e
+    extract_dir: rclone-v1.68.0-beta.8257.802a938bd-windows-amd64
   32bit:
-    url: https://beta.rclone.org/v1.68.0-beta.8255.296281a6e/rclone-v1.68.0-beta.8255.296281a6e-windows-386.zip
-    hash: 22d77c11e989a0c84731358c49ef8afdef7b6a14d3017b20a684c7dbdb556b46
-    extract_dir: rclone-v1.68.0-beta.8255.296281a6e-windows-386
+    url: https://beta.rclone.org/v1.68.0-beta.8257.802a938bd/rclone-v1.68.0-beta.8257.802a938bd-windows-386.zip
+    hash: 614e3372e7ae4db9a872e73060dcbfc05a4b84db6302def2ae60eab52140b371
+    extract_dir: rclone-v1.68.0-beta.8257.802a938bd-windows-386
 pre_install: Test-Persistence 'rclone.conf'
 bin: rclone.exe
 persist: rclone.conf
