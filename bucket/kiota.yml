@@ -1,4 +1,4 @@
-version: 1.17.0
+version: 1.18.0
 description: Kiota. OpenAPI based HTTP Client code generator
 homepage: https://learn.microsoft.com/en-us/openapi/kiota/
 license:
@@ -6,11 +6,11 @@ license:
   url: https://github.com/microsoft/kiota/blob/main/LICENSE
 architecture:
   64bit:
-    url: https://github.com/microsoft/kiota/releases/download/v1.17.0/win-x64.zip
-    hash: 103a685302d9f3dc6d87b446414dde7099f36749959ad3b31506aa306e6106b7
+    url: https://github.com/microsoft/kiota/releases/download/v1.18.0/win-x64.zip
+    hash: eab71122320cc135a18fa18e7d5079b65ad0bf2ae2355d29312841289453c443
   32bit:
-    url: https://github.com/microsoft/kiota/releases/download/v1.17.0/win-x86.zip
-    hash: c79d2108129c3187de14320478ae9588df100ff5e37270bebacfbbdc2ef9aeed
+    url: https://github.com/microsoft/kiota/releases/download/v1.18.0/win-x86.zip
+    hash: 20f56ad821023b8a396ac0acc197ab4cd62511d635a4ed9b1969bd8cff286f16
 bin: kiota.exe
 checkver:
   github: https://github.com/microsoft/kiota
