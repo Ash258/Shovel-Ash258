@@ -1,12 +1,12 @@
-version: 7.0.33
+version: 7.0.34
 description: Steam Achievement Mangager
 homepage: https://github.com/gibbed/SteamAchievementManager
 license:
   identifier: Zlib
   url: https://github.com/gibbed/SteamAchievementManager/blob/master/LICENSE.txt
-changelog: https://github.com/gibbed/SteamAchievementManager/releases/tag/7.0.33
-url: https://github.com/gibbed/SteamAchievementManager/releases/download/7.0.33/SteamAchievementManager-7.0.33.zip
-hash: c83709ec324c64147f3d1ff916c7bad62dbfa3068f77e9c39c395e06eea145e3
+changelog: https://github.com/gibbed/SteamAchievementManager/releases/tag/7.0.34
+url: https://github.com/gibbed/SteamAchievementManager/releases/download/7.0.34/SteamAchievementManager-7.0.34.zip
+hash: eb3ba1a7c36cf3b8d85b0ed0d5630fa71554b9b5226bde881af9b905dd6495e1
 shortcuts:
 - - SAM.Picker.exe
   - Steam Achievement Manager
