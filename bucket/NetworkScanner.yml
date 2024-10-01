@@ -1,9 +1,9 @@
-version: 5.7.1.0
+version: 6.0.0.0
 description: MiTeC Network Scanner
 homepage: https://www.mitec.cz/netscan.html
 license: Proprietary
 url: https://www.mitec.cz/Downloads/NetScanner.zip
-hash: bcb770b8d9090338ebbd429da621c063350286ed7721d1f2703010efe67bec37
+hash: 334fedfaff5e4652edc1b307b88db6edad0193a0ebcba1a81cffcaa0228b152a
 architecture:
   64bit:
     pre_install: Get-ChildItem $dir 'NetScanner*exe' | Rename-Item 'NetScanner' -Force
