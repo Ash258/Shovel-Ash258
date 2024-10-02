@@ -1,20 +1,20 @@
-version: 7.5.0-preview.3
+version: 7.5.0-preview.5
 description: PowerShell Core Preview. Cross-Platform task automation and configuration management framework/tool.
 homepage: https://github.com/PowerShell/PowerShell
 license:
   identifier: MIT
   url: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
-changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.5.0-preview.3
+changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.5.0-preview.5
 architecture:
   64bit:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.3/PowerShell-7.5.0-preview.3-win-x64.zip
-    hash: b14c25b408a46639818cd8977bd159b3ef5e4bddd67d359426a24271a14f51b4
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.5/PowerShell-7.5.0-preview.5-win-x64.zip
+    hash: a6eba1e19528680c7366753aace893ab680f75142685ebfc0a982d27f92d31b8
   32bit:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.3/PowerShell-7.5.0-preview.3-win-x86.zip
-    hash: 7128b230ef0dcaee0785dce82538d5a59e5d005cd964a6925385a3fbc69762c3
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.5/PowerShell-7.5.0-preview.5-win-x86.zip
+    hash: a5ab015756b265ed6d1702835c981ae31fb92a5585930bacc4a7ba38b3f6eba7
   arm64:
-    url: https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.3/PowerShell-7.5.0-preview.3-win-arm64.zip
-    hash: 837ef2b709f093ecfaddfaebb1e45bb4411ed2e6bf6f3a1b6f7290d4eab21839
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.5/PowerShell-7.5.0-preview.5-win-arm64.zip
+    hash: c7d7906ca97dc2cd4926a45ef2cb6b7400cad3d05b073893e9a53945600ae01a
 pre_install: |
   Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'
 
