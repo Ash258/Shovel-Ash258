@@ -1,4 +1,4 @@
-version: 24.10.1.3730
+version: 24.10.1.3733
 description: File processing application that can execute actions against a file in a tree flow structure.
 homepage: https://fileflows.com
 license:
@@ -7,7 +7,7 @@ license:
 architecture:
   64bit:
     url: https://fileflows.com/downloads/exe#/cosi.7z
-    hash: 77a379a2b076dcb0756887261bb658cd1d524b7d8496f7f1297a600ee01a755f
+    hash: ce7919ce5e4796dd30d4b6f69619906399d6e27d9c9f0eca74f1411ac95cb02c
 pre_install: |
   Remove-AppDirItem '$*', 'uninstall.exe'
   $cnt = @(
