@@ -1,18 +1,18 @@
-version: 1.93.1
+version: 1.94.0
 description: Portable code for vim education
 homepage: https://code.visualstudio.com
 license:
   identifier: Freeware
   url: https://code.visualstudio.com/License
-changelog: https://code.visualstudio.com/updates/v1_93
+changelog: https://code.visualstudio.com/updates/v1_94
 depends: vim
 architecture:
   64bit:
-    url: https://update.code.visualstudio.com/1.93.1/win32-x64-archive/stable#/cosi.zip
-    hash: d74a51590e4d1c9c7ad63488c2aafb83f9b665d67f6982c8249281c21c640977
+    url: https://update.code.visualstudio.com/1.94.0/win32-x64-archive/stable#/cosi.zip
+    hash: fe1523b00d874dea08bac676709fd915479a915d7f877cec11d82d38f0797922
   arm64:
-    url: https://update.code.visualstudio.com/1.93.1/win32-arm64-archive/stable#/cosi.zip
-    hash: beace0327bbe1431735944d94b24d18f7fa69bfca09c55475f48a458439a7fcd
+    url: https://update.code.visualstudio.com/1.94.0/win32-arm64-archive/stable#/cosi.zip
+    hash: 459c6993d9ab995c21f7a294cfd5097aa1da109a6bd4525cb649e6275ba7ebf9
 pre_install: |
   if (!(Test-Path -LiteralPath "$persist_dir\data" -PathType 'Container')) {
       @('tmp', 'user-data', 'extensions') | ForEach-Object { Confirm-DirectoryExistence "$dir\data\$_" | Out-Null }
