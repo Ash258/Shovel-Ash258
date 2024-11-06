@@ -1,9 +1,9 @@
-version: 23.3.87
+version: 24.4.102
 description: Paessler's SNMP Tester. Simple debugging tool for monitoring configurations that use SNMP.
 homepage: https://www.paessler.com/tools/snmptester
 license: Freeware
 url: https://downloads.paessler.com/tools/snmp-tester/Paessler%20SNMP%20Tester.zip
-hash: 0baf6599f273431c24bc7e372cb1cb37c5728f08e761128d4ab927a553b662ad
+hash: d616408a0c82a88c760731e4c72c6f44759ca532a070adff37a000aa279c249a
 pre_install: (Get-ChildItem $dir 'Paessler*Setup.exe').Fullname | Expand-InnoArchive -DestinationPath $dir -Removal
 shortcuts:
 - - snmptest.exe
