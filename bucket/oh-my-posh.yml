@@ -1,31 +1,31 @@
-version: 24.6.2
+version: 24.6.3
 description: A prompt theme engine for any shell
 homepage: https://ohmyposh.dev
 license:
   identifier: GPL-3.0-only
   url: https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING
-changelog: https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v24.6.2
+changelog: https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v24.6.3
 architecture:
   64bit:
     url:
-    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.6.2/posh-windows-amd64.exe#/oh-my-posh.exe
+    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.6.3/posh-windows-amd64.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.yml
     hash:
-    - b6708140f752817db2c4e2e0cdba23783882e35c570775d71f1c3d9ecbbd8785
+    - c012202c3bf05e8d41d2062d9e0c704412cd7e8299ca8e86af58b0028e1b6517
     - 254ecc440bdd96f19fe770f9fc5147a28bf25788f24ac02fd73c3876722a1aac
   32bit:
     url:
-    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.6.2/posh-windows-386.exe#/oh-my-posh.exe
+    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.6.3/posh-windows-386.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.yml
     hash:
-    - 35698d24ee62023be1cae0c2aa9f0280791d3845a2f5f96e1b8875947ee54ca2
+    - 66db1baa925fa247ab706724bcfbd110004305de6b23342d460818da40ca15d5
     - 254ecc440bdd96f19fe770f9fc5147a28bf25788f24ac02fd73c3876722a1aac
   arm64:
     url:
-    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.6.2/posh-windows-arm64.exe#/oh-my-posh.exe
+    - https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.6.3/posh-windows-arm64.exe#/oh-my-posh.exe
     - https://raw.githubusercontent.com/Ash258/Scoop-Ash258/main/support/oh-my-posh/Ash258.yml
     hash:
-    - 383083cd3fcac74aecf11152c0f07e1bb707adb9db5f2574694a651da9e15477
+    - 0fc0663bc4e91c88333168e01d99019af8df0a267a86df49c5c1e086b52a6938
     - 254ecc440bdd96f19fe770f9fc5147a28bf25788f24ac02fd73c3876722a1aac
 post_install: |
   $th = "$dir\themes"
