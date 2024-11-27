@@ -1,11 +1,11 @@
-version: "1.6"
+version: "1.7"
 description: Sordum's Reduce Memory
 homepage: https://www.sordum.org/9197/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/ReduceMemory.zip
-hash: 8381123114d1817365b08fa86a808a794f5ef472720aa49a055217b6e0c8b0e7
+hash: 27af992db193bc6c34b9b44056a61cba26034b03502a22b830e3596e56f7440c
 extract_dir: ReduceMemory
 architecture:
   64bit:
