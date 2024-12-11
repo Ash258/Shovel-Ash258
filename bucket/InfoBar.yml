@@ -1,9 +1,9 @@
-version: 4.5.2
+version: 4.6.0
 description: MiTeC InfoBar. Windows-taskbar-like window with the most important information about system
 homepage: https://www.mitec.cz/infobar.html
 license: Proprietary
 url: https://www.mitec.cz/Downloads/InfoBar_Setup.exe
-hash: dfc9cc01e31762a83488c3da469f644dc11f56d5b825e961494ee84cbc498e56
+hash: f823e4543603c06adaab4a1a0a592dde5968c9145a817c39b590f614fc801251
 innosetup: true
 architecture:
   64bit:
