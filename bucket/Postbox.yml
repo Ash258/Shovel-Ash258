@@ -1,11 +1,11 @@
-version: 7.0.64
+version: 7.0.65
 description: Postbox. Powerful, feature-rich, intuitive and customizable email client.
 homepage: https://www.postbox-inc.com
 license:
   identifier: Proprietary
   url: https://www.postbox-inc.com/legal/eula
-url: https://d3nx85trn0lqsg.cloudfront.net/win/postbox-7.0.64-win32.exe#/cosi.7z
-hash: 34313f560f6b8bd5f57f9a156504873466abc0447d947c53f279a2d76634299a
+url: https://d3nx85trn0lqsg.cloudfront.net/win/postbox-7.0.65-win32.exe#/cosi.7z
+hash: 4d51500ea59266da72fcf539a3d10ffac8073fa54a7a41f2f1be2549418744a2
 extract_dir: core
 shortcuts:
 - - postbox.exe
