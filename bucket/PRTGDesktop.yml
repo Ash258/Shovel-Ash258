@@ -1,14 +1,14 @@
-version: 24.12.0
+version: 24.13.0
 description: Paessler's PRTG Desktop App. Completely control multiple PRTG installations.
 homepage: https://www.paessler.com/prtg-desktop-app
 license: Freeware
 architecture:
   64bit:
-    url: https://downloads.paessler.com/prtg_desktop/24.12.0/64bit/PRTG_Desktop_Full_Installer.msi
-    hash: eb34a78ef762dcb2f88dc1fe1bdd794e968e1030ce495f10d9eeb44b7a75cf53
+    url: https://downloads.paessler.com/prtg_desktop/24.13.0/64bit/PRTG_Desktop_Full_Installer.msi
+    hash: 54b258cddeba05ad90ea2c612ab722967706d7a5f02eded383226aa569165d90
   32bit:
-    url: https://downloads.paessler.com/prtg_desktop/24.12.0/32bit/PRTG_Desktop_Full_Installer.msi
-    hash: 5a7ebccff9b7ea22d8b6378e114a4054d38803b3646964fa9b4b088a6831fb91
+    url: https://downloads.paessler.com/prtg_desktop/24.13.0/32bit/PRTG_Desktop_Full_Installer.msi
+    hash: d3aabc9119880c68d9d18212cf149d52f99c77f9448a318aa6d74898c0a91735
 extract_dir: Paessler\PRTG Desktop
 bin: prtgdesktop.exe
 shortcuts:
