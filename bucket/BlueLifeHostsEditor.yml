@@ -1,12 +1,12 @@
-version: "1.5"
+version: "1.6"
 description: Sordum's BlueLife Hosts Editor. Hosts file editor
 homepage: https://www.sordum.org/8266/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/bluelife-host-editor/bl_hst_edit.zip
-hash: 931679d35da4374b3b5bb19ba5725ac405849bef1730c1386cd578410da69f05
-extract_dir: HostsEditor_v1.5
+hash: 86f3433f6131b560cc01f48200d16c943bb042a6a38bf53720bff2d3685e6888
+extract_dir: HostsEditor_v1.6
 architecture:
   64bit:
     bin:
