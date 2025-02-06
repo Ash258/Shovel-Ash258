@@ -1,18 +1,18 @@
-version: 1.96.4
+version: 1.97.0
 description: Portable code for vim education
 homepage: https://code.visualstudio.com
 license:
   identifier: Freeware
   url: https://code.visualstudio.com/License
-changelog: https://code.visualstudio.com/updates/v1_96
+changelog: https://code.visualstudio.com/updates/v1_97
 depends: vim
 architecture:
   64bit:
-    url: https://update.code.visualstudio.com/1.96.4/win32-x64-archive/stable#/cosi.zip
-    hash: 598b62c124f418f3c7a2893fb1c99772f951e60d017201f15044708d1d113ecd
+    url: https://update.code.visualstudio.com/1.97.0/win32-x64-archive/stable#/cosi.zip
+    hash: 0e6aa00e08ed92d9c6efecdb602cfe54f3cf4a004e9d8efa48b1bc24d62f5378
   arm64:
-    url: https://update.code.visualstudio.com/1.96.4/win32-arm64-archive/stable#/cosi.zip
-    hash: 3024bf3a6a42cbb5e2d6c2b0625ed81c37c971942d8a25f67a4008880d3f6bcc
+    url: https://update.code.visualstudio.com/1.97.0/win32-arm64-archive/stable#/cosi.zip
+    hash: a7b983f7ba83c1aca78a499e471ac30f9eaac8659fa011915f1730cb8c41733c
 pre_install: |
   if (!(Test-Path -LiteralPath "$persist_dir\data" -PathType 'Container')) {
       @('tmp', 'user-data', 'extensions') | ForEach-Object { Confirm-DirectoryExistence "$dir\data\$_" | Out-Null }
