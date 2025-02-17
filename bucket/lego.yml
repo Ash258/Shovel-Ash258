@@ -1,20 +1,20 @@
-version: 4.21.0
+version: 4.22.0
 description: Let's Encrypt client
 homepage: https://go-acme.github.io/lego/
 license:
   identifier: MIT
   url: https://github.com/go-acme/lego/blob/master/LICENSE
-changelog: https://github.com/go-acme/lego/releases/tag/v4.21.0
+changelog: https://github.com/go-acme/lego/releases/tag/v4.22.0
 architecture:
   64bit:
-    url: https://github.com/go-acme/lego/releases/download/v4.21.0/lego_v4.21.0_windows_amd64.zip
-    hash: 92d01c1ae47216ce65a7bcd9badfb316a05866400cb0dad70f9ea11af965fee9
+    url: https://github.com/go-acme/lego/releases/download/v4.22.0/lego_v4.22.0_windows_amd64.zip
+    hash: 1b70d18a2ad0de88aac1f6f93ee436deffef2c243d961748943267a5c850a3d0
   32bit:
-    url: https://github.com/go-acme/lego/releases/download/v4.21.0/lego_v4.21.0_windows_386.zip
-    hash: bd5dc844ee59107969f6d4e817bfdeceecb211688503934eb8a04d565c208b4e
+    url: https://github.com/go-acme/lego/releases/download/v4.22.0/lego_v4.22.0_windows_386.zip
+    hash: 3ede2eb29b82d597dc4308e858789e57615216b8fda4a1174d5bcd65ef6c6f78
   arm64:
-    url: https://github.com/go-acme/lego/releases/download/v4.21.0/lego_v4.21.0_windows_arm64.zip
-    hash: 524c05dca2b816a12dc2d3f22cd0ef1f91b8943b08fff2e8b3ed69c44f7eec43
+    url: https://github.com/go-acme/lego/releases/download/v4.22.0/lego_v4.22.0_windows_arm64.zip
+    hash: 82c26ee8cc800c964dbda0e8c5927b9dba39f80c89d0ec0c0e29eda06a600122
 bin: lego.exe
 checkver:
   github: https://github.com/go-acme/lego
