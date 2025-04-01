@@ -1,11 +1,11 @@
-version: "1.5"
+version: "1.6"
 description: Sordum's Bluetooth Version Finder
 homepage: https://www.sordum.org/10772/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/btVersion.zip
-hash: 82032c567773eb1bb5bff5b4137b5c0c4cddd604a6ef9e7a5401028ff918bca6
+hash: 7b92ad2d1ae4057253f7f0bdc4e7f33e6bcb1b1c9f2b76c95d80c73c5df4a098
 shortcuts:
 - - btVersion.exe
   - Sordum\Bluetooth Version Finder
