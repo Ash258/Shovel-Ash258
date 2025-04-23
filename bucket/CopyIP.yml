@@ -1,11 +1,11 @@
-version: "1.4"
+version: 1.4.1
 description: Sordum's Copy IP. Find and copy internet IP.
 homepage: https://www.sordum.org/9201/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/CopyIP.zip
-hash: 3230151c34f71b7c2674b902d55fc4efcc33def56b0e33498bd49f83a0f2051e
+hash: 91cc9b3d9001e9b7cb92e048d5475f317a9451ba2f97ac63ad18a840bf35b69f
 extract_dir: CopyIP
 bin: CopyIP.exe
 shortcuts:
