@@ -1,4 +1,4 @@
-version: 1.70.0-beta.8729.fe880c0fa
+version: 1.70.0-beta.8730.9d55b2411
 description: Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.
 homepage: https://rclone.org
 license:
@@ -7,13 +7,13 @@ license:
 changelog: https://github.com/rclone/rclone/commits/master
 architecture:
   64bit:
-    url: https://beta.rclone.org/v1.70.0-beta.8729.fe880c0fa/rclone-v1.70.0-beta.8729.fe880c0fa-windows-amd64.zip
-    hash: 1ae6ad577d7b81e8c8524e9e9dbd2fda8a19bb4559105e1faeaa59de3b8f70d9
-    extract_dir: rclone-v1.70.0-beta.8729.fe880c0fa-windows-amd64
+    url: https://beta.rclone.org/v1.70.0-beta.8730.9d55b2411/rclone-v1.70.0-beta.8730.9d55b2411-windows-amd64.zip
+    hash: 486140fcc9685eff46109cb1b03b0692006e7b58d6037dac20b7de7fc10762af
+    extract_dir: rclone-v1.70.0-beta.8730.9d55b2411-windows-amd64
   32bit:
-    url: https://beta.rclone.org/v1.70.0-beta.8729.fe880c0fa/rclone-v1.70.0-beta.8729.fe880c0fa-windows-386.zip
-    hash: 708a9c153f401a5d423a1fb4f76468691a603a863e6fe2f4e9487d9fbd817580
-    extract_dir: rclone-v1.70.0-beta.8729.fe880c0fa-windows-386
+    url: https://beta.rclone.org/v1.70.0-beta.8730.9d55b2411/rclone-v1.70.0-beta.8730.9d55b2411-windows-386.zip
+    hash: 74969ff31b13d700fb23de69f5f39ce6f501fcd1f77ebb427b6596f92f737fda
+    extract_dir: rclone-v1.70.0-beta.8730.9d55b2411-windows-386
 pre_install: Test-Persistence 'rclone.conf'
 bin: rclone.exe
 persist: rclone.conf
