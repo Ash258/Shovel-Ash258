@@ -1,20 +1,20 @@
-version: 1.11.350-preview
+version: 1.11.370-preview
 description: Official windows command line installer
 homepage: https://github.com/microsoft/winget-cli
 license:
   identifier: MIT
   url: https://github.com/microsoft/winget-cli/blob/master/LICENSE
-changelog: https://github.com/microsoft/winget-cli/releases/tag/v1.11.350-preview
+changelog: https://github.com/microsoft/winget-cli/releases/tag/v1.11.370-preview
 architecture:
   64bit:
     url:
-    - https://github.com/microsoft/winget-cli/releases/download/v1.11.350-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/cosi.7z
+    - https://github.com/microsoft/winget-cli/releases/download/v1.11.370-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/cosi.7z
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64.Appx
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x86.Appx
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00_14.0.30704.0_x64.Appx
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00_14.0.30704.0_x86.Appx
     hash:
-    - a24e6e9c9fe81abac3469747fa789696ecf22f62b40ee80d3d98230d422a33f4
+    - 61b3ad61b1484111f8900d2fc302d6e68025954ad85a994ffd066dcbdad2d36c
     - 9bfde6cfcc530ef073ab4bc9c4817575f63be1251dd75aaa58cb89299697a569
     - 3195db914bea1534ee73582cd483c548a929aed2799d305b3bbf7411ba7a6c7d
     - 009f7db134c6061fe8f260e075374a28abbbc44e6cf23de107f93ec8b8c59816
@@ -22,23 +22,23 @@ architecture:
     pre_install: Expand-7zipArchive "$dir\AppInstaller_x64.msix" "$dir\cosi"
   32bit:
     url:
-    - https://github.com/microsoft/winget-cli/releases/download/v1.11.350-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/cosi.7z
+    - https://github.com/microsoft/winget-cli/releases/download/v1.11.370-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/cosi.7z
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x86.Appx
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00_14.0.30704.0_x86.Appx
     hash:
-    - a24e6e9c9fe81abac3469747fa789696ecf22f62b40ee80d3d98230d422a33f4
+    - 61b3ad61b1484111f8900d2fc302d6e68025954ad85a994ffd066dcbdad2d36c
     - 3195db914bea1534ee73582cd483c548a929aed2799d305b3bbf7411ba7a6c7d
     - 397b610554d67abaddfdc287ced6a9bf1ada4d4c9ddf53e01c6a061bed2860ef
     pre_install: Expand-7zipArchive "$dir\AppInstaller_x86.msix" "$dir\cosi"
   arm64:
     url:
-    - https://github.com/microsoft/winget-cli/releases/download/v1.11.350-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/cosi.7z
+    - https://github.com/microsoft/winget-cli/releases/download/v1.11.370-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/cosi.7z
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_arm64.Appx
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_arm.Appx
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00_14.0.30704.0_arm64.Appx
     - https://stor.shovel.ash258.com/winget/Microsoft.VCLibs.140.00_14.0.30704.0_arm.Appx
     hash:
-    - a24e6e9c9fe81abac3469747fa789696ecf22f62b40ee80d3d98230d422a33f4
+    - 61b3ad61b1484111f8900d2fc302d6e68025954ad85a994ffd066dcbdad2d36c
     - 1ec4e926f17b8557c76b4dd0bd06af229ab0d096e719fa6631d1fab8334fd9a5
     - e88497eed19c1207acca2bf85a81e4c52899e8c7350030b57298ee0282c69c9b
     - 4ab54162efffe26e605c5ec6170de76d72d8f78983c7fc84427630b951402973
