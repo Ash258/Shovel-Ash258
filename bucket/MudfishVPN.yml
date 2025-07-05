@@ -1,14 +1,14 @@
-version: 5.17.12
+version: 5.17.13
 description: Mudfish VPN. VPN service focused to boost network experience with various WAN Optimization.
 homepage: https://mudfish.net
 license: Freeware
 architecture:
   64bit:
-    url: https://mudfish.net/releases/mudfish-5.17.12-x86_64-win2k-setup.exe#/cosi.7z
-    hash: 49aa073ff88dc7ccc192a8c3a05ba3b6fcc5d6c30f6721438112f80ded548d79
+    url: https://mudfish.net/releases/mudfish-5.17.13-x86_64-win2k-setup.exe#/cosi.7z
+    hash: 2dbc95c00b00872277a6822cdb5ba733e551fbd2ecebc944e0647a6ec41a6602
   32bit:
-    url: https://mudfish.net/releases/mudfish-5.17.12-i386-win2k-setup.exe#/cosi.7z
-    hash: 1e516391ebe2ea00dda77fd66fb2a17c5ecdab14384b96dc3a26f6e5458cef61
+    url: https://mudfish.net/releases/mudfish-5.17.13-i386-win2k-setup.exe#/cosi.7z
+    hash: f17e1c4550d98bfbbc7c807da50761c90fb7d8ad659c2e9f76fcb090be642e27
 pre_install: Remove-AppDirItem '$*'
 shortcuts:
 - - mudrun.exe
