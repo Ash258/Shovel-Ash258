@@ -1,11 +1,11 @@
-version: "1.7"
+version: "1.8"
 description: Sordum's DNS Angel. Filter and block vast and uncensored content on the internet.
 homepage: https://www.sordum.org/8127/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/dns-angel/DnsAngel.zip
-hash: ce98f61f9c2df15d263c9742daaa92ee83631447733db9a9f56eacd194c03991
+hash: 0e714b6bb254b13bd3e536405c5b65883eef8183f9dac30ab98fcfe76c7cc7f8
 extract_dir: DnsAngel
 shortcuts:
 - - DnsAngel.exe
