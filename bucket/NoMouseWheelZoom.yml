@@ -1,11 +1,11 @@
-version: .
+version: "1.1"
 description: Sordum's No Mouse Wheel Zoom. Avoids triggering undesired zooming.
 homepage: https://www.sordum.org/12939/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/no-mouse-wheel-zoom/MWNoZoom.zip
-hash: c7c9813c928b1b6b0bf82b4c0259c36dbd62e296f6b85780a45f1921ec9fe127
+hash: 2e1204cd8790affb59f4ed2e415fa7682a07f9ece52a430e0a15bc951d07c176
 extract_dir: MWNoZoom
 architecture:
   64bit:
