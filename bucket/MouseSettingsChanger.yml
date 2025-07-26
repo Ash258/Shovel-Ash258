@@ -1,11 +1,11 @@
-version: "1.2"
+version: .
 description: Sordum's Mouse Settings Changer
 homepage: https://www.sordum.org/13237/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/mouse-settings-changer/MouseSC.zip
-hash: a7f18aa6a0f55349423f05a378769634394dc81cc7bbc9d9681a96f030b76a61
+hash: 6645b6cb06c7d0338eb70a9bedff149bf22284ce675b7b2463837c8cad36bc02
 extract_dir: MouseSC
 architecture:
   64bit:
