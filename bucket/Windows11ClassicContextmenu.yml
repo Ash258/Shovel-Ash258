@@ -1,4 +1,4 @@
-version: .
+version: "1.2"
 description: Sordum's Windows 11 Classic Context Menu
 homepage: https://www.sordum.org/14479
 license:
@@ -8,7 +8,7 @@ changelog: Read_me.txt
 architecture:
   64bit:
     url: https://www.sordum.org/files/download/win11-classic-context-menu/W11ClassicMenu.zip
-    hash: d771c898e903898879025204b113e296bb8945a2bb85ba149cb2827165aa7f61
+    hash: dd742dbfbe02493d5f1524d010f57649e1d1606daec376b200195329ac63d56a
 extract_dir: W11ClassicMenu
 bin: W11ClassicMenu.exe
 shortcuts:
