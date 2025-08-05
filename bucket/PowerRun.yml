@@ -1,11 +1,11 @@
-version: "1.7"
+version: "1.8"
 description: Sordum's PowerRun. Execute application with the same privileges as the TrustedInstaller/Nt Authority/system.
 homepage: https://www.sordum.org/9416/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/power-run/PowerRun.zip
-hash: 0ca632b93350a0d71203e42b2fb4000a6cd4845ab581ad0105a03aeecc085543
+hash: 5be93258b27343205039034354f2f72cc42235c3af0e3268e0778c301144d81f
 extract_dir: PowerRun
 architecture:
   64bit:
