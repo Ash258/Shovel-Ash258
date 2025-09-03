@@ -1,11 +1,11 @@
-version: 2.3.0.2
+version: 2.3.0.4
 description: OnlyM. Simple Media Player for use in meetings.
 homepage: https://github.com/AntonyCorbett/OnlyM
 license:
   identifier: MIT
   url: https://github.com/AntonyCorbett/OnlyM/blob/master/LICENSE
-url: https://github.com/AntonyCorbett/OnlyM/releases/download/2.3.0.2/OnlyMSetup.exe
-hash: 3ac6b6e45b29b2f5e9165817d14ce9b2e2a00ec4d9520441296f7c97fd844c82
+url: https://github.com/AntonyCorbett/OnlyM/releases/download/2.3.0.4/OnlyMSetup.exe
+hash: b6765e51667549fcbdf086aead135c7f6d00b224f291956b0d0888cf8c34dc88
 innosetup: true
 shortcuts:
 - - OnlyM.exe
