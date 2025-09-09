@@ -1,4 +1,4 @@
-version: "250625"
+version: "250909"
 description: PotPlayer. A multimedia player
 homepage: https://potplayer.daum.net
 license:
@@ -8,10 +8,10 @@ changelog: https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html
 architecture:
   64bit:
     url:
-    - https://t1.daumcdn.net/potplayer/PotPlayer/Version/250625/PotPlayerSetup64.exe#/cosi.7z
+    - https://t1.daumcdn.net/potplayer/PotPlayer/Version/250909/PotPlayerSetup64.exe#/cosi.7z
     - https://t1.daumcdn.net/potplayer/PotPlayer/Codec/v1/OpenCodecSetup64.exe#/codec.7z
     hash:
-    - 815da623988ef87f592d490f51cafa3212a18427d78d1d47edb4fb4d917e5d93
+    - 583508299aee189f1a1e0b2c2e6c833381195ef8e02bd31fdfd081cc4d104da0
     - 383686311183cbcf9e8d1f4a29191d05a0c3b2aa70396a2324f58e5a2ec98648
     shortcuts:
     - - PotPlayer64.exe
@@ -20,10 +20,10 @@ architecture:
       - PotPlayer Mini
   32bit:
     url:
-    - https://t1.daumcdn.net/potplayer/PotPlayer/Version/250625/PotPlayerSetup.exe#/cosi.7z
+    - https://t1.daumcdn.net/potplayer/PotPlayer/Version/250909/PotPlayerSetup.exe#/cosi.7z
     - https://t1.daumcdn.net/potplayer/PotPlayer/Codec/v1/OpenCodecSetup.exe#/codec.7z
     hash:
-    - b10da8398baaf0588406ace8e3384bb07e26f82ca4e8091d9d715046666b4811
+    - 859a7148eca62744c625e6910636e2a433c0eb64fa552205e008a55772ce259f
     - 8ee793feed9b6eeb21d45876932ba91494657a66b1b0df7666fd35416d805c3c
     shortcuts:
     - - PotPlayer.exe
