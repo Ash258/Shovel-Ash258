@@ -1,11 +1,11 @@
-version: "1.2"
+version: .
 description: Sordum's URL Disabler
 homepage: https://www.sordum.org/13075/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/url-disabler/UrlDisabler.zip
-hash: 7c3483ada4b9f700f3a0a062ffb113397990c4544bc8a92f48f7e560e903647e
+hash: 5e2f6673284623f9d941eb05eca24bdb0eda09b2e57b3a8a77f509b4c39added
 extract_dir: UrlDisabler
 architecture:
   64bit:
