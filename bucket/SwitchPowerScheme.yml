@@ -1,12 +1,12 @@
-version: "1.3"
+version: .
 description: Sordum's Switch Power Scheme
 homepage: https://www.sordum.org/12818/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/download/switch-power-scheme/SwitchPowerScheme.zip
-hash: bb72466f66f431adfaed21da139dfa1261921108f6f609015ef06cf4d86061ca
-extract_dir: SwitchPowerScheme_v1.3
+hash: ed9f3afefca53cd54d07dcc854fa910061a03ba1692541dd55237ae8c23fdb85
+extract_dir: SwitchPowerScheme_v.
 architecture:
   64bit:
     shortcuts:
