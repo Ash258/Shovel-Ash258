@@ -1,12 +1,12 @@
-version: .
+version: "1.3"
 description: Sordum's Fix Print Spooler. Fix casual problems with print spooler service.
 homepage: https://www.sordum.org/9199/
 license:
   identifier: Freeware
   url: https://www.sordum.org/eula/
 url: https://www.sordum.org/files/small-tools/FixPrintSpooler.zip
-hash: 6592c4ea40d7f2d5924bb3881a72685bc022fa99b1f03f12edd6c0cfcef23cc1
-extract_dir: FixPrintSpooler_v.
+hash: a6c39b815538d414e5fbe8d63c4ade63eca355e52605a55333c4707c9d2a18ac
+extract_dir: FixPrintSpooler_v1.3
 architecture:
   64bit:
     bin:
